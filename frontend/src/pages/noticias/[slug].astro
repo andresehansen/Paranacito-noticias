@@ -6,20 +6,17 @@ import SourcesPanel from '../../components/SourcesPanel.astro';
 import noticiasIndex from '../../../../data/noticias_index.json';
 
 export async function getStaticPaths() {
-  // Leer tanto noticias legacy como acontecimient@os vivos
-  const legacyFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
-  const eventFiles = import.meta.glob('../../../../data/acontecimient@os/*.json', { eager: true });
+  const newsFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
 
-  const allFiles = { ...legacyFiles, ...eventFiles };
-
-  return Object.values(allFiles).map((file: any) => {
-    const noticia = file.default || file;
-    return {
+  return Object.values(newsFiles)
+    .map((file: any) => file.default || file)
+    .filter((noticia: any) => noticia && noticia.slug)
+    .map((noticia: any) => ({
       params: { slug: noticia.slug },
       props: { noticia }
-    };
-  });
+    }));
 }
+
 
 const { noticia } = Astro.props;
 

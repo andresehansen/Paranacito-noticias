@@ -130,9 +130,11 @@ def run_pipeline(use_radar: bool = True):
             logging.error(f"Error procesando con IA '{raw_title[:40]}': {e}")
             stats["errores"] += 1
 
-    # 6. Reconstruir índices
+    # 6. Persistir historial y reconstruir índices maestros
+    from storage import save_history
+    save_history(processed_hashes)
     rebuild_events_index()
-    rebuild_master_index()  # Mantiene compatibilidad con la web actual
+
 
     logging.info("════════════════════════════════════════════════════════")
     logging.info(f"  PIPELINE COMPLETADO:")

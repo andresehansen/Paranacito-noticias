@@ -11,11 +11,12 @@ from config import DATA_DIR
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-EVENTS_DIR = DATA_DIR / "acontec_imientos"
-EVENTS_INDEX = DATA_DIR / "acontec_imientos_index.json"
+EVENTS_DIR = DATA_DIR / "noticias"
+EVENTS_INDEX = DATA_DIR / "noticias_index.json"
 ALERTS_FILE = DATA_DIR / "alertas_activas.json"
 
 EVENTS_DIR.mkdir(parents=True, exist_ok=True)
+
 
 # Categorías que requieren revisión humana antes de publicar
 REVISION_REQUERIDA = {
