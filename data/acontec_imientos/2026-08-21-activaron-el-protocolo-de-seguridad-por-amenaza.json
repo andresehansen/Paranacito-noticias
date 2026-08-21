@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-activaron-el-protocolo-de-seguridad-por-amenaza",
+  "titulo": "Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Paranacito",
+  "copete": "Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Paranacito - R2820. Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Parana...",
+  "cuerpo": [
+    "Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Paranacito - R2820. Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Paranacito R2820"
+  ],
+  "categoria": "Salud y Educación",
+  "tags": [
+    "paranacito",
+    "delta",
+    "salud y educación"
+  ],
+  "slug": "activaron-el-protocolo-de-seguridad-por-amenaza",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Paranacito* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObG9hZXBuOXg3RThHUF9GblpfQUp5WXFpNXpvVWZaeUZDNGpJcUI0eG41NUlyZkpPWmx4Rjd4b19pTjhjUzFWNkdSVEk4eWF0VXlYWDVJVncyUGkwOERjdWl4YzNyUWVHNF9HWHU5THVmeXkxVnY5YTFMektfekJfdHMydlAwcmVHbHkwckNtSGpKa2p4OUhsNFVvQ1VITXlPbE1WZkJJRk50ZEJqLTVUdmJ6VXowXzJzVGJGNFJRcmM4MC1Vb284NTA5NlNRbnphTkHSAdcBQVVfeXFMTlB4QnRKU05WQWVRanBsVklKZVNaTWdEX1I5TGVwRzl4MFFrQUNfTEVucjk1d3dvandGcjljaFZ6bEZFTU9GbW81YXl0NC1JNnZWcGhtNEpDSERzdHIwSjE3LXVfV3lJa29OM0trMjByLUpxQk5GTWpmbjdrRkhvQW1CMHd2TnVvRTBGeGNQNmFiN2dvSVFEU1M3cHIxUEFxVFdidmZFV0ZJOXd1bjdkUHFIN3hUQ1BIZ0F4QkhoNnZNME80M29UUzBvTkZhQ1FQajBQbllPNXM?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:51.724780"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Paranacito - R2820. Activaron el protocolo de seguridad por amenaza de tiroteo en una escuela de Parana...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "593e8b54cfa22b035839f03739de888c4f0aada95714ba6530e196fa5d347c5a"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:51.724780",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:51.724780",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-activaron-el-protocolo-de-seguridad-por-amenaza.json"
+}

@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-apuestan-al-crecimiento-y-puesta-en-valor",
+  "titulo": "Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una mirada productiva - El Día de Gualeguaychú",
+  "copete": "Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una mirada productiva - El Día de Gualeguaychú. Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una ...",
+  "cuerpo": [
+    "Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una mirada productiva - El Día de Gualeguaychú. Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una mirada productiva El Día de Gualeguaychú"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "apuestan-al-crecimiento-y-puesta-en-valor",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una mirada productiva - El Día de Gualeguaychú* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (El Día de Gualeguaychú)",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTE1lRFA2TzQ1V1FmRXFNb3RKbWJPczRqRmxpTnRBZWtEWDJBSVFnUkFXckQ4aGdwclZub1VqWm12dUR0MVBEUUFPZ3B0VlBGZXl1WGVlUWdtRUZVZ2JmNURkNW1sczFFXzFNbm5XdHZ6cTdneVlhdHJhQmlNOE5icm9hcFFobDBIenYzb0QxR1VRemZ6VTIzMUhhVGFONGJhNmdWeVFGYU5EeDVZY2YtdkVKOA?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:11.920366"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (El Día de Gualeguaychú)",
+      "dato": "Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una mirada productiva - El Día de Gualeguaychú. Apuestan al crecimiento y puesta en valor del Puerto Ibicuy con una ...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "faaa4d4554db484612eeb7d988d64094c05286274f4389ea44b652d472e39ea9"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:11.920366",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:11.920366",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-apuestan-al-crecimiento-y-puesta-en-valor.json"
+}

@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-incendio-de-un-fiat-palio-en-el",
+  "titulo": "Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó cuando pisó un bache en la ruta - Diario El Argentino",
+  "copete": "Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó cuando pisó un bache en la ruta - Diario El Argentino. Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó c...",
+  "cuerpo": [
+    "Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó cuando pisó un bache en la ruta - Diario El Argentino. Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó cuando pisó un bache en la ruta Diario El Argentino"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "incendio-de-un-fiat-palio-en-el",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó cuando pisó un bache en la ruta - Diario El Argentino* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Diario El Argentino)",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWNlLWMzQ3JBSkpObzNSOGE3MlAzYWQ4aHBzdG05UDFBYnFxRGJsVTdtSWVSNE00dHJtUlJjRVpPcEIyaTJIWldBV09ua3hvUzVUSHV4MkNJaDVEX3o3aE5veWtHY2dVSmhiNzdpTHFzZU9mUFV1bTRMenBya0VFMUhIVmdoTHBNRjVVcHBTalhVbEZEZ3YxUFRjcmhYY1QzNERyR2xScGw4MF9wazZWaV9HM2F2X2Fh0gGvAUFVX3lxTE9kLW9Zel9sdlg5eld5X3k2QVNIUTdFdlk2SXlFTlU0VnpOTGFoSkQtTUk4VXZmblNPWUc5MXl0ZEZhUmllLVAxcU9ITHJwLTgwUVVNd2NtZnpxLWYwdGpnbi11LTBIcGxPVHdLODhYWVd4cjd1SC04LWZZM3Bib21iNFdhbTV5ZmR4UGdJSHlmemJKRk4ySVdXUE9QNnhGN2NidlhiMTh0T2hvRWJ1QVk?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:25.636498"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Diario El Argentino)",
+      "dato": "Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó cuando pisó un bache en la ruta - Diario El Argentino. Incendio de un Fiat Palio en el acceso a Ibicuy: todo comenzó c...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "0058099984a1acd61a33d8b003c791b714c8e16d3c84eabb8dbc2ea7220d767e"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:25.636498",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:25.636498",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-incendio-de-un-fiat-palio-en-el.json"
+}

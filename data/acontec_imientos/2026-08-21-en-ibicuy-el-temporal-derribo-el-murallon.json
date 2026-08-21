@@ -1,0 +1,52 @@
+{
+  "acontecimiento_id": "2026-08-21-en-ibicuy-el-temporal-derribo-el-murallon",
+  "titulo": "En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de luz - APFDigital",
+  "copete": "En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de luz - APFDigital. En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de lu...",
+  "cuerpo": [
+    "En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de luz - APFDigital. En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de luz APFDigital"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "en-ibicuy-el-temporal-derribo-el-murallon",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de luz - APFDigital* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (APFDigital)",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb3A5M1BOVzcwVUtqOUdNQ1FSejhyVGp2X29LTmNMbVRCOWJQNm02ZFN6dmRLNmp2T29MSFNJNW10WDQ1aHA0SFlGSUdsT0N3cmYxYklxcUxyNHB5ektDbzljaUhWM1A3ZFB4OGZWa05wQ0VNMkE5QmotN25Qc0pSU0lUSGs2YW9YUFhxTlQ1WGhwRURGUkxOSWJmaDk0MkJncGdULVBJY2UtSlMtZTJUbXFZNWR0VDQxODM4MUJzMTVXLVRhcUpwRGJ4QlpKajNuN2htVzV30gHbAUFVX3lxTE85Tkw2SHNPeHJld1M5UFN2S0NLYmtnbVFJNWxpejJiSU5ISC01amx5YUhsc2ZoOHk0MmhDTUZoNnZJRHVyckMzZUVJNG9DSlBtYkV2cnRWaW4yWTNOMjdwMlo3bjhZZnJOS1dpcDVXN1B2dnJRSkdGYW5BSzJHbXFZYlVOazlnenhuWkpETS1pTklFeGd5clp2eVBteTlTUUxIVndjM2JmVUJzVnRYTjFGUll2RElJVlp5ejhMTnpMU0hPTkhXVVNPZ3o5NFV0ckdvaDc1d1RRNTZiOA?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:18.393518"
+    },
+    {
+      "nombre": "Google News (examedia.com.ar)",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVSWE2M0N1QmVWZTRDOEJ5VVBaYzdZZDRpa19KWXc0cG1XcXVNX0VoVjA0WU8xZ19QcC1RbUhUZ0dPTHptalU1TTdNcTNVakhCSlBXMjNsd0RmQXRWUEE?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:22.403479"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (APFDigital)",
+      "dato": "En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de luz - APFDigital. En Ibicuy, el temporal derribó el murallón del polideportivo y varios postes de lu...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "7b5037c488f972350b7466f943fa6169e5e42d435f8f3b80fa7e5f3fedc4f638"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:18.393518",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:18.393518",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-en-ibicuy-el-temporal-derribo-el-murallon.json"
+}

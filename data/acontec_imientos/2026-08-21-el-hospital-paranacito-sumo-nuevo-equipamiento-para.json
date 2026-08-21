@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-el-hospital-paranacito-sumo-nuevo-equipamiento-para",
+  "titulo": "El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes - Máxima Online",
+  "copete": "El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes - Máxima Online. El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes Máxima On...",
+  "cuerpo": [
+    "El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes - Máxima Online. El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes Máxima Online"
+  ],
+  "categoria": "Salud y Educación",
+  "tags": [
+    "paranacito",
+    "delta",
+    "salud y educación"
+  ],
+  "slug": "el-hospital-paranacito-sumo-nuevo-equipamiento-para",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes - Máxima Online* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Máxima Online)",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZmhXYzI3aHl3VHBMRWxabFJ4SFV5S1hiaXQzYVJGU1VfQXhjZ2hSNFY0YXFtX0tVZXZMSmtTWFFBV0tOV09MSExkdVRDZllGc1o3TlU3RWM1ZWpQR0lMVEhidUowY1N1a1phT1N5WjNWeWtBaVpvZHUySFl5dmJoX1F2SkdpeTRtM05tOUx4bV9QNm5Jc0kxbGlCeHY0WVN0bmNmdUZXcmtRZXNXYjdOUEdmRks3ZnBM0gGyAUFVX3lxTE9iZi1RNF9SNWZZUXBYZExFRkIxamktTDdXeG9tNlFMcE1lbUxmLTNROUlRc1lydmlub3FldkItNXBpX1ZfWVY4ZjdqQkV3cWJMUlhYbVJwQzdHNFBsQ0pvVFg2MC1XY2dRakFCTmxsakYtUHJqVkVKZ0t0RkxSTUo3Ty1rMVdYblRQNDVMNnh5YThPVEdNTkRseVRuMGhCZER6ZmE4dUlkR21neVJ5LWg1RGc?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:55.405567"
+    },
+    {
+      "nombre": "Google News (Cuestión Entrerriana)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLWRfd0hhYzgwQk4yellNYUg3bTNiMkhpdlBZY1g5cEc5bGM2ZWRncHVQS2lRdWR2a3NaaEpjOC1JQmdPRk1yR1pNbVd6WGNLLXRoeXFkNkZfemtCQk5VQ1pYRnBseHR3S1N2WTRIc0tGX1N2MzAyMzlYYTB5dU1QNFo1VUJHOEh0aHU4dlFfY3kzQXJzU2FNcGo5dWIxcjBHTHplZVZvaTJtR1V6WDdvSA?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:00.742778"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Máxima Online)",
+      "dato": "El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes - Máxima Online. El hospital Paranacito sumó nuevo equipamiento para diagnóstico por imágenes Máxima On...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Cuestión Entrerriana)",
+      "dato": "El Hospital Paranacito avanza con una obra para ampliar su espacio edilicio - Cuestión Entrerriana. El Hospital Paranacito avanza con una obra para ampliar su espacio edilicio Cuestión Entrerriana",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "0be7d26035e1d9c9cefcd590a14ab237ecc2f5b1d96f7783161064f841355027",
+    "abc5209ce61c050e5e3a2e1084e322d34afcb91e5992fdae7df200b0feeada8e"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:55.405567",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:00.742778",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-el-hospital-paranacito-sumo-nuevo-equipamiento-para.json"
+}

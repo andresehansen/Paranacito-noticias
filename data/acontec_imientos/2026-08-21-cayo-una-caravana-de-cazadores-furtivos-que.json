@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-cayo-una-caravana-de-cazadores-furtivos-que",
+  "titulo": "Cayó una caravana de cazadores furtivos que operaba de noche en campos privados - El Día de Gualeguaychú",
+  "copete": "Cayó una caravana de cazadores furtivos que operaba de noche en campos privados - El Día de Gualeguaychú. Cayó una caravana de cazadores furtivos que operaba de noche en campos pri...",
+  "cuerpo": [
+    "Cayó una caravana de cazadores furtivos que operaba de noche en campos privados - El Día de Gualeguaychú. Cayó una caravana de cazadores furtivos que operaba de noche en campos privados El Día de Gualeguaychú"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "cayo-una-caravana-de-cazadores-furtivos-que",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Cayó una caravana de cazadores furtivos que operaba de noche en campos privados - El Día de Gualeguaychú* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (El Día de Gualeguaychú)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObEE1emFoWV9pcEEzN1dCNGozNFQ0TDJUeVJtMXBUaTQzQWs2cEs5MldGTnB4dWctWHhZNnB5T0xQSFhweHMtVmxYSlh1dFlscGFiM0RvN29vWlNENmU3ckphSnRUcFJqakxvM056T2tSa0pzMldMY1Z6YlBxUXBOb3lydHY4MF9LU1M5LVJ3dlh1bW5uSV9DS2dZLUlmX25IamRvZjhveVh3aFk?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:39.273836"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (El Día de Gualeguaychú)",
+      "dato": "Cayó una caravana de cazadores furtivos que operaba de noche en campos privados - El Día de Gualeguaychú. Cayó una caravana de cazadores furtivos que operaba de noche en campos pri...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "81ac7bc6707942089ab74f12e5a9720946a6b2c007f45c7775ffa7393b19e8bf"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:39.273836",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:39.273836",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-cayo-una-caravana-de-cazadores-furtivos-que.json"
+}

@@ -1,0 +1,73 @@
+{
+  "acontecimiento_id": "2026-08-21-el-senado-realizo-su-quinta-sesion-ordinaria",
+  "titulo": "El Senado realizó su quinta Sesión Ordinaria - senado entre ríos",
+  "copete": "El Senado realizó su quinta Sesión Ordinaria - senado entre ríos. El Senado realizó su quinta Sesión Ordinaria senado entre ríos",
+  "cuerpo": [
+    "El Senado realizó su quinta Sesión Ordinaria - senado entre ríos. El Senado realizó su quinta Sesión Ordinaria senado entre ríos"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "el-senado-realizo-su-quinta-sesion-ordinaria",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *El Senado realizó su quinta Sesión Ordinaria - senado entre ríos* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (senado entre ríos)",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYnpGV21hU3N1OU1HRHZPa0ZhTDVPbFE3NmVCVzE5cG5lWkxRTjloX2hpWmpFTHplYldfUXBycnNPZGJxUXpIUlUzX1VmeGJpakxsTWNreVpVeXEza21wdXY3b1NDT2ExZ184SnZqMHZXNTVoMm5UOUZnNXRhYkNwUE8yYmtPNTNB?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:51.285548"
+    },
+    {
+      "nombre": "Google News (Uno Entre Rios)",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYjBkc2hEekdxcmRxNTBjYWd0Y0FrLVlSeFRTc0I1Mm44eVB0T0VVcTVHNjBtUWxrM1loNWpINk5jbEZVVUw2QlZGNW9NVzY2M3JGeUZCdHJ4QmVRVkJNaWNZVGVQTmRER1Z0T1hMU0lYVk42R3VZNVhJbXhjTms0VUZiUG5BQ2FFdFFHaVUwMmc3d3FtbUdrZ2FxSHhJVG1lT3ptOHUtLUVoaGVLa1NScVZOWdIBuAFBVV95cUxPbmw0NW9VQ0R2VWhyekZUVEc0bjFCN01FZFFQVFJUY1FEdk5SNDIwQlRsbE5EWjRreERjRWlHVkxuUWRyRWZIdzdiZVVaNXJhWjVsZU9fYmxlanUtWE53ckVZYmRJelU2U1FzV0lqeTRkVWdQQzdpMEdHUGFrS3kzQlJkb3Z2bGZIYzhycnY1cnlDdW9kcUlrR1c3VDZIM2Y3WW53eE51UFNYYUs5alV0S3k4a0NTbnpK?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:09.581113"
+    },
+    {
+      "nombre": "Google News (senado entre ríos)",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGdqWVI3SVY5WDBYZGZuMEpXQ2F6NGRSeGoyMHkwc0l1VXdpd0RVbjZ3VGZJX05taktpckhEN3l3U0h5TmxwMDItdFkwdXdFWEtUVFVPS052OXRPODFqclZONVNhTzFBMXVmaV80UXZ6UE9vWlhpdGZhNGh3cmllZmtmU2xYOU9BVU9HSElNY1dPVTJXb2ZLOWdkdlhLSTg?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:11.136903"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (senado entre ríos)",
+      "dato": "El Senado realizó su quinta Sesión Ordinaria - senado entre ríos. El Senado realizó su quinta Sesión Ordinaria senado entre ríos",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Uno Entre Rios)",
+      "dato": "El granizo tapizó de blanco el suelo del sur entrerriano - Uno Entre Rios. El granizo tapizó de blanco el suelo del sur entrerriano Uno Entre Rios",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (senado entre ríos)",
+      "dato": "Comenzó la etapa departamental del Senado Juvenil Entrerriano - senado entre ríos. Comenzó la etapa departamental del Senado Juvenil Entrerriano senado entre ríos",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "35b7d3c1a6549cf8819bd426d0f5e584377f42258d739f6201d3d8d67b93c13f",
+    "299f62682623408a78ca14e45098612b9221493c09fd95cb6208e8fb14a7f40b",
+    "8031050b375ce55d1826b2a0cc6ea7c90f767b86cb9b2f3026440aa5091838e8"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:51.285548",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:11.136903",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-el-senado-realizo-su-quinta-sesion-ordinaria.json"
+}

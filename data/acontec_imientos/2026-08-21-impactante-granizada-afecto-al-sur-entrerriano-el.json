@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-impactante-granizada-afecto-al-sur-entrerriano-el",
+  "titulo": "Impactante granizada afectó al sur entrerriano - El Día de Gualeguaychú",
+  "copete": "Impactante granizada afectó al sur entrerriano - El Día de Gualeguaychú. Impactante granizada afectó al sur entrerriano El Día de Gualeguaychú",
+  "cuerpo": [
+    "Impactante granizada afectó al sur entrerriano - El Día de Gualeguaychú. Impactante granizada afectó al sur entrerriano El Día de Gualeguaychú"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "impactante-granizada-afecto-al-sur-entrerriano-el",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Impactante granizada afectó al sur entrerriano - El Día de Gualeguaychú* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (El Día de Gualeguaychú)",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Ndzc2bHkwdjZPUkFZc0djaGREX216cF9KLTE4cktYQWxSSVZkcFdsbzBaM3Y4WEdQR1UwcElDME1NaF84bGNoRVJQQTkwMFZ0SEY1QjkxSl9mVDI4V3ZJTkoxRjFZWmc1MUw0SThET1gtRkd6eWV1cjBvN1UwZmM?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:14.769344"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (El Día de Gualeguaychú)",
+      "dato": "Impactante granizada afectó al sur entrerriano - El Día de Gualeguaychú. Impactante granizada afectó al sur entrerriano El Día de Gualeguaychú",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "f802cdac34fa5b158ef756bb502923f3892b92eb1d6b712af50ee659c5cd83e0"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:14.769344",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:14.769344",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-impactante-granizada-afecto-al-sur-entrerriano-el.json"
+}

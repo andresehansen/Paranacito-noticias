@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-villa-paranacito-el-destino-del-delta-perfecto",
+  "titulo": "Villa Paranacito, el destino del Delta perfecto para desconectar - Agroempresario",
+  "copete": "Villa Paranacito, el destino del Delta perfecto para desconectar - Agroempresario. Villa Paranacito, el destino del Delta perfecto para desconectar Agroempresario",
+  "cuerpo": [
+    "Villa Paranacito, el destino del Delta perfecto para desconectar - Agroempresario. Villa Paranacito, el destino del Delta perfecto para desconectar Agroempresario"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "villa-paranacito-el-destino-del-delta-perfecto",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Villa Paranacito, el destino del Delta perfecto para desconectar - Agroempresario* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Agroempresario)",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdUxDQXR3cjdyLUU4aXVON3ZwNkVfZlZQREE0enBTMGVyZExXbmlPb3gyMWVMandESThFTWVoUF85enV6ZkxEdnNCVnRmRDZudTNtYm51ZVNkODVMcE1SMENHaklRTXQxb3JQZ2RBa21tRXFiU254Q1pxZkFIbnFXWFZEa1N1T1lQcE1Hd2RzZGc5X1dacmlOSkEzR2xKV0M0QVlSd2M2SFVIbFo0STZB?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:42.407715"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdlBrQTRacHFQYVU3UTZ0cjlJN0hrRXQ5cmluTG9rREQ1MVNhWDRMX1pQMERNZ1pvalotcGZoVTBZNU9IekFsc2NNQVBWaGh6bTJNbkg2OUU5YXdFY2pTaG5WSnUyLVRRNlJTcGtVMGdFY0ZKZF9jelZxMTBJbDRLQjFoNTl4cEw1SG5ncnJrR1NmSlBaZ0xhQUxnRi1NUExvUVNQcm1OZEhLSUVXY0xXNGplZmdCOWo3ZExmbm5PWk9oYUpXWUx0OGdHMkNCUdIB0wFBVV95cUxQXzBLMWNRcGJPaE51Qy0zZnAtbXFoTFY0dFJJQW9ScVJzbE1lcERvQldnb0JUYjJrMnVxRzhTYmNKZ0MwUVhRX3lvWFRzazJQWWVJVWNTNHdTamhWTXFiTFhGenhFX20wUm9UOUljNnBBVlJvTDhiWEF5X0VQY2FrbGozX1dfYndOdTFtS3B0VTA4ZDZTV3pOZ2NfdmpCemVTNVR3alBGaFpVeEZob054UGxPb0NaMjdJNnlYWVp0Mmp5b0VyZjJlaEFhcUpuUEo1U3Bj?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:45.461502"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Agroempresario)",
+      "dato": "Villa Paranacito, el destino del Delta perfecto para desconectar - Agroempresario. Villa Paranacito, el destino del Delta perfecto para desconectar Agroempresario",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "Villa Paranacito celebró el cierre de la 7ª Fiesta del Pejerrey del Delta Entrerriano - R2820. Villa Paranacito celebró el cierre de la 7ª Fiesta del Pejerrey del Delta Entrerriano R2820",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "e7550ae94e5998b6c5147b330ce071e22ec3fb9828da3930d9cc38756227ff58",
+    "b747cf4f26a669e6ebc89d226ffa40ee26203790d15ab2e63e880e408b6085b2"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:42.407715",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:45.461502",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-villa-paranacito-el-destino-del-delta-perfecto.json"
+}

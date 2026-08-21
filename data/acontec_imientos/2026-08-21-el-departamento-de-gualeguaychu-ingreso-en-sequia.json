@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-el-departamento-de-gualeguaychu-ingreso-en-sequia",
+  "titulo": "El departamento de Gualeguaychú ingresó en sequía",
+  "copete": "El departamento de Gualeguaychú ingresó en sequía - R2820. El departamento de Gualeguaychú ingresó en sequía R2820",
+  "cuerpo": [
+    "El departamento de Gualeguaychú ingresó en sequía - R2820. El departamento de Gualeguaychú ingresó en sequía R2820"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "el-departamento-de-gualeguaychu-ingreso-en-sequia",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *El departamento de Gualeguaychú ingresó en sequía* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYzR2dFdDWk01b1ZRQlVZM01aT2E0UDRKSFZLUDh3UWh4N2VPcktyUkpIcENDYlFoSmJ5eEJOV3BxWHN5cUhZdGpYQW0yRjJ4cG1BUTM3bk5iSHI4R3AzMHRjT3VoNXoxM18xVkVfd001QUVoMGZIc0RkbzlEOGYydHJKcUF6cHZTTldzTDREaEtyWW1rSUVVLUdPLVF0S2fSAaQBQVVfeXFMUE11OFN6bkw5MFJ2T0xvN0tqRVhiR01LVVlzNzBMUXMxeVpvVTBTbEk3QXdVVGFKc3hYN0dSaXZ4UFhaRUxZVXBFeGpoQkg1d25ibW1makMwa3BTNm5LbEJsN3JlTTloSy1rQjBuMFZnZlNFdC1NOHNGX0VpX2tTY1hibWJXV1lsakJYelBYYkpIR1pmZ3k2VklKTWFEV3FsTHlTWWw?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:02.473651"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "El departamento de Gualeguaychú ingresó en sequía - R2820. El departamento de Gualeguaychú ingresó en sequía R2820",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "78298502ce37627e0f3c70eb77742bd40632887745aa813ea58e27c016d21962"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:02.473651",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:02.473651",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-el-departamento-de-gualeguaychu-ingreso-en-sequia.json"
+}

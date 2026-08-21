@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-entre-rios-contara-con-la-primera-aula",
+  "titulo": "Entre Ríos contará con la primera aula flotante del país - El Litoral",
+  "copete": "Entre Ríos contará con la primera aula flotante del país - El Litoral. Entre Ríos contará con la primera aula flotante del país El Litoral",
+  "cuerpo": [
+    "Entre Ríos contará con la primera aula flotante del país - El Litoral. Entre Ríos contará con la primera aula flotante del país El Litoral"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "entre-rios-contara-con-la-primera-aula",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Entre Ríos contará con la primera aula flotante del país - El Litoral* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (El Litoral)",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNW5YU1NlTDVldmVVQ1c5SE15M2R5UXVLUVQ2MWZyRTZmUkVtdU9JbF8xX3J5Rk5xa3c1cDVyZGpRUmRHb2hoa0ZKQVNDaUtscC11TUl1MEVwX1hBdXMxV0hlV21CdUFTMzB1SGZKMXhjZ2Via2ROLWV3cE5ySldFcGVXN2ZJZjZaOUhCcGRFYWN2Q2ZRVmY5S3o1VDVkeENWSDBLYldR0gGrAUFVX3lxTE8tcldlWTB1QUR5QW83NjdNMHhVMk8xWFpRdjVKTTF4WGZFUEVsZl9SSl9EM05leHFjeWh0T3pkYmhpSGFQMG5CSkxiMnV2NUtTQlBfdTRKYlRjS3FrNjBHWEZHMDBjeXN2OWhpUXZrUWt3aVdFbDZyOThRNUx2Y0ktcFhMbzBmc1loUm9jRTd1WWFKYXNWRVF5NWZpbXBab0Z5eE0wVHJVbERQaw?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:14.494073"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (El Litoral)",
+      "dato": "Entre Ríos contará con la primera aula flotante del país - El Litoral. Entre Ríos contará con la primera aula flotante del país El Litoral",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "8b1ec8639b99ba82c3824803c547093551ecf41b55f49c9933c3990034323698"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:14.494073",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:14.494073",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-entre-rios-contara-con-la-primera-aula.json"
+}

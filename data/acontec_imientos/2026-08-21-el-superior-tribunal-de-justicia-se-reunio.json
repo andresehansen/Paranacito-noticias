@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-el-superior-tribunal-de-justicia-se-reunio",
+  "titulo": "El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - Poder Judicial de Entre Ríos",
+  "copete": "El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - Poder Judicial de Entre Ríos. El Superior Tribunal de Justicia se reunió en Villa Para...",
+  "cuerpo": [
+    "El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - Poder Judicial de Entre Ríos. El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz Poder Judicial de Entre Ríos"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "el-superior-tribunal-de-justicia-se-reunio",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - Poder Judicial de Entre Ríos* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Poder Judicial de Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQak9JV3EyR2dlaVYzWmt1d2xZbG9JZWlWRV9RNkZWSnlXd1hpVEpEa1hVTG94Q1VuU2RrSl9UV3NKY09MaWEwOThBZjhGMUlnV2Q1a1ZUT2N0TEpWaHpuWk55a093U1paaHRJc3Z5dE9zZ2QtaEE4OEpOZlE2cmpiR3hxNV9lMGlkV0xSRURDWG5hY3NoWnBEa3RzVjBLbElabHJzTWVMelg1WHBVRzhJdGRFVnlGSnNtd0lHNmFzMjR0UnNFLVFBT0habzM?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:38.489851"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcF9wVHI3VVpVZ0duWkZEb3BYbThqRUZ2QXhweFR6c2FLaDNlYzNfZzdUUEZwVGlCSU1rdWQ0Z18wOFlnU1V3aFZTR2pNR1ZjWnhNekJkcjhGWXgyQk1hVEhiYkhhblp3YjNtMmFUUFRtUEMwUndlWEIzYmJHc1htUkdfYmJhS3VRVXVJMEVGRktiLWxqWlhRNEtNT25mWEZ0NFV2SmhGZWRZdldlQ2Nod1h0VXpGdFMxcnd6bktfbVp5bXBDelQ1dG1MTEIzT2JBNmpycTFHUdIB3AFBVV95cUxNMUhSVUJsUzB1bHNIc2NwZHNEbXJvT2plMzNjVzBYQUlfQTBlbmZkeVhGTi1MU3p4aVFDMUdwN1ZGbW5iZmZEa0R6NkNya0VZZlowS3ZxZW5DRDF3dktUTElMOXV6YklRenBhcnNSMXIzUzdFUHl3bFpOY296Wjl6bFFpd2J5YWRGMWhRT0tyNHhCNGZ0cHA4aXoxbEVGVzh0bGJVVHZFMGl3NVp4MV81bUdMNl9mUkdJTDFSLTdESV8wQWFyNHFzcFBNa19FbmlENTUxcjZIUnNRTFQw?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:40.263291"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Poder Judicial de Entre Ríos)",
+      "dato": "El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - Poder Judicial de Entre Ríos. El Superior Tribunal de Justicia se reunió en Villa Para...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - R2820. El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz R2820",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "a9c3f3051995ce72d5105032c98271fa729b64d5c8f044a8a41aa031ab9d441f",
+    "6ecc0e89ebb9217345779ee25be202dda75e19e6f132eb91033a29510bb75413"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:38.489851",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:40.263291",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-el-superior-tribunal-de-justicia-se-reunio.json"
+}

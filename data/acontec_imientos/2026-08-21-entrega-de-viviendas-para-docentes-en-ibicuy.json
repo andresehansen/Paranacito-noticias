@@ -1,0 +1,73 @@
+{
+  "acontecimiento_id": "2026-08-21-entrega-de-viviendas-para-docentes-en-ibicuy",
+  "titulo": "Entrega de Viviendas para Docentes en Ibicuy - Gobierno de Entre Ríos",
+  "copete": "Entrega de Viviendas para Docentes en Ibicuy - Gobierno de Entre Ríos. Entrega de Viviendas para Docentes en Ibicuy Gobierno de Entre Ríos",
+  "cuerpo": [
+    "Entrega de Viviendas para Docentes en Ibicuy - Gobierno de Entre Ríos. Entrega de Viviendas para Docentes en Ibicuy Gobierno de Entre Ríos"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "entrega-de-viviendas-para-docentes-en-ibicuy",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Entrega de Viviendas para Docentes en Ibicuy - Gobierno de Entre Ríos* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Gobierno de Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObnlZUEQxSW8yeVlfQTNmbEExVFhIYmpjQl9iTE5ENnNudHktaTRLZktJZzd2TGhQRkYzTndVMkw3dmNsckhiY05tMFZxeEt5YlB3cWlUNlBmalI2d3FRN0JRcDdPbXpyUFl6YVpFRTJyM1h1aHB4bkRBb092R0VodDZJcFBiWTE1LXp3RFRtT0ktbWRKd2RrNkg3RTM5cXBm?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:06.392120"
+    },
+    {
+      "nombre": "Google News (Gobierno de Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGo5enFHQVFVUWVrNTlNNjNZM3ZfTW4zekU4TndKdDFabTNJMGxyREdWNEMtc0VrQXFHNWJxYkp0SVB5UmJZU1o2elVnbTI1TXNsbl9SRkhhWTZkZDVwSTVVM3hNT0JNaGRLM0M5MFFqalVVUUEtV1lqOWlVdVM2NjBxV3gzdXQwUlh5YTBqc3VNLWwtU0Vyd2Etajgxb1d1RE41ZmZrcS05dklrZmNUVTZVZGc4bjhW?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:16.320625"
+    },
+    {
+      "nombre": "Google News (Gobierno de Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYTNSZ3lWSGxJTVJUUlBleWRWamdfOFN0cGRFY3RpTEZkcThacXZyV01ISEFBRU1wdEE5TkJCZ0pjd040ZWxrODgteHkxd25vT3pXMjBWTnBXZ2JJaVEwLTduVURXaWM2cTJWZXEydFlBMjBjVGU4Y3hsWG4wS1d5LTdqaC05YzRDWng5OXV2Y1JmM3VJbFFSZHVlcERWT0xPZHVmZXA0OC0tLWxtTlNmY2R5Sm4?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:19.905705"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Gobierno de Entre Ríos)",
+      "dato": "Entrega de Viviendas para Docentes en Ibicuy - Gobierno de Entre Ríos. Entrega de Viviendas para Docentes en Ibicuy Gobierno de Entre Ríos",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Gobierno de Entre Ríos)",
+      "dato": "Comenzó el bacheo profundo y otras obras en el acceso a Ibicuy - Gobierno de Entre Ríos. Comenzó el bacheo profundo y otras obras en el acceso a Ibicuy Gobierno de Entre Ríos",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Gobierno de Entre Ríos)",
+      "dato": "Frigerio destacó el potencial estratégico del Puerto Ibicuy - Gobierno de Entre Ríos. Frigerio destacó el potencial estratégico del Puerto Ibicuy Gobierno de Entre Ríos",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "a87b8b0c0d454aa521f6c0ee68e6c34d8aff3fa092d7e8c9f83d87b1faebc9d4",
+    "d076930d52ddf9b5795cfa10d71fb33137fb0074cb7a79ecdcec51ff4b4536f8",
+    "b3ebf6421b7c66757b6680e587a48304ae9b2dc24c507d6c132f296249f82454"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:06.392120",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:19.905705",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-entrega-de-viviendas-para-docentes-en-ibicuy.json"
+}

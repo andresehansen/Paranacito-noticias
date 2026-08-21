@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-el-temporal-golpeo-al-sur-entrerriano-impactantes",
+  "titulo": "El temporal golpeó al sur entrerriano: impactantes imágenes de la tormenta en Ibicuy - El Día de Gualeguaychú",
+  "copete": "El temporal golpeó al sur entrerriano: impactantes imágenes de la tormenta en Ibicuy - El Día de Gualeguaychú. El temporal golpeó al sur entrerriano: impactantes imágenes de la tor...",
+  "cuerpo": [
+    "El temporal golpeó al sur entrerriano: impactantes imágenes de la tormenta en Ibicuy - El Día de Gualeguaychú. El temporal golpeó al sur entrerriano: impactantes imágenes de la tormenta en Ibicuy El Día de Gualeguaychú"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "el-temporal-golpeo-al-sur-entrerriano-impactantes",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *El temporal golpeó al sur entrerriano: impactantes imágenes de la tormenta en Ibicuy - El Día de Gualeguaychú* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (El Día de Gualeguaychú)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbURXSEtEbEZ3T3ZHX1pkWmpERTFOZDJ4VWQwMllpMlVvSzAzWGlIalA4NGpHcEV0Y1ppTnY5ZVQxT2dxNTJFcUFFYUhUMmZ3T3N5bU9FUkd3Q1VsZmszbHJxcTdobkhIcWhpLTliOHJKUDVvcEZLTHVwY3diSUJRUXh6aGpYTDRINGdhTUVpcnVMLWNSSzB2TGxxaDVBYjh6cExmTC1LbG5BeU9sM0p4Mw?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:19.543310"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (El Día de Gualeguaychú)",
+      "dato": "El temporal golpeó al sur entrerriano: impactantes imágenes de la tormenta en Ibicuy - El Día de Gualeguaychú. El temporal golpeó al sur entrerriano: impactantes imágenes de la tor...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "3f783f4828b77b32709cabe3fbd03f282838c45ec3b5854e305a83130cb0fa2a"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:19.543310",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:19.543310",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-el-temporal-golpeo-al-sur-entrerriano-impactantes.json"
+}

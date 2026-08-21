@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-por-presuntas-infracciones-ambientales-en-un-area",
+  "titulo": "Por presuntas infracciones ambientales en un área protegida, frenan un vertedero en Islas del Ibicuy - Diario Junio",
+  "copete": "Por presuntas infracciones ambientales en un área protegida, frenan un vertedero en Islas del Ibicuy - Diario Junio. Por presuntas infracciones ambientales en un área protegida, fr...",
+  "cuerpo": [
+    "Por presuntas infracciones ambientales en un área protegida, frenan un vertedero en Islas del Ibicuy - Diario Junio. Por presuntas infracciones ambientales en un área protegida, frenan un vertedero en Islas del Ibicuy Diario Junio"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "por-presuntas-infracciones-ambientales-en-un-area",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Por presuntas infracciones ambientales en un área protegida, frenan un vertedero en Islas del Ibicuy - Diario Junio* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Diario Junio)",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbnN2UWpDUFZIX1I4QlZ4NFdlNWhCZ2kxa09YR3NBYW1zUkJPQ25CRDJSMWo0T1M4VXl4WG5rTGh1U0hBaTV1bHBiQTdZOTBvaktiQTJRMzBwbVEydnBQaUd0YWotNW1xcmViTjZ6QndneU9vajlDWjdRZzZKa0JFd0lYOVQ3Z1kxc19LRFRyUnNlcTJ6SExXaFhqTjl1ZE1vN1BqcEx2X0R3RmhkQV9SV0VISC1qbVUtOUJpZ19WQlJZb1VEbEhYTncycVpEUTlmTmZ0LS14QXNfTjh1eE4wcjMtMjZLVGh1Q0E?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:59.739860"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Diario Junio)",
+      "dato": "Por presuntas infracciones ambientales en un área protegida, frenan un vertedero en Islas del Ibicuy - Diario Junio. Por presuntas infracciones ambientales en un área protegida, fr...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "0e8e024a00e1d414abf58a87c7fb327588e1d043384de2e4163c7c4279272e31"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:59.739860",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:59.739860",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-por-presuntas-infracciones-ambientales-en-un-area.json"
+}

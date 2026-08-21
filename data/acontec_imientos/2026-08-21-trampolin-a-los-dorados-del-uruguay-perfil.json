@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-trampolin-a-los-dorados-del-uruguay-perfil",
+  "titulo": "Trampolín a los dorados del Uruguay - Perfil",
+  "copete": "Trampolín a los dorados del Uruguay - Perfil. Trampolín a los dorados del Uruguay Perfil",
+  "cuerpo": [
+    "Trampolín a los dorados del Uruguay - Perfil. Trampolín a los dorados del Uruguay Perfil"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "trampolin-a-los-dorados-del-uruguay-perfil",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Trampolín a los dorados del Uruguay - Perfil* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Perfil)",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX1NLUElscVp3TXA1cGw0RzZZbHZnNUNxNVdBa1BUT1h2RGhORGdBcE1uTXZvdVFKdlp4MG9uWjFXZUFka2RhaHRYQ29MbGViT2V4cDhTSUItODdobDkxNWptMUhMWnlRRkJzOHM4Tnhabk51c2tKUUtwZzJ6Rkh5M3JZU2VLbk9pNEFv0gGQAUFVX3lxTFBWNHJKcld3V2hEN0NqVDNrcDF2ZUxLM2l5eXNSSGpkb3RxTXRHbnYwVlRHNW5semdyYlZERFVRZjJ6aWMzOVhzOTlBNWhsUmNoTi1OMUwxUjBjQWR6VVhYMjNjV1VIckFNRmlTZHhhS3Jja19fT2RSR1l4MDdhRzFmdE9mX2Izc1E0Wm1IVlQtbQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:54.353070"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Perfil)",
+      "dato": "Trampolín a los dorados del Uruguay - Perfil. Trampolín a los dorados del Uruguay Perfil",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "8f609179870921222a78ce252cacfafb72af7d6d9f7c070e94177873837f6419"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:54.353070",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:54.353070",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-trampolin-a-los-dorados-del-uruguay-perfil.json"
+}

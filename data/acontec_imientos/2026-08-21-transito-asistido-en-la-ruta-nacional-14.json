@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-transito-asistido-en-la-ruta-nacional-14",
+  "titulo": "Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altura de Ibicuy - Diario Río Uruguay",
+  "copete": "Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altura de Ibicuy - Diario Río Uruguay. Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altur...",
+  "cuerpo": [
+    "Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altura de Ibicuy - Diario Río Uruguay. Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altura de Ibicuy Diario Río Uruguay"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "transito-asistido-en-la-ruta-nacional-14",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altura de Ibicuy - Diario Río Uruguay* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Diario Río Uruguay)",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcGxodVpzaUZtSEVudk5aNTdaWHJQLXVCVXkxMWg2b1BqNzJ0MVdsMTJQaE0zcnZMNnl4RVY0cGw1R0VnZjZsMnNoN1l4M0dyWEZ3Xy05Zm1FU1RVYWRleXhwUDRXTTVJWjg1QmlrQldEZFY1UVNUNXc3R3NycDB0bURXMS1PSDFHUVVBdklDeHdDZE9wSThPWHR5OUtKTk5qMGYtakw1ZkdIelVGSEtoZUdMam5UY1JBdzM0cHZrWmNEN1V2TnhGZFhEdFNYd9IBvgFBVV95cUxOc1pESjBwUm1jTmllMXgzNGdsa1dUUG0yVE5wUjNlalpYWW1yTGlnejNKT2M1cEN0MG92a2drQkJuYnBRNVhwUEY5SFIwQ2lucnhlS1phVXAtWkRQNWgyMXBrcWRBdVJRU3ltRGlySF82TFNkU1hIbkpBNUpnWE5uS0hPVVNNcXZFbkU2TlFGRVBfb0FrM1VJcDI0WWpvOWdpR1FIaTVEakhWQzNCQm1NTWVUZ1lmTXFiMm42UUdn?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:25.908867"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Diario Río Uruguay)",
+      "dato": "Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altura de Ibicuy - Diario Río Uruguay. Tránsito asistido en la Ruta Nacional 14 por un siniestro vial a la altur...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "165c00cc2c11df3278df45102cacdf7ee29da5d8ef47116773d93be11ee14bff"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:25.908867",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:25.908867",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-transito-asistido-en-la-ruta-nacional-14.json"
+}

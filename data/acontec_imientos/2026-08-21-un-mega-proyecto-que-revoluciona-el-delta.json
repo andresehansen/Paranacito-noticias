@@ -1,0 +1,73 @@
+{
+  "acontecimiento_id": "2026-08-21-un-mega-proyecto-que-revoluciona-el-delta",
+  "titulo": "Un Mega Proyecto que revoluciona el delta entrerriano - Portal ON24",
+  "copete": "Un Mega Proyecto que revoluciona el delta entrerriano - Portal ON24. Un Mega Proyecto que revoluciona el delta entrerriano Portal ON24",
+  "cuerpo": [
+    "Un Mega Proyecto que revoluciona el delta entrerriano - Portal ON24. Un Mega Proyecto que revoluciona el delta entrerriano Portal ON24"
+  ],
+  "categoria": "Turismo y Cultura",
+  "tags": [
+    "paranacito",
+    "delta",
+    "turismo y cultura"
+  ],
+  "slug": "un-mega-proyecto-que-revoluciona-el-delta",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Un Mega Proyecto que revoluciona el delta entrerriano - Portal ON24* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Portal ON24)",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMU9tN21ZbDBZTmJyU1ZTZnNPUGxnR2V2TmJ5NEh4Q0hISGhtVmdBR1lMbUtQbU5VeWhlLWJ4OUtQdm84eWJ1bEd2NmRNZ1luU0M5TDA2UlZhNHJwcEpnb1ZpMDdPSDJCVVFDQV9ucUFDcGlydjVuaEs1UmlhZjV6cjhfTklqMHdhRi1JckJOS2M?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:31.867810"
+    },
+    {
+      "nombre": "Google News (gualeguaychu.gov.ar)",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd2dkelozV1pZa0JFM0FXQ3luaTYwVnNudmZFT1lEN3VYckNkRTB2NjdYRmgwbnpCbVlYTHlKMUM1Vl9nYlo5NExISlgybjVBOU9RR1diOURsN3hXTll4TUhmMFRkWllveDVvS3NVRG13cVVobEdOZGtldHp6QmhpeFNhYnRVdW9IT0gzN09CbGdqUlVqbGJ5T1MwTFJrWDE1NjF0eHpTUERPWjBHVFJKeEQ5eDBvNThrWlJLTXlOcUJzNXFuazR2WGxGRWFtTlF5bHc?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:32.065098"
+    },
+    {
+      "nombre": "Google News (Clarin.com)",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYjNSYjVRTTQ5ekpRcVlwLTBqQ2I2NlNFalh1VElWWkJtNTYzQW9ITWdzaG5ERDl2d1pHNnllNlVaYVNvbjBpeV9UWURNNmRkSkZzRElkWmVWTmh2YTd6b1Q4RXhNY2N5TkFhMEhKTjRxRkpjWVNGNW9aSnlIeTNFbG5ka0Y0cXZvUDNKbzRSR1ZIOVgtLWc?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:32.613561"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Portal ON24)",
+      "dato": "Un Mega Proyecto que revoluciona el delta entrerriano - Portal ON24. Un Mega Proyecto que revoluciona el delta entrerriano Portal ON24",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (gualeguaychu.gov.ar)",
+      "dato": "Recorrida y nuevos testimonios en la causa por los Vuelos de la Muerte en el Delta entrerriano - gualeguaychu.gov.ar. Recorrida y nuevos testimonios en la causa por los Vuelos de la Muerte en el Delta",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Clarin.com)",
+      "dato": "En el Delta entrerriano hay 850 familias autoevacuadas - Clarin.com. En el Delta entrerriano hay 850 familias autoevacuadas Clarin.com",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "bec0bf2e9a00360ee963cafd40ef341785afcec1d0114e42b0cc66dcdabc0a71",
+    "ea178f0153e86b1ada7bce9a976aab0599bc0d18f2851045c3544b147cd80859",
+    "5350ca78917c922ed05fa49767d6a3d6c199c2a3ef37121496757dda172dded6"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:31.867810",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:32.613561",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-un-mega-proyecto-que-revoluciona-el-delta.json"
+}

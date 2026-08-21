@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-entre-rios-impulsa-el-puerto-de-ibicuy",
+  "titulo": "Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial para abastecer de arena silícea a Vaca Muerta - Data Portuaria",
+  "copete": "Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial para abastecer de arena silícea a Vaca Muerta - Data Portuaria. Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial pa...",
+  "cuerpo": [
+    "Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial para abastecer de arena silícea a Vaca Muerta - Data Portuaria. Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial para abastecer de arena silícea a Vaca Muerta Data Portuaria"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "entre-rios-impulsa-el-puerto-de-ibicuy",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial para abastecer de arena silícea a Vaca Muerta - Data Portuaria* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Data Portuaria)",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQXBfRElfTjRtbWNvLXBaTnhNeV85ZkU3aGtMcUk2NEZVMXFhQldqWmNZSThHUG9ZZ3NfM1ZtTUR0Vmp5OEV6Qi1LUE5DVUZRTUdxRkNjU3Vub2NTZXZjdkVSVzg1OGRlZmVzb1F0SWxwR05wTTZxTUxvakp1bUdJR2UwS21USU1WQVlFTGZvTzBsWEtVRXhkN09pazg2NXZUS2dFZTVDQklCaU93VzdKOUs2QWFpRGhFTjIwbEl5Wkx3dG1yQzZZWFF5emlGS1R5VU5JVWRwRFQxSTcxWWs4S051WQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:23.931876"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Data Portuaria)",
+      "dato": "Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial para abastecer de arena silícea a Vaca Muerta - Data Portuaria. Entre Ríos impulsa el Puerto de Ibicuy como nodo fluvial pa...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "787c96a988e190d33207e00eda03ce2861974dc99e0b8db492dd150948ababea"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:23.931876",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:23.931876",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-entre-rios-impulsa-el-puerto-de-ibicuy.json"
+}

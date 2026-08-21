@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+  "titulo": "Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...",
+  "copete": "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay, junto con ...",
+  "cuerpo": [
+    "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay, junto con ..."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioriouruguay.com/amp/frigerio-convoco-a-intendentes-riberenos-para-coordinar-el-trabajo-ante-la-crecida-de-rios-que-se-avecina.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0e0hL3CNljc2IGvGpyGEa8",
+      "fecha_consulta": "2026-08-21T22:45:37.730047"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay, junto con ...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "44aa44d63fc60ef103195919610aed0900850786bc9d9fd54403075d1ee3e0eb"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:37.730047",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:37.730047",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar.json"
+}

@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-la-justicia-cito-a-declarar-a-cuatro",
+  "titulo": "La Justicia citó a declarar a cuatro funcionarios por la extracción de arena en Ibicuy - Municipalidad de Paraná",
+  "copete": "La Justicia citó a declarar a cuatro funcionarios por la extracción de arena en Ibicuy - Municipalidad de Paraná. La Justicia citó a declarar a cuatro funcionarios por la extracció...",
+  "cuerpo": [
+    "La Justicia citó a declarar a cuatro funcionarios por la extracción de arena en Ibicuy - Municipalidad de Paraná. La Justicia citó a declarar a cuatro funcionarios por la extracción de arena en Ibicuy Municipalidad de Paraná"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "la-justicia-cito-a-declarar-a-cuatro",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *La Justicia citó a declarar a cuatro funcionarios por la extracción de arena en Ibicuy - Municipalidad de Paraná* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Municipalidad de Paraná)",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTE9ua0pYTllYRWVFZDJ0cUtPbnBWNmdrcU1taFd3ZjEwSF9pUWZjSk5sT3dQT1dVZllRTTN6R0E5Ny16d09oWnpsU2laaHJMMnJGRVpNU2ZCd3FpeFpjVkQ1dkpQTU16bklKQkM3WS10XzRGVU1rX2tuNzlnTjZ5VDhZWTJHQUV2UE9ubVZEdHplbl82LWF2WVAza2Z4QjhqQS1NYWpFdXJRZEwybXVvOEk4OEJvUQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:27.003369"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Municipalidad de Paraná)",
+      "dato": "La Justicia citó a declarar a cuatro funcionarios por la extracción de arena en Ibicuy - Municipalidad de Paraná. La Justicia citó a declarar a cuatro funcionarios por la extracció...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "18dfae3724c5f8b7c3ef714d6b802f8a8f8fbda6baeccb359e3d0fedb1c944c9"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:27.003369",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:27.003369",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-la-justicia-cito-a-declarar-a-cuatro.json"
+}

@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-tiempo-en-entre-rios-rige-un-alerta",
+  "titulo": "Tiempo en Entre Ríos: rige un alerta amarillo y naranja por tormentas intensas en la provincia - AHORA Entre Ríos",
+  "copete": "Tiempo en Entre Ríos: rige un alerta amarillo y naranja por tormentas intensas en la provincia - AHORA Entre Ríos. Tiempo en Entre Ríos: rige un alerta amarillo y naranja por torme...",
+  "cuerpo": [
+    "Tiempo en Entre Ríos: rige un alerta amarillo y naranja por tormentas intensas en la provincia - AHORA Entre Ríos. Tiempo en Entre Ríos: rige un alerta amarillo y naranja por tormentas intensas en la provincia AHORA Entre Ríos"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "tiempo-en-entre-rios-rige-un-alerta",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Tiempo en Entre Ríos: rige un alerta amarillo y naranja por tormentas intensas en la provincia - AHORA Entre Ríos* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (AHORA Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3l0WjZVQzZkTGNzcUV1aUhqdnQ1REZuMVEyRVdhWE1hOEhuMVlOazE3cGx1bThKcmNYTFVTZWNnM3FITkt0M1FQQXRZdW1CU3BlbFcxaDYweFBodnI5WWYweW1OWXFMdTY1ZF8xNzV3RXFUaWhiYndRb3JXM2xHdnQ2U1FpRlhQX0lRTjc4cGs4WHR1NUdVaXlkcjhHVGRmWTBYZlU4bmk0T0hoTFJBLWpqTFZnTVZJbDJ1VFFPZlQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:54.100820"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (AHORA Entre Ríos)",
+      "dato": "Tiempo en Entre Ríos: rige un alerta amarillo y naranja por tormentas intensas en la provincia - AHORA Entre Ríos. Tiempo en Entre Ríos: rige un alerta amarillo y naranja por torme...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "9e310c85dbc2d78740bfc5e4c7345ace427da5bfc3f047cae62a1a4ed8f5c2aa"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:54.100820",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:54.100820",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-tiempo-en-entre-rios-rige-un-alerta.json"
+}

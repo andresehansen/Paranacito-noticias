@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-el-departamento-ibicuy-fue-el-mas-afectado",
+  "titulo": "El departamento Ibicuy fue el más afectado por el temporal - Mercurio Noticias",
+  "copete": "El departamento Ibicuy fue el más afectado por el temporal - Mercurio Noticias. El departamento Ibicuy fue el más afectado por el temporal Mercurio Noticias",
+  "cuerpo": [
+    "El departamento Ibicuy fue el más afectado por el temporal - Mercurio Noticias. El departamento Ibicuy fue el más afectado por el temporal Mercurio Noticias"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "el-departamento-ibicuy-fue-el-mas-afectado",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *El departamento Ibicuy fue el más afectado por el temporal - Mercurio Noticias* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Mercurio Noticias)",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOEhIdmRWQ0R5NW82TXU1d0dUNTd1bjhuTXA5S0NkWVlUelFTc0ViVFZ1MjY5b1c2VGY3azdkVmdCRDJpMk9DUlcxY3pCX2UxQ3p2OUQ3VnFYSndqTk9uS1M0VlZsMlF3RFRfMHNyNXZWQUtGQnhfdV9qM1R4clpFRDdETTYyS2hLUldkd1ZfMHV3dDQxZXBaVUxBNEU4anFTb3lCZ00wN29rbEpNeEMxYWJrdw?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:59.488797"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Mercurio Noticias)",
+      "dato": "El departamento Ibicuy fue el más afectado por el temporal - Mercurio Noticias. El departamento Ibicuy fue el más afectado por el temporal Mercurio Noticias",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "cc9e267ca96e40d5df5947ee1b0837a2a991e38834d85c808d75b6c15342a7ee"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:59.488797",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:59.488797",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-el-departamento-ibicuy-fue-el-mas-afectado.json"
+}

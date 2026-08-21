@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-accidente-en-la-ruta-12-un-auto",
+  "titulo": "Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fue hospitalizada - Elonce.com",
+  "copete": "Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fue hospitalizada - Elonce.com. Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fu...",
+  "cuerpo": [
+    "Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fue hospitalizada - Elonce.com. Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fue hospitalizada Elonce.com"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "accidente-en-la-ruta-12-un-auto",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fue hospitalizada - Elonce.com* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Elonce.com)",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUFBpc3NIcExjSzhwRDIwSmZYaWtOSEFZckowMm1Vcy1NOFBzM3dkLUVBRExNNERhdmtQeTV4Ql9talNTQjZjUDg4OU5QRG85bGlzSlhCVzEwQ2x2UkRYcU9BMFp1T04xUnNBbTV6cVNCWHl5ZHVGR0lRUzEwdU5la1cxMjlSMzZpMEJHall5T1JZYzZMVVVxU2hMYmluLUQxYUIxVGhrajJmVTQ1X2JRS3p4bGh2VFE2dmxjOGRXR3A5UUdoZGfSAbwBQVVfeXFMUDFHU09aZXBNQjNxS2xpYjF5QlFvSzBZUHRPaWtOcklaSjhTNmkwLU1qb0p0cnBWMmpBZklkNzBUQkk5cjBMTUNERHpWbmI2VDZIemFDbUFDX2ZUZFVUbXlSUkh0OWJpZFAtWGVmdXBXblNkeFlzT2lNVkJJc0lUbjIxc0NkU2xNTXdiZHFnV25SS09uNmFrZG5pNGM1S3VWem5Sa2p6UWczWGJuMS0tOW5ieDRjVllVcDdjYUE?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:04.920943"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Elonce.com)",
+      "dato": "Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fue hospitalizada - Elonce.com. Accidente en la Ruta 12: un auto volcó a la altura de Ceibas y una mujer fu...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "13eb5bc092bc95f66f5957994b6d527c0e9c82d9d8607d8410c8ddfed46c199c"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:04.920943",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:04.920943",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-accidente-en-la-ruta-12-un-auto.json"
+}

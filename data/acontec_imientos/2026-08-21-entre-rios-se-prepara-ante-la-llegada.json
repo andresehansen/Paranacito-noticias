@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-entre-rios-se-prepara-ante-la-llegada",
+  "titulo": "Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios",
+  "copete": "... Villa Paranacito , además de representantes de Concepción del Uruguay y Villaguay. El gobernador Rogelio Frigerio encabezó este jueves una reunión ...",
+  "cuerpo": [
+    "... Villa Paranacito , además de representantes de Concepción del Uruguay y Villaguay. El gobernador Rogelio Frigerio encabezó este jueves una reunión ..."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "entre-rios-se-prepara-ante-la-llegada",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://dosflorines.com.ar/entre-rios-se-prepara-ante-la-llegada-de-el-nino-frigerio-reunio-a-intendentes-y-funcionarios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3CUKuWsjxcN3gUMK5bZyci",
+      "fecha_consulta": "2026-08-21T22:45:37.327723"
+    },
+    {
+      "nombre": "Google News (Informe Digital)",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORlctcGxOamcycG9IV0NQS0RtQkwwbEo5MUZWYVVsN1NkMUFoaGo5bENhZlpaSFcyaExzOWtrd1BjZ25CWUZWaURIRWp2aEtWNlYyZ3hwT21aT0RYVXVsOGhJVjZKOTNKdnlhQmpwQ1k2OEMtZGFmbkkzYkFsVTZScW9MOW1JVHZDUDFPNEVOalBNU2pWbVZqN3l1ZjE3di1QWDFZ?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:38.627492"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "... Villa Paranacito , además de representantes de Concepción del Uruguay y Villaguay. El gobernador Rogelio Frigerio encabezó este jueves una reunión ...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Informe Digital)",
+      "dato": "Copnaf llevó a Villa Paranacito herramientas para la crianza emocional - Informe Digital. Copnaf llevó a Villa Paranacito herramientas para la crianza emocional Informe Digital",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "3e662b4b79314035d9b5cbd00248a38d87012fc4f2c60e94533f9a695a2ddefd",
+    "5775cd4e8817e85cce1e22b10bb6e1316124088f81c99888acc9a9dc59d7d23e"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:37.327723",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:38.627492",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-entre-rios-se-prepara-ante-la-llegada.json"
+}

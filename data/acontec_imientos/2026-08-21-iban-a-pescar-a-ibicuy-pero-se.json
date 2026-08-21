@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-iban-a-pescar-a-ibicuy-pero-se",
+  "titulo": "Iban a pescar a Ibicuy pero se incendió su auto",
+  "copete": "Iban a pescar a Ibicuy pero se incendió su auto - R2820. Iban a pescar a Ibicuy pero se incendió su auto R2820",
+  "cuerpo": [
+    "Iban a pescar a Ibicuy pero se incendió su auto - R2820. Iban a pescar a Ibicuy pero se incendió su auto R2820"
+  ],
+  "categoria": "Turismo y Cultura",
+  "tags": [
+    "paranacito",
+    "delta",
+    "turismo y cultura"
+  ],
+  "slug": "iban-a-pescar-a-ibicuy-pero-se",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Iban a pescar a Ibicuy pero se incendió su auto* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa1dSR2I2LUx2MWpWWDQxckt1dUpJQXV3RjRxMmVfMXFKLWVycDlUQjlVVHRUUWcxWE5UNzJqMXlrRnRXdkROR1BJT2ktQlNlMEZOSlNYSURRaDdYUXNvam9aY1dNc2xZZjB2Q1BPWXF3ZzZBTURHX3doQ0F6Q3hrcnZrOXBhSno1TmhHYllVaW96RW5haDV4Z2VpOTTSAaIBQVVfeXFMTV9FbHM0MkdKNWoxU2pNUWl1UlgwUjZUeUsxYjlUalFtbmpVRFNpTHlxdDh2c1NJWnlQQ0R5SzRmZU1WSEFoZ2RaVkVldmJ4cDFzVkhOZWQzTk1VbnIwYXd5aERFQ0lSZWtORmYyRDBMTnFvSmNPXzBrTTlNY2dSS0dQd3k1NW1UQ3l3dHFrZTM1N3RSeGVjMGJHbnNyelBLTHd3?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:23.438003"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdFBhVFhSZG5NU01tTVV5WXZGM2RfaUpoM1ZlSUVNc1plRzJQejcwYjk4U09LMUdTd0dkX0NLdkJPWTE2VVk4ZHo3X3hUdGpSUlAtdkEtSFhKVzA3OTVWbU0yUTlVQzVZbl9fc2FUWnlrWGh3Y2NDd190bzN5ZlZrdTctTWRNVlZmRVdSV29GVDJkZ3F1eXEtM2pWdUsweGFxa2FLbnU2bi1IZ9IBrwFBVV95cUxQSzVRRWlqM2VRRTI2ZlNQNGdQNGpncTB5dnh1bFBzWXNBYnY5OXVZbTRXU2lrSmFMZDB1N2FIOUZYMXpqSllNcmxxbDhzZDFqeDJSYzUzajlFcHhhOW1tRGVMRFZ5NTdzSFFCcm1OVzBRbTdITmtlMUpyU1lYYU03RWVwaDhHNXpLdGVYSnA5Qlh2Mm5UUTNmMzQtMmpTZTg3SmI4N3lSTVVQazluS1hR?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:24.969133"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "Iban a pescar a Ibicuy pero se incendió su auto - R2820. Iban a pescar a Ibicuy pero se incendió su auto R2820",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "La narcoavioneta de Ibicuy fue mencionada por la Procunar - R2820. La narcoavioneta de Ibicuy fue mencionada por la Procunar R2820",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "89e9867b4c7f9bb806398149105e26997c2577729ccda3f31eaa008791779824",
+    "75f5177128f3f2bb31d277683d9aa55f6e5b142e83ca308727deccade6546c6a"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:23.438003",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:24.969133",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-iban-a-pescar-a-ibicuy-pero-se.json"
+}

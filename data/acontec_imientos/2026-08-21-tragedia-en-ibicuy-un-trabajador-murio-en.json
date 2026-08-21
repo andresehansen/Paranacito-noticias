@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-tragedia-en-ibicuy-un-trabajador-murio-en",
+  "titulo": "Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una planta papelera - Despertar Entrerriano",
+  "copete": "Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una planta papelera - Despertar Entrerriano. Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una...",
+  "cuerpo": [
+    "Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una planta papelera - Despertar Entrerriano. Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una planta papelera Despertar Entrerriano"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "tragedia-en-ibicuy-un-trabajador-murio-en",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una planta papelera - Despertar Entrerriano* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Despertar Entrerriano)",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdWFNZGpXUE9zSE1STkhmYnU2NGxrVVNWeEU1QXM3MGUtT0tjTktESDNjNjBPMGNVdGtJWGtKOTl0MkI3UFpOY1MtV2hyVXM4UG0wV1lXRG81N1p1ZTFsZWlfYjI5TmJyeUlJRkFKU0txR29VT0E0dkxHNXRkZmxfV2JsaXhuN2hPT3pkbzlwT3ZWYS1DWmpoQUdXNmI2d1hESzV3dXQ4ekpoN2JzRW1TMXVDNUVQcF9xNFE?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:21.813360"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Despertar Entrerriano)",
+      "dato": "Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una planta papelera - Despertar Entrerriano. Tragedia en Ibicuy: un trabajador murió en un accidente dentro de una...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "a30d6f457b1ae4bd0184873761308ee4df6426be84e9fde37a8fa3bcbc71aa6d"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:21.813360",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:21.813360",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-tragedia-en-ibicuy-un-trabajador-murio-en.json"
+}

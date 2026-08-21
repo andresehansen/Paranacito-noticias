@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-tiroteo-en-islas-del-ibicuy-cuatreros-escaparon",
+  "titulo": "Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganado - El Día de Gualeguaychú",
+  "copete": "Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganado - El Día de Gualeguaychú. Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganad...",
+  "cuerpo": [
+    "Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganado - El Día de Gualeguaychú. Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganado El Día de Gualeguaychú"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "tiroteo-en-islas-del-ibicuy-cuatreros-escaparon",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganado - El Día de Gualeguaychú* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (El Día de Gualeguaychú)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUHpMMWVKRHcyQkxBOV91cXU2ZjZqUnhhVDJzbjVVNTVqNTNUX3hPaDVKb1MwVlJxNlJyMk1ZS3kzOVl5T1o0S25Wc2U2V2NvS185ODdWVWtQc3RuRFRPeU9rSm5uaUFoVkprUkczbGhVS1dyTmp0R0dPMllQTFhIaFJPRmFQZkthX1RBcUdibHBIcy00V0FFdjgtMkI0cHFIejNvYmVCWQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:57.192171"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUGhCejZQXy0ySDl6OHVkUzFPZVpYNHZMLXlhLVZELTRvVnpvUW1NSzVnREVKU1RQMzlNNzRJc3BnUFkwVlcwZ2taVkExNWNTcHVGR25uV1JoTV94V2NYZEdOenBKV2tya0s2ZW5qbFdQamxSZVhmYWN3VzlQQmdUZTgzcWs4V0hZZzBPTk5EdGMyU04xWXA3Nl9lUGkyRWNjeFZuNkpocFctbE16dE1BUTZ0VjM5Y1V5TU9MNTFBMkFOY1JuSW1nb2I3eXrSAdIBQVVfeXFMTkRyRmhXaGItdUE2OXROX2xWQVlOdEk5YzZPVjdQUmJlbGlVN3JGSmMtMldjVXpVMzk5SWFRbmJLRVJSbW1mUjZwanhjU0luQUMtMGlLbjRyY1hOWVBfSm9heFFhYUtNa3RCXzdiajhVX3hNMTlYejBKSFdWM1NISVNxbTNLWGZOdl9XdFQ0NDhCdHB1U2lWNzFJMzhaQzR5emE1MEl0UmFJUmhCU2xGeHZPdk1FbWV6RXRJT3lFWmlDZnltNzA2QkZ3UHlNWmRPcmhB?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:57.333453"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (El Día de Gualeguaychú)",
+      "dato": "Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganado - El Día de Gualeguaychú. Tiroteo en Islas del Ibicuy: cuatreros escaparon por el río tras robar ganad...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "Policía de Islas del Ibicuy: confirman cambios de autoridades y refuerzo de personal - R2820. Policía de Islas del Ibicuy: confirman cambios de autoridades y refuerzo de personal R2820",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "55bb0dd1710da2c055547dc21d9320ae11ddd82ccd28e186ae7c5e9cc75724a3",
+    "db094bf733e149091b5c14209ee1c7ca471fcd87fd4263642f78250fcaceb8eb"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:57.192171",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:57.333453",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-tiroteo-en-islas-del-ibicuy-cuatreros-escaparon.json"
+}

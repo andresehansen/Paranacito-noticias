@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-concurso-literario-para-rescatar-la-memoria-y",
+  "titulo": "Concurso literario para rescatar la memoria y la historia de Ibicuy - Campana Noticias",
+  "copete": "Concurso literario para rescatar la memoria y la historia de Ibicuy - Campana Noticias. Concurso literario para rescatar la memoria y la historia de Ibicuy Campana Noticias",
+  "cuerpo": [
+    "Concurso literario para rescatar la memoria y la historia de Ibicuy - Campana Noticias. Concurso literario para rescatar la memoria y la historia de Ibicuy Campana Noticias"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "concurso-literario-para-rescatar-la-memoria-y",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Concurso literario para rescatar la memoria y la historia de Ibicuy - Campana Noticias* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Campana Noticias)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckJqSlpMYTYtd3NNbWkzM0V0a3ZtUkZnYkNBeEZXekVJYWd6ZjZWNmZQTWkwRXVPbUhqV2lfWUoxWG5iM21fN05KNWJoTUpZaF93TjlCTFJfRG5sTlFFREd2cU4tRnZtM19jR3ZLZmhpVzlVVVdpWWhudlJlaXdXMTdWWnBjbUduSjZ5UjdWX2xfcHZ0NWhoeF91SU1rdUgtdndQT2F5aVhBLUFrVmFUQw?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:26.739787"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Campana Noticias)",
+      "dato": "Concurso literario para rescatar la memoria y la historia de Ibicuy - Campana Noticias. Concurso literario para rescatar la memoria y la historia de Ibicuy Campana Noticias",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "abb48fbb81c7b65abf388e382102a327f6da19a2b22a6b48a68b3b3dc42ca113"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:26.739787",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:26.739787",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-concurso-literario-para-rescatar-la-memoria-y.json"
+}

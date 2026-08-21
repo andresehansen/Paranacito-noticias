@@ -1,0 +1,60 @@
+{
+  "acontecimiento_id": "2026-08-21-jura-de-la-nueva-jueza-de-paz",
+  "titulo": "Jura de la nueva jueza de Paz de Villa Paranacito - Poder Judicial de Entre Ríos",
+  "copete": "Jura de la nueva jueza de Paz de Villa Paranacito - Poder Judicial de Entre Ríos. Jura de la nueva jueza de Paz de Villa Paranacito Poder Judicial de Entre Ríos",
+  "cuerpo": [
+    "Jura de la nueva jueza de Paz de Villa Paranacito - Poder Judicial de Entre Ríos. Jura de la nueva jueza de Paz de Villa Paranacito Poder Judicial de Entre Ríos"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "jura-de-la-nueva-jueza-de-paz",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Jura de la nueva jueza de Paz de Villa Paranacito - Poder Judicial de Entre Ríos* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Poder Judicial de Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdjBhM0MtbmlnSEE1Rm9hQXFocDVzaFIzZDM0VlVreU9UOS0taE4yeEN4MmczT3BtLUxOWVllT0Rpcy1ScnZOcktCUEdkaGRkX2JldHFUd2ZUMFZ6NWNMQkFfMVJQS0pNNnhJUVNNZXpsalRJcUdJR1JFdWZlMGlfajZpLWtIYkFGY1ZnY1VmSHo4eXl3?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:40.009844"
+    },
+    {
+      "nombre": "Google News (Gobierno de Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc3RQRGxKU0lMV1VOelRwUW5XOFBtMExmZHZ2SHdJb0Y5eTJ3SEYta09wQVNsX3BJS05kN0x4UmdJcHhhUi1LQTNlQl9XN0VPa3ZSYk1hTkJiMy1YRC1Qd3ZaOVNnOFJqZ2E4clg1Yko4RFZsZmZfVW91MjBjaTlWRDZsWjBGNUFpNkIySW9wVGlEbWJVTVFBaEVBcHlCZw?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:50.103381"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Poder Judicial de Entre Ríos)",
+      "dato": "Jura de la nueva jueza de Paz de Villa Paranacito - Poder Judicial de Entre Ríos. Jura de la nueva jueza de Paz de Villa Paranacito Poder Judicial de Entre Ríos",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Gobierno de Entre Ríos)",
+      "dato": "El gobernador inauguró el ciclo lectivo en Villa Paranacito - Gobierno de Entre Ríos. El gobernador inauguró el ciclo lectivo en Villa Paranacito Gobierno de Entre Ríos",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "d9c0bd6f9ae8ad3b2a095e58c852f278986ca7ef2592cd51ba77a618a6456484",
+    "c47fefb3a1b7f4c7aba497d2044788a2429487cfef50b6ce0b62ea1c9521bfe8"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:40.009844",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:50.103381",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "archivo": "2026-08-21-jura-de-la-nueva-jueza-de-paz.json"
+}

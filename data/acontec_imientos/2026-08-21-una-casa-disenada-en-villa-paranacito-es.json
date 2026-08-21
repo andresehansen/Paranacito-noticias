@@ -1,0 +1,99 @@
+{
+  "acontecimiento_id": "2026-08-21-una-casa-disenada-en-villa-paranacito-es",
+  "titulo": "Una casa diseñada en Villa Paranacito es una de las mejores de América",
+  "copete": "Una casa diseñada en Villa Paranacito es una de las mejores de América - R2820. Una casa diseñada en Villa Paranacito es una de las mejores de América R2820",
+  "cuerpo": [
+    "Una casa diseñada en Villa Paranacito es una de las mejores de América - R2820. Una casa diseñada en Villa Paranacito es una de las mejores de América R2820"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "una-casa-disenada-en-villa-paranacito-es",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Una casa diseñada en Villa Paranacito es una de las mejores de América* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUU0tWUdTRUtRN0dMN2FHbDdnVDBFNHd5UWRlZnRqQ2FELTFxa2VEMEpwOVZ3OHBFXzNQVjFxejJrcWhZc0JsZDdqLUM0LUVZY093V3poUFF6QVdzY0VoU2Rhakl1N042ZDdodnZVdWNBNF9hT2RSVU1kRDR2N0o5MDlCZWRhSDUtdGt5elgwVXQ3QUY2bU5tdmVxelJuaGlIVlZ0R2U0Q2JNM0lvSU1pQktFNHpwQkFPUWk40gHAAUFVX3lxTE9vR1BxS2E1QUR1REZEMWczdzRyYzYwaEp6ZzFCTkFud1JkdGN1NW1QbDE5RjlYektwTXR4akl5VjdDRWhvZkNlTkUyVEVHWk1fSGZhMC02VTVESTZRTThhS2VEcUt2X19vaW81ZEVRWWswOFJzNUpuUGhmNnF1NmRpc3RfQXpnSE5HaDh4MkdCQ2FabmZSbEZ2OWZEZ3ZObl9GMmpfa0tYWURxVlpMRVNucVNZazdrR2lKZFQ1MUpSZA?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:44.634716"
+    },
+    {
+      "nombre": "Google News (Vía País)",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTUUzNk53OUJVbjBxMUdOekdFNUotTnFpYUZveWVtUVRtRTU4bHJlaFQ1ZnNfZGVfVUg2UVZUZFMtU3ZyaFNHZy1CaURxYks2SlBZYTZqNjRpMUhCRDNXd1dyRWtKc0R6YXh0bExwQTI3TFB5eldiZXB3MWNWdmROQWpCQjdPbGZsTm1hUlBCODVyRVVGLS1HNGI4Z2FpTldRQ0tzSEVPMDRXU1A0eTlEWGdIVF9UUWNwdTl0SzhNMTVHUmhHay1JRQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:46.269329"
+    },
+    {
+      "nombre": "Google News (ERA Verde)",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRnFOS25MNy1qV0hsODVta29uU0ZqSjdtd1ZjckpmM1pTVHFscXA5U21CdE9pZmZvZHAwNXRvakZCWDF0eC1ZTGhkcHNwZ21Ld2g5QnhWcnVmZnJnWkUybFFEQng2MkMyRS1GSlVGV0NjMmZtbGNLdnRIYUR1MkdOU191WHEwRW0xQWQ0OF9LdGlJSXg5WFNB?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:49.595117"
+    },
+    {
+      "nombre": "Google News (Diario Primera Linea)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNXzc1SXp2ZU13THFXT04zdUVvS1A4RFVpWWU4QXdJOGZkb01uU0pGb0dkNDZ6VVJKZ1g1US1DRXVkbUo4dEMxelRjZ2ZpMTRiY2xtSVhDQXlRa0poenlRZEpZOXhrVXE5WWNoSS1tQVU5NlJhc043TjhEVUttSHJ5MWFCMk1LU3BFRHZMYnVDTzR5M0V3NjJpdm5pdUV3TlhoWnBfT0gzQmxTb25ZVmVFTERCODlCMk1ncFNkTQ?oc=5",
+      "fecha_consulta": "2026-08-21T22:45:55.031618"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVUswWW1sVlZEc29BNUlDeGpMcWs0YVl4MVB0bUZ1UnBVTDY2WTdrSTNJankzdThLZ0hIbFFxck9raUhSLTNmckNJRmxjeWNtbVVDazRWSzlFU205S0V6UnBDM2RiY0hjT05rc3dkSmVEbnFSMjRaS1JzdFpCNGZpSTFZM2x1NENlZHRIODNFOFhOM3l1ODZLcktLU2lCVTUxMVhic19CU1ZtTDQ1WkFBOTZCaFV1a29oSkYxLW9nZjE4dnUzNFk2QUU0NNIB0AFBVV95cUxPNHA4Wl9nU0E1RjZhMVF0RTByY185QnRFT2FtUEhKeFVOcWhkSTJFdzdLZ21XM2NSQzRsOU5Fa2Rncmd4TS00TXhaUGJqMVpwdXJfMzFnQ3VCbGMtdzJIV3Y2TnJLWjEyOGl3b0JKNGRPRU90MHdMeUtXU21yWHdpd21PZkVtZkxiMEVXa0NaT21sWHZKRHJFbzFKYjdHZkk5NDhWXzZvaTNPQllUVlFlU2RqamtYUWxZLVB3WTlNNGxjRXRRb1lwMjhESHdZbmNN?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:11.697994"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "Una casa diseñada en Villa Paranacito es una de las mejores de América - R2820. Una casa diseñada en Villa Paranacito es una de las mejores de América R2820",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Vía País)",
+      "dato": "Un hallazgo encendió las alarmas ambientales y obligó a frenar un predio en Villa Paranacito - Vía País. Un hallazgo encendió las alarmas ambientales y obligó a frenar un predio en Villa Paranacito Ví",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (ERA Verde)",
+      "dato": "Dos nuevos golpes al tráfico ilegal de pescados en Villa Paranacito - ERA Verde. Dos nuevos golpes al tráfico ilegal de pescados en Villa Paranacito ERA Verde",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:45",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Diario Primera Linea)",
+      "dato": "Golpe al abigeato en Paranacito: allanamientos, secuestros de carne, armas y un detenido - Diario Primera Linea. Golpe al abigeato en Paranacito: allanamientos, secuestros de carne, armas y un detenid",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (R2820)",
+      "dato": "Rescataron un cuerpo de un auto que cayó al arroyo Paranacito y buscan otra víctima - R2820. Rescataron un cuerpo de un auto que cayó al arroyo Paranacito y buscan otra víctima R2820",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "62e8359f4602caacf597ed238e4e64ba96bf0d32409ddfad61e8b49a364f0831",
+    "4cf31120ad069ebf006f4b1e734baccc8d34cd409f422785c122f29a4a78e6f7",
+    "f84cd3d02c4bd93747c8453835610e7b356d7c94fc0104d304a906821f4b9232",
+    "4d3f04edb52b5a8f9a606266c960688401022eea1e916a22fe1ee25f8d71dfa1",
+    "34b08e7158b8cb3ab09ad0c7bf322908716ba7a46fc76be7dc662d37cd6e8f31"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:45:44.634716",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:11.697994",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-una-casa-disenada-en-villa-paranacito-es.json"
+}

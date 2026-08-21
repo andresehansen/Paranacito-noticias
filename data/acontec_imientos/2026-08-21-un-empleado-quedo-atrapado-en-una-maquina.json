@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-un-empleado-quedo-atrapado-en-una-maquina",
+  "titulo": "Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de Ibicuy - Elonce.com",
+  "copete": "Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de Ibicuy - Elonce.com. Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de I...",
+  "cuerpo": [
+    "Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de Ibicuy - Elonce.com. Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de Ibicuy Elonce.com"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "un-empleado-quedo-atrapado-en-una-maquina",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de Ibicuy - Elonce.com* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Elonce.com)",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRGs0bG1UQXF2Uk1FenlrRG9WaU4zbGNQV25YZ2dWeVVyTTdhYXdqMVpFNUh6SXNaU2xtUFJXU2RmejFQZ0F4Q2FBNWZsb1E2NmlHUUp0c2ktNU9FNEhzaDZJWGF4NThOM1VjSDZDcHNMZDdIMzFvZTdIaVc2cVhTd2hDRVlnamVLdzVCaHdkZDRLMzdUSVRtRGFlLWxydEw5MmQ5M1R6T0hkRXdNZkZkb2RZVzdNalZZQXlHckRoSkjSAbcBQVVfeXFMTklkS3F0NG9TQnRjUDhVU2tCWEZjQUR2ajlrOU51QTk1aU5FbjNDZVNtWWJrRTVIVG1XdkRnU0ZtWFF1ZUlaemx5cnFvaktpUWk5VUp5WURodGtFUzdYMmpETUUxbUJNTjJBbFlEMkN0a0d1WU0zQXVjZ3VNQ0VRYWREdDVQUm5vb2J6NEdnNlp2OVJJRkw5SlhCSEExRWd6MzFoSE9qam1zV1J5RzROQ21OOG5qU0lz?oc=5",
+      "fecha_consulta": "2026-08-21T22:46:26.328954"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (Elonce.com)",
+      "dato": "Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de Ibicuy - Elonce.com. Un empleado quedó atrapado en una máquina de prensa y murió en una papelera de I...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "fed39e692cf64096dc4ba50427c6da3b2bd058187ec9c4b73763c7f04b79dfb8"
+  ],
+  "fecha_inicio_iso": "2026-08-21T22:46:26.328954",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T22:46:26.328954",
+  "fecha_publicacion": "21 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-21-un-empleado-quedo-atrapado-en-una-maquina.json"
+}
