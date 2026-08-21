@@ -1,0 +1,47 @@
+name: Ingestor de Noticias y Clima - Villa Paranacito
+
+on:
+  schedule:
+    # Se ejecuta cada 4 horas automáticamente
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente con 1 click
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Clonar Repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar Dependencias
+        run: |
+          pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+
+      - name: Ejecutar Pipeline v2.0 (Motor de Acontecimientos + Radar GDELT/Google News)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RSS_GOOGLE_ALERTS_PARANACITO: ${{ secrets.RSS_GOOGLE_ALERTS_PARANACITO }}
+        run: |
+          python scraper/main.py
+
+      - name: Guardar y Publicar Novedades en Git
+        run: |
+          git config --global user.name "ParanacitoBot"
+          git config --global user.email "bot@paranacitonoticias.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No hay nuevas noticias ni cambios para commitear."
+          else
+            git commit -m "🤖 Actualización automática: Noticias y Clima [skip ci]"
+            git push
+          fi
