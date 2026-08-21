@@ -34,9 +34,8 @@ def rewrite_with_gemini(raw_title: str, raw_content: str, source_name: str) -> d
         logging.warning("GEMINI_API_KEY no configurada. Generando versión de respaldo adaptada.")
         return generate_fallback_rewrite(raw_title, raw_content, source_name)
 
-    # Endpoint oficial de Gemini API
-    # Usamos gemini-2.5-flash o gemini-1.5-flash
-    model_name = "gemini-2.5-flash"
+    # Endpoint oficial de Gemini API (modelo estable Free Tier)
+    model_name = "gemini-1.5-flash"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
     
     prompt_user = f"""
@@ -64,14 +63,17 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
     }
 
     try:
+        import time
+        time.sleep(2.0)  # Respetar rate limit del Free Tier (15 RPM)
         response = requests.post(url, json=payload, timeout=25)
         
-        # Si el modelo 2.5 no estuviese disponible, intentar fallback con 1.5-flash
+        # Fallback a gemini-2.0-flash si estuviera disponible
         if response.status_code == 404:
-            fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+            fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
             response = requests.post(fallback_url, json=payload, timeout=25)
 
         response.raise_for_status()
+
         data = response.json()
 
         candidate = data["candidates"][0]["content"]["parts"][0]["text"]

@@ -11,7 +11,7 @@ from urllib.parse import urlencode
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-from config import GEO_CONFIG
+from config import GEO_CONFIG, MAX_NEWS_AGE_HOURS
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -36,18 +36,17 @@ def clean_html(raw: str) -> str:
 
 # ─────────────────────────────────────────────
 # GDELT Project (API pública y gratuita)
-# Documentación: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
 # ─────────────────────────────────────────────
 def fetch_gdelt(query: str, max_records: int = 10) -> list:
     """
-    Consulta el API v2 del GDELT Project para descubrir artículos que mencionan
-    el término de búsqueda. 100% gratuito, sin key, sin límite de llamadas.
+    Consulta el API v2 del GDELT Project para descubrir artículos de las últimas 24 horas.
     """
     base_url = "https://api.gdeltproject.org/api/v2/doc/doc"
     params = {
         "query": query,
         "mode": "ArtList",
         "maxrecords": max_records,
+        "timespan": "24h",  # Solo últimas 24 horas
         "sort": "DateDesc",
         "format": "json",
         "lang": "Spanish",
@@ -67,12 +66,11 @@ def fetch_gdelt(query: str, max_records: int = 10) -> list:
         for art in articles:
             title = art.get("title", "").strip()
             article_url = art.get("url", "").strip()
-            seendate = art.get("seendate", "")  # Formato: "20260821T141500Z"
+            seendate = art.get("seendate", "")
 
             if not title or not article_url:
                 continue
 
-            # Parsear fecha de GDELT al formato ISO
             pub_date = datetime.now().isoformat()
             try:
                 if seendate:
@@ -84,15 +82,15 @@ def fetch_gdelt(query: str, max_records: int = 10) -> list:
             results.append({
                 "raw_title": title,
                 "raw_summary": art.get("seendate", ""),
-                "raw_content": title,  # GDELT no devuelve cuerpo completo
+                "raw_content": title,
                 "url": article_url,
-                "source_name": f"GDELT / {art.get('domain', 'Medio desconocido')}",
+                "source_name": f"GDELT / {art.get('domain', 'Medio regional')}",
                 "published_date": pub_date,
                 "image_url": art.get("socialimage", "/images/default-paranacito.jpg"),
                 "radar_source": "gdelt"
             })
 
-        logging.info(f"GDELT '{query}': {len(results)} resultados")
+        logging.info(f"GDELT '{query}' (últimas 24h): {len(results)} resultados")
         return results
 
     except Exception as e:
@@ -104,27 +102,28 @@ def fetch_all_gdelt() -> list:
     all_results = []
     seen_urls = set()
 
-    for term in SEARCH_TERMS[:3]:  # Limitamos para no sobrecargar
+    for term in SEARCH_TERMS[:2]:
         results = fetch_gdelt(term, max_records=GDELT_MAX_RESULTS)
         for r in results:
             if r["url"] not in seen_urls:
                 seen_urls.add(r["url"])
                 all_results.append(r)
-        time.sleep(0.5)  # Pausa cortés entre llamadas
+        time.sleep(0.5)
 
     return all_results
 
 # ─────────────────────────────────────────────
-# Google News RSS (sin API key)
+# Google News RSS (Filtrado estricto a últimas 24 horas)
 # ─────────────────────────────────────────────
 def fetch_google_news_rss(query: str) -> list:
     """
-    Google News expone un feed RSS público por consulta de búsqueda.
-    No requiere API key y es completamente gratuito.
-    URL base: https://news.google.com/rss/search?q=TERMINO&hl=es-419&gl=AR&ceid=AR:es
+    Google News con modificador when:24h para traer ÚNICAMENTE noticias
+    publicadas en las últimas 24 horas.
     """
     from urllib.parse import quote_plus
-    encoded = quote_plus(query)
+    # when:24h fuerza a Google News a traer solo noticias de las últimas 24 horas
+    query_24h = f"{query} when:24h"
+    encoded = quote_plus(query_24h)
     url = f"https://news.google.com/rss/search?q={encoded}&hl=es-419&gl=AR&ceid=AR:es-419"
 
     try:
@@ -140,7 +139,18 @@ def fetch_google_news_rss(query: str) -> list:
             if not title or not link:
                 continue
 
+            # Verificación de antigüedad estricta (máximo 24 horas)
+            if hasattr(entry, "published_parsed") and entry.published_parsed:
+                try:
+                    pub_epoch = time.mktime(entry.published_parsed)
+                    age_hours = (time.time() - pub_epoch) / 3600.0
+                    if age_hours > MAX_NEWS_AGE_HOURS:
+                        continue
+                except Exception:
+                    pass
+
             results.append({
+
                 "raw_title": title,
                 "raw_summary": summary,
                 "raw_content": f"{title}. {summary}",
@@ -151,8 +161,9 @@ def fetch_google_news_rss(query: str) -> list:
                 "radar_source": "google_news"
             })
 
-        logging.info(f"Google News '{query}': {len(results)} resultados")
+        logging.info(f"Google News '{query}' (últimas 24h): {len(results)} resultados")
         return results
+
 
     except Exception as e:
         logging.warning(f"Error consultando Google News para '{query}': {e}")

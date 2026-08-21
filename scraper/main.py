@@ -44,12 +44,14 @@ def run_pipeline(use_radar: bool = True):
     raw_from_feeds = fetch_all_sources()
     raw_from_radar = run_radar() if use_radar else []
     all_raw = raw_from_feeds + raw_from_radar
+    MAX_PROCESS_PER_RUN = 30
     logging.info(f"Total artículos crudos recolectados: {len(all_raw)} ({len(raw_from_feeds)} feeds + {len(raw_from_radar)} radar)")
 
     stats = {"nuevos": 0, "actualizaciones": 0, "descartados": 0, "errores": 0}
 
-    # 5. Procesar cada artículo con el Motor de Acontecimient@os
-    for raw in all_raw:
+    # 5. Procesar cada artículo con el Motor de Acontecimient@os (limitado a los 30 más frescos por corrida)
+    for raw in all_raw[:MAX_PROCESS_PER_RUN]:
+
         url = raw.get("url", "")
         raw_title = raw.get("raw_title", "")
 

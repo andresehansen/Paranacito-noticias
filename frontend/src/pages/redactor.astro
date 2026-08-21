@@ -1,0 +1,518 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Mesa de Redacción IA | Paranacito Noticias"
+  description="Asistente de redacción periodística asistido por inteligencia artificial para Villa Paranacito y el Delta."
+>
+  <div class="max-w-5xl mx-auto py-6 px-4 sm:px-6">
+    
+    <!-- Encabezado de la página -->
+    <header class="mb-8 pb-6 border-b border-slate-200">
+      <div class="flex items-center gap-3 mb-2">
+        <span class="p-2.5 bg-river-100 text-river-700 rounded-xl text-xl">✍️</span>
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+            Mesa de Redacción Asistida por IA
+          </h1>
+          <p class="text-sm text-slate-600">
+            Transformá reportes vecinales, alertas o comunicados en noticias profesionales listas para publicar.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      
+      <!-- Formulario de Entrada (Columna Izquierda) -->
+      <section class="lg:col-span-5 space-y-5 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-fit">
+        
+        <!-- API Key Gemini (Guardada en el navegador) -->
+        <div>
+          <label for="gemini-key" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            🔑 Clave Gemini API <span class="text-slate-400 font-normal">(se guarda solo en tu navegador)</span>
+          </label>
+          <input
+            type="password"
+            id="gemini-key"
+            placeholder="Pegá tu clave de Google AI Studio"
+            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+          />
+        </div>
+
+        <!-- Fuente / Origen del Reporte -->
+        <div>
+          <label for="fuente-nombre" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            📰 Origen de la información
+          </label>
+          <input
+            type="text"
+            id="fuente-nombre"
+            placeholder="Ej: Reporte vecinal en Facebook / SMN / Bomberos"
+            value="Reporte comunitario"
+            class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+          />
+        </div>
+
+        <!-- Categoría y Confiabilidad -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label for="categoria-select" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              🏷️ Categoría
+            </label>
+            <select
+              id="categoria-select"
+              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
+            >
+              <option value="Río y Clima">Río y Clima</option>
+              <option value="Comunidad" selected>Comunidad</option>
+              <option value="Obras y Servicios">Obras y Servicios</option>
+              <option value="Deportes">Deportes</option>
+              <option value="Salud y Educación">Salud y Educación</option>
+              <option value="Turismo y Cultura">Turismo y Cultura</option>
+              <option value="Sociedad">Sociedad</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="confiabilidad-select" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              🛡️ Confiabilidad
+            </label>
+            <select
+              id="confiabilidad-select"
+              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
+            >
+              <option value="Alta">🟢 Alta (Oficial)</option>
+              <option value="Media" selected>🟡 Media (Vecinos/Medio)</option>
+              <option value="Baja">🔴 Baja (En verificación)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Switch de Alerta Urgente -->
+        <div class="flex items-center justify-between p-3.5 bg-rose-50 border border-rose-200 rounded-xl">
+          <div class="flex items-center gap-2.5">
+            <span class="text-xl">🚨</span>
+            <div>
+              <div class="text-xs font-bold text-rose-900">¿Es una Alerta Urgente?</div>
+              <div class="text-[11px] text-rose-700">Aparecerá en el banner rojo de la portada.</div>
+            </div>
+          </div>
+          <input
+            type="checkbox"
+            id="es-alerta"
+            class="w-5 h-5 text-rose-600 rounded focus:ring-rose-500 border-rose-300"
+          />
+        </div>
+
+        <!-- Imagen de Portada -->
+        <div>
+          <label for="imagen-url" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            🖼️ URL de Imagen <span class="text-slate-400 font-normal">(opcional)</span>
+          </label>
+          <input
+            type="url"
+            id="imagen-url"
+            placeholder="https://... (o dejá vacío para imagen automática)"
+            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+          />
+        </div>
+
+        <!-- Texto Crudo o Datos del Vecino -->
+        <div>
+          <label for="raw-text" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            📝 Datos o texto a transformar en noticia *
+          </label>
+          <textarea
+            id="raw-text"
+            rows="7"
+            placeholder="Ejemplo: Hubo una sudestada fuerte a la tarde. Un vecino en el grupo de Facebook alertó que cedió una parte del dique en la zona del arroyo y entró agua en tres casas. Ya avisaron a bomberos y la municipalidad mandó una cuadrilla con bombas de achique..."
+            class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
+          ></textarea>
+        </div>
+
+        <!-- Botón de Generar -->
+        <button
+          type="button"
+          id="btn-generar"
+          class="w-full py-3 px-4 bg-gradient-to-r from-river-600 to-river-700 hover:from-river-700 hover:to-river-800 text-white font-bold rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
+        >
+          <span id="btn-icon">✨</span>
+          <span id="btn-text">Redactar Noticia con Gemini</span>
+        </button>
+
+        <div id="error-msg" class="hidden p-3 bg-rose-100 text-rose-800 border border-rose-300 rounded-xl text-xs"></div>
+
+      </section>
+
+      <!-- Panel de Vista Previa y Exportación (Columna Derecha) -->
+      <section class="lg:col-span-7 space-y-6">
+        
+        <!-- Estado Inicial Vacío -->
+        <div id="preview-placeholder" class="bg-slate-100/70 border-2 border-dashed border-slate-300 rounded-2xl p-12 text-center text-slate-500 flex flex-col items-center justify-center min-h-[400px]">
+          <span class="text-4xl mb-3">📰</span>
+          <h3 class="text-base font-bold text-slate-700 mb-1">Vista Previa de la Noticia</h3>
+          <p class="text-xs max-w-sm">
+            Completá los datos a la izquierda y hacé clic en "Redactar Noticia" para ver el resultado periodístico en tiempo real.
+          </p>
+        </div>
+
+        <!-- Contenedor de la Vista Previa (Oculto al inicio) -->
+        <div id="preview-container" class="hidden space-y-6">
+          
+          <!-- Noticia Estilo Portal -->
+          <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+            
+            <div class="flex flex-wrap items-center gap-2 mb-4">
+              <span id="prev-categoria" class="px-3 py-0.5 rounded-full text-xs font-semibold bg-river-100 text-river-800 border border-river-200">
+                Comunidad
+              </span>
+              <span id="prev-alerta" class="hidden px-3 py-0.5 rounded-full text-xs font-black bg-rose-600 text-white animate-pulse">
+                🚨 ALERTA
+              </span>
+              <span id="prev-confiabilidad" class="px-3 py-0.5 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                🟡 Confiabilidad media
+              </span>
+              <span id="prev-fecha" class="text-xs text-slate-500 ml-auto">
+                Hoy
+              </span>
+            </div>
+
+            <h2 id="prev-titulo" class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight mb-4">
+              Título de la noticia
+            </h2>
+
+            <p id="prev-copete" class="text-base text-slate-700 font-medium leading-relaxed bg-slate-100/90 p-4 rounded-xl border-l-4 border-river-600 mb-6">
+              Copete o resumen inicial de la noticia.
+            </p>
+
+            <div id="prev-imagen-container" class="mb-6 rounded-xl overflow-hidden aspect-[16/9] bg-slate-200">
+              <img id="prev-imagen" src="" alt="" class="w-full h-full object-cover" />
+            </div>
+
+            <div id="prev-cuerpo" class="prose prose-slate max-w-none text-slate-800 text-base leading-relaxed space-y-4 mb-6">
+              <!-- Párrafos inyectados dinámicamente -->
+            </div>
+
+            <div id="prev-tags" class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200 text-xs">
+              <!-- Tags inyectados dinámicamente -->
+            </div>
+
+          </article>
+
+          <!-- Bloque de WhatsApp Listo para Reenviar -->
+          <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-5 shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <div class="flex items-center gap-2">
+                <span class="text-lg">💬</span>
+                <span class="text-xs font-black uppercase tracking-wider">Texto Listo para Grupos de WhatsApp</span>
+              </div>
+              <button
+                id="btn-copy-wa"
+                class="text-xs bg-white text-emerald-800 font-bold px-3 py-1 rounded-lg hover:bg-emerald-50 transition-colors shadow-sm"
+              >
+                Copiar
+              </button>
+            </div>
+            <pre id="prev-whatsapp" class="text-xs bg-black/20 p-3 rounded-xl whitespace-pre-wrap font-sans leading-relaxed"></pre>
+          </div>
+
+          <!-- Opciones de Publicación / Descarga -->
+          <div class="bg-slate-900 text-white rounded-2xl p-6 shadow-md space-y-4">
+            <div class="flex items-center justify-between">
+              <div>
+                <h3 class="text-sm font-bold">Publicar en Paranacito Noticias</h3>
+                <p class="text-xs text-slate-400">Descargá el archivo JSON generado para agregarlo al sitio.</p>
+              </div>
+              <button
+                id="btn-download-json"
+                class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 font-bold text-xs rounded-xl transition-colors flex items-center gap-2 shadow"
+              >
+                <span>📥</span>
+                <span>Descargar JSON</span>
+              </button>
+            </div>
+
+            <div class="text-[11px] text-slate-400 bg-slate-800/80 p-3 rounded-xl border border-slate-700">
+              💡 <strong>Para publicar:</strong> Guardá el archivo descargado en la carpeta <code class="text-emerald-400">data/acontecimientos/</code> de tu repositorio en GitHub. Vercel actualizará la página automáticamente en 30 segundos.
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+  </div>
+</Layout>
+
+<script>
+  // Cargar clave de Gemini desde localStorage si existe
+  const inputKey = document.getElementById('gemini-key') as HTMLInputElement;
+  const savedKey = localStorage.getItem('gemini_api_key') || '';
+  if (inputKey && savedKey) {
+    inputKey.value = savedKey;
+  }
+
+  const btnGenerar = document.getElementById('btn-generar');
+  const btnIcon = document.getElementById('btn-icon');
+  const btnText = document.getElementById('btn-text');
+  const errorMsg = document.getElementById('error-msg');
+
+  const previewPlaceholder = document.getElementById('preview-placeholder');
+  const previewContainer = document.getElementById('preview-container');
+
+  const prevTitulo = document.getElementById('prev-titulo');
+  const prevCopete = document.getElementById('prev-copete');
+  const prevCuerpo = document.getElementById('prev-cuerpo');
+  const prevCategoria = document.getElementById('prev-categoria');
+  const prevAlerta = document.getElementById('prev-alerta');
+  const prevConfiabilidad = document.getElementById('prev-confiabilidad');
+  const prevImagen = document.getElementById('prev-imagen') as HTMLImageElement;
+  const prevImagenContainer = document.getElementById('prev-imagen-container');
+  const prevTags = document.getElementById('prev-tags');
+  const prevWhatsapp = document.getElementById('prev-whatsapp');
+  const btnCopyWa = document.getElementById('btn-copy-wa');
+  const btnDownloadJson = document.getElementById('btn-download-json');
+
+  let generatedArticleData: any = null;
+
+  const DEFAULT_IMAGES: Record<string, string> = {
+    'Río y Clima': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80',
+    'Comunidad': 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80',
+    'Obras y Servicios': 'https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1000&q=80',
+    'Deportes': 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80',
+    'Salud y Educación': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80',
+    'Turismo y Cultura': 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80',
+    'Sociedad': 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80'
+  };
+
+  function slugify(text: string): string {
+    return text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .trim()
+      .replace(/[\s-]+/g, '-')
+      .split('-')
+      .slice(0, 7)
+      .join('-');
+  }
+
+  btnGenerar?.addEventListener('click', async () => {
+    if (errorMsg) errorMsg.classList.add('hidden');
+
+    const apiKey = inputKey?.value.trim();
+    const rawText = (document.getElementById('raw-text') as HTMLTextAreaElement)?.value.trim();
+    const fuente = (document.getElementById('fuente-nombre') as HTMLInputElement)?.value.trim() || 'Reporte Comunitario';
+    const categoria = (document.getElementById('categoria-select') as HTMLSelectElement)?.value || 'Comunidad';
+    const confiabilidad = (document.getElementById('confiabilidad-select') as HTMLSelectElement)?.value || 'Media';
+    const esAlerta = (document.getElementById('es-alerta') as HTMLInputElement)?.checked || false;
+    let customImg = (document.getElementById('imagen-url') as HTMLInputElement)?.value.trim();
+
+    if (!rawText) {
+      if (errorMsg) {
+        errorMsg.textContent = 'Por favor ingresá los datos o el texto de la noticia.';
+        errorMsg.classList.remove('hidden');
+      }
+      return;
+    }
+
+    if (!apiKey) {
+      if (errorMsg) {
+        errorMsg.textContent = 'Por favor ingresá tu clave de Gemini API para redactar con IA.';
+        errorMsg.classList.remove('hidden');
+      }
+      return;
+    }
+
+    // Guardar clave en localStorage
+    localStorage.setItem('gemini_api_key', apiKey);
+
+    // Estado cargando
+    if (btnGenerar && btnIcon && btnText) {
+      btnGenerar.setAttribute('disabled', 'true');
+      btnIcon.textContent = '⏳';
+      btnText.textContent = 'Redactando noticia con IA...';
+    }
+
+    const prompt = `Sos el redactor jefe del portal comunitario "Paranacito Noticias" en Villa Paranacito (Delta de Entre Ríos, Argentina).
+Tu misión es transformar los siguientes datos en una noticia profesional, clara, cercana y de alto valor para los vecinos isleños y ribereños.
+
+DATOS CRUDOS:
+${rawText}
+
+FUENTE / ORIGEN: ${fuente}
+CATEGORÍA SUGERIDA: ${categoria}
+
+Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`), con esta estructura exacta:
+{
+  "titulo": "Título periodístico claro y atractivo (máximo 80 caracteres)",
+  "copete": "Resumen conciso en 1 o 2 oraciones (máximo 160 caracteres)",
+  "cuerpo": [
+    "Primer párrafo con la información principal respondiendo qué, quién y dónde.",
+    "Segundo párrafo con contexto y detalles de cómo afecta a Villa Paranacito.",
+    "Tercer párrafo con recomendaciones útiles, números de contacto o próximos pasos si aplica."
+  ],
+  "categoria": "${categoria}",
+  "tags": ["tag1", "tag2", "tag3"],
+  "slug": "slug-corto-separado-por-guiones",
+  "tiempo_lectura": "2 min",
+  "resumen_whatsapp": "📱 *Título* \\n\\nResumen corto para WhatsApp con emojis.\\n\\n🔗 Leé más en paranacito-noticias.vercel.app"
+}`;
+
+    try {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.2,
+            responseMimeType: 'application/json'
+          }
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error ${response.status}: Verifica tu clave de Gemini API.`);
+      }
+
+      const resData = await response.json();
+      const textContent = resData.candidates[0].content.parts[0].text;
+      const cleanJson = textContent.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
+      const parsed = JSON.parse(cleanJson);
+
+      const now = new Date();
+      const nowIso = now.toISOString();
+      const fechaAmigable = `${now.getDate()} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][now.getMonth()]} de ${now.getFullYear()}, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`;
+      const finalSlug = slugify(parsed.slug || parsed.titulo);
+      const finalImg = customImg || DEFAULT_IMAGES[categoria] || DEFAULT_IMAGES['Comunidad'];
+
+      generatedArticleData = {
+        acontecimiento_id: `${nowIso.split('T')[0]}-${finalSlug}`,
+        titulo: parsed.titulo,
+        copete: parsed.copete,
+        cuerpo: parsed.cuerpo,
+        categoria: parsed.categoria || categoria,
+        tags: parsed.tags || ['paranacito'],
+        slug: finalSlug,
+        tiempo_lectura: parsed.tiempo_lectura || '2 min',
+        resumen_whatsapp: parsed.resumen_whatsapp,
+        imagen: finalImg,
+        estado: esAlerta ? 'En desarrollo' : 'Publicado',
+        nivel_confiabilidad: confiabilidad,
+        es_alerta: esAlerta,
+        requiere_revision: false,
+        publicado: true,
+        fuentes_consultadas: [
+          {
+            nombre: fuente,
+            fecha_consulta: nowIso
+          }
+        ],
+        cronologia_actualizaciones: [
+          {
+            hora: `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`,
+            fecha: nowIso.split('T')[0],
+            fuente: fuente,
+            dato: parsed.copete,
+            es_dato_nuevo: true
+          }
+        ],
+        fecha_inicio_iso: nowIso,
+        fecha_ultima_actualizacion_iso: nowIso,
+        fecha_publicacion: fechaAmigable,
+        fecha_ultima_actualizacion: fechaAmigable,
+        archivo: `${nowIso.split('T')[0]}-${finalSlug}.json`
+      };
+
+      // Renderizar Vista Previa
+      if (prevTitulo) prevTitulo.textContent = generatedArticleData.titulo;
+      if (prevCopete) prevCopete.textContent = generatedArticleData.copete;
+      if (prevCategoria) prevCategoria.textContent = generatedArticleData.categoria;
+      
+      if (prevAlerta) {
+        if (esAlerta) prevAlerta.classList.remove('hidden');
+        else prevAlerta.classList.add('hidden');
+      }
+
+      if (prevConfiabilidad) {
+        prevConfiabilidad.textContent = confiabilidad === 'Alta' ? '🟢 Alta (Oficial)' : confiabilidad === 'Media' ? '🟡 Confiabilidad media' : '🔴 En verificación';
+      }
+
+      if (prevImagen && prevImagenContainer) {
+        prevImagen.src = finalImg;
+        prevImagenContainer.classList.remove('hidden');
+      }
+
+      if (prevCuerpo) {
+        prevCuerpo.innerHTML = '';
+        generatedArticleData.cuerpo.forEach((p: string) => {
+          const pEl = document.createElement('p');
+          pEl.textContent = p;
+          prevCuerpo.appendChild(pEl);
+        });
+      }
+
+      if (prevTags) {
+        prevTags.innerHTML = '';
+        generatedArticleData.tags.forEach((tag: string) => {
+          const tEl = document.createElement('span');
+          tEl.className = 'bg-slate-100 text-slate-700 px-2.5 py-0.5 rounded-lg border border-slate-200';
+          tEl.textContent = `#${tag}`;
+          prevTags.appendChild(tEl);
+        });
+      }
+
+      if (prevWhatsapp) {
+        prevWhatsapp.textContent = generatedArticleData.resumen_whatsapp;
+      }
+
+      if (previewPlaceholder) previewPlaceholder.classList.add('hidden');
+      if (previewContainer) previewContainer.classList.remove('hidden');
+
+    } catch (err: any) {
+      if (errorMsg) {
+        errorMsg.textContent = `Error: ${err.message || 'No se pudo generar la noticia.'}`;
+        errorMsg.classList.remove('hidden');
+      }
+    } finally {
+      if (btnGenerar && btnIcon && btnText) {
+        btnGenerar.removeAttribute('disabled');
+        btnIcon.textContent = '✨';
+        btnText.textContent = 'Redactar Noticia con Gemini';
+      }
+    }
+  });
+
+  // Copiar WhatsApp
+  btnCopyWa?.addEventListener('click', () => {
+    if (!generatedArticleData) return;
+    navigator.clipboard.writeText(generatedArticleData.resumen_whatsapp);
+    if (btnCopyWa) {
+      const orig = btnCopyWa.textContent;
+      btnCopyWa.textContent = '✅ Copiado!';
+      setTimeout(() => { btnCopyWa.textContent = orig; }, 2000);
+    }
+  });
+
+  // Descargar JSON listo para Git
+  btnDownloadJson?.addEventListener('click', () => {
+    if (!generatedArticleData) return;
+    const jsonStr = JSON.stringify(generatedArticleData, null, 2);
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = generatedArticleData.archivo;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+</script>

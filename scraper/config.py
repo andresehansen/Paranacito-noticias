@@ -23,6 +23,9 @@ NOTICIAS_DIR.mkdir(parents=True, exist_ok=True)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
+# Antigüedad máxima permitida para procesar una noticia (en horas)
+MAX_NEWS_AGE_HOURS = 24
+
 # Configuración Geográfica de Villa Paranacito
 GEO_CONFIG = {
     "nombre": "Villa Paranacito",

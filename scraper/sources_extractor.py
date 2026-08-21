@@ -6,7 +6,7 @@ import logging
 from datetime import datetime
 import feedparser
 from bs4 import BeautifulSoup
-from config import RSS_SOURCES
+from config import RSS_SOURCES, MAX_NEWS_AGE_HOURS
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -92,12 +92,24 @@ def fetch_rss_feed(source: dict) -> list:
                 if not is_relevant(combined_check, source.get("keywords", ["paranacito"])):
                     continue
                     
+            # Verificar antigüedad máxima (24 horas)
+            if hasattr(entry, "published_parsed") and entry.published_parsed:
+                import time as t_mod
+                try:
+                    pub_epoch = t_mod.mktime(entry.published_parsed)
+                    age_hours = (t_mod.time() - pub_epoch) / 3600.0
+                    if age_hours > MAX_NEWS_AGE_HOURS:
+                        continue
+                except Exception:
+                    pass
+
             img_url = extract_image_url(entry)
             
             # Fecha de publicación
             pub_date = entry.get("published", "")
             if not pub_date:
                 pub_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
                 
             items.append({
                 "raw_title": title,
