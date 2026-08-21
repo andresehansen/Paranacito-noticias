@@ -1,0 +1,73 @@
+{
+  "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por",
+  "titulo": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+  "copete": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+  "cuerpo": [
+    "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño"
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios por la llegada de El Niño* - Novedades de Villa Paranacito.",
+  "imagen": "https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "GDELT / diarioelargentino.com",
+      "url": "https://diarioelargentino.com/provincia/frigerio-reunio-a-intendentes-y-funcionarios-para-coordinar-acciones-ante-la-llegada-de-el-nino.htm",
+      "fecha_consulta": "2026-08-21T23:48:29.465433"
+    },
+    {
+      "nombre": "GDELT / analisisdigital.com.ar",
+      "url": "https://www.analisisdigital.com.ar/provinciales/2026/08/20/frigerio-reunio-intendentes-y-funcionarios-para-coordinar-acciones-ante-el-fenomeno-de-el-nino",
+      "fecha_consulta": "2026-08-21T23:48:29.995380"
+    },
+    {
+      "nombre": "GDELT / apfdigital.com.ar",
+      "url": "https://www.apfdigital.com.ar/noticias/2026/08/20/467716-frigerio-reunio-a-intendentes-y-funcionarios-para-coordinar-acciones-ante-el-fenomeno-de-el-nino",
+      "fecha_consulta": "2026-08-21T23:48:30.510595"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "23:48",
+      "fecha": "2026-08-21",
+      "fuente": "GDELT / diarioelargentino.com",
+      "dato": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:48",
+      "fecha": "2026-08-21",
+      "fuente": "GDELT / analisisdigital.com.ar",
+      "dato": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:48",
+      "fecha": "2026-08-21",
+      "fuente": "GDELT / apfdigital.com.ar",
+      "dato": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "c3ca1a593905c0725cdad296e8571fe3e85744450bc5b9ff544f56086774984a",
+    "091f1011b9009cb27ac888af0a35faab03497360b72ad986bfc8d842c05f7586",
+    "fe7be7b5b12a28dc1732358a5b9ff14ee78eac7f85bfc4ac9039ef07940fa63a"
+  ],
+  "fecha_inicio_iso": "2026-08-21T23:48:29.465433",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T23:48:30.510595",
+  "fecha_publicacion": "21 de Agosto de 2026, 23:48 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:48 hs",
+  "archivo": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por.json"
+}

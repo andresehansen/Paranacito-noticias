@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por",
+    "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por",
+    "titulo": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+    "copete": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "GDELT / diarioelargentino.com",
+      "GDELT / analisisdigital.com.ar",
+      "GDELT / apfdigital.com.ar"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:48 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:48 hs",
+    "fecha_inicio_iso": "2026-08-21T23:48:29.465433",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:48:30.510595",
+    "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios por la llegada de El Niño* - Novedades de Villa Paranacito."
+  },
+  {
     "acontecimiento_id": "2026-08-21-casi-un-documental-una-muestra-inmersiva-revela",
     "slug": "casi-un-documental-una-muestra-inmersiva-revela",
     "titulo": "Casi un documental: una muestra inmersiva revela el recorrido de 100.000 km por Latinoamérica - Perfil",
