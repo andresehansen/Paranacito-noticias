@@ -58,14 +58,15 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
         }
     }
 
-    # 1. Intentar con el SDK oficial de Google Generative AI
+    # 1. Intentar con el SDK oficial (google-generativeai)
+    import warnings
+    warnings.filterwarnings("ignore", category=FutureWarning)
     try:
         import google.generativeai as genai
         genai.configure(api_key=GEMINI_API_KEY)
         
-        # Probar modelos disponibles en orden de preferencia
-        for model_id in ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash"]:
-
+        # Modelos disponibles en cuentas nuevas de Google AI Studio (2025+)
+        for model_id in ["gemini-2.0-flash", "gemini-2.5-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash"]:
             try:
                 model = genai.GenerativeModel(
                     model_id,
@@ -92,6 +93,7 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
                         result_json["cuerpo"] = [raw_content]
                         
                     result_json["tiempo_lectura"] = calculate_reading_time(result_json["cuerpo"])
+                    logging.info(f"Noticia procesada con éxito usando {model_id}")
                     return result_json
             except Exception as e_sdk:
                 logging.debug(f"SDK model {model_id} error: {e_sdk}")
@@ -99,11 +101,11 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
     except Exception as e_genai_pkg:
         logging.debug(f"No se pudo usar google.generativeai package: {e_genai_pkg}")
 
-    # 2. Fallback con REST API directa
+    # 2. Fallback con REST API directa usando modelos 2025+
     endpoints = [
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key={GEMINI_API_KEY}",
     ]
 
     try:
