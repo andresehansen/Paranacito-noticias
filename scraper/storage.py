@@ -1,5 +1,6 @@
 """
 Gestor de persistencia en disco (Git as Database) y control de duplicados.
+Compatible con el Motor de Acontecimient@os Vivos (v2.0).
 """
 import json
 import hashlib

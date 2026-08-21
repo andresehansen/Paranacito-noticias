@@ -1,0 +1,100 @@
+---
+/**
+ * SourcesPanel.astro — Panel de Fuentes Consultadas y Nivel de Confiabilidad
+ * Muestra qué medios u organismos cubrieron el acontecimiento
+ * junto con un badge del nivel de confiabilidad del contenido.
+ */
+
+interface Source {
+  nombre: string;
+  url?: string;
+  fecha_consulta?: string;
+}
+
+interface Props {
+  fuentes: Source[];
+  nivel_confiabilidad: 'Alta' | 'Media' | 'Baja';
+  num_actualizaciones?: number;
+}
+
+const { fuentes = [], nivel_confiabilidad = 'Media', num_actualizaciones = 1 } = Astro.props;
+
+const confiabilidadConfig = {
+  Alta: {
+    label: 'Alta confiabilidad',
+    desc: 'Verificado mediante fuente oficial o múltiples fuentes independientes.',
+    icon: '🟢',
+    classes: 'bg-emerald-50 border-emerald-200 text-emerald-800'
+  },
+  Media: {
+    label: 'Confiabilidad media',
+    desc: 'Proviene de uno o más medios periodísticos regionales de trayectoria.',
+    icon: '🟡',
+    classes: 'bg-amber-50 border-amber-200 text-amber-800'
+  },
+  Baja: {
+    label: 'Información no verificada',
+    desc: 'Proviene de una única fuente no oficial. En proceso de verificación.',
+    icon: '🔴',
+    classes: 'bg-rose-50 border-rose-200 text-rose-800'
+  }
+}[nivel_confiabilidad] ?? {
+  label: 'Confiabilidad media', desc: '', icon: '🟡',
+  classes: 'bg-amber-50 border-amber-200 text-amber-800'
+};
+---
+
+<div class="space-y-3 my-6">
+
+  <!-- Badge de Confiabilidad -->
+  <div class={`flex items-start gap-3 rounded-xl border p-4 ${confiabilidadConfig.classes}`}>
+    <span class="text-xl leading-none">{confiabilidadConfig.icon}</span>
+    <div>
+      <div class="text-sm font-bold">{confiabilidadConfig.label}</div>
+      <div class="text-xs mt-0.5 opacity-80">{confiabilidadConfig.desc}</div>
+    </div>
+    {num_actualizaciones > 1 && (
+      <div class="ml-auto shrink-0 text-center bg-white/60 rounded-lg px-3 py-1.5 border border-current/20">
+        <div class="text-xs font-black">{num_actualizaciones}</div>
+        <div class="text-[10px] opacity-70">actualizaciones</div>
+      </div>
+    )}
+  </div>
+
+  <!-- Lista de Fuentes Consultadas -->
+  {fuentes.length > 0 && (
+    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+      <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">
+        Fuentes consultadas en esta nota
+      </div>
+      <div class="flex flex-wrap gap-2">
+        {fuentes.map((fuente) => (
+          <div>
+            {fuente.url ? (
+              <a
+                href={fuente.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-xs font-medium text-river-700 bg-white border border-river-200 px-2.5 py-1 rounded-lg hover:bg-river-50 transition-colors"
+              >
+                <span>📰</span>
+                {fuente.nombre}
+                <span class="text-[10px] text-slate-400">↗</span>
+              </a>
+            ) : (
+              <span class="inline-flex items-center gap-1 text-xs font-medium text-slate-700 bg-white border border-slate-200 px-2.5 py-1 rounded-lg">
+                <span>📰</span>
+                {fuente.nombre}
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
+      <p class="text-[11px] text-slate-400 mt-3 leading-relaxed">
+        Esta nota fue elaborada con información pública de los organismos y medios citados. 
+        El contenido fue parafraseado mediante IA para su adaptación al público local.
+      </p>
+    </div>
+  )}
+
+</div>

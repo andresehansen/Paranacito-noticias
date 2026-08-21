@@ -1,0 +1,67 @@
+---
+/**
+ * AlertBanner.astro — Banner de Alertas Urgentes
+ * Se muestra fijo debajo del header cuando hay alertas activas.
+ * Lee data/alertas_activas.json generado por rebuild_events_index().
+ */
+
+// Intentamos importar alertas activas; si el archivo no existe o está vacío, no mostramos nada
+let alertas: any[] = [];
+try {
+  const data = await import('../../../data/alertas_activas.json');
+  alertas = (data.default || []).slice(0, 3); // máximo 3 alertas visibles
+} catch {
+  alertas = [];
+}
+
+const alertaVisible = alertas.length > 0;
+---
+
+{alertaVisible && (
+  <div id="alert-banner" class="bg-gradient-to-r from-rose-600 to-rose-700 text-white py-2.5 px-4 relative">
+    <div class="max-w-6xl mx-auto flex items-start md:items-center justify-between gap-3">
+
+      <!-- Ícono y etiqueta -->
+      <div class="flex items-center gap-2.5 shrink-0">
+        <span class="flex h-7 w-7 items-center justify-center rounded-full bg-white/20 text-base animate-pulse">
+          🚨
+        </span>
+        <span class="text-xs font-black uppercase tracking-wider">Alerta Activa</span>
+      </div>
+
+      <!-- Scroll de alertas -->
+      <div class="flex-1 overflow-hidden">
+        {alertas.map((alerta, i) => (
+          <div class={`text-xs ${i > 0 ? 'mt-1 pt-1 border-t border-rose-500/50' : ''}`}>
+            <a
+              href={`/noticias/${alerta.slug}`}
+              class="font-semibold hover:underline underline-offset-2"
+            >
+              {alerta.titulo}
+            </a>
+            <span class="text-rose-200 ml-2">— {alerta.fecha_ultima_actualizacion || alerta.fecha_publicacion}</span>
+          </div>
+        ))}
+      </div>
+
+      <!-- Botón de cerrar -->
+      <button
+        id="close-alert-banner"
+        aria-label="Cerrar alerta"
+        class="shrink-0 text-white/70 hover:text-white text-lg leading-none p-1 rounded transition-colors"
+      >
+        ✕
+      </button>
+    </div>
+  </div>
+)}
+
+<script>
+  const btn = document.getElementById('close-alert-banner');
+  const banner = document.getElementById('alert-banner');
+  if (btn && banner) {
+    btn.addEventListener('click', () => {
+      banner.style.display = 'none';
+    });
+  }
+</script>

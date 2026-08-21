@@ -1,12 +1,18 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ShareWhatsApp from '../../components/ShareWhatsApp.astro';
+import EventTimeline from '../../components/EventTimeline.astro';
+import SourcesPanel from '../../components/SourcesPanel.astro';
 import noticiasIndex from '../../../../data/noticias_index.json';
 
 export async function getStaticPaths() {
-  const jsonFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
-  
-  return Object.values(jsonFiles).map((file: any) => {
+  // Leer tanto noticias legacy como acontecimient@os vivos
+  const legacyFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
+  const eventFiles = import.meta.glob('../../../../data/acontecimient@os/*.json', { eager: true });
+
+  const allFiles = { ...legacyFiles, ...eventFiles };
+
+  return Object.values(allFiles).map((file: any) => {
     const noticia = file.default || file;
     return {
       params: { slug: noticia.slug },
@@ -26,8 +32,14 @@ const categoryColors: Record<string, string> = {
   'Turismo y Cultura': 'bg-teal-100 text-teal-800 border-teal-200',
   'Sociedad': 'bg-indigo-100 text-indigo-800 border-indigo-200'
 };
-
 const badgeClass = categoryColors[noticia.categoria] || 'bg-slate-100 text-slate-800 border-slate-200';
+
+const isEnDesarrollo = noticia.estado === "En desarrollo";
+const esAlerta = noticia.es_alerta === true;
+const nivelConfiabilidad = noticia.nivel_confiabilidad || "Media";
+const cronologia = noticia.cronologia_actualizaciones || [];
+const fuentesConsultadas = noticia.fuentes_consultadas || (noticia.fuente_nombre ? [{ nombre: noticia.fuente_nombre, url: noticia.url_original }] : []);
+const numActualizaciones = cronologia.length || 1;
 
 const relatedNews = noticiasIndex
   .filter((n: any) => n.slug !== noticia.slug)
@@ -40,8 +52,8 @@ const relatedNews = noticiasIndex
   image={noticia.imagen}
   type="article"
 >
-  
-  <!-- Navegación de migas de pan (Breadcrumb) -->
+
+  <!-- Breadcrumb -->
   <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6">
     <a href="/" class="hover:text-slate-800 transition-colors">Inicio</a>
     <span>/</span>
@@ -49,21 +61,44 @@ const relatedNews = noticiasIndex
   </nav>
 
   <article class="max-w-3xl mx-auto">
-    
-    <!-- Encabezado de la Noticia -->
+
+    <!-- Encabezado -->
     <header class="mb-6">
-      
+
       <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <!-- Categoría -->
         <span class={`px-3 py-0.5 rounded-full text-xs font-semibold border ${badgeClass}`}>
           {noticia.categoria}
         </span>
+
+        <!-- Badge de Alerta -->
+        {esAlerta && (
+          <span class="px-3 py-0.5 rounded-full text-xs font-black bg-rose-600 text-white animate-pulse">
+            🚨 ALERTA
+          </span>
+        )}
+
+        <!-- Badge de En Desarrollo -->
+        {isEnDesarrollo && !esAlerta && (
+          <span class="px-3 py-0.5 rounded-full text-xs font-bold bg-amber-100 text-amber-800 border border-amber-200">
+            📡 En desarrollo
+          </span>
+        )}
+
         <span class="text-xs text-slate-500">
           Publicado el {noticia.fecha_publicacion}
         </span>
         <span class="text-xs text-slate-400">•</span>
-        <span class="text-xs text-slate-500">
-          Tiempo de lectura: {noticia.tiempo_lectura || '2 min'}
-        </span>
+        <span class="text-xs text-slate-500">{noticia.tiempo_lectura || '2 min'}</span>
+
+        {noticia.fecha_ultima_actualizacion && noticia.fecha_ultima_actualizacion !== noticia.fecha_publicacion && (
+          <>
+            <span class="text-xs text-slate-400">•</span>
+            <span class="text-xs font-medium text-amber-700">
+              Actualizado: {noticia.fecha_ultima_actualizacion}
+            </span>
+          </>
+        )}
       </div>
 
       <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight tracking-tight mb-4">
@@ -73,18 +108,24 @@ const relatedNews = noticiasIndex
       <p class="text-base sm:text-lg text-slate-700 font-medium leading-relaxed bg-slate-100/80 p-4 rounded-xl border-l-4 border-river-600">
         {noticia.copete}
       </p>
-
     </header>
 
-    <!-- Botones Rápidos de Compartir (Arriba) -->
+    <!-- Compartir WhatsApp (arriba) -->
     <div class="flex items-center justify-between py-3 border-y border-slate-200 mb-6">
       <span class="text-xs text-slate-500 font-medium">Compartí esta novedad con vecinos:</span>
-      <ShareWhatsApp 
-        title={noticia.titulo} 
+      <ShareWhatsApp
+        title={noticia.titulo}
         summary={noticia.resumen_whatsapp || noticia.copete}
-        size="md" 
+        size="md"
       />
     </div>
+
+    <!-- Panel de Confiabilidad y Fuentes (arriba del cuerpo) -->
+    <SourcesPanel
+      fuentes={fuentesConsultadas}
+      nivel_confiabilidad={nivelConfiabilidad}
+      num_actualizaciones={numActualizaciones}
+    />
 
     <!-- Imagen Principal -->
     {noticia.imagen && (
@@ -92,31 +133,30 @@ const relatedNews = noticiasIndex
         <img
           src={noticia.imagen}
           alt={noticia.titulo}
+          onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80';"
           class="w-full aspect-[16/9] object-cover"
         />
-        {noticia.fuente_nombre && (
-          <div class="p-2 text-[11px] text-slate-500 text-right bg-slate-50">
-            Imagen ilustrativa / Fuente: {noticia.fuente_nombre}
-          </div>
-        )}
       </div>
     )}
 
     <!-- Cuerpo de la Noticia -->
-    <div class="prose prose-slate max-w-none text-slate-800 text-base sm:text-lg leading-relaxed space-y-5 mb-10">
+    <div class="prose prose-slate max-w-none text-slate-800 text-base sm:text-lg leading-relaxed space-y-5 mb-6">
       {Array.isArray(noticia.cuerpo) ? (
-        noticia.cuerpo.map((parrafo: string) => (
-          <p>{parrafo}</p>
-        ))
+        noticia.cuerpo.map((parrafo: string) => <p>{parrafo}</p>)
       ) : (
         <p>{noticia.cuerpo}</p>
       )}
     </div>
 
-    <!-- Tags / Etiquetas -->
+    <!-- Línea de Tiempo de Actualizaciones (si hay más de 1 hito) -->
+    {cronologia.length > 1 && (
+      <EventTimeline actualizaciones={cronologia} estado={noticia.estado || "Publicado"} />
+    )}
+
+    <!-- Tags -->
     {noticia.tags && noticia.tags.length > 0 && (
       <div class="flex flex-wrap items-center gap-2 mb-8 pt-4 border-t border-slate-200">
-        <span class="text-xs font-semibold text-slate-500">Temas relacionados:</span>
+        <span class="text-xs font-semibold text-slate-500">Temas:</span>
         {noticia.tags.map((tag: string) => (
           <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-lg border border-slate-200">
             #{tag}
@@ -125,32 +165,14 @@ const relatedNews = noticiasIndex
       </div>
     )}
 
-    <!-- Atribución a la Fuente Original -->
-    <div class="bg-sky-50 border border-sky-200 rounded-xl p-4 text-xs text-sky-900 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-10">
-      <div>
-        <div class="font-bold">Transparencia y Fuente Original</div>
-        <div class="text-sky-700">Esta nota fue adaptada y parafraseada por IA a partir de información pública provista por: <strong>{noticia.fuente_nombre || 'Fuente Regional'}</strong>.</div>
-      </div>
-      {noticia.url_original && (
-        <a
-          href={noticia.url_original}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="px-3 py-1.5 bg-white border border-sky-300 text-sky-800 rounded-lg hover:bg-sky-100 font-semibold whitespace-nowrap transition-colors"
-        >
-          Ver fuente original &rarr;
-        </a>
-      )}
-    </div>
-
-    <!-- Botón Destacado de Compartir por WhatsApp (Abajo) -->
+    <!-- WhatsApp (abajo, destacado) -->
     <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-6 text-center shadow-md mb-12">
       <h3 class="text-lg font-bold mb-1">¿Te pareció útil esta información?</h3>
       <p class="text-xs text-emerald-100 mb-4">Reenviá esta nota a los grupos de WhatsApp de Villa Paranacito y el Delta.</p>
-      <ShareWhatsApp 
-        title={noticia.titulo} 
+      <ShareWhatsApp
+        title={noticia.titulo}
         summary={noticia.resumen_whatsapp || noticia.copete}
-        size="lg" 
+        size="lg"
       />
     </div>
 
@@ -163,10 +185,15 @@ const relatedNews = noticiasIndex
         Otras Noticias Locales
       </h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {relatedNews.map((rel) => (
+        {relatedNews.map((rel: any) => (
           <a href={`/noticias/${rel.slug}`} class="group bg-white rounded-xl overflow-hidden border border-slate-200 p-4 hover:shadow-md transition-shadow">
             <div class="aspect-[16/9] rounded-lg overflow-hidden mb-3 bg-slate-100">
-              <img src={rel.imagen} alt={rel.titulo} class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+              <img
+                src={rel.imagen}
+                alt={rel.titulo}
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80';"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+              />
             </div>
             <div class="text-[11px] font-semibold text-river-600 mb-1">{rel.categoria}</div>
             <h4 class="font-bold text-sm text-slate-900 group-hover:text-river-600 transition-colors line-clamp-2">
