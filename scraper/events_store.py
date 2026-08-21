@@ -7,7 +7,7 @@ import hashlib
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
-from config import DATA_DIR
+from config import DATA_DIR, DEFAULT_CATEGORY_IMAGES, DEFAULT_FALLBACK_IMAGE
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -16,6 +16,7 @@ EVENTS_INDEX = DATA_DIR / "noticias_index.json"
 ALERTS_FILE = DATA_DIR / "alertas_activas.json"
 
 EVENTS_DIR.mkdir(parents=True, exist_ok=True)
+
 
 
 # Categorías que requieren revisión humana antes de publicar
@@ -100,9 +101,10 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
         "slug": slug,
         "tiempo_lectura": rewritten.get("tiempo_lectura", "2 min"),
         "resumen_whatsapp": rewritten.get("resumen_whatsapp", ""),
-        "imagen": raw_article.get("image_url", "/images/default-paranacito.jpg"),
+        "imagen": raw_article.get("image_url") if (raw_article.get("image_url") and raw_article.get("image_url").startswith("http")) else DEFAULT_CATEGORY_IMAGES.get(rewritten.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE),
 
         # Metadatos del sistema de acontecimient@os
+
         "estado": "En desarrollo" if is_alert else "Publicado",
         "nivel_confiabilidad": confiabilidad,
         "es_alerta": is_alert,
@@ -225,8 +227,9 @@ def rebuild_events_index():
                 "estado": e.get("estado", "Publicado"),
                 "es_alerta": e.get("es_alerta", False),
                 "nivel_confiabilidad": e.get("nivel_confiabilidad", "Media"),
-                "imagen": e.get("imagen", "/images/default-paranacito.jpg"),
+                "imagen": e.get("imagen") if (e.get("imagen") and e.get("imagen").startswith("http")) else DEFAULT_CATEGORY_IMAGES.get(e.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE),
                 "tiempo_lectura": e.get("tiempo_lectura", "2 min"),
+
                 "fuentes_consultadas": [f.get("nombre") for f in e.get("fuentes_consultadas", [])],
                 "num_actualizaciones": len(e.get("cronologia_actualizaciones", [])),
                 "fecha_publicacion": e.get("fecha_publicacion"),

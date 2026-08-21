@@ -65,8 +65,8 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
         import google.generativeai as genai
         genai.configure(api_key=GEMINI_API_KEY)
         
-        # Modelos disponibles en cuentas nuevas de Google AI Studio (2025+)
-        for model_id in ["gemini-2.0-flash", "gemini-2.5-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash"]:
+        # Modelos disponibles en Google AI Studio
+        for model_id in ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]:
             try:
                 model = genai.GenerativeModel(
                     model_id,
@@ -101,12 +101,13 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
     except Exception as e_genai_pkg:
         logging.debug(f"No se pudo usar google.generativeai package: {e_genai_pkg}")
 
-    # 2. Fallback con REST API directa usando modelos 2025+
+    # 2. Fallback con REST API directa
     endpoints = [
         f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key={GEMINI_API_KEY}",
     ]
+
 
     try:
         import time

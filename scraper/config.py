@@ -48,43 +48,67 @@ CATEGORIAS = [
     "Salud y Educación"
 ]
 
+# Imágenes temáticas de alta calidad para el Delta de Entre Ríos
+DEFAULT_CATEGORY_IMAGES = {
+    "Río y Clima": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "Comunidad": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80",
+    "Obras y Servicios": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80",
+    "Deportes": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+    "Salud y Educación": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+    "Turismo y Cultura": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+    "Sociedad": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
+}
+DEFAULT_FALLBACK_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
+
+# Filtros geográficos estrictos para evitar falsos positivos
+LOCAL_REQUIRED_TERMS = [
+    "villa paranacito", "paranacito", "islas del ibicuy", "río paranacito", "rio paranacito",
+    "delta entrerriano", "arroyo sagastume", "brazo largo", "ceibas", "departamento islas"
+]
+
+LOCAL_EXCLUDE_TERMS = [
+    "puerto vilelas", "chaco", "vaca muerta", "neuquén", "neuquen", "corrientes",
+    "misiones", "formosa", "salta", "jujuy", "san juan", "mendoza", "bahía blanca",
+    "bahia blanca", "tucumán", "tucuman", "santiago del estero", "la pampa"
+]
+
 # Fuentes RSS de Noticias Regionales y Búsquedas
 RSS_SOURCES = [
     {
         "nombre": "Google Alerts - Villa Paranacito",
         "tipo": "google_alerts",
-        # URL de feed RSS generado por Google Alerts
         "url": os.getenv(
             "RSS_GOOGLE_ALERTS_PARANACITO",
             "https://www.google.com/alerts/feeds/00000000000000000000/00000000000000000000"
         ),
-        "keywords": ["paranacito", "ibicuy", "delta entrerriano"]
+        "keywords": ["paranacito", "villa paranacito", "islas del ibicuy", "delta entrerriano"]
     },
     {
         "nombre": "Diario El Día (Gualeguaychú)",
         "tipo": "regional",
         "url": "https://www.eldiaonline.com/rss",
-        "keywords": ["paranacito", "ibicuy", "islas"]
+        "keywords": ["paranacito", "villa paranacito", "islas del ibicuy"]
     },
     {
         "nombre": "R2820 Radio y Noticias",
         "tipo": "regional",
         "url": "https://r2820.com/rss",
-        "keywords": ["paranacito", "islas del ibicuy"]
+        "keywords": ["paranacito", "villa paranacito", "islas del ibicuy"]
     },
     {
         "nombre": "El Entre Ríos",
         "tipo": "provincial",
         "url": "https://www.elentrerios.com/rss",
-        "keywords": ["paranacito", "ibicuy"]
+        "keywords": ["paranacito", "villa paranacito", "islas del ibicuy"]
     },
     {
         "nombre": "APFDigital",
         "tipo": "provincial",
         "url": "https://www.apfdigital.com.ar/rss.php",
-        "keywords": ["paranacito", "ibicuy"]
+        "keywords": ["paranacito", "villa paranacito", "islas del ibicuy"]
     }
 ]
+
 
 # Prompt del sistema para el LLM (Gemini)
 AI_SYSTEM_PROMPT = """

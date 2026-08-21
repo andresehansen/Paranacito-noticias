@@ -6,7 +6,14 @@ import logging
 from datetime import datetime
 import feedparser
 from bs4 import BeautifulSoup
-from config import RSS_SOURCES, MAX_NEWS_AGE_HOURS
+from config import (
+    RSS_SOURCES,
+    MAX_NEWS_AGE_HOURS,
+    LOCAL_REQUIRED_TERMS,
+    LOCAL_EXCLUDE_TERMS,
+    DEFAULT_FALLBACK_IMAGE
+)
+from news_radar import is_locally_relevant, extract_og_image
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -54,8 +61,9 @@ def extract_image_url(entry: dict) -> str:
             if not src.startswith("data:") and not "google.com/images" in src:
                 return src
                 
-    # Imagen por defecto representativa del Delta / Paranacito
-    return "/images/default-paranacito.jpg"
+    # Imagen por defecto de alta calidad del Delta
+    return DEFAULT_FALLBACK_IMAGE
+
 
 def is_relevant(text: str, keywords: list) -> bool:
     """Determina si el contenido hace referencia a Villa Paranacito o zonas aledañas."""
