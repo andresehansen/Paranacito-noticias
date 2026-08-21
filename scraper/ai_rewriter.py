@@ -34,10 +34,6 @@ def rewrite_with_gemini(raw_title: str, raw_content: str, source_name: str) -> d
         logging.warning("GEMINI_API_KEY no configurada. Generando versión de respaldo adaptada.")
         return generate_fallback_rewrite(raw_title, raw_content, source_name)
 
-    # Endpoint oficial de Gemini API (modelo estable Free Tier)
-    model_name = "gemini-1.5-flash"
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
-    
     prompt_user = f"""
 Fuente Original: {source_name}
 Título Original: {raw_title}
@@ -62,12 +58,52 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
         }
     }
 
+    # 1. Intentar con el SDK oficial de Google Generative AI
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=GEMINI_API_KEY)
+        
+        # Probar modelos disponibles en orden de preferencia
+        for model_id in ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash"]:
+
+            try:
+                model = genai.GenerativeModel(
+                    model_id,
+                    system_instruction=AI_SYSTEM_PROMPT,
+                    generation_config={"temperature": 0.3, "response_mime_type": "application/json"}
+                )
+                import time
+                time.sleep(1.0)
+                resp = model.generate_content(prompt_user)
+                if resp and resp.text:
+                    candidate_clean = re.sub(r"^```json\s*", "", resp.text.strip())
+                    candidate_clean = re.sub(r"\s*```$", "", candidate_clean.strip())
+                    result_json = json.loads(candidate_clean)
+                    
+                    if "slug" not in result_json or not result_json["slug"]:
+                        result_json["slug"] = slugify(result_json.get("titulo", raw_title))
+                    else:
+                        result_json["slug"] = slugify(result_json["slug"])
+                        
+                    if "categoria" not in result_json or result_json["categoria"] not in CATEGORIAS:
+                        result_json["categoria"] = "Comunidad"
+                        
+                    if "cuerpo" not in result_json or not isinstance(result_json["cuerpo"], list):
+                        result_json["cuerpo"] = [raw_content]
+                        
+                    result_json["tiempo_lectura"] = calculate_reading_time(result_json["cuerpo"])
+                    return result_json
+            except Exception as e_sdk:
+                logging.debug(f"SDK model {model_id} error: {e_sdk}")
+                continue
+    except Exception as e_genai_pkg:
+        logging.debug(f"No se pudo usar google.generativeai package: {e_genai_pkg}")
+
+    # 2. Fallback con REST API directa
     endpoints = [
         f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}",
         f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
         f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent?key={GEMINI_API_KEY}"
     ]
 
     try:
@@ -92,6 +128,7 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
             raise Exception(f"No se pudo conectar a los endpoints de Gemini ({last_error})")
 
         data = response.json()
+
 
 
         candidate = data["candidates"][0]["content"]["parts"][0]["text"]

@@ -238,7 +238,11 @@ def rebuild_events_index():
         except Exception as ex:
             logging.error(f"Error indexando {event_file}: {ex}")
 
-    events.sort(key=lambda x: x.get("fecha_ultima_actualizacion_iso", ""), reverse=True)
+    # Ordenar de forma segura convirtiendo a string (evita NoneType error)
+    events.sort(
+        key=lambda x: str(x.get("fecha_ultima_actualizacion_iso") or x.get("fecha_inicio_iso") or x.get("fecha_iso") or ""),
+        reverse=True
+    )
 
     with open(EVENTS_INDEX, "w", encoding="utf-8") as f:
         json.dump(events, f, ensure_ascii=False, indent=2)
