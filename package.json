@@ -1,0 +1,11 @@
+{
+  "name": "paranacito-noticias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal de Noticias de Villa Paranacito",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix frontend start"
+  }
+}
