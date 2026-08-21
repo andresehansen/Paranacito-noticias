@@ -62,19 +62,37 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
         }
     }
 
+    endpoints = [
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent?key={GEMINI_API_KEY}"
+    ]
+
     try:
         import time
-        time.sleep(2.0)  # Respetar rate limit del Free Tier (15 RPM)
-        response = requests.post(url, json=payload, timeout=25)
-        
-        # Fallback a gemini-2.0-flash si estuviera disponible
-        if response.status_code == 404:
-            fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
-            response = requests.post(fallback_url, json=payload, timeout=25)
+        time.sleep(1.5)
 
-        response.raise_for_status()
+        response = None
+        last_error = None
+
+        for endpoint_url in endpoints:
+            try:
+                resp = requests.post(endpoint_url, json=payload, timeout=20)
+                if resp.status_code == 200:
+                    response = resp
+                    break
+                else:
+                    last_error = f"{resp.status_code}: {resp.text[:100]}"
+            except Exception as e_req:
+                last_error = str(e_req)
+
+        if not response or response.status_code != 200:
+            raise Exception(f"No se pudo conectar a los endpoints de Gemini ({last_error})")
 
         data = response.json()
+
 
         candidate = data["candidates"][0]["content"]["parts"][0]["text"]
         

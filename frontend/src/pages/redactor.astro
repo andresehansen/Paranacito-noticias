@@ -3,23 +3,86 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout
-  title="Mesa de Redacción IA | Paranacito Noticias"
-  description="Asistente de redacción periodística asistido por inteligencia artificial para Villa Paranacito y el Delta."
+  title="Acceso Restringido | Paranacito Noticias"
+  description="Panel privado de redacción."
 >
-  <div class="max-w-5xl mx-auto py-6 px-4 sm:px-6">
+  <!-- Evitar que Google o buscadores indexen esta página -->
+  <head slot="head">
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+  </head>
+
+  <!-- Pantalla de Bloqueo por PIN / Clave de Acceso -->
+  <div id="auth-lock-screen" class="max-w-md mx-auto my-16 p-8 bg-white rounded-3xl border border-slate-200 shadow-xl text-center">
+    <div class="w-16 h-16 bg-slate-900 text-white rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-md">
+      🔒
+    </div>
+    <h2 class="text-xl font-extrabold text-slate-900 mb-1">Mesa de Redacción Privada</h2>
+    <p class="text-xs text-slate-500 mb-6">
+      Área restringida para edición y publicación de noticias en Paranacito Noticias.
+    </p>
+
+    <div class="space-y-4">
+      <div>
+        <label for="admin-pin" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 text-left">
+          Ingresá tu PIN de Administrador
+        </label>
+        <input
+          type="password"
+          id="admin-pin"
+          placeholder="••••"
+          maxlength="20"
+          class="w-full text-center text-lg font-mono tracking-widest bg-slate-50 border border-slate-300 rounded-xl py-3 px-4 focus:ring-2 focus:ring-river-500 focus:outline-none"
+        />
+      </div>
+
+      <button
+        type="button"
+        id="btn-unlock"
+        class="w-full py-3 bg-river-600 hover:bg-river-700 text-white font-bold text-sm rounded-xl shadow transition-colors cursor-pointer"
+      >
+        Ingresar al Panel
+      </button>
+
+      <div id="pin-error" class="hidden text-xs text-rose-600 font-semibold pt-1">
+        PIN incorrecto. Intentá nuevamente.
+      </div>
+
+      <p class="text-[11px] text-slate-400 pt-3 border-t border-slate-100">
+        PIN por defecto inicial: <code class="bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded font-mono font-bold">1907</code> (podés cambiarlo dentro del panel).
+      </p>
+    </div>
+  </div>
+
+  <!-- Contenido del Panel (Oculto hasta autenticación) -->
+  <div id="admin-panel" class="hidden max-w-5xl mx-auto py-6 px-4 sm:px-6">
     
     <!-- Encabezado de la página -->
-    <header class="mb-8 pb-6 border-b border-slate-200">
-      <div class="flex items-center gap-3 mb-2">
+    <header class="mb-8 pb-6 border-b border-slate-200 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
         <span class="p-2.5 bg-river-100 text-river-700 rounded-xl text-xl">✍️</span>
         <div>
           <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
             Mesa de Redacción Asistida por IA
           </h1>
           <p class="text-sm text-slate-600">
-            Transformá reportes vecinales, alertas o comunicados en noticias profesionales listas para publicar.
+            Panel exclusivo de administración — Villa Paranacito y Delta de Entre Ríos.
           </p>
         </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button
+          id="btn-change-pin"
+          class="text-xs text-slate-600 hover:text-slate-900 bg-slate-100 px-3 py-1.5 rounded-lg transition-colors"
+        >
+          ⚙️ Cambiar PIN
+        </button>
+        <button
+          id="btn-logout"
+          class="text-xs text-rose-600 hover:text-rose-700 bg-rose-50 px-3 py-1.5 rounded-lg font-semibold transition-colors"
+        >
+          Cerrar Sesión
+        </button>
       </div>
     </header>
 
@@ -114,7 +177,7 @@ import Layout from '../layouts/Layout.astro';
           <input
             type="url"
             id="imagen-url"
-            placeholder="https://... (o dejá vacío para imagen automática)"
+            placeholder="https://... (o dejá vacío para imagen temática automática)"
             class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
           />
         </div>
@@ -227,7 +290,7 @@ import Layout from '../layouts/Layout.astro';
               </div>
               <button
                 id="btn-download-json"
-                class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 font-bold text-xs rounded-xl transition-colors flex items-center gap-2 shadow"
+                class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 font-bold text-xs rounded-xl transition-colors flex items-center gap-2 shadow cursor-pointer"
               >
                 <span>📥</span>
                 <span>Descargar JSON</span>
@@ -249,7 +312,66 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <script>
-  // Cargar clave de Gemini desde localStorage si existe
+  // ─── CONTROL DE ACCESO PRIVADO POR PIN ─────────────────────────
+  const DEFAULT_PIN = "1907"; // Año fundacional simbólico de Villa Paranacito
+  const lockScreen = document.getElementById('auth-lock-screen');
+  const adminPanel = document.getElementById('admin-panel');
+  const inputPin = document.getElementById('admin-pin') as HTMLInputElement;
+  const btnUnlock = document.getElementById('btn-unlock');
+  const pinError = document.getElementById('pin-error');
+  const btnLogout = document.getElementById('btn-logout');
+  const btnChangePin = document.getElementById('btn-change-pin');
+
+  function getStoredPin(): string {
+    return localStorage.getItem('pn_admin_pin') || DEFAULT_PIN;
+  }
+
+  function checkAuth() {
+    const isAuth = sessionStorage.getItem('pn_admin_auth') === 'true';
+    if (isAuth) {
+      lockScreen?.classList.add('hidden');
+      adminPanel?.classList.remove('hidden');
+    } else {
+      lockScreen?.classList.remove('hidden');
+      adminPanel?.classList.add('hidden');
+    }
+  }
+
+  btnUnlock?.addEventListener('click', () => {
+    const entered = inputPin?.value.trim();
+    if (entered === getStoredPin()) {
+      sessionStorage.setItem('pn_admin_auth', 'true');
+      if (pinError) pinError.classList.add('hidden');
+      checkAuth();
+    } else {
+      if (pinError) pinError.classList.remove('hidden');
+    }
+  });
+
+  inputPin?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      btnUnlock?.click();
+    }
+  });
+
+  btnLogout?.addEventListener('click', () => {
+    sessionStorage.removeItem('pn_admin_auth');
+    if (inputPin) inputPin.value = '';
+    checkAuth();
+  });
+
+  btnChangePin?.addEventListener('click', () => {
+    const nuevo = prompt("Ingresá tu nuevo PIN de administrador (números o letras):");
+    if (nuevo && nuevo.trim().length >= 4) {
+      localStorage.setItem('pn_admin_pin', nuevo.trim());
+      alert("✅ PIN actualizado exitosamente.");
+    }
+  });
+
+  // Ejecutar verificación de autenticación al cargar
+  checkAuth();
+
+  // ─── LÓGICA DE REDACCIÓN CON GEMINI ─────────────────────────
   const inputKey = document.getElementById('gemini-key') as HTMLInputElement;
   const savedKey = localStorage.getItem('gemini_api_key') || '';
   if (inputKey && savedKey) {
@@ -329,10 +451,8 @@ import Layout from '../layouts/Layout.astro';
       return;
     }
 
-    // Guardar clave en localStorage
     localStorage.setItem('gemini_api_key', apiKey);
 
-    // Estado cargando
     if (btnGenerar && btnIcon && btnText) {
       btnGenerar.setAttribute('disabled', 'true');
       btnIcon.textContent = '⏳';
@@ -379,7 +499,7 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
       });
 
       if (!response.ok) {
-        throw new Error(`Error ${response.status}: Verifica tu clave de Gemini API.`);
+        throw new Error(`Error ${response.status}: Verificá tu clave de Gemini API.`);
       }
 
       const resData = await response.json();
@@ -431,7 +551,6 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
         archivo: `${nowIso.split('T')[0]}-${finalSlug}.json`
       };
 
-      // Renderizar Vista Previa
       if (prevTitulo) prevTitulo.textContent = generatedArticleData.titulo;
       if (prevCopete) prevCopete.textContent = generatedArticleData.copete;
       if (prevCategoria) prevCategoria.textContent = generatedArticleData.categoria;
@@ -490,7 +609,6 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
     }
   });
 
-  // Copiar WhatsApp
   btnCopyWa?.addEventListener('click', () => {
     if (!generatedArticleData) return;
     navigator.clipboard.writeText(generatedArticleData.resumen_whatsapp);
@@ -501,7 +619,6 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
     }
   });
 
-  // Descargar JSON listo para Git
   btnDownloadJson?.addEventListener('click', () => {
     if (!generatedArticleData) return;
     const jsonStr = JSON.stringify(generatedArticleData, null, 2);

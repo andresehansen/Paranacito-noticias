@@ -126,19 +126,33 @@ El porcentaje_novedad indica qué tan nueva es la información del artículo rec
         }
     }
 
+    endpoints = [
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    ]
+
     try:
-        resp = requests.post(url, json=payload, timeout=20)
-        if resp.status_code == 404:
-            # Fallback a gemini-1.5-flash
-            url_fb = url.replace("gemini-2.5-flash", "gemini-1.5-flash")
-            resp = requests.post(url_fb, json=payload, timeout=20)
-        resp.raise_for_status()
+        resp = None
+        for ep in endpoints:
+            try:
+                r = requests.post(ep, json=payload, timeout=15)
+                if r.status_code == 200:
+                    resp = r
+                    break
+            except Exception:
+                pass
+
+        if not resp or resp.status_code != 200:
+            raise Exception("Ningún endpoint de Gemini respondió 200")
 
         data = resp.json()
         text_resp = data["candidates"][0]["content"]["parts"][0]["text"]
         text_clean = re.sub(r"^```json\s*", "", text_resp.strip())
         text_clean = re.sub(r"\s*```$", "", text_clean.strip())
         return json.loads(text_clean)
+
 
     except Exception as e:
         logging.warning(f"Error en análisis Gemini: {e}. Usando similitud textual.")
