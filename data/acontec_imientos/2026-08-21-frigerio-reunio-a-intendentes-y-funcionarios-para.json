@@ -1,9 +1,9 @@
 {
   "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-para",
-  "titulo": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño",
-  "copete": "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay. 21/08/2026. asdas ...",
+  "titulo": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú",
+  "copete": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú. Frigerio reunió a intendentes y funcionarios para coordin...",
   "cuerpo": [
-    "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay. 21/08/2026. asdas ..."
+    "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú. Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño El Día de Gualeguaychú"
   ],
   "categoria": "Río y Clima",
   "tags": [
@@ -13,58 +13,35 @@
   ],
   "slug": "frigerio-reunio-a-intendentes-y-funcionarios-para",
   "tiempo_lectura": "1 min",
-  "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño* - Novedades de Villa Paranacito.",
+  "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú* - Novedades de Villa Paranacito.",
   "imagen": "/images/default-paranacito.jpg",
-  "estado": "En desarrollo",
+  "estado": "Publicado",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
   "publicado": true,
   "fuentes_consultadas": [
     {
-      "nombre": "Google Alerts - Villa Paranacito",
-      "url": "https://www.google.com/url?rct=j&sa=t&url=https://chajarialdia.com.ar/%3Fp%3D325448&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0r2kEugSBzkv5s-jehFMVP",
-      "fecha_consulta": "2026-08-21T22:45:36.673337"
-    },
-    {
-      "nombre": "Google Alerts - Villa Paranacito",
-      "url": "https://www.google.com/url?rct=j&sa=t&url=https://microfonodigital.com.ar/contenido/1602/frigerio-reunio-a-intendentes-y-funcionarios-para-coordinar-acciones-ante-el-fen&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2AuueG_ZFP3aW2Qcq6tBb_",
-      "fecha_consulta": "2026-08-21T22:45:36.803979"
-    },
-    {
-      "nombre": "Google Alerts - Villa Paranacito",
-      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/08/20/467716-frigerio-reunio-a-intendentes-y-funcionarios-para-coordinar-acciones-ante-el-fenomeno-de-el-nino&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0Tor6oSmBKehuXiIsy79We",
-      "fecha_consulta": "2026-08-21T22:45:37.461341"
-    },
-    {
-      "nombre": "Google Alerts - Villa Paranacito",
-      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/08/desconvocatoria-instituto-superior-de-formacion-docente-continua-villa-paranacito-3/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2xa8S0-EzlHfU02dkCpnwo",
-      "fecha_consulta": "2026-08-21T22:45:37.980772"
+      "nombre": "Google News (El Día de Gualeguaychú)",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeDIxSkNrNEpLWXJLcmE1dzZuWUhKZjhxWWdDRG9CemVKemdfQ081NTJ1V2xwOHVTa0dDUkkwdjdjMDl3bWduRDI2MVExNVpBQ2tWVXJYTXVZakRxZ1JXQzZ4X2MxTktPLWUtSWxlZnU1WG8yeHVtX2F5WnFiQ0RIOUpISzBLVWdMdnZuMU5VdVF6TEp6MEE5elZYNWRBaXVBWHZ0TTRnNzdqOVBWMHk0UllYV3BCbUFvTlNVYzFxWDh4Zw?oc=5",
+      "fecha_consulta": "2026-08-21T23:09:48.560171"
     }
   ],
   "cronologia_actualizaciones": [
     {
-      "hora": "22:45",
+      "hora": "23:09",
       "fecha": "2026-08-21",
-      "fuente": "Google Alerts - Villa Paranacito",
-      "dato": "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay. 21/08/2026. asdas ...",
-      "es_dato_nuevo": true
-    },
-    {
-      "hora": "22:45",
-      "fecha": "2026-08-21",
-      "fuente": "Google Alerts - Villa Paranacito",
-      "dato": "La Rectoría del ISFDC “ Villa Paranacito ” CONVOCA a PRIMER LLAMADO a concurso por el término de CINCO días hábiles, desde el 19/08/2026 hasta el ...",
+      "fuente": "Google News (El Día de Gualeguaychú)",
+      "dato": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú. Frigerio reunió a intendentes y funcionarios para coordin...",
       "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "4558e79ca2b2f511ae57942f585cf4dcee8a2ccabfaa96d9402e8c56a6b8692f",
-    "438803ff64ce9ad6e0a7805bd2c76bf4211e5b58ba204ee98a6618079bbe72ce"
+    "1e31b51f9c995a072afc940d0981242aca50281d2c3b23cf448b1962ddd069c0"
   ],
-  "fecha_inicio_iso": "2026-08-21T22:45:36.673337",
-  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:37.980772",
-  "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_inicio_iso": "2026-08-21T23:09:48.560171",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:48.560171",
+  "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
   "archivo": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-para.json"
 }

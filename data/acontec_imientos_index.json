@@ -1,5 +1,424 @@
 [
   {
+    "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por",
+    "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por",
+    "titulo": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+    "copete": "Frigerio reunió a intendentes y funcionarios por la llegada de El Niño",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "GDELT / diarioelargentino.com",
+      "GDELT / analisisdigital.com.ar"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:24.948256",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:25.235242",
+    "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios por la llegada de El Niño* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-casi-un-documental-una-muestra-inmersiva-revela",
+    "slug": "casi-un-documental-una-muestra-inmersiva-revela",
+    "titulo": "Casi un documental: una muestra inmersiva revela el recorrido de 100.000 km por Latinoamérica - Perfil",
+    "copete": "Casi un documental: una muestra inmersiva revela el recorrido de 100.000 km por Latinoamérica - Perfil. Casi un documental: una muestra inmersiva revela el recorrido de 100.000 km ...",
+    "categoria": "Comunidad",
+    "tags": [
+      "paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Perfil)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:22.647027",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:22.647027",
+    "resumen_whatsapp": "📰 *Casi un documental: una muestra inmersiva revela el recorrido de 100.000 km por Latinoamérica - Perfil* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-corrientes-atraparon-a-pescadores-paraguayos-depredando-en",
+    "slug": "corrientes-atraparon-a-pescadores-paraguayos-depredando-en",
+    "titulo": "Corrientes: atraparon a pescadores paraguayos depredando en una reserva natural - Perfil",
+    "copete": "Corrientes: atraparon a pescadores paraguayos depredando en una reserva natural - Perfil. Corrientes: atraparon a pescadores paraguayos depredando en una reserva natural Perfil",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "paranacito",
+      "delta",
+      "turismo y cultura"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Perfil)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:20.300907",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:20.300907",
+    "resumen_whatsapp": "📰 *Corrientes: atraparon a pescadores paraguayos depredando en una reserva natural - Perfil* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-veronica-lanfranchi-pidio-que-los-docentes-de",
+    "slug": "veronica-lanfranchi-pidio-que-los-docentes-de",
+    "titulo": "Verónica Lanfranchi pidió que los docentes de escuelas privadas también reciban los 50.000 Chachos - examedia.com.ar",
+    "copete": "Verónica Lanfranchi pidió que los docentes de escuelas privadas también reciban los 50.000 Chachos - examedia.com.ar. Verónica Lanfranchi pidió que los docentes de escuelas privada...",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "paranacito",
+      "delta",
+      "salud y educación"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (examedia.com.ar)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:17.889878",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:17.889878",
+    "resumen_whatsapp": "📰 *Verónica Lanfranchi pidió que los docentes de escuelas privadas también reciban los 50.000 Chachos - examedia.com.ar* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-la-enorme-operacion-logistica-detras-de-vaca",
+    "slug": "la-enorme-operacion-logistica-detras-de-vaca",
+    "titulo": "La enorme operación logística detrás de Vaca Muerta: más de 4000 camiones transportan arenas por mes - Diario Río Negro",
+    "copete": "La enorme operación logística detrás de Vaca Muerta: más de 4000 camiones transportan arenas por mes - Diario Río Negro. La enorme operación logística detrás de Vaca Muerta: más de...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Diario Río Negro)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:15.310950",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:15.310950",
+    "resumen_whatsapp": "📰 *La enorme operación logística detrás de Vaca Muerta: más de 4000 camiones transportan arenas por mes - Diario Río Negro* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-mira-la-misteriosa-isla-que-emergio-frente",
+    "slug": "mira-la-misteriosa-isla-que-emergio-frente",
+    "titulo": "Mirá la misteriosa isla que emergió frente al Faro de Punta Mogotes en Mar del Plata - Perfil",
+    "copete": "Mirá la misteriosa isla que emergió frente al Faro de Punta Mogotes en Mar del Plata - Perfil. Mirá la misteriosa isla que emergió frente al Faro de Punta Mogotes en Mar del Plata ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Perfil)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:12.946073",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:12.946073",
+    "resumen_whatsapp": "📰 *Mirá la misteriosa isla que emergió frente al Faro de Punta Mogotes en Mar del Plata - Perfil* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-detuvieron-a-un-hombre-acusado-de-un",
+    "slug": "detuvieron-a-un-hombre-acusado-de-un",
+    "titulo": "Detuvieron a un hombre acusado de un robo en la zona sudoeste",
+    "copete": "Detuvieron a un hombre acusado de un robo en la zona sudoeste - R2820. Detuvieron a un hombre acusado de un robo en la zona sudoeste R2820",
+    "categoria": "Comunidad",
+    "tags": [
+      "paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (R2820)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:10.289961",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:10.289961",
+    "resumen_whatsapp": "📰 *Detuvieron a un hombre acusado de un robo en la zona sudoeste* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-intimido-a-un-menor-con-un-arma",
+    "slug": "intimido-a-un-menor-con-un-arma",
+    "titulo": "Intimidó a un menor con un arma para que le mostrara su celular y disparó al aire - Diario El Argentino",
+    "copete": "Intimidó a un menor con un arma para que le mostrara su celular y disparó al aire - Diario El Argentino. Intimidó a un menor con un arma para que le mostrara su celular y disparó a...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Diario El Argentino)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:07.981365",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:07.981365",
+    "resumen_whatsapp": "📰 *Intimidó a un menor con un arma para que le mostrara su celular y disparó al aire - Diario El Argentino* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-frente-al-avance-de-el-nino-la",
+    "slug": "frente-al-avance-de-el-nino-la",
+    "titulo": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e intensifica cuidados en rodeos - TN",
+    "copete": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e intensifica cuidados en rodeos - TN. Frente al avance de El Niño, la producción se equipa con rada...",
+    "categoria": "Comunidad",
+    "tags": [
+      "paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (TN)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:05.599476",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:05.599476",
+    "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e intensifica cuidados en rodeos - TN* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-puerto-vilelas-le-disparo-a-un-hombre",
+    "slug": "puerto-vilelas-le-disparo-a-un-hombre",
+    "titulo": "Puerto Vilelas: le disparó a un hombre y luego fue atacado por un grupo de 20 personas - Mas Contenidos.Net",
+    "copete": "Puerto Vilelas: le disparó a un hombre y luego fue atacado por un grupo de 20 personas - Mas Contenidos.Net. Puerto Vilelas: le disparó a un hombre y luego fue atacado por un grupo...",
+    "categoria": "Comunidad",
+    "tags": [
+      "paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Mas Contenidos.Net)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:10 hs",
+    "fecha_inicio_iso": "2026-08-21T23:10:03.211633",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:10:03.211633",
+    "resumen_whatsapp": "📰 *Puerto Vilelas: le disparó a un hombre y luego fue atacado por un grupo de 20 personas - Mas Contenidos.Net* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-entre-rios-se-prepara-ante-la-llegada",
+    "slug": "entre-rios-se-prepara-ante-la-llegada",
+    "titulo": "Entre Ríos se prepara ante la llegada de \"El Niño\": Frigerio reunió a intendentes y funcionarios - Dos Florines",
+    "copete": "Entre Ríos se prepara ante la llegada de \"El Niño\": Frigerio reunió a intendentes y funcionarios - Dos Florines. Entre Ríos se prepara ante la llegada de \"El Niño\": Frigerio reunió...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Dos Florines)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_inicio_iso": "2026-08-21T23:09:58.240594",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:58.240594",
+    "resumen_whatsapp": "📰 *Entre Ríos se prepara ante la llegada de \"El Niño\": Frigerio reunió a intendentes y funcionarios - Dos Florines* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-un-hombre-baleado-y-otro-golpeado-tras",
+    "slug": "un-hombre-baleado-y-otro-golpeado-tras",
+    "titulo": "Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias",
+    "copete": "Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias. Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito SPNoti...",
+    "categoria": "Comunidad",
+    "tags": [
+      "paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (SPNoticias)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_inicio_iso": "2026-08-21T23:09:53.549837",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:53.549837",
+    "resumen_whatsapp": "📰 *Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
+    "copete": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso - R2820. Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobe...",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "paranacito",
+      "delta",
+      "obras y servicios"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (R2820)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_inicio_iso": "2026-08-21T23:09:50.933276",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:50.933276",
+    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-para",
+    "slug": "frigerio-reunio-a-intendentes-y-funcionarios-para",
+    "titulo": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú",
+    "copete": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú. Frigerio reunió a intendentes y funcionarios para coordin...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (El Día de Gualeguaychú)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_inicio_iso": "2026-08-21T23:09:48.560171",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:48.560171",
+    "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño - El Día de Gualeguaychú* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper Niño en Entre Ríos - Letra P",
+    "copete": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper Niño en Entre Ríos - Letra P. Rogelio Frigerio activó con intendentes oficialistas y opo...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google News (Letra P)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_inicio_iso": "2026-08-21T23:09:46.184136",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:46.184136",
+    "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper Niño en Entre Ríos - Letra P* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-como-habitar-un-territorio-10-casas-moldeadas",
+    "slug": "como-habitar-un-territorio-10-casas-moldeadas",
+    "titulo": "Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - ArchDaily",
+    "copete": "Imagen 29 de 31 de la galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina. Implantación. Casa en Villa Paranacito",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "/images/default-paranacito.jpg",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google News (ArchDaily)",
+      "Google News (ArchDaily)"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+    "fecha_inicio_iso": "2026-08-21T22:45:36.258532",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:43.785064",
+    "resumen_whatsapp": "📰 *Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - ArchDaily* - Novedades de Villa Paranacito."
+  },
+  {
     "acontecimiento_id": "2026-08-21-la-vida-del-humedal-jose-jacobsen-nacio",
     "slug": "la-vida-del-humedal-jose-jacobsen-nacio",
     "titulo": "La vida del humedal: José Jacobsen nació en el delta entrerriano y dirige una cooperativa que pelea para recuperar la actividad y retener a la población de isleños - Bichos de Campo",
@@ -4372,34 +4791,6 @@
     "resumen_whatsapp": "📰 *Lanzaron la licitación para terminar el jardín de infantes \"Sonrisas de Sol\" en Villa Paranacito* - Novedades de Villa Paranacito."
   },
   {
-    "acontecimiento_id": "2026-08-21-como-habitar-un-territorio-10-casas-moldeadas",
-    "slug": "como-habitar-un-territorio-10-casas-moldeadas",
-    "titulo": "Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - ArchDaily",
-    "copete": "Imagen 29 de 31 de la galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina. Implantación. Casa en Villa Paranacito",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "/images/default-paranacito.jpg",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google News (ArchDaily)",
-      "Google News (ArchDaily)"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_inicio_iso": "2026-08-21T22:45:36.258532",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:40.393596",
-    "resumen_whatsapp": "📰 *Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - ArchDaily* - Novedades de Villa Paranacito."
-  },
-  {
     "acontecimiento_id": "2026-08-21-el-superior-tribunal-de-justicia-se-reunio",
     "slug": "el-superior-tribunal-de-justicia-se-reunio",
     "titulo": "El Superior Tribunal de Justicia se reunió en Villa Paranacito y juró la nueva jueza de Paz - Poder Judicial de Entre Ríos",
@@ -4506,89 +4897,6 @@
     "resumen_whatsapp": "📰 *Rogelio Frigerio impulsa a Fermín Tristán en Villa Paranacito para terminar con 30 años de hegemonía del PJ - Letra P* - Novedades de Villa Paranacito."
   },
   {
-    "acontecimiento_id": "2026-08-21-entre-rios-se-prepara-ante-la-llegada",
-    "slug": "entre-rios-se-prepara-ante-la-llegada",
-    "titulo": "Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios",
-    "copete": "... Villa Paranacito , además de representantes de Concepción del Uruguay y Villaguay. El gobernador Rogelio Frigerio encabezó este jueves una reunión ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "/images/default-paranacito.jpg",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google News (Informe Digital)"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_inicio_iso": "2026-08-21T22:45:37.327723",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:38.627492",
-    "resumen_whatsapp": "📰 *Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-21-vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
-    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "/images/default-paranacito.jpg",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google News (R2820)"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_inicio_iso": "2026-08-21T22:45:37.078078",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:38.226000",
-    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-para",
-    "slug": "frigerio-reunio-a-intendentes-y-funcionarios-para",
-    "titulo": "Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño",
-    "copete": "... Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay. 21/08/2026. asdas ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "/images/default-paranacito.jpg",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_inicio_iso": "2026-08-21T22:45:36.673337",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:37.980772",
-    "resumen_whatsapp": "📰 *Frigerio reunió a intendentes y funcionarios para coordinar acciones ante el fenómeno de El Niño* - Novedades de Villa Paranacito."
-  },
-  {
     "acontecimiento_id": "2026-08-21-llamado-a-concurso-instituto-superior-de-formacion",
     "slug": "llamado-a-concurso-instituto-superior-de-formacion",
     "titulo": "Llamado a Concurso – Instituto Superior de Formación Docente Continua “<b>Villa Paranacito</b>” – ISLAS",
@@ -4631,6 +4939,8 @@
     "imagen": "/images/default-paranacito.jpg",
     "tiempo_lectura": "1 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
@@ -4639,57 +4949,5 @@
     "fecha_inicio_iso": "2026-08-21T22:45:37.730047",
     "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:37.730047",
     "resumen_whatsapp": "📰 *Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-21-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
-    "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
-    "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P",
-    "copete": "Por la oposición participaron el intendente de Federación, Ricardo Bravo; su par de Villa Paranacito , César Melchiori; y la intendenta de Victoria, ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "/images/default-paranacito.jpg",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_inicio_iso": "2026-08-21T22:45:36.545652",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:36.545652",
-    "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-21-frente-al-avance-de-el-nino-la",
-    "slug": "frente-al-avance-de-el-nino-la",
-    "titulo": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN",
-    "copete": "Los equipos de los hospitales Behring de Ibicuy y de Villa Paranacito , en articulación con las autoridades municipales y la Prefectura, llevan ...",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "paranacito",
-      "delta",
-      "salud y educación"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "/images/default-paranacito.jpg",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
-    "fecha_inicio_iso": "2026-08-21T22:45:36.399302",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:36.399302",
-    "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito."
   }
 ]

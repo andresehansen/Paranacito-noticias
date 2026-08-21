@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-21-un-hombre-baleado-y-otro-golpeado-tras",
+  "titulo": "Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias",
+  "copete": "Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias. Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito SPNoti...",
+  "cuerpo": [
+    "Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias. Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito SPNoticias"
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "paranacito",
+    "delta",
+    "comunidad"
+  ],
+  "slug": "un-hombre-baleado-y-otro-golpeado-tras",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias* - Novedades de Villa Paranacito.",
+  "imagen": "/images/default-paranacito.jpg",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (SPNoticias)",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUM5a1M2NllpSnNrRThfdVk3NmlKZVd4N3F0TWpBeFpQVThZb1llb0k0SEJIa2IxQm45R1IwUFJ3c1prbV9VX3IxMDFHWEdvOENvSUFSRkxLZnppVFdYa3kzMmdCU2FzaUlkUWNtRUNJcE05QmhhU0VuNjVqLU84SktmMDFXSTF5eFhodUozOHBEcFU0WFh2MGltVUFrVEpETWlWcDZDeHVOQQ?oc=5",
+      "fecha_consulta": "2026-08-21T23:09:53.549837"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "23:09",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (SPNoticias)",
+      "dato": "Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito - SPNoticias. Un hombre baleado y otro golpeado tras violento enfrentamiento en El Paranacito SPNoti...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "9df445bd483d3be3c10a839d15312dab33b79f2fa2af253dc1f0e08ade61f51b"
+  ],
+  "fecha_inicio_iso": "2026-08-21T23:09:53.549837",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:53.549837",
+  "fecha_publicacion": "21 de Agosto de 2026, 23:09 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
+  "archivo": "2026-08-21-un-hombre-baleado-y-otro-golpeado-tras.json"
+}

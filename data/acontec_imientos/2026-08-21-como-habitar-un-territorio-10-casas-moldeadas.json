@@ -58,6 +58,13 @@
       "fuente": "Google News (ArchDaily)",
       "dato": "Galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - 2 - ArchDaily. Galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - 2 Arc",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:09",
+      "fecha": "2026-08-21",
+      "fuente": "Google News (ArchDaily)",
+      "dato": "Galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - 29 - ArchDaily. Galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - 29 A",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -66,8 +73,8 @@
     "8773458d226e5da81e2d9f67bcbe5ea025fbdcd2c689a7ad3eef6ec91c26e330"
   ],
   "fecha_inicio_iso": "2026-08-21T22:45:36.258532",
-  "fecha_ultima_actualizacion_iso": "2026-08-21T22:45:40.393596",
+  "fecha_ultima_actualizacion_iso": "2026-08-21T23:09:43.785064",
   "fecha_publicacion": "21 de Agosto de 2026, 22:45 hs",
-  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 22:45 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:09 hs",
   "archivo": "2026-08-21-como-habitar-un-territorio-10-casas-moldeadas.json"
 }
