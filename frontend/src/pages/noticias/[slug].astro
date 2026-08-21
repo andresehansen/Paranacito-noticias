@@ -1,0 +1,181 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ShareWhatsApp from '../../components/ShareWhatsApp.astro';
+import noticiasIndex from '../../../../data/noticias_index.json';
+
+export async function getStaticPaths() {
+  const jsonFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
+  
+  return Object.values(jsonFiles).map((file: any) => {
+    const noticia = file.default || file;
+    return {
+      params: { slug: noticia.slug },
+      props: { noticia }
+    };
+  });
+}
+
+const { noticia } = Astro.props;
+
+const categoryColors: Record<string, string> = {
+  'Río y Clima': 'bg-sky-100 text-sky-800 border-sky-200',
+  'Comunidad': 'bg-emerald-100 text-emerald-800 border-emerald-200',
+  'Deportes': 'bg-amber-100 text-amber-800 border-amber-200',
+  'Obras y Servicios': 'bg-purple-100 text-purple-800 border-purple-200',
+  'Salud y Educación': 'bg-rose-100 text-rose-800 border-rose-200',
+  'Turismo y Cultura': 'bg-teal-100 text-teal-800 border-teal-200',
+  'Sociedad': 'bg-indigo-100 text-indigo-800 border-indigo-200'
+};
+
+const badgeClass = categoryColors[noticia.categoria] || 'bg-slate-100 text-slate-800 border-slate-200';
+
+const relatedNews = noticiasIndex
+  .filter((n: any) => n.slug !== noticia.slug)
+  .slice(0, 3);
+---
+
+<Layout
+  title={`${noticia.titulo} | Paranacito Noticias`}
+  description={noticia.copete}
+  image={noticia.imagen}
+  type="article"
+>
+  
+  <!-- Navegación de migas de pan (Breadcrumb) -->
+  <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6">
+    <a href="/" class="hover:text-slate-800 transition-colors">Inicio</a>
+    <span>/</span>
+    <span class="text-slate-700 font-medium">{noticia.categoria}</span>
+  </nav>
+
+  <article class="max-w-3xl mx-auto">
+    
+    <!-- Encabezado de la Noticia -->
+    <header class="mb-6">
+      
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class={`px-3 py-0.5 rounded-full text-xs font-semibold border ${badgeClass}`}>
+          {noticia.categoria}
+        </span>
+        <span class="text-xs text-slate-500">
+          Publicado el {noticia.fecha_publicacion}
+        </span>
+        <span class="text-xs text-slate-400">•</span>
+        <span class="text-xs text-slate-500">
+          Tiempo de lectura: {noticia.tiempo_lectura || '2 min'}
+        </span>
+      </div>
+
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight tracking-tight mb-4">
+        {noticia.titulo}
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-700 font-medium leading-relaxed bg-slate-100/80 p-4 rounded-xl border-l-4 border-river-600">
+        {noticia.copete}
+      </p>
+
+    </header>
+
+    <!-- Botones Rápidos de Compartir (Arriba) -->
+    <div class="flex items-center justify-between py-3 border-y border-slate-200 mb-6">
+      <span class="text-xs text-slate-500 font-medium">Compartí esta novedad con vecinos:</span>
+      <ShareWhatsApp 
+        title={noticia.titulo} 
+        summary={noticia.resumen_whatsapp || noticia.copete}
+        size="md" 
+      />
+    </div>
+
+    <!-- Imagen Principal -->
+    {noticia.imagen && (
+      <div class="rounded-2xl overflow-hidden mb-8 shadow-md border border-slate-200/80 bg-slate-100">
+        <img
+          src={noticia.imagen}
+          alt={noticia.titulo}
+          class="w-full aspect-[16/9] object-cover"
+        />
+        {noticia.fuente_nombre && (
+          <div class="p-2 text-[11px] text-slate-500 text-right bg-slate-50">
+            Imagen ilustrativa / Fuente: {noticia.fuente_nombre}
+          </div>
+        )}
+      </div>
+    )}
+
+    <!-- Cuerpo de la Noticia -->
+    <div class="prose prose-slate max-w-none text-slate-800 text-base sm:text-lg leading-relaxed space-y-5 mb-10">
+      {Array.isArray(noticia.cuerpo) ? (
+        noticia.cuerpo.map((parrafo: string) => (
+          <p>{parrafo}</p>
+        ))
+      ) : (
+        <p>{noticia.cuerpo}</p>
+      )}
+    </div>
+
+    <!-- Tags / Etiquetas -->
+    {noticia.tags && noticia.tags.length > 0 && (
+      <div class="flex flex-wrap items-center gap-2 mb-8 pt-4 border-t border-slate-200">
+        <span class="text-xs font-semibold text-slate-500">Temas relacionados:</span>
+        {noticia.tags.map((tag: string) => (
+          <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-lg border border-slate-200">
+            #{tag}
+          </span>
+        ))}
+      </div>
+    )}
+
+    <!-- Atribución a la Fuente Original -->
+    <div class="bg-sky-50 border border-sky-200 rounded-xl p-4 text-xs text-sky-900 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-10">
+      <div>
+        <div class="font-bold">Transparencia y Fuente Original</div>
+        <div class="text-sky-700">Esta nota fue adaptada y parafraseada por IA a partir de información pública provista por: <strong>{noticia.fuente_nombre || 'Fuente Regional'}</strong>.</div>
+      </div>
+      {noticia.url_original && (
+        <a
+          href={noticia.url_original}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-3 py-1.5 bg-white border border-sky-300 text-sky-800 rounded-lg hover:bg-sky-100 font-semibold whitespace-nowrap transition-colors"
+        >
+          Ver fuente original &rarr;
+        </a>
+      )}
+    </div>
+
+    <!-- Botón Destacado de Compartir por WhatsApp (Abajo) -->
+    <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-6 text-center shadow-md mb-12">
+      <h3 class="text-lg font-bold mb-1">¿Te pareció útil esta información?</h3>
+      <p class="text-xs text-emerald-100 mb-4">Reenviá esta nota a los grupos de WhatsApp de Villa Paranacito y el Delta.</p>
+      <ShareWhatsApp 
+        title={noticia.titulo} 
+        summary={noticia.resumen_whatsapp || noticia.copete}
+        size="lg" 
+      />
+    </div>
+
+  </article>
+
+  <!-- Noticias Relacionadas -->
+  {relatedNews.length > 0 && (
+    <section class="max-w-5xl mx-auto border-t border-slate-200 pt-10 mt-10">
+      <h3 class="text-base font-bold text-slate-900 uppercase tracking-wider mb-6">
+        Otras Noticias Locales
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {relatedNews.map((rel) => (
+          <a href={`/noticias/${rel.slug}`} class="group bg-white rounded-xl overflow-hidden border border-slate-200 p-4 hover:shadow-md transition-shadow">
+            <div class="aspect-[16/9] rounded-lg overflow-hidden mb-3 bg-slate-100">
+              <img src={rel.imagen} alt={rel.titulo} class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="text-[11px] font-semibold text-river-600 mb-1">{rel.categoria}</div>
+            <h4 class="font-bold text-sm text-slate-900 group-hover:text-river-600 transition-colors line-clamp-2">
+              {rel.titulo}
+            </h4>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+</Layout>

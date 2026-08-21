@@ -1,0 +1,63 @@
+---
+import climaData from '../../../data/clima_actual.json';
+
+const { clima, rio, ultima_actualizacion } = climaData;
+
+const statusColor = {
+  verde: 'bg-emerald-500/15 text-emerald-700 border-emerald-300 dark:text-emerald-400 dark:border-emerald-700',
+  amarillo: 'bg-amber-500/15 text-amber-700 border-amber-300 dark:text-amber-400 dark:border-amber-700',
+  rojo: 'bg-rose-500/15 text-rose-700 border-rose-300 dark:text-rose-400 dark:border-rose-700'
+}[rio.color_alerta] || 'bg-blue-50 text-blue-700 border-blue-200';
+---
+
+<div class="bg-gradient-to-r from-sky-900 to-river-800 text-white rounded-2xl p-4 md:p-5 shadow-md mb-8">
+  <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+    
+    <!-- Sección Río Paranacito -->
+    <div class="flex items-center gap-3.5 bg-white/10 backdrop-blur-sm rounded-xl p-3 px-4 border border-white/10 flex-1">
+      <div class="w-12 h-12 rounded-lg bg-sky-500/20 flex items-center justify-center text-2xl shrink-0">
+        🌊
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs uppercase tracking-wider text-sky-200 font-semibold">Río Paranacito</span>
+          <span class={`text-[11px] font-bold px-2 py-0.5 rounded-full border bg-white/90 text-slate-800`}>
+            {rio.estado}
+          </span>
+        </div>
+        <div class="flex items-baseline gap-2 mt-0.5">
+          <span class="text-2xl font-bold tracking-tight">{rio.altura_metros} m</span>
+          <span class="text-xs text-sky-100 font-medium">
+            {rio.icono_tendencia} {rio.tendencia}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Clima Actual -->
+    <div class="flex items-center gap-3.5 bg-white/10 backdrop-blur-sm rounded-xl p-3 px-4 border border-white/10 flex-1">
+      <div class="w-12 h-12 rounded-lg bg-amber-500/20 flex items-center justify-center text-2xl shrink-0">
+        {clima.icono}
+      </div>
+      <div>
+        <div class="text-xs uppercase tracking-wider text-sky-200 font-semibold">Clima en Paranacito</div>
+        <div class="flex items-baseline gap-2 mt-0.5">
+          <span class="text-2xl font-bold tracking-tight">{clima.temperatura}°C</span>
+          <span class="text-xs text-sky-100 truncate max-w-[150px]">{clima.descripcion}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detalles Rápidos y Link -->
+    <div class="flex items-center justify-between md:flex-col md:items-end text-xs text-sky-200 gap-1 shrink-0">
+      <div>Humedad: <strong class="text-white">{clima.humedad}%</strong> | Viento: <strong class="text-white">{clima.viento_velocidad_kmh} km/h {clima.viento_direccion}</strong></div>
+      <a 
+        href="/clima" 
+        class="inline-flex items-center gap-1 text-white hover:text-sky-200 font-medium underline underline-offset-2 transition-colors"
+      >
+        Ver pronóstico extendido &rarr;
+      </a>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,101 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-slate-900 text-slate-300 mt-16 border-t border-slate-800">
+  
+  <!-- Bloque de Números de Emergencia Locales -->
+  <div class="border-b border-slate-800 bg-slate-950/60 py-6">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-xs uppercase tracking-wider text-sky-400 font-bold mb-3 flex items-center gap-2">
+        <span>🚨 Teléfonos Útiles de Emergencia en Villa Paranacito</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-xs">
+        <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700">
+          <div class="text-slate-400 font-medium">Prefectura Naval</div>
+          <div class="text-base font-bold text-white mt-0.5">106</div>
+          <div class="text-[11px] text-slate-400">Emergencias Náuticas</div>
+        </div>
+
+        <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700">
+          <div class="text-slate-400 font-medium">Bomberos Voluntarios</div>
+          <div class="text-base font-bold text-white mt-0.5">100</div>
+          <div class="text-[11px] text-slate-400">(03446) 495-100</div>
+        </div>
+
+        <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700">
+          <div class="text-slate-400 font-medium">Hospital Paranacito</div>
+          <div class="text-base font-bold text-white mt-0.5">107</div>
+          <div class="text-[11px] text-slate-400">(03446) 495-123</div>
+        </div>
+
+        <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700">
+          <div class="text-slate-400 font-medium">Policía Departamental</div>
+          <div class="text-base font-bold text-white mt-0.5">101</div>
+          <div class="text-[11px] text-slate-400">Comisaría Villa Paranacito</div>
+        </div>
+
+        <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700">
+          <div class="text-slate-400 font-medium">Municipalidad</div>
+          <div class="text-base font-bold text-white mt-0.5">Mesa de Entrada</div>
+          <div class="text-[11px] text-slate-400">(03446) 495-111</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido Principal del Footer -->
+  <div class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+    
+    <!-- Info del Portal -->
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <div class="w-8 h-8 rounded-lg bg-river-600 flex items-center justify-center text-white font-bold">
+          PN
+        </div>
+        <span class="text-lg font-bold text-white">Paranacito Noticias</span>
+      </div>
+      <p class="text-slate-400 text-xs leading-relaxed mb-4">
+        Portal de noticias comunitario para Villa Paranacito y el Delta de Entre Ríos. 
+        Automatizado mediante fuentes oficiales y tecnología de libre acceso.
+      </p>
+      <div class="text-xs text-slate-500">
+        Recordá nuestra dirección web corta o instalá el acceso directo en tu celular.
+      </div>
+    </div>
+
+    <!-- Enlaces Rápidos -->
+    <div>
+      <h4 class="text-xs uppercase tracking-wider text-white font-bold mb-3">Secciones</h4>
+      <ul class="space-y-2 text-xs text-slate-400">
+        <li><a href="/" class="hover:text-white transition-colors">Portada Principal</a></li>
+        <li><a href="/clima" class="hover:text-white transition-colors">Monitoreo del Río y Pronóstico</a></li>
+        <li><a href="/categoria/comunidad" class="hover:text-white transition-colors">Noticias de la Comunidad</a></li>
+        <li><a href="/categoria/obras-y-servicios" class="hover:text-white transition-colors">Obras, Caminos y Servicios</a></li>
+        <li><a href="/categoria/deportes" class="hover:text-white transition-colors">Club Isleños y Deportes</a></li>
+        <li><a href="/categoria/turismo-y-cultura" class="hover:text-white transition-colors">Turismo y Pesca en el Delta</a></li>
+      </ul>
+    </div>
+
+    <!-- Compromiso y Fuentes -->
+    <div>
+      <h4 class="text-xs uppercase tracking-wider text-white font-bold mb-3">Fuentes y Transparencia</h4>
+      <p class="text-slate-400 text-xs leading-relaxed mb-3">
+        Este portal recopila y parafrasea informaciones públicas de organismos oficiales, medios regionales y servicios meteorológicos, citando siempre la fuente original en cada nota.
+      </p>
+      <div class="text-xs text-slate-500">
+        Proyecto comunitario de código abierto sin fines de lucro.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright / Créditos -->
+  <div class="border-t border-slate-800/80 py-4 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>© {currentYear} Paranacito Noticias. Información para la comunidad isleña.</span>
+      <span>Villa Paranacito, Islas del Ibicuy, Entre Ríos, Argentina.</span>
+    </div>
+  </div>
+
+</footer>

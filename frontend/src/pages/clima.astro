@@ -1,0 +1,209 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ShareWhatsApp from '../components/ShareWhatsApp.astro';
+import climaData from '../../../data/clima_actual.json';
+
+const { clima, rio, ultima_actualizacion, ubicacion } = climaData;
+
+const statusColor = {
+  verde: 'text-emerald-600 bg-emerald-50 border-emerald-200',
+  amarillo: 'text-amber-600 bg-amber-50 border-amber-200',
+  rojo: 'text-rose-600 bg-rose-50 border-rose-200'
+}[rio.color_alerta] || 'text-sky-600 bg-sky-50 border-sky-200';
+
+const riverPercentage = Math.min(100, Math.max(10, (rio.altura_metros / 3.0) * 100));
+
+const shareText = `🌊 *Estado del Río y Clima en Villa Paranacito*\n• Río Paranacito: ${rio.altura_metros}m (${rio.tendencia}) - Estado ${rio.estado}\n• Clima: ${clima.temperatura}°C (${clima.descripcion}), Viento: ${clima.viento_velocidad_kmh}km/h ${clima.viento_direccion}\n`;
+---
+
+<Layout
+  title={`Altura del Río y Clima en Villa Paranacito | Monitoreo Oficial`}
+  description={`Monitoreo en tiempo real de la altura del Río Paranacito (${rio.altura_metros}m), estado de alerta hidrológica y pronóstico meteorológico para el Delta.`}
+>
+  
+  <!-- Encabezado -->
+  <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+    <div>
+      <div class="text-xs uppercase tracking-wider text-river-600 font-bold">Centro de Monitoreo Hidrometeorológico</div>
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
+        Río y Clima en Villa Paranacito
+      </h1>
+      <p class="text-xs text-slate-500 mt-1">
+        Última actualización: <strong>{ultima_actualizacion} hs</strong> | Datos para {ubicacion}
+      </p>
+    </div>
+    
+    <ShareWhatsApp 
+      title="Estado del Río y Clima en Villa Paranacito"
+      summary={shareText}
+      size="md"
+    />
+  </div>
+
+  <!-- Tarjeta Principal: Altura del Río -->
+  <section class="bg-gradient-to-br from-sky-900 via-river-900 to-slate-900 text-white rounded-3xl p-6 md:p-8 shadow-xl mb-10 border border-sky-700/50">
+    <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+      
+      <!-- Datos Numéricos -->
+      <div class="space-y-3">
+        <div class="flex items-center gap-2">
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-sky-500/30 text-sky-200 border border-sky-400/30">
+            {rio.estacion}
+          </span>
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-white text-slate-900">
+            {rio.estado}
+          </span>
+        </div>
+
+        <div class="flex items-baseline gap-4">
+          <span class="text-5xl sm:text-6xl font-black tracking-tight text-white">
+            {rio.altura_metros} <span class="text-2xl sm:text-3xl font-medium text-sky-200">metros</span>
+          </span>
+        </div>
+
+        <div class="flex items-center gap-2 text-sm text-sky-200 font-medium">
+          <span>Tendencia: <strong>{rio.icono_tendencia} {rio.tendencia}</strong></span>
+          <span>•</span>
+          <span>Nivel Alerta: <strong>{rio.nivel_alerta}m</strong></span>
+          <span>•</span>
+          <span>Evacuación: <strong>{rio.nivel_evacuacion}m</strong></span>
+        </div>
+      </div>
+
+      <!-- Barra Visual de Nivel de Agua -->
+      <div class="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/15 w-full lg:max-w-md">
+        <div class="text-xs font-semibold text-sky-200 uppercase tracking-wider mb-2 flex justify-between">
+          <span>Escala Hidrométrica</span>
+          <span>{rio.altura_metros}m / 3.00m</span>
+        </div>
+
+        <!-- Barra de Progreso -->
+        <div class="h-4 bg-slate-800 rounded-full overflow-hidden p-0.5 border border-white/20 relative">
+          <div 
+            class={`h-full rounded-full transition-all duration-1000 ${
+              rio.color_alerta === 'rojo' ? 'bg-rose-500' : (rio.color_alerta === 'amarillo' ? 'bg-amber-400' : 'bg-sky-400')
+            }`}
+            style={`width: ${riverPercentage}%`}
+          ></div>
+        </div>
+
+        <!-- Referencias de Alerta -->
+        <div class="flex justify-between text-[11px] text-sky-200 mt-2">
+          <span>🟢 Normal (&lt;2.10m)</span>
+          <span>🟡 Alerta (2.30m)</span>
+          <span>🔴 Evacuación (2.60m)</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Grilla: Condiciones Climáticas Actuales -->
+  <section class="mb-10">
+    <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+      <span>🌤️</span> Condiciones Meteorológicas Actuales
+    </h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+      
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm text-center">
+        <div class="text-3xl mb-1">{clima.icono}</div>
+        <div class="text-xs text-slate-500 font-medium">Temperatura</div>
+        <div class="text-2xl font-extrabold text-slate-900">{clima.temperatura}°C</div>
+        <div class="text-[11px] text-slate-400">ST: {clima.sensacion_termica}°C</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm text-center">
+        <div class="text-3xl mb-1">💧</div>
+        <div class="text-xs text-slate-500 font-medium">Humedad</div>
+        <div class="text-2xl font-extrabold text-slate-900">{clima.humedad}%</div>
+        <div class="text-[11px] text-slate-400">Humedad relativa</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm text-center">
+        <div class="text-3xl mb-1">💨</div>
+        <div class="text-xs text-slate-500 font-medium">Viento</div>
+        <div class="text-2xl font-extrabold text-slate-900">{clima.viento_velocidad_kmh} <span class="text-sm font-normal">km/h</span></div>
+        <div class="text-[11px] text-slate-400">Dirección: {clima.viento_direccion}</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm text-center">
+        <div class="text-3xl mb-1">🌡️</div>
+        <div class="text-xs text-slate-500 font-medium">Presión</div>
+        <div class="text-2xl font-extrabold text-slate-900">{clima.presion_hpa} <span class="text-sm font-normal">hPa</span></div>
+        <div class="text-[11px] text-slate-400">Atmosférica</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm text-center col-span-2 sm:col-span-1 lg:col-span-2">
+        <div class="text-3xl mb-1">🧭</div>
+        <div class="text-xs text-slate-500 font-medium">Estado del Cielo</div>
+        <div class="text-lg font-bold text-slate-900 truncate">{clima.descripcion}</div>
+        <div class="text-[11px] text-slate-400">Visibilidad normal en el río</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pronóstico Extendido 4 Días -->
+  {clima.pronostico_extendido && clima.pronostico_extendido.length > 0 && (
+    <section class="mb-12">
+      <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+        <span>📅</span> Pronóstico Extendido para el Delta
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {clima.pronostico_extendido.map((dia: any) => (
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
+                {dia.fecha}
+              </div>
+              <div class="flex items-center gap-3 my-2">
+                <span class="text-4xl">{dia.icono}</span>
+                <div>
+                  <div class="text-xl font-bold text-slate-900">
+                    {dia.temp_max}° <span class="text-sm font-normal text-slate-400">/ {dia.temp_min}°</span>
+                  </div>
+                  <div class="text-xs text-slate-600 font-medium">{dia.descripcion}</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 mt-2">
+              <span>Lluvia prob:</span>
+              <span class={`font-bold ${dia.prob_lluvia > 30 ? 'text-sky-600' : 'text-slate-700'}`}>
+                {dia.prob_lluvia}%
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Recomendaciones de Seguridad para Navegación en el Delta -->
+  <section class="bg-sky-50 border border-sky-200 rounded-3xl p-6 md:p-8">
+    <h3 class="text-base font-bold text-sky-900 mb-3 flex items-center gap-2">
+      <span>⚓</span> Consejos de Seguridad Náutica (Prefectura Naval Argentina)
+    </h3>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-sky-800 leading-relaxed">
+      <li class="flex items-start gap-2">
+        <span class="text-sky-600 font-bold">✓</span>
+        <span>Llevar siempre chalecos salvavidas reglamentarios para todos los tripulantes a bordo.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-sky-600 font-bold">✓</span>
+        <span>Respetar estrictamente las velocidades mínimas frente a zonas pobladas y muelles comunitarios.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-sky-600 font-bold">✓</span>
+        <span>Verificar el estado de las luces de navegación antes de zarpar en horarios crepusculares o nocturnos.</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-sky-600 font-bold">✓</span>
+        <span>Ante cualquier emergencia en aguas del Delta, comunicarse de inmediato al <strong>106 (Prefectura)</strong>.</span>
+      </li>
+    </ul>
+  </section>
+
+</Layout>

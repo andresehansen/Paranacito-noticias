@@ -1,0 +1,68 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PWAInstaller from '../components/PWAInstaller.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: string;
+}
+
+const {
+  title = 'Paranacito Noticias | Portal Informativo del Delta Entrerriano',
+  description = 'Últimas noticias de Villa Paranacito, estado y altura del río, pronóstico del clima, deportes, obras y novedades de la comunidad isleña.',
+  image = '/images/default-paranacito.jpg',
+  type = 'website'
+} = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site || 'https://paranacitonoticias.vercel.app');
+const ogImageUrl = image.startsWith('http') ? image : new URL(image, canonicalUrl).href;
+---
+
+<!doctype html>
+<html lang="es" class="bg-slate-50 text-slate-900 antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- PWA Configuración -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0284c7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Paranacito Noticias" />
+
+    <!-- SEO Básico -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph / WhatsApp / Facebook Sharing -->
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:site_name" content="Paranacito Noticias" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+  </head>
+  <body class="min-h-screen flex flex-col justify-between">
+    <Header />
+    <main class="flex-grow max-w-6xl w-full mx-auto px-4 py-6">
+      <slot />
+    </main>
+    <Footer />
+    <PWAInstaller />
+  </body>
+</html>
