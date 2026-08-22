@@ -1,24 +1,31 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import noticiasIndex from '../../../data/noticias_index.json';
+
+// Cargar todas las noticias completas disponibles
+const fullNewsFiles = import.meta.glob('../../../data/noticias/*.json', { eager: true });
+const allNews = Object.values(fullNewsFiles).map((file: any) => file.default || file);
+allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || '')));
 ---
 
 <Layout
-  title="Acceso Restringido | Paranacito Noticias"
-  description="Panel privado de redacción."
+  title="Mesa de Redacción y Gestión Editorial | Paranacito Noticias"
+  description="Panel privado de administración y redacción."
 >
-  <!-- Evitar que Google o buscadores indexen esta página -->
   <head slot="head">
     <meta name="robots" content="noindex, nofollow, noarchive" />
   </head>
 
-  <!-- Pantalla de Bloqueo por PIN / Clave de Acceso -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- 1. PANTALLA DE BLOQUEO POR PIN PRIVADO                       -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
   <div id="auth-lock-screen" class="max-w-md mx-auto my-16 p-8 bg-white rounded-3xl border border-slate-200 shadow-xl text-center">
     <div class="w-16 h-16 bg-slate-900 text-white rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-md">
       🔒
     </div>
     <h2 class="text-xl font-extrabold text-slate-900 mb-1">Mesa de Redacción Privada</h2>
     <p class="text-xs text-slate-500 mb-6">
-      Área restringida para edición y publicación de noticias en Paranacito Noticias.
+      Área exclusiva para crear, editar y gestionar noticias de Paranacito Noticias.
     </p>
 
     <div class="space-y-4">
@@ -53,19 +60,21 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </div>
 
-  <!-- Contenido del Panel (Oculto hasta autenticación) -->
-  <div id="admin-panel" class="hidden max-w-5xl mx-auto py-6 px-4 sm:px-6">
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- 2. PANEL DE ADMINISTRACIÓN (AUTENTICADO)                     -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div id="admin-panel" class="hidden max-w-6xl mx-auto py-6 px-4 sm:px-6">
     
-    <!-- Encabezado de la página -->
-    <header class="mb-8 pb-6 border-b border-slate-200 flex flex-wrap items-center justify-between gap-4">
+    <!-- Encabezado del Panel -->
+    <header class="mb-6 pb-5 border-b border-slate-200 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center gap-3">
         <span class="p-2.5 bg-river-100 text-river-700 rounded-xl text-xl">✍️</span>
         <div>
           <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-            Mesa de Redacción Asistida por IA
+            Mesa de Redacción y Gestión Editorial
           </h1>
-          <p class="text-sm text-slate-600">
-            Panel exclusivo de administración — Villa Paranacito y Delta de Entre Ríos.
+          <p class="text-xs text-slate-500">
+            Paranacito Noticias — Villa Paranacito y Delta de Entre Ríos.
           </p>
         </div>
       </div>
@@ -73,25 +82,44 @@ import Layout from '../layouts/Layout.astro';
       <div class="flex items-center gap-2">
         <button
           id="btn-change-pin"
-          class="text-xs text-slate-600 hover:text-slate-900 bg-slate-100 px-3 py-1.5 rounded-lg transition-colors"
+          class="text-xs text-slate-600 hover:text-slate-900 bg-slate-100 px-3 py-1.5 rounded-lg transition-colors cursor-pointer"
         >
           ⚙️ Cambiar PIN
         </button>
         <button
           id="btn-logout"
-          class="text-xs text-rose-600 hover:text-rose-700 bg-rose-50 px-3 py-1.5 rounded-lg font-semibold transition-colors"
+          class="text-xs text-rose-600 hover:text-rose-700 bg-rose-50 px-3 py-1.5 rounded-lg font-semibold transition-colors cursor-pointer"
         >
           Cerrar Sesión
         </button>
       </div>
     </header>
 
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- Barra de Pestañas Principales -->
+    <nav class="flex items-center gap-3 mb-8 border-b border-slate-200 pb-3">
+      <button
+        id="tab-btn-create"
+        class="tab-button active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-river-600 text-white shadow-sm cursor-pointer"
+      >
+        ✨ Crear Noticia con IA
+      </button>
+      <button
+        id="tab-btn-manage"
+        class="tab-button px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
+      >
+        📰 Administrar y Editar Notas ({allNews.length})
+      </button>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- PESTAÑA 1: CREADOR DE NOTICIAS CON IA                        -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <div id="view-create" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       
       <!-- Formulario de Entrada (Columna Izquierda) -->
       <section class="lg:col-span-5 space-y-5 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-fit">
         
-        <!-- API Key Gemini (Guardada en el navegador) -->
+        <!-- API Key Gemini -->
         <div>
           <label for="gemini-key" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
             🔑 Clave Gemini API <span class="text-slate-400 font-normal">(se guarda solo en tu navegador)</span>
@@ -100,7 +128,7 @@ import Layout from '../layouts/Layout.astro';
             type="password"
             id="gemini-key"
             placeholder="Pegá tu clave de Google AI Studio"
-            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
           />
         </div>
 
@@ -112,8 +140,8 @@ import Layout from '../layouts/Layout.astro';
           <input
             type="text"
             id="fuente-nombre"
-            placeholder="Ej: Reporte vecinal en Facebook / SMN / Bomberos"
-            value="Reporte comunitario"
+            placeholder="Ej: Reporte de vecinos / SMN / Bomberos / Municipalidad"
+            value="Reporte Comunitario"
             class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
           />
         </div>
@@ -159,38 +187,38 @@ import Layout from '../layouts/Layout.astro';
             <span class="text-xl">🚨</span>
             <div>
               <div class="text-xs font-bold text-rose-900">¿Es una Alerta Urgente?</div>
-              <div class="text-[11px] text-rose-700">Aparecerá en el banner rojo de la portada.</div>
+              <div class="text-[11px] text-rose-700">Aparecerá en el banner rojo pulsante de la portada.</div>
             </div>
           </div>
           <input
             type="checkbox"
             id="es-alerta"
-            class="w-5 h-5 text-rose-600 rounded focus:ring-rose-500 border-rose-300"
+            class="w-5 h-5 text-rose-600 rounded focus:ring-rose-500 border-rose-300 cursor-pointer"
           />
         </div>
 
-        <!-- Imagen de Portada -->
+        <!-- Selector de Imagen -->
         <div>
           <label for="imagen-url" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            🖼️ URL de Imagen <span class="text-slate-400 font-normal">(opcional)</span>
+            🖼️ URL de Imagen <span class="text-slate-400 font-normal">(o dejá vacío para foto temática HD del Delta)</span>
           </label>
           <input
             type="url"
             id="imagen-url"
-            placeholder="https://... (o dejá vacío para imagen temática automática)"
+            placeholder="https://..."
             class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
           />
         </div>
 
-        <!-- Texto Crudo o Datos del Vecino -->
+        <!-- Texto Crudo -->
         <div>
           <label for="raw-text" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            📝 Datos o texto a transformar en noticia *
+            📝 Datos o reporte a redactar *
           </label>
           <textarea
             id="raw-text"
-            rows="7"
-            placeholder="Ejemplo: Hubo una sudestada fuerte a la tarde. Un vecino en el grupo de Facebook alertó que cedió una parte del dique en la zona del arroyo y entró agua en tres casas. Ya avisaron a bomberos y la municipalidad mandó una cuadrilla con bombas de achique..."
+            rows="6"
+            placeholder="Pegá datos desordenados, audios transcriptos, publicaciones de Facebook, pronóstico o comunicados oficiales..."
             class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
           ></textarea>
         </div>
@@ -205,26 +233,24 @@ import Layout from '../layouts/Layout.astro';
           <span id="btn-text">Redactar Noticia con Gemini</span>
         </button>
 
-        <div id="error-msg" class="hidden p-3 bg-rose-100 text-rose-800 border border-rose-300 rounded-xl text-xs"></div>
+        <div id="error-msg" class="hidden p-3 bg-rose-100 text-rose-800 border border-rose-300 rounded-xl text-xs font-medium"></div>
 
       </section>
 
-      <!-- Panel de Vista Previa y Exportación (Columna Derecha) -->
+      <!-- Panel de Vista Previa y Descarga (Columna Derecha) -->
       <section class="lg:col-span-7 space-y-6">
         
-        <!-- Estado Inicial Vacío -->
+        <!-- Estado Vacío -->
         <div id="preview-placeholder" class="bg-slate-100/70 border-2 border-dashed border-slate-300 rounded-2xl p-12 text-center text-slate-500 flex flex-col items-center justify-center min-h-[400px]">
           <span class="text-4xl mb-3">📰</span>
           <h3 class="text-base font-bold text-slate-700 mb-1">Vista Previa de la Noticia</h3>
           <p class="text-xs max-w-sm">
-            Completá los datos a la izquierda y hacé clic en "Redactar Noticia" para ver el resultado periodístico en tiempo real.
+            Escribí los datos y hacé clic en "Redactar Noticia" para previsualizar el resultado periodístico.
           </p>
         </div>
 
-        <!-- Contenedor de la Vista Previa (Oculto al inicio) -->
+        <!-- Vista Previa Generada -->
         <div id="preview-container" class="hidden space-y-6">
-          
-          <!-- Noticia Estilo Portal -->
           <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
             
             <div class="flex flex-wrap items-center gap-2 mb-4">
@@ -237,43 +263,29 @@ import Layout from '../layouts/Layout.astro';
               <span id="prev-confiabilidad" class="px-3 py-0.5 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
                 🟡 Confiabilidad media
               </span>
-              <span id="prev-fecha" class="text-xs text-slate-500 ml-auto">
-                Hoy
-              </span>
             </div>
 
-            <h2 id="prev-titulo" class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight mb-4">
-              Título de la noticia
-            </h2>
-
-            <p id="prev-copete" class="text-base text-slate-700 font-medium leading-relaxed bg-slate-100/90 p-4 rounded-xl border-l-4 border-river-600 mb-6">
-              Copete o resumen inicial de la noticia.
-            </p>
+            <h2 id="prev-titulo" class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight mb-4"></h2>
+            <p id="prev-copete" class="text-base text-slate-700 font-medium leading-relaxed bg-slate-100/90 p-4 rounded-xl border-l-4 border-river-600 mb-6"></p>
 
             <div id="prev-imagen-container" class="mb-6 rounded-xl overflow-hidden aspect-[16/9] bg-slate-200">
               <img id="prev-imagen" src="" alt="" class="w-full h-full object-cover" />
             </div>
 
-            <div id="prev-cuerpo" class="prose prose-slate max-w-none text-slate-800 text-base leading-relaxed space-y-4 mb-6">
-              <!-- Párrafos inyectados dinámicamente -->
-            </div>
-
-            <div id="prev-tags" class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200 text-xs">
-              <!-- Tags inyectados dinámicamente -->
-            </div>
-
+            <div id="prev-cuerpo" class="prose prose-slate max-w-none text-slate-800 text-base leading-relaxed space-y-4 mb-6"></div>
+            <div id="prev-tags" class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200 text-xs"></div>
           </article>
 
-          <!-- Bloque de WhatsApp Listo para Reenviar -->
+          <!-- WhatsApp -->
           <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-5 shadow-md">
             <div class="flex items-center justify-between gap-2 mb-2">
               <div class="flex items-center gap-2">
                 <span class="text-lg">💬</span>
-                <span class="text-xs font-black uppercase tracking-wider">Texto Listo para Grupos de WhatsApp</span>
+                <span class="text-xs font-black uppercase tracking-wider">Texto para Grupos de WhatsApp</span>
               </div>
               <button
                 id="btn-copy-wa"
-                class="text-xs bg-white text-emerald-800 font-bold px-3 py-1 rounded-lg hover:bg-emerald-50 transition-colors shadow-sm"
+                class="text-xs bg-white text-emerald-800 font-bold px-3 py-1 rounded-lg hover:bg-emerald-50 transition-colors shadow-sm cursor-pointer"
               >
                 Copiar
               </button>
@@ -281,24 +293,23 @@ import Layout from '../layouts/Layout.astro';
             <pre id="prev-whatsapp" class="text-xs bg-black/20 p-3 rounded-xl whitespace-pre-wrap font-sans leading-relaxed"></pre>
           </div>
 
-          <!-- Opciones de Publicación / Descarga -->
+          <!-- Publicar / Descargar -->
           <div class="bg-slate-900 text-white rounded-2xl p-6 shadow-md space-y-4">
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between gap-4">
               <div>
                 <h3 class="text-sm font-bold">Publicar en Paranacito Noticias</h3>
-                <p class="text-xs text-slate-400">Descargá el archivo JSON generado para agregarlo al sitio.</p>
+                <p class="text-xs text-slate-400">Descargá el archivo JSON generado para guardarlo en el repositorio.</p>
               </div>
               <button
                 id="btn-download-json"
-                class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 font-bold text-xs rounded-xl transition-colors flex items-center gap-2 shadow cursor-pointer"
+                class="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 font-bold text-xs rounded-xl transition-colors flex items-center gap-2 shadow cursor-pointer shrink-0"
               >
                 <span>📥</span>
                 <span>Descargar JSON</span>
               </button>
             </div>
-
             <div class="text-[11px] text-slate-400 bg-slate-800/80 p-3 rounded-xl border border-slate-700">
-              💡 <strong>Para publicar:</strong> Guardá el archivo descargado en la carpeta <code class="text-emerald-400">data/acontecimientos/</code> de tu repositorio en GitHub. Vercel actualizará la página automáticamente en 30 segundos.
+              💡 <strong>Pasos para publicar:</strong> Arrastrá el archivo descargado a la carpeta <code class="text-emerald-400 font-mono font-bold">data/noticias/</code> de tu repositorio en GitHub y confirmá con <em>Commit changes</em>. Vercel actualizará la página automáticamente en 30 segundos.
             </div>
           </div>
 
@@ -308,12 +319,209 @@ import Layout from '../layouts/Layout.astro';
 
     </div>
 
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- PESTAÑA 2: GESTOR DE NOTICIAS PUBLICADAS                     -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <div id="view-manage" class="hidden space-y-6">
+      
+      <!-- Barra de Filtros y Búsqueda -->
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="relative w-full sm:w-80">
+          <input
+            type="text"
+            id="manage-search"
+            placeholder="🔍 Buscar por título o tema..."
+            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl pl-3 pr-8 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+          />
+        </div>
+
+        <div class="flex items-center gap-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
+          <select
+            id="manage-cat-filter"
+            class="text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
+          >
+            <option value="todas">Todas las categorías</option>
+            <option value="Río y Clima">Río y Clima</option>
+            <option value="Comunidad">Comunidad</option>
+            <option value="Obras y Servicios">Obras y Servicios</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Salud y Educación">Salud y Educación</option>
+            <option value="Turismo y Cultura">Turismo y Cultura</option>
+            <option value="Sociedad">Sociedad</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Lista de Noticias en Grid -->
+      <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Renderizado dinámico vía JavaScript -->
+      </div>
+
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- MODAL DE EDICIÓN DE NOTICIA                                  -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <div id="edit-modal" class="hidden fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
+      <div class="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full p-6 sm:p-8 space-y-5 my-8 max-h-[90vh] overflow-y-auto">
+        
+        <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">✏️</span>
+            <h3 class="text-lg font-bold text-slate-900">Editar Noticia Publicada</h3>
+          </div>
+          <button id="btn-close-modal" class="text-slate-400 hover:text-slate-700 text-xl font-bold p-1 cursor-pointer">&times;</button>
+        </div>
+
+        <input type="hidden" id="edit-article-id" />
+        <input type="hidden" id="edit-article-filename" />
+
+        <!-- Título -->
+        <div>
+          <label for="edit-title" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            Título de la Noticia
+          </label>
+          <input
+            type="text"
+            id="edit-title"
+            class="w-full text-sm font-bold text-slate-900 bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+          />
+        </div>
+
+        <!-- Copete -->
+        <div>
+          <label for="edit-copete" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            Copete / Bajada
+          </label>
+          <textarea
+            id="edit-copete"
+            rows="2"
+            class="w-full text-xs font-medium text-slate-700 bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none"
+          ></textarea>
+        </div>
+
+        <!-- Categoría, Confiabilidad y Alerta -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div>
+            <label for="edit-categoria" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              🏷️ Categoría
+            </label>
+            <select
+              id="edit-categoria"
+              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
+            >
+              <option value="Río y Clima">Río y Clima</option>
+              <option value="Comunidad">Comunidad</option>
+              <option value="Obras y Servicios">Obras y Servicios</option>
+              <option value="Deportes">Deportes</option>
+              <option value="Salud y Educación">Salud y Educación</option>
+              <option value="Turismo y Cultura">Turismo y Cultura</option>
+              <option value="Sociedad">Sociedad</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="edit-confiabilidad" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              🛡️ Confiabilidad
+            </label>
+            <select
+              id="edit-confiabilidad"
+              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
+            >
+              <option value="Alta">🟢 Alta (Oficial)</option>
+              <option value="Media">🟡 Media (Vecinos/Medio)</option>
+              <option value="Baja">🔴 Baja (En verificación)</option>
+            </select>
+          </div>
+
+          <div class="flex items-center gap-2 p-2 bg-rose-50 border border-rose-200 rounded-xl self-end">
+            <input type="checkbox" id="edit-es-alerta" class="w-4 h-4 text-rose-600 rounded cursor-pointer" />
+            <label for="edit-es-alerta" class="text-xs font-bold text-rose-900 cursor-pointer">
+              🚨 ¿Alerta Urgente?
+            </label>
+          </div>
+        </div>
+
+        <!-- URL de Imagen con Previsualización -->
+        <div>
+          <label for="edit-imagen" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            🖼️ URL de Imagen de Portada
+          </label>
+          <div class="flex gap-2">
+            <input
+              type="url"
+              id="edit-imagen"
+              placeholder="https://..."
+              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
+            />
+          </div>
+
+          <!-- Selector de Galería Rápida del Delta -->
+          <div class="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span>Galería rápida:</span>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80">🌊 Río y Delta</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80">🏘️ Pueblo</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80">🚜 Caminos y Obras</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80">🎣 Pesca e Islas</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80">🏥 Salud y Escuela</button>
+          </div>
+        </div>
+
+        <!-- Cuerpo de la Noticia -->
+        <div>
+          <label for="edit-cuerpo" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+            Cuerpo de la Noticia (Párrafos separados por doble Enter)
+          </label>
+          <textarea
+            id="edit-cuerpo"
+            rows="6"
+            class="w-full text-xs text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
+          ></textarea>
+        </div>
+
+        <!-- Botones de Acción del Modal -->
+        <div class="flex items-center justify-between pt-4 border-t border-slate-100 gap-3">
+          <button
+            type="button"
+            id="btn-delete-article"
+            class="px-4 py-2.5 bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs rounded-xl transition-colors cursor-pointer"
+          >
+            🗑️ Eliminar Nota
+          </button>
+
+          <div class="flex items-center gap-2">
+            <button
+              type="button"
+              id="btn-cancel-edit"
+              class="px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-xl transition-colors cursor-pointer"
+            >
+              Cancelar
+            </button>
+            <button
+              type="button"
+              id="btn-save-edit"
+              class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-md transition-colors flex items-center gap-2 cursor-pointer"
+            >
+              <span>📥</span>
+              <span>Guardar y Descargar JSON</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </Layout>
 
+<!-- Inyección de Datos Estáticos para el Gestor -->
+<script define:vars={{ allNews }}>
+  window.INITIAL_NEWS_DATA = allNews;
+</script>
+
 <script>
-  // ─── CONTROL DE ACCESO PRIVADO POR PIN ─────────────────────────
-  const DEFAULT_PIN = "1907"; // Año fundacional simbólico de Villa Paranacito
+  // ─── 1. CONTROL DE ACCESO PRIVADO POR PIN ─────────────────────────
+  const DEFAULT_PIN = "1907";
   const lockScreen = document.getElementById('auth-lock-screen');
   const adminPanel = document.getElementById('admin-panel');
   const inputPin = document.getElementById('admin-pin') as HTMLInputElement;
@@ -349,9 +557,7 @@ import Layout from '../layouts/Layout.astro';
   });
 
   inputPin?.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
-      btnUnlock?.click();
-    }
+    if (e.key === 'Enter') btnUnlock?.click();
   });
 
   btnLogout?.addEventListener('click', () => {
@@ -361,22 +567,235 @@ import Layout from '../layouts/Layout.astro';
   });
 
   btnChangePin?.addEventListener('click', () => {
-    const nuevo = prompt("Ingresá tu nuevo PIN de administrador (números o letras):");
+    const nuevo = prompt("Ingresá tu nuevo PIN de administrador (mínimo 4 caracteres):");
     if (nuevo && nuevo.trim().length >= 4) {
       localStorage.setItem('pn_admin_pin', nuevo.trim());
       alert("✅ PIN actualizado exitosamente.");
     }
   });
 
-  // Ejecutar verificación de autenticación al cargar
   checkAuth();
 
-  // ─── LÓGICA DE REDACCIÓN CON GEMINI ─────────────────────────
+  // ─── 2. MANEJO DE PESTAÑAS ───────────────────────────────────────
+  const tabBtnCreate = document.getElementById('tab-btn-create');
+  const tabBtnManage = document.getElementById('tab-btn-manage');
+  const viewCreate = document.getElementById('view-create');
+  const viewManage = document.getElementById('view-manage');
+
+  tabBtnCreate?.addEventListener('click', () => {
+    tabBtnCreate.className = 'tab-button active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-river-600 text-white shadow-sm cursor-pointer';
+    tabBtnManage?.classList.remove('bg-river-600', 'text-white', 'shadow-sm');
+    tabBtnManage?.classList.add('bg-slate-100', 'text-slate-700');
+    viewCreate?.classList.remove('hidden');
+    viewManage?.classList.add('hidden');
+  });
+
+  tabBtnManage?.addEventListener('click', () => {
+    tabBtnManage.className = 'tab-button active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-river-600 text-white shadow-sm cursor-pointer';
+    tabBtnCreate?.classList.remove('bg-river-600', 'text-white', 'shadow-sm');
+    tabBtnCreate?.classList.add('bg-slate-100', 'text-slate-700');
+    viewManage?.classList.remove('hidden');
+    viewCreate?.classList.add('hidden');
+    renderNewsGrid();
+  });
+
+  // ─── 3. GESTIÓN Y EDICIÓN DE NOTICIAS ────────────────────────────
+  let newsList: any[] = (window as any).INITIAL_NEWS_DATA || [];
+  const newsGrid = document.getElementById('news-grid');
+  const searchInput = document.getElementById('manage-search') as HTMLInputElement;
+  const catFilter = document.getElementById('manage-cat-filter') as HTMLSelectElement;
+
+  const editModal = document.getElementById('edit-modal');
+  const btnCloseModal = document.getElementById('btn-close-modal');
+  const btnCancelEdit = document.getElementById('btn-cancel-edit');
+  const btnSaveEdit = document.getElementById('btn-save-edit');
+  const btnDeleteArticle = document.getElementById('btn-delete-article');
+
+  const editArticleId = document.getElementById('edit-article-id') as HTMLInputElement;
+  const editArticleFilename = document.getElementById('edit-article-filename') as HTMLInputElement;
+  const editTitle = document.getElementById('edit-title') as HTMLInputElement;
+  const editCopete = document.getElementById('edit-copete') as HTMLTextAreaElement;
+  const editCategoria = document.getElementById('edit-categoria') as HTMLSelectElement;
+  const editConfiabilidad = document.getElementById('edit-confiabilidad') as HTMLSelectElement;
+  const editEsAlerta = document.getElementById('edit-es-alerta') as HTMLInputElement;
+  const editImagen = document.getElementById('edit-imagen') as HTMLInputElement;
+  const editCuerpo = document.getElementById('edit-cuerpo') as HTMLTextAreaElement;
+
+  let currentEditingItem: any = null;
+
+  function renderNewsGrid() {
+    if (!newsGrid) return;
+    const search = searchInput?.value.toLowerCase().trim() || '';
+    const cat = catFilter?.value || 'todas';
+
+    const filtered = newsList.filter(n => {
+      const matchSearch = (n.titulo || '').toLowerCase().includes(search) || (n.copete || '').toLowerCase().includes(search);
+      const matchCat = cat === 'todas' || n.categoria === cat;
+      return matchSearch && matchCat;
+    });
+
+    if (filtered.length === 0) {
+      newsGrid.innerHTML = `
+        <div class="col-span-full py-12 text-center text-slate-400 bg-white rounded-2xl border border-slate-200 p-8">
+          <p class="text-base font-bold text-slate-600">No se encontraron noticias</p>
+          <p class="text-xs text-slate-400 mt-1">Probá con otro término de búsqueda o categoría.</p>
+        </div>
+      `;
+      return;
+    }
+
+    newsGrid.innerHTML = filtered.map((n, idx) => {
+      const isAlerta = n.es_alerta === true;
+      const imgUrl = n.imagen && n.imagen.startsWith('http') ? n.imagen : 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80';
+      return `
+        <div class="bg-white rounded-2xl border border-slate-200/90 p-4 shadow-sm hover:shadow-md transition-all flex gap-4 items-start">
+          <div class="w-24 h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 aspect-square">
+            <img src="${imgUrl}" alt="${n.titulo}" class="w-full h-full object-cover" />
+          </div>
+
+          <div class="flex-1 min-w-0 flex flex-col justify-between h-full">
+            <div>
+              <div class="flex items-center gap-1.5 mb-1.5 flex-wrap">
+                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-river-50 text-river-700 border border-river-200">
+                  ${n.categoria}
+                </span>
+                ${isAlerta ? '<span class="px-1.5 py-0.5 rounded-full text-[10px] font-black bg-rose-600 text-white animate-pulse">🚨 ALERTA</span>' : ''}
+                <span class="text-[10px] text-slate-400 ml-auto">${n.fecha_publicacion || ''}</span>
+              </div>
+
+              <h4 class="text-sm font-bold text-slate-900 leading-snug line-clamp-2 mb-1">
+                ${n.titulo}
+              </h4>
+            </div>
+
+            <div class="flex items-center gap-2 pt-2 border-t border-slate-100 mt-2">
+              <button
+                class="btn-edit-item text-xs font-bold bg-river-50 hover:bg-river-100 text-river-700 px-3 py-1 rounded-lg transition-colors cursor-pointer"
+                data-slug="${n.slug}"
+              >
+                ✏️ Editar
+              </button>
+              <a
+                href="/noticias/${n.slug}"
+                target="_blank"
+                class="text-xs text-slate-500 hover:text-slate-800 px-2 py-1 rounded-lg transition-colors"
+              >
+                🔗 Ver en web
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Asignar listeners a botones de editar
+    document.querySelectorAll('.btn-edit-item').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const slug = (e.currentTarget as HTMLElement).getAttribute('data-slug');
+        const item = newsList.find(n => n.slug === slug);
+        if (item) openEditModal(item);
+      });
+    });
+  }
+
+  searchInput?.addEventListener('input', renderNewsGrid);
+  catFilter?.addEventListener('change', renderNewsGrid);
+
+  function openEditModal(item: any) {
+    currentEditingItem = item;
+    if (editArticleId) editArticleId.value = item.acontecimiento_id || item.id || item.slug;
+    if (editArticleFilename) editArticleFilename.value = item.archivo || `${item.slug}.json`;
+    if (editTitle) editTitle.value = item.titulo || '';
+    if (editCopete) editCopete.value = item.copete || '';
+    if (editCategoria) editCategoria.value = item.categoria || 'Comunidad';
+    if (editConfiabilidad) editConfiabilidad.value = item.nivel_confiabilidad || 'Media';
+    if (editEsAlerta) editEsAlerta.checked = item.es_alerta === true;
+    if (editImagen) editImagen.value = item.imagen && item.imagen.startsWith('http') ? item.imagen : '';
+
+    const bodyText = Array.isArray(item.cuerpo) ? item.cuerpo.join('\n\n') : (item.cuerpo || '');
+    if (editCuerpo) editCuerpo.value = bodyText;
+
+    editModal?.classList.remove('hidden');
+  }
+
+  function closeModal() {
+    editModal?.classList.add('hidden');
+    currentEditingItem = null;
+  }
+
+  btnCloseModal?.addEventListener('click', closeModal);
+  btnCancelEdit?.addEventListener('click', closeModal);
+
+  // Galería rápida en modal
+  document.querySelectorAll('.btn-quick-img').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const url = (e.currentTarget as HTMLElement).getAttribute('data-img');
+      if (editImagen && url) editImagen.value = url;
+    });
+  });
+
+  // Guardar y descargar JSON editado
+  btnSaveEdit?.addEventListener('click', () => {
+    if (!currentEditingItem) return;
+
+    const title = editTitle?.value.trim();
+    const copete = editCopete?.value.trim();
+    const categoria = editCategoria?.value;
+    const confiabilidad = editConfiabilidad?.value;
+    const esAlerta = editEsAlerta?.checked;
+    const imagen = editImagen?.value.trim() || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80';
+    const cuerpoArr = editCuerpo?.value.split('\n\n').map(p => p.trim()).filter(p => p.length > 0);
+
+    if (!title || !copete) {
+      alert("Por favor completá el título y el copete.");
+      return;
+    }
+
+    const updated = {
+      ...currentEditingItem,
+      titulo: title,
+      copete: copete,
+      categoria: categoria,
+      nivel_confiabilidad: confiabilidad,
+      es_alerta: esAlerta,
+      imagen: imagen,
+      cuerpo: cuerpoArr,
+      fecha_ultima_actualizacion: `Hoy, ${new Date().toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit' })} hs`,
+      fecha_ultima_actualizacion_iso: new Date().toISOString()
+    };
+
+    // Descargar archivo JSON
+    const filename = updated.archivo || `${updated.slug}.json`;
+    const jsonStr = JSON.stringify(updated, null, 2);
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    alert(`✅ Archivo "${filename}" descargado con éxito.\n\nSubilo a la carpeta "data/noticias/" de tu repositorio en GitHub para publicar los cambios.`);
+    closeModal();
+  });
+
+  // Eliminar nota
+  btnDeleteArticle?.addEventListener('click', () => {
+    if (!currentEditingItem) return;
+    const filename = currentEditingItem.archivo || `${currentEditingItem.slug}.json`;
+    const confirmDelete = confirm(`¿Estás seguro de que querés eliminar la nota:\n"${currentEditingItem.titulo}"?\n\nPara eliminarla del portal, deberás borrar el archivo "${filename}" en la carpeta data/noticias/ de GitHub.`);
+    if (confirmDelete) {
+      alert(`🗑️ Archivo a eliminar en GitHub:\ndata/noticias/${filename}`);
+      closeModal();
+    }
+  });
+
+  // ─── 4. CREADOR DE NOTICIAS CON GEMINI ───────────────────────────
   const inputKey = document.getElementById('gemini-key') as HTMLInputElement;
   const savedKey = localStorage.getItem('gemini_api_key') || '';
-  if (inputKey && savedKey) {
-    inputKey.value = savedKey;
-  }
+  if (inputKey && savedKey) inputKey.value = savedKey;
 
   const btnGenerar = document.getElementById('btn-generar');
   const btnIcon = document.getElementById('btn-icon');
@@ -385,7 +804,6 @@ import Layout from '../layouts/Layout.astro';
 
   const previewPlaceholder = document.getElementById('preview-placeholder');
   const previewContainer = document.getElementById('preview-container');
-
   const prevTitulo = document.getElementById('prev-titulo');
   const prevCopete = document.getElementById('prev-copete');
   const prevCuerpo = document.getElementById('prev-cuerpo');
@@ -401,14 +819,14 @@ import Layout from '../layouts/Layout.astro';
 
   let generatedArticleData: any = null;
 
-  const DEFAULT_IMAGES: Record<string, string> = {
-    'Río y Clima': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80',
-    'Comunidad': 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80',
-    'Obras y Servicios': 'https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1000&q=80',
-    'Deportes': 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80',
-    'Salud y Educación': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80',
-    'Turismo y Cultura': 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80',
-    'Sociedad': 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80'
+  const CATEGORY_IMAGES: Record<string, string> = {
+    'Río y Clima': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80',
+    'Comunidad': 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80',
+    'Obras y Servicios': 'https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80',
+    'Deportes': 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80',
+    'Salud y Educación': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80',
+    'Turismo y Cultura': 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
+    'Sociedad': 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80'
   };
 
   function slugify(text: string): string {
@@ -437,7 +855,7 @@ import Layout from '../layouts/Layout.astro';
 
     if (!rawText) {
       if (errorMsg) {
-        errorMsg.textContent = 'Por favor ingresá los datos o el texto de la noticia.';
+        errorMsg.textContent = 'Por favor ingresá los datos o el texto a redactar.';
         errorMsg.classList.remove('hidden');
       }
       return;
@@ -445,7 +863,7 @@ import Layout from '../layouts/Layout.astro';
 
     if (!apiKey) {
       if (errorMsg) {
-        errorMsg.textContent = 'Por favor ingresá tu clave de Gemini API para redactar con IA.';
+        errorMsg.textContent = 'Por favor ingresá tu clave de Gemini API para redactar.';
         errorMsg.classList.remove('hidden');
       }
       return;
@@ -456,17 +874,17 @@ import Layout from '../layouts/Layout.astro';
     if (btnGenerar && btnIcon && btnText) {
       btnGenerar.setAttribute('disabled', 'true');
       btnIcon.textContent = '⏳';
-      btnText.textContent = 'Redactando noticia con IA...';
+      btnText.textContent = 'Redactando con Gemini...';
     }
 
     const prompt = `Sos el redactor jefe del portal comunitario "Paranacito Noticias" en Villa Paranacito (Delta de Entre Ríos, Argentina).
-Tu misión es transformar los siguientes datos en una noticia profesional, clara, cercana y de alto valor para los vecinos isleños y ribereños.
+Tu misión es transformar los siguientes datos en una noticia profesional, clara, neutral y de alto valor para los vecinos isleños.
 
 DATOS CRUDOS:
 ${rawText}
 
 FUENTE / ORIGEN: ${fuente}
-CATEGORÍA SUGERIDA: ${categoria}
+CATEGORÍA: ${categoria}
 
 Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`), con esta estructura exacta:
 {
@@ -474,35 +892,44 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
   "copete": "Resumen conciso en 1 o 2 oraciones (máximo 160 caracteres)",
   "cuerpo": [
     "Primer párrafo con la información principal respondiendo qué, quién y dónde.",
-    "Segundo párrafo con contexto y detalles de cómo afecta a Villa Paranacito.",
-    "Tercer párrafo con recomendaciones útiles, números de contacto o próximos pasos si aplica."
+    "Segundo párrafo con contexto y detalles locales de Villa Paranacito.",
+    "Tercer párrafo con recomendaciones, números de contacto o próximos pasos si aplica."
   ],
   "categoria": "${categoria}",
-  "tags": ["tag1", "tag2", "tag3"],
+  "tags": ["paranacito", "delta", "comunidad"],
   "slug": "slug-corto-separado-por-guiones",
   "tiempo_lectura": "2 min",
-  "resumen_whatsapp": "📱 *Título* \\n\\nResumen corto para WhatsApp con emojis.\\n\\n🔗 Leé más en paranacito-noticias.vercel.app"
+  "resumen_whatsapp": "📱 *Título* \\n\\nResumen corto para WhatsApp.\\n\\n🔗 Leé más en paranacito-noticias.vercel.app"
 }`;
 
     try {
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
-      const response = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            temperature: 0.2,
-            responseMimeType: 'application/json'
-          }
-        })
-      });
+      const endpoints = [
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`
+      ];
 
-      if (!response.ok) {
-        throw new Error(`Error ${response.status}: Verificá tu clave de Gemini API.`);
+      let resData = null;
+      for (const url of endpoints) {
+        try {
+          const resp = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.2, responseMimeType: 'application/json' }
+            })
+          });
+          if (resp.ok) {
+            resData = await resp.json();
+            break;
+          }
+        } catch (e) {}
       }
 
-      const resData = await response.json();
+      if (!resData) {
+        throw new Error("No se pudo conectar con Gemini API. Verificá tu clave.");
+      }
+
       const textContent = resData.candidates[0].content.parts[0].text;
       const cleanJson = textContent.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
       const parsed = JSON.parse(cleanJson);
@@ -511,10 +938,11 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
       const nowIso = now.toISOString();
       const fechaAmigable = `${now.getDate()} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][now.getMonth()]} de ${now.getFullYear()}, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`;
       const finalSlug = slugify(parsed.slug || parsed.titulo);
-      const finalImg = customImg || DEFAULT_IMAGES[categoria] || DEFAULT_IMAGES['Comunidad'];
+      const finalImg = customImg || CATEGORY_IMAGES[categoria] || CATEGORY_IMAGES['Comunidad'];
 
       generatedArticleData = {
         acontecimiento_id: `${nowIso.split('T')[0]}-${finalSlug}`,
+        id: `${nowIso.split('T')[0]}-${finalSlug}`,
         titulo: parsed.titulo,
         copete: parsed.copete,
         cuerpo: parsed.cuerpo,
@@ -529,12 +957,7 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
         es_alerta: esAlerta,
         requiere_revision: false,
         publicado: true,
-        fuentes_consultadas: [
-          {
-            nombre: fuente,
-            fecha_consulta: nowIso
-          }
-        ],
+        fuentes_consultadas: [{ nombre: fuente, fecha_consulta: nowIso }],
         cronologia_actualizaciones: [
           {
             hora: `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`,
@@ -546,6 +969,7 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
         ],
         fecha_inicio_iso: nowIso,
         fecha_ultima_actualizacion_iso: nowIso,
+        fecha_iso: nowIso,
         fecha_publicacion: fechaAmigable,
         fecha_ultima_actualizacion: fechaAmigable,
         archivo: `${nowIso.split('T')[0]}-${finalSlug}.json`
@@ -588,10 +1012,7 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
         });
       }
 
-      if (prevWhatsapp) {
-        prevWhatsapp.textContent = generatedArticleData.resumen_whatsapp;
-      }
-
+      if (prevWhatsapp) prevWhatsapp.textContent = generatedArticleData.resumen_whatsapp;
       if (previewPlaceholder) previewPlaceholder.classList.add('hidden');
       if (previewContainer) previewContainer.classList.remove('hidden');
 
