@@ -1,0 +1,47 @@
+{
+  "acontecimiento_id": "2026-08-22-dano-ambiental-preventivo-juez-federal-inspecciono-la-planta",
+  "titulo": "Daño ambiental preventivo: juez federal inspeccionó la planta de HIF Global frente a Colón",
+  "copete": "Ambiente de Entre Ríos ordenó el cese preventivo de un sitio de volcado de residuos en Villa Paranacito · El juez federal Gastón Salmain rechazó el ...",
+  "cuerpo": [
+    "Ambiente de Entre Ríos ordenó el cese preventivo de un sitio de volcado de residuos en Villa Paranacito · El juez federal Gastón Salmain rechazó el ..."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "villa paranacito",
+    "delta",
+    "río y clima"
+  ],
+  "slug": "dano-ambiental-preventivo-juez-federal-inspecciono-la-planta",
+  "tiempo_lectura": "1 min",
+  "resumen_whatsapp": "📰 *Daño ambiental preventivo: juez federal inspeccionó la planta de HIF Global frente a Colón* - Novedades de Villa Paranacito.",
+  "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/dano-ambiental-preventivo-juez-federal-inspecciono-la-planta-de-hif-global-frente-a-colon/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1hrxH-V54R_dyLKlcLDij9",
+      "fecha_consulta": "2026-08-22T16:22:34.066150"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "16:22",
+      "fecha": "2026-08-22",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Ambiente de Entre Ríos ordenó el cese preventivo de un sitio de volcado de residuos en Villa Paranacito · El juez federal Gastón Salmain rechazó el ...",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "f81870778c0e558b877efd7569f5d4522e562e767ea6769f394e5b953871689a"
+  ],
+  "fecha_inicio_iso": "2026-08-22T16:22:34.066150",
+  "fecha_ultima_actualizacion_iso": "2026-08-22T16:22:34.066150",
+  "fecha_publicacion": "22 de Agosto de 2026, 16:22 hs",
+  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 16:22 hs",
+  "archivo": "2026-08-22-dano-ambiental-preventivo-juez-federal-inspecciono-la-planta.json"
+}
