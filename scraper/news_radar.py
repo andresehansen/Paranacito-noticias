@@ -4,6 +4,7 @@ Fuentes: GDELT Project API + Google News RSS + Google Alerts
 Filtrado estricto a las últimas 24 horas y relevancia 100% enfocada en Villa Paranacito.
 """
 import re
+import html
 import time
 import logging
 from datetime import datetime
@@ -21,51 +22,65 @@ from config import (
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Términos de búsqueda hiper-específicos para evitar falsos positivos
+# Términos de búsqueda estrictamente locales para Villa Paranacito
 SEARCH_TERMS = [
     '"Villa Paranacito"',
     '"Paranacito"',
-    '"Islas del Ibicuy"',
-    '"Delta entrerriano"',
-    '"Río Paranacito"'
+    '"Delta entrerriano"'
 ]
 
+GDELT_MAX_RESULTS = 10
 
-GDELT_MAX_RESULTS = 15
-
-def clean_html(raw: str) -> str:
-    """Limpia HTML dejando texto legible."""
+def clean_text(raw: str) -> str:
+    """Limpia entidades HTML (&quot;, &#38;), etiquetas y sufijos de diarios."""
     if not raw:
         return ""
-    soup = BeautifulSoup(raw, "html.parser")
-    text = soup.get_text(separator=" ")
+    # 1. Decodificar entidades HTML
+    text = html.unescape(raw)
+    # 2. Remover etiquetas HTML si existen
+    if "<" in text and ">" in text:
+        soup = BeautifulSoup(text, "html.parser")
+        text = soup.get_text(separator=" ")
+    # 3. Remover sufijos de medios al final del título
+    text = re.sub(
+        r"\s*-\s*(Letra P|TN|Perfil|Clarín|Infobae|Diario El Día|R2820|El Entre Ríos|APFDigital|examedia\.com\.ar|Google News|Elonce|Uno Entre Ríos)\b.*$",
+        "",
+        text,
+        flags=re.IGNORECASE
+    )
+    # 4. Limpiar elipsis iniciales / repetidas
+    text = re.sub(r"^\s*(\.\.\.|\.\.|\-)\s*", "", text)
+    # 5. Normalizar espacios
     return re.sub(r"\s+", " ", text).strip()
 
 def is_locally_relevant(title: str, text: str = "") -> bool:
     """
     Verifica con criterio periodístico estricto que la noticia corresponda
-    a Villa Paranacito, el departamento Islas del Ibicuy o el Delta Entrerriano.
+    específicamente a Villa Paranacito o al Delta Entrerriano.
     """
-    combined = f"{title} {text}".lower()
+    clean_t = clean_text(title)
+    clean_b = clean_text(text)
+    combined = f"{clean_t} {clean_b}".lower()
 
-    # 1. Comprobar si menciona términos obligatorios locales
-    has_local_term = any(term in combined for term in LOCAL_REQUIRED_TERMS)
-    if not has_local_term:
+    # 1. Debe mencionar obligatoriamente Villa Paranacito o el Delta Entrerriano
+    local_strong = ["villa paranacito", "paranacito", "rio paranacito", "río paranacito", "delta entrerriano", "arroyo sagastume"]
+    if not any(term in combined for term in local_strong):
         return False
 
-    # 2. Descartar falsos positivos de otras provincias/localidades
-    has_exclude_term = any(term in combined for term in LOCAL_EXCLUDE_TERMS)
-    if has_exclude_term:
-        # Solo admitir si menciona explícitamente Villa Paranacito o Islas de Entre Ríos
-        if "villa paranacito" not in combined and "islas del ibicuy" not in combined:
+    # 2. Descartar falsos positivos de otras provincias o localidades sin relación
+    exclusiones = [
+        "puerto vilelas", "chaco", "vaca muerta", "neuquén", "neuquen", "corrientes",
+        "la rioja", "chachos", "misiones", "formosa", "basavilbaso", "concordia", "paraná ciudad",
+        "santa fe capital"
+    ]
+    if any(ex in combined for ex in exclusiones):
+        if "villa paranacito" not in combined:
             return False
 
     return True
 
 def extract_og_image(url: str) -> str:
-    """
-    Intenta extraer la foto real de la noticia desde el sitio original (OpenGraph o Twitter card).
-    """
+    """Intenta extraer la foto real de la noticia desde el sitio original."""
     if not url or not url.startswith("http"):
         return ""
     try:
@@ -92,9 +107,7 @@ def extract_og_image(url: str) -> str:
 # GDELT Project (API pública y gratuita)
 # ─────────────────────────────────────────────
 def fetch_gdelt(query: str, max_records: int = 10) -> list:
-    """
-    Consulta el API v2 del GDELT Project con filtro temporal y de relevancia local.
-    """
+    """Consulta GDELT con filtro estricto de Villa Paranacito."""
     base_url = "https://api.gdeltproject.org/api/v2/doc/doc"
     params = {
         "query": query,
@@ -110,7 +123,6 @@ def fetch_gdelt(query: str, max_records: int = 10) -> list:
     try:
         resp = requests.get(url, timeout=12)
         if resp.status_code != 200:
-            logging.warning(f"GDELT retornó código {resp.status_code} para '{query}'")
             return []
 
         data = resp.json()
@@ -118,14 +130,16 @@ def fetch_gdelt(query: str, max_records: int = 10) -> list:
         results = []
 
         for art in articles:
-            title = art.get("title", "").strip()
+            raw_title = art.get("title", "").strip()
             article_url = art.get("url", "").strip()
             seendate = art.get("seendate", "")
 
-            if not title or not article_url:
+            if not raw_title or not article_url:
                 continue
 
-            # Filtro de relevancia local estricto
+            title = clean_text(raw_title)
+
+            # Filtro de relevancia estricta
             if not is_locally_relevant(title, article_url):
                 continue
 
@@ -137,14 +151,13 @@ def fetch_gdelt(query: str, max_records: int = 10) -> list:
             except ValueError:
                 pass
 
-            # Intentar obtener imagen de GDELT o extraer og:image
             social_img = art.get("socialimage", "").strip()
             if not social_img or not social_img.startswith("http"):
                 social_img = extract_og_image(article_url) or DEFAULT_FALLBACK_IMAGE
 
             results.append({
                 "raw_title": title,
-                "raw_summary": art.get("seendate", ""),
+                "raw_summary": title,
                 "raw_content": title,
                 "url": article_url,
                 "source_name": f"GDELT / {art.get('domain', 'Medio regional')}",
@@ -153,7 +166,6 @@ def fetch_gdelt(query: str, max_records: int = 10) -> list:
                 "radar_source": "gdelt"
             })
 
-        logging.info(f"GDELT '{query}' (últimas 24h locales): {len(results)} resultados")
         return results
 
     except Exception as e:
@@ -165,7 +177,7 @@ def fetch_all_gdelt() -> list:
     all_results = []
     seen_urls = set()
 
-    for term in SEARCH_TERMS[:2]:  # Solo términos más específicos
+    for term in SEARCH_TERMS[:2]:
         results = fetch_gdelt(term, max_records=GDELT_MAX_RESULTS)
         for r in results:
             if r["url"] not in seen_urls:
@@ -179,9 +191,7 @@ def fetch_all_gdelt() -> list:
 # Google News RSS (Filtrado estricto a 24 horas y relevancia)
 # ─────────────────────────────────────────────
 def fetch_google_news_rss(query: str) -> list:
-    """
-    Google News con modificador when:24h y verificación de relevancia local.
-    """
+    """Google News con modificador when:24h y limpieza de entidades HTML."""
     query_24h = f"{query} when:24h"
     encoded = quote_plus(query_24h)
     url = f"https://news.google.com/rss/search?q={encoded}&hl=es-419&gl=AR&ceid=AR:es-419"
@@ -191,13 +201,16 @@ def fetch_google_news_rss(query: str) -> list:
         results = []
 
         for entry in feed.entries:
-            title = entry.get("title", "").strip()
+            raw_title = entry.get("title", "").strip()
             link = entry.get("link", "").strip()
-            summary = clean_html(entry.get("summary", ""))
+            raw_summary = entry.get("summary", "")
             pub_date = entry.get("published", datetime.now().isoformat())
 
-            if not title or not link:
+            if not raw_title or not link:
                 continue
+
+            title = clean_text(raw_title)
+            summary = clean_text(raw_summary)
 
             # 1. Antigüedad máxima 24 horas
             if hasattr(entry, "published_parsed") and entry.published_parsed:
@@ -209,11 +222,11 @@ def fetch_google_news_rss(query: str) -> list:
                 except Exception:
                     pass
 
-            # 2. Verificación de relevancia para Villa Paranacito
+            # 2. Verificación de relevancia estricta para Villa Paranacito
             if not is_locally_relevant(title, summary):
                 continue
 
-            # 3. Intentar extraer foto real del artículo
+            # 3. Extraer foto real o asignar imagen de fallback
             real_img = extract_og_image(link) or DEFAULT_FALLBACK_IMAGE
 
             results.append({
@@ -227,7 +240,6 @@ def fetch_google_news_rss(query: str) -> list:
                 "radar_source": "google_news"
             })
 
-        logging.info(f"Google News '{query}' (relevantes 24h): {len(results)} resultados")
         return results
 
     except Exception as e:
@@ -253,10 +265,7 @@ def fetch_all_google_news() -> list:
 # Función principal: Ejecutar Radar Local
 # ─────────────────────────────────────────────
 def run_radar() -> list:
-    """
-    Ejecuta el radar de descubrimiento y retorna solo noticias
-    genuinamente relevantes para Villa Paranacito de las últimas 24 horas.
-    """
+    """Ejecuta el radar de descubrimiento local de Villa Paranacito."""
     logging.info("=== INICIANDO RADAR DE DESCUBRIMIENTO LOCAL ===")
     all_articles = []
     seen_urls = set()

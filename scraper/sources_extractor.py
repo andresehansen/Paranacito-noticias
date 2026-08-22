@@ -2,6 +2,7 @@
 Extractor de noticias desde Feeds RSS (Google Alerts, diarios regionales y portales).
 """
 import re
+import html
 import logging
 from datetime import datetime
 import feedparser
@@ -13,25 +14,12 @@ from config import (
     LOCAL_EXCLUDE_TERMS,
     DEFAULT_FALLBACK_IMAGE
 )
-from news_radar import is_locally_relevant, extract_og_image
+from news_radar import is_locally_relevant, extract_og_image, clean_text
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-def clean_html(raw_html: str) -> str:
-    """Limpia etiquetas HTML y entidades para obtener texto plano legible."""
-    if not raw_html:
-        return ""
-    soup = BeautifulSoup(raw_html, "html.parser")
-    # Eliminar scripts y estilos
-    for s in soup(["script", "style", "nav", "footer", "header"]):
-        s.extract()
-    text = soup.get_text(separator=" ")
-    # Normalizar espacios
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
-def extract_image_url(entry: dict) -> str:
-    """Intenta extraer la mejor URL de imagen de la entrada RSS."""
+def extract_image_url(entry: dict, article_url: str = "") -> str:
+    """Intenta extraer la mejor URL de imagen de la entrada RSS o de la web original."""
     # 1. Verificar media_content
     media_content = entry.get("media_content", [])
     if media_content and isinstance(media_content, list):
@@ -58,23 +46,22 @@ def extract_image_url(entry: dict) -> str:
         img_tag = soup.find("img")
         if img_tag and img_tag.get("src"):
             src = img_tag["src"]
-            if not src.startswith("data:") and not "google.com/images" in src:
+            if not src.startswith("data:") and "google.com/images" not in src:
                 return src
-                
+
+    # 4. Extraer de la página web original si hay URL
+    if article_url:
+        real_img = extract_og_image(article_url)
+        if real_img:
+            return real_img
+
     # Imagen por defecto de alta calidad del Delta
     return DEFAULT_FALLBACK_IMAGE
-
-
-def is_relevant(text: str, keywords: list) -> bool:
-    """Determina si el contenido hace referencia a Villa Paranacito o zonas aledañas."""
-    text_lower = text.lower()
-    return any(kw.lower() in text_lower for kw in keywords)
 
 def fetch_rss_feed(source: dict) -> list:
     """Descarga y parsea un feed RSS individual."""
     feed_url = source.get("url")
     if not feed_url or "0000000000" in feed_url:
-        logging.debug(f"Fuente {source['nombre']} no configurada o plantilla sin URL real. Omitiendo.")
         return []
         
     logging.info(f"Consultando feed: {source['nombre']}...")
@@ -83,22 +70,25 @@ def fetch_rss_feed(source: dict) -> list:
         items = []
         
         for entry in parsed.entries:
-            title = entry.get("title", "").strip()
+            raw_title = entry.get("title", "").strip()
             link = entry.get("link", "").strip()
-            summary = entry.get("summary", "")
+            raw_summary = entry.get("summary", "")
+
+            if not raw_title or not link:
+                continue
+
+            title = clean_text(raw_title)
             
             # Contenido completo si está disponible
             content_val = ""
             if "content" in entry and entry["content"]:
                 content_val = entry["content"][0].get("value", "")
             
-            full_raw_text = clean_html(content_val if content_val else summary)
+            full_raw_text = clean_text(content_val if content_val else raw_summary)
             
-            # Filtro de relevancia si la fuente no es exclusiva de Google Alerts
-            if source.get("tipo") != "google_alerts":
-                combined_check = f"{title} {full_raw_text}"
-                if not is_relevant(combined_check, source.get("keywords", ["paranacito"])):
-                    continue
+            # Filtro estricto de relevancia para Villa Paranacito
+            if not is_locally_relevant(title, full_raw_text):
+                continue
                     
             # Verificar antigüedad máxima (24 horas)
             if hasattr(entry, "published_parsed") and entry.published_parsed:
@@ -111,18 +101,16 @@ def fetch_rss_feed(source: dict) -> list:
                 except Exception:
                     pass
 
-            img_url = extract_image_url(entry)
+            img_url = extract_image_url(entry, link)
             
-            # Fecha de publicación
             pub_date = entry.get("published", "")
             if not pub_date:
                 pub_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-                
             items.append({
                 "raw_title": title,
-                "raw_summary": clean_html(summary),
-                "raw_content": full_raw_text or clean_html(summary),
+                "raw_summary": full_raw_text[:200],
+                "raw_content": full_raw_text or title,
                 "url": link,
                 "source_name": source.get("nombre", "Fuente Regional"),
                 "published_date": pub_date,

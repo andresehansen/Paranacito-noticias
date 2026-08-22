@@ -1,59 +1,66 @@
 """
-Motor de IA para parafraseo, contextualización local y clasificación periodística.
-Utiliza Google Gemini API (Free Tier) con fallback automático.
+ai_rewriter.py — Reescritor de Noticias y Adaptación Comunitaria con IA
+Modelo: Google Gemini 2.0 Flash / 1.5 Flash (Free Tier)
 """
 import re
 import json
+import html
 import logging
-import unicodedata
 import requests
 from config import GEMINI_API_KEY, AI_SYSTEM_PROMPT, CATEGORIAS
+from news_radar import clean_text
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 def slugify(text: str) -> str:
-    """Convierte texto en un slug URL limpio y fácil de tipear."""
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("utf-8")
-    text = re.sub(r"[^\w\s-]", "", text).lower().strip()
-    text = re.sub(r"[-\s]+", "-", text)
-    # Limitar longitud para que la URL sea corta y amigable
-    words = text.split("-")
-    if len(words) > 7:
-        text = "-".join(words[:7])
-    return text
+    """Convierte un texto a formato slug URL amigable."""
+    text = clean_text(text).lower()
+    text = re.sub(r"[áäàâ]", "a", text)
+    text = re.sub(r"[éëèê]", "e", text)
+    text = re.sub(r"[íïìî]", "i", text)
+    text = re.sub(r"[óöòô]", "o", text)
+    text = re.sub(r"[úüùû]", "u", text)
+    text = re.sub(r"ñ", "n", text)
+    text = re.sub(r"[^a-z0-9\s-]", "", text)
+    text = re.sub(r"[\s-]+", "-", text).strip("-")
+    parts = text.split("-")
+    return "-".join(parts[:8])
 
 def calculate_reading_time(paragraphs: list) -> str:
     """Calcula el tiempo estimado de lectura en minutos."""
-    total_words = sum(len(p.split()) for p in paragraphs)
-    minutes = max(1, round(total_words / 180))
+    full_text = " ".join(paragraphs) if isinstance(paragraphs, list) else str(paragraphs)
+    words = len(full_text.split())
+    minutes = max(1, round(words / 180))
     return f"{minutes} min"
 
 def rewrite_with_gemini(raw_title: str, raw_content: str, source_name: str) -> dict:
-    """Envía el contenido crudo a Gemini para reescritura periodística."""
+    """
+    Toma una noticia cruda y la procesa con Gemini para adaptarla al público de Villa Paranacito.
+    """
+    clean_t = clean_text(raw_title)
+    clean_c = clean_text(raw_content)
+
     if not GEMINI_API_KEY:
-        logging.warning("GEMINI_API_KEY no configurada. Generando versión de respaldo adaptada.")
-        return generate_fallback_rewrite(raw_title, raw_content, source_name)
+        logging.warning("GEMINI_API_KEY no configurada. Aplicando reescritura de respaldo.")
+        return generate_fallback_rewrite(clean_t, clean_c, source_name)
 
     prompt_user = f"""
-Fuente Original: {source_name}
-Título Original: {raw_title}
-Texto Crudo:
-{raw_content}
+NOTICIA CRUDA:
+Título: {clean_t}
+Fuente original: {source_name}
+Contenido:
+{clean_c}
 
-Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delta, devolviendo el JSON con la estructura solicitada.
+Instrucciones:
+Adaptá esta noticia para el portal comunitario de Villa Paranacito (Delta de Entre Ríos).
+Devolvé ÚNICAMENTE un objeto JSON válido con la estructura solicitada (titulo, copete, cuerpo, categoria, tags, slug, tiempo_lectura, resumen_whatsapp).
 """
 
     payload = {
-        "contents": [
-            {
-                "parts": [
-                    {"text": AI_SYSTEM_PROMPT},
-                    {"text": prompt_user}
-                ]
-            }
-        ],
+        "contents": [{"parts": [{"text": prompt_user}]}],
+        "systemInstruction": {"parts": [{"text": AI_SYSTEM_PROMPT}]},
         "generationConfig": {
-            "temperature": 0.3,
+            "temperature": 0.2,
             "responseMimeType": "application/json"
         }
     }
@@ -65,24 +72,24 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
         import google.generativeai as genai
         genai.configure(api_key=GEMINI_API_KEY)
         
-        # Modelos disponibles en Google AI Studio
         for model_id in ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]:
             try:
                 model = genai.GenerativeModel(
                     model_id,
                     system_instruction=AI_SYSTEM_PROMPT,
-                    generation_config={"temperature": 0.3, "response_mime_type": "application/json"}
+                    generation_config={"temperature": 0.2, "response_mime_type": "application/json"}
                 )
-                import time
-                time.sleep(1.0)
                 resp = model.generate_content(prompt_user)
                 if resp and resp.text:
                     candidate_clean = re.sub(r"^```json\s*", "", resp.text.strip())
                     candidate_clean = re.sub(r"\s*```$", "", candidate_clean.strip())
                     result_json = json.loads(candidate_clean)
                     
+                    result_json["titulo"] = clean_text(result_json.get("titulo", clean_t))
+                    result_json["copete"] = clean_text(result_json.get("copete", clean_t))
+                    
                     if "slug" not in result_json or not result_json["slug"]:
-                        result_json["slug"] = slugify(result_json.get("titulo", raw_title))
+                        result_json["slug"] = slugify(result_json["titulo"])
                     else:
                         result_json["slug"] = slugify(result_json["slug"])
                         
@@ -90,7 +97,9 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
                         result_json["categoria"] = "Comunidad"
                         
                     if "cuerpo" not in result_json or not isinstance(result_json["cuerpo"], list):
-                        result_json["cuerpo"] = [raw_content]
+                        result_json["cuerpo"] = [clean_c]
+                    else:
+                        result_json["cuerpo"] = [clean_text(p) for p in result_json["cuerpo"] if clean_text(p)]
                         
                     result_json["tiempo_lectura"] = calculate_reading_time(result_json["cuerpo"])
                     logging.info(f"Noticia procesada con éxito usando {model_id}")
@@ -108,43 +117,31 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
         f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key={GEMINI_API_KEY}",
     ]
 
-
     try:
-        import time
-        time.sleep(1.5)
-
         response = None
-        last_error = None
-
         for endpoint_url in endpoints:
             try:
                 resp = requests.post(endpoint_url, json=payload, timeout=20)
                 if resp.status_code == 200:
                     response = resp
                     break
-                else:
-                    last_error = f"{resp.status_code}: {resp.text[:100]}"
-            except Exception as e_req:
-                last_error = str(e_req)
+            except Exception:
+                pass
 
-        if not response or response.status_code != 200:
-            raise Exception(f"No se pudo conectar a los endpoints de Gemini ({last_error})")
+        if not response:
+            raise Exception("No se pudo conectar a los endpoints de Gemini")
 
         data = response.json()
-
-
-
-        candidate = data["candidates"][0]["content"]["parts"][0]["text"]
-        
-        # Limpieza de posibles bloques ```json si vinieran en el texto
-        candidate_clean = re.sub(r"^```json\s*", "", candidate.strip())
+        raw_text_resp = data["candidates"][0]["content"]["parts"][0]["text"]
+        candidate_clean = re.sub(r"^```json\s*", "", raw_text_resp.strip())
         candidate_clean = re.sub(r"\s*```$", "", candidate_clean.strip())
         
         result_json = json.loads(candidate_clean)
+        result_json["titulo"] = clean_text(result_json.get("titulo", clean_t))
+        result_json["copete"] = clean_text(result_json.get("copete", clean_t))
         
-        # Normalizaciones de seguridad
         if "slug" not in result_json or not result_json["slug"]:
-            result_json["slug"] = slugify(result_json.get("titulo", raw_title))
+            result_json["slug"] = slugify(result_json["titulo"])
         else:
             result_json["slug"] = slugify(result_json["slug"])
             
@@ -152,26 +149,34 @@ Por favor reescribí esta noticia para los vecinos de Villa Paranacito y el Delt
             result_json["categoria"] = "Comunidad"
             
         if "cuerpo" not in result_json or not isinstance(result_json["cuerpo"], list):
-            result_json["cuerpo"] = [raw_content]
+            result_json["cuerpo"] = [clean_c]
+        else:
+            result_json["cuerpo"] = [clean_text(p) for p in result_json["cuerpo"] if clean_text(p)]
             
         result_json["tiempo_lectura"] = calculate_reading_time(result_json["cuerpo"])
-        
         return result_json
 
     except Exception as e:
-        logging.error(f"Error llamando a Gemini API: {e}. Aplicando reescritura de respaldo.")
-        return generate_fallback_rewrite(raw_title, raw_content, source_name)
+        logging.error(f"Error llamando a Gemini API: {e}. Aplicando reescritura de respaldo limpia.")
+        return generate_fallback_rewrite(clean_t, clean_c, source_name)
 
 def generate_fallback_rewrite(raw_title: str, raw_content: str, source_name: str) -> dict:
-    """Genera una estructura de noticia válida sin requerir API externa."""
-    # Dividir texto en párrafos limpios
-    paragraphs = [p.strip() for p in raw_content.split("\n") if len(p.strip()) > 30]
-    if not paragraphs:
-        paragraphs = [raw_content if raw_content else f"Información provista por {source_name}."]
+    """Genera una estructura periodística limpia y profesional sin API externa."""
+    title = clean_text(raw_title)
+    content = clean_text(raw_content)
 
-    # Inferir categoría por palabras clave
-    text_check = f"{raw_title} {raw_content}".lower()
-    if any(w in text_check for w in ["rio", "río", "crecida", "altura", "lluvia", "clima", "temporal", "viento", "alerta"]):
+    # Dividir texto en párrafos limpios
+    paragraphs = [clean_text(p) for p in content.split("\n") if len(clean_text(p)) > 30]
+    if not paragraphs:
+        paragraphs = [
+            f"Las autoridades y medios regionales informaron sobre las novedades vinculadas a {title}.",
+            f"El seguimiento de la información se realiza en articulación con los organismos locales de Villa Paranacito.",
+            f"Información suministrada por {source_name}."
+        ]
+
+    # Inferir categoría
+    text_check = f"{title} {content}".lower()
+    if any(w in text_check for w in ["rio", "río", "crecida", "altura", "lluvia", "clima", "temporal", "viento", "alerta", "nino", "niño"]):
         cat = "Río y Clima"
     elif any(w in text_check for w in ["futbol", "fútbol", "deporte", "club", "islenos", "isleños", "torneo", "liga"]):
         cat = "Deportes"
@@ -184,16 +189,16 @@ def generate_fallback_rewrite(raw_title: str, raw_content: str, source_name: str
     else:
         cat = "Comunidad"
 
-    clean_title = raw_title.replace(" - Diario El Día", "").replace(" - R2820", "").strip()
-    slug = slugify(clean_title)
-    
+    slug = slugify(title)
+    copete = paragraphs[0] if len(paragraphs[0]) <= 180 else paragraphs[0][:175] + "..."
+
     return {
-        "titulo": clean_title,
-        "copete": paragraphs[0][:180] + "..." if len(paragraphs[0]) > 180 else paragraphs[0],
+        "titulo": title,
+        "copete": copete,
         "cuerpo": paragraphs[:4],
         "categoria": cat,
-        "tags": ["paranacito", "delta", cat.lower()],
+        "tags": ["villa paranacito", "delta", cat.lower()],
         "slug": slug,
         "tiempo_lectura": calculate_reading_time(paragraphs),
-        "resumen_whatsapp": f"📰 *{clean_title}* - Novedades de Villa Paranacito."
+        "resumen_whatsapp": f"📰 *{title}* - Novedades de Villa Paranacito."
     }

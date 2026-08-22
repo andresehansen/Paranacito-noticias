@@ -1,21 +1,12 @@
 {
-  "ultima_actualizacion": "2026-08-22T00:41:52.791304",
-  "total_procesadas": 15,
+  "ultima_actualizacion": "2026-08-21T13:30:00-03:00",
+  "total_procesadas": 6,
   "processed_hashes": [
-    "cc2ef035a84a678cfb3c50ba9fc99a1c6665028af162bf02304b310c65f03b63",
-    "seed_sample_6",
-    "821f349b8cdf7692b2c5c1fd7ff5c7ab761a350d7a7177057ed458f5316423e9",
-    "seed_sample_2",
-    "6d17e44e5a3f70e087a927b3f742cf585e59355909c2f4503bb9747301966e40",
-    "seed_sample_5",
-    "5cc4dc026b369b7e4ee421d9a4d82dc74b6219f339823688fc102f51d4b28d0c",
-    "42b6eef30c24a99cef082297e495b94986a39c78dacc5d9040dfa45458e132a6",
-    "2edd5d93bcebda5d7ea0a2031c03701bf8e6e1be4f509c69d7b7ad197dcc45ae",
     "seed_sample_1",
+    "seed_sample_2",
     "seed_sample_3",
     "seed_sample_4",
-    "e2f8b8c8c82cda00fb4392d92fa7e6078a9c14bdd2d3500a4fc723507aef7432",
-    "21ab7b6c9e7035876bc58f77ead9a52ad8346292fa75d0c88901458edc5e0f0b",
-    "eebb72e15983868ac2f55d4f0f98ecddc0f916855855a16a458918615365ecbf"
+    "seed_sample_5",
+    "seed_sample_6"
   ]
 }

@@ -3,28 +3,86 @@ Orquestador Principal del Pipeline de Noticias para Villa Paranacito.
 v2.0 — Motor de Acontecimient@os Vivos + Radar GDELT/Google News
 """
 import sys
+import json
 import logging
 import argparse
+from datetime import datetime
 
 from weather_river import update_weather_and_river
 from sources_extractor import fetch_all_sources
-from news_radar import run_radar
+from news_radar import run_radar, clean_text, is_locally_relevant
 from ai_rewriter import rewrite_with_gemini
-from storage import load_history, get_content_hash, rebuild_master_index
+from storage import load_history, get_content_hash, save_history
 from events_store import (
     create_new_event, update_event_with_new_info,
-    get_recent_events, rebuild_events_index, save_event
+    get_recent_events, rebuild_events_index, save_event, EVENTS_DIR
 )
 from event_matcher import match_article_to_events
+from config import DATA_DIR, DEFAULT_CATEGORY_IMAGES, DEFAULT_FALLBACK_IMAGE
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
+def purge_and_clean_events():
+    """
+    Escanea data/noticias/ eliminando cualquier noticia que no sea 100%
+    relevante para Villa Paranacito y corrigiendo caracteres/entidades HTML.
+    """
+    if not EVENTS_DIR.exists():
+        return
+        
+    purged_count = 0
+    cleaned_count = 0
+    
+    for f in list(EVENTS_DIR.glob("*.json")):
+        try:
+            with open(f, "r", encoding="utf-8") as file:
+                data = json.load(file)
+                
+            raw_title = data.get("titulo", "")
+            raw_copete = data.get("copete", "")
+            cuerpo = data.get("cuerpo", [])
+            cuerpo_str = " ".join(cuerpo) if isinstance(cuerpo, list) else str(cuerpo)
+            
+            clean_title = clean_text(raw_title)
+            clean_copete = clean_text(raw_copete)
+            
+            # 1. Comprobar relevancia estricta
+            if not is_locally_relevant(clean_title, f"{clean_copete} {cuerpo_str}"):
+                f.unlink(missing_ok=True)
+                purged_count += 1
+                logging.info(f"🗑️ Eliminada noticia descartada: {f.name} ('{clean_title[:40]}')")
+                continue
+                
+            # 2. Limpiar textos de entidades HTML
+            data["titulo"] = clean_title
+            data["copete"] = clean_copete
+            if isinstance(cuerpo, list):
+                data["cuerpo"] = [clean_text(p) for p in cuerpo if clean_text(p)]
+                
+            # 3. Asegurar imagen válida en alta definición
+            img = data.get("imagen", "")
+            if not img or not img.startswith("http") or "/images/" in img:
+                cat = data.get("categoria", "Comunidad")
+                data["imagen"] = DEFAULT_CATEGORY_IMAGES.get(cat, DEFAULT_FALLBACK_IMAGE)
+                
+            with open(f, "w", encoding="utf-8") as file:
+                json.dump(data, file, ensure_ascii=False, indent=2)
+            cleaned_count += 1
+            
+        except Exception as ex:
+            logging.error(f"Error procesando {f.name}: {ex}")
+            
+    logging.info(f"Purga y saneamiento: {purged_count} eliminadas, {cleaned_count} verificadas.")
+    rebuild_events_index()
 
 def run_pipeline(use_radar: bool = True):
     """Ejecuta el ciclo completo de ingestión con Motor de Acontecimient@os Vivos."""
     logging.info("════════════════════════════════════════════════════════")
     logging.info("  PARANACITO NOTICIAS — PIPELINE v2.0 — INICIANDO")
     logging.info("════════════════════════════════════════════════════════")
+
+    # 0. Limpieza previa de eventos obsoletos o malformados
+    purge_and_clean_events()
 
     # 1. Actualizar Clima y Río
     try:
@@ -49,16 +107,18 @@ def run_pipeline(use_radar: bool = True):
 
     stats = {"nuevos": 0, "actualizaciones": 0, "descartados": 0, "errores": 0}
 
-    # 5. Procesar cada artículo con el Motor de Acontecimient@os (limitado a los 30 más frescos por corrida)
+    # 5. Procesar cada artículo con el Motor de Acontecimient@os
     for raw in all_raw[:MAX_PROCESS_PER_RUN]:
-
         url = raw.get("url", "")
-        raw_title = raw.get("raw_title", "")
+        raw_title = clean_text(raw.get("raw_title", ""))
+
+        if not is_locally_relevant(raw_title, raw.get("raw_content", "")):
+            stats["descartados"] += 1
+            continue
 
         # 5a. Deduplicación rápida por URL/título
         content_hash = get_content_hash(url, raw_title)
         if content_hash in processed_hashes:
-            logging.debug(f"URL ya procesada: {raw_title[:50]}")
             stats["descartados"] += 1
             continue
 
@@ -80,23 +140,20 @@ def run_pipeline(use_radar: bool = True):
         logging.info(f"[{action}] ({novelty_pct}%) '{raw_title[:55]}'")
 
         if action == "DISCARD":
-            # Registrar la fuente como consultada en el acontecimiento existente
             if matched_event:
                 fuentes_existentes = {f.get("url") for f in matched_event.get("fuentes_consultadas", [])}
                 if url not in fuentes_existentes:
                     matched_event.setdefault("fuentes_consultadas", []).append({
                         "nombre": raw.get("source_name", "Fuente"),
                         "url": url,
-                        "fecha_consulta": __import__("datetime").datetime.now().isoformat()
+                        "fecha_consulta": datetime.now().isoformat()
                     })
                     save_event(matched_event)
             stats["descartados"] += 1
             continue
 
         if action == "UPDATE" and matched_event:
-            # Actualizar acontecimiento existente con la info nueva
             update_event_with_new_info(matched_event, raw, new_info_summary)
-            # Actualizar en recent_events en memoria para siguientes iteraciones
             for i, ev in enumerate(recent_events):
                 if ev.get("acontecimiento_id") == matched_event.get("acontecimiento_id"):
                     recent_events[i] = matched_event
@@ -106,8 +163,7 @@ def run_pipeline(use_radar: bool = True):
 
         # action == "NEW": Reescribir con IA y crear nuevo acontecimiento
         content = raw.get("raw_content", raw.get("raw_summary", ""))
-        if len(content.strip()) < 50:
-            logging.debug(f"Contenido insuficiente para procesar: '{raw_title[:40]}'")
+        if len(content.strip()) < 40:
             stats["descartados"] += 1
             continue
 
@@ -120,144 +176,35 @@ def run_pipeline(use_radar: bool = True):
             )
             rewritten["url_original"] = url
             rewritten["fuente_nombre"] = raw.get("source_name", "Fuente Regional")
-            rewritten["imagen"] = raw.get("image_url", "/images/default-paranacito.jpg")
+            rewritten["imagen"] = raw.get("image_url") or DEFAULT_CATEGORY_IMAGES.get(rewritten.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE)
 
             new_event = create_new_event(rewritten, raw)
-            recent_events.append(new_event)  # Agregar a ventana activa
+            recent_events.append(new_event)
             stats["nuevos"] += 1
 
         except Exception as e:
             logging.error(f"Error procesando con IA '{raw_title[:40]}': {e}")
             stats["errores"] += 1
 
-    # 6. Persistir historial y reconstruir índices maestros
-    from storage import save_history
+    # 6. Guardar historial, purgar y reconstruir índice
     save_history(processed_hashes)
-    rebuild_events_index()
-
+    purge_and_clean_events()
 
     logging.info("════════════════════════════════════════════════════════")
     logging.info(f"  PIPELINE COMPLETADO:")
     logging.info(f"  ✅ Nuevos acontecimient@os: {stats['nuevos']}")
     logging.info(f"  🔄 Actualizaciones: {stats['actualizaciones']}")
-    logging.info(f"  🗑️  Descartados (redundantes): {stats['descartados']}")
+    logging.info(f"  🗑️  Descartados: {stats['descartados']}")
     logging.info(f"  ❌ Errores: {stats['errores']}")
     logging.info("════════════════════════════════════════════════════════")
 
-
-def run_seed_sample():
-    """Genera acontecimient@os de muestra iniciales."""
-    from datetime import datetime
-
-    logging.info("Cargando acontecimient@os de muestra iniciales...")
-    update_weather_and_river()
-
-    samples = [
-        {
-            "titulo": "Río Paranacito: Altura estable en 1.85 metros y pronóstico favorable para la navegación",
-            "copete": "Prefectura Naval confirmó que el cauce se mantiene dentro de los valores de seguridad.",
-            "cuerpo": [
-                "Los registros del hidrómetro en el puerto local marcaron una cota de 1.85 metros con tendencia estacionaria.",
-                "Prefectura Naval destacó que no se esperan repuntes significativos en la cuenca baja del Río Uruguay.",
-                "Se recuerda a los navegantes mantener la precaución en zonas de curvas cerradas."
-            ],
-            "categoria": "Río y Clima", "tags": ["río", "prefectura", "navegación"], "slug": "rio-paranacito-altura-estable",
-            "tiempo_lectura": "2 min", "resumen_whatsapp": "🌊 Río Paranacito estable en 1.85m. Navegación en condiciones normales."
-        },
-        {
-            "titulo": "Avanzan los trabajos de mantenimiento en el camino de acceso a Villa Paranacito",
-            "copete": "Equipos viales municipales intensifican tareas de recomposición del tramo principal.",
-            "cuerpo": [
-                "Personal de Vialidad continúa tareas de bacheo y reposición de material calcáreo.",
-                "Las intervenciones se concentran en los sectores más comprometidos del trazado.",
-                "Se recomendó transitar con precaución ante presencia de maquinaria en banquinas."
-            ],
-            "categoria": "Obras y Servicios", "tags": ["obras", "camino", "vialidad"], "slug": "avanzan-trabajos-mantenimiento-camino-acceso",
-            "tiempo_lectura": "2 min", "resumen_whatsapp": "🚜 Avanzan obras de mantenimiento vial en Paranacito."
-        },
-        {
-            "titulo": "El Club Isleños Independientes convoca a una nueva fecha del torneo regional de fútbol",
-            "copete": "La institución deportiva será sede de partidos en categorías infantiles y primera división.",
-            "cuerpo": [
-                "El Club Isleños Independientes recibirá a cientos de familias para disputar una nueva fecha.",
-                "La actividad comienza a las 10:00 hs con divisiones formativas y Primera División a las 15:30 hs.",
-                "La comisión invitó a toda la comunidad a acompañar a los deportistas locales."
-            ],
-            "categoria": "Deportes", "tags": ["club isleños", "fútbol", "deportes"], "slug": "club-islenos-nueva-fecha-futbol",
-            "tiempo_lectura": "2 min", "resumen_whatsapp": "⚽ Gran fecha de fútbol este finde en Club Isleños Independientes."
-        },
-        {
-            "titulo": "Operativo Sanitario Fluvial: Atención médica en escuelas y parajes del Delta",
-            "copete": "La lancha sanitaria recorrerá diferentes arroyos brindando consultas y vacunación.",
-            "cuerpo": [
-                "El cronograma abarcará escuelas rurales sobre el Arroyo Martínez y Brazo Largo.",
-                "Los vecinos podrán acceder a consultas médicas, vacunas y medicamentos de forma gratuita.",
-                "El operativo está disponible sin necesidad de trasladarse al casco urbano."
-            ],
-            "categoria": "Salud y Educación", "tags": ["salud", "lancha sanitaria", "delta"], "slug": "operativo-sanitario-fluvial",
-            "tiempo_lectura": "2 min", "resumen_whatsapp": "🏥 Operativo sanitario en lancha para parajes del Delta."
-        },
-        {
-            "titulo": "Temporada de Pesca y Ecoturismo: Crecen reservas en cabañas del Delta",
-            "copete": "Prestadores turísticos destacan alto nivel de consultas y demanda de excursiones.",
-            "cuerpo": [
-                "El sector turístico registra un marcado incremento en la demanda de cabañas y guías de pesca.",
-                "La combinación de naturaleza y pesca de temporada convierte al Delta en destino predilecto.",
-                "Se recordó respetar las normativas de pesca con devolución para preservar el ecosistema."
-            ],
-            "categoria": "Turismo y Cultura", "tags": ["turismo", "pesca", "delta"], "slug": "crecen-reservas-turismo-pesca",
-            "tiempo_lectura": "2 min", "resumen_whatsapp": "🎣 Crecen reservas para pesca y descanso en el Delta de Paranacito."
-        },
-        {
-            "titulo": "Bomberos Voluntarios de Villa Paranacito renuevan equipamiento para rescate acuático",
-            "copete": "El cuerpo activo incorporó chalecos certificados, cabos de remolque y reflectores nocturnos.",
-            "cuerpo": [
-                "Gracias a la rifa anual y subsidios, Bomberos sumó equipamiento para intervenciones fluviales.",
-                "El jefe de cuerpo destacó la importancia para responder a contingencias en ríos y arroyos.",
-                "Agradecieron el respaldo de vecinos y comerciantes que hacen posible el crecimiento."
-            ],
-            "categoria": "Comunidad", "tags": ["bomberos", "rescate", "seguridad"], "slug": "bomberos-renuevan-equipamiento-rescate",
-            "tiempo_lectura": "2 min", "resumen_whatsapp": "🚒 Bomberos Voluntarios de Paranacito incorporaron nuevo equipo de rescate."
-        }
-    ]
-
-    IMAGENES = [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
-        "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1000&q=80",
-        "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80",
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80",
-        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
-        "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80"
-    ]
-    FUENTES = [
-        "Prefectura Naval & Monitoreo Local",
-        "Prensa Municipal",
-        "Subcomisión de Prensa del Club",
-        "Área de Salud y Acción Social",
-        "Cámara de Turismo de Paranacito",
-        "Asociación Bomberos Voluntarios"
-    ]
-
-    for i, sample in enumerate(samples):
-        raw_dummy = {
-            "source_name": FUENTES[i],
-            "url": f"https://source-{i}.example.com",
-            "image_url": IMAGENES[i]
-        }
-        create_new_event(sample, raw_dummy)
-
-    rebuild_events_index()
-    rebuild_master_index()
-    logging.info("✅ Acontecimient@os de muestra cargados correctamente.")
-
-
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Pipeline de Noticias Villa Paranacito v2.0")
-    parser.add_argument("--seed", action="store_true", help="Genera acontecimient@os de muestra")
-    parser.add_argument("--no-radar", action="store_true", help="Deshabilita GDELT y Google News")
+    parser = argparse.ArgumentParser(description="Ingestor de Noticias - Villa Paranacito")
+    parser.add_argument("--no-radar", action="store_true", help="Desactivar radar de descubrimiento")
+    parser.add_argument("--purge", action="store_true", help="Solo ejecutar purga de noticias inválidas")
     args = parser.parse_args()
 
-    if args.seed:
-        run_seed_sample()
+    if args.purge:
+        purge_and_clean_events()
     else:
         run_pipeline(use_radar=not args.no_radar)
