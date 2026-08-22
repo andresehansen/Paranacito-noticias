@@ -20,8 +20,14 @@
     "tiempo_lectura": "2 min",
     "fuente_nombre": "Gobierno de Entre Ríos & Prensa Regional",
     "fuentes_consultadas": [
-      "Prensa Gobierno de Entre Ríos",
-      "Diario El Día / R2820"
+      {
+        "nombre": "Prensa Gobierno de Entre Ríos",
+        "url": "https://www.entrerios.gov.ar"
+      },
+      {
+        "nombre": "Diario El Día / R2820",
+        "url": "https://www.eldiaonline.com"
+      }
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "21 de Agosto de 2026, 18:30 hs",
@@ -35,24 +41,27 @@
   {
     "id": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable",
     "slug": "rio-paranacito-altura-estable-pronostico-favorable",
-    "titulo": "Río Paranacito: Altura estable en 1.85 metros y pronóstico favorable para la navegación",
-    "copete": "Prefectura Naval y el área de monitoreo confirmaron que el cauce se mantiene dentro de los valores habituales de seguridad en todo el sector de islas.",
+    "titulo": "Monitoreo del Río Paranacito: Altura y condiciones hidrológicas en la cuenca del Delta",
+    "copete": "Prefectura Naval Argentina y las estaciones hidrométricas de la región informan el estado de los cauces y la navegabilidad en arroyos y ríos del departamento Islas.",
     "categoria": "Río y Clima",
     "tags": [
       "rio paranacito",
       "prefectura",
       "navegacion",
-      "delta"
+      "delta",
+      "clima"
     ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
-    "fuente_nombre": "Prefectura Naval & Monitoreo Local",
+    "fuente_nombre": "Prefectura Naval Argentina & Monitoreo Hidrológico",
     "fuentes_consultadas": [
-      "Prefectura Naval Argentina",
-      "Monitoreo Hidrológico Local"
+      {
+        "nombre": "Prefectura Naval Argentina",
+        "url": "https://prefecturanaval.gob.ar"
+      }
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "21 de Agosto de 2026, 11:00 hs",
@@ -60,30 +69,33 @@
     "fecha_iso": "2026-08-21T11:00:00-03:00",
     "fecha_inicio_iso": "2026-08-21T11:00:00-03:00",
     "fecha_ultima_actualizacion_iso": "2026-08-21T11:00:00-03:00",
-    "resumen_whatsapp": "🌊 *Río Paranacito:* Altura estable en 1.85m con condiciones normales de navegación en el Delta.",
+    "resumen_whatsapp": "🌊 *Río Paranacito:* Condiciones hidrológicas estables y navegación normal en todo el Delta entrerriano.",
     "archivo": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable.json"
   },
   {
     "id": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso",
     "slug": "avanzan-trabajos-mantenimiento-camino-acceso",
-    "titulo": "Avanzan los trabajos de mantenimiento y perfilado en el camino de acceso a Villa Paranacito",
-    "copete": "Equipos viales provinciales y municipales intensifican las tareas de recomposición de ripio y desagües a lo largo del tramo principal.",
+    "titulo": "Vialidad Provincial ejecuta tareas de conservación en caminos y accesos a Villa Paranacito",
+    "copete": "Equipos viales llevan adelante tareas de perfilado de calzada, reposición de material y limpieza de cunetas para garantizar la transitabilidad del transporte y la producción local.",
     "categoria": "Obras y Servicios",
     "tags": [
-      "obras",
-      "camino de acceso",
       "vialidad",
-      "villa paranacito"
+      "camino de acceso",
+      "obras",
+      "villa paranacito",
+      "infraestructura"
     ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1000&q=80",
+    "imagen": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
-    "fuente_nombre": "Prensa Municipal",
+    "fuente_nombre": "Dirección Provincial de Vialidad Entre Ríos & Prensa Municipal",
     "fuentes_consultadas": [
-      "Vialidad Provincial",
-      "Prensa Municipal Paranacito"
+      {
+        "nombre": "Dirección Provincial de Vialidad (DPV)",
+        "url": "https://www.entrerios.gov.ar"
+      }
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "21 de Agosto de 2026, 09:30 hs",
@@ -91,128 +103,74 @@
     "fecha_iso": "2026-08-21T09:30:00-03:00",
     "fecha_inicio_iso": "2026-08-21T09:30:00-03:00",
     "fecha_ultima_actualizacion_iso": "2026-08-21T09:30:00-03:00",
-    "resumen_whatsapp": "🚜 *Vialidad:* Avanzan los trabajos de mantenimiento en el camino de acceso a Paranacito.",
+    "resumen_whatsapp": "🚜 *Vialidad:* Tareas de conservación y mantenimiento en los accesos y caminos de Villa Paranacito.",
     "archivo": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso.json"
   },
   {
-    "id": "2026-08-20-club-islenos-independientes-nueva-fecha-futbol",
-    "slug": "club-islenos-independientes-nueva-fecha-futbol",
-    "titulo": "El Club Isleños Independientes convoca a una nueva fecha del torneo regional de fútbol",
-    "copete": "Este fin de semana la institución deportiva albiverde será sede de una emocionante jornada comunitaria con partidos en categorías infantiles y primera división.",
-    "categoria": "Deportes",
-    "tags": [
-      "club islenos",
-      "futbol",
-      "deportes",
-      "comunidad"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80",
-    "tiempo_lectura": "2 min",
-    "fuente_nombre": "Subcomisión de Prensa del Club",
-    "fuentes_consultadas": [
-      "Subcomisión de Prensa Club Isleños Independientes"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "20 de Agosto de 2026, 18:45 hs",
-    "fecha_ultima_actualizacion": "20 de Agosto de 2026, 18:45 hs",
-    "fecha_iso": "2026-08-20T18:45:00-03:00",
-    "fecha_inicio_iso": "2026-08-20T18:45:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-20T18:45:00-03:00",
-    "resumen_whatsapp": "⚽ *Deportes:* ¡Gran fecha de fútbol este finde en el Club Isleños Independientes de Paranacito!",
-    "archivo": "2026-08-20-club-islenos-independientes-nueva-fecha-futbol.json"
-  },
-  {
-    "id": "2026-08-20-operativo-sanitario-fluvial-atencion-parajes",
-    "slug": "operativo-sanitario-fluvial-atencion-parajes",
-    "titulo": "Operativo Sanitario Fluvial: Atención médica y vacunación en escuelas y parajes isleños",
-    "copete": "El equipo de salud del Hospital local recorrerá diferentes arroyos para brindar consultas pediátricas, odontología y completar esquemas de calendario.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "salud",
-      "lancha sanitaria",
-      "hospital",
-      "escuelas isleñas"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80",
-    "tiempo_lectura": "2 min",
-    "fuente_nombre": "Área de Salud y Acción Social",
-    "fuentes_consultadas": [
-      "Hospital Paranacito",
-      "Ministerio de Salud Entre Ríos"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "20 de Agosto de 2026, 12:15 hs",
-    "fecha_ultima_actualizacion": "20 de Agosto de 2026, 12:15 hs",
-    "fecha_iso": "2026-08-20T12:15:00-03:00",
-    "fecha_inicio_iso": "2026-08-20T12:15:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-20T12:15:00-03:00",
-    "resumen_whatsapp": "🏥 *Salud:* Nuevo operativo sanitario en lancha para recorrer escuelas y parajes del Delta.",
-    "archivo": "2026-08-20-operativo-sanitario-fluvial-atencion-parajes.json"
-  },
-  {
-    "id": "2026-08-19-crecen-reservas-turismo-pesca-delta",
-    "slug": "crecen-reservas-turismo-pesca-delta",
-    "titulo": "Temporada de Pesca y Ecoturismo: Crecen las reservas en cabañas y guiadas del Delta",
-    "copete": "Los prestadores turísticos destacan un alto nivel de consultas atraídos por la tranquilidad, la gastronomía isleña y la riqueza ictícola de la región.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "turismo",
-      "pesca deportiva",
-      "delta",
-      "cabanas"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
-    "tiempo_lectura": "2 min",
-    "fuente_nombre": "Cámara de Turismo de Paranacito",
-    "fuentes_consultadas": [
-      "Cámara de Turismo de Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "19 de Agosto de 2026, 17:20 hs",
-    "fecha_ultima_actualizacion": "19 de Agosto de 2026, 17:20 hs",
-    "fecha_iso": "2026-08-19T17:20:00-03:00",
-    "fecha_inicio_iso": "2026-08-19T17:20:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-19T17:20:00-03:00",
-    "resumen_whatsapp": "🎣 *Turismo:* Excelente expectativa y reservas para la pesca y descanso en el Delta.",
-    "archivo": "2026-08-19-crecen-reservas-turismo-pesca-delta.json"
-  },
-  {
-    "id": "2026-08-19-bomberos-voluntarios-renuevan-equipamiento-rescate",
-    "slug": "bomberos-voluntarios-renuevan-equipamiento-rescate",
-    "titulo": "Bomberos Voluntarios de Villa Paranacito renuevan equipamiento para rescate acuático",
-    "copete": "El cuerpo activo incorporó nuevos chalecos salvavidas certificados, trajes de neopreno y elementos de iluminación nocturna para intervenciones fluviales.",
+    "id": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias",
+    "slug": "bomberos-voluntarios-paranacito-guardia-y-emergencias",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito: Guardia permanente y recomendaciones ante emergencias",
+    "copete": "El cuartel local recuerda las líneas de comunicación activa y los protocolos de prevención ante contingencias climáticas y rescate fluvial en la zona de islas.",
     "categoria": "Comunidad",
     "tags": [
       "bomberos",
       "seguridad",
-      "equipamiento",
-      "villa paranacito"
+      "villa paranacito",
+      "emergencias",
+      "comunidad"
     ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80",
+    "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
-    "fuente_nombre": "Asociación Bomberos Voluntarios",
+    "fuente_nombre": "Asociación Bomberos Voluntarios de Villa Paranacito",
     "fuentes_consultadas": [
-      "Asociación Bomberos Voluntarios de Villa Paranacito"
+      {
+        "nombre": "Asociación Bomberos Voluntarios de Villa Paranacito"
+      }
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "19 de Agosto de 2026, 10:00 hs",
-    "fecha_ultima_actualizacion": "19 de Agosto de 2026, 10:00 hs",
-    "fecha_iso": "2026-08-19T10:00:00-03:00",
-    "fecha_inicio_iso": "2026-08-19T10:00:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-19T10:00:00-03:00",
-    "resumen_whatsapp": "🚒 *Bomberos:* Incorporan nuevo equipamiento de seguridad y rescate acuático en Paranacito.",
-    "archivo": "2026-08-19-bomberos-voluntarios-renuevan-equipamiento-rescate.json"
+    "fecha_publicacion": "20 de Agosto de 2026, 14:00 hs",
+    "fecha_ultima_actualizacion": "20 de Agosto de 2026, 14:00 hs",
+    "fecha_iso": "2026-08-20T14:00:00-03:00",
+    "fecha_inicio_iso": "2026-08-20T14:00:00-03:00",
+    "fecha_ultima_actualizacion_iso": "2026-08-20T14:00:00-03:00",
+    "resumen_whatsapp": "🚒 *Bomberos:* Guardia permanente y recomendaciones de prevención ante contingencias en Villa Paranacito.",
+    "archivo": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias.json"
+  },
+  {
+    "id": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito",
+    "slug": "turismo-y-naturaleza-delta-villa-paranacito",
+    "titulo": "Turismo y Naturaleza: Actividades fluviales y descanso en el Delta de Villa Paranacito",
+    "copete": "Prestadores turísticos locales destacan la propuesta de cabañas, paseos náuticos y pesca deportiva para quienes eligen la tranquilidad del sur entrerriano.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "turismo",
+      "delta",
+      "pesca deportiva",
+      "villa paranacito",
+      "naturaleza"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuente_nombre": "Prestadores Turísticos del Delta & Turismo Entre Ríos",
+    "fuentes_consultadas": [
+      {
+        "nombre": "Secretaría de Turismo de Entre Ríos",
+        "url": "https://www.entrerios.tur.ar"
+      }
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Agosto de 2026, 17:00 hs",
+    "fecha_ultima_actualizacion": "19 de Agosto de 2026, 17:00 hs",
+    "fecha_iso": "2026-08-19T17:00:00-03:00",
+    "fecha_inicio_iso": "2026-08-19T17:00:00-03:00",
+    "fecha_ultima_actualizacion_iso": "2026-08-19T17:00:00-03:00",
+    "resumen_whatsapp": "🌿 *Turismo:* Cabañas, naturaleza y paseos náuticos en el Delta de Villa Paranacito.",
+    "archivo": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito.json"
   }
 ]

@@ -1,26 +1,50 @@
 {
   "id": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso",
-  "titulo": "Avanzan los trabajos de mantenimiento y perfilado en el camino de acceso a Villa Paranacito",
-  "copete": "Equipos viales provinciales y municipales intensifican las tareas de recomposición de ripio y desagües a lo largo del tramo principal.",
+  "acontecimiento_id": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso",
+  "titulo": "Vialidad Provincial ejecuta tareas de conservación en caminos y accesos a Villa Paranacito",
+  "copete": "Equipos viales llevan adelante tareas de perfilado de calzada, reposición de material y limpieza de cunetas para garantizar la transitabilidad del transporte y la producción local.",
   "cuerpo": [
-    "Con el objetivo de garantizar la conectividad terrestre de la comunidad isleña, personal de la Dirección Provincial de Vialidad en conjunto con maquinaria municipal continúa ejecutando tareas de bacheo superficial, limpieza de cunetas y reposición de material calcáreo.",
-    "Las intervenciones se concentran en los sectores más comprometidos del trazado, optimizando la circulación de vehículos particulares, transporte de cargas y el servicio diario de colectivos que une la localidad con la Ruta Nacional 12.",
-    "Desde la secretaría de obras públicas recomendaron transitar con extrema precaución ante la presencia de operarios y maquinarias pesadas trabajando en banquinas durante el horario diurno."
+    "La Dirección Provincial de Vialidad (DPV) de Entre Ríos continúa con las tareas de mantenimiento y conservación sobre la red de caminos que conectan a Villa Paranacito con los principales corredores viales de la región.",
+    "Las cuadrillas operativas trabajan en el perfilado de los tramos de ripio, el relleno de baches y el desmalezado de banquinas, buscando asegurar una circulación segura tanto para los vehículos livianos como para el transporte de carga y micros interurbanos.",
+    "Desde el organismo provincial señalaron que estas intervenciones son prioritarias para prevenir anegamientos en días de lluvia y optimizar los desagües pluviales en los sectores más bajos del trazado."
   ],
   "categoria": "Obras y Servicios",
   "tags": [
-    "obras",
-    "camino de acceso",
     "vialidad",
-    "villa paranacito"
+    "camino de acceso",
+    "obras",
+    "villa paranacito",
+    "infraestructura"
   ],
   "slug": "avanzan-trabajos-mantenimiento-camino-acceso",
   "tiempo_lectura": "2 min",
-  "fuente_nombre": "Prensa Municipal",
-  "url_original": "https://villaparanacito.gob.ar",
-  "imagen": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1000&q=80",
-  "resumen_whatsapp": "🚜 *Vialidad:* Avanzan los trabajos de mantenimiento en el camino de acceso a Paranacito.",
+  "fuente_nombre": "Dirección Provincial de Vialidad Entre Ríos & Prensa Municipal",
+  "url_original": "https://www.entrerios.gov.ar",
+  "imagen": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Dirección Provincial de Vialidad (DPV)",
+      "url": "https://www.entrerios.gov.ar",
+      "fecha_consulta": "2026-08-21T09:30:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "09:30",
+      "fecha": "2026-08-21",
+      "fuente": "Vialidad Provincial",
+      "dato": "Trabajos de conservación y perfilado en el camino de acceso a Paranacito.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🚜 *Vialidad:* Tareas de conservación y mantenimiento en los accesos y caminos de Villa Paranacito.",
   "fecha_iso": "2026-08-21T09:30:00-03:00",
   "fecha_publicacion": "21 de Agosto de 2026, 09:30 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 09:30 hs",
   "archivo": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso.json"
 }

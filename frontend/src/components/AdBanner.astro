@@ -1,0 +1,75 @@
+---
+/**
+ * AdBanner.astro — Bloque de Publicidad y Monetización
+ * Soporta Google AdSense y banners locales de patrocinadores del Delta.
+ */
+
+interface Props {
+  slotId?: string;
+  adClient?: string;
+  format?: 'auto' | 'horizontal' | 'rectangle';
+  title?: string;
+}
+
+const {
+  slotId = "", // Completar con el data-ad-slot de Google AdSense
+  adClient = "", // Completar con tu ca-pub-XXXXXXXXXXXXXXXX
+  format = 'auto',
+  title = "Espacio Publicitario"
+} = Astro.props;
+
+const isAdSenseConfigured = adClient.length > 5 && slotId.length > 3;
+---
+
+<div class="my-8 w-full max-w-4xl mx-auto overflow-hidden">
+  
+  {isAdSenseConfigured ? (
+    <!-- Bloque Activo de Google AdSense -->
+    <div class="text-center">
+      <span class="block text-[10px] uppercase tracking-wider text-slate-400 font-bold mb-1">
+        Publicidad
+      </span>
+      <ins
+        class="adsbygoogle block bg-slate-50 border border-slate-200 rounded-xl"
+        style="display:block"
+        data-ad-client={adClient}
+        data-ad-slot={slotId}
+        data-ad-format={format}
+        data-full-width-responsive="true"
+      ></ins>
+      <script is:inline>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  ) : (
+    <!-- Banner de Patrocinio Comunitario / Espacio Comercial -->
+    <div class="bg-gradient-to-r from-slate-900 to-river-950 text-white rounded-2xl p-4 sm:p-5 border border-slate-800 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3.5 text-center sm:text-left">
+        <div class="w-10 h-10 rounded-xl bg-river-800/80 text-river-300 flex items-center justify-center text-xl shrink-0">
+          📢
+        </div>
+        <div>
+          <span class="text-[10px] uppercase font-black tracking-wider text-river-400">
+            Espacio Publicitario
+          </span>
+          <h4 class="text-sm font-bold text-slate-100">
+            ¿Querés promocionar tu comercio, cabaña o servicio en Paranacito Noticias?
+          </h4>
+          <p class="text-xs text-slate-400">
+            Llegá directamente a miles de vecinos y turistas del Delta de Entre Ríos.
+          </p>
+        </div>
+      </div>
+
+      <a
+        href="https://api.whatsapp.com/send?phone=&text=Hola%2C%20quisiera%20anunciar%20mi%20comercio%20en%20Paranacito%20Noticias"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="shrink-0 px-4 py-2 bg-river-500 hover:bg-river-400 text-white text-xs font-bold rounded-xl transition-all shadow-sm"
+      >
+        Anunciar acá &rarr;
+      </a>
+    </div>
+  )}
+
+</div>

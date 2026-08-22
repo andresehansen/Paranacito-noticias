@@ -2,7 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import WeatherWidget from '../components/WeatherWidget.astro';
 import NewsCard from '../components/NewsCard.astro';
+import AdBanner from '../components/AdBanner.astro';
 import noticias from '../../../data/noticias_index.json';
+
 
 const featuredNews = noticias[0];
 const recentNews = noticias.slice(1);
@@ -68,6 +70,10 @@ const categoriasDestacadas = [
       ))}
     </div>
   </section>
+
+  <!-- Espacio Publicitario / Google AdSense -->
+  <AdBanner />
+
 
   <!-- Banner Comunitario de WhatsApp -->
   <section class="mt-14 bg-gradient-to-r from-emerald-800 to-teal-900 text-white rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg">

@@ -1,0 +1,49 @@
+{
+  "id": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias",
+  "acontecimiento_id": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias",
+  "titulo": "Bomberos Voluntarios de Villa Paranacito: Guardia permanente y recomendaciones ante emergencias",
+  "copete": "El cuartel local recuerda las líneas de comunicación activa y los protocolos de prevención ante contingencias climáticas y rescate fluvial en la zona de islas.",
+  "cuerpo": [
+    "El cuerpo activo de Bomberos Voluntarios de Villa Paranacito mantiene su esquema de guardia operativa las 24 horas para intervenir ante contingencias climáticas, rescates náuticos y emergencias civiles en el ejido urbano y sectores ribereños.",
+    "Desde la institución destacaron la importancia de que los vecinos mantengan libres las canaletas y desagües particulares, y aseguren embarcaciones y elementos sueltos ante avisos de vientos fuertes o tormentas pronosticadas para el área del Delta.",
+    "Para solicitar asistencia o reportar una urgencia, el cuartel recuerda que se encuentra disponible la línea de guardia local y los canales de comunicación articulados con la Policía de Entre Ríos y Prefectura Naval."
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "bomberos",
+    "seguridad",
+    "villa paranacito",
+    "emergencias",
+    "comunidad"
+  ],
+  "slug": "bomberos-voluntarios-paranacito-guardia-y-emergencias",
+  "tiempo_lectura": "2 min",
+  "fuente_nombre": "Asociación Bomberos Voluntarios de Villa Paranacito",
+  "url_original": "https://www.facebook.com/BomberosParanacito",
+  "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Asociación Bomberos Voluntarios de Villa Paranacito",
+      "fecha_consulta": "2026-08-20T14:00:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "14:00",
+      "fecha": "2026-08-20",
+      "fuente": "Bomberos Voluntarios Paranacito",
+      "dato": "Guardia operativa y recomendaciones preventivas para la comunidad isleña.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🚒 *Bomberos:* Guardia permanente y recomendaciones de prevención ante contingencias en Villa Paranacito.",
+  "fecha_iso": "2026-08-20T14:00:00-03:00",
+  "fecha_publicacion": "20 de Agosto de 2026, 14:00 hs",
+  "fecha_ultima_actualizacion": "20 de Agosto de 2026, 14:00 hs",
+  "archivo": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias.json"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito",
+  "acontecimiento_id": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito",
+  "titulo": "Turismo y Naturaleza: Actividades fluviales y descanso en el Delta de Villa Paranacito",
+  "copete": "Prestadores turísticos locales destacan la propuesta de cabañas, paseos náuticos y pesca deportiva para quienes eligen la tranquilidad del sur entrerriano.",
+  "cuerpo": [
+    "Villa Paranacito continúa consolidándose como uno de los destinos más buscados del Delta de Entre Ríos para el ecoturismo, la observación de aves autóctonas y el descanso en contacto directo con la naturaleza isleña.",
+    "La oferta de la localidad incluye paseos guiados en lancha por arroyos interiores, alquiler de cabañas sobre pilotes con muelle propio y excursiones de pesca deportiva con guías habilitados conocedores de los mejores pesqueros de la zona.",
+    "Los visitantes pueden consultar las opciones de alojamiento y servicios gastronómicos típicos en los canales informativos de los prestadores y la Dirección de Turismo local."
+  ],
+  "categoria": "Turismo y Cultura",
+  "tags": [
+    "turismo",
+    "delta",
+    "pesca deportiva",
+    "villa paranacito",
+    "naturaleza"
+  ],
+  "slug": "turismo-y-naturaleza-delta-villa-paranacito",
+  "tiempo_lectura": "2 min",
+  "fuente_nombre": "Prestadores Turísticos del Delta & Turismo Entre Ríos",
+  "url_original": "https://www.entrerios.tur.ar",
+  "imagen": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Secretaría de Turismo de Entre Ríos",
+      "url": "https://www.entrerios.tur.ar",
+      "fecha_consulta": "2026-08-19T17:00:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "17:00",
+      "fecha": "2026-08-19",
+      "fuente": "Turismo Entre Ríos",
+      "dato": "Propuestas turísticas y paseos de naturaleza en Villa Paranacito.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🌿 *Turismo:* Cabañas, naturaleza y paseos náuticos en el Delta de Villa Paranacito.",
+  "fecha_iso": "2026-08-19T17:00:00-03:00",
+  "fecha_publicacion": "19 de Agosto de 2026, 17:00 hs",
+  "fecha_ultima_actualizacion": "19 de Agosto de 2026, 17:00 hs",
+  "archivo": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito.json"
+}

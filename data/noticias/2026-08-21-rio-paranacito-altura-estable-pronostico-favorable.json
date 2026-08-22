@@ -1,26 +1,50 @@
 {
   "id": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable",
-  "titulo": "Río Paranacito: Altura estable en 1.85 metros y pronóstico favorable para la navegación",
-  "copete": "Prefectura Naval y el área de monitoreo confirmaron que el cauce se mantiene dentro de los valores habituales de seguridad en todo el sector de islas.",
+  "acontecimiento_id": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable",
+  "titulo": "Monitoreo del Río Paranacito: Altura y condiciones hidrológicas en la cuenca del Delta",
+  "copete": "Prefectura Naval Argentina y las estaciones hidrométricas de la región informan el estado de los cauces y la navegabilidad en arroyos y ríos del departamento Islas.",
   "cuerpo": [
-    "Durante las primeras horas de este viernes, los registros del hidrómetro en el puerto local marcaron una cota de 1.85 metros, registrando una tendencia estacionaria respecto a las jornadas anteriores.",
-    "Las autoridades de Prefectura Naval Argentina destacaron que no se esperan repuntes significativos en la cuenca baja del Río Uruguay en el corto plazo, lo que asegura condiciones óptimas tanto para los traslados escolares como para la actividad comercial de lanchas almaceneras y de pasajeros.",
-    "Se recuerda a los navegantes deportivos y comerciales mantener la precaución en las zonas de curvas cerradas y respetar las velocidades de paso frente a viviendas ribereñas y amarraderos para evitar oleajes perjudiciales."
+    "La Prefectura Naval Argentina y los puestos de control hidrométrico mantienen el seguimiento permanente de los niveles del Río Paranacito y los brazos del Delta entrerriano, registrando alturas dentro de los rangos operativos habituales.",
+    "El informe destaca que el caudal del Río Uruguay inferior se mantiene regulado, lo que permite el normal desarrollo del transporte fluvial de pasajeros, lanchas escolares, abastecimiento de víveres y las actividades comerciales de la zona.",
+    "Las autoridades fluviales recuerdan a los navegantes la importancia de verificar los elementos de seguridad a bordo (chalecos salvavidas, matafuegos y linternas reglamentarias) y moderar la velocidad en zonas habitadas para evitar el impacto del oleaje sobre muelles y márgenes."
   ],
   "categoria": "Río y Clima",
   "tags": [
     "rio paranacito",
     "prefectura",
     "navegacion",
-    "delta"
+    "delta",
+    "clima"
   ],
   "slug": "rio-paranacito-altura-estable-pronostico-favorable",
   "tiempo_lectura": "2 min",
-  "fuente_nombre": "Prefectura Naval & Monitoreo Local",
+  "fuente_nombre": "Prefectura Naval Argentina & Monitoreo Hidrológico",
   "url_original": "https://prefecturanaval.gob.ar",
-  "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
-  "resumen_whatsapp": "🌊 *Río Paranacito:* Altura estable en 1.85m con condiciones normales de navegación en el Delta.",
+  "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Prefectura Naval Argentina",
+      "url": "https://prefecturanaval.gob.ar",
+      "fecha_consulta": "2026-08-21T11:00:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "11:00",
+      "fecha": "2026-08-21",
+      "fuente": "Prefectura Naval Argentina",
+      "dato": "Condiciones hidrológicas estables y navegación normal en el Delta.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🌊 *Río Paranacito:* Condiciones hidrológicas estables y navegación normal en todo el Delta entrerriano.",
   "fecha_iso": "2026-08-21T11:00:00-03:00",
   "fecha_publicacion": "21 de Agosto de 2026, 11:00 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 11:00 hs",
   "archivo": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable.json"
 }

@@ -3,7 +3,9 @@ import Layout from '../../layouts/Layout.astro';
 import ShareWhatsApp from '../../components/ShareWhatsApp.astro';
 import EventTimeline from '../../components/EventTimeline.astro';
 import SourcesPanel from '../../components/SourcesPanel.astro';
+import AdBanner from '../../components/AdBanner.astro';
 import noticiasIndex from '../../../../data/noticias_index.json';
+
 
 export async function getStaticPaths() {
   const newsFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
@@ -175,7 +177,7 @@ const imageSrc = (noticia.imagen && noticia.imagen.startsWith('http')) ? noticia
     )}
 
     <!-- WhatsApp (abajo, destacado) -->
-    <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-6 text-center shadow-md mb-12">
+    <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-6 text-center shadow-md mb-8">
       <h3 class="text-lg font-bold mb-1">¿Te pareció útil esta información?</h3>
       <p class="text-xs text-emerald-100 mb-4">Reenviá esta nota a los grupos de WhatsApp de Villa Paranacito y el Delta.</p>
       <ShareWhatsApp
@@ -185,7 +187,11 @@ const imageSrc = (noticia.imagen && noticia.imagen.startsWith('http')) ? noticia
       />
     </div>
 
+    <!-- Espacio Publicitario / Google AdSense -->
+    <AdBanner />
+
   </article>
+
 
   <!-- Noticias Relacionadas -->
   {relatedNews.length > 0 && (
