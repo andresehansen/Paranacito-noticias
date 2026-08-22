@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "21/08/2026 13:30",
-  "timestamp_iso": "2026-08-21T13:30:00-03:00",
+  "ultima_actualizacion": "22/08/2026 01:09",
+  "timestamp_iso": "2026-08-22T01:09:38.347469",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 21,
-    "sensacion_termica": 21,
-    "humedad": 68,
-    "viento_velocidad_kmh": 14,
-    "viento_direccion": "SE",
-    "presion_hpa": 1016,
-    "descripcion": "Mayormente despejado",
-    "icono": "🌤️",
+    "temperatura": 5,
+    "sensacion_termica": 2,
+    "humedad": 78,
+    "viento_velocidad_kmh": 6,
+    "viento_direccion": "SSO",
+    "presion_hpa": 1027,
+    "descripcion": "Cielo despejado",
+    "icono": "☀️",
     "pronostico_extendido": [
       {
         "fecha": "2026-08-21",
-        "temp_max": 22,
-        "temp_min": 12,
+        "temp_max": 13,
+        "temp_min": 4,
         "prob_lluvia": 0,
-        "descripcion": "Mayormente despejado",
-        "icono": "🌤️"
+        "descripcion": "Nublado",
+        "icono": "☁️"
       },
       {
         "fecha": "2026-08-22",
-        "temp_max": 24,
-        "temp_min": 14,
-        "prob_lluvia": 10,
-        "descripcion": "Cielo despejado",
-        "icono": "☀️"
+        "temp_max": 13,
+        "temp_min": 1,
+        "prob_lluvia": 0,
+        "descripcion": "Nublado",
+        "icono": "☁️"
       },
       {
         "fecha": "2026-08-23",
-        "temp_max": 23,
-        "temp_min": 15,
-        "prob_lluvia": 20,
+        "temp_max": 15,
+        "temp_min": 2,
+        "prob_lluvia": 0,
         "descripcion": "Parcialmente nublado",
         "icono": "⛅"
       },
       {
         "fecha": "2026-08-24",
-        "temp_max": 20,
-        "temp_min": 13,
-        "prob_lluvia": 40,
-        "descripcion": "Chaparrones leves",
-        "icono": "🌦️"
+        "temp_max": 12,
+        "temp_min": 3,
+        "prob_lluvia": 0,
+        "descripcion": "Nublado",
+        "icono": "☁️"
       }
     ]
   },
@@ -53,8 +53,8 @@
     "icono_tendencia": "➡️",
     "estado": "Normal",
     "color_alerta": "verde",
-    "nivel_alerta": 2.30,
-    "nivel_evacuacion": 2.60,
-    "actualizado": "2026-08-21 13:00"
+    "nivel_alerta": 2.3,
+    "nivel_evacuacion": 2.6,
+    "actualizado": "2026-08-22 01:09"
   }
 }
