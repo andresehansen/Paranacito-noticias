@@ -1,0 +1,53 @@
+{
+  "id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
+  "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
+  "titulo": "Frigerio coordinó con intendentes ribereños el plan de contingencia ante la crecida de los ríos",
+  "copete": "El Gobernador de Entre Ríos encabezó una reunión de trabajo para supervisar el estado de los diques, defensas costeras y bombas de desagüe en el Delta y zonas de islas.",
+  "cuerpo": [
+    "El gobernador Rogelio Frigerio mantuvo un encuentro de coordinación junto a intendentes y autoridades de Defensa Civil de los departamentos costeros y de islas, evaluando los informes meteorológicos e hidrológicos previstos para las próximas semanas.",
+    "Durante el encuentro se acordó el envío de partidas de refuerzo y maquinaria pesada para tareas de mantenimiento en albardones, defensas costeras y estaciones de bombeo, previendo un monitoreo continuo de los caudales de la cuenca baja del Río Uruguay y el Río Paranacito.",
+    "Desde el gobierno provincial remarcaron que todos los equipos de asistencia social, salud fluvial y vialidad se encuentran en estado de alerta preventiva y articulación directa con los municipios para dar respuesta rápida ante eventuales repuntes del agua."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "crecida",
+    "el nino",
+    "defensas costeras",
+    "villa paranacito",
+    "delta"
+  ],
+  "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
+  "tiempo_lectura": "2 min",
+  "fuente_nombre": "Gobierno de Entre Ríos & Prensa Regional",
+  "url_original": "https://www.entrerios.gov.ar",
+  "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Prensa Gobierno de Entre Ríos",
+      "fecha_consulta": "2026-08-21T18:00:00-03:00"
+    },
+    {
+      "nombre": "Diario El Día / R2820",
+      "fecha_consulta": "2026-08-21T18:00:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "18:30",
+      "fecha": "2026-08-21",
+      "fuente": "Gobierno de Entre Ríos",
+      "dato": "Reunión de coordinación con intendentes y Defensa Civil de la zona ribereña.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🌊 *Plan Hídrico:* Frigerio coordinó con intendentes el monitoreo preventivo de defensas costeras y diques en el Delta.",
+  "fecha_iso": "2026-08-21T18:30:00-03:00",
+  "fecha_publicacion": "21 de Agosto de 2026, 18:30 hs",
+  "fecha_ultima_actualizacion": "21 de Agosto de 2026, 18:30 hs",
+  "archivo": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino.json"
+}
