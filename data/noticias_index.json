@@ -42,5 +42,84 @@
     "fecha_ultima_actualizacion_iso": "2026-08-21T18:30:00-03:00",
     "resumen_whatsapp": "🌊 *Plan de Contingencia Hídrico:* Frigerio coordinó con el intendente de Villa Paranacito el monitoreo de diques, bombas de desagüe y asistencia para el Delta.",
     "archivo": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino.json"
+  },
+  {
+    "id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
+    "acontecimiento_id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
+    "slug": "inician-obras-ampliacion-modernizacion-hospital-paranacito",
+    "titulo": "Inician las obras de ampliación y modernización edilicia en el Hospital de Villa Paranacito",
+    "copete": "Con una inversión provincial superior a los $28 millones, comenzó la primera etapa de reformas que permitirá optimizar los espacios de atención y ampliar el sector de Guardia y consultorios.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "hospital paranacito",
+      "salud",
+      "obras",
+      "villa paranacito",
+      "ministerio de salud"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
+    "fuentes_consultadas": [
+      {
+        "nombre": "Ministerio de Salud de Entre Ríos",
+        "url": "https://www.entrerios.gov.ar"
+      },
+      {
+        "nombre": "Mirador Provincial"
+      }
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
+    "fecha_iso": "2026-08-22T12:00:00-03:00",
+    "fecha_inicio_iso": "2026-08-22T12:00:00-03:00",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T12:00:00-03:00",
+    "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios.",
+    "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json"
+  },
+  {
+    "id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "acontecimiento_id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "slug": "desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "titulo": "Operativo en Villa Paranacito: interceptaron a cazadores furtivos con visores térmicos y diez armas de fuego",
+    "copete": "La Policía de Entre Ríos y la Brigada de Delitos Rurales desarticularon una cuadrilla que operaba de noche en campos privados del Delta. Secuestraron camionetas, fusiles y más de 300 kilos de carne.",
+    "categoria": "Comunidad",
+    "tags": [
+      "seguridad",
+      "delitos rurales",
+      "villa paranacito",
+      "policia de entre rios",
+      "medio ambiente"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuente_nombre": "Policía de Entre Ríos / Diario El Día / R2820",
+    "fuentes_consultadas": [
+      {
+        "nombre": "Jefatura Departamental Islas del Ibicuy"
+      },
+      {
+        "nombre": "Diario El Día (Gualeguaychú)",
+        "url": "https://www.eldiaonline.com"
+      },
+      {
+        "nombre": "Diario Junio / R2820"
+      }
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 15:00 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 15:00 hs",
+    "fecha_iso": "2026-08-22T15:00:00-03:00",
+    "fecha_inicio_iso": "2026-08-22T15:00:00-03:00",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T15:00:00-03:00",
+    "resumen_whatsapp": "🚨 *Seguridad Rural:* La Policía desarticuló en Villa Paranacito a cazadores furtivos con visores térmicos y 10 armas de fuego.",
+    "archivo": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito.json"
   }
 ]

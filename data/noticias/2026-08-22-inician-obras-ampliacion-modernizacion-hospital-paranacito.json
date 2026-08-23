@@ -1,0 +1,56 @@
+{
+  "id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
+  "acontecimiento_id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
+  "titulo": "Inician las obras de ampliación y modernización edilicia en el Hospital de Villa Paranacito",
+  "copete": "Con una inversión provincial superior a los $28 millones, comenzó la primera etapa de reformas que permitirá optimizar los espacios de atención y ampliar el sector de Guardia y consultorios.",
+  "cuerpo": [
+    "El Hospital de Villa Paranacito, cabecera de la atención sanitaria en el departamento Islas del Ibicuy, comenzó la ejecución de un ambicioso plan de obras de infraestructura financiado por el Ministerio de Salud de Entre Ríos, que demandará una inversión oficial de $28.190.533 en su etapa inicial.",
+    "El proyecto se estructura en tres etapas consecutivas. La primera fase, actualmente en marcha con un plazo de ejecución de 45 días, comprende el cerramiento integral y techado de la terraza del edificio, espacio que será destinado al traslado de las oficinas de Dirección, Administración y tareas de gestión interna.",
+    "Una vez liberados los espacios de la planta baja, la segunda y tercera etapa permitirán una profunda reestructuración funcional: se ampliará la Guardia de Emergencias, se reubicarán los consultorios externos de especialistas y se optimizará el vacunatorio para brindar una atención más cómoda y ágil a las familias que llegan desde distintos puntos del Delta.",
+    "La directora del nosocomio, Dra. María del Mar Solari Gatti, destacó la importancia de concretar este proyecto largamente gestionado: 'Esta obra representa una mejora sustancial en las condiciones de trabajo de nuestro personal y, fundamentalmente, en la calidad y dignidad de la atención para todos los vecinos y comunidades ribereñas que dependen de nuestro hospital'.",
+    "Desde el centro de salud informaron que durante el período de obras la atención médica habitual, el servicio de guardia y las salidas de la lancha sanitaria continuarán funcionando con normalidad bajo protocolos adaptados de circulación interna."
+  ],
+  "categoria": "Salud y Educación",
+  "tags": [
+    "hospital paranacito",
+    "salud",
+    "obras",
+    "villa paranacito",
+    "ministerio de salud"
+  ],
+  "slug": "inician-obras-ampliacion-modernizacion-hospital-paranacito",
+  "tiempo_lectura": "3 min",
+  "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
+  "url_original": "https://www.entrerios.gov.ar",
+  "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Ministerio de Salud de Entre Ríos",
+      "url": "https://www.entrerios.gov.ar",
+      "fecha_consulta": "2026-08-22T12:00:00-03:00"
+    },
+    {
+      "nombre": "Mirador Provincial",
+      "fecha_consulta": "2026-08-22T12:00:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "12:00",
+      "fecha": "2026-08-22",
+      "fuente": "Ministerio de Salud Entre Ríos",
+      "dato": "Inicio de la primera etapa de obras de cerramiento y ampliación en el Hospital Paranacito.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios.",
+  "fecha_iso": "2026-08-22T12:00:00-03:00",
+  "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
+  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
+  "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json"
+}

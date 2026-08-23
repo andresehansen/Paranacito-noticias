@@ -1,0 +1,60 @@
+{
+  "id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+  "acontecimiento_id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+  "titulo": "Operativo en Villa Paranacito: interceptaron a cazadores furtivos con visores térmicos y diez armas de fuego",
+  "copete": "La Policía de Entre Ríos y la Brigada de Delitos Rurales desarticularon una cuadrilla que operaba de noche en campos privados del Delta. Secuestraron camionetas, fusiles y más de 300 kilos de carne.",
+  "cuerpo": [
+    "Un importante operativo conjunto desarrollado por personal de la Jefatura Departamental Islas del Ibicuy y la Brigada de Prevención de Delitos Rurales de la Policía de Entre Ríos permitió desarticular las actividades de un grupo de cazadores furtivos que operaba de manera ilegal en la zona rural y de humedales de Villa Paranacito.",
+    "El procedimiento se originó a raíz de alertas tempranas sobre detonaciones y movimientos sospechosos de vehículos en inmediaciones del establecimiento 'Islas Victoria'. Tras montar un cerrojo estratégico en los caminos vecinales, las fuerzas de seguridad interceptaron una caravana de cuatro camionetas de alta gama en la que se trasladaban nueve hombres mayores de edad, ninguno de los cuales contaba con los permisos de caza deportiva ni autorización de los propietarios de los campos.",
+    "Durante la requisa ordenada por la Fiscalía en turno, se constató un despliegue de tecnología táctica de avanzada para incursiones nocturnas, destacándose el uso de visores térmicos infrarrojos, miras telescópicas de precisión, equipos de radiocomunicación VHF y linternas de alta potencia. En total, se procedió al secuestro de 10 armas de fuego de grueso calibre, entre ellas fusiles .30-06, .357, .308, .270 y carabinas .22 con abundante cartuchería.",
+    "Asimismo, las autoridades decomisaron más de 300 kilos de carne correspondiente a cinco ejemplares de ciervo axis faenados y cabezas con astas. La intervención cobra especial relevancia ambiental dado que la actividad furtiva se desarrollaba en un ecosistema de humedales protegidos donde habita y se busca preservar al ciervo de los pantanos, especie declarada Monumento Natural provincial.",
+    "Los involucrados quedaron supeditados a las actuaciones judiciales por infracción a la Ley Provincial de Caza Nº 4.841 y tenencia ilegal de armamento en zona rural, mientras que la carne decomisada fue entregada a examen bromatológico según los protocolos de rigor."
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "seguridad",
+    "delitos rurales",
+    "villa paranacito",
+    "policia de entre rios",
+    "medio ambiente"
+  ],
+  "slug": "desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+  "tiempo_lectura": "3 min",
+  "fuente_nombre": "Policía de Entre Ríos / Diario El Día / R2820",
+  "url_original": "https://www.eldiaonline.com",
+  "imagen": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Alta",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Jefatura Departamental Islas del Ibicuy",
+      "fecha_consulta": "2026-08-22T15:00:00-03:00"
+    },
+    {
+      "nombre": "Diario El Día (Gualeguaychú)",
+      "url": "https://www.eldiaonline.com",
+      "fecha_consulta": "2026-08-22T15:00:00-03:00"
+    },
+    {
+      "nombre": "Diario Junio / R2820",
+      "fecha_consulta": "2026-08-22T15:00:00-03:00"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "15:00",
+      "fecha": "2026-08-22",
+      "fuente": "Policía de Entre Ríos",
+      "dato": "Operativo contra la caza furtiva nocturna y secuestro de armamento en zona rural de Villa Paranacito.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "resumen_whatsapp": "🚨 *Seguridad Rural:* La Policía desarticuló en Villa Paranacito a cazadores furtivos con visores térmicos y 10 armas de fuego.",
+  "fecha_iso": "2026-08-22T15:00:00-03:00",
+  "fecha_publicacion": "22 de Agosto de 2026, 15:00 hs",
+  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 15:00 hs",
+  "archivo": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito.json"
+}
