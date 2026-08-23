@@ -50,12 +50,17 @@ const ogImageUrl = image.startsWith('http') ? image : new URL(image, canonicalUr
     <meta property="og:locale" content="es_AR" />
     <meta property="og:site_name" content="Paranacito Noticias" />
 
+    <!-- Google AdSense (Configuración de Monetización) -->
+    <!-- Reemplazá ca-pub-XXXXXXXXXXXXXXXX con tu Publisher ID de AdSense cuando esté aprobado -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={canonicalUrl} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
+
   </head>
   <body class="min-h-screen flex flex-col justify-between">
     <Header />

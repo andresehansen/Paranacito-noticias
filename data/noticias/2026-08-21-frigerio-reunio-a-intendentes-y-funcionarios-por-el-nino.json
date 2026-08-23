@@ -1,12 +1,14 @@
 {
   "id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
   "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
-  "titulo": "Frigerio coordinó con intendentes ribereños el plan de contingencia ante la crecida de los ríos",
-  "copete": "El Gobernador de Entre Ríos encabezó una reunión de trabajo para supervisar el estado de los diques, defensas costeras y bombas de desagüe en el Delta y zonas de islas.",
+  "titulo": "Frigerio coordinó con intendentes ribereños el plan de contingencia ante la crecida de los ríos y el fenómeno de El Niño",
+  "copete": "El Gobernador de Entre Ríos encabezó una cumbre de trabajo urgente con jefes comunales de localidades costeras y del Delta para monitorear el estado de los diques, defensas y bombas de desagüe.",
   "cuerpo": [
-    "El gobernador Rogelio Frigerio mantuvo un encuentro de coordinación junto a intendentes y autoridades de Defensa Civil de los departamentos costeros y de islas, evaluando los informes meteorológicos e hidrológicos previstos para las próximas semanas.",
-    "Durante el encuentro se acordó el envío de partidas de refuerzo y maquinaria pesada para tareas de mantenimiento en albardones, defensas costeras y estaciones de bombeo, previendo un monitoreo continuo de los caudales de la cuenca baja del Río Uruguay y el Río Paranacito.",
-    "Desde el gobierno provincial remarcaron que todos los equipos de asistencia social, salud fluvial y vialidad se encuentran en estado de alerta preventiva y articulación directa con los municipios para dar respuesta rápida ante eventuales repuntes del agua."
+    "El gobernador Rogelio Frigerio encabezó un encuentro clave de coordinación en la Casa de Gobierno junto a intendentes de los departamentos ribereños y de islas —entre ellos el jefe comunal de Villa Paranacito, César Melchiori—, además de autoridades de Defensa Civil, Vialidad Provincial y el Ministerio de Salud, con el fin de evaluar los informes hidrológicos y meteorológicos previstos para la cuenca baja del Río Uruguay y el Río Paranacito.",
+    "Durante la reunión de trabajo, se repasó el estado operativo de las defensas costeras, diques perimetrales y las estaciones de bombeo de cada localidad. Frigerio remarcó la importancia de la anticipación: 'Estamos trabajando en conjunto con todos los municipios, sin distinción de banderas políticas, para que las familias de las zonas más bajas y del Delta cuenten con toda la infraestructura y el respaldo de la provincia antes de que se produzcan repuntes mayores'.",
+    "Para el departamento Islas del Ibicuy y Villa Paranacito en particular, se acordó un esquema prioritario de refuerzo que incluye la provisión de combustible para los sistemas de bombeo, partidas extraordinarias para el mantenimiento de caminos rurales y terraplenes de defensa, así como la preparación preventiva de centros de evacuación y resguardo de ganado en zonas altas.",
+    "En materia sanitaria y logística fluvial, se estableció que las lanchas sanitarias del Hospital local y los equipos de Prefectura Naval mantendrán un monitoreo constante sobre los arroyos interiores (Sagastume, Brazo Largo y arroyos aledaños), garantizando el suministro regular de alimentos, agua potable y medicamentos para los pobladores y escuelas del Delta.",
+    "Desde Defensa Civil provincial reiteraron que los canales de comunicación de emergencias (línea 103 y destacamentos locales de Bomberos Voluntarios y Policía) permanecen en guardia activa permanente las 24 horas, e instaron a los vecinos a seguir los partes oficiales sobre el nivel de los ríos y el estado de la navegación."
   ],
   "categoria": "Río y Clima",
   "tags": [
@@ -14,13 +16,14 @@
     "el nino",
     "defensas costeras",
     "villa paranacito",
-    "delta"
+    "delta",
+    "rio paranacito"
   ],
   "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
-  "tiempo_lectura": "2 min",
-  "fuente_nombre": "Gobierno de Entre Ríos & Prensa Regional",
+  "tiempo_lectura": "3 min",
+  "fuente_nombre": "Gobierno de Entre Ríos / Diario El Argentino / Prensa Municipal",
   "url_original": "https://www.entrerios.gov.ar",
-  "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+  "imagen": "https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp",
   "estado": "Publicado",
   "nivel_confiabilidad": "Alta",
   "es_alerta": false,
@@ -28,12 +31,19 @@
   "publicado": true,
   "fuentes_consultadas": [
     {
-      "nombre": "Prensa Gobierno de Entre Ríos",
-      "fecha_consulta": "2026-08-21T18:00:00-03:00"
+      "nombre": "Prensa Oficial - Gobierno de Entre Ríos",
+      "url": "https://www.entrerios.gov.ar",
+      "fecha_consulta": "2026-08-21T18:30:00-03:00"
+    },
+    {
+      "nombre": "Diario El Argentino (Gualeguaychú)",
+      "url": "https://www.diarioelargentino.com",
+      "fecha_consulta": "2026-08-21T18:30:00-03:00"
     },
     {
       "nombre": "Diario El Día / R2820",
-      "fecha_consulta": "2026-08-21T18:00:00-03:00"
+      "url": "https://www.eldiaonline.com",
+      "fecha_consulta": "2026-08-21T18:30:00-03:00"
     }
   ],
   "cronologia_actualizaciones": [
@@ -41,11 +51,11 @@
       "hora": "18:30",
       "fecha": "2026-08-21",
       "fuente": "Gobierno de Entre Ríos",
-      "dato": "Reunión de coordinación con intendentes y Defensa Civil de la zona ribereña.",
+      "dato": "Cumbre de contingencia hídrica entre el Gobernador Frigerio y los intendentes del Delta y la costa del Río Uruguay.",
       "es_dato_nuevo": true
     }
   ],
-  "resumen_whatsapp": "🌊 *Plan Hídrico:* Frigerio coordinó con intendentes el monitoreo preventivo de defensas costeras y diques en el Delta.",
+  "resumen_whatsapp": "🌊 *Plan de Contingencia Hídrico:* Frigerio coordinó con el intendente de Villa Paranacito el monitoreo de diques, bombas de desagüe y asistencia para el Delta.",
   "fecha_iso": "2026-08-21T18:30:00-03:00",
   "fecha_publicacion": "21 de Agosto de 2026, 18:30 hs",
   "fecha_ultima_actualizacion": "21 de Agosto de 2026, 18:30 hs",

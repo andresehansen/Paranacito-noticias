@@ -459,13 +459,14 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
           <!-- Selector de Galería Rápida del Delta -->
           <div class="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span>Galería rápida:</span>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80">🌊 Río y Delta</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80">🏘️ Pueblo</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80">🚜 Caminos y Obras</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80">🎣 Pesca e Islas</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80">🏥 Salud y Escuela</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Gobierno / Frigerio</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80">🌊 Río y Delta</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80">🏘️ Comunidad</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80">🚜 Caminos y Obras</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80">🎣 Pesca e Islas</button>
           </div>
         </div>
+
 
         <!-- Cuerpo de la Noticia -->
         <div>
@@ -781,13 +782,21 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
     closeModal();
   });
 
-  // Eliminar nota
+  // Eliminar nota con enlace directo a GitHub
   btnDeleteArticle?.addEventListener('click', () => {
     if (!currentEditingItem) return;
     const filename = currentEditingItem.archivo || `${currentEditingItem.slug}.json`;
-    const confirmDelete = confirm(`¿Estás seguro de que querés eliminar la nota:\n"${currentEditingItem.titulo}"?\n\nPara eliminarla del portal, deberás borrar el archivo "${filename}" en la carpeta data/noticias/ de GitHub.`);
+    const confirmDelete = confirm(`¿Estás seguro de que querés eliminar la nota:\n"${currentEditingItem.titulo}"?\n\nAl presionar Aceptar se abrirá la página directa de GitHub con el botón de borrar listo.`);
     if (confirmDelete) {
-      alert(`🗑️ Archivo a eliminar en GitHub:\ndata/noticias/${filename}`);
+      // 1. Remover de la lista visual en el panel
+      const slugToDelete = currentEditingItem.slug;
+      newsList = newsList.filter(n => n.slug !== slugToDelete);
+      renderNewsGrid();
+
+      // 2. Abrir la página directa de eliminación de GitHub en una nueva pestaña
+      const ghDeleteUrl = `https://github.com/andresehansen/Paranacito-noticias/delete/main/data/noticias/${filename}`;
+      window.open(ghDeleteUrl, '_blank');
+
       closeModal();
     }
   });
@@ -820,14 +829,15 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
   let generatedArticleData: any = null;
 
   const CATEGORY_IMAGES: Record<string, string> = {
-    'Río y Clima': 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80',
-    'Comunidad': 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80',
-    'Obras y Servicios': 'https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80',
-    'Deportes': 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80',
-    'Salud y Educación': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80',
-    'Turismo y Cultura': 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
-    'Sociedad': 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80'
+    'Río y Clima': 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
+    'Comunidad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
+    'Obras y Servicios': 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80',
+    'Deportes': 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
+    'Salud y Educación': 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
+    'Turismo y Cultura': 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80',
+    'Sociedad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80'
   };
+
 
   function slugify(text: string): string {
     return text
@@ -877,33 +887,46 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
       btnText.textContent = 'Redactando con Gemini...';
     }
 
-    const prompt = `Sos el redactor jefe del portal comunitario "Paranacito Noticias" en Villa Paranacito (Delta de Entre Ríos, Argentina).
-Tu misión es transformar los siguientes datos en una noticia profesional, clara, neutral y de alto valor para los vecinos isleños.
+    const prompt = `Sos el Jefe de Redacción Senior de "Paranacito Noticias", el portal digital de referencia de Villa Paranacito y el Delta de Entre Ríos.
+Tu misión es transformar el siguiente reporte o información cruda en una NOTA PERIODÍSTICA COMPLETA, RICA EN CONTENIDO, PROFUNDA Y DE ALTO VALOR INFORMATIVO para la comunidad isleña.
 
-DATOS CRUDOS:
+DATOS BRUTOS PROVISTOS:
 ${rawText}
 
 FUENTE / ORIGEN: ${fuente}
 CATEGORÍA: ${categoria}
 
-Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`), con esta estructura exacta:
+PAUTAS EDITORIALES OBLIGATORIAS:
+1. Titular atractivo, claro y periodístico.
+2. Copete o bajada de 1 a 2 oraciones que sintetice el hecho central.
+3. Cuerpo extenso y rico en contenido (4 a 6 párrafos sustanciosos):
+   - Párrafo 1: El hecho principal con precisión territorial (Villa Paranacito, Río Paranacito, arroyos, instituciones).
+   - Párrafo 2: Detalles específicos, declaraciones o antecedentes.
+   - Párrafo 3: Impacto directo en los vecinos, familias isleñas o actividades locales (navegación, caminos, servicios).
+   - Párrafo 4: Recomendaciones, medidas técnicas o información de servicio y contacto.
+4. Resumen ágil para WhatsApp con emojis informativos.
+
+Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de código adicionales), con este formato exacto:
 {
-  "titulo": "Título periodístico claro y atractivo (máximo 80 caracteres)",
-  "copete": "Resumen conciso en 1 o 2 oraciones (máximo 160 caracteres)",
+  "titulo": "string",
+  "copete": "string",
   "cuerpo": [
-    "Primer párrafo con la información principal respondiendo qué, quién y dónde.",
-    "Segundo párrafo con contexto y detalles locales de Villa Paranacito.",
-    "Tercer párrafo con recomendaciones, números de contacto o próximos pasos si aplica."
+    "Párrafo 1...",
+    "Párrafo 2...",
+    "Párrafo 3...",
+    "Párrafo 4..."
   ],
   "categoria": "${categoria}",
-  "tags": ["paranacito", "delta", "comunidad"],
-  "slug": "slug-corto-separado-por-guiones",
-  "tiempo_lectura": "2 min",
-  "resumen_whatsapp": "📱 *Título* \\n\\nResumen corto para WhatsApp.\\n\\n🔗 Leé más en paranacito-noticias.vercel.app"
+  "tags": ["villa paranacito", "delta", "entre rios", "${categoria.toLowerCase()}"],
+  "slug": "slug-amigable-con-guiones",
+  "tiempo_lectura": "3 min",
+  "resumen_whatsapp": "📰 *Título*\\n\\nResumen periodístico para WhatsApp.\\n\\n🔗 Leé más en paranacito-noticias.vercel.app"
 }`;
 
     try {
       const endpoints = [
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`
       ];
@@ -916,7 +939,7 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               contents: [{ parts: [{ text: prompt }] }],
-              generationConfig: { temperature: 0.2, responseMimeType: 'application/json' }
+              generationConfig: { temperature: 0.25, responseMimeType: 'application/json' }
             })
           });
           if (resp.ok) {
@@ -925,6 +948,7 @@ Generá una respuesta EXCLUSIVAMENTE en formato JSON válido (sin bloques \`\`\`
           }
         } catch (e) {}
       }
+
 
       if (!resData) {
         throw new Error("No se pudo conectar con Gemini API. Verificá tu clave.");

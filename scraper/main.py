@@ -1,6 +1,6 @@
 """
 Orquestador Principal del Pipeline de Noticias para Villa Paranacito.
-v2.0 — Motor de Acontecimient@os Vivos + Radar GDELT/Google News
+v2.1 — Motor de Acontecimient@os Vivos + Extractor de Texto Completo + Gemini Pro/Flash
 """
 import sys
 import json
@@ -11,6 +11,7 @@ from datetime import datetime
 from weather_river import update_weather_and_river
 from sources_extractor import fetch_all_sources
 from news_radar import run_radar, clean_text, is_locally_relevant
+from article_extractor import extract_full_article
 from ai_rewriter import rewrite_with_gemini
 from storage import load_history, get_content_hash, save_history
 from events_store import (
@@ -78,7 +79,7 @@ def purge_and_clean_events():
 def run_pipeline(use_radar: bool = True):
     """Ejecuta el ciclo completo de ingestión con Motor de Acontecimient@os Vivos."""
     logging.info("════════════════════════════════════════════════════════")
-    logging.info("  PARANACITO NOTICIAS — PIPELINE v2.0 — INICIANDO")
+    logging.info("  PARANACITO NOTICIAS — PIPELINE v2.1 — INICIANDO")
     logging.info("════════════════════════════════════════════════════════")
 
     # 0. Limpieza previa de eventos obsoletos o malformados
@@ -102,7 +103,7 @@ def run_pipeline(use_radar: bool = True):
     raw_from_feeds = fetch_all_sources()
     raw_from_radar = run_radar() if use_radar else []
     all_raw = raw_from_feeds + raw_from_radar
-    MAX_PROCESS_PER_RUN = 30
+    MAX_PROCESS_PER_RUN = 25
     logging.info(f"Total artículos crudos recolectados: {len(all_raw)} ({len(raw_from_feeds)} feeds + {len(raw_from_radar)} radar)")
 
     stats = {"nuevos": 0, "actualizaciones": 0, "descartados": 0, "errores": 0}
@@ -161,29 +162,34 @@ def run_pipeline(use_radar: bool = True):
             stats["actualizaciones"] += 1
             continue
 
-        # action == "NEW": Reescribir con IA y crear nuevo acontecimiento
-        content = raw.get("raw_content", raw.get("raw_summary", ""))
+        # action == "NEW": Extraer contenido completo de la página original y reescribir con IA avanzada
+        logging.info(f"Extrayendo texto completo desde origen: {url}...")
+        full_article_data = extract_full_article(url)
+        content = full_article_data.get("full_text") or raw.get("raw_content", raw.get("raw_summary", ""))
+        article_title = full_article_data.get("title") or raw_title
+        article_image = full_article_data.get("image_url") or raw.get("image_url")
+
         if len(content.strip()) < 40:
             stats["descartados"] += 1
             continue
 
-        logging.info(f"Procesando con IA nuevo acontecimiento: '{raw_title[:50]}'...")
+        logging.info(f"Procesando con IA avanzada ({len(content)} caracteres): '{article_title[:50]}'...")
         try:
             rewritten = rewrite_with_gemini(
-                raw_title=raw_title,
+                raw_title=article_title,
                 raw_content=content,
-                source_name=raw.get("source_name", "Fuente Regional")
+                source_name=full_article_data.get("source_name") or raw.get("source_name", "Fuente Regional")
             )
-            rewritten["url_original"] = url
-            rewritten["fuente_nombre"] = raw.get("source_name", "Fuente Regional")
-            rewritten["imagen"] = raw.get("image_url") or DEFAULT_CATEGORY_IMAGES.get(rewritten.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE)
+            rewritten["url_original"] = full_article_data.get("url") or url
+            rewritten["fuente_nombre"] = full_article_data.get("source_name") or raw.get("source_name", "Fuente Regional")
+            rewritten["imagen"] = article_image or DEFAULT_CATEGORY_IMAGES.get(rewritten.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE)
 
             new_event = create_new_event(rewritten, raw)
             recent_events.append(new_event)
             stats["nuevos"] += 1
 
         except Exception as e:
-            logging.error(f"Error procesando con IA '{raw_title[:40]}': {e}")
+            logging.error(f"Error procesando con IA '{article_title[:40]}': {e}")
             stats["errores"] += 1
 
     # 6. Guardar historial, purgar y reconstruir índice
