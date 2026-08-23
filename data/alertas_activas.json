@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
+    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:31.083474",
+    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+    "slug": "frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+    "titulo": "Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...",
+    "copete": "Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay, junto con ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_inicio_iso": "2026-08-21T23:36:18.566007",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:36:18.566007",
+    "resumen_whatsapp": "📰 *Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...* - Novedades de Villa Paranacito."
+  }
+]

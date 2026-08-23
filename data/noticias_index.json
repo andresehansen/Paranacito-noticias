@@ -1,6 +1,333 @@
 [
   {
-    "id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
+    "acontecimiento_id": "2026-08-22-dano-ambiental-preventivo-juez-federal-inspecciono-la-planta",
+    "slug": "dano-ambiental-preventivo-juez-federal-inspecciono-la-planta",
+    "titulo": "Daño ambiental preventivo: juez federal inspeccionó la planta de HIF Global frente a Colón",
+    "copete": "Ambiente de Entre Ríos ordenó el cese preventivo de un sitio de volcado de residuos en Villa Paranacito · El juez federal Gastón Salmain rechazó el ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 16:22 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 16:22 hs",
+    "fecha_inicio_iso": "2026-08-22T16:22:34.066150",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T16:22:34.066150",
+    "resumen_whatsapp": "📰 *Daño ambiental preventivo: juez federal inspeccionó la planta de HIF Global frente a Colón* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-muere-el-magistrado-jose-ignacio-alvarez-sanchez-a",
+    "slug": "muere-el-magistrado-jose-ignacio-alvarez-sanchez-a",
+    "titulo": "Muere el magistrado José Ignacio Álvarez Sánchez a los 75 años - AsatuNews.co.id",
+    "copete": "Daniela Edith Zuluaga jura como jueza de Paz en Villa Paranacito . Daniela Edith Zuluaga jura como jueza de Paz en Villa Paranacito . Desde los ...",
+    "categoria": "Comunidad",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 16:22 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 16:22 hs",
+    "fecha_inicio_iso": "2026-08-22T16:22:32.859803",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T16:22:32.859803",
+    "resumen_whatsapp": "📰 *Muere el magistrado José Ignacio Álvarez Sánchez a los 75 años - AsatuNews.co.id* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-el-gobernador-participo-de-la-celebracion-por-el",
+    "slug": "el-gobernador-participo-de-la-celebracion-por-el",
+    "titulo": "El gobernador participó de la celebración por el Día de la Niñez en residencias socioeducativas",
+    "copete": "Copnaf acercó herramientas para acompañar las emociones durante la crianza en Villa Paranacito · La soledad elegida en la infancia: ¿un signo de ...",
+    "categoria": "Comunidad",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 12:36 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:36 hs",
+    "fecha_inicio_iso": "2026-08-22T12:36:50.179741",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T12:36:50.179741",
+    "resumen_whatsapp": "📰 *El gobernador participó de la celebración por el Día de la Niñez en residencias socioeducativas* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-entre-rios-se-prepara-ante-la-llegada",
+    "slug": "entre-rios-se-prepara-ante-la-llegada",
+    "titulo": "Entre Ríos se prepara ante la llegada de \"El Niño\": Frigerio reunió a intendentes y funcionarios",
+    "copete": "Villa Paranacito , además de representantes de Concepción del Uruguay y Villaguay. El gobernador Rogelio Frigerio encabezó este jueves una reunión ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:36.904743",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:36.904743",
+    "resumen_whatsapp": "📰 *Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
+    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:31.083474",
+    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ...",
+    "copete": "Por la oposición participaron el intendente de Federación, Ricardo Bravo; su par de Villa Paranacito , César Melchiori; y la intendenta de Victoria, ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:24.533161",
+    "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-frente-al-avance-de-el-nino-la",
+    "slug": "frente-al-avance-de-el-nino-la",
+    "titulo": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ...",
+    "copete": "Los equipos de los hospitales Behring de Ibicuy y de Villa Paranacito , en articulación con las autoridades municipales y la Prefectura, llevan ...",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "paranacito",
+      "delta",
+      "salud y educación"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:18.740957",
+    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:18.740957",
+    "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-como-habitar-un-territorio-10-casas-moldeadas",
+    "slug": "como-habitar-un-territorio-10-casas-moldeadas",
+    "titulo": "Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - ArchDaily",
+    "copete": "Imagen 29 de 31 de la galería de Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina. Implantación. Casa en Villa Paranacito",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google News (ArchDaily)"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:35 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_inicio_iso": "2026-08-21T23:35:45.801568",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:36:19.008260",
+    "resumen_whatsapp": "📰 *Cómo habitar un territorio: 10 casas moldeadas por los paisajes de Argentina - ArchDaily* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+    "slug": "frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+    "titulo": "Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...",
+    "copete": "Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay, junto con ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_inicio_iso": "2026-08-21T23:36:18.566007",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:36:18.566007",
+    "resumen_whatsapp": "📰 *Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
+    "slug": "inician-obras-ampliacion-modernizacion-hospital-paranacito",
+    "titulo": "Inician las obras de ampliación y modernización edilicia en el Hospital de Villa Paranacito",
+    "copete": "Con una inversión provincial superior a los $28 millones, comenzó la primera etapa de reformas que permitirá optimizar los espacios de atención y ampliar el sector de Guardia y consultorios.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "hospital paranacito",
+      "salud",
+      "obras",
+      "villa paranacito",
+      "ministerio de salud"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Ministerio de Salud de Entre Ríos",
+      "Mirador Provincial"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "slug": "desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "titulo": "Operativo en Villa Paranacito: interceptaron a cazadores furtivos con visores térmicos y diez armas de fuego",
+    "copete": "La Policía de Entre Ríos y la Brigada de Delitos Rurales desarticularon una cuadrilla que operaba de noche en campos privados del Delta. Secuestraron camionetas, fusiles y más de 300 kilos de carne.",
+    "categoria": "Comunidad",
+    "tags": [
+      "seguridad",
+      "delitos rurales",
+      "villa paranacito",
+      "policia de entre rios",
+      "medio ambiente"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Jefatura Departamental Islas del Ibicuy",
+      "Diario El Día (Gualeguaychú)",
+      "Diario Junio / R2820"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 15:00 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 15:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚨 *Seguridad Rural:* La Policía desarticuló en Villa Paranacito a cazadores furtivos con visores térmicos y 10 armas de fuego."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable",
+    "slug": "rio-paranacito-altura-estable-pronostico-favorable",
+    "titulo": "Monitoreo del Río Paranacito: Altura y condiciones hidrológicas en la cuenca del Delta",
+    "copete": "Prefectura Naval Argentina y las estaciones hidrométricas de la región informan el estado de los cauces y la navegabilidad en arroyos y ríos del departamento Islas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "rio paranacito",
+      "prefectura",
+      "navegacion",
+      "delta",
+      "clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Prefectura Naval Argentina"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 11:00 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 11:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🌊 *Río Paranacito:* Condiciones hidrológicas estables y navegación normal en todo el Delta entrerriano."
+  },
+  {
     "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
     "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
     "titulo": "Frigerio coordinó con intendentes ribereños el plan de contingencia ante la crecida de los ríos y el fenómeno de El Niño",
@@ -19,107 +346,175 @@
     "nivel_confiabilidad": "Alta",
     "imagen": "https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp",
     "tiempo_lectura": "3 min",
-    "fuente_nombre": "Gobierno de Entre Ríos / Diario El Argentino / Prensa Municipal",
     "fuentes_consultadas": [
-      {
-        "nombre": "Prensa Oficial - Gobierno de Entre Ríos",
-        "url": "https://www.entrerios.gov.ar"
-      },
-      {
-        "nombre": "Diario El Argentino (Gualeguaychú)",
-        "url": "https://www.diarioelargentino.com"
-      },
-      {
-        "nombre": "Diario El Día / R2820",
-        "url": "https://www.eldiaonline.com"
-      }
+      "Prensa Oficial - Gobierno de Entre Ríos",
+      "Diario El Argentino (Gualeguaychú)",
+      "Diario El Día / R2820"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "21 de Agosto de 2026, 18:30 hs",
     "fecha_ultima_actualizacion": "21 de Agosto de 2026, 18:30 hs",
-    "fecha_iso": "2026-08-21T18:30:00-03:00",
-    "fecha_inicio_iso": "2026-08-21T18:30:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T18:30:00-03:00",
-    "resumen_whatsapp": "🌊 *Plan de Contingencia Hídrico:* Frigerio coordinó con el intendente de Villa Paranacito el monitoreo de diques, bombas de desagüe y asistencia para el Delta.",
-    "archivo": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino.json"
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🌊 *Plan de Contingencia Hídrico:* Frigerio coordinó con el intendente de Villa Paranacito el monitoreo de diques, bombas de desagüe y asistencia para el Delta."
   },
   {
-    "id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
-    "acontecimiento_id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
-    "slug": "inician-obras-ampliacion-modernizacion-hospital-paranacito",
-    "titulo": "Inician las obras de ampliación y modernización edilicia en el Hospital de Villa Paranacito",
-    "copete": "Con una inversión provincial superior a los $28 millones, comenzó la primera etapa de reformas que permitirá optimizar los espacios de atención y ampliar el sector de Guardia y consultorios.",
-    "categoria": "Salud y Educación",
+    "acontecimiento_id": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso",
+    "slug": "avanzan-trabajos-mantenimiento-camino-acceso",
+    "titulo": "Vialidad Provincial ejecuta tareas de conservación en caminos y accesos a Villa Paranacito",
+    "copete": "Equipos viales llevan adelante tareas de perfilado de calzada, reposición de material y limpieza de cunetas para garantizar la transitabilidad del transporte y la producción local.",
+    "categoria": "Obras y Servicios",
     "tags": [
-      "hospital paranacito",
-      "salud",
+      "vialidad",
+      "camino de acceso",
       "obras",
       "villa paranacito",
-      "ministerio de salud"
+      "infraestructura"
     ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
+    "imagen": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      {
-        "nombre": "Ministerio de Salud de Entre Ríos",
-        "url": "https://www.entrerios.gov.ar"
-      },
-      {
-        "nombre": "Mirador Provincial"
-      }
+      "Dirección Provincial de Vialidad (DPV)"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
-    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
-    "fecha_iso": "2026-08-22T12:00:00-03:00",
-    "fecha_inicio_iso": "2026-08-22T12:00:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T12:00:00-03:00",
-    "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios.",
-    "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json"
+    "fecha_publicacion": "21 de Agosto de 2026, 09:30 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 09:30 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚜 *Vialidad:* Tareas de conservación y mantenimiento en los accesos y caminos de Villa Paranacito."
   },
   {
-    "id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
-    "acontecimiento_id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
-    "slug": "desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
-    "titulo": "Operativo en Villa Paranacito: interceptaron a cazadores furtivos con visores térmicos y diez armas de fuego",
-    "copete": "La Policía de Entre Ríos y la Brigada de Delitos Rurales desarticularon una cuadrilla que operaba de noche en campos privados del Delta. Secuestraron camionetas, fusiles y más de 300 kilos de carne.",
+    "acontecimiento_id": null,
+    "slug": "club-islenos-independientes-nueva-fecha-futbol",
+    "titulo": "El Club Isleños Independientes convoca a una nueva fecha del torneo regional de fútbol",
+    "copete": "Este fin de semana la institución deportiva albiverde será sede de una emocionante jornada comunitaria con partidos en categorías infantiles y primera división.",
+    "categoria": "Deportes",
+    "tags": [
+      "club islenos",
+      "futbol",
+      "deportes",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "20 de Agosto de 2026, 18:45 hs",
+    "fecha_ultima_actualizacion": null,
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "⚽ *Deportes:* ¡Gran fecha de fútbol este finde en el Club Isleños Independientes de Paranacito!"
+  },
+  {
+    "acontecimiento_id": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias",
+    "slug": "bomberos-voluntarios-paranacito-guardia-y-emergencias",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito: Guardia permanente y recomendaciones ante emergencias",
+    "copete": "El cuartel local recuerda las líneas de comunicación activa y los protocolos de prevención ante contingencias climáticas y rescate fluvial en la zona de islas.",
     "categoria": "Comunidad",
     "tags": [
+      "bomberos",
       "seguridad",
-      "delitos rurales",
       "villa paranacito",
-      "policia de entre rios",
-      "medio ambiente"
+      "emergencias",
+      "comunidad"
     ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuente_nombre": "Policía de Entre Ríos / Diario El Día / R2820",
+    "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      {
-        "nombre": "Jefatura Departamental Islas del Ibicuy"
-      },
-      {
-        "nombre": "Diario El Día (Gualeguaychú)",
-        "url": "https://www.eldiaonline.com"
-      },
-      {
-        "nombre": "Diario Junio / R2820"
-      }
+      "Asociación Bomberos Voluntarios de Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Agosto de 2026, 15:00 hs",
-    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 15:00 hs",
-    "fecha_iso": "2026-08-22T15:00:00-03:00",
-    "fecha_inicio_iso": "2026-08-22T15:00:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T15:00:00-03:00",
-    "resumen_whatsapp": "🚨 *Seguridad Rural:* La Policía desarticuló en Villa Paranacito a cazadores furtivos con visores térmicos y 10 armas de fuego.",
-    "archivo": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito.json"
+    "fecha_publicacion": "20 de Agosto de 2026, 14:00 hs",
+    "fecha_ultima_actualizacion": "20 de Agosto de 2026, 14:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚒 *Bomberos:* Guardia permanente y recomendaciones de prevención ante contingencias en Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito",
+    "slug": "turismo-y-naturaleza-delta-villa-paranacito",
+    "titulo": "Turismo y Naturaleza: Actividades fluviales y descanso en el Delta de Villa Paranacito",
+    "copete": "Prestadores turísticos locales destacan la propuesta de cabañas, paseos náuticos y pesca deportiva para quienes eligen la tranquilidad del sur entrerriano.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "turismo",
+      "delta",
+      "pesca deportiva",
+      "villa paranacito",
+      "naturaleza"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Secretaría de Turismo de Entre Ríos"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Agosto de 2026, 17:00 hs",
+    "fecha_ultima_actualizacion": "19 de Agosto de 2026, 17:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🌿 *Turismo:* Cabañas, naturaleza y paseos náuticos en el Delta de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": null,
+    "slug": "crecen-reservas-turismo-pesca-delta",
+    "titulo": "Temporada de Pesca y Ecoturismo: Crecen las reservas en cabañas y guiadas del Delta",
+    "copete": "Los prestadores turísticos destacan un alto nivel de consultas atraídos por la tranquilidad, la gastronomía isleña y la riqueza ictícola de la región.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "turismo",
+      "pesca deportiva",
+      "delta",
+      "cabanas"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "19 de Agosto de 2026, 17:20 hs",
+    "fecha_ultima_actualizacion": null,
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🎣 *Turismo:* Excelente expectativa y reservas para la pesca y descanso en el Delta."
+  },
+  {
+    "acontecimiento_id": null,
+    "slug": "bomberos-voluntarios-renuevan-equipamiento-rescate",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito renuevan equipamiento para rescate acuático",
+    "copete": "El cuerpo activo incorporó nuevos chalecos salvavidas certificados, cabos de remolque y reflectores de alta potencia para emergencias nocturnas.",
+    "categoria": "Comunidad",
+    "tags": [
+      "bomberos",
+      "rescate",
+      "seguridad",
+      "solidaridad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "19 de Agosto de 2026, 10:00 hs",
+    "fecha_ultima_actualizacion": null,
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚒 *Comunidad:* Bomberos Voluntarios de Paranacito incorporaron nuevo equipo de rescate fluvial."
   }
 ]
