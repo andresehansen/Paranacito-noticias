@@ -1,5 +1,89 @@
 [
   {
+    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
+    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.443433",
+    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-frente-al-avance-de-el-nino-la",
+    "slug": "frente-al-avance-de-el-nino-la",
+    "titulo": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ...",
+    "copete": "Los equipos de los hospitales Behring de Ibicuy y de Villa Paranacito , en articulación con las autoridades municipales y la Prefectura, llevan ...",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "paranacito",
+      "delta",
+      "salud y educación"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:18.740957",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.057536",
+    "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-23-senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
+    "slug": "senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
+    "titulo": "El Senado Entrerriano Aprueba Expropiaciones Clave para Impulsar Obras Viales en Villa Paranacito",
+    "copete": "La Cámara Alta provincial dio el visto bueno a la adquisición de terrenos fundamentales para el desarrollo de infraestructura vial en la localidad, prometiendo una mejora sustancial en la conectividad y el acceso para los habitantes del Delta.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Obras Viales",
+      "Senado Entre Ríos",
+      "Expropiaciones",
+      "Infraestructura",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-08-23T16:23:57.747750",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:57.747750",
+    "resumen_whatsapp": "📰 ¡Gran noticia para Villa Paranacito! El Senado entrerriano aprobó expropiaciones clave para impulsar obras viales en nuestra localidad. 🚜 Mejora la conectividad, el acceso y el desarrollo del Delta. ¡Mantente informado!"
+  },
+  {
     "acontecimiento_id": "2026-08-23-villa-paranacito-emociones-en-familia-segundo-encuentro",
     "slug": "villa-paranacito-emociones-en-familia-segundo-encuentro",
     "titulo": "Villa Paranacito Fortalece Lazos Comunitarios con el Segundo Encuentro de 'Emociones en Familia'",
@@ -162,32 +246,6 @@
     "resumen_whatsapp": "📰 *Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios* - Novedades de Villa Paranacito."
   },
   {
-    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
-    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:31.083474",
-    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
-  },
-  {
     "acontecimiento_id": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
     "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
     "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ...",
@@ -212,32 +270,6 @@
     "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
     "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:24.533161",
     "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-22-frente-al-avance-de-el-nino-la",
-    "slug": "frente-al-avance-de-el-nino-la",
-    "titulo": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ...",
-    "copete": "Los equipos de los hospitales Behring de Ibicuy y de Villa Paranacito , en articulación con las autoridades municipales y la Prefectura, llevan ...",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "paranacito",
-      "delta",
-      "salud y educación"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_inicio_iso": "2026-08-22T00:39:18.740957",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:18.740957",
-    "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito."
   },
   {
     "acontecimiento_id": "2026-08-21-como-habitar-un-territorio-10-casas-moldeadas",

@@ -25,6 +25,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/08/20/114403-vialidad-provincial-realizo-tareas-de-emergencia-en-el-acceso-a-colonia-gobernador-basavilbaso&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1zrMct8gmW87c4ic2Jgd7E",
       "fecha_consulta": "2026-08-22T00:39:31.083474"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/08/22/114526-inauguraron-las-nuevas-instalaciones-de-la-cancha-de-padel-de-aldea-san-antonio&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1m5Nmt6--iBWZzv11zz9Kz",
+      "fecha_consulta": "2026-08-23T16:23:58.443433"
     }
   ],
   "cronologia_actualizaciones": [
@@ -34,14 +39,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:23",
+      "fecha": "2026-08-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · Inauguraron las nuevas instalaciones de la cancha de pádel de Aldea ...",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "5db5597922b7622b9c5408da7d11c7693e63c4fac7566a627be8fb32db0cccc5"
+    "5db5597922b7622b9c5408da7d11c7693e63c4fac7566a627be8fb32db0cccc5",
+    "49a1cf0d5ab6b7bb6304c54834d55b8a9146e8fe3c2599e262ed072a9803fd10"
   ],
   "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
-  "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:31.083474",
+  "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.443433",
   "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+  "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
   "archivo": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en.json"
 }

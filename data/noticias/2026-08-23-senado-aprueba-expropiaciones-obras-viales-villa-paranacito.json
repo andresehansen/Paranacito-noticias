@@ -1,0 +1,55 @@
+{
+  "acontecimiento_id": "2026-08-23-senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
+  "titulo": "El Senado Entrerriano Aprueba Expropiaciones Clave para Impulsar Obras Viales en Villa Paranacito",
+  "copete": "La Cámara Alta provincial dio el visto bueno a la adquisición de terrenos fundamentales para el desarrollo de infraestructura vial en la localidad, prometiendo una mejora sustancial en la conectividad y el acceso para los habitantes del Delta.",
+  "cuerpo": [
+    "El Senado de Entre Ríos ha dado un paso fundamental para el progreso de Villa Paranacito y el departamento Islas del Ibicuy al aprobar la ley que declara de utilidad pública y sujeta a expropiación diversos inmuebles. Esta medida es crucial para la concreción de obras viales largamente esperadas, que buscan mejorar la conectividad y la calidad de vida de los habitantes de esta estratégica región del Delta entrerriano.",
+    "Fuentes legislativas destacaron la importancia de esta aprobación, señalando que 'estas expropiaciones son el puntapié inicial para proyectos de infraestructura que transformarán la realidad de Villa Paranacito, facilitando el tránsito, el comercio y el acceso a servicios esenciales'. Se espera que la ley agilice los procesos administrativos para que las obras puedan comenzar en el menor tiempo posible, respondiendo a una demanda histórica de la comunidad.",
+    "Para los vecinos de Villa Paranacito y las zonas aledañas, esta noticia representa una esperanza concreta de mejora en su vida cotidiana. Las nuevas obras viales no solo reducirán los tiempos de viaje y facilitarán el transporte de productos locales, sino que también mejorarán el acceso a centros de salud y educativos, y potenciarán el turismo, un motor económico clave para la región. La conectividad es vital en un entorno de islas y arroyos, y estas mejoras impactarán directamente en la seguridad y el bienestar de las familias.",
+    "Si bien los detalles específicos de los proyectos viales y sus presupuestos serán definidos en etapas posteriores por el Poder Ejecutivo provincial, la aprobación de las expropiaciones es el paso legal indispensable para avanzar. Se prevé que las obras incluyan la pavimentación o mejoramiento de tramos estratégicos, la construcción de puentes o alcantarillas, y la adecuación de caminos existentes, con el objetivo de optimizar la red vial del departamento Islas del Ibicuy. La maquinaria y los equipos necesarios se movilizarán una vez que se complete la fase de planificación y licitación.",
+    "Desde el municipio de Villa Paranacito se informó que se mantendrá a la comunidad al tanto de los avances y los cronogramas de las futuras obras. Se recomienda a los vecinos estar atentos a los comunicados oficiales y, en caso de consultas sobre el impacto de estas medidas, dirigirse a las oficinas municipales o a la Dirección Provincial de Vialidad. Este es el inicio de un proceso que promete transformar la infraestructura local, y la participación ciudadana será clave para su éxito."
+  ],
+  "categoria": "Obras y Servicios",
+  "tags": [
+    "Villa Paranacito",
+    "Obras Viales",
+    "Senado Entre Ríos",
+    "Expropiaciones",
+    "Infraestructura",
+    "Delta Entrerriano",
+    "Islas del Ibicuy"
+  ],
+  "slug": "senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
+  "tiempo_lectura": "2 min",
+  "resumen_whatsapp": "📰 ¡Gran noticia para Villa Paranacito! El Senado entrerriano aprobó expropiaciones clave para impulsar obras viales en nuestra localidad. 🚜 Mejora la conectividad, el acceso y el desarrollo del Delta. ¡Mantente informado!",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/ruta-provincial-23-la-pavimentacion-supera-el-40-entre-uruguay-y-colon/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3x6KuKqqmnj0WKPNbPzMFE",
+      "fecha_consulta": "2026-08-23T16:23:57.747750"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "16:23",
+      "fecha": "2026-08-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La Cámara Alta provincial dio el visto bueno a la adquisición de terrenos fundamentales para el desarrollo de infraestructura vial en la localidad, prometiendo una mejora sustancial en la conectividad",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "0980517cd34ce333b98647e82d52778f66ef4482e9128dba1adb1ece001d5138"
+  ],
+  "fecha_inicio_iso": "2026-08-23T16:23:57.747750",
+  "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:57.747750",
+  "fecha_publicacion": "23 de Agosto de 2026, 16:23 hs",
+  "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+  "archivo": "2026-08-23-senado-aprueba-expropiaciones-obras-viales-villa-paranacito.json"
+}

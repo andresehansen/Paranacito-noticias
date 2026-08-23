@@ -15,7 +15,7 @@
   "tiempo_lectura": "1 min",
   "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito.",
   "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -25,6 +25,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://tn.com.ar/campo/2026/08/21/frente-al-avance-de-el-nino-la-produccion-se-equipa-con-radares-meteorologicos-e-intensifica-cuidados-en-rodeos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ycO8Ee0qvS3tL0jnln7qG",
       "fecha_consulta": "2026-08-22T00:39:18.740957"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/se-consolida-el-fenomeno-de-el-nino-y-disponen-un-amplio-operativo-preventivo-en-entre-rios.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2SSZUa3H-hZB7d3mHPM6Tm",
+      "fecha_consulta": "2026-08-23T16:23:58.057536"
     }
   ],
   "cronologia_actualizaciones": [
@@ -34,14 +39,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Los equipos de los hospitales Behring de Ibicuy y de Villa Paranacito , en articulación con las autoridades municipales y la Prefectura, llevan ...",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:23",
+      "fecha": "2026-08-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Los hospitales Behring de Ibicuy y de Villa Paranacito , coordinados con ... casas, resguardarse de mordeduras de ofidios y prevenir ...",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "4a372b2f68230710015b246b06391ce11498159b35acc121c09397bfa75b54ef"
+    "4a372b2f68230710015b246b06391ce11498159b35acc121c09397bfa75b54ef",
+    "1ef819927aa604a929f39a9267c2526a8e001937dd03eb17af1405066a493ad9"
   ],
   "fecha_inicio_iso": "2026-08-22T00:39:18.740957",
-  "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:18.740957",
+  "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.057536",
   "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+  "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
   "archivo": "2026-08-22-frente-al-avance-de-el-nino-la.json"
 }
