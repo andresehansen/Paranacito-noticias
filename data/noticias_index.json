@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
+    "slug": "fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
+    "titulo": "Fortalecen la Salud Mental en el Delta: Capacitación Clave en Villa Paranacito y el Departamento Islas del Ibicuy",
+    "copete": "El ciclo \"Emociones en Familia\" realizó su segundo encuentro en Villa Paranacito, brindando herramientas esenciales sobre salud mental y primeros auxilios psicológicos a la comunidad y fuerzas de seguridad, tras una exitosa primera jornada en Ceibas e Ibicuy.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud Mental",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Capacitación",
+      "Prefectura Naval Argentina",
+      "Emociones en Familia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Agosto de 2026, 04:36 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 04:36 hs",
+    "fecha_inicio_iso": "2026-08-23T04:36:03.579334",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T04:36:03.579334",
+    "resumen_whatsapp": "📰 ¡Salud Mental en el Delta! El ciclo 'Emociones en Familia' capacitó a vecinos y fuerzas de seguridad en Villa Paranacito. 🧠 Aprendé a brindar apoyo y cuidar tu bienestar. ¡Sumate a las próximas jornadas! #SaludMental #Paranacito"
+  },
+  {
     "acontecimiento_id": "2026-08-22-dano-ambiental-preventivo-juez-federal-inspecciono-la-planta",
     "slug": "dano-ambiental-preventivo-juez-federal-inspecciono-la-planta",
     "titulo": "Daño ambiental preventivo: juez federal inspeccionó la planta de HIF Global frente a Colón",
