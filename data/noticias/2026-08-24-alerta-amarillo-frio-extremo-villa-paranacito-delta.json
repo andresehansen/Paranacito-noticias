@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-08-24-alerta-amarillo-frio-extremo-villa-paranacito-delta",
+  "titulo": "Alerta Amarillo por Frío Extremo en Villa Paranacito y el Delta Entrerriano",
+  "copete": "El Servicio Meteorológico Nacional emitió un alerta amarillo por temperaturas extremadamente bajas que afectarán a Villa Paranacito y gran parte del Delta de Entre Ríos, instando a la población a tomar precauciones ante el riesgo para la salud.",
+  "cuerpo": [
+    "El Servicio Meteorológico Nacional (SMN) ha emitido un alerta amarillo por bajas temperaturas extremas que se extenderán sobre Villa Paranacito y gran parte del departamento Islas del Ibicuy, afectando significativamente a la comunidad del Delta entrerriano. Se anticipa un marcado descenso térmico con mínimas que podrían rondar los 0°C o incluso valores negativos, y máximas que no superarían los 10°C, generando condiciones de frío intenso que persistirán durante varios días en la región.",
+    "Desde la Municipalidad de Villa Paranacito, se hizo un llamado a la precaución. \"Es fundamental que nuestros vecinos, especialmente los niños, adultos mayores y personas con enfermedades crónicas, extremen los cuidados para evitar problemas de salud asociados al frío\", declaró un vocero de Defensa Civil local. \"Recomendamos abrigarse adecuadamente, evitar la exposición prolongada al aire libre y asegurar la ventilación en caso de usar artefactos de calefacción a combustión para prevenir intoxicaciones por monóxido de carbono.\"",
+    "Para los habitantes de la zona de islas, este fenómeno climático implica desafíos adicionales. La navegación podría verse afectada por la niebla matinal y la escarcha, mientras que la provisión de agua en algunas viviendas rurales podría sufrir inconvenientes por el congelamiento de cañerías. Además, los productores locales deben estar atentos a la protección de cultivos sensibles y al resguardo del ganado, ya que las bajas temperaturas pueden impactar en la producción y el bienestar animal.",
+    "El alerta amarillo, según la clasificación del SMN, implica la posibilidad de fenómenos meteorológicos con capacidad de daño y riesgo de interrupción momentánea de actividades cotidianas. Para esta región, se esperan temperaturas mínimas entre -2°C y 2°C, y máximas entre 6°C y 10°C, con sensaciones térmicas aún menores debido a la humedad. Las autoridades han activado protocolos de monitoreo y están coordinando con centros de salud y fuerzas de seguridad para responder a cualquier emergencia.",
+    "Se aconseja a la población revisar el estado de las estufas y calefactores, ventilar los ambientes, y no sobrecargar las instalaciones eléctricas. En caso de emergencia o necesidad de asistencia, se recomienda contactar a los números de Defensa Civil local o al 103. Se insta a mantenerse informado a través de los canales oficiales y a estar atentos a las actualizaciones del pronóstico, ya que las condiciones podrían variar en los próximos días."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "frío extremo",
+    "alerta amarillo",
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "SMN",
+    "bajas temperaturas",
+    "precaución",
+    "Islas del Ibicuy"
+  ],
+  "slug": "alerta-amarillo-frio-extremo-villa-paranacito-delta",
+  "tiempo_lectura": "2 min",
+  "resumen_whatsapp": "🚨 ¡Alerta Amarillo por frío extremo en Villa Paranacito y el Delta! 🥶 El SMN pronostica bajas temperaturas. Abrigate bien, cuidá a los más vulnerables y revisá tu calefacción. ¡Informate y prevení! 📰",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.laarena.com.ar/la-region/alerta-meteorologico-por-frio-extremo-2026824850&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0SbwO__FB2A61eceF0SmL4",
+      "fecha_consulta": "2026-08-24T12:48:00.240535"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "12:48",
+      "fecha": "2026-08-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Servicio Meteorológico Nacional emitió un alerta amarillo por temperaturas extremadamente bajas que afectarán a Villa Paranacito y gran parte del Delta de Entre Ríos, instando a la población a toma",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "38573fc09b27e2024a9bd74ec67bcaa112f7bca1fd123fea7304d4e767d1a8ff"
+  ],
+  "fecha_inicio_iso": "2026-08-24T12:48:00.240535",
+  "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:00.240535",
+  "fecha_publicacion": "24 de Agosto de 2026, 12:48 hs",
+  "fecha_ultima_actualizacion": "24 de Agosto de 2026, 12:48 hs",
+  "archivo": "2026-08-24-alerta-amarillo-frio-extremo-villa-paranacito-delta.json"
+}
