@@ -30,6 +30,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/08/22/114526-inauguraron-las-nuevas-instalaciones-de-la-cancha-de-padel-de-aldea-san-antonio&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1m5Nmt6--iBWZzv11zz9Kz",
       "fecha_consulta": "2026-08-23T16:23:58.443433"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/08/23/114589-en-una-tarde-de-sol-la-gurisada-de-pueblo-belgrano-celebro-el-dia-del-nino&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw36-Oa_64nzhoemDHqxk7iz",
+      "fecha_consulta": "2026-08-24T04:43:32.311175"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/08/23/114586-comenzo-el-rodaje-del-documental-sobre-los-vuelos-de-la-muerte-en-el-delta-entrerriano&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1AKkLclShBXO0l2ulig7qY",
+      "fecha_consulta": "2026-08-24T04:43:32.783796"
     }
   ],
   "cronologia_actualizaciones": [
@@ -46,15 +56,31 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · Inauguraron las nuevas instalaciones de la cancha de pádel de Aldea ...",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:43",
+      "fecha": "2026-08-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · En una tarde de sol, la gurisada de Pueblo Belgrano celebró el Día del ...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:43",
+      "fecha": "2026-08-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El equipo de producción llegó a Villa Paranacito , donde realizó un recorrido náutico por el Delta y visitó posteriormente el cementerio local. Allí ...",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "5db5597922b7622b9c5408da7d11c7693e63c4fac7566a627be8fb32db0cccc5",
-    "49a1cf0d5ab6b7bb6304c54834d55b8a9146e8fe3c2599e262ed072a9803fd10"
+    "49a1cf0d5ab6b7bb6304c54834d55b8a9146e8fe3c2599e262ed072a9803fd10",
+    "d9d0cdf4b51526cdbf73ef1453ad93f01c42ee75d7a24ee18269dabe2eb83bff",
+    "ca29b1a2b579403ce238af0e2b6229d59f3b073aa531cb1edc6855fb6add64ab"
   ],
   "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
-  "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.443433",
+  "fecha_ultima_actualizacion_iso": "2026-08-24T04:43:32.783796",
   "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-  "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+  "fecha_ultima_actualizacion": "24 de Agosto de 2026, 04:43 hs",
   "archivo": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en.json"
 }

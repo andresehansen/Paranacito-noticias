@@ -1,5 +1,93 @@
 [
   {
+    "acontecimiento_id": "2026-08-24-delta-entrerriano-documental-vuelos-muerte",
+    "slug": "delta-entrerriano-documental-vuelos-muerte",
+    "titulo": "El Delta Entrerriano, Escenario de un Documental Crucial sobre los 'Vuelos de la Muerte'",
+    "copete": "Las cámaras comenzaron a registrar en el corazón del Delta de Entre Ríos la historia de los 'Vuelos de la Muerte', una iniciativa que busca preservar la memoria histórica y visibilizar el rol de la región en uno de los capítulos más oscuros de la historia argentina.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Delta Entrerriano",
+      "Documental",
+      "Memoria Histórica",
+      "Derechos Humanos",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Entre Ríos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (R2820)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_inicio_iso": "2026-08-24T04:43:47.300939",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T04:43:47.300939",
+    "resumen_whatsapp": "📰 ¡Atención, Delta! Comenzó el rodaje de un documental clave sobre los 'Vuelos de la Muerte' en nuestra región. 🎬 Una producción que busca mantener viva la memoria histórica y visibilizar el rol del Delta entrerriano en este capítulo crucial de Argentina. ¡Enterate de todos los detalles en la nota completa! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
+    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
+    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T04:43:32.783796",
+    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-24-gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
+    "slug": "gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
+    "titulo": "El Gobierno Provincial Ratifica al Turismo como Eje Estratégico para el Desarrollo del Delta Entrerriano",
+    "copete": "Funcionarios de turismo de diversas localidades entrerrianas, incluyendo Villa Paranacito, se reunieron para delinear estrategias que fortalezcan la actividad turística, considerada un pilar fundamental para la economía y el desarrollo sostenible del Delta.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Turismo",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Desarrollo Regional",
+      "Entre Ríos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_inicio_iso": "2026-08-24T04:43:31.860894",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T04:43:31.860894",
+    "resumen_whatsapp": "📰 ¡Gran noticia para el Delta! El gobierno provincial reafirma al turismo como motor clave para el desarrollo de Villa Paranacito y la región. 🏞️ Se vienen inversiones y capacitaciones. ¡Enterate de todos los detalles y cómo impacta en tu comunidad! 👇"
+  },
+  {
     "acontecimiento_id": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
     "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
     "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ...",
@@ -81,33 +169,6 @@
     "fecha_inicio_iso": "2026-08-24T01:13:36.922161",
     "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:36.922161",
     "resumen_whatsapp": "🚨 Bomberos de 8 localidades se capacitaron en Villa Paranacito para mejorar la respuesta ante emergencias en el Delta. 💪 ¡Más seguridad para nuestros vecinos! Leé la nota completa en Paranacito Noticias."
-  },
-  {
-    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
-    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
-    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
-    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.443433",
-    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
   },
   {
     "acontecimiento_id": "2026-08-22-frente-al-avance-de-el-nino-la",
