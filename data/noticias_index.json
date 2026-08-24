@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-08-24-comenzo-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "slug": "comenzo-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "titulo": "Comenzó el Rodaje de un Documental Clave sobre los Vuelos de la Muerte en el Delta Entrerriano",
+    "copete": "Un equipo de producción audiovisual inició las filmaciones de un ambicioso documental que busca reconstruir y visibilizar los trágicos 'vuelos de la muerte' ocurridos durante la última dictadura cívico-militar, utilizando el paisaje del Delta de Entre Ríos como escenario y testigo de la memoria.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Derechos Humanos",
+      "Delta Entrerriano",
+      "Documental",
+      "Memoria",
+      "Villa Paranacito",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 16:36 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 16:36 hs",
+    "fecha_inicio_iso": "2026-08-24T16:36:46.446552",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T16:36:46.446552",
+    "resumen_whatsapp": "📰 ¡Memoria Viva en el Delta! Comenzó el rodaje de un documental clave sobre los Vuelos de la Muerte en nuestra región. Un trabajo esencial para la verdad y la justicia. ¡Conocé los detalles! 👇"
+  },
+  {
     "acontecimiento_id": "2026-08-24-black-river-define-liderazgo-partido-local-villa-paranacito",
     "slug": "black-river-define-liderazgo-partido-local-villa-paranacito",
     "titulo": "Black River Define su Liderazgo en un Crucial Partido de Local en Villa Paranacito",
