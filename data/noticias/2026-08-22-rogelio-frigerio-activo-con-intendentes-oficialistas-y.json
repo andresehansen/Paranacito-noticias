@@ -15,7 +15,7 @@
   "tiempo_lectura": "1 min",
   "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito.",
   "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -25,6 +25,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.letrap.com.ar/politica/rogelio-frigerio-activo-intendentes-oficialistas-y-opositores-el-operativo-el-super-nino-rios-n5425984&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hQTJ5WmrvzL2bZmhYB_Eo",
       "fecha_consulta": "2026-08-22T00:39:24.533161"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/08/23/114571-en-el-ex-frigorifico-bomberos-de-la-region-se-capacitaron-en-abastecimiento-para-autobombas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1qn3k0yssaLA6c73Bk3kfR",
+      "fecha_consulta": "2026-08-24T01:13:51.582390"
     }
   ],
   "cronologia_actualizaciones": [
@@ -34,14 +39,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Por la oposición participaron el intendente de Federación, Ricardo Bravo; su par de Villa Paranacito , César Melchiori; y la intendenta de Victoria, ...",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "01:13",
+      "fecha": "2026-08-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Participaron 25 bomberos de los cuarteles de Mansilla, Larroque, Urdinarrain, Villa Paranacito , Gualeguaychú, Pueblo Belgrano, Aldea San Antonio e ...",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "f4342a65bc65df4da385087f36ab2f7c37d1ad1d6df7541d3a17a04d44bcffdc"
+    "f4342a65bc65df4da385087f36ab2f7c37d1ad1d6df7541d3a17a04d44bcffdc",
+    "0b343617dc15d875d151ff6c811cef881e1498e5dd513b08abfd8a55b2c3c7b7"
   ],
   "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
-  "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:24.533161",
+  "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.582390",
   "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
+  "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
   "archivo": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y.json"
 }

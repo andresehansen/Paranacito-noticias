@@ -1,0 +1,54 @@
+{
+  "acontecimiento_id": "2026-08-24-capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias",
+  "titulo": "Capacitación Regional de Bomberos Voluntarios en Villa Paranacito Refuerza la Preparación ante Emergencias",
+  "copete": "Cuerpos de bomberos de ocho localidades de Entre Ríos, incluyendo Villa Paranacito e Ibicuy, participaron de una intensa jornada de formación en el predio del Ex Frigorífico, elevando la capacidad de respuesta ante siniestros y situaciones críticas en el Delta y la región.",
+  "cuerpo": [
+    "Villa Paranacito fue sede de una crucial jornada de capacitación para Bomberos Voluntarios de ocho localidades de la provincia de Entre Ríos, incluyendo a los anfitriones y delegaciones de Gualeguaychú, Pueblo Belgrano, Aldea San Antonio e Ibicuy, entre otras. El predio del Ex Frigorífico, un espacio estratégico por sus dimensiones y características, albergó las actividades intensivas que buscaron fortalecer las habilidades de respuesta ante diversas emergencias que suelen presentarse en la compleja geografía del Delta y sus alrededores, en el departamento Islas del Ibicuy.",
+    "Fuentes del Cuartel de Bomberos Voluntarios de Villa Paranacito destacaron la importancia de este tipo de encuentros. \"La capacitación continua y la coordinación interinstitucional son pilares fundamentales para garantizar una respuesta eficaz ante cualquier emergencia en nuestra región\", señalaron. \"El Delta presenta desafíos únicos, desde incendios forestales en zonas de difícil acceso hasta rescates en ambientes acuáticos, y estar preparados en conjunto es vital para proteger a nuestros vecinos y sus bienes\".",
+    "Para los habitantes de Villa Paranacito y las zonas isleñas, esta capacitación representa un incremento directo en la seguridad y la tranquilidad. La mejora en las técnicas de rescate, extinción de incendios y primeros auxilios por parte de los cuerpos de bomberos se traduce en una mayor capacidad de respuesta ante incidentes que afectan la navegación, las viviendas rurales o los establecimientos turísticos. La coordinación entre cuarteles vecinos asegura que, ante un evento de gran magnitud, los recursos humanos y materiales puedan ser movilizados de manera más eficiente, minimizando riesgos y daños para la comunidad.",
+    "Los contenidos programáticos, dictados por instructores y auxiliares con vasta experiencia, abarcaron desde técnicas avanzadas de combate de incendios estructurales y forestales hasta procedimientos de rescate vehicular y acuático, adaptados a las particularidades del terreno. Se utilizaron equipos de última generación para simular escenarios complejos, permitiendo a los participantes aplicar conocimientos teóricos en situaciones prácticas. La jornada incluyó módulos sobre primeros auxilios avanzados y manejo de materiales peligrosos, fortaleciendo un enfoque integral en la gestión de emergencias.",
+    "Desde el Cuartel de Bomberos Voluntarios de Villa Paranacito se reitera a la comunidad la importancia de tomar precauciones, especialmente en esta época del año, y de conocer los números de emergencia. Ante cualquier situación de riesgo, se recomienda contactar de inmediato al 100 (Bomberos) o al 911 (Emergencias). Este tipo de capacitaciones se enmarcan en un plan provincial de fortalecimiento de las fuerzas de seguridad y rescate, con el objetivo de realizar encuentros periódicos que aseguren la actualización constante de los conocimientos y la operatividad de los equipos en toda la región."
+  ],
+  "categoria": "Comunidad",
+  "tags": [
+    "Bomberos Voluntarios",
+    "Villa Paranacito",
+    "Capacitación",
+    "Emergencias",
+    "Delta Entrerriano",
+    "Seguridad"
+  ],
+  "slug": "capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias",
+  "tiempo_lectura": "2 min",
+  "resumen_whatsapp": "🚨 Bomberos de 8 localidades se capacitaron en Villa Paranacito para mejorar la respuesta ante emergencias en el Delta. 💪 ¡Más seguridad para nuestros vecinos! Leé la nota completa en Paranacito Noticias.",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/bomberos-de-ocho-localidad-se-capacitaron-en-el-predio-del-ex-frigorifico-para-actuar-ante-incendios-de-gran-magnitud.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3PHzZWoIdwfY0plccsgIkR",
+      "fecha_consulta": "2026-08-24T01:13:36.922161"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "01:13",
+      "fecha": "2026-08-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Cuerpos de bomberos de ocho localidades de Entre Ríos, incluyendo Villa Paranacito e Ibicuy, participaron de una intensa jornada de formación en el predio del Ex Frigorífico, elevando la capacidad de ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "58d4fe2ab02ae56618a0b921a4125e13bea38316db5a8430bb2eca73ddfc8592"
+  ],
+  "fecha_inicio_iso": "2026-08-24T01:13:36.922161",
+  "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:36.922161",
+  "fecha_publicacion": "24 de Agosto de 2026, 01:13 hs",
+  "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+  "archivo": "2026-08-24-capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias.json"
+}

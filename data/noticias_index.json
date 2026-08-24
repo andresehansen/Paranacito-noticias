@@ -1,5 +1,88 @@
 [
   {
+    "acontecimiento_id": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ...",
+    "copete": "Por la oposición participaron el intendente de Federación, Ricardo Bravo; su par de Villa Paranacito , César Melchiori; y la intendenta de Victoria, ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.582390",
+    "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-24-bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
+    "slug": "bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito Refuerzan Capacidades en Crucial Capacitación Regional",
+    "copete": "Efectivos de los Bomberos Voluntarios de Villa Paranacito participaron activamente en una importante jornada de capacitación regional en Gualeguaychú, adquiriendo herramientas avanzadas para la respuesta ante emergencias complejas. Este entrenamiento es vital para la seguridad de la comunidad isleña y del Delta entrerriano, dadas las particularidades geográficas de la región.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Bomberos Voluntarios",
+      "Villa Paranacito",
+      "Capacitación",
+      "Seguridad Ciudadana"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_inicio_iso": "2026-08-24T01:13:51.090978",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.090978",
+    "resumen_whatsapp": "📰 ¡Nuestros Bomberos Voluntarios de Villa Paranacito se capacitaron en Gualeguaychú! 🚒 Reforzaron técnicas de rescate y gestión de emergencias para proteger mejor a nuestra comunidad del Delta. ¡Más seguridad para todos! 💪"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias",
+    "slug": "capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias",
+    "titulo": "Capacitación Regional de Bomberos Voluntarios en Villa Paranacito Refuerza la Preparación ante Emergencias",
+    "copete": "Cuerpos de bomberos de ocho localidades de Entre Ríos, incluyendo Villa Paranacito e Ibicuy, participaron de una intensa jornada de formación en el predio del Ex Frigorífico, elevando la capacidad de respuesta ante siniestros y situaciones críticas en el Delta y la región.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Bomberos Voluntarios",
+      "Villa Paranacito",
+      "Capacitación",
+      "Emergencias",
+      "Delta Entrerriano",
+      "Seguridad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_inicio_iso": "2026-08-24T01:13:36.922161",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:36.922161",
+    "resumen_whatsapp": "🚨 Bomberos de 8 localidades se capacitaron en Villa Paranacito para mejorar la respuesta ante emergencias en el Delta. 💪 ¡Más seguridad para nuestros vecinos! Leé la nota completa en Paranacito Noticias."
+  },
+  {
     "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
     "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
     "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
@@ -244,32 +327,6 @@
     "fecha_inicio_iso": "2026-08-22T00:39:36.904743",
     "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:36.904743",
     "resumen_whatsapp": "📰 *Entre Ríos se prepara ante la llegada de &quot;El Niño&quot;: Frigerio reunió a intendentes y funcionarios* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
-    "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
-    "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ...",
-    "copete": "Por la oposición participaron el intendente de Federación, Ricardo Bravo; su par de Villa Paranacito , César Melchiori; y la intendenta de Victoria, ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T00:39:24.533161",
-    "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
   },
   {
     "acontecimiento_id": "2026-08-21-como-habitar-un-territorio-10-casas-moldeadas",
