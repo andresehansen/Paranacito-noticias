@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-08-25-rodaje-documental-historico-delta-entrerriano-vuelos-muerte",
+    "slug": "rodaje-documental-historico-delta-entrerriano-vuelos-muerte",
+    "titulo": "Rodaje de Documental Histórico en el Delta Entrerriano Revive la Memoria de los \"Vuelos de la Muerte\"",
+    "copete": "La región del Delta de Entre Ríos, incluyendo zonas cercanas a Villa Paranacito, es escenario del inicio de filmación de un documental que busca arrojar luz sobre uno de los capítulos más oscuros de la historia argentina, los \"Vuelos de la Muerte\", reafirmando el compromiso con la memoria, la verdad y la justicia.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Delta Entrerriano",
+      "Documental",
+      "Memoria Histórica",
+      "Derechos Humanos",
+      "Villa Paranacito",
+      "Dictadura Argentina"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Diario Junio)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_inicio_iso": "2026-08-25T04:38:14.441677",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T04:38:14.441677",
+    "resumen_whatsapp": "📰 ¡Importante! Comenzó el rodaje de un documental sobre los \"Vuelos de la Muerte\" en nuestro Delta entrerriano. 🌊 Un proyecto clave para mantener viva la memoria y la verdad histórica. ¡Conocé los detalles en nuestra nota! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-documental-memoria-villa-paranacito-rodaje-entrevistas",
+    "slug": "documental-memoria-villa-paranacito-rodaje-entrevistas",
+    "titulo": "Documental sobre la Memoria de Villa Paranacito Inicia Rodaje con Entrevistas Clave",
+    "copete": "Un equipo de producción audiovisual ha comenzado el rodaje de un documental que busca rescatar y preservar la memoria histórica de Villa Paranacito, realizando una primera etapa de grabaciones en sitios emblemáticos y entrevistando a figuras locales como el periodista Fabián Magnotta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Documental",
+      "Historia Local",
+      "Villa Paranacito",
+      "Fabián Magnotta"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_inicio_iso": "2026-08-25T04:38:00.215186",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T04:38:00.215186",
+    "resumen_whatsapp": "📰 ¡Gran noticia para Villa Paranacito! Un documental sobre nuestra historia y memoria ya está en marcha. 🎥 La primera etapa incluyó grabaciones en el cementerio local y una entrevista clave con el periodista Fabián Magnotta. ¡Pronto más detalles! #ParanacitoHistoria"
+  },
+  {
     "acontecimiento_id": "2026-08-25-nuevo-documental-vuelos-muerte-delta-paranacito",
     "slug": "nuevo-documental-vuelos-muerte-delta-paranacito",
     "titulo": "Profundizan la Memoria: Nuevo Documental Reconstruye los 'Vuelos de la Muerte' en el Delta Entrerriano con Foco en Villa Paranacito",
