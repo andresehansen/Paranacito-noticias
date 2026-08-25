@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-08-25-nuevo-documental-vuelos-muerte-delta-paranacito",
+    "slug": "nuevo-documental-vuelos-muerte-delta-paranacito",
+    "titulo": "Profundizan la Memoria: Nuevo Documental Reconstruye los 'Vuelos de la Muerte' en el Delta Entrerriano con Foco en Villa Paranacito",
+    "copete": "Un equipo de cineastas inició en Villa Paranacito el rodaje de un documental que investiga los \"Vuelos de la Muerte\" de la última dictadura militar en el Delta entrerriano, buscando preservar la memoria histórica y avanzar en la búsqueda de justicia para la comunidad.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Dictadura Militar",
+      "Delta Entrerriano",
+      "Villa Paranacito",
+      "Derechos Humanos",
+      "Documental",
+      "Memoria"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://www.diariojunio.com.ar/wp-content/uploads/2026/08/IMG-20260824-WA0301.jpg",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "GDELT / diariojunio.com.ar"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 01:37 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 01:37 hs",
+    "fecha_inicio_iso": "2026-08-25T01:37:16.339473",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T01:37:16.339473",
+    "resumen_whatsapp": "📰 ¡Atención Delta! Un nuevo documental sobre los \"Vuelos de la Muerte\" de la dictadura se filma en Villa Paranacito. 🎬 Busca reconstruir la historia con testimonios locales y avanzar en la justicia. ¡Conocé los detalles! 👇"
+  },
+  {
     "acontecimiento_id": "2026-08-25-comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
     "slug": "comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
     "titulo": "Comienza en Villa Paranacito el rodaje de un documental clave sobre los 'Vuelos de la Muerte'",
