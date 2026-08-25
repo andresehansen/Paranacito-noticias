@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-08-25-comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "slug": "comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "titulo": "Comienza en el Delta Entrerriano el Rodaje de un Documental Crucial sobre los Vuelos de la Muerte",
+    "copete": "El vasto paisaje del Delta de Entre Ríos, incluyendo zonas cercanas a Villa Paranacito, es el escenario del inicio de filmación de un documental que busca reconstruir y preservar la memoria de las víctimas de los 'Vuelos de la Muerte' durante la última dictadura militar, un hecho de profunda relevancia histórica para la región y el país.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Delta Entrerriano",
+      "Dictadura Militar",
+      "Memoria Histórica",
+      "Documental",
+      "Villa Paranacito",
+      "Derechos Humanos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (examedia.com.ar)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 20:35 hs",
+    "fecha_inicio_iso": "2026-08-25T20:35:46.940321",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T20:35:46.940321",
+    "resumen_whatsapp": "📰 ¡Atención, vecinos! Comenzó en el Delta Entrerriano el rodaje de un documental crucial sobre los Vuelos de la Muerte de la última dictadura. 🎬 Este proyecto busca reconstruir la memoria histórica y honrar a las víctimas, con locaciones en el departamento Islas del Ibicuy. ¡Leé la nota completa para saber más! 👇"
+  },
+  {
     "acontecimiento_id": "2026-08-25-exito-segundo-encuentro-emociones-familia-villa-paranacito",
     "slug": "exito-segundo-encuentro-emociones-familia-villa-paranacito",
     "titulo": "Éxito y Convocatoria en el Segundo Encuentro del Ciclo 'Emociones en Familia' en Villa Paranacito",
@@ -173,37 +203,6 @@
     "fecha_inicio_iso": "2026-08-25T01:37:16.339473",
     "fecha_ultima_actualizacion_iso": "2026-08-25T01:37:16.339473",
     "resumen_whatsapp": "📰 ¡Atención Delta! Un nuevo documental sobre los \"Vuelos de la Muerte\" de la dictadura se filma en Villa Paranacito. 🎬 Busca reconstruir la historia con testimonios locales y avanzar en la justicia. ¡Conocé los detalles! 👇"
-  },
-  {
-    "acontecimiento_id": "2026-08-25-comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
-    "slug": "comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
-    "titulo": "Comienza en Villa Paranacito el rodaje de un documental clave sobre los 'Vuelos de la Muerte'",
-    "copete": "El Delta entrerriano se convierte en escenario de una producción audiovisual que busca reconstruir y visibilizar la historia de los 'Vuelos de la Muerte', un capítulo oscuro de la dictadura argentina, con la participación de referentes locales.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Vuelos de la Muerte",
-      "Documental",
-      "Memoria",
-      "Dictadura",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Derechos Humanos",
-      "Fabián Magnotta"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "25 de Agosto de 2026, 01:12 hs",
-    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 01:12 hs",
-    "fecha_inicio_iso": "2026-08-25T01:12:30.675430",
-    "fecha_ultima_actualizacion_iso": "2026-08-25T01:12:30.675430",
-    "resumen_whatsapp": "📰 ¡Atención, vecinos! Comenzó en Villa Paranacito el rodaje de un documental clave sobre los 'Vuelos de la Muerte' en el Delta. Una iniciativa fundamental para la memoria y la verdad. ¡Enterate de los detalles y la importancia para nuestra comunidad! 👇"
   },
   {
     "acontecimiento_id": "2026-08-24-comenzo-rodaje-documental-vuelos-muerte-delta-entrerriano",
