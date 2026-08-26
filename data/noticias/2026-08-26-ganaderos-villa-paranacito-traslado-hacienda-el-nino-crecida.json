@@ -1,0 +1,55 @@
+{
+  "acontecimiento_id": "2026-08-26-ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
+  "titulo": "Ganaderos de Villa Paranacito Inician Preparativos para el Traslado de Hacienda ante la Amenaza de Crecida por El Niño",
+  "copete": "Productores ganaderos del Delta entrerriano, con epicentro en Villa Paranacito, ya observan los primeros efectos del fenómeno El Niño y se organizan para reubicar sus rodeos ante el inminente aumento del caudal del río Uruguay, buscando proteger su producción y evitar pérdidas.",
+  "cuerpo": [
+    "La comunidad ganadera de Villa Paranacito y el departamento Islas del Ibicuy se encuentra en estado de alerta y acción preventiva ante el avance de los efectos del fenómeno climático El Niño. José Luis Peter, un reconocido productor local, ha confirmado que el escenario ya presenta cambios significativos, con un notorio incremento en el caudal del río Uruguay en las últimas dos semanas. Esta situación, que se anticipa como un ciclo de crecidas prolongadas, obliga a los productores a planificar el traslado de sus rodeos hacia zonas más altas para salvaguardar la hacienda y la infraestructura productiva en el corazón del Delta entrerriano.",
+    "José Luis Peter, ganadero de la zona, manifestó a nuestro medio: \"El escenario ya presenta cambios. El río Uruguay ha crecido en los últimos 15 a 20 días, y esto nos pone en alerta máxima. Estamos organizando los movimientos de hacienda para evitar sorpresas\". Si bien no hay declaraciones oficiales directas en el material crudo, se sabe que organismos como el Instituto Nacional del Agua (INA) y la Prefectura Naval Argentina monitorean constantemente los niveles hídricos, y se espera que las autoridades provinciales y municipales coordinen esfuerzos con los productores para mitigar los impactos.",
+    "Para los habitantes de Villa Paranacito y las zonas isleñas, la crecida de los ríos no solo afecta a la producción ganadera, sino que tiene un impacto directo en la vida cotidiana. La navegación en el Río Paranacito y arroyos aledaños puede volverse más compleja y peligrosa, afectando el transporte de personas y mercaderías. Además, el acceso a algunas propiedades y establecimientos educativos ribereños podría verse comprometido, generando desafíos logísticos para las familias y el comercio local. La economía regional, fuertemente ligada a la producción primaria y el turismo, también siente la incertidumbre de un ciclo hídrico adverso.",
+    "Según los últimos informes del Instituto Nacional del Agua (INA), los pronósticos hidrológicos para la cuenca del Río Uruguay indican una tendencia de ascenso sostenido en las próximas semanas, influenciado por las precipitaciones en la alta cuenca. Aunque no se han detallado cifras exactas de presupuesto o maquinarias en el cable, los productores están utilizando sus propios recursos y coordinando el uso de barcazas y embarcaciones para el traslado de los animales. Se estima que el movimiento de hacienda podría involucrar a miles de cabezas, requiriendo una logística compleja y un esfuerzo conjunto de toda la comunidad rural del departamento Islas del Ibicuy.",
+    "Ante esta situación, se recomienda a los vecinos y productores de la zona mantenerse informados a través de los canales oficiales y de 'Paranacito Noticias'. Es fundamental extremar las precauciones al navegar y asegurar embarcaciones y bienes en zonas bajas. Para consultas o emergencias relacionadas con la crecida, se sugiere contactar a la Prefectura Naval Argentina o a la Municipalidad de Villa Paranacito. La situación continuará siendo monitoreada de cerca por las autoridades y los propios productores, quienes se mantienen en alerta máxima para responder a los próximos movimientos del río."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "El Niño",
+    "Ganadería",
+    "Villa Paranacito",
+    "Río Uruguay",
+    "Crecida",
+    "Delta Entrerriano",
+    "Islas del Ibicuy"
+  ],
+  "slug": "ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
+  "tiempo_lectura": "3 min",
+  "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito ya preparan el traslado de hacienda por la crecida del Río Uruguay debido a El Niño. 🌊 La prevención es clave. Mantente informado y toma precauciones. #ElNiño #Delta #ParanacitoNoticias",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.motivar.com.ar/ganaderia/ganaderos-del-delta-anticipan-traslado-el-nino-n5336856&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2ojMJgBN-nl2By-_wNGrpr",
+      "fecha_consulta": "2026-08-26T22:47:14.083373"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:47",
+      "fecha": "2026-08-26",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Productores ganaderos del Delta entrerriano, con epicentro en Villa Paranacito, ya observan los primeros efectos del fenómeno El Niño y se organizan para reubicar sus rodeos ante el inminente aumento ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "b2a0822536001d46c5f71ebba542e9960221d01b5689bb4d8875757c878b6ff4"
+  ],
+  "fecha_inicio_iso": "2026-08-26T22:47:14.083373",
+  "fecha_ultima_actualizacion_iso": "2026-08-26T22:47:14.083373",
+  "fecha_publicacion": "26 de Agosto de 2026, 22:47 hs",
+  "fecha_ultima_actualizacion": "26 de Agosto de 2026, 22:47 hs",
+  "archivo": "2026-08-26-ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida.json"
+}

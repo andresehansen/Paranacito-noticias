@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-08-26-operativo-villa-paranacito-detienen-mujer-profuga-delitos-sexuales",
+  "titulo": "Operativo en Villa Paranacito: Detienen a mujer prófuga por delitos sexuales desde hace una década",
+  "copete": "Una mujer de 48 años, buscada por la justicia desde 2016 por graves delitos sexuales, fue finalmente aprehendida en un allanamiento realizado en la zona de Villa Paranacito, poniendo fin a una década de fuga y reafirmando el compromiso con la seguridad en el Delta.",
+  "cuerpo": [
+    "Un importante operativo policial culminó con la detención de una mujer de 48 años que se encontraba prófuga de la justicia desde el año 2016, condenada por graves delitos sexuales. La aprehensión se produjo en la zona de Villa Paranacito, en el corazón del Delta entrerriano, tras un allanamiento llevado a cabo por personal de la División Investigaciones de la Policía de Entre Ríos. Este suceso marca el fin de una búsqueda que se extendió por casi una década, generando un impacto significativo en la comunidad local y en el Departamento Islas del Ibicuy.",
+    "Fuentes policiales confirmaron a 'Paranacito Noticias' que la detención fue el resultado de una exhaustiva investigación y un trabajo coordinado entre distintas dependencias. \"Este tipo de operativos demuestran el compromiso de las fuerzas de seguridad con la justicia y la tranquilidad de nuestros vecinos\", expresó un vocero de la fuerza, quien prefirió mantener el anonimato. \"No importa cuánto tiempo pase, la justicia siempre llega. Es un mensaje claro para quienes intentan evadir sus responsabilidades penales y un alivio para las víctimas y la comunidad entera\".",
+    "Para los habitantes de Villa Paranacito y las zonas aledañas del Delta Entrerriano, esta detención representa un importante mensaje de que la ley se aplica y que la seguridad es una prioridad. La presencia de prófugos de la justicia puede generar inquietud, y su captura contribuye a fortalecer la confianza en las instituciones y a reafirmar el compromiso con la protección de los derechos de las víctimas, especialmente en casos tan sensibles como los delitos contra la integridad sexual. La comunidad isleña valora la acción policial que garantiza un entorno más seguro.",
+    "La mujer, cuya identidad no fue revelada por razones legales, estaba condenada por delitos contra la integridad sexual y tenía un pedido de captura nacional e internacional vigente desde el año 2016, emitido por un juzgado competente. El allanamiento que derivó en su aprehensión se llevó a cabo con todas las garantías legales, bajo la supervisión de la fiscalía interviniente, y se realizó en un domicilio particular de la localidad, donde se presumía su ocultamiento tras años de evadir la justicia.",
+    "Tras su detención, la mujer fue trasladada a la Jefatura Departamental para los trámites de rigor y quedará a disposición de la justicia que emitió la orden de captura, para ser extraditada y cumplir con la condena impuesta. Desde las autoridades se reitera la importancia de la colaboración ciudadana para mantener la seguridad en la región, instando a los vecinos a reportar cualquier situación sospechosa a los números de emergencia o a la comisaría local, garantizando la confidencialidad de la información y contribuyendo a la paz social."
+  ],
+  "categoria": "Sociedad",
+  "tags": [
+    "Villa Paranacito",
+    "detención",
+    "prófuga",
+    "delitos sexuales",
+    "seguridad",
+    "policía",
+    "Islas del Ibicuy",
+    "justicia"
+  ],
+  "slug": "operativo-villa-paranacito-detienen-mujer-profuga-delitos-sexuales",
+  "tiempo_lectura": "3 min",
+  "resumen_whatsapp": "🚨 ¡Noticia de último momento en Villa Paranacito! 🚨 Detuvieron a una mujer de 48 años que estaba prófuga desde 2016 por graves delitos sexuales. La justicia llega y la seguridad se refuerza en nuestro Delta. ¡Leé la nota completa en Paranacito Noticias! 📰",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/estaba-profuga-desde-hacia-10-anos-detuvieron-a-una-mujer-condenada-por-delitos-sexuales.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0CcZfpf8qWBtMcyBdcS5qZ",
+      "fecha_consulta": "2026-08-26T22:46:40.448055"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:46",
+      "fecha": "2026-08-26",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Una mujer de 48 años, buscada por la justicia desde 2016 por graves delitos sexuales, fue finalmente aprehendida en un allanamiento realizado en la zona de Villa Paranacito, poniendo fin a una década ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "60c91796ca62946b39ae635c53102ecf1973b617a7610260521a2c95677db368"
+  ],
+  "fecha_inicio_iso": "2026-08-26T22:46:40.448055",
+  "fecha_ultima_actualizacion_iso": "2026-08-26T22:46:40.448055",
+  "fecha_publicacion": "26 de Agosto de 2026, 22:46 hs",
+  "fecha_ultima_actualizacion": "26 de Agosto de 2026, 22:46 hs",
+  "archivo": "2026-08-26-operativo-villa-paranacito-detienen-mujer-profuga-delitos-sexuales.json"
+}

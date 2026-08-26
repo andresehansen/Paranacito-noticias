@@ -1,5 +1,65 @@
 [
   {
+    "acontecimiento_id": "2026-08-26-ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
+    "slug": "ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
+    "titulo": "Ganaderos de Villa Paranacito Inician Preparativos para el Traslado de Hacienda ante la Amenaza de Crecida por El Niño",
+    "copete": "Productores ganaderos del Delta entrerriano, con epicentro en Villa Paranacito, ya observan los primeros efectos del fenómeno El Niño y se organizan para reubicar sus rodeos ante el inminente aumento del caudal del río Uruguay, buscando proteger su producción y evitar pérdidas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Ganadería",
+      "Villa Paranacito",
+      "Río Uruguay",
+      "Crecida",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 22:47 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 22:47 hs",
+    "fecha_inicio_iso": "2026-08-26T22:47:14.083373",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T22:47:14.083373",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito ya preparan el traslado de hacienda por la crecida del Río Uruguay debido a El Niño. 🌊 La prevención es clave. Mantente informado y toma precauciones. #ElNiño #Delta #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-alerta-delta-productores-villa-paranacito-aceleran-traslado-hacienda",
+    "slug": "alerta-delta-productores-villa-paranacito-aceleran-traslado-hacienda",
+    "titulo": "Alerta en el Delta: Productores de Villa Paranacito Aceleran el Traslado de Hacienda ante la Inminente Amenaza de El Niño",
+    "copete": "Ante los pronósticos de un fenómeno El Niño con posibles crecidas extraordinarias, los ganaderos de Villa Paranacito y el departamento Islas del Ibicuy han iniciado el retiro preventivo de sus rodeos, buscando salvaguardar la producción y evitar pérdidas económicas en la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Ganadería",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Crecidas",
+      "Prevención",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 22:46 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 22:46 hs",
+    "fecha_inicio_iso": "2026-08-26T22:46:27.003466",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T22:46:27.003466",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Productores de Villa Paranacito aceleran el traslado de hacienda 🐄 ante la amenaza de crecidas por El Niño 🌊. Medida preventiva clave para la región. ¡Mantente informado y toma precauciones! #ElNiño #Delta"
+  },
+  {
     "acontecimiento_id": "2026-08-26-alerta-hidrica-delta-ganaderos-paranacito-traslado-hacienda-el",
     "slug": "alerta-hidrica-delta-ganaderos-paranacito-traslado-hacienda-el",
     "titulo": "Alerta Hídrica en el Delta: Ganaderos de Villa Paranacito Aceleran el Traslado de Hacienda por el Fenómeno El Niño",
