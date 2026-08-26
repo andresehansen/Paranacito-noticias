@@ -1,5 +1,32 @@
 [
   {
+    "acontecimiento_id": "2026-08-26-el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
+    "slug": "el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
+    "titulo": "El Fenómeno El Niño Genera Alerta Hídrica en el Delta Entrerriano y Acelera la Evacuación de Ganado",
+    "copete": "Ante la inminente llegada de un período de crecida por el fenómeno El Niño, productores ganaderos del Delta entrerriano, incluyendo la zona de Villa Paranacito, intensifican la evacuación de hacienda para proteger sus rodeos y evitar pérdidas económicas significativas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Crecida",
+      "Delta Entrerriano",
+      "Villa Paranacito"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Identidad Correntina)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 01:14 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 01:14 hs",
+    "fecha_inicio_iso": "2026-08-26T01:14:48.643719",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T01:14:48.643719",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! El Niño amenaza con crecidas en el Río Paranacito. Productores apuran la salida de hacienda. 🐄🌊 Vecinos, estén atentos a los comunicados oficiales y tomen precauciones. ¡Infórmate en Paranacito Noticias! #ElNiño #DeltaEntrerriano"
+  },
+  {
     "acontecimiento_id": "2026-08-25-preocupacion-delta-ganaderos-villa-paranacito-evacuan-hacienda-alerta",
     "slug": "preocupacion-delta-ganaderos-villa-paranacito-evacuan-hacienda-alerta",
     "titulo": "Preocupación en el Delta: Ganaderos de Villa Paranacito Evacúan Hacienda por Alerta de Crecida y Lluvias Intensas",

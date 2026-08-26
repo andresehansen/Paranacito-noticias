@@ -1,0 +1,52 @@
+{
+  "acontecimiento_id": "2026-08-26-el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
+  "titulo": "El Fenómeno El Niño Genera Alerta Hídrica en el Delta Entrerriano y Acelera la Evacuación de Ganado",
+  "copete": "Ante la inminente llegada de un período de crecida por el fenómeno El Niño, productores ganaderos del Delta entrerriano, incluyendo la zona de Villa Paranacito, intensifican la evacuación de hacienda para proteger sus rodeos y evitar pérdidas económicas significativas.",
+  "cuerpo": [
+    "El Delta entrerriano, una región vital para la producción ganadera y la vida isleña, se encuentra en estado de alerta ante la confirmación del desarrollo del fenómeno climático El Niño. Este evento, caracterizado por el calentamiento anómalo de las aguas del Pacífico ecuatorial, suele traer consigo un aumento significativo de las precipitaciones en la cuenca del Río Paraná, lo que se traduce en un riesgo elevado de crecidas e inundaciones. En Villa Paranacito y las zonas aledañas del departamento Islas del Ibicuy, los productores ya están tomando medidas preventivas, acelerando la salida de ganado de las islas hacia zonas más altas y seguras en tierra firme, una práctica crucial para salvaguardar la economía local y el patrimonio de las familias.",
+    "Fuentes de la Dirección de Hidráulica de Entre Ríos han confirmado que los modelos hidrológicos proyectan un escenario de crecida para los próximos meses, instando a la población ribereña a extremar las precauciones. \"Estamos en contacto permanente con los municipios y las juntas de gobierno del Delta, incluyendo Villa Paranacito, para coordinar acciones y brindar apoyo logístico. La experiencia nos indica que la anticipación es fundamental para mitigar los impactos de El Niño\", señaló un vocero de la repartición provincial. Por su parte, referentes de la Sociedad Rural de Islas del Ibicuy han manifestado la preocupación del sector, pero también la organización para enfrentar la situación, destacando la solidaridad entre vecinos para el traslado de animales.",
+    "Para los habitantes de Villa Paranacito y las comunidades isleñas, la amenaza de una crecida no solo afecta la producción ganadera, sino que impacta directamente en la vida cotidiana. La navegación en el Río Paranacito y los arroyos internos puede volverse más compleja y peligrosa, afectando el transporte de personas, mercaderías y el acceso a servicios esenciales como la salud y la educación. Además, el aumento del nivel del agua puede comprometer la infraestructura de defensas costeras, los caminos internos y la provisión de agua potable, generando desafíos adicionales para la comunidad que vive y trabaja en este ecosistema tan particular.",
+    "Según los últimos informes del Instituto Nacional del Agua (INA), se espera que el caudal del Río Paraná en la sección inferior, que incluye el Delta, experimente un aumento gradual en las próximas semanas, con picos que podrían superar los niveles de alerta en varios puntos. Si bien aún no se han alcanzado los valores críticos, el monitoreo constante de los hidrómetros en puertos clave como Villa Paranacito y Puerto Ibicuy es esencial. Las autoridades provinciales han dispuesto la activación de protocolos de emergencia y la preparación de equipos y recursos para asistir a las zonas más vulnerables, incluyendo la disponibilidad de embarcaciones y personal para evacuaciones si fuera necesario.",
+    "Ante este panorama, se recomienda a los vecinos del Delta entrerriano, especialmente a aquellos con propiedades en zonas bajas o ribereñas, mantenerse informados a través de los canales oficiales y tomar las precauciones necesarias. Es crucial asegurar embarcaciones, retirar objetos de valor de las orillas y tener un plan de contingencia familiar. Para consultas o emergencias, se pueden contactar a la Municipalidad de Villa Paranacito, Defensa Civil local o la Prefectura Naval Argentina. La situación continuará siendo monitoreada de cerca, y se emitirán actualizaciones periódicas para mantener a la comunidad al tanto de la evolución del fenómeno El Niño y sus posibles consecuencias."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "El Niño",
+    "Crecida",
+    "Delta Entrerriano",
+    "Villa Paranacito"
+  ],
+  "slug": "el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
+  "tiempo_lectura": "3 min",
+  "resumen_whatsapp": "📰 ¡Alerta en el Delta! El Niño amenaza con crecidas en el Río Paranacito. Productores apuran la salida de hacienda. 🐄🌊 Vecinos, estén atentos a los comunicados oficiales y tomen precauciones. ¡Infórmate en Paranacito Noticias! #ElNiño #DeltaEntrerriano",
+  "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (Identidad Correntina)",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNk1mM2FvUWlvR3QyREdqaWk1ZUNYLUdEam1vcTFDd0t0ZkpRWjBnelRxMm56SURmRVY2TGdHZTV4TjdsYTFFaXlCTzRXNXpoUEhmUDhUaFBSLUFGYjJzT0lPMzJBZGUzVFVzRmd1VmhoS2VCY0dXby14cUIzTTNCdW5RN0lwUWctZDdzbGFfYTMweE9LRVMzMUlYUFo3d2Y2a005RnhCcGtIZDhUYlloOTJfanFmTDVKRWc4RlNn?oc=5",
+      "fecha_consulta": "2026-08-26T01:14:48.643719"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "01:14",
+      "fecha": "2026-08-26",
+      "fuente": "Google News (Identidad Correntina)",
+      "dato": "Ante la inminente llegada de un período de crecida por el fenómeno El Niño, productores ganaderos del Delta entrerriano, incluyendo la zona de Villa Paranacito, intensifican la evacuación de hacienda ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "fb7d863300d953e979a412ddfd64741944c5123c8812f250f6e648bc7814e3de"
+  ],
+  "fecha_inicio_iso": "2026-08-26T01:14:48.643719",
+  "fecha_ultima_actualizacion_iso": "2026-08-26T01:14:48.643719",
+  "fecha_publicacion": "26 de Agosto de 2026, 01:14 hs",
+  "fecha_ultima_actualizacion": "26 de Agosto de 2026, 01:14 hs",
+  "archivo": "2026-08-26-el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado.json"
+}
