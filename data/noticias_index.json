@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-08-26-alerta-hidrica-delta-productores-paranacito-apuran-traslado-hacienda",
+    "slug": "alerta-hidrica-delta-productores-paranacito-apuran-traslado-hacienda",
+    "titulo": "Alerta Hídrica en el Delta: Productores de Villa Paranacito Apuran el Traslado de Hacienda ante el Pronóstico del Fenómeno El Niño",
+    "copete": "Ante la inminente llegada de un fenómeno climático El Niño de gran intensidad, productores ganaderos de Villa Paranacito y el Delta de Entre Ríos han iniciado el traslado preventivo de sus rodeos, buscando resguardar la producción y evitar pérdidas significativas en la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Ganadería",
+      "Delta Entrerriano",
+      "Inundaciones",
+      "Prevención",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 12:50 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 12:50 hs",
+    "fecha_inicio_iso": "2026-08-26T12:50:44.211586",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T12:50:44.211586",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Productores de Villa Paranacito están trasladando hacienda por el pronóstico de un fuerte El Niño. 🌊 La prevención es clave para la comunidad. Leé la nota completa para saber cómo prepararte. 👇"
+  },
+  {
     "acontecimiento_id": "2026-08-26-torneo-eduardo-barbosa-fecha-15-villa-paranacito",
     "slug": "torneo-eduardo-barbosa-fecha-15-villa-paranacito",
     "titulo": "El Torneo de Fútbol 'Eduardo Barbosa' Define Candidatos en su 15ª Fecha en Villa Paranacito",
