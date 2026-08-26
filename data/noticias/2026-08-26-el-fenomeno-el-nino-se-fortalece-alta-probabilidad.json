@@ -1,0 +1,55 @@
+{
+  "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
+  "titulo": "El Fenómeno El Niño se Fortalece: Alta Probabilidad de Impacto Significativo en el Delta Entrerriano",
+  "copete": "Las últimas proyecciones meteorológicas confirman un fortalecimiento del fenómeno El Niño, elevando a más del 90% la probabilidad de un evento hidrológico de gran magnitud que podría afectar seriamente a Villa Paranacito y la región del Delta entrerriano, movilizando a autoridades locales y Prefectura Naval.",
+  "cuerpo": [
+    "La comunidad de Villa Paranacito y todo el Departamento Islas del Ibicuy se encuentra en estado de alerta ante las recientes proyecciones climáticas que indican un fortalecimiento sin precedentes del fenómeno El Niño. Según los últimos informes de organismos especializados, existe más de un 90% de probabilidades de que se desarrolle un evento hidrológico de gran magnitud, lo que podría traducirse en crecidas significativas de los ríos y arroyos que conforman el complejo sistema del Delta entrerriano, como el Río Paranacito, afectando directamente la vida de sus habitantes y la infraestructura local.",
+    "Ante este panorama, tanto la Municipalidad de Villa Paranacito como la Prefectura Naval Argentina han manifestado su preocupación y están coordinando acciones preventivas. Fuentes municipales indicaron que 'estamos monitoreando la situación de cerca y en contacto permanente con los organismos provinciales y nacionales para anticipar cualquier escenario. La prioridad es la seguridad de nuestros vecinos'. Por su parte, desde la Prefectura se enfatizó en la importancia de la preparación y la comunicación constante con los navegantes y residentes de las zonas más vulnerables.",
+    "Para los vecinos del Delta, un evento de esta magnitud implica desafíos directos en su vida cotidiana. Las crecidas pueden dificultar la navegación, principal medio de transporte en la zona, afectar el estado de los caminos internos y accesos, y generar problemas en el suministro de servicios básicos. Además, se incrementa el riesgo de anegamientos en viviendas y áreas productivas, impactando en la economía local, el turismo y la salud pública debido a la posible proliferación de vectores y enfermedades asociadas a la humedad.",
+    "Actualmente, los hidrómetros de la región, incluyendo los del Río Paranacito, están siendo monitoreados con mayor frecuencia. Si bien aún no se han registrado niveles críticos, los pronósticos hidrológicos a mediano plazo sugieren un aumento progresivo. La Municipalidad está revisando y actualizando sus planes de contingencia, identificando zonas de evacuación, recursos logísticos y equipos de respuesta rápida. Se estima que se destinarán recursos adicionales para la limpieza de zanjas y arroyos, y la preparación de defensas costeras en puntos estratégicos.",
+    "Se recomienda a la población mantenerse informada a través de los canales oficiales de la Municipalidad y Prefectura Naval Argentina. Es fundamental revisar el estado de embarcaciones, asegurar pertenencias en zonas bajas y tener a mano un kit de emergencia. Ante cualquier situación de riesgo o consulta, los vecinos pueden comunicarse con la Guardia de Prefectura al 106 o con la Mesa de Entradas de la Municipalidad de Villa Paranacito. La situación continuará siendo monitoreada de cerca, y se emitirán alertas tempranas ante cualquier cambio significativo en los pronósticos."
+  ],
+  "categoria": "Río y Clima",
+  "tags": [
+    "El Niño",
+    "Delta Entrerriano",
+    "Villa Paranacito",
+    "Crecidas",
+    "Alerta Climática",
+    "Prefectura Naval",
+    "Municipalidad"
+  ],
+  "slug": "el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
+  "tiempo_lectura": "3 min",
+  "resumen_whatsapp": "🚨 ¡Alerta en el Delta! El Niño se fortalece con +90% de probabilidad de evento fuerte. 🌊 Villa Paranacito y el Departamento Islas del Ibicuy en monitoreo constante. ⚠️ Preparate y mantenete informado. Leé la nota completa para saber cómo te afecta y qué hacer. 👇",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarionecochea.com/2026/08/25/el-nino-se-fortalece-hay-mas-de-90-de-probabilidad-de-un-evento-muy-fuerte-hacia-fines-de-2026/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ZGUIgwMQIxt8F1HV_b4Lg",
+      "fecha_consulta": "2026-08-26T04:39:04.107982"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "04:39",
+      "fecha": "2026-08-26",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Las últimas proyecciones meteorológicas confirman un fortalecimiento del fenómeno El Niño, elevando a más del 90% la probabilidad de un evento hidrológico de gran magnitud que podría afectar seriament",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "625308a693d5b0258aadd51ab2710f68113024a9a4192975ded9dbeeff3cdd96"
+  ],
+  "fecha_inicio_iso": "2026-08-26T04:39:04.107982",
+  "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:04.107982",
+  "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
+  "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
+  "archivo": "2026-08-26-el-fenomeno-el-nino-se-fortalece-alta-probabilidad.json"
+}

@@ -1,5 +1,65 @@
 [
   {
+    "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-pone-en-alerta-al",
+    "slug": "el-fenomeno-el-nino-pone-en-alerta-al",
+    "titulo": "El Fenómeno El Niño Pone en Alerta al Delta Entrerriano y Acelera la Salida de Hacienda",
+    "copete": "El Delta de Entre Ríos, con Villa Paranacito a la cabeza, se prepara para los efectos del fenómeno El Niño, que ya muestra sus primeras señales con un aumento en los niveles hídricos y la consecuente necesidad de trasladar ganado a zonas más altas. Productores locales y autoridades monitorean la situación para mitigar el impacto en la economía regional y la vida isleña.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Delta Entrerriano",
+      "Villa Paranacito",
+      "Ganadería",
+      "Inundaciones",
+      "Río Paranacito",
+      "Prevención"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_inicio_iso": "2026-08-26T04:39:18.748293",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:18.748293",
+    "resumen_whatsapp": "📰 ¡Atención Delta! El Niño ya se siente en Villa Paranacito. 🌊 Productores aceleran la salida de hacienda por subida de ríos. 🚜 Mantente informado y toma precauciones. ¡Leé la nota completa para saber cómo prepararte!"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
+    "slug": "el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
+    "titulo": "El Fenómeno El Niño se Fortalece: Alta Probabilidad de Impacto Significativo en el Delta Entrerriano",
+    "copete": "Las últimas proyecciones meteorológicas confirman un fortalecimiento del fenómeno El Niño, elevando a más del 90% la probabilidad de un evento hidrológico de gran magnitud que podría afectar seriamente a Villa Paranacito y la región del Delta entrerriano, movilizando a autoridades locales y Prefectura Naval.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Delta Entrerriano",
+      "Villa Paranacito",
+      "Crecidas",
+      "Alerta Climática",
+      "Prefectura Naval",
+      "Municipalidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_inicio_iso": "2026-08-26T04:39:04.107982",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:04.107982",
+    "resumen_whatsapp": "🚨 ¡Alerta en el Delta! El Niño se fortalece con +90% de probabilidad de evento fuerte. 🌊 Villa Paranacito y el Departamento Islas del Ibicuy en monitoreo constante. ⚠️ Preparate y mantenete informado. Leé la nota completa para saber cómo te afecta y qué hacer. 👇"
+  },
+  {
     "acontecimiento_id": "2026-08-26-el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
     "slug": "el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
     "titulo": "El Fenómeno El Niño Genera Alerta Hídrica en el Delta Entrerriano y Acelera la Evacuación de Ganado",
