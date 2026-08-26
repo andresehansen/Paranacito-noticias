@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-08-26-torneo-eduardo-barbosa-fecha-15-villa-paranacito",
+    "slug": "torneo-eduardo-barbosa-fecha-15-villa-paranacito",
+    "titulo": "El Torneo de Fútbol 'Eduardo Barbosa' Define Candidatos en su 15ª Fecha en Villa Paranacito",
+    "copete": "La comunidad deportiva de Villa Paranacito se prepara para una jornada clave del Torneo de Fútbol 'Eduardo Barbosa', donde los equipos locales buscarán consolidar posiciones en la recta final del campeonato.",
+    "categoria": "Deportes",
+    "tags": [
+      "fútbol",
+      "Torneo Eduardo Barbosa",
+      "Villa Paranacito",
+      "Deportes",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 08:42 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 08:42 hs",
+    "fecha_inicio_iso": "2026-08-26T08:42:35.821626",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T08:42:35.821626",
+    "resumen_whatsapp": "⚽️ ¡Fútbol en Villa Paranacito! La 15ª fecha del Torneo Eduardo Barbosa promete partidos clave para definir candidatos. 🏆 Atlético Sur juega en casa y Defensores del Sur vs. Sportivo Larroque en el Municipal. ¡No te lo pierdas! #Deportes #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-08-26-concurso-docente-nivel-primario-villa-paranacito",
     "slug": "concurso-docente-nivel-primario-villa-paranacito",
     "titulo": "La Dirección Departamental de Escuelas de Islas del Ibicuy Anuncia Concurso de Nivel Primario",
