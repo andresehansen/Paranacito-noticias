@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-08-27-capturan-en-villa-paranacito-a-amparito-profuga-por",
+    "slug": "capturan-en-villa-paranacito-a-amparito-profuga-por",
+    "titulo": "Capturan en Villa Paranacito a 'Amparito', prófuga por una década en una causa de estafa",
+    "copete": "Una mujer conocida como \"Amparito\", buscada por la justicia desde hace diez años por una compleja causa de estafa, fue detenida en Villa Paranacito. Su captura resalta la labor de las fuerzas de seguridad y la importancia de la colaboración ciudadana en la región del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "detención",
+      "prófuga",
+      "estafa",
+      "seguridad",
+      "Policía Federal",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 22:05 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 22:05 hs",
+    "fecha_inicio_iso": "2026-08-27T22:05:40.198697",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T22:05:40.198697",
+    "resumen_whatsapp": "📰 ¡Noticia importante en Villa Paranacito! Detuvieron a \"Amparito\", prófuga por 10 años por estafa. 🚨 La captura resalta la labor policial y la seguridad en el Delta. ¡Leé la nota completa para saber más!"
+  },
+  {
     "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-trasladan-hacienda-el-nino",
     "slug": "productores-delta-entrerriano-trasladan-hacienda-el-nino",
     "titulo": "Productores del Delta Entrerriano Trasladan Hacienda Ante la Amenaza de Crecida por el Fenómeno El Niño",
