@@ -1,5 +1,66 @@
 [
   {
+    "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-trasladan-hacienda-el-nino",
+    "slug": "productores-delta-entrerriano-trasladan-hacienda-el-nino",
+    "titulo": "Productores del Delta Entrerriano Trasladan Hacienda Ante la Amenaza de Crecida por el Fenómeno El Niño",
+    "copete": "Ante el inminente impacto del fenómeno El Niño, ganaderos de la región del Delta entrerriano, incluyendo el departamento Islas del Ibicuy, han iniciado el traslado preventivo de sus rodeos a zonas más altas para salvaguardar su producción y evitar pérdidas significativas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Delta Entrerriano",
+      "Islas del Ibicuy",
+      "Ganadería",
+      "Crecida del Río",
+      "Villa Paranacito",
+      "Productores",
+      "Alerta Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Ruralnet)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_inicio_iso": "2026-08-27T18:52:43.968557",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T18:52:43.968557",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Productores de Islas del Ibicuy ya están trasladando su hacienda 🐄 a zonas altas por la amenaza de crecida del río debido a El Niño. Mantente informado y toma precauciones. ¡Leé la nota completa para saber más! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-ganaderos-delta-entrerriano-traslado-hacienda-crecida-el-nino",
+    "slug": "ganaderos-delta-entrerriano-traslado-hacienda-crecida-el-nino",
+    "titulo": "Ganaderos del Delta Entrerriano Inician Traslado Preventivo de Hacienda Ante la Amenaza de Crecida y El Niño",
+    "copete": "Productores de Villa Paranacito y la región del Delta de Entre Ríos han comenzado a mover sus rodeos a zonas más altas, anticipándose a los efectos de la crecida del río Uruguay y el pronóstico de un fenómeno El Niño intenso, buscando proteger su producción y evitar pérdidas económicas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "crecida",
+      "ganadería",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Río Uruguay",
+      "prevención"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_inicio_iso": "2026-08-27T18:52:30.359389",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T18:52:30.359389",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito ya trasladan su hacienda 🐄 a zonas seguras por la crecida del Río Uruguay y el pronóstico de El Niño. La prevención es clave para proteger la producción local. ¡Mantente informado con Paranacito Noticias! 🌊"
+  },
+  {
     "acontecimiento_id": "2026-08-27-detencion-amparito-villa-paranacito-profuga-justicia",
     "slug": "detencion-amparito-villa-paranacito-profuga-justicia",
     "titulo": "Importante Detención en Villa Paranacito: Cae 'Amparito' Tras Una Década Prófuga de la Justicia",
