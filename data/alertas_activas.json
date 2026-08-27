@@ -1,5 +1,97 @@
 [
   {
+    "acontecimiento_id": "2026-08-27-detencion-amparito-villa-paranacito-profuga-justicia",
+    "slug": "detencion-amparito-villa-paranacito-profuga-justicia",
+    "titulo": "Importante Detención en Villa Paranacito: Cae 'Amparito' Tras Una Década Prófuga de la Justicia",
+    "copete": "Una mujer conocida como 'Amparito', buscada por la justicia federal desde hace diez años por delitos económicos, fue finalmente aprehendida en Villa Paranacito, poniendo fin a una larga fuga y destacando la labor de las fuerzas de seguridad en la región.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Amparito",
+      "detención",
+      "prófuga",
+      "Villa Paranacito",
+      "Policía Federal",
+      "Islas del Ibicuy",
+      "seguridad",
+      "justicia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 07:30 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:30 hs",
+    "fecha_inicio_iso": "2026-08-27T07:30:19.461176",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T07:30:19.461176",
+    "resumen_whatsapp": "🚨 ¡Noticia de último momento en Villa Paranacito! Una mujer conocida como 'Amparito', prófuga por 10 años, fue detenida en un operativo conjunto. 🚔 Entérate de todos los detalles y el impacto en nuestra comunidad. 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-aceleran-traslado-hacienda-amenaza-fenomeno",
+    "slug": "productores-delta-entrerriano-aceleran-traslado-hacienda-amenaza-fenomeno",
+    "titulo": "Productores del Delta Entrerriano Aceleran Traslado de Hacienda Ante la Amenaza del Fenómeno El Niño",
+    "copete": "Ante los pronósticos de un 'Súper Niño' y posibles crecidas significativas, productores ganaderos de Villa Paranacito y el Delta de Entre Ríos están movilizando sus rodeos a zonas más altas. La medida busca proteger la producción y evitar pérdidas económicas en la región, vital para la economía local.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Ganadería",
+      "Crecidas",
+      "Río Paranacito",
+      "Islas del Ibicuy",
+      "Productores"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 07:29 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:29 hs",
+    "fecha_inicio_iso": "2026-08-27T07:29:37.921264",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T07:29:37.921264",
+    "resumen_whatsapp": "📰 Alerta en el Delta: Productores de Villa Paranacito aceleran el traslado de hacienda por la amenaza del fenómeno El Niño. 🌊 Se prevén crecidas y se toman medidas preventivas. ¡Mantente informado y preparado! #Delta #ElNiño"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-productores-delta-retiran-ganado-crecida-rio-paranacito",
+    "slug": "productores-delta-retiran-ganado-crecida-rio-paranacito",
+    "titulo": "Productores del Delta Entrerriano Retiran Ganado Ante la Amenaza de Crecida del Río Paranacito",
+    "copete": "Ganaderos de Villa Paranacito y el Delta de Islas del Ibicuy han iniciado el traslado preventivo de sus animales a zonas más altas, anticipándose a posibles crecidas en los cursos de agua que podrían afectar seriamente la producción local.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Crecida",
+      "Ganadería",
+      "Río Paranacito",
+      "Islas del Ibicuy",
+      "Prevención"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 07:28 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:28 hs",
+    "fecha_inicio_iso": "2026-08-27T07:28:53.279572",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T07:28:53.279572",
+    "resumen_whatsapp": "📰 ¡Atención Delta! Productores de Villa Paranacito retiran ganado preventivamente ante la posible crecida de los ríos. 🌊 Mantente informado y toma precauciones. #Delta #Crecida #Ganadería"
+  },
+  {
     "acontecimiento_id": "2026-08-26-ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
     "slug": "ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
     "titulo": "Ganaderos de Villa Paranacito Inician Preparativos para el Traslado de Hacienda ante la Amenaza de Crecida por El Niño",
