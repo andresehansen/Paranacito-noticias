@@ -942,15 +942,77 @@ const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env
 
   let generatedArticleData: any = null;
 
-  const CATEGORY_IMAGES: Record<string, string> = {
-    'Río y Clima': 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
-    'Comunidad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
-    'Obras y Servicios': 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80',
-    'Deportes': 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
-    'Salud y Educación': 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
-    'Turismo y Cultura': 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80',
-    'Sociedad': 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1200&q=80'
+  const THEMATIC_CATALOG: Record<string, string[]> = {
+    ganaderia_campo: [
+      'https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&w=1200&q=80'
+    ],
+    policia_justicia: [
+      'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1200&q=80'
+    ],
+    fauna_humedales: [
+      'https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80'
+    ],
+    rio_crecida: [
+      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80'
+    ],
+    salud_hospital: [
+      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80'
+    ],
+    educacion_docentes: [
+      'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80'
+    ],
+    obras_vialidad: [
+      'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80'
+    ],
+    deportes: [
+      'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80'
+    ],
+    turismo_pesca: [
+      'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80'
+    ],
+    comunidad_sociedad: [
+      'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80'
+    ]
   };
+
+  function getSemanticImage(title: string, text: string, category: string, customUrl: string): string {
+    if (customUrl && customUrl.startsWith('http') && !customUrl.includes('photo-1511632765486-a01980e01a18')) {
+      return customUrl;
+    }
+    const full = `${title} ${text} ${category}`.toLowerCase();
+    if (full.includes('hacienda') || full.includes('ganado') || full.includes('vaca') || full.includes('rodeo') || full.includes('rural')) {
+      return THEMATIC_CATALOG.ganaderia_campo[0];
+    }
+    if (full.includes('policia') || full.includes('deten') || full.includes('profug') || full.includes('justicia') || full.includes('penal') || full.includes('estafa')) {
+      return THEMATIC_CATALOG.policia_justicia[0];
+    }
+    if (full.includes('cazador') || full.includes('fauna') || full.includes('ciervo') || full.includes('humedal') || full.includes('visor')) {
+      return THEMATIC_CATALOG.fauna_humedales[0];
+    }
+    if (full.includes('hospital') || full.includes('salud') || full.includes('medic') || full.includes('guardia') || full.includes('vacuna')) {
+      return THEMATIC_CATALOG.salud_hospital[0];
+    }
+    if (full.includes('escuela') || full.includes('docente') || full.includes('concurso') || full.includes('instituto') || full.includes('enfermeria')) {
+      return THEMATIC_CATALOG.educacion_docentes[0];
+    }
+    if (full.includes('obra') || full.includes('camino') || full.includes('vialidad') || full.includes('puente')) {
+      return THEMATIC_CATALOG.obras_vialidad[0];
+    }
+    if (full.includes('futbol') || full.includes('deporte') || full.includes('club')) {
+      return THEMATIC_CATALOG.deportes[0];
+    }
+    if (full.includes('turismo') || full.includes('pesca') || full.includes('cabana') || full.includes('rio')) {
+      return THEMATIC_CATALOG.turismo_pesca[0];
+    }
+    return THEMATIC_CATALOG.rio_crecida[0];
+  }
+
 
   function slugify(text: string): string {
     return text
@@ -1073,9 +1135,10 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
       const now = new Date();
       const nowIso = now.toISOString();
       const finalSlug = slugify(parsed.slug || parsed.titulo);
-      const finalImg = customImg || CATEGORY_IMAGES[categoria] || CATEGORY_IMAGES['Comunidad'];
+      const finalImg = getSemanticImage(parsed.titulo, rawText, categoria, customImg);
 
       generatedArticleData = {
+
         acontecimiento_id: `${nowIso.split('T')[0]}-${finalSlug}`,
         id: `${nowIso.split('T')[0]}-${finalSlug}`,
         titulo: parsed.titulo,

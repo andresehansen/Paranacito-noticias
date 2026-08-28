@@ -19,7 +19,9 @@ from events_store import (
     get_recent_events, rebuild_events_index, save_event, EVENTS_DIR
 )
 from event_matcher import match_article_to_events
+from image_manager import resolve_semantic_image
 from config import DATA_DIR, DEFAULT_CATEGORY_IMAGES, DEFAULT_FALLBACK_IMAGE
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -60,11 +62,10 @@ def purge_and_clean_events():
             if isinstance(cuerpo, list):
                 data["cuerpo"] = [clean_text(p) for p in cuerpo if clean_text(p)]
                 
-            # 3. Asegurar imagen válida en alta definición
-            img = data.get("imagen", "")
-            if not img or not img.startswith("http") or "/images/" in img:
-                cat = data.get("categoria", "Comunidad")
-                data["imagen"] = DEFAULT_CATEGORY_IMAGES.get(cat, DEFAULT_FALLBACK_IMAGE)
+            # 3. Asegurar imagen semánticamente coherente con la esencia de la noticia
+            current_img = data.get("imagen", "")
+            cat = data.get("categoria", "Comunidad")
+            data["imagen"] = resolve_semantic_image(clean_title, f"{clean_copete} {cuerpo_str}", cat, current_img)
                 
             with open(f, "w", encoding="utf-8") as file:
                 json.dump(data, file, ensure_ascii=False, indent=2)
@@ -72,6 +73,7 @@ def purge_and_clean_events():
             
         except Exception as ex:
             logging.error(f"Error procesando {f.name}: {ex}")
+
             
     logging.info(f"Purga y saneamiento: {purged_count} eliminadas, {cleaned_count} verificadas.")
     rebuild_events_index()
@@ -183,9 +185,12 @@ def run_pipeline(use_radar: bool = True):
             )
             rewritten["url_original"] = full_article_data.get("url") or url
             rewritten["fuente_nombre"] = full_article_data.get("source_name") or raw.get("source_name", "Fuente Regional")
-            rewritten["imagen"] = article_image or DEFAULT_CATEGORY_IMAGES.get(rewritten.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE)
+            rewritten["imagen"] = resolve_semantic_image(
+                article_title, content, rewritten.get("categoria", "Comunidad"), article_image
+            )
 
             new_event = create_new_event(rewritten, raw)
+
             recent_events.append(new_event)
             stats["nuevos"] += 1
 
