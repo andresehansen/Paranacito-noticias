@@ -91,9 +91,10 @@ def run_pipeline(use_radar: bool = True):
     except Exception as e:
         logging.error(f"Error en módulo de clima: {e}")
 
-    # 2. Cargar acontecimient@os recientes (últimas 72 hs) para comparar
-    recent_events = get_recent_events(hours=72)
-    logging.info(f"Acontecimient@os activos en ventana de 72 hs: {len(recent_events)}")
+    # 2. Cargar acontecimientos recientes (últimos 7 días / 168 hs) para deduplicar
+    recent_events = get_recent_events(hours=168)
+    logging.info(f"Acontecimientos activos en ventana de 7 días: {len(recent_events)}")
+
 
     # 3. Historial de URLs ya procesadas (deduplicación rápida sin IA)
     processed_hashes = load_history()

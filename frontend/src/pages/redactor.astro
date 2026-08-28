@@ -6,6 +6,8 @@ import noticiasIndex from '../../../data/noticias_index.json';
 const fullNewsFiles = import.meta.glob('../../../data/noticias/*.json', { eager: true });
 const allNews = Object.values(fullNewsFiles).map((file: any) => file.default || file);
 allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || '')));
+
+const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY || '';
 ---
 
 <Layout
@@ -79,7 +81,16 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
         </div>
       </div>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 flex-wrap">
+        <button
+          id="btn-config-github"
+          class="text-xs text-slate-700 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-lg transition-colors cursor-pointer flex items-center gap-1.5 font-medium border border-slate-300"
+          title="Permite borrar, editar y publicar notas directamente en GitHub sin descargar archivos"
+        >
+          <span>🐙</span>
+          <span id="lbl-github-status">Conectar GitHub (1-Clic)</span>
+        </button>
+
         <button
           id="btn-change-pin"
           class="text-xs text-slate-600 hover:text-slate-900 bg-slate-100 px-3 py-1.5 rounded-lg transition-colors cursor-pointer"
@@ -107,7 +118,7 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
         id="tab-btn-manage"
         class="tab-button px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
       >
-        📰 Administrar y Editar Notas ({allNews.length})
+        📰 Administrar y Editar Notas (<span id="count-news-badge">{allNews.length}</span>)
       </button>
     </nav>
 
@@ -121,9 +132,14 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
         
         <!-- API Key Gemini -->
         <div>
-          <label for="gemini-key" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            🔑 Clave Gemini API <span class="text-slate-400 font-normal">(se guarda solo en tu navegador)</span>
-          </label>
+          <div class="flex items-center justify-between mb-1">
+            <label for="gemini-key" class="block text-xs font-bold text-slate-700 uppercase tracking-wider">
+              🔑 Clave Gemini API
+            </label>
+            <span id="badge-key-status" class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
+              Activa
+            </span>
+          </div>
           <input
             type="password"
             id="gemini-key"
@@ -200,52 +216,51 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
         <!-- Selector de Imagen -->
         <div>
           <label for="imagen-url" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            🖼️ URL de Imagen <span class="text-slate-400 font-normal">(o dejá vacío para foto temática HD del Delta)</span>
+            🖼️ Foto de Portada (URL)
           </label>
           <input
-            type="url"
+            type="text"
             id="imagen-url"
-            placeholder="https://..."
-            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
+            placeholder="Pegá la URL de una foto o dejalo vacío para asignación automática del Delta"
+            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
           />
         </div>
 
-        <!-- Texto Crudo -->
+        <!-- Datos Crudos a Redactar -->
         <div>
           <label for="raw-text" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            📝 Datos o reporte a redactar *
+            📝 Datos brutos, audio transcripto o mensaje del vecino
           </label>
           <textarea
             id="raw-text"
             rows="6"
-            placeholder="Pegá datos desordenados, audios transcriptos, publicaciones de Facebook, pronóstico o comunicados oficiales..."
-            class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
+            placeholder="Ejemplo: Hay alerta por repunte del río para esta noche por vientos del sudeste. Se esperan 2.10 metros para la madrugada según Prefectura. Se recomienda amarrar bien las embarcaciones y levantar elementos en muelles bajos."
+            class="w-full text-xs text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3.5 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
           ></textarea>
         </div>
 
-        <!-- Botón de Generar -->
+        <!-- Botón de Generación -->
         <button
           type="button"
           id="btn-generar"
-          class="w-full py-3 px-4 bg-gradient-to-r from-river-600 to-river-700 hover:from-river-700 hover:to-river-800 text-white font-bold rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
+          class="w-full py-3.5 bg-gradient-to-r from-river-600 to-teal-600 hover:from-river-700 hover:to-teal-700 text-white font-bold text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
         >
           <span id="btn-icon">✨</span>
-          <span id="btn-text">Redactar Noticia con Gemini</span>
+          <span id="btn-text">Redactar Noticia con Gemini 2.5</span>
         </button>
 
-        <div id="error-msg" class="hidden p-3 bg-rose-100 text-rose-800 border border-rose-300 rounded-xl text-xs font-medium"></div>
+        <div id="error-msg" class="hidden text-xs text-rose-600 font-semibold p-3 bg-rose-50 rounded-xl border border-rose-200"></div>
 
       </section>
 
-      <!-- Panel de Vista Previa y Descarga (Columna Derecha) -->
+      <!-- Columna Derecha: Vista Previa y Publicación -->
       <section class="lg:col-span-7 space-y-6">
         
-        <!-- Estado Vacío -->
-        <div id="preview-placeholder" class="bg-slate-100/70 border-2 border-dashed border-slate-300 rounded-2xl p-12 text-center text-slate-500 flex flex-col items-center justify-center min-h-[400px]">
+        <div id="preview-placeholder" class="h-full min-h-[400px] border-2 border-dashed border-slate-300 rounded-2xl flex flex-col items-center justify-center p-8 text-center bg-slate-50 text-slate-400">
           <span class="text-4xl mb-3">📰</span>
-          <h3 class="text-base font-bold text-slate-700 mb-1">Vista Previa de la Noticia</h3>
-          <p class="text-xs max-w-sm">
-            Escribí los datos y hacé clic en "Redactar Noticia" para previsualizar el resultado periodístico.
+          <h3 class="text-sm font-bold text-slate-600">Vista Previa de la Noticia</h3>
+          <p class="text-xs max-w-sm mt-1">
+            Completá los datos a la izquierda y hacé clic en "Redactar Noticia" para generar el artículo completo y publicarlo en 1 clic.
           </p>
         </div>
 
@@ -259,9 +274,6 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
               </span>
               <span id="prev-alerta" class="hidden px-3 py-0.5 rounded-full text-xs font-black bg-rose-600 text-white animate-pulse">
                 🚨 ALERTA
-              </span>
-              <span id="prev-confiabilidad" class="px-3 py-0.5 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
-                🟡 Confiabilidad media
               </span>
             </div>
 
@@ -293,23 +305,29 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
             <pre id="prev-whatsapp" class="text-xs bg-black/20 p-3 rounded-xl whitespace-pre-wrap font-sans leading-relaxed"></pre>
           </div>
 
-          <!-- Publicar / Descargar -->
+          <!-- Publicar Directo / Descargar -->
           <div class="bg-slate-900 text-white rounded-2xl p-6 shadow-md space-y-4">
-            <div class="flex items-center justify-between gap-4">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
               <div>
                 <h3 class="text-sm font-bold">Publicar en Paranacito Noticias</h3>
-                <p class="text-xs text-slate-400">Descargá el archivo JSON generado para guardarlo en el repositorio.</p>
+                <p class="text-xs text-slate-400">Publicá directo en el repositorio o descargá el archivo JSON.</p>
               </div>
-              <button
-                id="btn-download-json"
-                class="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 font-bold text-xs rounded-xl transition-colors flex items-center gap-2 shadow cursor-pointer shrink-0"
-              >
-                <span>📥</span>
-                <span>Descargar JSON</span>
-              </button>
-            </div>
-            <div class="text-[11px] text-slate-400 bg-slate-800/80 p-3 rounded-xl border border-slate-700">
-              💡 <strong>Pasos para publicar:</strong> Arrastrá el archivo descargado a la carpeta <code class="text-emerald-400 font-mono font-bold">data/noticias/</code> de tu repositorio en GitHub y confirmá con <em>Commit changes</em>. Vercel actualizará la página automáticamente en 30 segundos.
+              <div class="flex items-center gap-2 w-full sm:w-auto">
+                <button
+                  id="btn-publish-direct"
+                  class="flex-1 sm:flex-none px-4 py-2.5 bg-river-600 hover:bg-river-500 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-2 shadow cursor-pointer"
+                >
+                  <span>🚀</span>
+                  <span>Publicar Directo (1-Clic)</span>
+                </button>
+                <button
+                  id="btn-download-json"
+                  class="px-3 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-1.5 border border-slate-700 cursor-pointer"
+                  title="Descargar archivo JSON"
+                >
+                  <span>📥</span>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -400,8 +418,8 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
           ></textarea>
         </div>
 
-        <!-- Categoría, Confiabilidad y Alerta -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <!-- Categoría y Alerta -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <label for="edit-categoria" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
               🏷️ Categoría
@@ -420,20 +438,6 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
             </select>
           </div>
 
-          <div>
-            <label for="edit-confiabilidad" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-              🛡️ Confiabilidad
-            </label>
-            <select
-              id="edit-confiabilidad"
-              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
-            >
-              <option value="Alta">🟢 Alta (Oficial)</option>
-              <option value="Media">🟡 Media (Vecinos/Medio)</option>
-              <option value="Baja">🔴 Baja (En verificación)</option>
-            </select>
-          </div>
-
           <div class="flex items-center gap-2 p-2 bg-rose-50 border border-rose-200 rounded-xl self-end">
             <input type="checkbox" id="edit-es-alerta" class="w-4 h-4 text-rose-600 rounded cursor-pointer" />
             <label for="edit-es-alerta" class="text-xs font-bold text-rose-900 cursor-pointer">
@@ -442,31 +446,26 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
           </div>
         </div>
 
-        <!-- URL de Imagen con Previsualización -->
+        <!-- URL de Imagen -->
         <div>
           <label for="edit-imagen" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
             🖼️ URL de Imagen de Portada
           </label>
-          <div class="flex gap-2">
-            <input
-              type="url"
-              id="edit-imagen"
-              placeholder="https://..."
-              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
-            />
-          </div>
+          <input
+            type="text"
+            id="edit-imagen"
+            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
+          />
 
           <!-- Selector de Galería Rápida del Delta -->
           <div class="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span>Galería rápida:</span>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Gobierno / Frigerio</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Frigerio / Gobierno</button>
             <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80">🌊 Río y Delta</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80">🏘️ Comunidad</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80">🚜 Caminos y Obras</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80">🎣 Pesca e Islas</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80">🏥 Salud y Escuela</button>
+            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1200&q=80">⚖️ Seguridad y Justicia</button>
           </div>
         </div>
-
 
         <!-- Cuerpo de la Noticia -->
         <div>
@@ -475,22 +474,23 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
           </label>
           <textarea
             id="edit-cuerpo"
-            rows="6"
+            rows="7"
             class="w-full text-xs text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
           ></textarea>
         </div>
 
         <!-- Botones de Acción del Modal -->
-        <div class="flex items-center justify-between pt-4 border-t border-slate-100 gap-3">
+        <div class="flex flex-col sm:flex-row items-center justify-between pt-4 border-t border-slate-100 gap-3">
           <button
             type="button"
             id="btn-delete-article"
-            class="px-4 py-2.5 bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs rounded-xl transition-colors cursor-pointer"
+            class="w-full sm:w-auto px-4 py-2.5 bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-1.5"
           >
-            🗑️ Eliminar Nota
+            <span>🗑️</span>
+            <span>Eliminar Nota</span>
           </button>
 
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-2 w-full sm:w-auto">
             <button
               type="button"
               id="btn-cancel-edit"
@@ -501,10 +501,10 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
             <button
               type="button"
               id="btn-save-edit"
-              class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-md transition-colors flex items-center gap-2 cursor-pointer"
+              class="flex-1 sm:flex-none px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-md transition-colors flex items-center justify-center gap-2 cursor-pointer"
             >
-              <span>📥</span>
-              <span>Guardar y Descargar JSON</span>
+              <span>💾</span>
+              <span>Guardar Cambios</span>
             </button>
           </div>
         </div>
@@ -516,8 +516,9 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
 </Layout>
 
 <!-- Inyección de Datos Estáticos para el Gestor -->
-<script define:vars={{ allNews }}>
+<script define:vars={{ allNews, serverGeminiKey }}>
   window.INITIAL_NEWS_DATA = allNews;
+  window.DEFAULT_GEMINI_KEY = serverGeminiKey;
 </script>
 
 <script>
@@ -530,16 +531,53 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
   const pinError = document.getElementById('pin-error');
   const btnLogout = document.getElementById('btn-logout');
   const btnChangePin = document.getElementById('btn-change-pin');
+  const btnConfigGithub = document.getElementById('btn-config-github');
+  const lblGithubStatus = document.getElementById('lbl-github-status');
 
   function getStoredPin(): string {
     return localStorage.getItem('pn_admin_pin') || DEFAULT_PIN;
   }
+
+  function updateGithubStatusLabel() {
+    const token = localStorage.getItem('pn_gh_token');
+    if (lblGithubStatus) {
+      if (token) {
+        lblGithubStatus.textContent = 'GitHub Conectado ✅';
+        btnConfigGithub?.classList.add('bg-emerald-50', 'text-emerald-700', 'border-emerald-200');
+      } else {
+        lblGithubStatus.textContent = 'Conectar GitHub (1-Clic)';
+        btnConfigGithub?.classList.remove('bg-emerald-50', 'text-emerald-700', 'border-emerald-200');
+      }
+    }
+  }
+
+  btnConfigGithub?.addEventListener('click', () => {
+    const current = localStorage.getItem('pn_gh_token') || '';
+    const nuevo = prompt(
+      "🔑 Conexión Directa con GitHub (1-Clic):\n\n" +
+      "Ingresá tu Personal Access Token de GitHub con permiso 'repo'.\n" +
+      "Esto te permitirá publicar, editar y eliminar noticias en 1 clic directamente desde esta pantalla sin abrir GitHub.\n\n" +
+      "(Podés crear uno en: https://github.com/settings/tokens/new?scopes=repo&description=ParanacitoAdmin)",
+      current
+    );
+    if (nuevo !== null) {
+      if (nuevo.trim()) {
+        localStorage.setItem('pn_gh_token', nuevo.trim());
+        alert("✅ GitHub conectado exitosamente. Ya podés borrar, editar y publicar notas en 1 clic.");
+      } else {
+        localStorage.removeItem('pn_gh_token');
+        alert("Conexión de GitHub removida.");
+      }
+      updateGithubStatusLabel();
+    }
+  });
 
   function checkAuth() {
     const isAuth = sessionStorage.getItem('pn_admin_auth') === 'true';
     if (isAuth) {
       lockScreen?.classList.add('hidden');
       adminPanel?.classList.remove('hidden');
+      updateGithubStatusLabel();
     } else {
       lockScreen?.classList.remove('hidden');
       adminPanel?.classList.add('hidden');
@@ -617,7 +655,6 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
   const editTitle = document.getElementById('edit-title') as HTMLInputElement;
   const editCopete = document.getElementById('edit-copete') as HTMLTextAreaElement;
   const editCategoria = document.getElementById('edit-categoria') as HTMLSelectElement;
-  const editConfiabilidad = document.getElementById('edit-confiabilidad') as HTMLSelectElement;
   const editEsAlerta = document.getElementById('edit-es-alerta') as HTMLInputElement;
   const editImagen = document.getElementById('edit-imagen') as HTMLInputElement;
   const editCuerpo = document.getElementById('edit-cuerpo') as HTMLTextAreaElement;
@@ -635,6 +672,9 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
       return matchSearch && matchCat;
     });
 
+    const badgeCount = document.getElementById('count-news-badge');
+    if (badgeCount) badgeCount.textContent = String(newsList.length);
+
     if (filtered.length === 0) {
       newsGrid.innerHTML = `
         <div class="col-span-full py-12 text-center text-slate-400 bg-white rounded-2xl border border-slate-200 p-8">
@@ -645,9 +685,9 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
       return;
     }
 
-    newsGrid.innerHTML = filtered.map((n, idx) => {
+    newsGrid.innerHTML = filtered.map((n) => {
       const isAlerta = n.es_alerta === true;
-      const imgUrl = n.imagen && n.imagen.startsWith('http') ? n.imagen : 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80';
+      const imgUrl = n.imagen && n.imagen.startsWith('http') ? n.imagen : 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80';
       return `
         <div class="bg-white rounded-2xl border border-slate-200/90 p-4 shadow-sm hover:shadow-md transition-all flex gap-4 items-start">
           <div class="w-24 h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 aspect-square">
@@ -709,7 +749,6 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
     if (editTitle) editTitle.value = item.titulo || '';
     if (editCopete) editCopete.value = item.copete || '';
     if (editCategoria) editCategoria.value = item.categoria || 'Comunidad';
-    if (editConfiabilidad) editConfiabilidad.value = item.nivel_confiabilidad || 'Media';
     if (editEsAlerta) editEsAlerta.checked = item.es_alerta === true;
     if (editImagen) editImagen.value = item.imagen && item.imagen.startsWith('http') ? item.imagen : '';
 
@@ -735,16 +774,15 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
     });
   });
 
-  // Guardar y descargar JSON editado
-  btnSaveEdit?.addEventListener('click', () => {
+  // Guardar cambios (con soporte GitHub API 1-clic)
+  btnSaveEdit?.addEventListener('click', async () => {
     if (!currentEditingItem) return;
 
     const title = editTitle?.value.trim();
     const copete = editCopete?.value.trim();
     const categoria = editCategoria?.value;
-    const confiabilidad = editConfiabilidad?.value;
     const esAlerta = editEsAlerta?.checked;
-    const imagen = editImagen?.value.trim() || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80';
+    const imagen = editImagen?.value.trim() || 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80';
     const cuerpoArr = editCuerpo?.value.split('\n\n').map(p => p.trim()).filter(p => p.length > 0);
 
     if (!title || !copete) {
@@ -757,7 +795,6 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
       titulo: title,
       copete: copete,
       categoria: categoria,
-      nivel_confiabilidad: confiabilidad,
       es_alerta: esAlerta,
       imagen: imagen,
       cuerpo: cuerpoArr,
@@ -765,8 +802,45 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
       fecha_ultima_actualizacion_iso: new Date().toISOString()
     };
 
-    // Descargar archivo JSON
     const filename = updated.archivo || `${updated.slug}.json`;
+    const token = localStorage.getItem('pn_gh_token');
+
+    if (token) {
+      try {
+        const getUrl = `https://api.github.com/repos/andresehansen/Paranacito-noticias/contents/data/noticias/${filename}`;
+        const getResp = await fetch(getUrl, {
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+        });
+        const getJson = getResp.ok ? await getResp.json() : null;
+        const sha = getJson ? getJson.sha : undefined;
+
+        const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(updated, null, 2))));
+        const putResp = await fetch(getUrl, {
+          method: 'PUT',
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: `Actualizar noticia: ${updated.slug}`,
+            content: contentBase64,
+            sha: sha,
+            branch: 'main'
+          })
+        });
+
+        if (!putResp.ok) throw new Error("Error al guardar en GitHub.");
+
+        // Actualizar en memoria
+        const idx = newsList.findIndex(n => n.slug === updated.slug);
+        if (idx !== -1) newsList[idx] = updated;
+        renderNewsGrid();
+        closeModal();
+        alert("✅ ¡Noticia actualizada directamente en GitHub! Vercel desplegará los cambios en 30 segundos.");
+        return;
+      } catch (err: any) {
+        console.error(err);
+      }
+    }
+
+    // Fallback descarga JSON
     const jsonStr = JSON.stringify(updated, null, 2);
     const blob = new Blob([jsonStr], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -778,33 +852,73 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 
-    alert(`✅ Archivo "${filename}" descargado con éxito.\n\nSubilo a la carpeta "data/noticias/" de tu repositorio en GitHub para publicar los cambios.`);
+    alert(`✅ Archivo "${filename}" descargado.\n\nSubilo a "data/noticias/" en GitHub o conectá tu Token en el botón superior para guardar en 1 clic.`);
     closeModal();
   });
 
-  // Eliminar nota con enlace directo a GitHub
-  btnDeleteArticle?.addEventListener('click', () => {
+  // Eliminar nota (con soporte GitHub API 1-clic)
+  btnDeleteArticle?.addEventListener('click', async () => {
     if (!currentEditingItem) return;
     const filename = currentEditingItem.archivo || `${currentEditingItem.slug}.json`;
-    const confirmDelete = confirm(`¿Estás seguro de que querés eliminar la nota:\n"${currentEditingItem.titulo}"?\n\nAl presionar Aceptar se abrirá la página directa de GitHub con el botón de borrar listo.`);
-    if (confirmDelete) {
-      // 1. Remover de la lista visual en el panel
-      const slugToDelete = currentEditingItem.slug;
-      newsList = newsList.filter(n => n.slug !== slugToDelete);
-      renderNewsGrid();
+    const token = localStorage.getItem('pn_gh_token');
 
-      // 2. Abrir la página directa de eliminación de GitHub en una nueva pestaña
-      const ghDeleteUrl = `https://github.com/andresehansen/Paranacito-noticias/delete/main/data/noticias/${filename}`;
-      window.open(ghDeleteUrl, '_blank');
+    const confirmDelete = confirm(`¿Estás seguro de que querés eliminar la nota:\n"${currentEditingItem.titulo}"?`);
+    if (!confirmDelete) return;
 
-      closeModal();
+    if (token) {
+      try {
+        const getUrl = `https://api.github.com/repos/andresehansen/Paranacito-noticias/contents/data/noticias/${filename}`;
+        const getResp = await fetch(getUrl, {
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+        });
+
+        if (getResp.ok) {
+          const getJson = await getResp.json();
+          const sha = getJson.sha;
+
+          const delResp = await fetch(getUrl, {
+            method: 'DELETE',
+            headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: `Eliminar noticia: ${currentEditingItem.slug}`,
+              sha: sha,
+              branch: 'main'
+            })
+          });
+
+          if (!delResp.ok) throw new Error("Error en la llamada DELETE de GitHub.");
+        }
+
+        // Remover de la lista visual
+        newsList = newsList.filter(n => n.slug !== currentEditingItem.slug);
+        renderNewsGrid();
+        closeModal();
+        alert("✅ ¡Noticia eliminada directamente del repositorio con éxito! Vercel actualizará la página en 30 segundos.");
+        return;
+      } catch (err: any) {
+        alert(`Error al eliminar en GitHub: ${err.message}`);
+      }
     }
+
+    // Si no hay token configurado, remover localmente
+    newsList = newsList.filter(n => n.slug !== currentEditingItem.slug);
+    renderNewsGrid();
+    closeModal();
+    alert(`Nota removida de la vista actual.\n\nPara borrarla permanentemente sin token, eliminá "${filename}" en GitHub.`);
   });
 
   // ─── 4. CREADOR DE NOTICIAS CON GEMINI ───────────────────────────
   const inputKey = document.getElementById('gemini-key') as HTMLInputElement;
   const savedKey = localStorage.getItem('gemini_api_key') || '';
-  if (inputKey && savedKey) inputKey.value = savedKey;
+  const defaultKey = (window as any).DEFAULT_GEMINI_KEY || '';
+
+  if (inputKey) {
+    if (savedKey) {
+      inputKey.value = savedKey;
+    } else if (defaultKey) {
+      inputKey.value = defaultKey;
+    }
+  }
 
   const btnGenerar = document.getElementById('btn-generar');
   const btnIcon = document.getElementById('btn-icon');
@@ -818,13 +932,13 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
   const prevCuerpo = document.getElementById('prev-cuerpo');
   const prevCategoria = document.getElementById('prev-categoria');
   const prevAlerta = document.getElementById('prev-alerta');
-  const prevConfiabilidad = document.getElementById('prev-confiabilidad');
   const prevImagen = document.getElementById('prev-imagen') as HTMLImageElement;
   const prevImagenContainer = document.getElementById('prev-imagen-container');
   const prevTags = document.getElementById('prev-tags');
   const prevWhatsapp = document.getElementById('prev-whatsapp');
   const btnCopyWa = document.getElementById('btn-copy-wa');
   const btnDownloadJson = document.getElementById('btn-download-json');
+  const btnPublishDirect = document.getElementById('btn-publish-direct');
 
   let generatedArticleData: any = null;
 
@@ -835,9 +949,8 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
     'Deportes': 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
     'Salud y Educación': 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
     'Turismo y Cultura': 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80',
-    'Sociedad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80'
+    'Sociedad': 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1200&q=80'
   };
-
 
   function slugify(text: string): string {
     return text
@@ -855,7 +968,7 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
   btnGenerar?.addEventListener('click', async () => {
     if (errorMsg) errorMsg.classList.add('hidden');
 
-    const apiKey = inputKey?.value.trim();
+    const apiKey = inputKey?.value.trim() || (window as any).DEFAULT_GEMINI_KEY || '';
     const rawText = (document.getElementById('raw-text') as HTMLTextAreaElement)?.value.trim();
     const fuente = (document.getElementById('fuente-nombre') as HTMLInputElement)?.value.trim() || 'Reporte Comunitario';
     const categoria = (document.getElementById('categoria-select') as HTMLSelectElement)?.value || 'Comunidad';
@@ -884,7 +997,7 @@ allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '')
     if (btnGenerar && btnIcon && btnText) {
       btnGenerar.setAttribute('disabled', 'true');
       btnIcon.textContent = '⏳';
-      btnText.textContent = 'Redactando con Gemini...';
+      btnText.textContent = 'Redactando con Gemini 2.5...';
     }
 
     const prompt = `Sos el Jefe de Redacción Senior de "Paranacito Noticias", el portal digital de referencia de Villa Paranacito y el Delta de Entre Ríos.
@@ -949,7 +1062,6 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
         } catch (e) {}
       }
 
-
       if (!resData) {
         throw new Error("No se pudo conectar con Gemini API. Verificá tu clave.");
       }
@@ -960,7 +1072,6 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
 
       const now = new Date();
       const nowIso = now.toISOString();
-      const fechaAmigable = `${now.getDate()} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][now.getMonth()]} de ${now.getFullYear()}, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`;
       const finalSlug = slugify(parsed.slug || parsed.titulo);
       const finalImg = customImg || CATEGORY_IMAGES[categoria] || CATEGORY_IMAGES['Comunidad'];
 
@@ -971,9 +1082,9 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
         copete: parsed.copete,
         cuerpo: parsed.cuerpo,
         categoria: parsed.categoria || categoria,
-        tags: parsed.tags || ['paranacito'],
+        tags: parsed.tags || ['villa paranacito', 'delta'],
         slug: finalSlug,
-        tiempo_lectura: parsed.tiempo_lectura || '2 min',
+        tiempo_lectura: parsed.tiempo_lectura || '3 min',
         resumen_whatsapp: parsed.resumen_whatsapp,
         imagen: finalImg,
         estado: esAlerta ? 'En desarrollo' : 'Publicado',
@@ -992,10 +1103,9 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
           }
         ],
         fecha_inicio_iso: nowIso,
-        fecha_ultima_actualizacion_iso: nowIso,
         fecha_iso: nowIso,
-        fecha_publicacion: fechaAmigable,
-        fecha_ultima_actualizacion: fechaAmigable,
+        fecha_publicacion: `Hoy, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
+        fecha_ultima_actualizacion: `Hoy, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
         archivo: `${nowIso.split('T')[0]}-${finalSlug}.json`
       };
 
@@ -1006,10 +1116,6 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
       if (prevAlerta) {
         if (esAlerta) prevAlerta.classList.remove('hidden');
         else prevAlerta.classList.add('hidden');
-      }
-
-      if (prevConfiabilidad) {
-        prevConfiabilidad.textContent = confiabilidad === 'Alta' ? '🟢 Alta (Oficial)' : confiabilidad === 'Media' ? '🟡 Confiabilidad media' : '🔴 En verificación';
       }
 
       if (prevImagen && prevImagenContainer) {
@@ -1049,7 +1155,7 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
       if (btnGenerar && btnIcon && btnText) {
         btnGenerar.removeAttribute('disabled');
         btnIcon.textContent = '✨';
-        btnText.textContent = 'Redactar Noticia con Gemini';
+        btnText.textContent = 'Redactar Noticia con Gemini 2.5';
       }
     }
   });
@@ -1061,6 +1167,48 @@ Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de 
       const orig = btnCopyWa.textContent;
       btnCopyWa.textContent = '✅ Copiado!';
       setTimeout(() => { btnCopyWa.textContent = orig; }, 2000);
+    }
+  });
+
+  btnPublishDirect?.addEventListener('click', async () => {
+    if (!generatedArticleData) return;
+    const token = localStorage.getItem('pn_gh_token');
+    const filename = generatedArticleData.archivo;
+
+    if (!token) {
+      btnConfigGithub?.click();
+      return;
+    }
+
+    try {
+      btnPublishDirect.setAttribute('disabled', 'true');
+      btnPublishDirect.textContent = '⏳ Publicando...';
+
+      const getUrl = `https://api.github.com/repos/andresehansen/Paranacito-noticias/contents/data/noticias/${filename}`;
+      const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(generatedArticleData, null, 2))));
+      
+      const putResp = await fetch(getUrl, {
+        method: 'PUT',
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: `Publicar noticia: ${generatedArticleData.slug}`,
+          content: contentBase64,
+          branch: 'main'
+        })
+      });
+
+      if (!putResp.ok) throw new Error("Error al publicar en GitHub.");
+
+      newsList.unshift(generatedArticleData);
+      renderNewsGrid();
+      alert("🚀 ¡Noticia publicada exitosamente en Paranacito Noticias! Vercel actualizará la portada en 30 segundos.");
+      tabBtnManage?.click();
+
+    } catch (err: any) {
+      alert(`Error al publicar: ${err.message}`);
+    } finally {
+      btnPublishDirect.removeAttribute('disabled');
+      btnPublishDirect.innerHTML = '<span>🚀</span><span>Publicar Directo (1-Clic)</span>';
     }
   });
 

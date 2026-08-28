@@ -1,122 +1,97 @@
 """
-event_matcher.py — Motor de Detección de Acontecimient@os y Novedad
-Implementa el principio: "Un acontecimiento = Una noticia viva"
-
-Flujo:
-1. Recibe un artículo nuevo.
-2. Lo compara contra los acontecimient@os de las últimas 72 horas.
-3. Determina si es: NUEVO / ACTUALIZACIÓN / REDUNDANTE.
-4. Calcula % de novedad usando Gemini API o comparación semántica simple.
+event_matcher.py — Motor de Detección de Acontecimientos y Deduplicación Semántica
+Evita duplicación de noticias del mismo hecho mediante solapamiento de palabras clave,
+entidades propias (nombres, instituciones, temas) y análisis con IA.
 """
 import re
 import json
 import logging
+import unicodedata
 import requests
 from difflib import SequenceMatcher
 from config import GEMINI_API_KEY
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# ─── Umbrales de novedad ────────────────────────────────────
-# < 15%  → REDUNDANTE (descartar, solo registrar fuente consultada)
-# 15-45% → EVALUAR (información parcialmente nueva, actualizar si supera análisis IA)
-# > 45%  → NUEVO / ACTUALIZACIÓN clara
-THRESHOLD_REDUNDANT = 15
-THRESHOLD_UPDATE = 45
-
-# Entidades que son "huellas" de acontecimient@os de Paranacito
-LOCAL_ENTITIES = [
-    "paranacito", "ibicuy", "prefectura", "municipalidad", "municipio",
-    "policía", "bomberos", "hospital", "escuela", "ruta 46", "ruta 12",
-    "arroyo", "río paranacito", "delta", "isleños", "isla", "lancha",
-    "cancha", "club", "balsa", "puente", "ruta provincial"
-]
+STOPWORDS = {
+    "de", "la", "el", "en", "y", "a", "los", "del", "se", "las", "por", "un", "para", "con",
+    "no", "una", "su", "al", "lo", "como", "mas", "pero", "sus", "le", "ya", "o", "fue",
+    "este", "ha", "si", "porque", "esta", "son", "entre", "esta", "cuando", "muy", "sin",
+    "sobre", "ser", "tiene", "tambien", "me", "hasta", "hay", "donde", "quien", "desde",
+    "todo", "nos", "durante", "todos", "uno", "les", "ni", "contra", "otros", "ese", "eso",
+    "ante", "ellos", "e", "esto", "mi", "antes", "algunos", "que", "villa", "paranacito",
+    "delta", "entrerriano", "entre", "rios", "noticias", "departamento", "islas", "ibicuy"
+}
 
 def normalize_text(text: str) -> str:
-    """Normaliza texto para comparación."""
-    import unicodedata
+    """Normaliza texto removiendo acentos, puntuación y caracteres especiales."""
+    if not text:
+        return ""
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("utf-8")
     text = re.sub(r"[^\w\s]", " ", text.lower())
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return re.sub(r"\s+", " ", text).strip()
 
-def extract_key_entities(text: str) -> set:
-    """Extrae entidades clave locales mencionadas en el texto."""
+def extract_significant_keywords(text: str) -> set:
+    """Extrae palabras clave significativas (nombres, verbos, sustantivos) excluyendo stopwords."""
     norm = normalize_text(text)
-    found = set()
-    for entity in LOCAL_ENTITIES:
-        if entity in norm:
-            found.add(entity)
-    # Extraer números que pueden ser significativos (cantidades, fechas, horarios)
-    numbers = set(re.findall(r'\b\d+(?:[.,]\d+)?\b', norm))
-    found.update(numbers)
-    return found
+    words = [w for w in norm.split() if len(w) >= 4 and w not in STOPWORDS]
+    return set(words)
 
-def similarity_ratio(text_a: str, text_b: str) -> float:
-    """Calcula similitud entre dos textos (0.0 a 1.0)."""
-    norm_a = normalize_text(text_a)
-    norm_b = normalize_text(text_b)
-    return SequenceMatcher(None, norm_a, norm_b).ratio()
-
-def entity_overlap_score(text_new: str, text_existing: str) -> float:
+def keyword_overlap_score(text_a: str, text_b: str) -> float:
     """
-    Calcula el solapamiento de entidades locales entre dos textos.
-    Un alto solapamiento indica que hablan del mismo acontecimiento.
+    Calcula el solapamiento de palabras clave significativas (Jaccard / Asymmetric Recall).
+    Mide qué porcentaje de las palabras clave del texto más corto están presentes en el más largo.
     """
-    entities_new = extract_key_entities(text_new)
-    entities_existing = extract_key_entities(text_existing)
-    if not entities_new or not entities_existing:
+    kw_a = extract_significant_keywords(text_a)
+    kw_b = extract_significant_keywords(text_b)
+    if not kw_a or not kw_b:
         return 0.0
-    intersection = entities_new & entities_existing
-    union = entities_new | entities_existing
-    return len(intersection) / len(union) if union else 0.0
+
+    intersection = kw_a & kw_b
+    # Recall relativo al conjunto más pequeño (para comparar titulares cortos contra notas largas)
+    min_len = min(len(kw_a), len(kw_b))
+    return len(intersection) / min_len if min_len > 0 else 0.0
 
 def check_same_event_with_gemini(text_new: str, text_existing: str, titulo_new: str, titulo_existing: str) -> dict:
     """
-    Usa Gemini API para determinar:
-    - ¿Hablan del mismo acontecimiento?
-    - ¿Qué % de información nueva aporta el nuevo texto?
-    - Resumen de la información nueva si la hay.
+    Usa Gemini API para determinar si dos coberturas pertenecen al mismo hecho.
     """
-    if not GEMINI_API_KEY:
-        # Fallback sin IA: solo similitud textual
-        ratio = similarity_ratio(text_new, text_existing)
-        novelty = max(0, 100 - int(ratio * 100))
+    kw_overlap = keyword_overlap_score(f"{titulo_new} {text_new}", f"{titulo_existing} {text_existing}")
+
+    # Si el solapamiento de palabras clave esenciales es muy alto (>50%), es sin duda el mismo hecho
+    if kw_overlap >= 0.50:
         return {
-            "mismo_acontecimiento": ratio > 0.35,
-            "porcentaje_novedad": novelty,
-            "informacion_nueva": "" if novelty < THRESHOLD_REDUNDANT else text_new[:200],
-            "razon": "Análisis por similitud textual (sin API de IA)"
+            "mismo_acontecimiento": True,
+            "porcentaje_novedad": 10,
+            "informacion_nueva": "",
+            "razon": f"Alto solapamiento de entidades clave ({int(kw_overlap*100)}%)"
         }
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    if not GEMINI_API_KEY:
+        return {
+            "mismo_acontecimiento": kw_overlap >= 0.35,
+            "porcentaje_novedad": max(0, 100 - int(kw_overlap * 100)),
+            "informacion_nueva": "",
+            "razon": "Análisis por palabras clave"
+        }
 
-    prompt = f"""Sos un editor periodístico del portal Paranacito Noticias (Villa Paranacito, Argentina).
+    prompt = f"""Sos un editor del portal Paranacito Noticias.
+Compará estos dos textos y determiná si corresponden al MISMO acontecimiento o hecho noticioso (incluso si tienen distinto enfoque o medio).
 
-Recibiste un artículo nuevo y debés compararlo con una noticia ya publicada para decidir si:
-A) Es el MISMO acontecimiento (puede ser actualización o redundante)
-B) Es un acontecimiento DIFERENTE
-
-**NOTICIA EXISTENTE:**
+NOTICIA YA PUBLICADA:
 Título: {titulo_existing}
 Contenido: {text_existing[:600]}
 
-**ARTÍCULO NUEVO:**
+NUEVO CABLE/ARTÍCULO:
 Título: {titulo_new}
 Contenido: {text_new[:600]}
 
-Respondé EXCLUSIVAMENTE con este JSON (sin bloques ```):
+Respondé ÚNICAMENTE con este JSON:
 {{
   "mismo_acontecimiento": true/false,
   "porcentaje_novedad": 0-100,
-  "informacion_nueva": "resumen breve de los datos nuevos si los hay, o cadena vacía",
-  "razon": "explicación corta de tu decisión"
-}}
-
-El porcentaje_novedad indica qué tan nueva es la información del artículo recibido respecto a la noticia existente:
-- 0-14%: completamente redundante
-- 15-44%: algo nuevo pero menor
-- 45-100%: información claramente nueva o acontecimiento diferente"""
+  "informacion_nueva": "resumen de datos nuevos o vacío"
+}}"""
 
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -127,85 +102,55 @@ El porcentaje_novedad indica qué tan nueva es la información del artículo rec
     }
 
     endpoints = [
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}",
         f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}",
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key={GEMINI_API_KEY}"
+        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}",
     ]
 
+    for ep in endpoints:
+        try:
+            r = requests.post(ep, json=payload, timeout=10)
+            if r.status_code == 200:
+                data = r.json()
+                text_resp = data["candidates"][0]["content"]["parts"][0]["text"]
+                clean_json = re.sub(r"^```json\s*", "", text_resp.strip()).rstrip("`").strip()
+                return json.loads(clean_json)
+        except Exception:
+            pass
 
-    try:
-        resp = None
-        for ep in endpoints:
-            try:
-                r = requests.post(ep, json=payload, timeout=15)
-                if r.status_code == 200:
-                    resp = r
-                    break
-            except Exception:
-                pass
-
-        if not resp or resp.status_code != 200:
-            raise Exception("Ningún endpoint de Gemini respondió 200")
-
-        data = resp.json()
-        text_resp = data["candidates"][0]["content"]["parts"][0]["text"]
-        text_clean = re.sub(r"^```json\s*", "", text_resp.strip())
-        text_clean = re.sub(r"\s*```$", "", text_clean.strip())
-        return json.loads(text_clean)
-
-
-    except Exception as e:
-        logging.warning(f"Error en análisis Gemini: {e}. Usando similitud textual.")
-        ratio = similarity_ratio(text_new, text_existing)
-        novelty = max(0, 100 - int(ratio * 100))
-        return {
-            "mismo_acontecimiento": ratio > 0.40,
-            "porcentaje_novedad": novelty,
-            "informacion_nueva": "" if novelty < THRESHOLD_REDUNDANT else text_new[:200],
-            "razon": "Fallback: similitud textual"
-        }
+    return {
+        "mismo_acontecimiento": kw_overlap >= 0.35,
+        "porcentaje_novedad": max(0, 100 - int(kw_overlap * 100)),
+        "informacion_nueva": "",
+        "razon": "Fallback: análisis de palabras clave"
+    }
 
 def match_article_to_events(raw_article: dict, recent_events: list) -> dict:
     """
-    Función principal del motor de acontecimient@os.
-    
-    Recibe:
-    - raw_article: artículo nuevo extraído de las fuentes.
-    - recent_events: lista de acontecimient@os de las últimas 72 horas.
-    
-    Retorna un dict con:
-    - action: "NEW" | "UPDATE" | "DISCARD"
-    - matched_event: el acontecimiento coincidente (o None si es NEW)
-    - novelty_pct: porcentaje de novedad calculado
-    - new_info_summary: resumen del dato nuevo (si aplica)
+    Determina si un artículo entrante es NUEVO, ACTUALIZACIÓN de un evento existente o REDUNDANTE.
     """
     title_new = raw_article.get("raw_title", "")
     content_new = raw_article.get("raw_content", raw_article.get("raw_summary", ""))
     combined_new = f"{title_new} {content_new}"
 
     best_match = None
-    best_entity_score = 0.0
+    best_score = 0.0
 
-    # 1. Pre-filtro rápido por solapamiento de entidades (sin IA, muy veloz)
+    # 1. Comparar contra todos los eventos recientes
     for event in recent_events:
         title_existing = event.get("titulo", "")
-        cuerpo_existing = " ".join(event.get("cuerpo", []))
+        cuerpo_existing = " ".join(event.get("cuerpo", [])) if isinstance(event.get("cuerpo"), list) else str(event.get("cuerpo", ""))
         combined_existing = f"{title_existing} {cuerpo_existing}"
 
-        entity_score = entity_overlap_score(combined_new, combined_existing)
-        text_score = similarity_ratio(combined_new[:400], combined_existing[:400])
-
-        # Combinamos entity overlap y similitud textual
-        combined_score = (entity_score * 0.6) + (text_score * 0.4)
-
-        if combined_score > best_entity_score:
-            best_entity_score = combined_score
+        score = keyword_overlap_score(combined_new, combined_existing)
+        if score > best_score:
+            best_score = score
             best_match = event
 
-    logging.debug(f"Mejor coincidencia pre-filtro: {best_entity_score:.2f} — {best_match.get('titulo','')[:60] if best_match else 'ninguno'}")
+    logging.info(f"Deduplicación: Mejor coincidencia ({int(best_score*100)}%): '{title_new[:45]}' vs '{best_match.get('titulo','')[:45] if best_match else 'ninguno'}'")
 
-    # Si el solapamiento es muy bajo, es un acontecimiento nuevo sin duda
-    if best_entity_score < 0.20 or best_match is None:
+    # Si no hay coincidencia temática significativa (<25%), es una noticia NUEVA
+    if best_score < 0.25 or best_match is None:
         return {
             "action": "NEW",
             "matched_event": None,
@@ -213,34 +158,28 @@ def match_article_to_events(raw_article: dict, recent_events: list) -> dict:
             "new_info_summary": ""
         }
 
-    # 2. Análisis profundo con IA para los casos ambiguos (score 0.20 - 0.80)
-    title_existing = best_match.get("titulo", "")
-    cuerpo_existing = " ".join(best_match.get("cuerpo", []))
+    # Si hay coincidencia muy alta (>45%), es el mismo acontecimiento
+    if best_score >= 0.45:
+        return {
+            "action": "DISCARD" if best_score > 0.70 else "UPDATE",
+            "matched_event": best_match,
+            "novelty_pct": 15,
+            "new_info_summary": title_new
+        }
 
+    # 2. Para casos intermedios (score 0.25 a 0.45), consultar a Gemini
     analysis = check_same_event_with_gemini(
         text_new=content_new,
-        text_existing=cuerpo_existing,
+        text_existing=" ".join(best_match.get("cuerpo", [])),
         titulo_new=title_new,
-        titulo_existing=title_existing
+        titulo_existing=best_match.get("titulo", "")
     )
 
-    mismo = analysis.get("mismo_acontecimiento", False)
-    novedad = analysis.get("porcentaje_novedad", 0)
-    info_nueva = analysis.get("informacion_nueva", "")
+    if analysis.get("mismo_acontecimiento", False):
+        novedad = analysis.get("porcentaje_novedad", 0)
+        if novedad < 20:
+            return {"action": "DISCARD", "matched_event": best_match, "novelty_pct": novedad, "new_info_summary": ""}
+        else:
+            return {"action": "UPDATE", "matched_event": best_match, "novelty_pct": novedad, "new_info_summary": analysis.get("informacion_nueva", "")}
 
-    if not mismo:
-        return {"action": "NEW", "matched_event": None, "novelty_pct": 100, "new_info_summary": ""}
-
-    if novedad < THRESHOLD_REDUNDANT:
-        logging.info(f"Redundante ({novedad}%): '{title_new[:50]}'")
-        return {"action": "DISCARD", "matched_event": best_match, "novelty_pct": novedad, "new_info_summary": ""}
-
-    if novedad >= THRESHOLD_UPDATE:
-        logging.info(f"Actualización ({novedad}%): '{title_new[:50]}' → '{title_existing[:50]}'")
-        return {"action": "UPDATE", "matched_event": best_match, "novelty_pct": novedad, "new_info_summary": info_nueva}
-
-    # Zona gris: información parcial
-    if novedad >= THRESHOLD_REDUNDANT:
-        return {"action": "UPDATE", "matched_event": best_match, "novelty_pct": novedad, "new_info_summary": info_nueva}
-
-    return {"action": "DISCARD", "matched_event": best_match, "novelty_pct": novedad, "new_info_summary": ""}
+    return {"action": "NEW", "matched_event": None, "novelty_pct": 100, "new_info_summary": ""}
