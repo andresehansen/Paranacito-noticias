@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-08-28-detienen-amparito-rodriguez-villa-paranacito-profuga-diez-anos",
+    "slug": "detienen-amparito-rodriguez-villa-paranacito-profuga-diez-anos",
+    "titulo": "Trasladan a Unidad Penal 9 a \"Amparito\" Rodríguez, detenida en Villa Paranacito luego de diez años prófuga",
+    "copete": "Una mujer identificada como \"Amparito\" Rodríguez, buscada por la Justicia desde hace una década, fue finalmente detenida en Villa Paranacito y trasladada a la Unidad Penal N° 9. Su captura pone fin a una larga fuga y genera repercusión en la comunidad local.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Justicia",
+      "Detención",
+      "Prófuga"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "28 de Agosto de 2026, 04:03 hs",
+    "fecha_ultima_actualizacion": "28 de Agosto de 2026, 04:03 hs",
+    "fecha_inicio_iso": "2026-08-28T04:03:45.708321",
+    "fecha_ultima_actualizacion_iso": "2026-08-28T04:03:45.708321",
+    "resumen_whatsapp": "🚨 ¡NOTICIA DE ÚLTIMO MOMENTO en Villa Paranacito! \"Amparito\" Rodríguez, prófuga por 10 años, fue detenida y trasladada a la Unidad Penal 9. ⚖️ La justicia llega al Delta. Leé la nota completa en Paranacito Noticias."
+  },
+  {
+    "acontecimiento_id": "2026-08-28-convocatoria-docente-escuela-secundaria-2-villa-paranacito",
+    "slug": "convocatoria-docente-escuela-secundaria-2-villa-paranacito",
+    "titulo": "Oportunidad Laboral: Convocatoria Docente en la Escuela Secundaria N° 2 de Islas del Ibicuy",
+    "copete": "La Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito ha lanzado una importante convocatoria para la cobertura de cargos docentes, ofreciendo oportunidades laborales para profesionales de la educación en la comunidad.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Convocatoria",
+      "Escuela Secundaria N° 2",
+      "Islas del Ibicuy",
+      "Entre Ríos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "28 de Agosto de 2026, 04:03 hs",
+    "fecha_ultima_actualizacion": "28 de Agosto de 2026, 04:03 hs",
+    "fecha_inicio_iso": "2026-08-28T04:03:34.112760",
+    "fecha_ultima_actualizacion_iso": "2026-08-28T04:03:34.112760",
+    "resumen_whatsapp": "📰 ¡Atención docentes de Villa Paranacito! La Escuela Secundaria N° 2 'Islas del Ibicuy' abre concurso para cubrir cargos. 🧑‍🏫 Una gran oportunidad laboral y para fortalecer la educación local. ¡Consultá requisitos y plazos en la escuela! #Educación #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-08-27-capturan-en-villa-paranacito-a-amparito-profuga-por",
     "slug": "capturan-en-villa-paranacito-a-amparito-profuga-por",
     "titulo": "Capturan en Villa Paranacito a 'Amparito', prófuga por una década en una causa de estafa",
