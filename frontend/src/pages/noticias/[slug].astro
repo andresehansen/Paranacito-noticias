@@ -21,6 +21,24 @@ export async function getStaticPaths() {
 
 const { noticia, relatedNews } = Astro.props;
 
+const categoryColors: Record<string, string> = {
+  'Río y Clima': 'bg-sky-100 text-sky-800 border-sky-200',
+  'Comunidad': 'bg-emerald-100 text-emerald-800 border-emerald-200',
+  'Deportes': 'bg-amber-100 text-amber-800 border-amber-200',
+  'Obras y Servicios': 'bg-purple-100 text-purple-800 border-purple-200',
+  'Salud y Educación': 'bg-rose-100 text-rose-800 border-rose-200',
+  'Turismo y Cultura': 'bg-teal-100 text-teal-800 border-teal-200',
+  'Sociedad': 'bg-indigo-100 text-indigo-800 border-indigo-200'
+};
+const badgeClass = categoryColors[noticia.categoria] || 'bg-slate-100 text-slate-800 border-slate-200';
+
+const isEnDesarrollo = noticia.estado === "En desarrollo";
+const esAlerta = noticia.es_alerta === true;
+const nivelConfiabilidad = noticia.nivel_confiabilidad || "Media";
+const cronologia = noticia.cronologia_actualizaciones || [];
+const fuentesConsultadas = noticia.fuentes_consultadas || (noticia.fuente_nombre ? [{ nombre: noticia.fuente_nombre, url: noticia.url_original }] : []);
+const numActualizaciones = cronologia.length || 1;
+
 const categoryFallbackImages: Record<string, string> = {
   'Río y Clima': 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
   'Comunidad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
@@ -33,6 +51,7 @@ const categoryFallbackImages: Record<string, string> = {
 
 const defaultImg = categoryFallbackImages[noticia.categoria] || 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80';
 const imageSrc = (noticia.imagen && noticia.imagen.startsWith('http')) ? noticia.imagen : defaultImg;
+
 
 ---
 
