@@ -22,8 +22,8 @@
   "slug": "rodaje-documental-historico-delta-entrerriano-vuelos-muerte",
   "tiempo_lectura": "3 min",
   "resumen_whatsapp": "📰 ¡Importante! Comenzó el rodaje de un documental sobre los \"Vuelos de la Muerte\" en nuestro Delta entrerriano. 🌊 Un proyecto clave para mantener viva la memoria y la verdad histórica. ¡Conocé los detalles en nuestra nota! 👇",
-  "imagen": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-  "estado": "Publicado",
+  "imagen": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google News (Diario Junio)",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJYTJUNTZvV0VXbEdDNUhGOTY2TEZSRDRmZHZUbEFFOUFVNGtORlk1aW9SeFlPb0ttSE0tNHd5NnNZYjNOTjVWT3BydWhUa2ZnTE81bnYwdzlRQQ?oc=5",
       "fecha_consulta": "2026-08-25T04:38:14.441677"
+    },
+    {
+      "nombre": "Google News (Análisis Digital)",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSVNsa1h0Q25uQ0Y0MklSWXFQUmN6V1VaQ2o0UkZEUV9QWlNQODEybnVyb2Z0QXVjakxIMDFSc3lIU2J3ajBOanZjTU9KSVp4VW9rQ2RQWE5FcU9DS3dKRDlnOWtlY1hlUGczdVdYdEVwZFduSFpsUVA4V3d1Z05obDZaVUNOdVQxQ3p1czBfTmdSaEZNdE01eWZGWDBmc3VXV0hxYW11N3JPR2ZKOXFmblNUMEdpWUZldFJoU0M4V0JxaFprS2h4ZXl4SnhnbTQ4SEo2R3VYZG0yUXc?oc=5",
+      "fecha_consulta": "2026-08-28T19:54:37.134041"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,14 +47,22 @@
       "fuente": "Google News (Diario Junio)",
       "dato": "La región del Delta de Entre Ríos, incluyendo zonas cercanas a Villa Paranacito, es escenario del inicio de filmación de un documental que busca arrojar luz sobre uno de los capítulos más oscuros de l",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:54",
+      "fecha": "2026-08-28",
+      "fuente": "Google News (Análisis Digital)",
+      "dato": "Avanza el documental que reconstruye los vuelos de la muerte en el delta entrerriano - Análisis Digital",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "9309681c2f47f68e5c1d07066e6ce7a0c7f4f516fd23e4a2b6ed62f8c6a28f7c"
+    "9309681c2f47f68e5c1d07066e6ce7a0c7f4f516fd23e4a2b6ed62f8c6a28f7c",
+    "299f3594c242e7ccee76d4625104e4c63230cf18f320853c73fd4c92f06545f9"
   ],
   "fecha_inicio_iso": "2026-08-25T04:38:14.441677",
-  "fecha_ultima_actualizacion_iso": "2026-08-25T04:38:14.441677",
+  "fecha_ultima_actualizacion_iso": "2026-08-28T19:54:37.134041",
   "fecha_publicacion": "25 de Agosto de 2026, 04:38 hs",
-  "fecha_ultima_actualizacion": "25 de Agosto de 2026, 04:38 hs",
+  "fecha_ultima_actualizacion": "28 de Agosto de 2026, 19:54 hs",
   "archivo": "2026-08-25-rodaje-documental-historico-delta-entrerriano-vuelos-muerte.json"
 }

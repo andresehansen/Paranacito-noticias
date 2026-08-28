@@ -24,7 +24,7 @@
   "tiempo_lectura": "2 min",
   "resumen_whatsapp": "📰 ¡Justicia en el Delta! Una mujer condenada por abuso, prófuga por años, fue detenida en un camping de Villa Paranacito. 🚨 La comunidad respira más tranquila. Leé los detalles de la captura y el impacto en la seguridad local.",
   "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -34,6 +34,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/policiales/una-campana-una-casilla-y-una-mochila-asi-vivia-amparito-la-mujer-condenada-por-abuso-que-estuvo-10-anos-profuga.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1wBXfT6081qJdhQahZqon0",
       "fecha_consulta": "2026-08-27T22:05:25.855634"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioriouruguay.com/policiales/estuvo-10-anios-profuga-asi-se-ocultaba-en-una-zona-de-monte-la-entrerriana-condenada-por-abusar-de-sus-hijas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1NQh7jBk-TnlsrS0U6aSbN",
+      "fecha_consulta": "2026-08-28T19:54:31.795315"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioriouruguay.com/amp/estuvo-10-anios-profuga-asi-se-ocultaba-en-una-zona-de-monte-la-entrerriana-condenada-por-abusar-de-sus-hijas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2CkauxNMoJ1Khmyw6kpo5k",
+      "fecha_consulta": "2026-08-28T19:54:37.090741"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,14 +53,30 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Una prolongada investigación culminó con la captura de una mujer que permanecía prófuga de la justicia por una condena de abuso, siendo localizada en un camping familiar de Villa Paranacito, en el cor",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:54",
+      "fecha": "2026-08-28",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Estuvo 10 años prófuga: así se ocultaba en una zona de monte la entrerriana condenada ...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:54",
+      "fecha": "2026-08-28",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La mujer detenida ha sido identificada como Alejandra Rodríguez, alias “Amparito”. Se especifica que fue condenada por abusar de sus propias hijas y que permaneció escondida durante una década.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "d5900501767786d9ab49b9807abc5db0c33c49e7efbc25d47e760a720e763e05"
+    "d5900501767786d9ab49b9807abc5db0c33c49e7efbc25d47e760a720e763e05",
+    "ec7016c3ae29fbe49aa8862cee8e72e4bd235721ab8126c41eafd0134a92c4bb",
+    "4c4a0b2c4cf5fdc5ef76085424e46b0d97c1b9e70805af11138c4f0f3f123533"
   ],
   "fecha_inicio_iso": "2026-08-27T22:05:25.855634",
-  "fecha_ultima_actualizacion_iso": "2026-08-27T22:05:25.855634",
+  "fecha_ultima_actualizacion_iso": "2026-08-28T19:54:37.090741",
   "fecha_publicacion": "27 de Agosto de 2026, 22:05 hs",
-  "fecha_ultima_actualizacion": "27 de Agosto de 2026, 22:05 hs",
+  "fecha_ultima_actualizacion": "28 de Agosto de 2026, 19:54 hs",
   "archivo": "2026-08-27-detienen-mujer-condenada-abuso-villa-paranacito.json"
 }

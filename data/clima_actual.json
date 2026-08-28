@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "21/08/2026 13:30",
-  "timestamp_iso": "2026-08-21T13:30:00-03:00",
+  "ultima_actualizacion": "28/08/2026 19:54",
+  "timestamp_iso": "2026-08-28T19:54:22.785583",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 21,
-    "sensacion_termica": 21,
-    "humedad": 68,
-    "viento_velocidad_kmh": 14,
+    "temperatura": 19,
+    "sensacion_termica": 16,
+    "humedad": 42,
+    "viento_velocidad_kmh": 12,
     "viento_direccion": "SE",
-    "presion_hpa": 1016,
-    "descripcion": "Mayormente despejado",
-    "icono": "🌤️",
+    "presion_hpa": 1010,
+    "descripcion": "Cielo despejado",
+    "icono": "☀️",
     "pronostico_extendido": [
       {
-        "fecha": "2026-08-21",
-        "temp_max": 22,
-        "temp_min": 12,
-        "prob_lluvia": 0,
-        "descripcion": "Mayormente despejado",
-        "icono": "🌤️"
-      },
-      {
-        "fecha": "2026-08-22",
-        "temp_max": 24,
-        "temp_min": 14,
-        "prob_lluvia": 10,
-        "descripcion": "Cielo despejado",
-        "icono": "☀️"
-      },
-      {
-        "fecha": "2026-08-23",
-        "temp_max": 23,
-        "temp_min": 15,
-        "prob_lluvia": 20,
-        "descripcion": "Parcialmente nublado",
-        "icono": "⛅"
-      },
-      {
-        "fecha": "2026-08-24",
+        "fecha": "2026-08-28",
         "temp_max": 20,
-        "temp_min": 13,
-        "prob_lluvia": 40,
-        "descripcion": "Chaparrones leves",
-        "icono": "🌦️"
+        "temp_min": 9,
+        "prob_lluvia": 45,
+        "descripcion": "Llovizna moderada",
+        "icono": "🌧️"
+      },
+      {
+        "fecha": "2026-08-29",
+        "temp_max": 20,
+        "temp_min": 7,
+        "prob_lluvia": 0,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-08-30",
+        "temp_max": 20,
+        "temp_min": 8,
+        "prob_lluvia": 13,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-08-31",
+        "temp_max": 21,
+        "temp_min": 9,
+        "prob_lluvia": 12,
+        "descripcion": "Nublado",
+        "icono": "☁️"
       }
     ]
   },
@@ -53,8 +53,8 @@
     "icono_tendencia": "➡️",
     "estado": "Normal",
     "color_alerta": "verde",
-    "nivel_alerta": 2.30,
-    "nivel_evacuacion": 2.60,
-    "actualizado": "2026-08-21 13:00"
+    "nivel_alerta": 2.3,
+    "nivel_evacuacion": 2.6,
+    "actualizado": "2026-08-28 19:54"
   }
 }

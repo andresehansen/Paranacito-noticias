@@ -23,7 +23,7 @@
   "tiempo_lectura": "3 min",
   "resumen_whatsapp": "📰 ¡Atención Delta! Un nuevo documental sobre los \"Vuelos de la Muerte\" de la dictadura se filma en Villa Paranacito. 🎬 Busca reconstruir la historia con testimonios locales y avanzar en la justicia. ¡Conocé los detalles! 👇",
   "imagen": "https://www.diariojunio.com.ar/wp-content/uploads/2026/08/IMG-20260824-WA0301.jpg",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "GDELT / diariojunio.com.ar",
       "url": "https://www.diariojunio.com.ar/comenzo-el-rodaje-de-documental-sobre-los-vuelos-de-la-muerte-en-el-delta-entrerriano/",
       "fecha_consulta": "2026-08-25T01:37:16.339473"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.analisisdigital.com.ar/provinciales/2026/08/28/avanza-el-documental-que-reconstruye-los-vuelos-de-la-muerte-en-el-delta-entrerriano&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3uER3dfvlV2jrUZEto7iqV",
+      "fecha_consulta": "2026-08-28T19:54:37.101905"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,14 +47,22 @@
       "fuente": "GDELT / diariojunio.com.ar",
       "dato": "Un equipo de cineastas inició en Villa Paranacito el rodaje de un documental que investiga los \"Vuelos de la Muerte\" de la última dictadura militar en el Delta entrerriano, buscando preservar la memor",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:54",
+      "fecha": "2026-08-28",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Avanza el documental que reconstruye los vuelos de la muerte en el delta entrerriano",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "ed04821142827a1fe0bd7e4d2127264638b0fd871f3a57380e0015d31aac1032"
+    "ed04821142827a1fe0bd7e4d2127264638b0fd871f3a57380e0015d31aac1032",
+    "8cc66d1e16e9bd82325376ca884d50aee35d824be9e349da49311870f6092d48"
   ],
   "fecha_inicio_iso": "2026-08-25T01:37:16.339473",
-  "fecha_ultima_actualizacion_iso": "2026-08-25T01:37:16.339473",
+  "fecha_ultima_actualizacion_iso": "2026-08-28T19:54:37.101905",
   "fecha_publicacion": "25 de Agosto de 2026, 01:37 hs",
-  "fecha_ultima_actualizacion": "25 de Agosto de 2026, 01:37 hs",
+  "fecha_ultima_actualizacion": "28 de Agosto de 2026, 19:54 hs",
   "archivo": "2026-08-25-nuevo-documental-vuelos-muerte-delta-paranacito.json"
 }
