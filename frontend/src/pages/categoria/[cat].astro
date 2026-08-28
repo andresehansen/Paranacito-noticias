@@ -1,9 +1,17 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import NewsCard from '../../components/NewsCard.astro';
-import noticiasIndex from '../../../../data/noticias_index.json';
 
 export async function getStaticPaths() {
+  const newsFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
+  const allNoticias = Object.values(newsFiles)
+    .map((file: any) => file.default || file)
+    .filter((n: any) => n && n.slug && n.publicado !== false);
+
+  allNoticias.sort((a: any, b: any) => 
+    String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || ''))
+  );
+
   const categoriesMap = [
     { cat: 'rio-y-clima', nombre: 'Río y Clima', desc: 'Monitoreo de la altura del Río Paranacito, alertas hidrológicas y pronóstico del tiempo.' },
     { cat: 'comunidad', nombre: 'Comunidad', desc: 'Novedades de vecinos, bomberos voluntarios, escuelas e instituciones de Villa Paranacito.' },
@@ -19,10 +27,11 @@ export async function getStaticPaths() {
     props: {
       nombre: c.nombre,
       descripcion: c.desc,
-      noticiasCat: noticiasIndex.filter((n: any) => n.categoria.toLowerCase().trim() === c.nombre.toLowerCase().trim())
+      noticiasCat: allNoticias.filter((n: any) => (n.categoria || '').toLowerCase().trim() === c.nombre.toLowerCase().trim())
     }
   }));
 }
+
 
 const { nombre, descripcion, noticiasCat } = Astro.props;
 ---
