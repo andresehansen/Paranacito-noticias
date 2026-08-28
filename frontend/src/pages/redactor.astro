@@ -354,16 +354,26 @@ export const prerender = true;
   function showPanel() {
     authScreen.classList.add('hidden');
     mainPanel.classList.remove('hidden');
-    // Precargar clave Gemini si existe
+    // Precargar clave Gemini
     const geminiInput = document.getElementById('gemini-key') as HTMLInputElement;
     const geminiStatus = document.getElementById('gemini-status')!;
     const saved = getGeminiKey();
-    if (geminiInput && saved) {
-      geminiInput.value = saved;
-      geminiStatus.textContent = 'Activa ✓';
-      geminiStatus.className = 'text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full';
+    if (geminiInput) {
+      if (saved) {
+        geminiInput.value = saved;
+        geminiStatus.textContent = 'Activa ✓';
+        geminiStatus.className = 'text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full';
+      }
+      // Guardar en localStorage al cambiar
+      geminiInput.addEventListener('change', () => {
+        const v = geminiInput.value.trim();
+        if (v) {
+          localStorage.setItem('pn_gemini', v);
+          geminiStatus.textContent = 'Activa ✓';
+          geminiStatus.className = 'text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full';
+        }
+      });
     }
-    renderNewsList();
   }
 
   if (sessionStorage.getItem('pn_auth') === '1') showPanel();
@@ -426,9 +436,10 @@ export const prerender = true;
   const catFilter = document.getElementById('cat-filter') as HTMLSelectElement;
 
   function renderNewsList() {
-    const q = searchInput.value.toLowerCase().trim();
-    const cat = catFilter.value;
-    document.getElementById('badge-total')!.textContent = String(newsList.length);
+    const q = searchInput?.value.toLowerCase().trim() || '';
+    const cat = catFilter?.value || '';
+    const badgeEl = document.getElementById('badge-total');
+    if (badgeEl) badgeEl.textContent = String(newsList.length);
 
     const filtered = newsList.filter(n =>
       (!cat || n.categoria === cat) &&
@@ -447,6 +458,10 @@ export const prerender = true;
       const img = n.imagen?.startsWith('http')
         ? n.imagen
         : 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=70';
+      const slug = (n.slug || '').replace(/"/g, '');
+      const titulo = (n.titulo || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const fecha = (n.fecha_publicacion || '').replace(/</g, '&lt;');
+      const cat2 = (n.categoria || 'Comunidad').replace(/</g, '&lt;');
       return `<div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all overflow-hidden">
         <div class="flex">
           <div class="w-28 h-28 sm:w-32 sm:h-32 shrink-0">
@@ -455,17 +470,17 @@ export const prerender = true;
           <div class="flex-1 p-3 flex flex-col justify-between min-w-0">
             <div>
               <div class="flex items-center gap-1.5 mb-1 flex-wrap">
-                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200">${n.categoria || 'Comunidad'}</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200">${cat2}</span>
                 ${n.es_alerta ? '<span class="text-[10px] font-black px-2 py-0.5 rounded-full bg-rose-600 text-white">🚨</span>' : ''}
               </div>
-              <p class="text-sm font-bold text-slate-900 leading-snug line-clamp-2">${n.titulo || ''}</p>
-              <p class="text-[11px] text-slate-400 mt-0.5">${n.fecha_publicacion || ''}</p>
+              <p class="text-sm font-bold text-slate-900 leading-snug line-clamp-2">${titulo}</p>
+              <p class="text-[11px] text-slate-400 mt-0.5">${fecha}</p>
             </div>
             <div class="flex items-center gap-2 mt-2 pt-2 border-t border-slate-100">
-              <button class="btn-edit flex-1 text-xs font-bold bg-sky-50 hover:bg-sky-100 text-sky-700 py-2 rounded-xl transition-colors cursor-pointer" data-slug="${n.slug}">
+              <button class="btn-edit flex-1 text-xs font-bold bg-sky-50 hover:bg-sky-100 text-sky-700 py-2 rounded-xl transition-colors cursor-pointer" data-slug="${slug}">
                 ✏️ Editar
               </button>
-              <a href="/noticias/${n.slug}" target="_blank" class="text-xs font-bold px-3 py-2 bg-slate-50 hover:bg-slate-100 text-slate-500 rounded-xl transition-colors">
+              <a href="/noticias/${slug}" target="_blank" class="text-xs font-bold px-3 py-2 bg-slate-50 hover:bg-slate-100 text-slate-500 rounded-xl transition-colors">
                 🔗
               </a>
             </div>
@@ -473,18 +488,20 @@ export const prerender = true;
         </div>
       </div>`;
     }).join('');
-
-    newsListEl.querySelectorAll('.btn-edit').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const slug = (btn as HTMLElement).dataset.slug;
-        const item = newsList.find(n => n.slug === slug);
-        if (item) openDrawer(item);
-      });
-    });
   }
 
-  searchInput.addEventListener('input', renderNewsList);
-  catFilter.addEventListener('change', renderNewsList);
+  // Delegación de eventos — un solo listener para todos los botones Editar
+  newsListEl.addEventListener('click', (e) => {
+    const btn = (e.target as Element).closest('.btn-edit') as HTMLElement | null;
+    if (!btn) return;
+    const slug = btn.dataset.slug;
+    const item = newsList.find(n => n.slug === slug);
+    if (item) openDrawer(item);
+  });
+
+  searchInput?.addEventListener('input', renderNewsList);
+  catFilter?.addEventListener('change', renderNewsList);
+
 
   // ══════════════════════════════════════════════════════════════════
   // DRAWER DE EDICIÓN
