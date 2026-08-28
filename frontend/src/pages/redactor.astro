@@ -5,7 +5,7 @@ const fullNewsFiles = import.meta.glob('../../../data/noticias/*.json', { eager:
 const allNews = Object.values(fullNewsFiles).map((file: any) => file.default || file);
 allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || '')));
 const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || '';
-const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GITHUB_TOKEN || '';
+export const prerender = true;
 ---
 
 <Layout title="Mesa de Redacción | Paranacito Noticias" description="Panel privado de administración.">
@@ -29,32 +29,15 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
         <div>
           <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">PIN de acceso</label>
           <input type="password" id="input-pin" placeholder="••••" maxlength="20" autocomplete="current-password"
-            class="w-full text-center text-lg font-mono bg-slate-50 border border-slate-300 rounded-xl py-3 px-4 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
-        </div>
-
-        <!-- Token de GitHub — sólo se muestra si no está preconfigurado en el servidor -->
-        <div id="gh-token-field">
-          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">
-            Token de GitHub
-            <span class="font-normal text-slate-400 normal-case">(para guardar sin descargar)</span>
-          </label>
-          <input type="password" id="input-gh-token" placeholder="ghp_xxxxxxxxxxxxxxxx"
-            class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl py-2.5 px-3 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
-          <p class="text-[10px] text-slate-400 mt-1">
-            Creá uno en <a href="https://github.com/settings/tokens/new?scopes=repo&description=ParanacitoAdmin" target="_blank" class="text-sky-600 underline">github.com/settings/tokens</a> con permiso <code>repo</code>.
-          </p>
+            class="w-full text-center text-2xl font-mono tracking-widest bg-slate-50 border border-slate-300 rounded-xl py-3 px-4 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
         </div>
 
         <button id="btn-login" type="button"
-          class="w-full py-3 bg-sky-600 hover:bg-sky-700 text-white font-bold text-sm rounded-xl shadow transition-colors cursor-pointer">
+          class="w-full py-3.5 bg-sky-600 hover:bg-sky-700 text-white font-bold text-sm rounded-xl shadow transition-colors cursor-pointer">
           Entrar al Panel
         </button>
-        <p id="login-error" class="hidden text-xs text-rose-600 font-semibold text-center">PIN incorrecto.</p>
+        <p id="login-error" class="hidden text-xs text-rose-600 font-semibold text-center pt-1">PIN incorrecto.</p>
       </div>
-
-      <p class="text-[10px] text-slate-400 text-center pt-2 border-t border-slate-100">
-        PIN por defecto: <code class="font-mono font-bold text-slate-600">0453</code>
-      </p>
     </div>
   </div>
 
@@ -68,7 +51,6 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
       <div class="flex items-center gap-2">
         <span class="text-lg">✍️</span>
         <span class="font-extrabold text-slate-900 text-sm sm:text-base">Mesa de Redacción</span>
-        <span id="gh-badge" class="hidden text-[10px] font-bold bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full border border-emerald-200">GitHub ✓</span>
       </div>
       <div class="flex items-center gap-2">
         <button id="btn-change-pin" class="text-[11px] text-slate-500 hover:text-slate-800 px-2.5 py-1.5 rounded-lg bg-slate-100 cursor-pointer transition-colors">⚙️ PIN</button>
@@ -93,10 +75,11 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
         <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
           <div class="flex items-center justify-between mb-2">
             <label class="text-xs font-bold text-slate-600 uppercase tracking-wider">🔑 Clave Gemini API</label>
-            <span id="gemini-status" class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Activa</span>
+            <span id="gemini-status" class="text-[10px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">Sin configurar</span>
           </div>
           <input type="password" id="gemini-key" placeholder="Pegá tu clave de Google AI Studio"
             class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+          <p class="text-[10px] text-slate-400 mt-1.5">Se guarda en este dispositivo. Conseguí una gratis en <a href="https://aistudio.google.com/app/apikey" target="_blank" class="text-sky-600 underline">aistudio.google.com</a></p>
         </div>
 
         <!-- Formulario de creación -->
@@ -143,7 +126,7 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
           <div>
             <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">📝 Información bruta a redactar</label>
             <textarea id="raw-text" rows="5"
-              placeholder="Ej: Hay alerta hidrométrica en el Río Paranacito. Nivel esperado 2.10 mts esta noche por sudestada. Prefectura advierte a navegantes..."
+              placeholder="Ej: Hay alerta hidrométrica en el Río Paranacito. Nivel esperado 2.10 mts esta noche por sudestada..."
               class="w-full text-sm text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3.5 focus:ring-2 focus:ring-sky-500 focus:outline-none leading-relaxed resize-none"></textarea>
           </div>
 
@@ -188,13 +171,12 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
           <!-- Publicar -->
           <div class="bg-slate-900 text-white rounded-2xl p-5 shadow-md">
             <p class="text-sm font-bold mb-1">Publicar en Paranacito Noticias</p>
-            <p id="publish-hint" class="text-xs text-slate-400 mb-4">Publicá directo al repositorio o descargá el archivo JSON.</p>
-            <div class="flex gap-2">
-              <button id="btn-publish" class="flex-1 py-3 bg-sky-600 hover:bg-sky-500 font-bold text-sm rounded-xl transition-colors flex items-center justify-center gap-2 cursor-pointer shadow">
-                <span>🚀</span><span id="btn-publish-text">Publicar Directo</span>
-              </button>
-              <button id="btn-download" class="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl border border-slate-700 cursor-pointer text-sm" title="Descargar JSON">📥</button>
-            </div>
+            <p class="text-xs text-slate-400 mb-4">Publicación directa — sin descargar archivos.</p>
+            <button id="btn-publish"
+              class="w-full py-3.5 bg-sky-600 hover:bg-sky-500 font-bold text-sm rounded-xl transition-colors flex items-center justify-center gap-2 cursor-pointer shadow">
+              <span id="pub-icon">🚀</span>
+              <span id="pub-label">Publicar Noticia</span>
+            </button>
           </div>
         </div>
 
@@ -231,16 +213,12 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
   <!-- DRAWER DE EDICIÓN (bottom sheet, mobile-friendly)              -->
   <!-- ══════════════════════════════════════════════════════════════ -->
   <div id="edit-drawer" class="fixed inset-0 z-50 hidden">
-    <!-- Overlay -->
     <div id="drawer-overlay" class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
-    <!-- Sheet -->
     <div class="absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl shadow-2xl max-h-[95vh] overflow-y-auto flex flex-col">
-      <!-- Handle -->
-      <div class="flex items-center justify-between px-5 pt-4 pb-3 border-b border-slate-100 sticky top-0 bg-white z-10">
-        <div class="flex items-center gap-2">
-          <div class="w-8 h-1 bg-slate-300 rounded-full mx-auto absolute left-1/2 -translate-x-1/2 top-2"></div>
-          <span class="text-sm font-extrabold text-slate-900 mt-1">✏️ Editar Noticia</span>
-        </div>
+      <!-- Handle / Header -->
+      <div class="flex items-center justify-between px-5 pt-5 pb-3 border-b border-slate-100 sticky top-0 bg-white z-10">
+        <div class="w-10 h-1 bg-slate-300 rounded-full absolute left-1/2 -translate-x-1/2 top-2"></div>
+        <span class="text-sm font-extrabold text-slate-900">✏️ Editar Noticia</span>
         <button id="drawer-close" class="text-slate-400 hover:text-slate-700 text-2xl font-light leading-none cursor-pointer p-1">&times;</button>
       </div>
 
@@ -248,21 +226,18 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
         <input type="hidden" id="edit-id" />
         <input type="hidden" id="edit-filename" />
 
-        <!-- Título -->
         <div>
           <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Título</label>
           <textarea id="edit-titulo" rows="2"
             class="w-full text-base font-bold text-slate-900 bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-sky-500 focus:outline-none resize-none leading-snug"></textarea>
         </div>
 
-        <!-- Copete -->
         <div>
           <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Copete / Bajada</label>
           <textarea id="edit-copete" rows="2"
             class="w-full text-sm text-slate-700 bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none resize-none"></textarea>
         </div>
 
-        <!-- Categoría + Alerta -->
         <div class="grid grid-cols-2 gap-3">
           <div>
             <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Categoría</label>
@@ -284,29 +259,20 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
           </div>
         </div>
 
-        <!-- Imagen URL -->
         <div>
           <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">🖼️ URL de imagen</label>
           <input type="url" id="edit-imagen"
             class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
-          <!-- Galería rápida -->
           <div class="mt-2 flex flex-wrap gap-1.5 text-[11px]">
-            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
-              data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Gobierno</button>
-            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
-              data-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80">🌊 Río</button>
-            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
-              data-img="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80">🏥 Hospital</button>
-            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
-              data-img="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80">📚 Educación</button>
-            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
-              data-img="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80">⚖️ Justicia</button>
-            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
-              data-img="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80">🐄 Ganadería</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer" data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Gobierno</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer" data-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80">🌊 Río</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer" data-img="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80">🏥 Hospital</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer" data-img="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80">📚 Educación</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer" data-img="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80">⚖️ Justicia</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer" data-img="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80">🐄 Ganadería</button>
           </div>
         </div>
 
-        <!-- Cuerpo -->
         <div>
           <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Cuerpo de la noticia</label>
           <p class="text-[11px] text-slate-400 mb-2">Separar párrafos con una línea en blanco (doble Enter).</p>
@@ -315,7 +281,7 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
         </div>
       </div>
 
-      <!-- Acciones del drawer — sticky abajo -->
+      <!-- Acciones sticky abajo -->
       <div class="sticky bottom-0 bg-white border-t border-slate-100 p-4 flex gap-2 shadow-[0_-4px_20px_rgba(0,0,0,0.07)]">
         <button id="btn-delete" type="button"
           class="px-4 py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs rounded-xl transition-colors cursor-pointer flex items-center gap-1.5">
@@ -332,10 +298,9 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
 
 </Layout>
 
-<script define:vars={{ allNews, serverGeminiKey, serverGhToken }}>
+<script define:vars={{ allNews, serverGeminiKey }}>
   window.__PN_DATA = allNews;
   window.__PN_GEMINI = serverGeminiKey;
-  window.__PN_GH_TOKEN = serverGhToken;
 </script>
 
 <script>
@@ -343,53 +308,29 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
   // UTILIDADES
   // ══════════════════════════════════════════════════════════════════
   const DEFAULT_PIN = '0453';
-  const GH_REPO = 'andresehansen/Paranacito-noticias';
+  const API_URL = '/api/gh';
 
   function getPin(): string { return localStorage.getItem('pn_pin') || DEFAULT_PIN; }
-  function getGhToken(): string {
-    return (window as any).__PN_GH_TOKEN ||
-           localStorage.getItem('pn_gh_token') || '';
-  }
-  function getGeminiKey(): string {
-    return localStorage.getItem('pn_gemini') ||
-           (window as any).__PN_GEMINI || '';
-  }
+  function getGeminiKey(): string { return localStorage.getItem('pn_gemini') || (window as any).__PN_GEMINI || ''; }
 
   function slugify(t: string): string {
-    return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
-      .replace(/[^a-z0-9\s-]/g,'').trim().replace(/[\s-]+/g,'-').split('-').slice(0,7).join('-');
+    return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s-]/g, '').trim().replace(/[\s-]+/g, '-').split('-').slice(0, 7).join('-');
   }
 
-  async function ghGet(path: string, token: string) {
-    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${path}`, {
-      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json' }
+  // Llamada al endpoint server-side (el token nunca está en el browser)
+  async function apiCall(action: string, payload: object): Promise<{ ok: boolean; error?: string; action?: string }> {
+    const pin = getPin();
+    const res = await fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ action, pin, payload }),
     });
-    return r.ok ? r.json() : null;
-  }
-
-  async function ghPut(path: string, content: string, message: string, token: string, sha?: string) {
-    const body: any = { message, content: btoa(unescape(encodeURIComponent(content))), branch: 'main' };
-    if (sha) body.sha = sha;
-    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${path}`, {
-      method: 'PUT',
-      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-      body: JSON.stringify(body)
-    });
-    if (!r.ok) throw new Error(`GitHub ${r.status}: ${await r.text()}`);
-    return r.json();
-  }
-
-  async function ghDelete(path: string, sha: string, message: string, token: string) {
-    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${path}`, {
-      method: 'DELETE',
-      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message, sha, branch: 'main' })
-    });
-    if (!r.ok) throw new Error(`GitHub ${r.status}: ${await r.text()}`);
+    return res.json();
   }
 
   function getSemanticImage(title: string, text: string, cat: string, custom: string): string {
-    if (custom?.startsWith('http') && !custom.includes('photo-1511632765486')) return custom;
+    if (custom?.startsWith('http')) return custom;
     const full = `${title} ${text} ${cat}`.toLowerCase();
     if (/hacienda|ganado|vaca|rodeo/.test(full)) return 'https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80';
     if (/policia|detencion|profuga|justicia|penal|estafa/.test(full)) return 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80';
@@ -403,59 +344,40 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
   }
 
   // ══════════════════════════════════════════════════════════════════
-  // LOGIN
+  // LOGIN (solo PIN)
   // ══════════════════════════════════════════════════════════════════
   const authScreen = document.getElementById('auth-screen')!;
   const mainPanel = document.getElementById('main-panel')!;
   const inputPin = document.getElementById('input-pin') as HTMLInputElement;
-  const inputGhToken = document.getElementById('input-gh-token') as HTMLInputElement;
-  const ghTokenField = document.getElementById('gh-token-field')!;
   const loginError = document.getElementById('login-error')!;
-  const ghBadge = document.getElementById('gh-badge')!;
-
-  // Si hay token del servidor (variable de entorno), ocultar el campo
-  if ((window as any).__PN_GH_TOKEN) {
-    ghTokenField.classList.add('hidden');
-  } else if (localStorage.getItem('pn_gh_token')) {
-    // Si ya guardado, precargar pero ocultar
-    inputGhToken.value = localStorage.getItem('pn_gh_token')!;
-  }
 
   function showPanel() {
     authScreen.classList.add('hidden');
     mainPanel.classList.remove('hidden');
-    // Mostrar badge de GitHub si conectado
-    if (getGhToken()) {
-      ghBadge.classList.remove('hidden');
-    }
-    // Precargar clave Gemini
+    // Precargar clave Gemini si existe
     const geminiInput = document.getElementById('gemini-key') as HTMLInputElement;
-    if (geminiInput) {
-      geminiInput.value = getGeminiKey();
-      if (geminiInput.value) {
-        document.getElementById('gemini-status')!.textContent = 'Activa ✓';
-      } else {
-        document.getElementById('gemini-status')!.textContent = 'Sin configurar';
-        document.getElementById('gemini-status')!.className = 'text-[10px] font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded-full';
-      }
+    const geminiStatus = document.getElementById('gemini-status')!;
+    const saved = getGeminiKey();
+    if (geminiInput && saved) {
+      geminiInput.value = saved;
+      geminiStatus.textContent = 'Activa ✓';
+      geminiStatus.className = 'text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full';
     }
     renderNewsList();
   }
 
-  // Verificar si ya está autenticado
   if (sessionStorage.getItem('pn_auth') === '1') showPanel();
 
   document.getElementById('btn-login')!.addEventListener('click', () => {
     const pin = inputPin.value.trim();
     if (pin !== getPin()) {
       loginError.classList.remove('hidden');
-      inputPin.classList.add('border-rose-400');
+      inputPin.classList.add('border-rose-400', 'ring-2', 'ring-rose-200');
       return;
     }
-    // Guardar token ingresado si no viene del servidor
-    const tok = inputGhToken.value.trim();
-    if (tok) localStorage.setItem('pn_gh_token', tok);
     sessionStorage.setItem('pn_auth', '1');
+    loginError.classList.add('hidden');
+    inputPin.classList.remove('border-rose-400', 'ring-2', 'ring-rose-200');
     showPanel();
   });
   inputPin.addEventListener('keydown', e => { if (e.key === 'Enter') (document.getElementById('btn-login') as HTMLButtonElement).click(); });
@@ -480,27 +402,23 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
   // ══════════════════════════════════════════════════════════════════
   const viewCrear = document.getElementById('view-crear')!;
   const viewAdmin = document.getElementById('view-admin')!;
-  const tabCrear = document.getElementById('tab-crear')!;
-  const tabAdmin = document.getElementById('tab-admin')!;
 
   function activateTab(tab: 'crear' | 'admin') {
     const isCrear = tab === 'crear';
     viewCrear.classList.toggle('hidden', !isCrear);
     viewAdmin.classList.toggle('hidden', isCrear);
-    tabCrear.className = `tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 transition-all cursor-pointer ${
-      isCrear ? 'border-sky-600 text-sky-700 bg-sky-50' : 'border-transparent text-slate-500 hover:text-slate-800'
-    }`;
-    tabAdmin.className = `tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 transition-all cursor-pointer ${
-      !isCrear ? 'border-sky-600 text-sky-700 bg-sky-50' : 'border-transparent text-slate-500 hover:text-slate-800'
-    }`;
+    const activeClass = 'tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 border-sky-600 text-sky-700 bg-sky-50 transition-all cursor-pointer';
+    const idleClass = 'tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition-all cursor-pointer';
+    document.getElementById('tab-crear')!.className = isCrear ? activeClass : idleClass;
+    document.getElementById('tab-admin')!.className = !isCrear ? activeClass : idleClass;
     if (!isCrear) renderNewsList();
   }
 
-  tabCrear.addEventListener('click', () => activateTab('crear'));
-  tabAdmin.addEventListener('click', () => activateTab('admin'));
+  document.getElementById('tab-crear')!.addEventListener('click', () => activateTab('crear'));
+  document.getElementById('tab-admin')!.addEventListener('click', () => activateTab('admin'));
 
   // ══════════════════════════════════════════════════════════════════
-  // LISTA DE NOTICIAS (TAB ADMIN)
+  // LISTA DE NOTICIAS
   // ══════════════════════════════════════════════════════════════════
   let newsList: any[] = (window as any).__PN_DATA || [];
   const newsListEl = document.getElementById('news-list')!;
@@ -526,27 +444,29 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
     }
 
     newsListEl.innerHTML = filtered.map(n => {
-      const img = n.imagen?.startsWith('http') ? n.imagen : 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=70';
+      const img = n.imagen?.startsWith('http')
+        ? n.imagen
+        : 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=70';
       return `<div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all overflow-hidden">
-        <div class="flex gap-0">
+        <div class="flex">
           <div class="w-28 h-28 sm:w-32 sm:h-32 shrink-0">
-            <img src="${img}" alt="" class="w-full h-full object-cover" />
+            <img src="${img}" alt="" class="w-full h-full object-cover" loading="lazy" />
           </div>
           <div class="flex-1 p-3 flex flex-col justify-between min-w-0">
             <div>
               <div class="flex items-center gap-1.5 mb-1 flex-wrap">
-                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200">${n.categoria}</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200">${n.categoria || 'Comunidad'}</span>
                 ${n.es_alerta ? '<span class="text-[10px] font-black px-2 py-0.5 rounded-full bg-rose-600 text-white">🚨</span>' : ''}
               </div>
-              <p class="text-sm font-bold text-slate-900 leading-snug line-clamp-2">${n.titulo}</p>
-              <p class="text-[11px] text-slate-500 mt-0.5">${n.fecha_publicacion || ''}</p>
+              <p class="text-sm font-bold text-slate-900 leading-snug line-clamp-2">${n.titulo || ''}</p>
+              <p class="text-[11px] text-slate-400 mt-0.5">${n.fecha_publicacion || ''}</p>
             </div>
             <div class="flex items-center gap-2 mt-2 pt-2 border-t border-slate-100">
               <button class="btn-edit flex-1 text-xs font-bold bg-sky-50 hover:bg-sky-100 text-sky-700 py-2 rounded-xl transition-colors cursor-pointer" data-slug="${n.slug}">
                 ✏️ Editar
               </button>
               <a href="/noticias/${n.slug}" target="_blank" class="text-xs font-bold px-3 py-2 bg-slate-50 hover:bg-slate-100 text-slate-500 rounded-xl transition-colors">
-                🔗 Ver
+                🔗
               </a>
             </div>
           </div>
@@ -584,7 +504,7 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
 
   function openDrawer(item: any) {
     editingItem = item;
-    eId.value = item.acontecimiento_id || item.id || item.slug;
+    eId.value = item.slug || item.id;
     eFilename.value = item.archivo || `${item.slug}.json`;
     eTitulo.value = item.titulo || '';
     eCopete.value = item.copete || '';
@@ -605,7 +525,6 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
   document.getElementById('drawer-close')!.addEventListener('click', closeDrawer);
   drawerOverlay.addEventListener('click', closeDrawer);
 
-  // Galería rápida
   drawer.querySelectorAll('.q-img').forEach(btn => {
     btn.addEventListener('click', () => {
       const url = (btn as HTMLElement).dataset.img;
@@ -613,105 +532,90 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
     });
   });
 
-  // GUARDAR
+  // ── GUARDAR ──────────────────────────────────────────────────────
   document.getElementById('btn-save')!.addEventListener('click', async () => {
     if (!editingItem) return;
     const saveIcon = document.getElementById('save-icon')!;
     const saveLabel = document.getElementById('save-label')!;
-    const btn = document.getElementById('btn-save')!;
+    const btn = document.getElementById('btn-save') as HTMLButtonElement;
 
     const title = eTitulo.value.trim();
     const copete = eCopete.value.trim();
     if (!title || !copete) { alert('El título y el copete son obligatorios.'); return; }
 
-    const imagen = eImagen.value.trim() || getSemanticImage(title, eCopete.value, eCat.value, '');
-    const cuerpo = eCuerpo.value.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+    const imagen = eImagen.value.trim() || getSemanticImage(title, copete, eCat.value, '');
+    const cuerpo = eCuerpo.value.split(/\n\n+/).map((p: string) => p.trim()).filter(Boolean);
 
     const updated = {
       ...editingItem,
-      titulo: title,
-      copete,
-      categoria: eCat.value,
-      es_alerta: eAlerta.checked,
-      imagen,
-      cuerpo,
-      fecha_ultima_actualizacion: `${new Date().toLocaleDateString('es-AR')}, ${new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'})} hs`,
-      fecha_ultima_actualizacion_iso: new Date().toISOString()
+      titulo: title, copete, categoria: eCat.value,
+      es_alerta: eAlerta.checked, imagen, cuerpo,
+      fecha_ultima_actualizacion: new Date().toLocaleDateString('es-AR'),
+      fecha_ultima_actualizacion_iso: new Date().toISOString(),
     };
 
-    const filename = eFilename.value;
-    const token = getGhToken();
-
-    btn.setAttribute('disabled', 'true');
+    btn.disabled = true;
     saveIcon.textContent = '⏳';
     saveLabel.textContent = 'Guardando...';
 
     try {
-      if (token) {
-        const existing = await ghGet(`data/noticias/${filename}`, token);
-        await ghPut(`data/noticias/${filename}`, JSON.stringify(updated, null, 2),
-          `Editar: ${updated.slug}`, token, existing?.sha);
-        const idx = newsList.findIndex(n => n.slug === updated.slug);
-        if (idx !== -1) newsList[idx] = { ...newsList[idx], ...updated };
-        renderNewsList();
-        closeDrawer();
-        alert('✅ Guardado en GitHub. El sitio se actualiza en ~30 segundos.');
-      } else {
-        // Sin token: descargar JSON
-        const blob = new Blob([JSON.stringify(updated, null, 2)], {type:'application/json'});
-        const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download: filename});
-        document.body.appendChild(a); a.click(); document.body.removeChild(a);
-        alert(`JSON descargado. Subilo a data/noticias/ en GitHub.\nTip: Conectá tu Token GitHub en el login para guardar en 1 toque.`);
-        closeDrawer();
-      }
-    } catch(err: any) {
+      const result = await apiCall('save', { filename: eFilename.value, content: updated });
+      if (!result.ok) throw new Error(result.error || 'Error del servidor');
+      const idx = newsList.findIndex(n => n.slug === updated.slug);
+      if (idx !== -1) newsList[idx] = { ...newsList[idx], ...updated };
+      renderNewsList();
+      closeDrawer();
+      alert('✅ Guardado. El sitio se actualiza en ~30 segundos.');
+    } catch (err: any) {
       alert(`Error al guardar: ${err.message}`);
     } finally {
-      btn.removeAttribute('disabled');
+      btn.disabled = false;
       saveIcon.textContent = '💾';
       saveLabel.textContent = 'Guardar Cambios';
     }
   });
 
-  // ELIMINAR
+  // ── ELIMINAR ─────────────────────────────────────────────────────
   document.getElementById('btn-delete')!.addEventListener('click', async () => {
     if (!editingItem) return;
     if (!confirm(`¿Eliminar la nota:\n"${editingItem.titulo}"?`)) return;
 
-    const filename = eFilename.value;
-    const token = getGhToken();
-    const deleteBtn = document.getElementById('btn-delete')!;
-    deleteBtn.textContent = '⏳';
-    deleteBtn.setAttribute('disabled','true');
+    const btn = document.getElementById('btn-delete') as HTMLButtonElement;
+    btn.textContent = '⏳';
+    btn.disabled = true;
 
     try {
-      if (token) {
-        const existing = await ghGet(`data/noticias/${filename}`, token);
-        if (existing?.sha) {
-          await ghDelete(`data/noticias/${filename}`, existing.sha, `Eliminar: ${editingItem.slug}`, token);
-        }
-        newsList = newsList.filter(n => n.slug !== editingItem.slug);
-        document.getElementById('badge-total')!.textContent = String(newsList.length);
-        renderNewsList();
-        closeDrawer();
-        alert('✅ Nota eliminada. El sitio se actualiza en ~30 segundos.');
-      } else {
-        alert('Conectá tu Token de GitHub para eliminar notas en 1 toque.\n\nSin token: eliminá manualmente el archivo en github.com/andresehansen/Paranacito-noticias/data/noticias/');
-      }
-    } catch(err: any) {
+      const result = await apiCall('delete', { filename: eFilename.value });
+      if (!result.ok) throw new Error(result.error || 'Error del servidor');
+      newsList = newsList.filter(n => n.slug !== editingItem.slug);
+      document.getElementById('badge-total')!.textContent = String(newsList.length);
+      renderNewsList();
+      closeDrawer();
+      alert('✅ Nota eliminada. El sitio se actualiza en ~30 segundos.');
+    } catch (err: any) {
       alert(`Error al eliminar: ${err.message}`);
     } finally {
-      deleteBtn.innerHTML = '🗑️ Eliminar';
-      deleteBtn.removeAttribute('disabled');
+      btn.innerHTML = '🗑️ Eliminar';
+      btn.disabled = false;
     }
   });
 
   // ══════════════════════════════════════════════════════════════════
-  // CREADOR DE NOTICIAS CON GEMINI
+  // CREADOR CON GEMINI
   // ══════════════════════════════════════════════════════════════════
   const geminiInput = document.getElementById('gemini-key') as HTMLInputElement;
-  geminiInput?.addEventListener('change', () => {
-    if (geminiInput.value) localStorage.setItem('pn_gemini', geminiInput.value.trim());
+  const geminiStatus = document.getElementById('gemini-status')!;
+
+  geminiInput?.addEventListener('input', () => {
+    const v = geminiInput.value.trim();
+    if (v) {
+      localStorage.setItem('pn_gemini', v);
+      geminiStatus.textContent = 'Activa ✓';
+      geminiStatus.className = 'text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full';
+    } else {
+      geminiStatus.textContent = 'Sin configurar';
+      geminiStatus.className = 'text-[10px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full';
+    }
   });
 
   let generatedData: any = null;
@@ -727,16 +631,17 @@ const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GIT
     const errEl = document.getElementById('create-error')!;
     errEl.classList.add('hidden');
 
-    if (!raw) { errEl.textContent = 'Por favor ingresá el texto a redactar.'; errEl.classList.remove('hidden'); return; }
+    if (!raw) { errEl.textContent = 'Ingresá el texto a redactar.'; errEl.classList.remove('hidden'); return; }
     if (!key) { errEl.textContent = 'Ingresá tu clave de Gemini API.'; errEl.classList.remove('hidden'); return; }
 
-    if (key) localStorage.setItem('pn_gemini', key);
+    localStorage.setItem('pn_gemini', key);
 
-    const btnG = document.getElementById('btn-generar')!;
+    const btn = document.getElementById('btn-generar') as HTMLButtonElement;
     const icon = document.getElementById('btn-icon')!;
     const lbl = document.getElementById('btn-text')!;
-    btnG.setAttribute('disabled','true');
-    icon.textContent = '⏳'; lbl.textContent = 'Redactando...';
+    btn.disabled = true;
+    icon.textContent = '⏳';
+    lbl.textContent = 'Redactando...';
 
     const prompt = `Sos el Jefe de Redacción de "Paranacito Noticias" en Villa Paranacito, Delta de Entre Ríos.
 Transformá esta información en una nota periodística completa (4-6 párrafos ricos) y devolvé SOLO un JSON válido:
@@ -757,12 +662,16 @@ Formato de respuesta (JSON sin markdown):
     ];
 
     try {
-      let data = null;
+      let data: any = null;
       for (const url of endpoints) {
         try {
           const r = await fetch(url, {
-            method:'POST', headers:{'Content-Type':'application/json'},
-            body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature:0.25,responseMimeType:'application/json'} })
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.25, responseMimeType: 'application/json' },
+            }),
           });
           if (r.ok) { data = await r.json(); break; }
         } catch {}
@@ -770,7 +679,7 @@ Formato de respuesta (JSON sin markdown):
       if (!data) throw new Error('No se pudo conectar con Gemini. Verificá tu clave.');
 
       const txt = data.candidates[0].content.parts[0].text;
-      const parsed = JSON.parse(txt.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim());
+      const parsed = JSON.parse(txt.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim());
 
       const now = new Date();
       const slug = slugify(parsed.slug || parsed.titulo);
@@ -780,103 +689,81 @@ Formato de respuesta (JSON sin markdown):
         acontecimiento_id: `${now.toISOString().split('T')[0]}-${slug}`,
         id: `${now.toISOString().split('T')[0]}-${slug}`,
         titulo: parsed.titulo, copete: parsed.copete, cuerpo: parsed.cuerpo,
-        categoria: parsed.categoria || cat, tags: parsed.tags || ['villa paranacito','delta'],
+        categoria: parsed.categoria || cat, tags: parsed.tags || ['villa paranacito', 'delta'],
         slug, tiempo_lectura: parsed.tiempo_lectura || '3 min',
         resumen_whatsapp: parsed.resumen_whatsapp,
         imagen: img, estado: alerta ? 'En desarrollo' : 'Publicado',
         nivel_confiabilidad: conf, es_alerta: alerta,
         publicado: true, requiere_revision: false,
-        fuentes_consultadas: [{nombre: fuente, fecha_consulta: now.toISOString()}],
+        fuentes_consultadas: [{ nombre: fuente, fecha_consulta: now.toISOString() }],
         fecha_iso: now.toISOString(), fecha_inicio_iso: now.toISOString(),
         fecha_publicacion: `${now.getDate()} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][now.getMonth()]} de ${now.getFullYear()}, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
         fecha_ultima_actualizacion_iso: now.toISOString(),
-        archivo: `${now.toISOString().split('T')[0]}-${slug}.json`
+        archivo: `${now.toISOString().split('T')[0]}-${slug}.json`,
       };
 
       // Mostrar preview
       document.getElementById('prev-cat')!.textContent = generatedData.categoria;
-      const alertBadge = document.getElementById('prev-alert-badge')!;
-      alerta ? alertBadge.classList.remove('hidden') : alertBadge.classList.add('hidden');
+      alerta
+        ? document.getElementById('prev-alert-badge')!.classList.remove('hidden')
+        : document.getElementById('prev-alert-badge')!.classList.add('hidden');
       document.getElementById('prev-titulo')!.textContent = generatedData.titulo;
       document.getElementById('prev-copete')!.textContent = generatedData.copete;
-      const img_el = document.getElementById('prev-imagen') as HTMLImageElement;
-      img_el.src = img; img_el.alt = generatedData.titulo;
+      const imgEl = document.getElementById('prev-imagen') as HTMLImageElement;
+      imgEl.src = img; imgEl.alt = generatedData.titulo;
       const cuerpoEl = document.getElementById('prev-cuerpo')!;
       cuerpoEl.innerHTML = '';
       generatedData.cuerpo.forEach((p: string) => {
         const pe = document.createElement('p'); pe.textContent = p; cuerpoEl.appendChild(pe);
       });
       document.getElementById('prev-wa')!.textContent = generatedData.resumen_whatsapp;
-
-      const token = getGhToken();
-      const hint = document.getElementById('publish-hint')!;
-      const btnPub = document.getElementById('btn-publish-text')!;
-      if (token) {
-        hint.textContent = 'Publicá directo al repositorio en 1 toque.';
-        btnPub.textContent = 'Publicar Directo';
-      } else {
-        hint.textContent = 'Sin token configurado → descargá el JSON y subilo a GitHub.';
-        btnPub.textContent = 'Descargar JSON';
-      }
-
       document.getElementById('preview-container')!.classList.remove('hidden');
-      document.getElementById('preview-container')!.scrollIntoView({behavior:'smooth', block:'start'});
+      document.getElementById('preview-container')!.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-    } catch(err: any) {
+    } catch (err: any) {
       errEl.textContent = err.message || 'Error al generar.';
       errEl.classList.remove('hidden');
     } finally {
-      btnG.removeAttribute('disabled');
-      icon.textContent = '✨'; lbl.textContent = 'Redactar con Gemini 2.5';
+      btn.disabled = false;
+      icon.textContent = '✨';
+      lbl.textContent = 'Redactar con Gemini 2.5';
     }
   });
 
   document.getElementById('btn-copy-wa')!.addEventListener('click', () => {
-    if (!generatedData) return;
+    if (!generatedData?.resumen_whatsapp) return;
     navigator.clipboard.writeText(generatedData.resumen_whatsapp);
     const b = document.getElementById('btn-copy-wa')!;
     const orig = b.textContent;
-    b.textContent = '✅'; setTimeout(() => b.textContent = orig, 2000);
+    b.textContent = '✅ Copiado';
+    setTimeout(() => b.textContent = orig, 2000);
   });
 
   document.getElementById('btn-publish')!.addEventListener('click', async () => {
     if (!generatedData) return;
-    const token = getGhToken();
-    const btn = document.getElementById('btn-publish')!;
-    const btnT = document.getElementById('btn-publish-text')!;
+    const btn = document.getElementById('btn-publish') as HTMLButtonElement;
+    const icon = document.getElementById('pub-icon')!;
+    const lbl = document.getElementById('pub-label')!;
+    btn.disabled = true;
+    icon.textContent = '⏳';
+    lbl.textContent = 'Publicando...';
 
-    if (!token) {
-      // Descargar como fallback
-      const blob = new Blob([JSON.stringify(generatedData, null, 2)], {type:'application/json'});
-      const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download:generatedData.archivo});
-      document.body.appendChild(a); a.click(); document.body.removeChild(a);
-      return;
-    }
-
-    btn.setAttribute('disabled','true');
-    btnT.textContent = 'Publicando...';
     try {
-      await ghPut(`data/noticias/${generatedData.archivo}`,
-        JSON.stringify(generatedData, null, 2),
-        `Publicar: ${generatedData.slug}`, token);
+      const result = await apiCall('save', { filename: generatedData.archivo, content: generatedData });
+      if (!result.ok) throw new Error(result.error || 'Error del servidor');
       newsList.unshift(generatedData);
       document.getElementById('badge-total')!.textContent = String(newsList.length);
-      alert('🚀 Nota publicada! Vercel actualiza en ~30 seg.');
+      alert('🚀 ¡Nota publicada! Vercel actualiza el sitio en ~30 segundos.');
       document.getElementById('preview-container')!.classList.add('hidden');
       (document.getElementById('raw-text') as HTMLTextAreaElement).value = '';
+      generatedData = null;
       activateTab('admin');
-    } catch(err: any) {
+    } catch (err: any) {
       alert(`Error: ${err.message}`);
     } finally {
-      btn.removeAttribute('disabled');
-      btnT.textContent = 'Publicar Directo';
+      btn.disabled = false;
+      icon.textContent = '🚀';
+      lbl.textContent = 'Publicar Noticia';
     }
-  });
-
-  document.getElementById('btn-download')!.addEventListener('click', () => {
-    if (!generatedData) return;
-    const blob = new Blob([JSON.stringify(generatedData, null, 2)], {type:'application/json'});
-    const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download:generatedData.archivo});
-    document.body.appendChild(a); a.click(); document.body.removeChild(a);
   });
 </script>
