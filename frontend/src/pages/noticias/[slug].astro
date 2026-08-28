@@ -4,11 +4,10 @@ import ShareWhatsApp from '../../components/ShareWhatsApp.astro';
 import EventTimeline from '../../components/EventTimeline.astro';
 import SourcesPanel from '../../components/SourcesPanel.astro';
 import AdBanner from '../../components/AdBanner.astro';
+import { getCleanAndDeduplicatedNews } from '../../utils/news';
+
 export async function getStaticPaths() {
-  const newsFiles = import.meta.glob('../../../../data/noticias/*.json', { eager: true });
-  const allNoticias = Object.values(newsFiles)
-    .map((file: any) => file.default || file)
-    .filter((noticia: any) => noticia && noticia.slug);
+  const allNoticias = getCleanAndDeduplicatedNews();
 
   return allNoticias.map((noticia: any) => ({
     params: { slug: noticia.slug },
@@ -18,6 +17,7 @@ export async function getStaticPaths() {
     }
   }));
 }
+
 
 const { noticia, relatedNews } = Astro.props;
 

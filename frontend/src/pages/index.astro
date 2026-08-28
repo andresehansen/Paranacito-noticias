@@ -3,19 +3,14 @@ import Layout from '../layouts/Layout.astro';
 import WeatherWidget from '../components/WeatherWidget.astro';
 import NewsCard from '../components/NewsCard.astro';
 import AdBanner from '../components/AdBanner.astro';
+import { getCleanAndDeduplicatedNews } from '../utils/news';
 
-// Cargar dinámicamente todas las noticias individuales para reflejar ediciones al instante
-const newsFiles = import.meta.glob('../../../data/noticias/*.json', { eager: true });
-const noticias = Object.values(newsFiles)
-  .map((file: any) => file.default || file)
-  .filter((n: any) => n && n.slug && n.publicado !== false);
-
-noticias.sort((a: any, b: any) => 
-  String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || ''))
-);
+// Cargar noticias 100% limpias y deduplicadas
+const noticias = getCleanAndDeduplicatedNews();
 
 const featuredNews = noticias[0];
 const recentNews = noticias.slice(1);
+
 
 const categoriasDestacadas = [
   { nombre: 'Todas', href: '/', count: noticias.length },

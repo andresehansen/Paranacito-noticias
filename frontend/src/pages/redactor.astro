@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-// Cargar todas las noticias completas disponibles
-const fullNewsFiles = import.meta.glob('../../../data/noticias/*.json', { eager: true });
-const allNews = Object.values(fullNewsFiles).map((file: any) => file.default || file);
-allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || '')));
+import { getCleanAndDeduplicatedNews } from '../utils/news';
+
+// Cargar todas las noticias completas y deduplicadas
+const allNews = getCleanAndDeduplicatedNews();
 const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || '';
+
 export const prerender = true;
 ---
 
