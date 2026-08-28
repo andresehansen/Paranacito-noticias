@@ -1,364 +1,214 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import noticiasIndex from '../../../data/noticias_index.json';
-
 // Cargar todas las noticias completas disponibles
 const fullNewsFiles = import.meta.glob('../../../data/noticias/*.json', { eager: true });
 const allNews = Object.values(fullNewsFiles).map((file: any) => file.default || file);
 allNews.sort((a: any, b: any) => String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || '')));
-
-const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY || '';
+const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || '';
+const serverGhToken = import.meta.env.PUBLIC_GITHUB_TOKEN || import.meta.env.GITHUB_TOKEN || '';
 ---
 
-<Layout
-  title="Mesa de Redacción y Gestión Editorial | Paranacito Noticias"
-  description="Panel privado de administración y redacción."
->
+<Layout title="Mesa de Redacción | Paranacito Noticias" description="Panel privado de administración.">
   <head slot="head">
     <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   </head>
 
-  <!-- ═══════════════════════════════════════════════════════════ -->
-  <!-- 1. PANTALLA DE BLOQUEO POR PIN PRIVADO                       -->
-  <!-- ═══════════════════════════════════════════════════════════ -->
-  <div id="auth-lock-screen" class="max-w-md mx-auto my-16 p-8 bg-white rounded-3xl border border-slate-200 shadow-xl text-center">
-    <div class="w-16 h-16 bg-slate-900 text-white rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-md">
-      🔒
-    </div>
-    <h2 class="text-xl font-extrabold text-slate-900 mb-1">Mesa de Redacción Privada</h2>
-    <p class="text-xs text-slate-500 mb-6">
-      Área exclusiva para crear, editar y gestionar noticias de Paranacito Noticias.
-    </p>
-
-    <div class="space-y-4">
-      <div>
-        <label for="admin-pin" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 text-left">
-          Ingresá tu PIN de Administrador
-        </label>
-        <input
-          type="password"
-          id="admin-pin"
-          placeholder="••••"
-          maxlength="20"
-          class="w-full text-center text-lg font-mono tracking-widest bg-slate-50 border border-slate-300 rounded-xl py-3 px-4 focus:ring-2 focus:ring-river-500 focus:outline-none"
-        />
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <!-- PANTALLA DE LOGIN                                               -->
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <div id="auth-screen" class="min-h-screen flex items-center justify-center p-4 bg-slate-50">
+    <div class="w-full max-w-sm bg-white rounded-3xl border border-slate-200 shadow-xl p-8 space-y-5">
+      <div class="text-center">
+        <div class="w-14 h-14 bg-slate-900 text-white rounded-2xl flex items-center justify-center text-2xl mx-auto mb-3">✍️</div>
+        <h2 class="text-xl font-extrabold text-slate-900">Mesa de Redacción</h2>
+        <p class="text-xs text-slate-500 mt-1">Paranacito Noticias — Panel privado</p>
       </div>
 
-      <button
-        type="button"
-        id="btn-unlock"
-        class="w-full py-3 bg-river-600 hover:bg-river-700 text-white font-bold text-sm rounded-xl shadow transition-colors cursor-pointer"
-      >
-        Ingresar al Panel
-      </button>
+      <div class="space-y-3">
+        <div>
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">PIN de acceso</label>
+          <input type="password" id="input-pin" placeholder="••••" maxlength="20" autocomplete="current-password"
+            class="w-full text-center text-lg font-mono bg-slate-50 border border-slate-300 rounded-xl py-3 px-4 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+        </div>
 
-      <div id="pin-error" class="hidden text-xs text-rose-600 font-semibold pt-1">
-        PIN incorrecto. Intentá nuevamente.
+        <!-- Token de GitHub — sólo se muestra si no está preconfigurado en el servidor -->
+        <div id="gh-token-field">
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">
+            Token de GitHub
+            <span class="font-normal text-slate-400 normal-case">(para guardar sin descargar)</span>
+          </label>
+          <input type="password" id="input-gh-token" placeholder="ghp_xxxxxxxxxxxxxxxx"
+            class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl py-2.5 px-3 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+          <p class="text-[10px] text-slate-400 mt-1">
+            Creá uno en <a href="https://github.com/settings/tokens/new?scopes=repo&description=ParanacitoAdmin" target="_blank" class="text-sky-600 underline">github.com/settings/tokens</a> con permiso <code>repo</code>.
+          </p>
+        </div>
+
+        <button id="btn-login" type="button"
+          class="w-full py-3 bg-sky-600 hover:bg-sky-700 text-white font-bold text-sm rounded-xl shadow transition-colors cursor-pointer">
+          Entrar al Panel
+        </button>
+        <p id="login-error" class="hidden text-xs text-rose-600 font-semibold text-center">PIN incorrecto.</p>
       </div>
 
-      <p class="text-[11px] text-slate-400 pt-3 border-t border-slate-100">
-        PIN por defecto inicial: <code class="bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded font-mono font-bold">1907</code> (podés cambiarlo dentro del panel).
+      <p class="text-[10px] text-slate-400 text-center pt-2 border-t border-slate-100">
+        PIN por defecto: <code class="font-mono font-bold text-slate-600">1907</code>
       </p>
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════════════════════════ -->
-  <!-- 2. PANEL DE ADMINISTRACIÓN (AUTENTICADO)                     -->
-  <!-- ═══════════════════════════════════════════════════════════ -->
-  <div id="admin-panel" class="hidden max-w-6xl mx-auto py-6 px-4 sm:px-6">
-    
-    <!-- Encabezado del Panel -->
-    <header class="mb-6 pb-5 border-b border-slate-200 flex flex-wrap items-center justify-between gap-4">
-      <div class="flex items-center gap-3">
-        <span class="p-2.5 bg-river-100 text-river-700 rounded-xl text-xl">✍️</span>
-        <div>
-          <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-            Mesa de Redacción y Gestión Editorial
-          </h1>
-          <p class="text-xs text-slate-500">
-            Paranacito Noticias — Villa Paranacito y Delta de Entre Ríos.
-          </p>
-        </div>
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <!-- PANEL PRINCIPAL                                                 -->
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <div id="main-panel" class="hidden min-h-screen bg-slate-50">
+
+    <!-- Barra superior -->
+    <header class="sticky top-0 z-30 bg-white border-b border-slate-200 px-4 py-3 flex items-center justify-between gap-3 shadow-sm">
+      <div class="flex items-center gap-2">
+        <span class="text-lg">✍️</span>
+        <span class="font-extrabold text-slate-900 text-sm sm:text-base">Mesa de Redacción</span>
+        <span id="gh-badge" class="hidden text-[10px] font-bold bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full border border-emerald-200">GitHub ✓</span>
       </div>
-
-      <div class="flex items-center gap-2 flex-wrap">
-        <button
-          id="btn-config-github"
-          class="text-xs text-slate-700 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-lg transition-colors cursor-pointer flex items-center gap-1.5 font-medium border border-slate-300"
-          title="Permite borrar, editar y publicar notas directamente en GitHub sin descargar archivos"
-        >
-          <span>🐙</span>
-          <span id="lbl-github-status">Conectar GitHub (1-Clic)</span>
-        </button>
-
-        <button
-          id="btn-change-pin"
-          class="text-xs text-slate-600 hover:text-slate-900 bg-slate-100 px-3 py-1.5 rounded-lg transition-colors cursor-pointer"
-        >
-          ⚙️ Cambiar PIN
-        </button>
-        <button
-          id="btn-logout"
-          class="text-xs text-rose-600 hover:text-rose-700 bg-rose-50 px-3 py-1.5 rounded-lg font-semibold transition-colors cursor-pointer"
-        >
-          Cerrar Sesión
-        </button>
+      <div class="flex items-center gap-2">
+        <button id="btn-change-pin" class="text-[11px] text-slate-500 hover:text-slate-800 px-2.5 py-1.5 rounded-lg bg-slate-100 cursor-pointer transition-colors">⚙️ PIN</button>
+        <button id="btn-logout" class="text-[11px] font-semibold text-rose-600 px-2.5 py-1.5 rounded-lg bg-rose-50 cursor-pointer transition-colors">Salir</button>
       </div>
     </header>
 
-    <!-- Barra de Pestañas Principales -->
-    <nav class="flex items-center gap-3 mb-8 border-b border-slate-200 pb-3">
-      <button
-        id="tab-btn-create"
-        class="tab-button active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-river-600 text-white shadow-sm cursor-pointer"
-      >
-        ✨ Crear Noticia con IA
-      </button>
-      <button
-        id="tab-btn-manage"
-        class="tab-button px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
-      >
-        📰 Administrar y Editar Notas (<span id="count-news-badge">{allNews.length}</span>)
+    <!-- Tabs de navegación -->
+    <nav class="sticky top-[57px] z-20 bg-white border-b border-slate-200 px-4 flex gap-1 pt-2">
+      <button id="tab-crear" class="tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 border-sky-600 text-sky-700 bg-sky-50 transition-all cursor-pointer">✨ Crear con IA</button>
+      <button id="tab-admin" class="tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition-all cursor-pointer">
+        📰 Notas <span id="badge-total" class="ml-1 bg-slate-200 text-slate-600 text-[10px] px-1.5 py-0.5 rounded-full">{allNews.length}</span>
       </button>
     </nav>
 
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- PESTAÑA 1: CREADOR DE NOTICIAS CON IA                        -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div id="view-create" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-      
-      <!-- Formulario de Entrada (Columna Izquierda) -->
-      <section class="lg:col-span-5 space-y-5 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-fit">
-        
-        <!-- API Key Gemini -->
-        <div>
-          <div class="flex items-center justify-between mb-1">
-            <label for="gemini-key" class="block text-xs font-bold text-slate-700 uppercase tracking-wider">
-              🔑 Clave Gemini API
-            </label>
-            <span id="badge-key-status" class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
-              Activa
-            </span>
+    <main class="max-w-5xl mx-auto px-3 sm:px-6 py-6 space-y-6">
+
+      <!-- ══════════════════════ TAB CREAR ══════════════════════════ -->
+      <div id="view-crear" class="space-y-5">
+
+        <!-- Clave Gemini -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
+          <div class="flex items-center justify-between mb-2">
+            <label class="text-xs font-bold text-slate-600 uppercase tracking-wider">🔑 Clave Gemini API</label>
+            <span id="gemini-status" class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Activa</span>
           </div>
-          <input
-            type="password"
-            id="gemini-key"
-            placeholder="Pegá tu clave de Google AI Studio"
-            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
-          />
+          <input type="password" id="gemini-key" placeholder="Pegá tu clave de Google AI Studio"
+            class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
         </div>
 
-        <!-- Fuente / Origen del Reporte -->
-        <div>
-          <label for="fuente-nombre" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            📰 Origen de la información
-          </label>
-          <input
-            type="text"
-            id="fuente-nombre"
-            placeholder="Ej: Reporte de vecinos / SMN / Bomberos / Municipalidad"
-            value="Reporte Comunitario"
-            class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
-          />
-        </div>
+        <!-- Formulario de creación -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-sm space-y-4">
+          <h2 class="text-sm font-extrabold text-slate-800">Nueva Noticia con IA</h2>
 
-        <!-- Categoría y Confiabilidad -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div>
-            <label for="categoria-select" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-              🏷️ Categoría
-            </label>
-            <select
-              id="categoria-select"
-              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
-            >
-              <option value="Río y Clima">Río y Clima</option>
-              <option value="Comunidad" selected>Comunidad</option>
-              <option value="Obras y Servicios">Obras y Servicios</option>
-              <option value="Deportes">Deportes</option>
-              <option value="Salud y Educación">Salud y Educación</option>
-              <option value="Turismo y Cultura">Turismo y Cultura</option>
-              <option value="Sociedad">Sociedad</option>
-            </select>
-          </div>
-
-          <div>
-            <label for="confiabilidad-select" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-              🛡️ Confiabilidad
-            </label>
-            <select
-              id="confiabilidad-select"
-              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
-            >
-              <option value="Alta">🟢 Alta (Oficial)</option>
-              <option value="Media" selected>🟡 Media (Vecinos/Medio)</option>
-              <option value="Baja">🔴 Baja (En verificación)</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- Switch de Alerta Urgente -->
-        <div class="flex items-center justify-between p-3.5 bg-rose-50 border border-rose-200 rounded-xl">
-          <div class="flex items-center gap-2.5">
-            <span class="text-xl">🚨</span>
+          <div class="grid grid-cols-2 gap-3">
             <div>
-              <div class="text-xs font-bold text-rose-900">¿Es una Alerta Urgente?</div>
-              <div class="text-[11px] text-rose-700">Aparecerá en el banner rojo pulsante de la portada.</div>
+              <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">Categoría</label>
+              <select id="categoria-select" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none font-medium">
+                <option value="Río y Clima">Río y Clima</option>
+                <option value="Comunidad" selected>Comunidad</option>
+                <option value="Obras y Servicios">Obras y Servicios</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Salud y Educación">Salud y Educación</option>
+                <option value="Turismo y Cultura">Turismo y Cultura</option>
+                <option value="Sociedad">Sociedad</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">Confiabilidad</label>
+              <select id="confiabilidad-select" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none font-medium">
+                <option value="Alta">🟢 Alta</option>
+                <option value="Media" selected>🟡 Media</option>
+                <option value="Baja">🔴 Baja</option>
+              </select>
             </div>
           </div>
-          <input
-            type="checkbox"
-            id="es-alerta"
-            class="w-5 h-5 text-rose-600 rounded focus:ring-rose-500 border-rose-300 cursor-pointer"
-          />
-        </div>
 
-        <!-- Selector de Imagen -->
-        <div>
-          <label for="imagen-url" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            🖼️ Foto de Portada (URL)
-          </label>
-          <input
-            type="text"
-            id="imagen-url"
-            placeholder="Pegá la URL de una foto o dejalo vacío para asignación automática del Delta"
-            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
-          />
-        </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">Fuente / Origen</label>
+            <input type="text" id="fuente-nombre" value="Reporte Comunitario"
+              class="w-full text-sm bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+          </div>
 
-        <!-- Datos Crudos a Redactar -->
-        <div>
-          <label for="raw-text" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            📝 Datos brutos, audio transcripto o mensaje del vecino
-          </label>
-          <textarea
-            id="raw-text"
-            rows="6"
-            placeholder="Ejemplo: Hay alerta por repunte del río para esta noche por vientos del sudeste. Se esperan 2.10 metros para la madrugada según Prefectura. Se recomienda amarrar bien las embarcaciones y levantar elementos en muelles bajos."
-            class="w-full text-xs text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3.5 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
-          ></textarea>
-        </div>
-
-        <!-- Botón de Generación -->
-        <button
-          type="button"
-          id="btn-generar"
-          class="w-full py-3.5 bg-gradient-to-r from-river-600 to-teal-600 hover:from-river-700 hover:to-teal-700 text-white font-bold text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
-        >
-          <span id="btn-icon">✨</span>
-          <span id="btn-text">Redactar Noticia con Gemini 2.5</span>
-        </button>
-
-        <div id="error-msg" class="hidden text-xs text-rose-600 font-semibold p-3 bg-rose-50 rounded-xl border border-rose-200"></div>
-
-      </section>
-
-      <!-- Columna Derecha: Vista Previa y Publicación -->
-      <section class="lg:col-span-7 space-y-6">
-        
-        <div id="preview-placeholder" class="h-full min-h-[400px] border-2 border-dashed border-slate-300 rounded-2xl flex flex-col items-center justify-center p-8 text-center bg-slate-50 text-slate-400">
-          <span class="text-4xl mb-3">📰</span>
-          <h3 class="text-sm font-bold text-slate-600">Vista Previa de la Noticia</h3>
-          <p class="text-xs max-w-sm mt-1">
-            Completá los datos a la izquierda y hacé clic en "Redactar Noticia" para generar el artículo completo y publicarlo en 1 clic.
-          </p>
-        </div>
-
-        <!-- Vista Previa Generada -->
-        <div id="preview-container" class="hidden space-y-6">
-          <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
-            
-            <div class="flex flex-wrap items-center gap-2 mb-4">
-              <span id="prev-categoria" class="px-3 py-0.5 rounded-full text-xs font-semibold bg-river-100 text-river-800 border border-river-200">
-                Comunidad
-              </span>
-              <span id="prev-alerta" class="hidden px-3 py-0.5 rounded-full text-xs font-black bg-rose-600 text-white animate-pulse">
-                🚨 ALERTA
-              </span>
+          <div class="flex items-center justify-between p-3 bg-rose-50 border border-rose-200 rounded-xl">
+            <div>
+              <p class="text-xs font-bold text-rose-900">🚨 ¿Alerta Urgente?</p>
+              <p class="text-[11px] text-rose-700">Banner rojo pulsante en portada</p>
             </div>
+            <input type="checkbox" id="es-alerta" class="w-5 h-5 text-rose-600 rounded cursor-pointer" />
+          </div>
 
-            <h2 id="prev-titulo" class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight mb-4"></h2>
-            <p id="prev-copete" class="text-base text-slate-700 font-medium leading-relaxed bg-slate-100/90 p-4 rounded-xl border-l-4 border-river-600 mb-6"></p>
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">📝 Información bruta a redactar</label>
+            <textarea id="raw-text" rows="5"
+              placeholder="Ej: Hay alerta hidrométrica en el Río Paranacito. Nivel esperado 2.10 mts esta noche por sudestada. Prefectura advierte a navegantes..."
+              class="w-full text-sm text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3.5 focus:ring-2 focus:ring-sky-500 focus:outline-none leading-relaxed resize-none"></textarea>
+          </div>
 
-            <div id="prev-imagen-container" class="mb-6 rounded-xl overflow-hidden aspect-[16/9] bg-slate-200">
+          <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">🖼️ URL de foto (opcional)</label>
+            <input type="url" id="imagen-url" placeholder="Dejalo vacío → foto temática automática"
+              class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+          </div>
+
+          <button id="btn-generar" type="button"
+            class="w-full py-4 bg-gradient-to-r from-sky-600 to-teal-600 hover:from-sky-700 hover:to-teal-700 text-white font-bold text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <span id="btn-icon">✨</span>
+            <span id="btn-text">Redactar con Gemini 2.5</span>
+          </button>
+          <p id="create-error" class="hidden text-xs text-rose-600 font-semibold p-3 bg-rose-50 rounded-xl border border-rose-200"></p>
+        </div>
+
+        <!-- Preview generado -->
+        <div id="preview-container" class="hidden space-y-4">
+          <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm space-y-4">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span id="prev-cat" class="text-xs font-bold px-3 py-0.5 rounded-full bg-sky-100 text-sky-800 border border-sky-200"></span>
+              <span id="prev-alert-badge" class="hidden text-xs font-black px-3 py-0.5 rounded-full bg-rose-600 text-white animate-pulse">🚨 ALERTA</span>
+            </div>
+            <h3 id="prev-titulo" class="text-xl font-extrabold text-slate-900 leading-tight"></h3>
+            <p id="prev-copete" class="text-sm text-slate-700 font-medium bg-slate-50 p-3 rounded-xl border-l-4 border-sky-500"></p>
+            <div id="prev-imagen-wrap" class="rounded-xl overflow-hidden aspect-video bg-slate-100">
               <img id="prev-imagen" src="" alt="" class="w-full h-full object-cover" />
             </div>
-
-            <div id="prev-cuerpo" class="prose prose-slate max-w-none text-slate-800 text-base leading-relaxed space-y-4 mb-6"></div>
-            <div id="prev-tags" class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200 text-xs"></div>
-          </article>
+            <div id="prev-cuerpo" class="text-sm text-slate-700 leading-relaxed space-y-3"></div>
+          </div>
 
           <!-- WhatsApp -->
-          <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-5 shadow-md">
-            <div class="flex items-center justify-between gap-2 mb-2">
-              <div class="flex items-center gap-2">
-                <span class="text-lg">💬</span>
-                <span class="text-xs font-black uppercase tracking-wider">Texto para Grupos de WhatsApp</span>
-              </div>
-              <button
-                id="btn-copy-wa"
-                class="text-xs bg-white text-emerald-800 font-bold px-3 py-1 rounded-lg hover:bg-emerald-50 transition-colors shadow-sm cursor-pointer"
-              >
-                Copiar
+          <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-4 shadow-md">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider">💬 Texto para WhatsApp</span>
+              <button id="btn-copy-wa" class="text-xs bg-white text-emerald-800 font-bold px-3 py-1 rounded-lg cursor-pointer">Copiar</button>
+            </div>
+            <pre id="prev-wa" class="text-xs bg-black/20 p-3 rounded-xl whitespace-pre-wrap font-sans leading-relaxed"></pre>
+          </div>
+
+          <!-- Publicar -->
+          <div class="bg-slate-900 text-white rounded-2xl p-5 shadow-md">
+            <p class="text-sm font-bold mb-1">Publicar en Paranacito Noticias</p>
+            <p id="publish-hint" class="text-xs text-slate-400 mb-4">Publicá directo al repositorio o descargá el archivo JSON.</p>
+            <div class="flex gap-2">
+              <button id="btn-publish" class="flex-1 py-3 bg-sky-600 hover:bg-sky-500 font-bold text-sm rounded-xl transition-colors flex items-center justify-center gap-2 cursor-pointer shadow">
+                <span>🚀</span><span id="btn-publish-text">Publicar Directo</span>
               </button>
-            </div>
-            <pre id="prev-whatsapp" class="text-xs bg-black/20 p-3 rounded-xl whitespace-pre-wrap font-sans leading-relaxed"></pre>
-          </div>
-
-          <!-- Publicar Directo / Descargar -->
-          <div class="bg-slate-900 text-white rounded-2xl p-6 shadow-md space-y-4">
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div>
-                <h3 class="text-sm font-bold">Publicar en Paranacito Noticias</h3>
-                <p class="text-xs text-slate-400">Publicá directo en el repositorio o descargá el archivo JSON.</p>
-              </div>
-              <div class="flex items-center gap-2 w-full sm:w-auto">
-                <button
-                  id="btn-publish-direct"
-                  class="flex-1 sm:flex-none px-4 py-2.5 bg-river-600 hover:bg-river-500 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-2 shadow cursor-pointer"
-                >
-                  <span>🚀</span>
-                  <span>Publicar Directo (1-Clic)</span>
-                </button>
-                <button
-                  id="btn-download-json"
-                  class="px-3 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-1.5 border border-slate-700 cursor-pointer"
-                  title="Descargar archivo JSON"
-                >
-                  <span>📥</span>
-                </button>
-              </div>
+              <button id="btn-download" class="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl border border-slate-700 cursor-pointer text-sm" title="Descargar JSON">📥</button>
             </div>
           </div>
-
         </div>
 
-      </section>
+      </div><!-- /view-crear -->
 
-    </div>
+      <!-- ══════════════════════ TAB ADMINISTRAR ═══════════════════ -->
+      <div id="view-admin" class="hidden space-y-4">
 
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- PESTAÑA 2: GESTOR DE NOTICIAS PUBLICADAS                     -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div id="view-manage" class="hidden space-y-6">
-      
-      <!-- Barra de Filtros y Búsqueda -->
-      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div class="relative w-full sm:w-80">
-          <input
-            type="text"
-            id="manage-search"
-            placeholder="🔍 Buscar por título o tema..."
-            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl pl-3 pr-8 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
-          />
-        </div>
-
-        <div class="flex items-center gap-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
-          <select
-            id="manage-cat-filter"
-            class="text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
-          >
-            <option value="todas">Todas las categorías</option>
+        <!-- Barra de búsqueda y filtro -->
+        <div class="flex gap-2 flex-col sm:flex-row">
+          <input type="text" id="search-input" placeholder="🔍 Buscar noticia..."
+            class="flex-1 text-sm bg-white border border-slate-300 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none shadow-sm" />
+          <select id="cat-filter" class="text-xs bg-white border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none shadow-sm font-medium">
+            <option value="">Todas las categorías</option>
             <option value="Río y Clima">Río y Clima</option>
             <option value="Comunidad">Comunidad</option>
             <option value="Obras y Servicios">Obras y Servicios</option>
@@ -368,66 +218,55 @@ const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env
             <option value="Sociedad">Sociedad</option>
           </select>
         </div>
-      </div>
 
-      <!-- Lista de Noticias en Grid -->
-      <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <!-- Renderizado dinámico vía JavaScript -->
-      </div>
+        <!-- Lista de noticias -->
+        <div id="news-list" class="space-y-3"></div>
 
-    </div>
+      </div><!-- /view-admin -->
 
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- MODAL DE EDICIÓN DE NOTICIA                                  -->
-    <!-- ═══════════════════════════════════════════════════════════ -->
-    <div id="edit-modal" class="hidden fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
-      <div class="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full p-6 sm:p-8 space-y-5 my-8 max-h-[90vh] overflow-y-auto">
-        
-        <div class="flex items-center justify-between border-b border-slate-100 pb-4">
-          <div class="flex items-center gap-2">
-            <span class="text-xl">✏️</span>
-            <h3 class="text-lg font-bold text-slate-900">Editar Noticia Publicada</h3>
-          </div>
-          <button id="btn-close-modal" class="text-slate-400 hover:text-slate-700 text-xl font-bold p-1 cursor-pointer">&times;</button>
+    </main>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <!-- DRAWER DE EDICIÓN (bottom sheet, mobile-friendly)              -->
+  <!-- ══════════════════════════════════════════════════════════════ -->
+  <div id="edit-drawer" class="fixed inset-0 z-50 hidden">
+    <!-- Overlay -->
+    <div id="drawer-overlay" class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
+    <!-- Sheet -->
+    <div class="absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl shadow-2xl max-h-[95vh] overflow-y-auto flex flex-col">
+      <!-- Handle -->
+      <div class="flex items-center justify-between px-5 pt-4 pb-3 border-b border-slate-100 sticky top-0 bg-white z-10">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-1 bg-slate-300 rounded-full mx-auto absolute left-1/2 -translate-x-1/2 top-2"></div>
+          <span class="text-sm font-extrabold text-slate-900 mt-1">✏️ Editar Noticia</span>
         </div>
+        <button id="drawer-close" class="text-slate-400 hover:text-slate-700 text-2xl font-light leading-none cursor-pointer p-1">&times;</button>
+      </div>
 
-        <input type="hidden" id="edit-article-id" />
-        <input type="hidden" id="edit-article-filename" />
+      <div class="p-5 space-y-4 flex-1">
+        <input type="hidden" id="edit-id" />
+        <input type="hidden" id="edit-filename" />
 
         <!-- Título -->
         <div>
-          <label for="edit-title" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            Título de la Noticia
-          </label>
-          <input
-            type="text"
-            id="edit-title"
-            class="w-full text-sm font-bold text-slate-900 bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none"
-          />
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Título</label>
+          <textarea id="edit-titulo" rows="2"
+            class="w-full text-base font-bold text-slate-900 bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-sky-500 focus:outline-none resize-none leading-snug"></textarea>
         </div>
 
         <!-- Copete -->
         <div>
-          <label for="edit-copete" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            Copete / Bajada
-          </label>
-          <textarea
-            id="edit-copete"
-            rows="2"
-            class="w-full text-xs font-medium text-slate-700 bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none"
-          ></textarea>
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Copete / Bajada</label>
+          <textarea id="edit-copete" rows="2"
+            class="w-full text-sm text-slate-700 bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none resize-none"></textarea>
         </div>
 
-        <!-- Categoría y Alerta -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <!-- Categoría + Alerta -->
+        <div class="grid grid-cols-2 gap-3">
           <div>
-            <label for="edit-categoria" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-              🏷️ Categoría
-            </label>
-            <select
-              id="edit-categoria"
-              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-medium"
-            >
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Categoría</label>
+            <select id="edit-cat" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none font-medium">
               <option value="Río y Clima">Río y Clima</option>
               <option value="Comunidad">Comunidad</option>
               <option value="Obras y Servicios">Obras y Servicios</option>
@@ -437,855 +276,607 @@ const serverGeminiKey = import.meta.env.PUBLIC_GEMINI_API_KEY || import.meta.env
               <option value="Sociedad">Sociedad</option>
             </select>
           </div>
-
-          <div class="flex items-center gap-2 p-2 bg-rose-50 border border-rose-200 rounded-xl self-end">
-            <input type="checkbox" id="edit-es-alerta" class="w-4 h-4 text-rose-600 rounded cursor-pointer" />
-            <label for="edit-es-alerta" class="text-xs font-bold text-rose-900 cursor-pointer">
-              🚨 ¿Alerta Urgente?
+          <div class="flex items-end pb-0.5">
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" id="edit-alerta" class="w-5 h-5 text-rose-600 rounded cursor-pointer" />
+              <span class="text-xs font-bold text-rose-800">🚨 Alerta</span>
             </label>
           </div>
         </div>
 
-        <!-- URL de Imagen -->
+        <!-- Imagen URL -->
         <div>
-          <label for="edit-imagen" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            🖼️ URL de Imagen de Portada
-          </label>
-          <input
-            type="text"
-            id="edit-imagen"
-            class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-river-500 focus:outline-none font-mono"
-          />
-
-          <!-- Selector de Galería Rápida del Delta -->
-          <div class="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
-            <span>Galería rápida:</span>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Frigerio / Gobierno</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80">🌊 Río y Delta</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80">🏥 Salud y Escuela</button>
-            <button type="button" class="btn-quick-img bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-lg text-slate-700 cursor-pointer" data-img="https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1200&q=80">⚖️ Seguridad y Justicia</button>
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">🖼️ URL de imagen</label>
+          <input type="url" id="edit-imagen"
+            class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+          <!-- Galería rápida -->
+          <div class="mt-2 flex flex-wrap gap-1.5 text-[11px]">
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
+              data-img="https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp">🏛️ Gobierno</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
+              data-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80">🌊 Río</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
+              data-img="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80">🏥 Hospital</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
+              data-img="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80">📚 Educación</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
+              data-img="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80">⚖️ Justicia</button>
+            <button type="button" class="q-img bg-slate-100 hover:bg-slate-200 text-slate-700 px-2 py-1 rounded-lg cursor-pointer"
+              data-img="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80">🐄 Ganadería</button>
           </div>
         </div>
 
-        <!-- Cuerpo de la Noticia -->
+        <!-- Cuerpo -->
         <div>
-          <label for="edit-cuerpo" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-            Cuerpo de la Noticia (Párrafos separados por doble Enter)
-          </label>
-          <textarea
-            id="edit-cuerpo"
-            rows="7"
-            class="w-full text-xs text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-river-500 focus:outline-none leading-relaxed"
-          ></textarea>
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Cuerpo de la noticia</label>
+          <p class="text-[11px] text-slate-400 mb-2">Separar párrafos con una línea en blanco (doble Enter).</p>
+          <textarea id="edit-cuerpo" rows="8"
+            class="w-full text-sm text-slate-800 bg-slate-50 border border-slate-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-sky-500 focus:outline-none leading-relaxed"></textarea>
         </div>
+      </div>
 
-        <!-- Botones de Acción del Modal -->
-        <div class="flex flex-col sm:flex-row items-center justify-between pt-4 border-t border-slate-100 gap-3">
-          <button
-            type="button"
-            id="btn-delete-article"
-            class="w-full sm:w-auto px-4 py-2.5 bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-1.5"
-          >
-            <span>🗑️</span>
-            <span>Eliminar Nota</span>
-          </button>
-
-          <div class="flex items-center gap-2 w-full sm:w-auto">
-            <button
-              type="button"
-              id="btn-cancel-edit"
-              class="px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-xl transition-colors cursor-pointer"
-            >
-              Cancelar
-            </button>
-            <button
-              type="button"
-              id="btn-save-edit"
-              class="flex-1 sm:flex-none px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-md transition-colors flex items-center justify-center gap-2 cursor-pointer"
-            >
-              <span>💾</span>
-              <span>Guardar Cambios</span>
-            </button>
-          </div>
-        </div>
-
+      <!-- Acciones del drawer — sticky abajo -->
+      <div class="sticky bottom-0 bg-white border-t border-slate-100 p-4 flex gap-2 shadow-[0_-4px_20px_rgba(0,0,0,0.07)]">
+        <button id="btn-delete" type="button"
+          class="px-4 py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs rounded-xl transition-colors cursor-pointer flex items-center gap-1.5">
+          🗑️ Eliminar
+        </button>
+        <button id="btn-save" type="button"
+          class="flex-1 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2 shadow-md">
+          <span id="save-icon">💾</span>
+          <span id="save-label">Guardar Cambios</span>
+        </button>
       </div>
     </div>
-
   </div>
+
 </Layout>
 
-<!-- Inyección de Datos Estáticos para el Gestor -->
-<script define:vars={{ allNews, serverGeminiKey }}>
-  window.INITIAL_NEWS_DATA = allNews;
-  window.DEFAULT_GEMINI_KEY = serverGeminiKey;
+<script define:vars={{ allNews, serverGeminiKey, serverGhToken }}>
+  window.__PN_DATA = allNews;
+  window.__PN_GEMINI = serverGeminiKey;
+  window.__PN_GH_TOKEN = serverGhToken;
 </script>
 
 <script>
-  // ─── 1. CONTROL DE ACCESO PRIVADO POR PIN ─────────────────────────
-  const DEFAULT_PIN = "1907";
-  const lockScreen = document.getElementById('auth-lock-screen');
-  const adminPanel = document.getElementById('admin-panel');
-  const inputPin = document.getElementById('admin-pin') as HTMLInputElement;
-  const btnUnlock = document.getElementById('btn-unlock');
-  const pinError = document.getElementById('pin-error');
-  const btnLogout = document.getElementById('btn-logout');
-  const btnChangePin = document.getElementById('btn-change-pin');
-  const btnConfigGithub = document.getElementById('btn-config-github');
-  const lblGithubStatus = document.getElementById('lbl-github-status');
+  // ══════════════════════════════════════════════════════════════════
+  // UTILIDADES
+  // ══════════════════════════════════════════════════════════════════
+  const DEFAULT_PIN = '1907';
+  const GH_REPO = 'andresehansen/Paranacito-noticias';
 
-  function getStoredPin(): string {
-    return localStorage.getItem('pn_admin_pin') || DEFAULT_PIN;
+  function getPin(): string { return localStorage.getItem('pn_pin') || DEFAULT_PIN; }
+  function getGhToken(): string {
+    return (window as any).__PN_GH_TOKEN ||
+           localStorage.getItem('pn_gh_token') || '';
+  }
+  function getGeminiKey(): string {
+    return localStorage.getItem('pn_gemini') ||
+           (window as any).__PN_GEMINI || '';
   }
 
-  function updateGithubStatusLabel() {
-    const token = localStorage.getItem('pn_gh_token');
-    if (lblGithubStatus) {
-      if (token) {
-        lblGithubStatus.textContent = 'GitHub Conectado ✅';
-        btnConfigGithub?.classList.add('bg-emerald-50', 'text-emerald-700', 'border-emerald-200');
-      } else {
-        lblGithubStatus.textContent = 'Conectar GitHub (1-Clic)';
-        btnConfigGithub?.classList.remove('bg-emerald-50', 'text-emerald-700', 'border-emerald-200');
-      }
-    }
+  function slugify(t: string): string {
+    return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+      .replace(/[^a-z0-9\s-]/g,'').trim().replace(/[\s-]+/g,'-').split('-').slice(0,7).join('-');
   }
 
-  btnConfigGithub?.addEventListener('click', () => {
-    const current = localStorage.getItem('pn_gh_token') || '';
-    const nuevo = prompt(
-      "🔑 Conexión Directa con GitHub (1-Clic):\n\n" +
-      "Ingresá tu Personal Access Token de GitHub con permiso 'repo'.\n" +
-      "Esto te permitirá publicar, editar y eliminar noticias en 1 clic directamente desde esta pantalla sin abrir GitHub.\n\n" +
-      "(Podés crear uno en: https://github.com/settings/tokens/new?scopes=repo&description=ParanacitoAdmin)",
-      current
-    );
-    if (nuevo !== null) {
-      if (nuevo.trim()) {
-        localStorage.setItem('pn_gh_token', nuevo.trim());
-        alert("✅ GitHub conectado exitosamente. Ya podés borrar, editar y publicar notas en 1 clic.");
-      } else {
-        localStorage.removeItem('pn_gh_token');
-        alert("Conexión de GitHub removida.");
-      }
-      updateGithubStatusLabel();
-    }
-  });
-
-  function checkAuth() {
-    const isAuth = sessionStorage.getItem('pn_admin_auth') === 'true';
-    if (isAuth) {
-      lockScreen?.classList.add('hidden');
-      adminPanel?.classList.remove('hidden');
-      updateGithubStatusLabel();
-    } else {
-      lockScreen?.classList.remove('hidden');
-      adminPanel?.classList.add('hidden');
-    }
-  }
-
-  btnUnlock?.addEventListener('click', () => {
-    const entered = inputPin?.value.trim();
-    if (entered === getStoredPin()) {
-      sessionStorage.setItem('pn_admin_auth', 'true');
-      if (pinError) pinError.classList.add('hidden');
-      checkAuth();
-    } else {
-      if (pinError) pinError.classList.remove('hidden');
-    }
-  });
-
-  inputPin?.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') btnUnlock?.click();
-  });
-
-  btnLogout?.addEventListener('click', () => {
-    sessionStorage.removeItem('pn_admin_auth');
-    if (inputPin) inputPin.value = '';
-    checkAuth();
-  });
-
-  btnChangePin?.addEventListener('click', () => {
-    const nuevo = prompt("Ingresá tu nuevo PIN de administrador (mínimo 4 caracteres):");
-    if (nuevo && nuevo.trim().length >= 4) {
-      localStorage.setItem('pn_admin_pin', nuevo.trim());
-      alert("✅ PIN actualizado exitosamente.");
-    }
-  });
-
-  checkAuth();
-
-  // ─── 2. MANEJO DE PESTAÑAS ───────────────────────────────────────
-  const tabBtnCreate = document.getElementById('tab-btn-create');
-  const tabBtnManage = document.getElementById('tab-btn-manage');
-  const viewCreate = document.getElementById('view-create');
-  const viewManage = document.getElementById('view-manage');
-
-  tabBtnCreate?.addEventListener('click', () => {
-    tabBtnCreate.className = 'tab-button active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-river-600 text-white shadow-sm cursor-pointer';
-    tabBtnManage?.classList.remove('bg-river-600', 'text-white', 'shadow-sm');
-    tabBtnManage?.classList.add('bg-slate-100', 'text-slate-700');
-    viewCreate?.classList.remove('hidden');
-    viewManage?.classList.add('hidden');
-  });
-
-  tabBtnManage?.addEventListener('click', () => {
-    tabBtnManage.className = 'tab-button active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-river-600 text-white shadow-sm cursor-pointer';
-    tabBtnCreate?.classList.remove('bg-river-600', 'text-white', 'shadow-sm');
-    tabBtnCreate?.classList.add('bg-slate-100', 'text-slate-700');
-    viewManage?.classList.remove('hidden');
-    viewCreate?.classList.add('hidden');
-    renderNewsGrid();
-  });
-
-  // ─── 3. GESTIÓN Y EDICIÓN DE NOTICIAS ────────────────────────────
-  let newsList: any[] = (window as any).INITIAL_NEWS_DATA || [];
-  const newsGrid = document.getElementById('news-grid');
-  const searchInput = document.getElementById('manage-search') as HTMLInputElement;
-  const catFilter = document.getElementById('manage-cat-filter') as HTMLSelectElement;
-
-  const editModal = document.getElementById('edit-modal');
-  const btnCloseModal = document.getElementById('btn-close-modal');
-  const btnCancelEdit = document.getElementById('btn-cancel-edit');
-  const btnSaveEdit = document.getElementById('btn-save-edit');
-  const btnDeleteArticle = document.getElementById('btn-delete-article');
-
-  const editArticleId = document.getElementById('edit-article-id') as HTMLInputElement;
-  const editArticleFilename = document.getElementById('edit-article-filename') as HTMLInputElement;
-  const editTitle = document.getElementById('edit-title') as HTMLInputElement;
-  const editCopete = document.getElementById('edit-copete') as HTMLTextAreaElement;
-  const editCategoria = document.getElementById('edit-categoria') as HTMLSelectElement;
-  const editEsAlerta = document.getElementById('edit-es-alerta') as HTMLInputElement;
-  const editImagen = document.getElementById('edit-imagen') as HTMLInputElement;
-  const editCuerpo = document.getElementById('edit-cuerpo') as HTMLTextAreaElement;
-
-  let currentEditingItem: any = null;
-
-  function renderNewsGrid() {
-    if (!newsGrid) return;
-    const search = searchInput?.value.toLowerCase().trim() || '';
-    const cat = catFilter?.value || 'todas';
-
-    const filtered = newsList.filter(n => {
-      const matchSearch = (n.titulo || '').toLowerCase().includes(search) || (n.copete || '').toLowerCase().includes(search);
-      const matchCat = cat === 'todas' || n.categoria === cat;
-      return matchSearch && matchCat;
+  async function ghGet(path: string, token: string) {
+    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${path}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json' }
     });
+    return r.ok ? r.json() : null;
+  }
 
-    const badgeCount = document.getElementById('count-news-badge');
-    if (badgeCount) badgeCount.textContent = String(newsList.length);
+  async function ghPut(path: string, content: string, message: string, token: string, sha?: string) {
+    const body: any = { message, content: btoa(unescape(encodeURIComponent(content))), branch: 'main' };
+    if (sha) body.sha = sha;
+    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${path}`, {
+      method: 'PUT',
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!r.ok) throw new Error(`GitHub ${r.status}: ${await r.text()}`);
+    return r.json();
+  }
 
-    if (filtered.length === 0) {
-      newsGrid.innerHTML = `
-        <div class="col-span-full py-12 text-center text-slate-400 bg-white rounded-2xl border border-slate-200 p-8">
-          <p class="text-base font-bold text-slate-600">No se encontraron noticias</p>
-          <p class="text-xs text-slate-400 mt-1">Probá con otro término de búsqueda o categoría.</p>
-        </div>
-      `;
+  async function ghDelete(path: string, sha: string, message: string, token: string) {
+    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${path}`, {
+      method: 'DELETE',
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message, sha, branch: 'main' })
+    });
+    if (!r.ok) throw new Error(`GitHub ${r.status}: ${await r.text()}`);
+  }
+
+  function getSemanticImage(title: string, text: string, cat: string, custom: string): string {
+    if (custom?.startsWith('http') && !custom.includes('photo-1511632765486')) return custom;
+    const full = `${title} ${text} ${cat}`.toLowerCase();
+    if (/hacienda|ganado|vaca|rodeo/.test(full)) return 'https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80';
+    if (/policia|detencion|profuga|justicia|penal|estafa/.test(full)) return 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80';
+    if (/cazador|ciervo|humedal|fauna|visor/.test(full)) return 'https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80';
+    if (/hospital|medic|guardia|vacuna|salud/.test(full)) return 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80';
+    if (/escuela|docente|concurso|instituto|enfermeria/.test(full)) return 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80';
+    if (/obra|camino|vialidad|puente/.test(full)) return 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80';
+    if (/futbol|deporte|club/.test(full)) return 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80';
+    if (/turismo|pesca|muelle/.test(full)) return 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80';
+    return 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80';
+  }
+
+  // ══════════════════════════════════════════════════════════════════
+  // LOGIN
+  // ══════════════════════════════════════════════════════════════════
+  const authScreen = document.getElementById('auth-screen')!;
+  const mainPanel = document.getElementById('main-panel')!;
+  const inputPin = document.getElementById('input-pin') as HTMLInputElement;
+  const inputGhToken = document.getElementById('input-gh-token') as HTMLInputElement;
+  const ghTokenField = document.getElementById('gh-token-field')!;
+  const loginError = document.getElementById('login-error')!;
+  const ghBadge = document.getElementById('gh-badge')!;
+
+  // Si hay token del servidor (variable de entorno), ocultar el campo
+  if ((window as any).__PN_GH_TOKEN) {
+    ghTokenField.classList.add('hidden');
+  } else if (localStorage.getItem('pn_gh_token')) {
+    // Si ya guardado, precargar pero ocultar
+    inputGhToken.value = localStorage.getItem('pn_gh_token')!;
+  }
+
+  function showPanel() {
+    authScreen.classList.add('hidden');
+    mainPanel.classList.remove('hidden');
+    // Mostrar badge de GitHub si conectado
+    if (getGhToken()) {
+      ghBadge.classList.remove('hidden');
+    }
+    // Precargar clave Gemini
+    const geminiInput = document.getElementById('gemini-key') as HTMLInputElement;
+    if (geminiInput) {
+      geminiInput.value = getGeminiKey();
+      if (geminiInput.value) {
+        document.getElementById('gemini-status')!.textContent = 'Activa ✓';
+      } else {
+        document.getElementById('gemini-status')!.textContent = 'Sin configurar';
+        document.getElementById('gemini-status')!.className = 'text-[10px] font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded-full';
+      }
+    }
+    renderNewsList();
+  }
+
+  // Verificar si ya está autenticado
+  if (sessionStorage.getItem('pn_auth') === '1') showPanel();
+
+  document.getElementById('btn-login')!.addEventListener('click', () => {
+    const pin = inputPin.value.trim();
+    if (pin !== getPin()) {
+      loginError.classList.remove('hidden');
+      inputPin.classList.add('border-rose-400');
+      return;
+    }
+    // Guardar token ingresado si no viene del servidor
+    const tok = inputGhToken.value.trim();
+    if (tok) localStorage.setItem('pn_gh_token', tok);
+    sessionStorage.setItem('pn_auth', '1');
+    showPanel();
+  });
+  inputPin.addEventListener('keydown', e => { if (e.key === 'Enter') (document.getElementById('btn-login') as HTMLButtonElement).click(); });
+
+  document.getElementById('btn-logout')!.addEventListener('click', () => {
+    sessionStorage.removeItem('pn_auth');
+    mainPanel.classList.add('hidden');
+    authScreen.classList.remove('hidden');
+    inputPin.value = '';
+  });
+
+  document.getElementById('btn-change-pin')!.addEventListener('click', () => {
+    const np = prompt('Nuevo PIN (mínimo 4 caracteres):');
+    if (np && np.trim().length >= 4) {
+      localStorage.setItem('pn_pin', np.trim());
+      alert('✅ PIN actualizado.');
+    }
+  });
+
+  // ══════════════════════════════════════════════════════════════════
+  // TABS
+  // ══════════════════════════════════════════════════════════════════
+  const viewCrear = document.getElementById('view-crear')!;
+  const viewAdmin = document.getElementById('view-admin')!;
+  const tabCrear = document.getElementById('tab-crear')!;
+  const tabAdmin = document.getElementById('tab-admin')!;
+
+  function activateTab(tab: 'crear' | 'admin') {
+    const isCrear = tab === 'crear';
+    viewCrear.classList.toggle('hidden', !isCrear);
+    viewAdmin.classList.toggle('hidden', isCrear);
+    tabCrear.className = `tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 transition-all cursor-pointer ${
+      isCrear ? 'border-sky-600 text-sky-700 bg-sky-50' : 'border-transparent text-slate-500 hover:text-slate-800'
+    }`;
+    tabAdmin.className = `tab-btn px-4 py-2.5 text-xs sm:text-sm font-bold rounded-t-xl border-b-2 transition-all cursor-pointer ${
+      !isCrear ? 'border-sky-600 text-sky-700 bg-sky-50' : 'border-transparent text-slate-500 hover:text-slate-800'
+    }`;
+    if (!isCrear) renderNewsList();
+  }
+
+  tabCrear.addEventListener('click', () => activateTab('crear'));
+  tabAdmin.addEventListener('click', () => activateTab('admin'));
+
+  // ══════════════════════════════════════════════════════════════════
+  // LISTA DE NOTICIAS (TAB ADMIN)
+  // ══════════════════════════════════════════════════════════════════
+  let newsList: any[] = (window as any).__PN_DATA || [];
+  const newsListEl = document.getElementById('news-list')!;
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const catFilter = document.getElementById('cat-filter') as HTMLSelectElement;
+
+  function renderNewsList() {
+    const q = searchInput.value.toLowerCase().trim();
+    const cat = catFilter.value;
+    document.getElementById('badge-total')!.textContent = String(newsList.length);
+
+    const filtered = newsList.filter(n =>
+      (!cat || n.categoria === cat) &&
+      (!q || (n.titulo || '').toLowerCase().includes(q) || (n.copete || '').toLowerCase().includes(q))
+    );
+
+    if (!filtered.length) {
+      newsListEl.innerHTML = `<div class="text-center py-12 text-slate-400 bg-white rounded-2xl border border-slate-200 p-8">
+        <p class="font-bold text-slate-600">Sin resultados</p>
+        <p class="text-xs mt-1">Probá con otro filtro.</p>
+      </div>`;
       return;
     }
 
-    newsGrid.innerHTML = filtered.map((n) => {
-      const isAlerta = n.es_alerta === true;
-      const imgUrl = n.imagen && n.imagen.startsWith('http') ? n.imagen : 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80';
-      return `
-        <div class="bg-white rounded-2xl border border-slate-200/90 p-4 shadow-sm hover:shadow-md transition-all flex gap-4 items-start">
-          <div class="w-24 h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 aspect-square">
-            <img src="${imgUrl}" alt="${n.titulo}" class="w-full h-full object-cover" />
+    newsListEl.innerHTML = filtered.map(n => {
+      const img = n.imagen?.startsWith('http') ? n.imagen : 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=70';
+      return `<div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all overflow-hidden">
+        <div class="flex gap-0">
+          <div class="w-28 h-28 sm:w-32 sm:h-32 shrink-0">
+            <img src="${img}" alt="" class="w-full h-full object-cover" />
           </div>
-
-          <div class="flex-1 min-w-0 flex flex-col justify-between h-full">
+          <div class="flex-1 p-3 flex flex-col justify-between min-w-0">
             <div>
-              <div class="flex items-center gap-1.5 mb-1.5 flex-wrap">
-                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-river-50 text-river-700 border border-river-200">
-                  ${n.categoria}
-                </span>
-                ${isAlerta ? '<span class="px-1.5 py-0.5 rounded-full text-[10px] font-black bg-rose-600 text-white animate-pulse">🚨 ALERTA</span>' : ''}
-                <span class="text-[10px] text-slate-400 ml-auto">${n.fecha_publicacion || ''}</span>
+              <div class="flex items-center gap-1.5 mb-1 flex-wrap">
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200">${n.categoria}</span>
+                ${n.es_alerta ? '<span class="text-[10px] font-black px-2 py-0.5 rounded-full bg-rose-600 text-white">🚨</span>' : ''}
               </div>
-
-              <h4 class="text-sm font-bold text-slate-900 leading-snug line-clamp-2 mb-1">
-                ${n.titulo}
-              </h4>
+              <p class="text-sm font-bold text-slate-900 leading-snug line-clamp-2">${n.titulo}</p>
+              <p class="text-[11px] text-slate-500 mt-0.5">${n.fecha_publicacion || ''}</p>
             </div>
-
-            <div class="flex items-center gap-2 pt-2 border-t border-slate-100 mt-2">
-              <button
-                class="btn-edit-item text-xs font-bold bg-river-50 hover:bg-river-100 text-river-700 px-3 py-1 rounded-lg transition-colors cursor-pointer"
-                data-slug="${n.slug}"
-              >
+            <div class="flex items-center gap-2 mt-2 pt-2 border-t border-slate-100">
+              <button class="btn-edit flex-1 text-xs font-bold bg-sky-50 hover:bg-sky-100 text-sky-700 py-2 rounded-xl transition-colors cursor-pointer" data-slug="${n.slug}">
                 ✏️ Editar
               </button>
-              <a
-                href="/noticias/${n.slug}"
-                target="_blank"
-                class="text-xs text-slate-500 hover:text-slate-800 px-2 py-1 rounded-lg transition-colors"
-              >
-                🔗 Ver en web
+              <a href="/noticias/${n.slug}" target="_blank" class="text-xs font-bold px-3 py-2 bg-slate-50 hover:bg-slate-100 text-slate-500 rounded-xl transition-colors">
+                🔗 Ver
               </a>
             </div>
           </div>
         </div>
-      `;
+      </div>`;
     }).join('');
 
-    // Asignar listeners a botones de editar
-    document.querySelectorAll('.btn-edit-item').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        const slug = (e.currentTarget as HTMLElement).getAttribute('data-slug');
+    newsListEl.querySelectorAll('.btn-edit').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const slug = (btn as HTMLElement).dataset.slug;
         const item = newsList.find(n => n.slug === slug);
-        if (item) openEditModal(item);
+        if (item) openDrawer(item);
       });
     });
   }
 
-  searchInput?.addEventListener('input', renderNewsGrid);
-  catFilter?.addEventListener('change', renderNewsGrid);
+  searchInput.addEventListener('input', renderNewsList);
+  catFilter.addEventListener('change', renderNewsList);
 
-  function openEditModal(item: any) {
-    currentEditingItem = item;
-    if (editArticleId) editArticleId.value = item.acontecimiento_id || item.id || item.slug;
-    if (editArticleFilename) editArticleFilename.value = item.archivo || `${item.slug}.json`;
-    if (editTitle) editTitle.value = item.titulo || '';
-    if (editCopete) editCopete.value = item.copete || '';
-    if (editCategoria) editCategoria.value = item.categoria || 'Comunidad';
-    if (editEsAlerta) editEsAlerta.checked = item.es_alerta === true;
-    if (editImagen) editImagen.value = item.imagen && item.imagen.startsWith('http') ? item.imagen : '';
+  // ══════════════════════════════════════════════════════════════════
+  // DRAWER DE EDICIÓN
+  // ══════════════════════════════════════════════════════════════════
+  const drawer = document.getElementById('edit-drawer')!;
+  const drawerOverlay = document.getElementById('drawer-overlay')!;
+  let editingItem: any = null;
 
-    const bodyText = Array.isArray(item.cuerpo) ? item.cuerpo.join('\n\n') : (item.cuerpo || '');
-    if (editCuerpo) editCuerpo.value = bodyText;
+  const eId = document.getElementById('edit-id') as HTMLInputElement;
+  const eFilename = document.getElementById('edit-filename') as HTMLInputElement;
+  const eTitulo = document.getElementById('edit-titulo') as HTMLTextAreaElement;
+  const eCopete = document.getElementById('edit-copete') as HTMLTextAreaElement;
+  const eCat = document.getElementById('edit-cat') as HTMLSelectElement;
+  const eAlerta = document.getElementById('edit-alerta') as HTMLInputElement;
+  const eImagen = document.getElementById('edit-imagen') as HTMLInputElement;
+  const eCuerpo = document.getElementById('edit-cuerpo') as HTMLTextAreaElement;
 
-    editModal?.classList.remove('hidden');
+  function openDrawer(item: any) {
+    editingItem = item;
+    eId.value = item.acontecimiento_id || item.id || item.slug;
+    eFilename.value = item.archivo || `${item.slug}.json`;
+    eTitulo.value = item.titulo || '';
+    eCopete.value = item.copete || '';
+    eCat.value = item.categoria || 'Comunidad';
+    eAlerta.checked = !!item.es_alerta;
+    eImagen.value = item.imagen?.startsWith('http') ? item.imagen : '';
+    eCuerpo.value = Array.isArray(item.cuerpo) ? item.cuerpo.join('\n\n') : (item.cuerpo || '');
+    drawer.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
   }
 
-  function closeModal() {
-    editModal?.classList.add('hidden');
-    currentEditingItem = null;
+  function closeDrawer() {
+    drawer.classList.add('hidden');
+    document.body.style.overflow = '';
+    editingItem = null;
   }
 
-  btnCloseModal?.addEventListener('click', closeModal);
-  btnCancelEdit?.addEventListener('click', closeModal);
+  document.getElementById('drawer-close')!.addEventListener('click', closeDrawer);
+  drawerOverlay.addEventListener('click', closeDrawer);
 
-  // Galería rápida en modal
-  document.querySelectorAll('.btn-quick-img').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      const url = (e.currentTarget as HTMLElement).getAttribute('data-img');
-      if (editImagen && url) editImagen.value = url;
+  // Galería rápida
+  drawer.querySelectorAll('.q-img').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const url = (btn as HTMLElement).dataset.img;
+      if (url) eImagen.value = url;
     });
   });
 
-  // Guardar cambios (con soporte GitHub API 1-clic)
-  btnSaveEdit?.addEventListener('click', async () => {
-    if (!currentEditingItem) return;
+  // GUARDAR
+  document.getElementById('btn-save')!.addEventListener('click', async () => {
+    if (!editingItem) return;
+    const saveIcon = document.getElementById('save-icon')!;
+    const saveLabel = document.getElementById('save-label')!;
+    const btn = document.getElementById('btn-save')!;
 
-    const title = editTitle?.value.trim();
-    const copete = editCopete?.value.trim();
-    const categoria = editCategoria?.value;
-    const esAlerta = editEsAlerta?.checked;
-    const imagen = editImagen?.value.trim() || 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80';
-    const cuerpoArr = editCuerpo?.value.split('\n\n').map(p => p.trim()).filter(p => p.length > 0);
+    const title = eTitulo.value.trim();
+    const copete = eCopete.value.trim();
+    if (!title || !copete) { alert('El título y el copete son obligatorios.'); return; }
 
-    if (!title || !copete) {
-      alert("Por favor completá el título y el copete.");
-      return;
-    }
+    const imagen = eImagen.value.trim() || getSemanticImage(title, eCopete.value, eCat.value, '');
+    const cuerpo = eCuerpo.value.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
 
     const updated = {
-      ...currentEditingItem,
+      ...editingItem,
       titulo: title,
-      copete: copete,
-      categoria: categoria,
-      es_alerta: esAlerta,
-      imagen: imagen,
-      cuerpo: cuerpoArr,
-      fecha_ultima_actualizacion: `Hoy, ${new Date().toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit' })} hs`,
+      copete,
+      categoria: eCat.value,
+      es_alerta: eAlerta.checked,
+      imagen,
+      cuerpo,
+      fecha_ultima_actualizacion: `${new Date().toLocaleDateString('es-AR')}, ${new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'})} hs`,
       fecha_ultima_actualizacion_iso: new Date().toISOString()
     };
 
-    const filename = updated.archivo || `${updated.slug}.json`;
-    const token = localStorage.getItem('pn_gh_token');
+    const filename = eFilename.value;
+    const token = getGhToken();
 
-    if (token) {
-      try {
-        const getUrl = `https://api.github.com/repos/andresehansen/Paranacito-noticias/contents/data/noticias/${filename}`;
-        const getResp = await fetch(getUrl, {
-          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json' }
-        });
-        const getJson = getResp.ok ? await getResp.json() : null;
-        const sha = getJson ? getJson.sha : undefined;
-
-        const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(updated, null, 2))));
-        const putResp = await fetch(getUrl, {
-          method: 'PUT',
-          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            message: `Actualizar noticia: ${updated.slug}`,
-            content: contentBase64,
-            sha: sha,
-            branch: 'main'
-          })
-        });
-
-        if (!putResp.ok) throw new Error("Error al guardar en GitHub.");
-
-        // Actualizar en memoria
-        const idx = newsList.findIndex(n => n.slug === updated.slug);
-        if (idx !== -1) newsList[idx] = updated;
-        renderNewsGrid();
-        closeModal();
-        alert("✅ ¡Noticia actualizada directamente en GitHub! Vercel desplegará los cambios en 30 segundos.");
-        return;
-      } catch (err: any) {
-        console.error(err);
-      }
-    }
-
-    // Fallback descarga JSON
-    const jsonStr = JSON.stringify(updated, null, 2);
-    const blob = new Blob([jsonStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-
-    alert(`✅ Archivo "${filename}" descargado.\n\nSubilo a "data/noticias/" en GitHub o conectá tu Token en el botón superior para guardar en 1 clic.`);
-    closeModal();
-  });
-
-  // Eliminar nota (con soporte GitHub API 1-clic)
-  btnDeleteArticle?.addEventListener('click', async () => {
-    if (!currentEditingItem) return;
-    const filename = currentEditingItem.archivo || `${currentEditingItem.slug}.json`;
-    const token = localStorage.getItem('pn_gh_token');
-
-    const confirmDelete = confirm(`¿Estás seguro de que querés eliminar la nota:\n"${currentEditingItem.titulo}"?`);
-    if (!confirmDelete) return;
-
-    if (token) {
-      try {
-        const getUrl = `https://api.github.com/repos/andresehansen/Paranacito-noticias/contents/data/noticias/${filename}`;
-        const getResp = await fetch(getUrl, {
-          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json' }
-        });
-
-        if (getResp.ok) {
-          const getJson = await getResp.json();
-          const sha = getJson.sha;
-
-          const delResp = await fetch(getUrl, {
-            method: 'DELETE',
-            headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              message: `Eliminar noticia: ${currentEditingItem.slug}`,
-              sha: sha,
-              branch: 'main'
-            })
-          });
-
-          if (!delResp.ok) throw new Error("Error en la llamada DELETE de GitHub.");
-        }
-
-        // Remover de la lista visual
-        newsList = newsList.filter(n => n.slug !== currentEditingItem.slug);
-        renderNewsGrid();
-        closeModal();
-        alert("✅ ¡Noticia eliminada directamente del repositorio con éxito! Vercel actualizará la página en 30 segundos.");
-        return;
-      } catch (err: any) {
-        alert(`Error al eliminar en GitHub: ${err.message}`);
-      }
-    }
-
-    // Si no hay token configurado, remover localmente
-    newsList = newsList.filter(n => n.slug !== currentEditingItem.slug);
-    renderNewsGrid();
-    closeModal();
-    alert(`Nota removida de la vista actual.\n\nPara borrarla permanentemente sin token, eliminá "${filename}" en GitHub.`);
-  });
-
-  // ─── 4. CREADOR DE NOTICIAS CON GEMINI ───────────────────────────
-  const inputKey = document.getElementById('gemini-key') as HTMLInputElement;
-  const savedKey = localStorage.getItem('gemini_api_key') || '';
-  const defaultKey = (window as any).DEFAULT_GEMINI_KEY || '';
-
-  if (inputKey) {
-    if (savedKey) {
-      inputKey.value = savedKey;
-    } else if (defaultKey) {
-      inputKey.value = defaultKey;
-    }
-  }
-
-  const btnGenerar = document.getElementById('btn-generar');
-  const btnIcon = document.getElementById('btn-icon');
-  const btnText = document.getElementById('btn-text');
-  const errorMsg = document.getElementById('error-msg');
-
-  const previewPlaceholder = document.getElementById('preview-placeholder');
-  const previewContainer = document.getElementById('preview-container');
-  const prevTitulo = document.getElementById('prev-titulo');
-  const prevCopete = document.getElementById('prev-copete');
-  const prevCuerpo = document.getElementById('prev-cuerpo');
-  const prevCategoria = document.getElementById('prev-categoria');
-  const prevAlerta = document.getElementById('prev-alerta');
-  const prevImagen = document.getElementById('prev-imagen') as HTMLImageElement;
-  const prevImagenContainer = document.getElementById('prev-imagen-container');
-  const prevTags = document.getElementById('prev-tags');
-  const prevWhatsapp = document.getElementById('prev-whatsapp');
-  const btnCopyWa = document.getElementById('btn-copy-wa');
-  const btnDownloadJson = document.getElementById('btn-download-json');
-  const btnPublishDirect = document.getElementById('btn-publish-direct');
-
-  let generatedArticleData: any = null;
-
-  const THEMATIC_CATALOG: Record<string, string[]> = {
-    ganaderia_campo: [
-      'https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&w=1200&q=80'
-    ],
-    policia_justicia: [
-      'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1200&q=80'
-    ],
-    fauna_humedales: [
-      'https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80'
-    ],
-    rio_crecida: [
-      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80'
-    ],
-    salud_hospital: [
-      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80'
-    ],
-    educacion_docentes: [
-      'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80'
-    ],
-    obras_vialidad: [
-      'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80'
-    ],
-    deportes: [
-      'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80'
-    ],
-    turismo_pesca: [
-      'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80'
-    ],
-    comunidad_sociedad: [
-      'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80'
-    ]
-  };
-
-  function getSemanticImage(title: string, text: string, category: string, customUrl: string): string {
-    if (customUrl && customUrl.startsWith('http') && !customUrl.includes('photo-1511632765486-a01980e01a18')) {
-      return customUrl;
-    }
-    const full = `${title} ${text} ${category}`.toLowerCase();
-    if (full.includes('hacienda') || full.includes('ganado') || full.includes('vaca') || full.includes('rodeo') || full.includes('rural')) {
-      return THEMATIC_CATALOG.ganaderia_campo[0];
-    }
-    if (full.includes('policia') || full.includes('deten') || full.includes('profug') || full.includes('justicia') || full.includes('penal') || full.includes('estafa')) {
-      return THEMATIC_CATALOG.policia_justicia[0];
-    }
-    if (full.includes('cazador') || full.includes('fauna') || full.includes('ciervo') || full.includes('humedal') || full.includes('visor')) {
-      return THEMATIC_CATALOG.fauna_humedales[0];
-    }
-    if (full.includes('hospital') || full.includes('salud') || full.includes('medic') || full.includes('guardia') || full.includes('vacuna')) {
-      return THEMATIC_CATALOG.salud_hospital[0];
-    }
-    if (full.includes('escuela') || full.includes('docente') || full.includes('concurso') || full.includes('instituto') || full.includes('enfermeria')) {
-      return THEMATIC_CATALOG.educacion_docentes[0];
-    }
-    if (full.includes('obra') || full.includes('camino') || full.includes('vialidad') || full.includes('puente')) {
-      return THEMATIC_CATALOG.obras_vialidad[0];
-    }
-    if (full.includes('futbol') || full.includes('deporte') || full.includes('club')) {
-      return THEMATIC_CATALOG.deportes[0];
-    }
-    if (full.includes('turismo') || full.includes('pesca') || full.includes('cabana') || full.includes('rio')) {
-      return THEMATIC_CATALOG.turismo_pesca[0];
-    }
-    return THEMATIC_CATALOG.rio_crecida[0];
-  }
-
-
-  function slugify(text: string): string {
-    return text
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9\s-]/g, '')
-      .trim()
-      .replace(/[\s-]+/g, '-')
-      .split('-')
-      .slice(0, 7)
-      .join('-');
-  }
-
-  btnGenerar?.addEventListener('click', async () => {
-    if (errorMsg) errorMsg.classList.add('hidden');
-
-    const apiKey = inputKey?.value.trim() || (window as any).DEFAULT_GEMINI_KEY || '';
-    const rawText = (document.getElementById('raw-text') as HTMLTextAreaElement)?.value.trim();
-    const fuente = (document.getElementById('fuente-nombre') as HTMLInputElement)?.value.trim() || 'Reporte Comunitario';
-    const categoria = (document.getElementById('categoria-select') as HTMLSelectElement)?.value || 'Comunidad';
-    const confiabilidad = (document.getElementById('confiabilidad-select') as HTMLSelectElement)?.value || 'Media';
-    const esAlerta = (document.getElementById('es-alerta') as HTMLInputElement)?.checked || false;
-    let customImg = (document.getElementById('imagen-url') as HTMLInputElement)?.value.trim();
-
-    if (!rawText) {
-      if (errorMsg) {
-        errorMsg.textContent = 'Por favor ingresá los datos o el texto a redactar.';
-        errorMsg.classList.remove('hidden');
-      }
-      return;
-    }
-
-    if (!apiKey) {
-      if (errorMsg) {
-        errorMsg.textContent = 'Por favor ingresá tu clave de Gemini API para redactar.';
-        errorMsg.classList.remove('hidden');
-      }
-      return;
-    }
-
-    localStorage.setItem('gemini_api_key', apiKey);
-
-    if (btnGenerar && btnIcon && btnText) {
-      btnGenerar.setAttribute('disabled', 'true');
-      btnIcon.textContent = '⏳';
-      btnText.textContent = 'Redactando con Gemini 2.5...';
-    }
-
-    const prompt = `Sos el Jefe de Redacción Senior de "Paranacito Noticias", el portal digital de referencia de Villa Paranacito y el Delta de Entre Ríos.
-Tu misión es transformar el siguiente reporte o información cruda en una NOTA PERIODÍSTICA COMPLETA, RICA EN CONTENIDO, PROFUNDA Y DE ALTO VALOR INFORMATIVO para la comunidad isleña.
-
-DATOS BRUTOS PROVISTOS:
-${rawText}
-
-FUENTE / ORIGEN: ${fuente}
-CATEGORÍA: ${categoria}
-
-PAUTAS EDITORIALES OBLIGATORIAS:
-1. Titular atractivo, claro y periodístico.
-2. Copete o bajada de 1 a 2 oraciones que sintetice el hecho central.
-3. Cuerpo extenso y rico en contenido (4 a 6 párrafos sustanciosos):
-   - Párrafo 1: El hecho principal con precisión territorial (Villa Paranacito, Río Paranacito, arroyos, instituciones).
-   - Párrafo 2: Detalles específicos, declaraciones o antecedentes.
-   - Párrafo 3: Impacto directo en los vecinos, familias isleñas o actividades locales (navegación, caminos, servicios).
-   - Párrafo 4: Recomendaciones, medidas técnicas o información de servicio y contacto.
-4. Resumen ágil para WhatsApp con emojis informativos.
-
-Generá tu respuesta EXCLUSIVAMENTE como un objeto JSON válido (sin bloques de código adicionales), con este formato exacto:
-{
-  "titulo": "string",
-  "copete": "string",
-  "cuerpo": [
-    "Párrafo 1...",
-    "Párrafo 2...",
-    "Párrafo 3...",
-    "Párrafo 4..."
-  ],
-  "categoria": "${categoria}",
-  "tags": ["villa paranacito", "delta", "entre rios", "${categoria.toLowerCase()}"],
-  "slug": "slug-amigable-con-guiones",
-  "tiempo_lectura": "3 min",
-  "resumen_whatsapp": "📰 *Título*\\n\\nResumen periodístico para WhatsApp.\\n\\n🔗 Leé más en paranacito-noticias.vercel.app"
-}`;
+    btn.setAttribute('disabled', 'true');
+    saveIcon.textContent = '⏳';
+    saveLabel.textContent = 'Guardando...';
 
     try {
-      const endpoints = [
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`
-      ];
+      if (token) {
+        const existing = await ghGet(`data/noticias/${filename}`, token);
+        await ghPut(`data/noticias/${filename}`, JSON.stringify(updated, null, 2),
+          `Editar: ${updated.slug}`, token, existing?.sha);
+        const idx = newsList.findIndex(n => n.slug === updated.slug);
+        if (idx !== -1) newsList[idx] = { ...newsList[idx], ...updated };
+        renderNewsList();
+        closeDrawer();
+        alert('✅ Guardado en GitHub. El sitio se actualiza en ~30 segundos.');
+      } else {
+        // Sin token: descargar JSON
+        const blob = new Blob([JSON.stringify(updated, null, 2)], {type:'application/json'});
+        const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download: filename});
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+        alert(`JSON descargado. Subilo a data/noticias/ en GitHub.\nTip: Conectá tu Token GitHub en el login para guardar en 1 toque.`);
+        closeDrawer();
+      }
+    } catch(err: any) {
+      alert(`Error al guardar: ${err.message}`);
+    } finally {
+      btn.removeAttribute('disabled');
+      saveIcon.textContent = '💾';
+      saveLabel.textContent = 'Guardar Cambios';
+    }
+  });
 
-      let resData = null;
+  // ELIMINAR
+  document.getElementById('btn-delete')!.addEventListener('click', async () => {
+    if (!editingItem) return;
+    if (!confirm(`¿Eliminar la nota:\n"${editingItem.titulo}"?`)) return;
+
+    const filename = eFilename.value;
+    const token = getGhToken();
+    const deleteBtn = document.getElementById('btn-delete')!;
+    deleteBtn.textContent = '⏳';
+    deleteBtn.setAttribute('disabled','true');
+
+    try {
+      if (token) {
+        const existing = await ghGet(`data/noticias/${filename}`, token);
+        if (existing?.sha) {
+          await ghDelete(`data/noticias/${filename}`, existing.sha, `Eliminar: ${editingItem.slug}`, token);
+        }
+        newsList = newsList.filter(n => n.slug !== editingItem.slug);
+        document.getElementById('badge-total')!.textContent = String(newsList.length);
+        renderNewsList();
+        closeDrawer();
+        alert('✅ Nota eliminada. El sitio se actualiza en ~30 segundos.');
+      } else {
+        alert('Conectá tu Token de GitHub para eliminar notas en 1 toque.\n\nSin token: eliminá manualmente el archivo en github.com/andresehansen/Paranacito-noticias/data/noticias/');
+      }
+    } catch(err: any) {
+      alert(`Error al eliminar: ${err.message}`);
+    } finally {
+      deleteBtn.innerHTML = '🗑️ Eliminar';
+      deleteBtn.removeAttribute('disabled');
+    }
+  });
+
+  // ══════════════════════════════════════════════════════════════════
+  // CREADOR DE NOTICIAS CON GEMINI
+  // ══════════════════════════════════════════════════════════════════
+  const geminiInput = document.getElementById('gemini-key') as HTMLInputElement;
+  geminiInput?.addEventListener('change', () => {
+    if (geminiInput.value) localStorage.setItem('pn_gemini', geminiInput.value.trim());
+  });
+
+  let generatedData: any = null;
+
+  document.getElementById('btn-generar')!.addEventListener('click', async () => {
+    const key = geminiInput.value.trim() || getGeminiKey();
+    const raw = (document.getElementById('raw-text') as HTMLTextAreaElement).value.trim();
+    const cat = (document.getElementById('categoria-select') as HTMLSelectElement).value;
+    const fuente = (document.getElementById('fuente-nombre') as HTMLInputElement).value.trim();
+    const conf = (document.getElementById('confiabilidad-select') as HTMLSelectElement).value;
+    const alerta = (document.getElementById('es-alerta') as HTMLInputElement).checked;
+    const customImg = (document.getElementById('imagen-url') as HTMLInputElement).value.trim();
+    const errEl = document.getElementById('create-error')!;
+    errEl.classList.add('hidden');
+
+    if (!raw) { errEl.textContent = 'Por favor ingresá el texto a redactar.'; errEl.classList.remove('hidden'); return; }
+    if (!key) { errEl.textContent = 'Ingresá tu clave de Gemini API.'; errEl.classList.remove('hidden'); return; }
+
+    if (key) localStorage.setItem('pn_gemini', key);
+
+    const btnG = document.getElementById('btn-generar')!;
+    const icon = document.getElementById('btn-icon')!;
+    const lbl = document.getElementById('btn-text')!;
+    btnG.setAttribute('disabled','true');
+    icon.textContent = '⏳'; lbl.textContent = 'Redactando...';
+
+    const prompt = `Sos el Jefe de Redacción de "Paranacito Noticias" en Villa Paranacito, Delta de Entre Ríos.
+Transformá esta información en una nota periodística completa (4-6 párrafos ricos) y devolvé SOLO un JSON válido:
+
+INFORMACIÓN BRUTA:
+${raw}
+
+FUENTE: ${fuente} | CATEGORÍA: ${cat}
+
+Formato de respuesta (JSON sin markdown):
+{"titulo":"string","copete":"string","cuerpo":["p1","p2","p3","p4"],"categoria":"${cat}","tags":["villa paranacito","delta","entre rios"],"slug":"slug-amigable","tiempo_lectura":"3 min","resumen_whatsapp":"📰 *Título*\\n\\nResumen.\\n\\n🔗 paranacito-noticias.vercel.app"}`;
+
+    const endpoints = [
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`,
+    ];
+
+    try {
+      let data = null;
       for (const url of endpoints) {
         try {
-          const resp = await fetch(url, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
-              generationConfig: { temperature: 0.25, responseMimeType: 'application/json' }
-            })
+          const r = await fetch(url, {
+            method:'POST', headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature:0.25,responseMimeType:'application/json'} })
           });
-          if (resp.ok) {
-            resData = await resp.json();
-            break;
-          }
-        } catch (e) {}
+          if (r.ok) { data = await r.json(); break; }
+        } catch {}
       }
+      if (!data) throw new Error('No se pudo conectar con Gemini. Verificá tu clave.');
 
-      if (!resData) {
-        throw new Error("No se pudo conectar con Gemini API. Verificá tu clave.");
-      }
-
-      const textContent = resData.candidates[0].content.parts[0].text;
-      const cleanJson = textContent.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
-      const parsed = JSON.parse(cleanJson);
+      const txt = data.candidates[0].content.parts[0].text;
+      const parsed = JSON.parse(txt.replace(/^```json\s*/,'').replace(/\s*```$/,'').trim());
 
       const now = new Date();
-      const nowIso = now.toISOString();
-      const finalSlug = slugify(parsed.slug || parsed.titulo);
-      const finalImg = getSemanticImage(parsed.titulo, rawText, categoria, customImg);
+      const slug = slugify(parsed.slug || parsed.titulo);
+      const img = getSemanticImage(parsed.titulo, raw, cat, customImg);
 
-      generatedArticleData = {
-
-        acontecimiento_id: `${nowIso.split('T')[0]}-${finalSlug}`,
-        id: `${nowIso.split('T')[0]}-${finalSlug}`,
-        titulo: parsed.titulo,
-        copete: parsed.copete,
-        cuerpo: parsed.cuerpo,
-        categoria: parsed.categoria || categoria,
-        tags: parsed.tags || ['villa paranacito', 'delta'],
-        slug: finalSlug,
-        tiempo_lectura: parsed.tiempo_lectura || '3 min',
+      generatedData = {
+        acontecimiento_id: `${now.toISOString().split('T')[0]}-${slug}`,
+        id: `${now.toISOString().split('T')[0]}-${slug}`,
+        titulo: parsed.titulo, copete: parsed.copete, cuerpo: parsed.cuerpo,
+        categoria: parsed.categoria || cat, tags: parsed.tags || ['villa paranacito','delta'],
+        slug, tiempo_lectura: parsed.tiempo_lectura || '3 min',
         resumen_whatsapp: parsed.resumen_whatsapp,
-        imagen: finalImg,
-        estado: esAlerta ? 'En desarrollo' : 'Publicado',
-        nivel_confiabilidad: confiabilidad,
-        es_alerta: esAlerta,
-        requiere_revision: false,
-        publicado: true,
-        fuentes_consultadas: [{ nombre: fuente, fecha_consulta: nowIso }],
-        cronologia_actualizaciones: [
-          {
-            hora: `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`,
-            fecha: nowIso.split('T')[0],
-            fuente: fuente,
-            dato: parsed.copete,
-            es_dato_nuevo: true
-          }
-        ],
-        fecha_inicio_iso: nowIso,
-        fecha_iso: nowIso,
-        fecha_publicacion: `Hoy, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
-        fecha_ultima_actualizacion: `Hoy, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
-        archivo: `${nowIso.split('T')[0]}-${finalSlug}.json`
+        imagen: img, estado: alerta ? 'En desarrollo' : 'Publicado',
+        nivel_confiabilidad: conf, es_alerta: alerta,
+        publicado: true, requiere_revision: false,
+        fuentes_consultadas: [{nombre: fuente, fecha_consulta: now.toISOString()}],
+        fecha_iso: now.toISOString(), fecha_inicio_iso: now.toISOString(),
+        fecha_publicacion: `${now.getDate()} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][now.getMonth()]} de ${now.getFullYear()}, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
+        fecha_ultima_actualizacion_iso: now.toISOString(),
+        archivo: `${now.toISOString().split('T')[0]}-${slug}.json`
       };
 
-      if (prevTitulo) prevTitulo.textContent = generatedArticleData.titulo;
-      if (prevCopete) prevCopete.textContent = generatedArticleData.copete;
-      if (prevCategoria) prevCategoria.textContent = generatedArticleData.categoria;
-      
-      if (prevAlerta) {
-        if (esAlerta) prevAlerta.classList.remove('hidden');
-        else prevAlerta.classList.add('hidden');
+      // Mostrar preview
+      document.getElementById('prev-cat')!.textContent = generatedData.categoria;
+      const alertBadge = document.getElementById('prev-alert-badge')!;
+      alerta ? alertBadge.classList.remove('hidden') : alertBadge.classList.add('hidden');
+      document.getElementById('prev-titulo')!.textContent = generatedData.titulo;
+      document.getElementById('prev-copete')!.textContent = generatedData.copete;
+      const img_el = document.getElementById('prev-imagen') as HTMLImageElement;
+      img_el.src = img; img_el.alt = generatedData.titulo;
+      const cuerpoEl = document.getElementById('prev-cuerpo')!;
+      cuerpoEl.innerHTML = '';
+      generatedData.cuerpo.forEach((p: string) => {
+        const pe = document.createElement('p'); pe.textContent = p; cuerpoEl.appendChild(pe);
+      });
+      document.getElementById('prev-wa')!.textContent = generatedData.resumen_whatsapp;
+
+      const token = getGhToken();
+      const hint = document.getElementById('publish-hint')!;
+      const btnPub = document.getElementById('btn-publish-text')!;
+      if (token) {
+        hint.textContent = 'Publicá directo al repositorio en 1 toque.';
+        btnPub.textContent = 'Publicar Directo';
+      } else {
+        hint.textContent = 'Sin token configurado → descargá el JSON y subilo a GitHub.';
+        btnPub.textContent = 'Descargar JSON';
       }
 
-      if (prevImagen && prevImagenContainer) {
-        prevImagen.src = finalImg;
-        prevImagenContainer.classList.remove('hidden');
-      }
+      document.getElementById('preview-container')!.classList.remove('hidden');
+      document.getElementById('preview-container')!.scrollIntoView({behavior:'smooth', block:'start'});
 
-      if (prevCuerpo) {
-        prevCuerpo.innerHTML = '';
-        generatedArticleData.cuerpo.forEach((p: string) => {
-          const pEl = document.createElement('p');
-          pEl.textContent = p;
-          prevCuerpo.appendChild(pEl);
-        });
-      }
-
-      if (prevTags) {
-        prevTags.innerHTML = '';
-        generatedArticleData.tags.forEach((tag: string) => {
-          const tEl = document.createElement('span');
-          tEl.className = 'bg-slate-100 text-slate-700 px-2.5 py-0.5 rounded-lg border border-slate-200';
-          tEl.textContent = `#${tag}`;
-          prevTags.appendChild(tEl);
-        });
-      }
-
-      if (prevWhatsapp) prevWhatsapp.textContent = generatedArticleData.resumen_whatsapp;
-      if (previewPlaceholder) previewPlaceholder.classList.add('hidden');
-      if (previewContainer) previewContainer.classList.remove('hidden');
-
-    } catch (err: any) {
-      if (errorMsg) {
-        errorMsg.textContent = `Error: ${err.message || 'No se pudo generar la noticia.'}`;
-        errorMsg.classList.remove('hidden');
-      }
+    } catch(err: any) {
+      errEl.textContent = err.message || 'Error al generar.';
+      errEl.classList.remove('hidden');
     } finally {
-      if (btnGenerar && btnIcon && btnText) {
-        btnGenerar.removeAttribute('disabled');
-        btnIcon.textContent = '✨';
-        btnText.textContent = 'Redactar Noticia con Gemini 2.5';
-      }
+      btnG.removeAttribute('disabled');
+      icon.textContent = '✨'; lbl.textContent = 'Redactar con Gemini 2.5';
     }
   });
 
-  btnCopyWa?.addEventListener('click', () => {
-    if (!generatedArticleData) return;
-    navigator.clipboard.writeText(generatedArticleData.resumen_whatsapp);
-    if (btnCopyWa) {
-      const orig = btnCopyWa.textContent;
-      btnCopyWa.textContent = '✅ Copiado!';
-      setTimeout(() => { btnCopyWa.textContent = orig; }, 2000);
-    }
+  document.getElementById('btn-copy-wa')!.addEventListener('click', () => {
+    if (!generatedData) return;
+    navigator.clipboard.writeText(generatedData.resumen_whatsapp);
+    const b = document.getElementById('btn-copy-wa')!;
+    const orig = b.textContent;
+    b.textContent = '✅'; setTimeout(() => b.textContent = orig, 2000);
   });
 
-  btnPublishDirect?.addEventListener('click', async () => {
-    if (!generatedArticleData) return;
-    const token = localStorage.getItem('pn_gh_token');
-    const filename = generatedArticleData.archivo;
+  document.getElementById('btn-publish')!.addEventListener('click', async () => {
+    if (!generatedData) return;
+    const token = getGhToken();
+    const btn = document.getElementById('btn-publish')!;
+    const btnT = document.getElementById('btn-publish-text')!;
 
     if (!token) {
-      btnConfigGithub?.click();
+      // Descargar como fallback
+      const blob = new Blob([JSON.stringify(generatedData, null, 2)], {type:'application/json'});
+      const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download:generatedData.archivo});
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
       return;
     }
 
+    btn.setAttribute('disabled','true');
+    btnT.textContent = 'Publicando...';
     try {
-      btnPublishDirect.setAttribute('disabled', 'true');
-      btnPublishDirect.textContent = '⏳ Publicando...';
-
-      const getUrl = `https://api.github.com/repos/andresehansen/Paranacito-noticias/contents/data/noticias/${filename}`;
-      const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(generatedArticleData, null, 2))));
-      
-      const putResp = await fetch(getUrl, {
-        method: 'PUT',
-        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          message: `Publicar noticia: ${generatedArticleData.slug}`,
-          content: contentBase64,
-          branch: 'main'
-        })
-      });
-
-      if (!putResp.ok) throw new Error("Error al publicar en GitHub.");
-
-      newsList.unshift(generatedArticleData);
-      renderNewsGrid();
-      alert("🚀 ¡Noticia publicada exitosamente en Paranacito Noticias! Vercel actualizará la portada en 30 segundos.");
-      tabBtnManage?.click();
-
-    } catch (err: any) {
-      alert(`Error al publicar: ${err.message}`);
+      await ghPut(`data/noticias/${generatedData.archivo}`,
+        JSON.stringify(generatedData, null, 2),
+        `Publicar: ${generatedData.slug}`, token);
+      newsList.unshift(generatedData);
+      document.getElementById('badge-total')!.textContent = String(newsList.length);
+      alert('🚀 Nota publicada! Vercel actualiza en ~30 seg.');
+      document.getElementById('preview-container')!.classList.add('hidden');
+      (document.getElementById('raw-text') as HTMLTextAreaElement).value = '';
+      activateTab('admin');
+    } catch(err: any) {
+      alert(`Error: ${err.message}`);
     } finally {
-      btnPublishDirect.removeAttribute('disabled');
-      btnPublishDirect.innerHTML = '<span>🚀</span><span>Publicar Directo (1-Clic)</span>';
+      btn.removeAttribute('disabled');
+      btnT.textContent = 'Publicar Directo';
     }
   });
 
-  btnDownloadJson?.addEventListener('click', () => {
-    if (!generatedArticleData) return;
-    const jsonStr = JSON.stringify(generatedArticleData, null, 2);
-    const blob = new Blob([jsonStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = generatedArticleData.archivo;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+  document.getElementById('btn-download')!.addEventListener('click', () => {
+    if (!generatedData) return;
+    const blob = new Blob([JSON.stringify(generatedData, null, 2)], {type:'application/json'});
+    const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download:generatedData.archivo});
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
   });
 </script>
