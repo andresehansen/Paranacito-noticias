@@ -22,7 +22,7 @@
   "tiempo_lectura": "2 min",
   "resumen_whatsapp": "📰 ¡Noticia importante en Villa Paranacito! Una mujer prófuga de la justicia por 10 años fue detenida en el barrio Puente. La seguridad y la justicia prevalecen en nuestro Delta. Más detalles en nuestra nota completa. 👇",
   "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -32,6 +32,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/detuvieron-en-ruta-12-zona-de-paranacito-a-una-mujer-profuga-desde-hace-10-anios-por-delitos-aberrantes.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3XXOLaek1fL-R9vOaXMcnT",
       "fecha_consulta": "2026-08-27T07:29:52.587864"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/mi-madre-nos-entregaba-eramos-una-ofrenda-el-relato-de-milagros-tras-la-detencion-de-amparito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1XGjgonVNjKzKq8sDaqB0m",
+      "fecha_consulta": "2026-08-29T22:24:13.934450"
     }
   ],
   "cronologia_actualizaciones": [
@@ -41,14 +46,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Una mujer que permanecía prófuga de la justicia desde hace diez años fue localizada y detenida en un allanamiento realizado en el barrio Puente de Villa Paranacito, sobre la Ruta Nacional N.º 12, poni",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:24",
+      "fecha": "2026-08-29",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La identidad de la mujer detenida es 'Amparito'. Se revela el testimonio de 'Milagros' sobre graves delitos de explotación o abuso infantil cometidos por su madre. La detención ocurrió la madrugada del miércoles en un camping, a la altura del kilómetro 136 de la Ruta Nacional 12.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "3132948725c3ab8cd69b480d568a36fc92437fcd4413b5de43024f290632ae58"
+    "3132948725c3ab8cd69b480d568a36fc92437fcd4413b5de43024f290632ae58",
+    "06341272cf6b514456d6b02bd145f008a3d2538cdb4866bd3a32775f7c376c6d"
   ],
   "fecha_inicio_iso": "2026-08-27T07:29:52.587864",
-  "fecha_ultima_actualizacion_iso": "2026-08-27T07:29:52.587864",
+  "fecha_ultima_actualizacion_iso": "2026-08-29T22:24:13.934450",
   "fecha_publicacion": "27 de Agosto de 2026, 07:29 hs",
-  "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:29 hs",
+  "fecha_ultima_actualizacion": "29 de Agosto de 2026, 22:24 hs",
   "archivo": "2026-08-27-detienen-en-villa-paranacito-a-mujer-profuga-por.json"
 }

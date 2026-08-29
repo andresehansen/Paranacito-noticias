@@ -23,7 +23,7 @@
   "tiempo_lectura": "2 min",
   "resumen_whatsapp": "📰 ¡Gran éxito en Villa Paranacito! El ciclo \"Emociones en Familia\" tuvo su segundo encuentro, fortaleciendo lazos y brindando herramientas para la comunicación familiar. 👨‍👩‍👧‍👦 ¡No te pierdas los próximos talleres! Más info en nuestra nota.",
   "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/08/25/114718-continua-la-ultima-etapa-de-la-obra-de-renovacion-urbana-en-urdinarrain&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2mnbbw_lgcGydhbXeYMB-U",
       "fecha_consulta": "2026-08-25T20:29:14.342534"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lavoz901.com/noticias/la-provincia-brind-herramientas-a-familias-de-concordia-para-acompaar-los-desafos-en-la-crianza.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3NqXSvzPAasW3_DMHpWvfy",
+      "fecha_consulta": "2026-08-29T22:24:19.328208"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,14 +47,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito fue sede del segundo encuentro del ciclo \"Emociones en Familia\", una iniciativa municipal que busca brindar herramientas para mejorar la comunicación y el bienestar en los hogares de ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:24",
+      "fecha": "2026-08-29",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El ciclo de encuentros también se realizó en La Paz y Concordia, y su próxima jornada será el 1 de septiembre en Paraná, ampliando el alcance geográfico y temporal del programa.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "a6317496bc36a8e7acfff55a5bac3cdd2b15dd1713eb7183b6ad8874db3e3a98"
+    "a6317496bc36a8e7acfff55a5bac3cdd2b15dd1713eb7183b6ad8874db3e3a98",
+    "d01e54114e2acafa0bf5127edc9790ffa4fadfe391901fdb73dfc89ce362a889"
   ],
   "fecha_inicio_iso": "2026-08-25T20:29:14.342534",
-  "fecha_ultima_actualizacion_iso": "2026-08-25T20:29:14.342534",
+  "fecha_ultima_actualizacion_iso": "2026-08-29T22:24:19.328208",
   "fecha_publicacion": "25 de Agosto de 2026, 20:29 hs",
-  "fecha_ultima_actualizacion": "25 de Agosto de 2026, 20:29 hs",
+  "fecha_ultima_actualizacion": "29 de Agosto de 2026, 22:24 hs",
   "archivo": "2026-08-25-fortaleciendo-vinculos-exitoso-segundo-encuentro-ciclo-emociones-familia.json"
 }
