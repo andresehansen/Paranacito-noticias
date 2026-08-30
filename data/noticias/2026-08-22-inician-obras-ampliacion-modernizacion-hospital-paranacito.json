@@ -22,7 +22,7 @@
   "tiempo_lectura": "3 min",
   "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
   "url_original": "https://www.entrerios.gov.ar",
-  "imagen": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+  "imagen": "https://portal.entrerios.gov.ar/noticias/79126",
   "estado": "Publicado",
   "nivel_confiabilidad": "Alta",
   "es_alerta": false,
@@ -51,6 +51,7 @@
   "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios.",
   "fecha_iso": "2026-08-22T12:00:00-03:00",
   "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
-  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
-  "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json"
+  "fecha_ultima_actualizacion": "29/8/2026",
+  "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json",
+  "fecha_ultima_actualizacion_iso": "2026-08-30T00:14:33.787Z"
 }
