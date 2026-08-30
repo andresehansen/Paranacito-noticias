@@ -22,7 +22,7 @@
   "tiempo_lectura": "3 min",
   "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
   "url_original": "https://www.entrerios.gov.ar",
-  "imagen": "https://portal.entrerios.gov.ar/noticias/79126",
+  "imagen": "https://lavozisleña.ar/wp-content/uploads/2023/11/fachada.htalparanacito-1200x800-1.jpg",
   "estado": "Publicado",
   "nivel_confiabilidad": "Alta",
   "es_alerta": false,
@@ -53,5 +53,5 @@
   "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
   "fecha_ultima_actualizacion": "29/8/2026",
   "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json",
-  "fecha_ultima_actualizacion_iso": "2026-08-30T00:14:33.787Z"
+  "fecha_ultima_actualizacion_iso": "2026-08-30T00:14:57.044Z"
 }
