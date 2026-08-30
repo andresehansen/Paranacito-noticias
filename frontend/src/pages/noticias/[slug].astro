@@ -1,221 +1,190 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import ShareWhatsApp from '../../components/ShareWhatsApp.astro';
-import EventTimeline from '../../components/EventTimeline.astro';
-import SourcesPanel from '../../components/SourcesPanel.astro';
-import AdBanner from '../../components/AdBanner.astro';
 import { getCleanAndDeduplicatedNews } from '../../utils/news';
 
 export async function getStaticPaths() {
   const allNoticias = getCleanAndDeduplicatedNews();
-
   return allNoticias.map((noticia: any) => ({
     params: { slug: noticia.slug },
     props: {
       noticia,
-      relatedNews: allNoticias.filter((n: any) => n.slug !== noticia.slug).slice(0, 3)
+      relatedNews: allNoticias.filter((n: any) => n.slug !== noticia.slug).slice(0, 4)
     }
   }));
 }
 
-
 const { noticia, relatedNews } = Astro.props;
 
 const categoryColors: Record<string, string> = {
-  'Río y Clima': 'bg-sky-100 text-sky-800 border-sky-200',
-  'Comunidad': 'bg-emerald-100 text-emerald-800 border-emerald-200',
-  'Deportes': 'bg-amber-100 text-amber-800 border-amber-200',
-  'Obras y Servicios': 'bg-purple-100 text-purple-800 border-purple-200',
-  'Salud y Educación': 'bg-rose-100 text-rose-800 border-rose-200',
-  'Turismo y Cultura': 'bg-teal-100 text-teal-800 border-teal-200',
-  'Sociedad': 'bg-indigo-100 text-indigo-800 border-indigo-200'
+  'Río y Clima':      'bg-sky-100 text-sky-800 border-sky-200',
+  'Comunidad':        'bg-emerald-100 text-emerald-800 border-emerald-200',
+  'Deportes':         'bg-amber-100 text-amber-800 border-amber-200',
+  'Obras y Servicios':'bg-purple-100 text-purple-800 border-purple-200',
+  'Salud y Educación':'bg-rose-100 text-rose-800 border-rose-200',
+  'Turismo y Cultura':'bg-teal-100 text-teal-800 border-teal-200',
+  'Sociedad':         'bg-indigo-100 text-indigo-800 border-indigo-200',
 };
 const badgeClass = categoryColors[noticia.categoria] || 'bg-slate-100 text-slate-800 border-slate-200';
 
-const isEnDesarrollo = noticia.estado === "En desarrollo";
-const esAlerta = noticia.es_alerta === true;
-const nivelConfiabilidad = noticia.nivel_confiabilidad || "Media";
-const cronologia = noticia.cronologia_actualizaciones || [];
-const fuentesConsultadas = noticia.fuentes_consultadas || (noticia.fuente_nombre ? [{ nombre: noticia.fuente_nombre, url: noticia.url_original }] : []);
-const numActualizaciones = cronologia.length || 1;
-
-const categoryFallbackImages: Record<string, string> = {
-  'Río y Clima': 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
-  'Comunidad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
-  'Deportes': 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
-  'Obras y Servicios': 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80',
-  'Salud y Educación': 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
-  'Turismo y Cultura': 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80',
-  'Sociedad': 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80'
+const categoryFallback: Record<string, string> = {
+  'Río y Clima':      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
+  'Comunidad':        'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
+  'Deportes':         'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
+  'Obras y Servicios':'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80',
+  'Salud y Educación':'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
+  'Turismo y Cultura':'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80',
+  'Sociedad':         'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
 };
 
-const defaultImg = categoryFallbackImages[noticia.categoria] || 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80';
-const imageSrc = (noticia.imagen && noticia.imagen.startsWith('http')) ? noticia.imagen : defaultImg;
+const imgSrc = (noticia.imagen && noticia.imagen.startsWith('http'))
+  ? noticia.imagen
+  : (categoryFallback[noticia.categoria] || categoryFallback['Comunidad']);
 
+const resumen = noticia.resumen || noticia.copete || '';
+const fuente = noticia.fuente_nombre || noticia.fuentes_consultadas?.[0]?.nombre || 'Fuente regional';
+const fuenteUrl = noticia.url_original || noticia.fuente_url || noticia.fuentes_consultadas?.[0]?.url || null;
 
+const wappText = encodeURIComponent(
+  `📰 *${noticia.titulo}*\n${resumen}\n\n👉 ${fuente}\nhttps://paranacito-noticias.vercel.app/noticias/${noticia.slug}`
+);
+
+function getCategoryFallbackImg(cat: string): string {
+  return categoryFallback[cat] || categoryFallback['Comunidad'];
+}
 ---
 
 <Layout
   title={`${noticia.titulo} | Paranacito Noticias`}
-  description={noticia.copete}
-  image={imageSrc}
-  type="article"
+  description={resumen}
+  image={imgSrc}
 >
+  <div class="max-w-2xl mx-auto">
 
+    <!-- Breadcrumb -->
+    <nav class="text-xs text-slate-400 mb-4 flex items-center gap-1.5">
+      <a href="/" class="hover:text-river-600 transition-colors">Inicio</a>
+      <span>›</span>
+      <span class="text-slate-600 truncate">{noticia.titulo}</span>
+    </nav>
 
-  <!-- Breadcrumb -->
-  <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6">
-    <a href="/" class="hover:text-slate-800 transition-colors">Inicio</a>
-    <span>/</span>
-    <span class="text-slate-700 font-medium">{noticia.categoria}</span>
-  </nav>
+    <!-- Card del post -->
+    <article class="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-sm">
 
-  <article class="max-w-3xl mx-auto">
-
-    <!-- Encabezado -->
-    <header class="mb-6">
-
-      <div class="flex flex-wrap items-center gap-2.5 mb-3">
-        <!-- Categoría -->
-        <span class={`px-3 py-0.5 rounded-full text-xs font-semibold border ${badgeClass}`}>
+      <!-- Imagen principal -->
+      <div class="relative aspect-[16/9] bg-slate-200 overflow-hidden">
+        <img
+          src={imgSrc}
+          alt={noticia.titulo}
+          class="w-full h-full object-cover"
+          onerror={`this.onerror=null;this.src='${getCategoryFallbackImg(noticia.categoria)}';`}
+        />
+        <span class={`absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-xs font-semibold border shadow-sm ${badgeClass}`}>
           {noticia.categoria}
         </span>
-
-        <!-- Badge de Alerta -->
-        {esAlerta && (
-          <span class="px-3 py-0.5 rounded-full text-xs font-black bg-rose-600 text-white animate-pulse">
+        {noticia.es_alerta && (
+          <span class="absolute top-3 right-3 px-2 py-0.5 rounded-full text-[11px] font-black bg-rose-600 text-white shadow animate-pulse">
             🚨 ALERTA
           </span>
         )}
-
-        <!-- Badge de En Desarrollo -->
-        {isEnDesarrollo && !esAlerta && (
-          <span class="px-3 py-0.5 rounded-full text-xs font-bold bg-amber-100 text-amber-800 border border-amber-200">
-            📡 En desarrollo
-          </span>
-        )}
-
-        <span class="text-xs text-slate-500">
-          Publicado el {noticia.fecha_publicacion}
-        </span>
-        <span class="text-xs text-slate-400">•</span>
-        <span class="text-xs text-slate-500">{noticia.tiempo_lectura || '2 min'}</span>
-
-        {noticia.fecha_ultima_actualizacion && noticia.fecha_ultima_actualizacion !== noticia.fecha_publicacion && (
-          <>
-            <span class="text-xs text-slate-400">•</span>
-            <span class="text-xs font-medium text-amber-700">
-              Actualizado: {noticia.fecha_ultima_actualizacion}
-            </span>
-          </>
-        )}
       </div>
 
-      <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight tracking-tight mb-4">
-        {noticia.titulo}
-      </h1>
+      <!-- Contenido -->
+      <div class="p-5 md:p-6">
 
-      <p class="text-base sm:text-lg text-slate-700 font-medium leading-relaxed bg-slate-100/80 p-4 rounded-xl border-l-4 border-river-600">
-        {noticia.copete}
-      </p>
-    </header>
+        <!-- Fecha -->
+        <p class="text-xs text-slate-400 mb-2">{noticia.fecha_publicacion || noticia.fecha_ultima_actualizacion}</p>
 
-    <!-- Compartir WhatsApp (arriba) -->
-    <div class="flex items-center justify-between py-3 border-y border-slate-200 mb-6">
-      <span class="text-xs text-slate-500 font-medium">Compartí esta novedad con vecinos:</span>
-      <ShareWhatsApp
-        title={noticia.titulo}
-        summary={noticia.resumen_whatsapp || noticia.copete}
-        size="md"
-      />
-    </div>
+        <!-- Título -->
+        <h1 class="text-xl md:text-2xl font-black text-slate-900 leading-tight mb-3">
+          {noticia.titulo}
+        </h1>
 
-    <!-- Panel de Confiabilidad y Fuentes (arriba del cuerpo) -->
-    <SourcesPanel
-      fuentes={fuentesConsultadas}
-      nivel_confiabilidad={nivelConfiabilidad}
-      num_actualizaciones={numActualizaciones}
-    />
+        <!-- Resumen -->
+        {resumen && (
+          <p class="text-slate-700 text-base leading-relaxed mb-5">
+            {resumen}
+          </p>
+        )}
 
-    <!-- Imagen Principal -->
-    <div class="rounded-2xl overflow-hidden mb-8 shadow-md border border-slate-200/80 bg-slate-100">
-      <img
-        src={imageSrc}
-        alt={noticia.titulo}
-        onerror={`this.onerror=null; this.src='${defaultImg}';`}
-        class="w-full aspect-[16/9] object-cover"
-      />
-    </div>
-
-
-    <!-- Cuerpo de la Noticia -->
-    <div class="prose prose-slate max-w-none text-slate-800 text-base sm:text-lg leading-relaxed space-y-5 mb-6">
-      {Array.isArray(noticia.cuerpo) ? (
-        noticia.cuerpo.map((parrafo: string) => <p>{parrafo}</p>)
-      ) : (
-        <p>{noticia.cuerpo}</p>
-      )}
-    </div>
-
-    <!-- Línea de Tiempo de Actualizaciones (si hay más de 1 hito) -->
-    {cronologia.length > 1 && (
-      <EventTimeline actualizaciones={cronologia} estado={noticia.estado || "Publicado"} />
-    )}
-
-    <!-- Tags -->
-    {noticia.tags && noticia.tags.length > 0 && (
-      <div class="flex flex-wrap items-center gap-2 mb-8 pt-4 border-t border-slate-200">
-        <span class="text-xs font-semibold text-slate-500">Temas:</span>
-        {noticia.tags.map((tag: string) => (
-          <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-lg border border-slate-200">
-            #{tag}
-          </span>
-        ))}
-      </div>
-    )}
-
-    <!-- WhatsApp (abajo, destacado) -->
-    <div class="bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-2xl p-6 text-center shadow-md mb-8">
-      <h3 class="text-lg font-bold mb-1">¿Te pareció útil esta información?</h3>
-      <p class="text-xs text-emerald-100 mb-4">Reenviá esta nota a los grupos de WhatsApp de Villa Paranacito y el Delta.</p>
-      <ShareWhatsApp
-        title={noticia.titulo}
-        summary={noticia.resumen_whatsapp || noticia.copete}
-        size="lg"
-      />
-    </div>
-
-    <!-- Espacio Publicitario / Google AdSense -->
-    <AdBanner />
-
-  </article>
-
-
-  <!-- Noticias Relacionadas -->
-  {relatedNews.length > 0 && (
-    <section class="max-w-5xl mx-auto border-t border-slate-200 pt-10 mt-10">
-      <h3 class="text-base font-bold text-slate-900 uppercase tracking-wider mb-6">
-        Otras Noticias Locales
-      </h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {relatedNews.map((rel: any) => (
-          <a href={`/noticias/${rel.slug}`} class="group bg-white rounded-xl overflow-hidden border border-slate-200 p-4 hover:shadow-md transition-shadow">
-            <div class="aspect-[16/9] rounded-lg overflow-hidden mb-3 bg-slate-100">
-              <img
-                src={rel.imagen}
-                alt={rel.titulo}
-                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80';"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-              />
-            </div>
-            <div class="text-[11px] font-semibold text-river-600 mb-1">{rel.categoria}</div>
-            <h4 class="font-bold text-sm text-slate-900 group-hover:text-river-600 transition-colors line-clamp-2">
-              {rel.titulo}
-            </h4>
+        <!-- Botón Fuente Original (principal acción) -->
+        {fuenteUrl && (
+          <a
+            href={fuenteUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 w-full justify-center px-4 py-3 rounded-xl bg-river-600 text-white font-semibold text-sm hover:bg-river-700 transition-colors shadow-sm shadow-river-600/20 mb-4"
+          >
+            Leer nota completa en {fuente}
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
           </a>
-        ))}
-      </div>
-    </section>
-  )}
+        )}
 
+        <!-- Botón WhatsApp -->
+        <a
+          href={`https://api.whatsapp.com/send?text=${wappText}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 w-full justify-center px-4 py-2.5 rounded-xl bg-[#25D366] text-white font-semibold text-sm hover:bg-[#20bd5a] transition-colors shadow-sm"
+        >
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          Compartir por WhatsApp
+        </a>
+
+        <!-- Fuente citada -->
+        <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400 flex items-center gap-1.5">
+          <span>Fuente:</span>
+          {fuenteUrl ? (
+            <a href={fuenteUrl} target="_blank" rel="noopener noreferrer" class="font-medium text-slate-600 hover:text-river-600 transition-colors">
+              {fuente}
+            </a>
+          ) : (
+            <span class="font-medium text-slate-600">{fuente}</span>
+          )}
+        </div>
+
+      </div>
+    </article>
+
+    <!-- Posts relacionados -->
+    {relatedNews.length > 0 && (
+      <section class="mt-6">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Más noticias</h2>
+        <div class="space-y-3">
+          {relatedNews.map((r: any) => {
+            const rImg = (r.imagen && r.imagen.startsWith('http')) ? r.imagen : getCategoryFallbackImg(r.categoria);
+            const rBadge = categoryColors[r.categoria] || 'bg-slate-100 text-slate-800 border-slate-200';
+            const rResumen = r.resumen || r.copete || '';
+            return (
+              <a href={`/noticias/${r.slug}`} class="flex gap-3 bg-white rounded-xl border border-slate-200/80 p-3 hover:shadow-sm transition-all group">
+                <div class="flex-shrink-0 w-20 h-16 rounded-lg overflow-hidden bg-slate-200">
+                  <img
+                    src={rImg}
+                    alt={r.titulo}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+                    onerror={`this.onerror=null;this.src='${getCategoryFallbackImg(r.categoria)}';`}
+                  />
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class={`inline-block px-1.5 py-0.5 rounded text-[10px] font-semibold border mb-1 ${rBadge}`}>{r.categoria}</span>
+                  <p class="text-xs font-bold text-slate-800 group-hover:text-river-600 transition-colors line-clamp-2 leading-snug">{r.titulo}</p>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <!-- Volver -->
+    <div class="mt-6 text-center">
+      <a href="/" class="inline-flex items-center gap-1.5 text-sm font-semibold text-river-600 hover:text-river-800 transition-colors">
+        ← Volver al feed
+      </a>
+    </div>
+
+  </div>
 </Layout>

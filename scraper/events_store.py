@@ -69,14 +69,14 @@ def save_event(event: dict) -> bool:
 
 def create_new_event(rewritten: dict, raw_article: dict) -> dict:
     """
-    Crea la estructura de un nuevo acontecimiento a partir de una noticia reescrita.
+    Crea la estructura de un nuevo acontecimiento (post de feed social) a partir de una noticia reescrita.
     """
     now = datetime.now()
     slug = rewritten.get("slug", "acontecimiento")
     event_id = f"{now.strftime('%Y-%m-%d')}-{slug}"
 
-    # Detectar si el contenido es sensible y requiere revisión humana
-    text_check = f"{rewritten.get('titulo','')} {' '.join(rewritten.get('cuerpo',[]))}".lower()
+    # El texto de revisión ahora usa el resumen (más corto y confiable)
+    text_check = f"{rewritten.get('titulo','')} {rewritten.get('resumen','')}".lower()
     requires_review = any(w in text_check for w in REVISION_REQUERIDA)
 
     # Detectar si es una alerta urgente
@@ -86,7 +86,7 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
     fuente_nombre = raw_article.get("source_name", "").lower()
     if any(k in fuente_nombre for k in ["prefectura", "municipalidad", "gobierno", "ministerio", "policia"]):
         confiabilidad = "Alta"
-    elif any(k in fuente_nombre for k in ["diario", "r2820", "argentino", "día", "voz isleña"]):
+    elif any(k in fuente_nombre for k in ["diario", "r2820", "argentino", "día", "voz isleña", "ceibas"]):
         confiabilidad = "Media"
     else:
         confiabilidad = "Media"
@@ -94,17 +94,17 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
     event = {
         "acontecimiento_id": event_id,
         "titulo": rewritten.get("titulo"),
-        "copete": rewritten.get("copete"),
-        "cuerpo": rewritten.get("cuerpo", []),
+        "resumen": rewritten.get("resumen", ""),          # ← Formato feed social (2-3 oraciones)
         "categoria": rewritten.get("categoria", "Comunidad"),
         "tags": rewritten.get("tags", []),
         "slug": slug,
-        "tiempo_lectura": rewritten.get("tiempo_lectura", "2 min"),
         "resumen_whatsapp": rewritten.get("resumen_whatsapp", ""),
         "imagen": raw_article.get("image_url") if (raw_article.get("image_url") and raw_article.get("image_url").startswith("http")) else DEFAULT_CATEGORY_IMAGES.get(rewritten.get("categoria", "Comunidad"), DEFAULT_FALLBACK_IMAGE),
+        "fuente_nombre": raw_article.get("source_name", "Fuente regional"),
+        "fuente_url": raw_article.get("url", ""),
+        "url_original": raw_article.get("url", ""),
 
-        # Metadatos del sistema de acontecimient@os
-
+        # Metadatos del sistema
         "estado": "En desarrollo" if is_alert else "Publicado",
         "nivel_confiabilidad": confiabilidad,
         "es_alerta": is_alert,
@@ -124,7 +124,7 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
                 "hora": now.strftime("%H:%M"),
                 "fecha": now.strftime("%Y-%m-%d"),
                 "fuente": raw_article.get("source_name", "Fuente regional"),
-                "dato": rewritten.get("copete", "")[:200],
+                "dato": rewritten.get("resumen", "")[:200],
                 "es_dato_nuevo": True
             }
         ],
@@ -138,6 +138,7 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
         ],
 
         # Fechas
+        "fecha_iso": now.isoformat(),
         "fecha_inicio_iso": now.isoformat(),
         "fecha_ultima_actualizacion_iso": now.isoformat(),
         "fecha_publicacion": friendly_date(now),
@@ -146,7 +147,7 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
     }
 
     save_event(event)
-    logging.info(f"Nuevo acontecimiento creado: {event_id}")
+    logging.info(f"Nuevo post creado: {event_id}")
     return event
 
 def update_event_with_new_info(event: dict, raw_article: dict, new_info_summary: str) -> dict:

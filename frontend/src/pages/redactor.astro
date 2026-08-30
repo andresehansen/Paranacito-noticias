@@ -275,10 +275,11 @@ export const prerender = true;
         </div>
 
         <div>
-          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">Cuerpo de la noticia</label>
-          <p class="text-[11px] text-slate-400 mb-2">Separar párrafos con una línea en blanco (doble Enter).</p>
-          <textarea id="edit-cuerpo" rows="8"
-            class="w-full text-sm text-slate-800 bg-slate-50 border border-slate-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-sky-500 focus:outline-none leading-relaxed"></textarea>
+          <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1.5">📝 Resumen del post</label>
+          <p class="text-[11px] text-slate-400 mb-2">2-3 oraciones cortas. Máximo 300 caracteres. Solo hechos verificables.</p>
+          <textarea id="edit-cuerpo" rows="3" maxlength="300" placeholder="Ej: El Municipio de Villa Paranacito inauguró el acceso pavimentado al centro. La obra beneficia a más de 2.000 vecinos."
+            class="w-full text-sm text-slate-800 bg-slate-50 border border-slate-300 rounded-xl px-3 py-3 focus:ring-2 focus:ring-sky-500 focus:outline-none leading-relaxed resize-none"></textarea>
+          <p id="resumen-counter" class="text-[11px] text-slate-400 text-right mt-0.5">0 / 300</p>
         </div>
       </div>
 
@@ -520,16 +521,25 @@ export const prerender = true;
   const eImagen = document.getElementById('edit-imagen') as HTMLInputElement;
   const eCuerpo = document.getElementById('edit-cuerpo') as HTMLTextAreaElement;
 
+  // Contador de caracteres del resumen
+  const resumenCounter = document.getElementById('resumen-counter');
+  eCuerpo?.addEventListener('input', () => {
+    if (resumenCounter) resumenCounter.textContent = `${eCuerpo.value.length} / 300`;
+  });
+
   function openDrawer(item: any) {
     editingItem = item;
     eId.value = item.slug || item.id;
     eFilename.value = item.archivo || `${item.slug}.json`;
     eTitulo.value = item.titulo || '';
-    eCopete.value = item.copete || '';
+    eCopete.value = item.copete || item.resumen || '';
     eCat.value = item.categoria || 'Comunidad';
     eAlerta.checked = !!item.es_alerta;
     eImagen.value = item.imagen?.startsWith('http') ? item.imagen : '';
-    eCuerpo.value = Array.isArray(item.cuerpo) ? item.cuerpo.join('\n\n') : (item.cuerpo || '');
+    // Cargar resumen (campo nuevo). Si no existe, usar copete o primer párrafo del cuerpo
+    eCuerpo.value = item.resumen || item.copete || (Array.isArray(item.cuerpo) ? item.cuerpo[0] : item.cuerpo) || '';
+    if (eCuerpo.value.length > 300) eCuerpo.value = eCuerpo.value.slice(0, 300);
+    if (resumenCounter) resumenCounter.textContent = `${eCuerpo.value.length} / 300`;
     drawer.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
   }
@@ -558,16 +568,19 @@ export const prerender = true;
     const btn = document.getElementById('btn-save') as HTMLButtonElement;
 
     const title = eTitulo.value.trim();
-    const copete = eCopete.value.trim();
-    if (!title || !copete) { alert('El título y el copete son obligatorios.'); return; }
+    const resumen = eCuerpo.value.trim();
+    if (!title || !resumen) { alert('El título y el resumen son obligatorios.'); return; }
+    if (resumen.length > 300) { alert('El resumen no puede superar los 300 caracteres.'); return; }
 
-    const imagen = eImagen.value.trim() || getSemanticImage(title, copete, eCat.value, '');
-    const cuerpo = eCuerpo.value.split(/\n\n+/).map((p: string) => p.trim()).filter(Boolean);
+    const imagen = eImagen.value.trim() || getSemanticImage(title, resumen, eCat.value, '');
 
     const updated = {
       ...editingItem,
-      titulo: title, copete, categoria: eCat.value,
-      es_alerta: eAlerta.checked, imagen, cuerpo,
+      titulo: title,
+      resumen,
+      copete: resumen,              // Mantener compatibilidad
+      categoria: eCat.value,
+      es_alerta: eAlerta.checked, imagen,
       fecha_ultima_actualizacion: new Date().toLocaleDateString('es-AR'),
       fecha_ultima_actualizacion_iso: new Date().toISOString(),
     };
@@ -592,6 +605,7 @@ export const prerender = true;
       saveLabel.textContent = 'Guardar Cambios';
     }
   });
+
 
   // ── ELIMINAR ─────────────────────────────────────────────────────
   document.getElementById('btn-delete')!.addEventListener('click', async () => {
