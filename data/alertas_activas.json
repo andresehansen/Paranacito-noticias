@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
+    "slug": "fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
+    "titulo": "Fortalecen la Salud Mental en el Delta: Capacitación Clave en Villa Paranacito y el Departamento Islas del Ibicuy",
+    "copete": "El ciclo \"Emociones en Familia\" realizó su segundo encuentro en Villa Paranacito, brindando herramientas esenciales sobre salud mental y primeros auxilios psicológicos a la comunidad y fuerzas de seguridad, tras una exitosa primera jornada en Ceibas e Ibicuy.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud Mental",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Capacitación",
+      "Prefectura Naval Argentina",
+      "Emociones en Familia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://informedigital.com.ar/wp-content/uploads/2026/08/portal-er-79171-vl13xo8z-1536x1024.png",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "23 de Agosto de 2026, 04:36 hs",
+    "fecha_ultima_actualizacion": "30 de Agosto de 2026, 03:50 hs",
+    "fecha_inicio_iso": "2026-08-23T04:36:03.579334",
+    "fecha_ultima_actualizacion_iso": "2026-08-30T03:50:42.183498",
+    "resumen_whatsapp": "📰 ¡Salud Mental en el Delta! El ciclo 'Emociones en Familia' capacitó a vecinos y fuerzas de seguridad en Villa Paranacito. 🧠 Aprendé a brindar apoyo y cuidar tu bienestar. ¡Sumate a las próximas jornadas! #SaludMental #Paranacito"
+  },
+  {
     "acontecimiento_id": "2026-08-27-capturan-en-villa-paranacito-a-amparito-profuga-por",
     "slug": "capturan-en-villa-paranacito-a-amparito-profuga-por",
     "titulo": "Capturan en Villa Paranacito a 'Amparito', prófuga por una década en una causa de estafa",
@@ -478,35 +508,6 @@
     "resumen_whatsapp": "🚨 ¡Alerta Amarillo por frío extremo en Villa Paranacito y el Delta! 🥶 El SMN pronostica bajas temperaturas. Abrigate bien, cuidá a los más vulnerables y revisá tu calefacción. ¡Informate y prevení! 📰"
   },
   {
-    "acontecimiento_id": "2026-08-22-vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "slug": "vialidad-provincial-realizo-tareas-de-emergencia-en",
-    "titulo": "Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso",
-    "copete": "El ciclo Emociones en Familia tuvo su segundo encuentro en Villa Paranacito · La lluvia mermó el público, pero no el nivel del festival Brasa y ...",
-    "categoria": "Río y Clima",
-    "tags": [
-      "paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "1 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
-    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 04:43 hs",
-    "fecha_inicio_iso": "2026-08-22T00:39:31.083474",
-    "fecha_ultima_actualizacion_iso": "2026-08-24T04:43:32.783796",
-    "resumen_whatsapp": "📰 *Vialidad Provincial realizó tareas de emergencia en el acceso a Colonia Gobernador Basavilbaso* - Novedades de Villa Paranacito."
-  },
-  {
     "acontecimiento_id": "2026-08-24-bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
     "slug": "bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
     "titulo": "Bomberos Voluntarios de Villa Paranacito Refuerzan Capacidades en Crucial Capacitación Regional",
@@ -561,35 +562,6 @@
     "fecha_inicio_iso": "2026-08-24T01:13:36.922161",
     "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:36.922161",
     "resumen_whatsapp": "🚨 Bomberos de 8 localidades se capacitaron en Villa Paranacito para mejorar la respuesta ante emergencias en el Delta. 💪 ¡Más seguridad para nuestros vecinos! Leé la nota completa en Paranacito Noticias."
-  },
-  {
-    "acontecimiento_id": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
-    "slug": "fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
-    "titulo": "Fortalecen la Salud Mental en el Delta: Capacitación Clave en Villa Paranacito y el Departamento Islas del Ibicuy",
-    "copete": "El ciclo \"Emociones en Familia\" realizó su segundo encuentro en Villa Paranacito, brindando herramientas esenciales sobre salud mental y primeros auxilios psicológicos a la comunidad y fuerzas de seguridad, tras una exitosa primera jornada en Ceibas e Ibicuy.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Salud Mental",
-      "Villa Paranacito",
-      "Islas del Ibicuy",
-      "Capacitación",
-      "Prefectura Naval Argentina",
-      "Emociones en Familia"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "23 de Agosto de 2026, 04:36 hs",
-    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 04:36 hs",
-    "fecha_inicio_iso": "2026-08-23T04:36:03.579334",
-    "fecha_ultima_actualizacion_iso": "2026-08-23T04:36:03.579334",
-    "resumen_whatsapp": "📰 ¡Salud Mental en el Delta! El ciclo 'Emociones en Familia' capacitó a vecinos y fuerzas de seguridad en Villa Paranacito. 🧠 Aprendé a brindar apoyo y cuidar tu bienestar. ¡Sumate a las próximas jornadas! #SaludMental #Paranacito"
   },
   {
     "acontecimiento_id": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar",

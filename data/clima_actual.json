@@ -1,46 +1,46 @@
 {
-  "ultima_actualizacion": "29/08/2026 22:31",
-  "timestamp_iso": "2026-08-29T22:31:35.958976",
+  "ultima_actualizacion": "30/08/2026 03:49",
+  "timestamp_iso": "2026-08-30T03:49:36.502855",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 14,
-    "sensacion_termica": 12,
-    "humedad": 70,
-    "viento_velocidad_kmh": 6,
-    "viento_direccion": "E",
-    "presion_hpa": 1015,
-    "descripcion": "Nublado",
-    "icono": "☁️",
+    "temperatura": 10,
+    "sensacion_termica": 8,
+    "humedad": 81,
+    "viento_velocidad_kmh": 8,
+    "viento_direccion": "ENE",
+    "presion_hpa": 1017,
+    "descripcion": "Parcialmente nublado",
+    "icono": "⛅",
     "pronostico_extendido": [
-      {
-        "fecha": "2026-08-29",
-        "temp_max": 20,
-        "temp_min": 7,
-        "prob_lluvia": 0,
-        "descripcion": "Nublado",
-        "icono": "☁️"
-      },
       {
         "fecha": "2026-08-30",
         "temp_max": 21,
-        "temp_min": 7,
-        "prob_lluvia": 2,
+        "temp_min": 8,
+        "prob_lluvia": 5,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-08-31",
-        "temp_max": 22,
-        "temp_min": 10,
-        "prob_lluvia": 10,
+        "temp_max": 21,
+        "temp_min": 11,
+        "prob_lluvia": 12,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-09-01",
         "temp_max": 21,
-        "temp_min": 8,
-        "prob_lluvia": 0,
+        "temp_min": 7,
+        "prob_lluvia": 1,
+        "descripcion": "Cielo despejado",
+        "icono": "☀️"
+      },
+      {
+        "fecha": "2026-09-02",
+        "temp_max": 23,
+        "temp_min": 10,
+        "prob_lluvia": 11,
         "descripcion": "Nublado",
         "icono": "☁️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-08-29 22:31"
+    "actualizado": "2026-08-30 03:49"
   }
 }

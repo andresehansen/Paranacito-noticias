@@ -32,6 +32,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/08/22/114517-se-realizo-en-ceibas-e-ibicuy-la-primera-capacitacion-sobre-salud-mental-y-primeros-auxilios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1-TD651MxEcxGQMX179N3x",
       "fecha_consulta": "2026-08-23T04:36:03.579334"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.examedia.com.ar/portada/post/87769380&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3PleOPaKPNTv795c3HdtRv",
+      "fecha_consulta": "2026-08-30T03:50:42.183498"
     }
   ],
   "cronologia_actualizaciones": [
@@ -41,14 +46,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El ciclo \"Emociones en Familia\" realizó su segundo encuentro en Villa Paranacito, brindando herramientas esenciales sobre salud mental y primeros auxilios psicológicos a la comunidad y fuerzas de segu",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:50",
+      "fecha": "2026-08-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable revela que las jornadas son organizadas por el Copnaf, que también se realizaron en La Paz y Concordia, y que habrá una próxima presentación el martes 1 de septiembre en Paraná. Además, especifica el enfoque como 'crianza y gestión emocional'.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "463144115308f22dfdefee08e5af57fd2498ac0e9a63d9c5d974ed45cf867915"
+    "463144115308f22dfdefee08e5af57fd2498ac0e9a63d9c5d974ed45cf867915",
+    "f9f9b9859ec8ee4e22463ea0b127f1555f79cba4466afd5836acf7e73067e915"
   ],
   "fecha_inicio_iso": "2026-08-23T04:36:03.579334",
-  "fecha_ultima_actualizacion_iso": "2026-08-30T00:20:19.604Z",
+  "fecha_ultima_actualizacion_iso": "2026-08-30T03:50:42.183498",
   "fecha_publicacion": "23 de Agosto de 2026, 04:36 hs",
-  "fecha_ultima_actualizacion": "29/8/2026",
+  "fecha_ultima_actualizacion": "30 de Agosto de 2026, 03:50 hs",
   "archivo": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito.json"
 }
