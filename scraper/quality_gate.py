@@ -15,17 +15,26 @@ import logging
 # ── Anclas geográficas FUERTES (DEBEN aparecer explícitamente en el texto) ────
 # Al menos una debe estar presente en el título o copete directamente.
 STRONG_LOCAL_ANCHORS = [
+    # Villa Paranacito y variantes
     "villa paranacito",
     "paranacito",
     "río paranacito",
     "rio paranacito",
+    # Departamento Islas del Ibicuy (incluye Ceibas, Ibicuy, Pueblo Brugo)
     "islas del ibicuy",
     "departamento islas",
+    "ceibas",
+    "villa ceibas",
+    "ibicuy",
+    "pueblo brugo",
+    # Geografía local
     "arroyo sagastume",
     "arroyo nogoyá",
     "laguna del pescado",
     "médano a médano",
+    "delta entrerriano",
 ]
+
 
 # ── Instituciones locales reconocidas que actúan como ancla fuerte ─────────────
 LOCAL_INSTITUTIONS = [
@@ -83,6 +92,7 @@ MEDIUM_CONFIDENCE_SOURCES = [
     "r2820", "diario el argentino", "el argentino", "diario el día", "el dia",
     "voz isleña", "voz islena", "maxima online", "maximaonline",
     "entre ríos ahora", "entre rios ahora", "mirador provincial", "apfdigital",
+    "ceibasnoticias", "ceibas noticias",
 ]
 
 # ── Fuentes que señalan contenido de baja confiabilidad ──────────────────────

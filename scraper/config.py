@@ -64,7 +64,8 @@ DEFAULT_FALLBACK_IMAGE = "https://images.unsplash.com/photo-1500534314209-a25ddb
 # Filtros geográficos estrictos para evitar falsos positivos
 LOCAL_REQUIRED_TERMS = [
     "villa paranacito", "paranacito", "islas del ibicuy", "río paranacito", "rio paranacito",
-    "delta entrerriano", "arroyo sagastume", "brazo largo", "ceibas", "departamento islas"
+    "delta entrerriano", "arroyo sagastume", "brazo largo", "ceibas", "villa ceibas",
+    "departamento islas", "gualeguaychu", "ibicuy", "pueblo brugo", "médano a médano"
 ]
 
 LOCAL_EXCLUDE_TERMS = [
@@ -75,6 +76,12 @@ LOCAL_EXCLUDE_TERMS = [
 
 # Fuentes RSS de Noticias Regionales y Búsquedas
 RSS_SOURCES = [
+    {
+        "nombre": "Ceibas Noticias",
+        "tipo": "local",
+        "url": "https://ceibasnoticias.com.ar/feed/",
+        "keywords": ["paranacito", "villa paranacito", "islas del ibicuy", "ceibas", "delta"]
+    },
     {
         "nombre": "Google Alerts - Villa Paranacito",
         "tipo": "google_alerts",
@@ -109,6 +116,7 @@ RSS_SOURCES = [
         "keywords": ["paranacito", "villa paranacito", "islas del ibicuy"]
     }
 ]
+
 
 
 # Prompt del sistema para el LLM (Gemini)
