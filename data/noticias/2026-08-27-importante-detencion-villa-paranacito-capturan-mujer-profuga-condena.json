@@ -23,7 +23,7 @@
   "tiempo_lectura": "2 min",
   "resumen_whatsapp": "🚨 ¡Noticia de último momento en Villa Paranacito! La justicia de Entre Ríos detuvo a una mujer prófuga desde 2016, condenada a 20 años por graves delitos sexuales. ⚖️ Se pone fin a una búsqueda de casi una década. ¡Leé la nota completa para más detalles! 📰",
   "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/quien-es-amparito-la-mujer-que-estuvo-diez-anios-profuga-y-detuvieron-en-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw25NYSnjrJVSsdGjbX9qhYC",
       "fecha_consulta": "2026-08-27T07:28:39.216045"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/detuvieron-a-amparito-y-su-hija-conto-anos-de-abusos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1XxNMdoWdJ3-k3mq2YXCGa",
+      "fecha_consulta": "2026-08-30T16:06:44.043866"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,14 +47,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La justicia de Entre Ríos logró la detención en Villa Paranacito de una mujer que permanecía prófuga desde 2016, sobre quien pesaba una condena firme de 20 años de prisión por reiterados abusos sexual",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:06",
+      "fecha": "2026-08-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo revela que la detención de 'Amparito' reabrió la historia de abuso sexual intrafamiliar, y que su hija relató años de abusos.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "aefd0bc3f58d7b6777b3d59fde78babb0065f70d501db3b96031dab18f631722"
+    "aefd0bc3f58d7b6777b3d59fde78babb0065f70d501db3b96031dab18f631722",
+    "3bb4125c0aec6a53b858a70c8c9d6ea04d362935a577de57c2d94d75928b75bb"
   ],
   "fecha_inicio_iso": "2026-08-27T07:28:39.216045",
-  "fecha_ultima_actualizacion_iso": "2026-08-27T07:28:39.216045",
+  "fecha_ultima_actualizacion_iso": "2026-08-30T16:06:44.043866",
   "fecha_publicacion": "27 de Agosto de 2026, 07:28 hs",
-  "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:28 hs",
+  "fecha_ultima_actualizacion": "30 de Agosto de 2026, 16:06 hs",
   "archivo": "2026-08-27-importante-detencion-villa-paranacito-capturan-mujer-profuga-condena.json"
 }
