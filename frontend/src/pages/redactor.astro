@@ -480,12 +480,11 @@ export const prerender = true;
             </div>
             <div class="flex items-center gap-2 mt-2 pt-2 border-t border-slate-100">
               <button class="btn-edit flex-1 text-xs font-bold bg-sky-50 hover:bg-sky-100 text-sky-700 py-2 rounded-xl transition-colors cursor-pointer" data-slug="${slug}">
-                ✏️ Editar
+                ✏️ Editar post
               </button>
-              <a href="/noticias/${slug}" target="_blank" class="text-xs font-bold px-3 py-2 bg-slate-50 hover:bg-slate-100 text-slate-500 rounded-xl transition-colors">
-                🔗
-              </a>
+              ${n.url_original ? `<a href="${n.url_original}" target="_blank" title="Abrir fuente original" class="text-xs font-bold px-3 py-2 bg-slate-50 hover:bg-slate-100 text-slate-500 rounded-xl transition-colors">🔗 Fuente</a>` : ''}
             </div>
+
           </div>
         </div>
       </div>`;

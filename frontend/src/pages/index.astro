@@ -5,37 +5,43 @@ import { getCleanAndDeduplicatedNews } from '../utils/news';
 
 const noticias = getCleanAndDeduplicatedNews();
 
-// Categorías con conteo para el filtro por tabs
-const categorias = [
-  { id: 'todas', nombre: 'Todas', href: '/', count: noticias.length },
-  { id: 'rio-y-clima', nombre: '🌊 Río', href: '/categoria/rio-y-clima', count: noticias.filter(n => n.categoria === 'Río y Clima').length },
-  { id: 'comunidad', nombre: '👥 Comunidad', href: '/categoria/comunidad', count: noticias.filter(n => n.categoria === 'Comunidad').length },
-  { id: 'sociedad', nombre: '⚖️ Sociedad', href: '/categoria/sociedad', count: noticias.filter(n => n.categoria === 'Sociedad').length },
-  { id: 'deportes', nombre: '⚽ Deportes', href: '/categoria/deportes', count: noticias.filter(n => n.categoria === 'Deportes').length },
-  { id: 'obras', nombre: '🔧 Obras', href: '/categoria/obras-y-servicios', count: noticias.filter(n => n.categoria === 'Obras y Servicios').length },
-  { id: 'salud', nombre: '🏥 Salud', href: '/categoria/salud-y-educacion', count: noticias.filter(n => n.categoria === 'Salud y Educación').length },
-  { id: 'turismo', nombre: '🎣 Turismo', href: '/categoria/turismo-y-cultura', count: noticias.filter(n => n.categoria === 'Turismo y Cultura').length },
-];
+// Mapeo de perfiles de autor / fuente estilo Twitter
+function getAuthorProfile(n: any) {
+  const fuente = (n.fuente_nombre || n.fuentes_consultadas?.[0]?.nombre || '').toLowerCase();
+  const titulo = (n.titulo || '').toLowerCase();
+  const cat = n.categoria || 'Comunidad';
 
-const categoryColors: Record<string, string> = {
-  'Río y Clima':      'bg-sky-100 text-sky-800 border-sky-200',
-  'Comunidad':        'bg-emerald-100 text-emerald-800 border-emerald-200',
-  'Deportes':         'bg-amber-100 text-amber-800 border-amber-200',
-  'Obras y Servicios':'bg-purple-100 text-purple-800 border-purple-200',
-  'Salud y Educación':'bg-rose-100 text-rose-800 border-rose-200',
-  'Turismo y Cultura':'bg-teal-100 text-teal-800 border-teal-200',
-  'Sociedad':         'bg-indigo-100 text-indigo-800 border-indigo-200',
-};
+  if (fuente.includes('ceibas') || titulo.includes('ceibas')) {
+    return { name: 'Ceibas Noticias', handle: '@ceibasnoticias', avatar: '🌲', color: 'bg-emerald-700 text-white', verified: true };
+  }
+  if (fuente.includes('bombero') || titulo.includes('bombero')) {
+    return { name: 'Bomberos Voluntarios VP', handle: '@bomberos_vp', avatar: '🚒', color: 'bg-rose-600 text-white', verified: true };
+  }
+  if (fuente.includes('prefectura') || titulo.includes('prefectura') || titulo.includes('río') || cat === 'Río y Clima') {
+    return { name: 'Prefectura & Hidrología', handle: '@prefectura_vp', avatar: '⚓', color: 'bg-sky-700 text-white', verified: true };
+  }
+  if (fuente.includes('hospital') || fuente.includes('salud') || cat === 'Salud y Educación') {
+    return { name: 'Salud & Hospital VP', handle: '@salud_paranacito', avatar: '🏥', color: 'bg-teal-600 text-white', verified: true };
+  }
+  if (fuente.includes('polic') || fuente.includes('justicia') || fuente.includes('federal') || cat === 'Sociedad') {
+    return { name: 'Seguridad & Juzgado', handle: '@seguridad_islas', avatar: '⚖️', color: 'bg-indigo-700 text-white', verified: true };
+  }
+  if (fuente.includes('islenos') || fuente.includes('isleno') || cat === 'Deportes') {
+    return { name: 'Deportes del Delta', handle: '@islenos_club', avatar: '⚽', color: 'bg-emerald-600 text-white', verified: false };
+  }
+  if (fuente.includes('vialidad') || cat === 'Obras y Servicios') {
+    return { name: 'Vialidad & Servicios', handle: '@vialidad_er', avatar: '🚜', color: 'bg-amber-600 text-white', verified: true };
+  }
+  if (fuente.includes('turismo') || cat === 'Turismo y Cultura') {
+    return { name: 'Turismo Paranacito', handle: '@turismo_delta', avatar: '🎣', color: 'bg-cyan-700 text-white', verified: false };
+  }
+  if (fuente.includes('argentino') || fuente.includes('r2820') || fuente.includes('maxima') || fuente.includes('apf')) {
+    const rawName = n.fuente_nombre?.split('/')[0]?.trim() || 'Prensa Regional';
+    return { name: rawName, handle: '@prensa_regional', avatar: '📰', color: 'bg-slate-800 text-white', verified: true };
+  }
 
-const categoryFallback: Record<string, string> = {
-  'Río y Clima':      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80',
-  'Comunidad':        'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80',
-  'Deportes':         'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=900&q=80',
-  'Obras y Servicios':'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=900&q=80',
-  'Salud y Educación':'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80',
-  'Turismo y Cultura':'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=900&q=80',
-  'Sociedad':         'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80',
-};
+  return { name: 'Paranacito Noticias', handle: '@paranacito_noticias', avatar: '🌊', color: 'bg-sky-600 text-white', verified: true };
+}
 
 function getResumen(n: any): string {
   return n.resumen || n.copete || '';
@@ -46,141 +52,318 @@ function getFuente(n: any): string {
 }
 
 function getFuenteUrl(n: any): string {
-  return n.url_original || n.fuente_url || (n.fuentes_consultadas?.[0]?.url) || '#';
+  return n.url_original || n.fuente_url || (n.fuentes_consultadas?.[0]?.url) || '';
+}
+
+// Determinar si tiene una imagen real de noticia (NO un placeholder genérico de Unsplash repetido)
+function getRealImage(n: any): string | null {
+  if (!n.imagen) return null;
+  if (typeof n.imagen !== 'string') return null;
+  if (!n.imagen.startsWith('http')) return null;
+  // Descartar placeholders genéricos de Unsplash que se repiten en masa
+  if (n.imagen.includes('unsplash.com')) return null;
+  return n.imagen;
 }
 
 function tiempoRelativo(isoStr: string): string {
   if (!isoStr) return '';
   const ahora = Date.now();
   const fecha = new Date(isoStr).getTime();
-  const diff = Math.floor((ahora - fecha) / 60000); // minutos
-  if (diff < 60) return `hace ${diff} min`;
-  if (diff < 1440) return `hace ${Math.floor(diff / 60)} hs`;
-  return `hace ${Math.floor(diff / 1440)} días`;
+  if (isNaN(fecha)) return '';
+  const diffMin = Math.floor((ahora - fecha) / 60000);
+  if (diffMin < 1) return 'ahora';
+  if (diffMin < 60) return `${diffMin}m`;
+  const diffHs = Math.floor(diffMin / 60);
+  if (diffHs < 24) return `${diffHs}h`;
+  const diffDias = Math.floor(diffHs / 24);
+  return `${diffDias}d`;
 }
+
+const categorias = [
+  { id: 'todas', nombre: '🔥 Todo', count: noticias.length },
+  { id: 'Río y Clima', nombre: '🌊 Río', count: noticias.filter(n => n.categoria === 'Río y Clima').length },
+  { id: 'Comunidad', nombre: '👥 Comunidad', count: noticias.filter(n => n.categoria === 'Comunidad').length },
+  { id: 'Sociedad', nombre: '⚖️ Sociedad', count: noticias.filter(n => n.categoria === 'Sociedad').length },
+  { id: 'Deportes', nombre: '⚽ Deportes', count: noticias.filter(n => n.categoria === 'Deportes').length },
+  { id: 'Obras y Servicios', nombre: '🔧 Obras', count: noticias.filter(n => n.categoria === 'Obras y Servicios').length },
+  { id: 'Salud y Educación', nombre: '🏥 Salud', count: noticias.filter(n => n.categoria === 'Salud y Educación').length },
+  { id: 'Turismo y Cultura', nombre: '🎣 Turismo', count: noticias.filter(n => n.categoria === 'Turismo y Cultura').length },
+];
+
+const categoryBadges: Record<string, string> = {
+  'Río y Clima':      'bg-sky-50 text-sky-700 border-sky-200',
+  'Comunidad':        'bg-emerald-50 text-emerald-700 border-emerald-200',
+  'Deportes':         'bg-amber-50 text-amber-700 border-amber-200',
+  'Obras y Servicios':'bg-purple-50 text-purple-700 border-purple-200',
+  'Salud y Educación':'bg-rose-50 text-rose-700 border-rose-200',
+  'Turismo y Cultura':'bg-teal-50 text-teal-700 border-teal-200',
+  'Sociedad':         'bg-indigo-50 text-indigo-700 border-indigo-200',
+};
 ---
 
-<Layout title="Paranacito Noticias | Feed del Delta" description="Últimas noticias de Villa Paranacito, Ceibas e Islas del Ibicuy.">
+<Layout title="Paranacito Noticias | Feed en Vivo" description="Feed de noticias de Villa Paranacito, Ceibas y el Delta de Entre Ríos. Formato rápido estilo Twitter.">
   
   <!-- Widget Clima y Nivel del Río -->
   <WeatherWidget />
 
-  <!-- Filtro de categorías — sticky tabs -->
-  <div class="sticky top-[72px] z-30 bg-white/95 backdrop-blur border-b border-slate-200 -mx-4 px-4 mb-6">
-    <div class="flex items-center gap-1.5 overflow-x-auto py-2 scrollbar-none max-w-2xl mx-auto">
-      {categorias.map(cat => (
-        <a
-          href={cat.href}
-          class="flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all
-                 bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-slate-300"
-          data-cat={cat.id}
-        >
-          {cat.nombre}
-          {cat.count > 0 && <span class="ml-1 opacity-50 text-[10px]">({cat.count})</span>}
-        </a>
-      ))}
+  <div class="max-w-2xl mx-auto">
+
+    <!-- Encabezado del Feed estilo Twitter / Microblogging -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 mb-4 shadow-sm flex items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-sky-500 text-white flex items-center justify-center text-xl shadow-inner font-bold">
+          🌊
+        </div>
+        <div>
+          <h1 class="text-base font-extrabold text-slate-900 leading-tight">Feed en Vivo del Delta</h1>
+          <p class="text-xs text-slate-500">Villa Paranacito, Ceibas e Islas del Ibicuy</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Directo
+        </span>
+      </div>
     </div>
-  </div>
 
-  <!-- Feed de posts -->
-  <div class="max-w-2xl mx-auto space-y-4" id="feed">
+    <!-- Tabs de filtro estilo Twitter (Filtrado instantáneo en la misma página) -->
+    <div class="sticky top-[68px] z-30 bg-slate-50/95 backdrop-blur py-2 -mx-2 px-2 mb-3">
+      <div class="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none" id="cat-tabs">
+        {categorias.map((cat, idx) => (
+          <button
+            type="button"
+            class={`tab-btn flex-shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+              idx === 0
+                ? 'active bg-slate-900 text-white shadow-sm'
+                : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-100 hover:text-slate-900'
+            }`}
+            data-target-cat={cat.id}
+          >
+            {cat.nombre}
+            {cat.count > 0 && <span class="ml-1 opacity-60 text-[11px]">({cat.count})</span>}
+          </button>
+        ))}
+      </div>
+    </div>
 
-    {noticias.map((n: any) => {
-      const resumen = getResumen(n);
-      const fuente = getFuente(n);
-      const fuenteUrl = getFuenteUrl(n);
-      const badgeClass = categoryColors[n.categoria] || 'bg-slate-100 text-slate-800 border-slate-200';
-      const imgSrc = (n.imagen && n.imagen.startsWith('http')) ? n.imagen : (categoryFallback[n.categoria] || categoryFallback['Comunidad']);
-      const tiempo = tiempoRelativo(n.fecha_iso || n.fecha_inicio_iso || '');
-      const wappText = encodeURIComponent(
-        `📰 *${n.titulo}*\n${resumen}\n\n👉 Ver más en: https://paranacito-noticias.vercel.app/noticias/${n.slug}`
-      );
+    <!-- Feed Timeline estilo Twitter clásico -->
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm divide-y divide-slate-100 overflow-hidden" id="timeline">
 
-      return (
-        <article
-          class="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-sm hover:shadow-md transition-all duration-200"
-          data-categoria={n.categoria}
-        >
-          <!-- Imagen -->
-          <a href={`/noticias/${n.slug}`} class="block relative aspect-[16/9] overflow-hidden bg-slate-200">
-            <img
-              src={imgSrc}
-              alt={n.titulo}
-              loading="lazy"
-              class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              onerror={`this.onerror=null;this.src='${categoryFallback[n.categoria] || categoryFallback["Comunidad"]}';`}
-            />
-            <!-- Categoría badge -->
-            <span class={`absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-xs font-semibold border shadow-sm ${badgeClass}`}>
-              {n.categoria}
-            </span>
-            <!-- Badge ALERTA -->
-            {n.es_alerta && (
-              <span class="absolute top-3 right-3 px-2 py-0.5 rounded-full text-[11px] font-black bg-rose-600 text-white shadow animate-pulse">
-                🚨 ALERTA
-              </span>
-            )}
-          </a>
+      {noticias.map((n: any) => {
+        const author = getAuthorProfile(n);
+        const resumen = getResumen(n);
+        const fuente = getFuente(n);
+        const fuenteUrl = getFuenteUrl(n);
+        const realImg = getRealImage(n);
+        const tiempo = tiempoRelativo(n.fecha_iso || n.fecha_inicio_iso || '');
+        const badgeStyle = categoryBadges[n.categoria] || 'bg-slate-50 text-slate-700 border-slate-200';
 
-          <!-- Contenido del post -->
-          <div class="p-4">
-            <!-- Título -->
-            <a href={`/noticias/${n.slug}`}>
-              <h2 class="font-bold text-slate-900 leading-snug mb-2 text-[15px] hover:text-river-600 transition-colors line-clamp-3">
-                {n.titulo}
-              </h2>
-            </a>
+        const wappShareMsg = encodeURIComponent(
+          `📰 *${n.titulo}*\n\n${resumen}\n\n👉 Fuente: ${fuente}${fuenteUrl ? ` (${fuenteUrl})` : ''}\n📱 https://paranacito-noticias.vercel.app/`
+        );
 
-            <!-- Resumen (2-3 oraciones) -->
-            {resumen && (
-              <p class="text-slate-600 text-sm leading-relaxed mb-3 line-clamp-3">
-                {resumen}
-              </p>
-            )}
-
-            <!-- Pie: fuente + tiempo + WhatsApp -->
-            <div class="flex items-center justify-between gap-2 pt-2.5 border-t border-slate-100">
-              <div class="flex items-center gap-2 min-w-0">
-                <!-- Fuente con link externo -->
-                <a
-                  href={fuenteUrl !== '#' ? fuenteUrl : undefined}
-                  target={fuenteUrl !== '#' ? '_blank' : undefined}
-                  rel="noopener noreferrer"
-                  class="text-xs text-slate-500 font-medium hover:text-river-600 transition-colors truncate max-w-[160px]"
-                  title={`Fuente: ${fuente}`}
-                >
-                  📰 {fuente}
-                </a>
-                {tiempo && (
-                  <span class="text-[11px] text-slate-400 whitespace-nowrap flex-shrink-0">· {tiempo}</span>
-                )}
+        return (
+          <article
+            class="tweet-card p-4 sm:p-5 hover:bg-slate-50/60 transition-colors"
+            data-category={n.categoria}
+          >
+            <div class="flex items-start gap-3">
+              
+              <!-- Avatar estilo Twitter -->
+              <div class={`w-10 h-10 rounded-full flex items-center justify-center text-lg shrink-0 shadow-sm font-semibold select-none ${author.color}`}>
+                {author.avatar}
               </div>
 
-              <!-- Botón WhatsApp -->
-              <a
-                href={`https://api.whatsapp.com/send?text=${wappText}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex-shrink-0 inline-flex items-center gap-1 rounded-lg bg-[#25D366] text-white hover:bg-[#20bd5a] transition-colors shadow-sm px-2.5 py-1 text-xs"
-                title="Compartir por WhatsApp"
-              >
-                <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-                </svg>
-                Compartir
-              </a>
-            </div>
-          </div>
-        </article>
-      );
-    })}
+              <!-- Contenedor principal del Tweet -->
+              <div class="flex-1 min-w-0">
 
-    {noticias.length === 0 && (
-      <div class="text-center py-16 text-slate-400">
-        <div class="text-4xl mb-3">📭</div>
-        <p class="font-medium">No hay noticias publicadas aún.</p>
+                <!-- Línea de Autor, Handle, Tiempo y Categoría -->
+                <div class="flex items-center justify-between gap-2 flex-wrap">
+                  <div class="flex items-center gap-1.5 min-w-0 flex-wrap">
+                    <span class="font-bold text-slate-900 text-sm truncate">{author.name}</span>
+                    {author.verified && (
+                      <svg class="w-4 h-4 text-sky-500 shrink-0 fill-current" viewBox="0 0 24 24" title="Fuente Verificada">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                      </svg>
+                    )}
+                    <span class="text-xs text-slate-400 font-normal">{author.handle}</span>
+                    {tiempo && (
+                      <>
+                        <span class="text-slate-300 text-xs">·</span>
+                        <span class="text-xs text-slate-400">{tiempo}</span>
+                      </>
+                    )}
+                  </div>
+
+                  <div class="flex items-center gap-1.5 shrink-0">
+                    {n.es_alerta && (
+                      <span class="px-2 py-0.5 rounded-full text-[10px] font-black bg-rose-600 text-white animate-pulse">
+                        🚨 ALERTA
+                      </span>
+                    )}
+                    <span class={`px-2 py-0.5 rounded-full text-[10px] font-bold border ${badgeStyle}`}>
+                      {n.categoria}
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Titular (Texto directo del post, sin redirección a páginas internas) -->
+                <h2 class="font-bold text-slate-900 text-base leading-snug mt-1.5 mb-1.5">
+                  {n.titulo}
+                </h2>
+
+                <!-- Resumen breve (2-3 oraciones estilo microblogging) -->
+                {resumen && (
+                  <p class="text-slate-700 text-sm leading-relaxed whitespace-pre-line">
+                    {resumen}
+                  </p>
+                )}
+
+                <!-- Imagen Real Adjunta (SOLO si es una foto real del medio/artículo, sin stock photos genéricos) -->
+                {realImg && (
+                  <div class="mt-3 rounded-xl overflow-hidden border border-slate-200 bg-slate-100 max-h-72">
+                    <img
+                      src={realImg}
+                      alt={n.titulo}
+                      loading="lazy"
+                      class="w-full h-full object-cover"
+                      onerror="this.parentElement.style.display='none';"
+                    />
+                  </div>
+                )}
+
+                <!-- Barra de Acciones del Tweet -->
+                <div class="flex items-center justify-between gap-2 mt-3 pt-2.5 border-t border-slate-100/80 text-xs text-slate-500">
+                  
+                  <!-- Link directo a la fuente externa original (abre en pestaña nueva) -->
+                  {fuenteUrl ? (
+                    <a
+                      href={fuenteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 font-medium text-slate-600 hover:text-sky-600 transition-colors py-1 px-2 -ml-2 rounded-lg hover:bg-sky-50"
+                      title={`Abrir nota original en ${fuente}`}
+                    >
+                      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                      <span class="truncate max-w-[170px] sm:max-w-[240px]">{fuente}</span>
+                    </a>
+                  ) : (
+                    <span class="inline-flex items-center gap-1.5 text-slate-400 py-1">
+                      📰 {fuente}
+                    </span>
+                  )}
+
+                  <!-- Botones de Interacción -->
+                  <div class="flex items-center gap-1.5">
+                    <!-- Botón Copiar Texto -->
+                    <button
+                      type="button"
+                      class="btn-copy-tweet inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors cursor-pointer"
+                      data-copy={`${n.titulo}\n\n${resumen}\n\nFuente: ${fuente}`}
+                      title="Copiar texto del post"
+                    >
+                      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                      </svg>
+                      <span class="copy-text text-[11px] font-semibold">Copiar</span>
+                    </button>
+
+                    <!-- Botón Compartir en WhatsApp -->
+                    <a
+                      href={`https://api.whatsapp.com/send?text=${wappShareMsg}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white text-[11px] font-bold transition-all shadow-sm"
+                      title="Compartir por WhatsApp"
+                    >
+                      <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                      </svg>
+                      Compartir
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </article>
+        );
+      })}
+
+      <!-- Estado vacío si el filtro no tiene notas -->
+      <div id="empty-state" class="hidden text-center py-16 px-4 text-slate-400">
+        <div class="text-4xl mb-2">📭</div>
+        <p class="font-bold text-slate-600">No hay posts en esta categoría</p>
+        <p class="text-xs mt-1 text-slate-400">Probá seleccionando "🔥 Todo".</p>
       </div>
-    )}
+
+    </div>
+
   </div>
 
 </Layout>
+
+<script>
+  // ── Filtrado interactivo por tabs en el cliente (cero recargas) ──────
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  const cards = document.querySelectorAll<HTMLElement>('.tweet-card');
+  const emptyState = document.getElementById('empty-state');
+
+  function filterFeed(category: string) {
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const cardCat = card.dataset.category || '';
+      if (category === 'todas' || cardCat.toLowerCase() === category.toLowerCase()) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    if (emptyState) {
+      emptyState.classList.toggle('hidden', visibleCount > 0);
+    }
+  }
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => {
+        t.classList.remove('bg-slate-900', 'text-white', 'shadow-sm', 'active');
+        t.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+      });
+
+      tab.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+      tab.classList.add('bg-slate-900', 'text-white', 'shadow-sm', 'active');
+
+      const targetCat = tab.dataset.targetCat || 'todas';
+      filterFeed(targetCat);
+    });
+  });
+
+  // ── Botón copiar tweet con feedback visual ──────────────────────────
+  document.querySelectorAll<HTMLButtonElement>('.btn-copy-tweet').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const text = btn.dataset.copy || '';
+      const label = btn.querySelector<HTMLElement>('.copy-text');
+      try {
+        await navigator.clipboard.writeText(text);
+        if (label) label.textContent = '¡Copiado! ✓';
+        btn.classList.add('text-emerald-600');
+        setTimeout(() => {
+          if (label) label.textContent = 'Copiar';
+          btn.classList.remove('text-emerald-600');
+        }, 2000);
+      } catch (e) {
+        // Fallback simple
+        alert('Copiado al portapapeles');
+      }
+    });
+  });
+</script>

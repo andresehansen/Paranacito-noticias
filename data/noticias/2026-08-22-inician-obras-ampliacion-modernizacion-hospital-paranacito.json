@@ -2,6 +2,7 @@
   "id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
   "acontecimiento_id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
   "titulo": "Inician las obras de ampliación y modernización edilicia en el Hospital de Villa Paranacito",
+  "resumen": "Con una inversión provincial superior a los $28 millones, comenzó la primera etapa de reformas que permitirá optimizar los espacios de atención y ampliar el sector de Guardia y consultorios.",
   "copete": "Con una inversión provincial superior a los $28 millones, comenzó la primera etapa de reformas que permitirá optimizar los espacios de atención y ampliar el sector de Guardia y consultorios.",
   "cuerpo": [
     "El Hospital de Villa Paranacito, cabecera de la atención sanitaria en el departamento Islas del Ibicuy, comenzó la ejecución de un ambicioso plan de obras de infraestructura financiado por el Ministerio de Salud de Entre Ríos, que demandará una inversión oficial de $28.190.533 en su etapa inicial.",
@@ -22,7 +23,8 @@
   "tiempo_lectura": "3 min",
   "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
   "url_original": "https://www.entrerios.gov.ar",
-  "imagen": "https://lavozisleña.ar/wp-content/uploads/2023/11/fachada.htalparanacito-1200x800-1.jpg",
+  "imagen": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+
   "estado": "Publicado",
   "nivel_confiabilidad": "Alta",
   "es_alerta": false,
@@ -51,7 +53,6 @@
   "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios.",
   "fecha_iso": "2026-08-22T12:00:00-03:00",
   "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
-  "fecha_ultima_actualizacion": "29/8/2026",
-  "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json",
-  "fecha_ultima_actualizacion_iso": "2026-08-30T00:14:57.044Z"
+  "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
+  "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json"
 }
