@@ -1,5 +1,32 @@
 [
   {
+    "acontecimiento_id": "2026-08-31-detienen-paranacito-crimen-gba",
+    "slug": "detienen-paranacito-crimen-gba",
+    "titulo": "Detienen a 'Paranacito' en GBA, vinculado a crimen y narcotráfico",
+    "copete": "",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "seguridad",
+      "justicia",
+      "narcotráfico"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Infobae)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "31 de Agosto de 2026, 04:52 hs",
+    "fecha_ultima_actualizacion": "31 de Agosto de 2026, 04:52 hs",
+    "fecha_inicio_iso": "2026-08-31T04:52:48.587535",
+    "fecha_ultima_actualizacion_iso": "2026-08-31T04:52:48.587535",
+    "resumen_whatsapp": "🚨 Detuvieron a 'Paranacito' en GBA, vinculado a un megaoperativo narco y el crimen del sargento Facundo Giménez."
+  },
+  {
     "acontecimiento_id": "2026-08-31-villa-paranacito-detienen-apodado-paranacito",
     "slug": "villa-paranacito-detienen-apodado-paranacito",
     "titulo": "Villa Paranacito: Detienen a individuo apodado 'Paranacito' en operativo narco",
