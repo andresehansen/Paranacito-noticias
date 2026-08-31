@@ -1,62 +1,98 @@
 /**
- * Utilidad centralizada para cargar, ordenar y deduplicar noticias
- * Garantiza que la portada, categorías y redactor nunca muestren notas repetidas sobre el mismo tema.
+ * Utilidad centralizada para cargar, ordenar, filtrar y deduplicar noticias de forma inteligente.
+ * 
+ * Funcionalidades:
+ * 1. Filtro estricto contra falsos positivos (apodos "Paranacito" en GBA, Florencio Varela, Quilmes).
+ * 2. Deduplicación semántica automática basada en solapamiento de palabras clave (>35%).
+ * 3. Deduplicación por tópicos y slugs similares.
+ * 4. Orden cronológico descendente (las más recientes primero).
  */
+
+const STOPWORDS = new Set([
+  'de', 'la', 'el', 'en', 'y', 'a', 'los', 'del', 'se', 'las', 'por', 'un', 'para', 'con',
+  'no', 'una', 'su', 'al', 'lo', 'como', 'mas', 'pero', 'sus', 'le', 'ya', 'o', 'fue',
+  'este', 'ha', 'si', 'porque', 'esta', 'son', 'entre', 'cuando', 'muy', 'sin', 'tras',
+  'sobre', 'ser', 'tiene', 'tambien', 'me', 'hasta', 'hay', 'donde', 'quien', 'desde',
+  'todo', 'nos', 'durante', 'todos', 'uno', 'les', 'ni', 'contra', 'otros', 'ese', 'eso',
+  'ante', 'ellos', 'esto', 'antes', 'algunos', 'que', 'noticias', 'noticia', 'diario',
+  'villa', 'paranacito', 'delta', 'entrerriano', 'entre', 'rios'
+]);
+
+const STRICT_EXCLUDE_PHRASES = [
+  'alias \'paranacito\'', 'alias "paranacito"', 'alias paranacito',
+  'apodado \'paranacito\'', 'apodado "paranacito"', 'apodado paranacito',
+  'conocido como \'paranacito\'', 'conocido como "paranacito"',
+  'florencio varela', 'quilmes', 'conurbano', 'gran buenos aires', 'en gba'
+];
+
+function isFalsePositive(item: any): boolean {
+  const text = `${item.titulo || ''} ${item.copete || ''} ${item.resumen || ''} ${item.slug || ''}`.toLowerCase();
+  for (const phrase of STRICT_EXCLUDE_PHRASES) {
+    if (text.includes(phrase)) return true;
+  }
+  return false;
+}
+
+function extractKeywords(text: string): Set<string> {
+  const norm = (text || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ');
+  const words = norm.split(/\s+/).filter(w => w.length >= 4 && !STOPWORDS.has(w));
+  return new Set(words);
+}
+
+function calculateOverlap(kwA: Set<string>, kwB: Set<string>): number {
+  if (kwA.size === 0 || kwB.size === 0) return 0;
+  let matches = 0;
+  for (const word of kwA) {
+    if (kwB.has(word)) matches++;
+  }
+  const minSize = Math.min(kwA.size, kwB.size);
+  return minSize > 0 ? matches / minSize : 0;
+}
 
 export function getCleanAndDeduplicatedNews(): any[] {
   const newsFiles = import.meta.glob('../../../data/noticias/*.json', { eager: true });
   const rawList = Object.values(newsFiles)
     .map((file: any) => file.default || file)
-    .filter((n: any) => n && n.slug && n.publicado !== false && !n.requiere_revision);
+    .filter((n: any) => n && n.slug && n.publicado !== false && !n.requiere_revision)
+    .filter((n: any) => !isFalsePositive(n)); // Descartar de inmediato falsos positivos de GBA
 
   // Ordenar por fecha más reciente primero
   rawList.sort((a: any, b: any) => 
-    String(b.fecha_iso || b.fecha_inicio_iso || '').localeCompare(String(a.fecha_iso || a.fecha_inicio_iso || ''))
+    String(b.fecha_iso || b.fecha_inicio_iso || b.fecha_publicacion || '').localeCompare(
+      String(a.fecha_iso || a.fecha_inicio_iso || a.fecha_publicacion || '')
+    )
   );
 
-  const seenTopics = new Set<string>();
-  const seenSlugs = new Set<string>();
   const cleanList: any[] = [];
-
-  // Tópicos y entidades clave para evitar notas duplicadas
-  const topicPatterns = [
-    { id: 'amparito', regex: /amparito|profuga/i },
-    { id: 'hacienda', regex: /hacienda|ganad|retiran.*ganado/i },
-    { id: 'cazadores', regex: /cazador|furtiv|visor.*termic/i },
-    { id: 'hospital', regex: /hospital.*paranacito|obras.*hospital/i },
-    { id: 'enfermeria', regex: /enfermeria|concurso.*docente/i },
-    { id: 'frigerio', regex: /frigerio/i },
-    { id: 'bomberos', regex: /bomberos.*voluntarios/i },
-    { id: 'camino_acceso', regex: /mantenimiento.*camino|vialidad.*camino/i },
-    { id: 'futbol_islenos', regex: /islenos.*independientes|torneo.*futbol/i },
-    { id: 'turismo_pesca', regex: /turismo.*pesca|reservas.*turismo/i },
-    { id: 'operativo_sanitario', regex: /operativo.*sanitario.*fluvial/i },
-    { id: 'rio_estable', regex: /altura.*estable.*pronostico/i }
-  ];
+  const processedKeywordSets: { id: string; keywords: Set<string>; title: string }[] = [];
 
   for (const item of rawList) {
-    if (seenSlugs.has(item.slug)) continue;
+    const itemText = `${item.titulo || ''} ${item.copete || ''} ${item.resumen || ''}`;
+    const itemKeywords = extractKeywords(itemText);
 
-    const fullText = `${item.titulo || ''} ${item.copete || ''} ${item.slug || ''}`.toLowerCase();
-    let matchedTopic: string | null = null;
-
-    for (const t of topicPatterns) {
-      if (t.regex.test(fullText)) {
-        matchedTopic = t.id;
+    // Comparar contra todas las notas ya aceptadas para detectar si habla del mismo acontecimiento
+    let isDuplicate = false;
+    for (const accepted of processedKeywordSets) {
+      const overlap = calculateOverlap(itemKeywords, accepted.keywords);
+      // Si comparten más del 35% de palabras clave significativas, es el mismo hecho noticioso
+      if (overlap >= 0.35) {
+        isDuplicate = true;
         break;
       }
     }
 
-    if (matchedTopic) {
-      if (seenTopics.has(matchedTopic)) {
-        // Ya incluimos la versión más reciente de este tema -> ignorar duplicado viejo
-        continue;
-      }
-      seenTopics.add(matchedTopic);
+    if (!isDuplicate) {
+      cleanList.push(item);
+      processedKeywordSets.push({
+        id: item.slug,
+        keywords: itemKeywords,
+        title: item.titulo || ''
+      });
     }
-
-    seenSlugs.add(item.slug);
-    cleanList.push(item);
   }
 
   return cleanList;

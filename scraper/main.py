@@ -28,16 +28,24 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 
 def purge_and_clean_events():
     """
-    Escanea data/noticias/ eliminando cualquier noticia que no sea 100%
-    relevante para Villa Paranacito y corrigiendo caracteres/entidades HTML.
+    Escanea data/noticias/ eliminando:
+    1. Falsos positivos (apodos "Paranacito" en GBA, Florencio Varela, Quilmes).
+    2. Noticias sin relevancia local.
+    3. Archivos JSON duplicados que traten sobre el mismo hecho noticioso.
     """
     if not EVENTS_DIR.exists():
         return
         
+    from quality_gate import STRICT_EXCLUDE_TERMS
+    from event_matcher import keyword_overlap_score
+
+    all_files = list(EVENTS_DIR.glob("*.json"))
+    valid_events = []
     purged_count = 0
     cleaned_count = 0
     
-    for f in list(EVENTS_DIR.glob("*.json")):
+    # 1. Primera pasada: filtrar relevancia estricta y falsos positivos
+    for f in all_files:
         try:
             with open(f, "r", encoding="utf-8") as file:
                 data = json.load(file)
@@ -46,38 +54,71 @@ def purge_and_clean_events():
             raw_copete = data.get("copete", "")
             cuerpo = data.get("cuerpo", [])
             cuerpo_str = " ".join(cuerpo) if isinstance(cuerpo, list) else str(cuerpo)
+            full_text = f"{raw_title} {raw_copete} {cuerpo_str}".lower()
             
+            # Descartar si contiene términos de exclusión estricta (GBA, apodos, etc.)
+            if any(term in full_text for term in STRICT_EXCLUDE_TERMS):
+                f.unlink(missing_ok=True)
+                purged_count += 1
+                logging.info(f"🗑️ Eliminado falso positivo de GBA: {f.name}")
+                continue
+
             clean_title = clean_text(raw_title)
             clean_copete = clean_text(raw_copete)
             
-            # 1. Comprobar relevancia estricta
+            # Comprobar relevancia local estricta
             if not is_locally_relevant(clean_title, f"{clean_copete} {cuerpo_str}"):
                 f.unlink(missing_ok=True)
                 purged_count += 1
-                logging.info(f"🗑️ Eliminada noticia descartada: {f.name} ('{clean_title[:40]}')")
+                logging.info(f"🗑️ Eliminada noticia sin ancla local: {f.name}")
                 continue
                 
-            # 2. Limpiar textos de entidades HTML
             data["titulo"] = clean_title
             data["copete"] = clean_copete
             if isinstance(cuerpo, list):
                 data["cuerpo"] = [clean_text(p) for p in cuerpo if clean_text(p)]
                 
-            # 3. Asegurar imagen semánticamente coherente con la esencia de la noticia
             current_img = data.get("imagen", "")
             cat = data.get("categoria", "Comunidad")
             data["imagen"] = resolve_semantic_image(clean_title, f"{clean_copete} {cuerpo_str}", cat, current_img)
-                
-            with open(f, "w", encoding="utf-8") as file:
-                json.dump(data, file, ensure_ascii=False, indent=2)
-            cleaned_count += 1
+            
+            valid_events.append({"file": f, "data": data, "date": data.get("fecha_iso", "")})
             
         except Exception as ex:
-            logging.error(f"Error procesando {f.name}: {ex}")
+            logging.error(f"Error analizando {f.name}: {ex}")
 
+    # 2. Segunda pasada: deduplicar entre archivos válidos (conservar el más reciente)
+    valid_events.sort(key=lambda x: str(x.get("date", "")), reverse=True)
+    kept_events = []
+
+    for item in valid_events:
+        item_data = item["data"]
+        item_text = f"{item_data.get('titulo', '')} {item_data.get('copete', '')}"
+        
+        is_duplicate = False
+        for kept in kept_events:
+            kept_data = kept["data"]
+            kept_text = f"{kept_data.get('titulo', '')} {kept_data.get('copete', '')}"
+            overlap = keyword_overlap_score(item_text, kept_text)
+            
+            if overlap >= 0.35:
+                # Duplicado encontrado: eliminar el archivo más antiguo
+                item["file"].unlink(missing_ok=True)
+                purged_count += 1
+                logging.info(f"🗑️ Eliminado JSON duplicado ({int(overlap*100)}% coincidencia): {item['file'].name}")
+                is_duplicate = True
+                break
+                
+        if not is_duplicate:
+            # Guardar versión saneada
+            with open(item["file"], "w", encoding="utf-8") as file:
+                json.dump(item_data, file, ensure_ascii=False, indent=2)
+            kept_events.append(item)
+            cleaned_count += 1
             
     logging.info(f"Purga y saneamiento: {purged_count} eliminadas, {cleaned_count} verificadas.")
     rebuild_events_index()
+
 
 def run_pipeline(use_radar: bool = True):
     """Ejecuta el ciclo completo de ingestión con Motor de Acontecimient@os Vivos."""
