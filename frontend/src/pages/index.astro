@@ -43,8 +43,22 @@ function getAuthorProfile(n: any) {
   return { name: 'Paranacito Noticias', handle: '@paranacito_noticias', avatar: '🌊', color: 'bg-sky-600 text-white', verified: true };
 }
 
-function getResumen(n: any): string {
-  return n.resumen || n.copete || '';
+// Fallbacks de imágenes temáticas de alta resolución representativas del Delta de Entre Ríos
+const categoryFallbackImages: Record<string, string> = {
+  'Río y Clima':      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
+  'Comunidad':        'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80',
+  'Deportes':         'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80',
+  'Obras y Servicios':'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80',
+  'Salud y Educación':'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
+  'Turismo y Cultura':'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80',
+  'Sociedad':         'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80',
+};
+
+function getImage(n: any): string {
+  if (n.imagen && typeof n.imagen === 'string' && n.imagen.startsWith('http')) {
+    return n.imagen;
+  }
+  return categoryFallbackImages[n.categoria] || categoryFallbackImages['Comunidad'];
 }
 
 function getFuente(n: any): string {
@@ -55,14 +69,15 @@ function getFuenteUrl(n: any): string {
   return n.url_original || n.fuente_url || (n.fuentes_consultadas?.[0]?.url) || '';
 }
 
-// Determinar si tiene una imagen real de noticia (NO un placeholder genérico de Unsplash repetido)
-function getRealImage(n: any): string | null {
-  if (!n.imagen) return null;
-  if (typeof n.imagen !== 'string') return null;
-  if (!n.imagen.startsWith('http')) return null;
-  // Descartar placeholders genéricos de Unsplash que se repiten en masa
-  if (n.imagen.includes('unsplash.com')) return null;
-  return n.imagen;
+function getParagraphs(n: any): string[] {
+  if (Array.isArray(n.cuerpo) && n.cuerpo.length > 0) {
+    return n.cuerpo.map((p: any) => String(p).trim()).filter(Boolean);
+  }
+  if (typeof n.cuerpo === 'string' && n.cuerpo.trim()) {
+    return n.cuerpo.split('\n\n').map((p: string) => p.trim()).filter(Boolean);
+  }
+  const fallback = n.copete || n.resumen || '';
+  return fallback ? [fallback] : [];
 }
 
 function tiempoRelativo(isoStr: string): string {
@@ -101,7 +116,7 @@ const categoryBadges: Record<string, string> = {
 };
 ---
 
-<Layout title="Paranacito Noticias | Feed en Vivo" description="Feed de noticias de Villa Paranacito, Ceibas y el Delta de Entre Ríos. Formato rápido estilo Twitter.">
+<Layout title="Paranacito Noticias | Feed en Vivo del Delta" description="Feed de noticias de Villa Paranacito, Ceibas y el Delta Entrerriano. Información con profundidad y fuentes verificadas.">
   
   <!-- Widget Clima y Nivel del Río -->
   <WeatherWidget />
@@ -147,25 +162,28 @@ const categoryBadges: Record<string, string> = {
       </div>
     </div>
 
-    <!-- Feed Timeline estilo Twitter clásico -->
+    <!-- Feed Timeline estilo Twitter con profundidad periodística y fotos completas -->
     <div class="bg-white rounded-2xl border border-slate-200 shadow-sm divide-y divide-slate-100 overflow-hidden" id="timeline">
 
       {noticias.map((n: any) => {
         const author = getAuthorProfile(n);
-        const resumen = getResumen(n);
         const fuente = getFuente(n);
         const fuenteUrl = getFuenteUrl(n);
-        const realImg = getRealImage(n);
+        const img = getImage(n);
         const tiempo = tiempoRelativo(n.fecha_iso || n.fecha_inicio_iso || '');
         const badgeStyle = categoryBadges[n.categoria] || 'bg-slate-50 text-slate-700 border-slate-200';
+        const paragraphs = getParagraphs(n);
+        const mainParagraphs = paragraphs.slice(0, 2);
+        const extraParagraphs = paragraphs.slice(2);
+        const hasExtra = extraParagraphs.length > 0;
 
         const wappShareMsg = encodeURIComponent(
-          `📰 *${n.titulo}*\n\n${resumen}\n\n👉 Fuente: ${fuente}${fuenteUrl ? ` (${fuenteUrl})` : ''}\n📱 https://paranacito-noticias.vercel.app/`
+          `📰 *${n.titulo}*\n\n${paragraphs[0] || n.resumen || n.copete}\n\n👉 Fuente: ${fuente}${fuenteUrl ? ` (${fuenteUrl})` : ''}\n📱 https://paranacito-noticias.vercel.app/`
         );
 
         return (
           <article
-            class="tweet-card p-4 sm:p-5 hover:bg-slate-50/60 transition-colors"
+            class="tweet-card p-4 sm:p-5 hover:bg-slate-50/40 transition-colors"
             data-category={n.categoria}
           >
             <div class="flex items-start gap-3">
@@ -175,7 +193,7 @@ const categoryBadges: Record<string, string> = {
                 {author.avatar}
               </div>
 
-              <!-- Contenedor principal del Tweet -->
+              <!-- Contenedor principal del Post -->
               <div class="flex-1 min-w-0">
 
                 <!-- Línea de Autor, Handle, Tiempo y Categoría -->
@@ -208,47 +226,71 @@ const categoryBadges: Record<string, string> = {
                   </div>
                 </div>
 
-                <!-- Titular (Texto directo del post, sin redirección a páginas internas) -->
-                <h2 class="font-bold text-slate-900 text-base leading-snug mt-1.5 mb-1.5">
+                <!-- Titular destacado (Directo en el feed, sin subpáginas) -->
+                <h2 class="font-black text-slate-900 text-base sm:text-lg leading-snug mt-2 mb-2">
                   {n.titulo}
                 </h2>
 
-                <!-- Resumen breve (2-3 oraciones estilo microblogging) -->
-                {resumen && (
-                  <p class="text-slate-700 text-sm leading-relaxed whitespace-pre-line">
-                    {resumen}
-                  </p>
-                )}
-
-                <!-- Imagen Real Adjunta (SOLO si es una foto real del medio/artículo, sin stock photos genéricos) -->
-                {realImg && (
-                  <div class="mt-3 rounded-xl overflow-hidden border border-slate-200 bg-slate-100 max-h-72">
+                <!-- Imagen Ilustrativa del Post (Estilo Media Card de Twitter) -->
+                {img && (
+                  <div class="my-3 rounded-2xl overflow-hidden border border-slate-200/80 bg-slate-100 aspect-[16/9] relative shadow-sm group">
                     <img
-                      src={realImg}
+                      src={img}
                       alt={n.titulo}
                       loading="lazy"
-                      class="w-full h-full object-cover"
-                      onerror="this.parentElement.style.display='none';"
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      onerror={`this.onerror=null;this.src='${categoryFallbackImages[n.categoria] || categoryFallbackImages["Comunidad"]}';`}
                     />
+                    <span class="absolute bottom-2 left-2 px-2 py-0.5 bg-black/60 backdrop-blur-sm text-white text-[10px] font-bold rounded-md">
+                      📸 {fuente}
+                    </span>
                   </div>
                 )}
 
+                <!-- Desarrollo y Profundidad Periodística (Párrafos principales) -->
+                <div class="text-slate-700 text-sm leading-relaxed space-y-2.5 mt-2">
+                  {mainParagraphs.map((p: string, pIdx: number) => (
+                    <p class={pIdx === 0 ? "font-medium text-slate-800" : ""}>
+                      {p}
+                    </p>
+                  ))}
+
+                  <!-- Párrafos adicionales desplegables in-situ si la nota es larga -->
+                  {hasExtra && (
+                    <div class="extra-content hidden space-y-2.5 pt-1 border-t border-slate-100">
+                      {extraParagraphs.map((p: string) => (
+                        <p>{p}</p>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <!-- Botón Desplegar más párrafos (si los hay) -->
+                {hasExtra && (
+                  <button
+                    type="button"
+                    class="btn-toggle-expand mt-2.5 inline-flex items-center gap-1 text-xs font-bold text-sky-600 hover:text-sky-800 transition-colors cursor-pointer py-1 px-2 -ml-2 rounded-lg hover:bg-sky-50"
+                  >
+                    <span class="toggle-text">📖 Leer desarrollo completo ({extraParagraphs.length} párrafos más) ▾</span>
+                  </button>
+                )}
+
                 <!-- Barra de Acciones del Tweet -->
-                <div class="flex items-center justify-between gap-2 mt-3 pt-2.5 border-t border-slate-100/80 text-xs text-slate-500">
+                <div class="flex items-center justify-between gap-2 mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500">
                   
-                  <!-- Link directo a la fuente externa original (abre en pestaña nueva) -->
+                  <!-- Link directo a la fuente externa original -->
                   {fuenteUrl ? (
                     <a
                       href={fuenteUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="inline-flex items-center gap-1.5 font-medium text-slate-600 hover:text-sky-600 transition-colors py-1 px-2 -ml-2 rounded-lg hover:bg-sky-50"
+                      class="inline-flex items-center gap-1.5 font-semibold text-slate-600 hover:text-sky-600 transition-colors py-1 px-2 -ml-2 rounded-lg hover:bg-sky-50"
                       title={`Abrir nota original en ${fuente}`}
                     >
                       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
-                      <span class="truncate max-w-[170px] sm:max-w-[240px]">{fuente}</span>
+                      <span class="truncate max-w-[150px] sm:max-w-[220px]">Fuente: {fuente}</span>
                     </a>
                   ) : (
                     <span class="inline-flex items-center gap-1.5 text-slate-400 py-1">
@@ -261,9 +303,9 @@ const categoryBadges: Record<string, string> = {
                     <!-- Botón Copiar Texto -->
                     <button
                       type="button"
-                      class="btn-copy-tweet inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors cursor-pointer"
-                      data-copy={`${n.titulo}\n\n${resumen}\n\nFuente: ${fuente}`}
-                      title="Copiar texto del post"
+                      class="btn-copy-tweet inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors cursor-pointer"
+                      data-copy={`${n.titulo}\n\n${paragraphs.join('\n\n')}\n\nFuente: ${fuente}`}
+                      title="Copiar texto completo de la noticia"
                     >
                       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
@@ -276,7 +318,7 @@ const categoryBadges: Record<string, string> = {
                       href={`https://api.whatsapp.com/send?text=${wappShareMsg}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white text-[11px] font-bold transition-all shadow-sm"
+                      class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white text-[11px] font-bold transition-all shadow-sm"
                       title="Compartir por WhatsApp"
                     >
                       <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
@@ -309,7 +351,7 @@ const categoryBadges: Record<string, string> = {
 </Layout>
 
 <script>
-  // ── Filtrado interactivo por tabs en el cliente (cero recargas) ──────
+  // ── Filtrado interactivo por tabs en el cliente ─────────────────────
   const tabs = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
   const cards = document.querySelectorAll<HTMLElement>('.tweet-card');
   const emptyState = document.getElementById('empty-state');
@@ -347,6 +389,26 @@ const categoryBadges: Record<string, string> = {
     });
   });
 
+  // ── Botón desplegar más párrafos de una noticia ─────────────────────
+  document.querySelectorAll<HTMLButtonElement>('.btn-toggle-expand').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.tweet-card');
+      if (!card) return;
+      const extra = card.querySelector<HTMLElement>('.extra-content');
+      const label = btn.querySelector<HTMLElement>('.toggle-text');
+      if (!extra || !label) return;
+
+      const isHidden = extra.classList.contains('hidden');
+      if (isHidden) {
+        extra.classList.remove('hidden');
+        label.textContent = '▴ Mostrar menos';
+      } else {
+        extra.classList.add('hidden');
+        label.textContent = '📖 Leer desarrollo completo ▾';
+      }
+    });
+  });
+
   // ── Botón copiar tweet con feedback visual ──────────────────────────
   document.querySelectorAll<HTMLButtonElement>('.btn-copy-tweet').forEach((btn) => {
     btn.addEventListener('click', async () => {
@@ -361,7 +423,6 @@ const categoryBadges: Record<string, string> = {
           btn.classList.remove('text-emerald-600');
         }, 2000);
       } catch (e) {
-        // Fallback simple
         alert('Copiado al portapapeles');
       }
     });

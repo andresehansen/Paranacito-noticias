@@ -94,7 +94,9 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
     event = {
         "acontecimiento_id": event_id,
         "titulo": rewritten.get("titulo"),
-        "resumen": rewritten.get("resumen", ""),          # ← Formato feed social (2-3 oraciones)
+        "copete": rewritten.get("copete", rewritten.get("resumen", "")),
+        "cuerpo": rewritten.get("cuerpo", [rewritten.get("resumen", "")]),
+        "resumen": rewritten.get("resumen", ""),
         "categoria": rewritten.get("categoria", "Comunidad"),
         "tags": rewritten.get("tags", []),
         "slug": slug,
@@ -103,6 +105,7 @@ def create_new_event(rewritten: dict, raw_article: dict) -> dict:
         "fuente_nombre": raw_article.get("source_name", "Fuente regional"),
         "fuente_url": raw_article.get("url", ""),
         "url_original": raw_article.get("url", ""),
+
 
         # Metadatos del sistema
         "estado": "En desarrollo" if is_alert else "Publicado",

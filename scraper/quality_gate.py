@@ -64,6 +64,17 @@ ALWAYS_REQUIRES_REVIEW = [
     "denuncia penal", "imputado", "condenado", "condena",
 ]
 
+# ── Términos de exclusión TERMINANTE (descarta automáticamente falsos positivos) ─
+# Evita noticias sobre individuos con apodo "Paranacito" o hechos en GBA/Conurbano
+STRICT_EXCLUDE_TERMS = [
+    "alias 'paranacito'", 'alias "paranacito"', "alias paranacito",
+    "apodado 'paranacito'", 'apodado "paranacito"', "apodado paranacito",
+    "conocido como 'paranacito'", 'conocido como "paranacito"',
+    "florencio varela", "quilmes", "conurbano", "gran buenos aires", "gba",
+    "la matanza", "lomas de zamora", "lanús", "avellaneda", "morón", "san martín",
+]
+
+
 # ── Palabras que INVALIDAN la publicación automática como ALERTA ──────────────
 # Solo son alertas reales las crisis hídricas con datos concretos del río Paranacito.
 VALID_ALERT_TRIGGERS = [
@@ -124,6 +135,15 @@ def assess_quality(rewritten: dict, raw_article: dict, source_name: str) -> dict
 
     full_text = f"{titulo} {copete} {cuerpo}"
     title_and_lead = f"{titulo} {copete}"
+
+    # ── 0. Descarte inmediato por falsos positivos (apodos, GBA, etc.) ─────────
+    for exclude_term in STRICT_EXCLUDE_TERMS:
+        if exclude_term in full_text:
+            return {
+                "publish": False, "requires_review": False, "is_alert": False,
+                "confidence": "Baja",
+                "reason": f"Falso positivo descartado automáticamente: contiene '{exclude_term}'."
+            }
 
     # ── 1. Verificar ancla geográfica FUERTE en título/copete ─────────────────
     has_strong_anchor_in_lead = any(anchor in title_and_lead for anchor in STRONG_LOCAL_ANCHORS)
@@ -203,11 +223,16 @@ def is_worth_fetching(raw_title: str, raw_summary: str, source_url: str) -> bool
     """
     combined = f"{raw_title} {raw_summary}".lower()
 
+    # Descartar inmediatamente si contiene términos de exclusión estricta
+    if any(exclude in combined for exclude in STRICT_EXCLUDE_TERMS):
+        return False
+
     # Debe tener ancla local en el título o resumen crudo
     has_anchor = any(anchor in combined for anchor in STRONG_LOCAL_ANCHORS)
     has_institution = any(inst in combined for inst in LOCAL_INSTITUTIONS)
 
     return has_anchor or has_institution
+
 
 
 def sanitize_alert_status(titulo: str, copete: str, es_alerta_propuesto: bool) -> bool:

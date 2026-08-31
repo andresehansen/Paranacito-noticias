@@ -13,25 +13,32 @@ from news_radar import clean_text
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 EDITORIAL_SYSTEM_PROMPT = """
-Sos el editor de 'Paranacito Noticias', un feed informativo comunitario estilo red social para Villa Paranacito y el Delta de Entre Ríos (Argentina).
+Sos el editor de 'Paranacito Noticias', el portal y feed informativo comunitario de Villa Paranacito y el Delta de Entre Ríos (Argentina).
+
+Tu misión es transformar el material periodístico crudo en NOTAS CON PROFUNDIDAD, RIGOR Y ALTA CALIDAD INFORMATIVA para los vecinos de la región.
 
 REGLA FUNDAMENTAL — ANCLAJE GEOGRÁFICO OBLIGATORIO:
-⚠️ Cada post debe ser sobre Villa Paranacito, Ceibas, Islas del Ibicuy o una institución local concreta.
-❌ PROHIBIDO escribir posts genéricos sobre el Delta en general, el Litoral, o eventos sin conexión directa con la localidad.
-✅ El título DEBE mencionar Villa Paranacito, Ceibas, Islas del Ibicuy, o una institución local reconocida.
+⚠️ Cada noticia debe ser sobre Villa Paranacito, Ceibas, Islas del Ibicuy o una institución local concreta (Hospital, Bomberos, Prefectura, Escuelas, Club Isleños, Municipio).
+❌ PROHIBIDO escribir sobre sucesos ajenos sin impacto local (ej. hechos policiales en GBA o noticias nacionales genéricas).
+✅ El título y el copete DEBEN mencionar Villa Paranacito, Ceibas, Islas del Ibicuy, o una institución local reconocida.
 
-FORMATO DEL POST (feed social, NO artículo largo):
-1. **Título** — Claro, concreto, periodístico. Máximo 12 palabras. Sin clickbait.
-2. **Resumen** — EXACTAMENTE 2 o 3 oraciones cortas. Máximo 300 caracteres en total.
-   - Solo hechos verificables presentes en el material crudo.
-   - NUNCA inventar porcentajes, nombres, citas, cifras o datos que no estén en la fuente.
-   - Responde: ¿Qué pasó? ¿Dónde? ¿A quién afecta?
-3. **Resumen WhatsApp** — 1 oración con emoji, lista para compartir por WhatsApp.
+ESTRUCTURA DE LA NOTICIA:
+1. **Título** — Riguroso, potente, periodístico. Debe mencionar el lugar o institución.
+2. **Copete / Bajada** — 1 a 2 oraciones que sintetizan el hecho principal.
+3. **Cuerpo Extenso (3 a 5 párrafos sustanciosos)**:
+   - Párrafo 1: El hecho, contexto y ubicación geográfica precisa en el Delta.
+   - Párrafo 2: Declaraciones oficiales, datos de fuentes o protagonistas (solo datos reales).
+   - Párrafo 3: Impacto directo para la vida cotidiana de los isleños (servicios, salud, transporte fluvial, caminos, producción).
+   - Párrafo 4+: Medidas tomadas, recomendaciones prácticas, cronogramas o canales de contacto.
+4. **Resumen Breve** — 2 a 3 oraciones claras (hasta 350 caracteres) para lectura rápida.
+5. **Resumen WhatsApp** — 1 línea concisa con emojis informativos.
 
 FORMATO DE SALIDA — Devolvé ÚNICAMENTE este JSON:
 {
   "titulo": "string",
-  "resumen": "string (2-3 oraciones, máx 300 chars, solo hechos verificables)",
+  "copete": "string",
+  "cuerpo": ["Párrafo 1 con desarrollo...", "Párrafo 2...", "Párrafo 3...", "Párrafo 4..."],
+  "resumen": "string (2-3 oraciones claras)",
   "categoria": "string (una de: Río y Clima, Comunidad, Obras y Servicios, Deportes, Salud y Educación, Turismo y Cultura, Sociedad)",
   "tags": ["tag1", "tag2", "tag3"],
   "slug": "string-con-guiones-sin-acentos-max-8-palabras",
@@ -39,6 +46,7 @@ FORMATO DE SALIDA — Devolvé ÚNICAMENTE este JSON:
   "ancla_geografica": true
 }
 """
+
 
 def slugify(text: str) -> str:
     """Convierte un texto a slug URL amigable sin acentos ni caracteres especiales."""
@@ -122,16 +130,22 @@ Redactá una nota periodística completa, profunda, rica y atractiva para la com
                     result_json = json.loads(candidate_clean)
                     
                     result_json["titulo"] = clean_text(result_json.get("titulo", clean_t))
+                    result_json["copete"] = clean_text(result_json.get("copete", clean_t))
                     
-                    # Validar resumen (formato de feed social)
+                    # Validar cuerpo (lista de párrafos bien estructurados)
+                    raw_cuerpo = result_json.get("cuerpo", [])
+                    if isinstance(raw_cuerpo, list) and len(raw_cuerpo) > 0:
+                        result_json["cuerpo"] = [clean_text(p) for p in raw_cuerpo if len(clean_text(p)) > 20]
+                    elif isinstance(raw_cuerpo, str) and len(raw_cuerpo) > 30:
+                        result_json["cuerpo"] = [clean_text(p) for p in raw_cuerpo.split("\n\n") if len(clean_text(p)) > 20]
+                    else:
+                        result_json["cuerpo"] = [clean_text(p) for p in clean_c.split("\n\n") if len(clean_text(p)) > 20]
+                    
+                    # Validar resumen
                     resumen = clean_text(result_json.get("resumen", ""))
                     if not resumen:
-                        # Fallback: primeras 2 oraciones del contenido, máx 300 chars
-                        oraciones = [s.strip() for s in clean_c.replace("\n", " ").split(". ") if len(s.strip()) > 20]
-                        resumen = ". ".join(oraciones[:2])[:300]
-                        if resumen and not resumen.endswith("."):
-                            resumen += "."
-                    result_json["resumen"] = resumen[:300]
+                        resumen = result_json["copete"] or (result_json["cuerpo"][0] if result_json["cuerpo"] else clean_t)
+                    result_json["resumen"] = resumen[:350]
                     
                     if "slug" not in result_json or not result_json["slug"]:
                         result_json["slug"] = slugify(result_json["titulo"])
@@ -141,7 +155,7 @@ Redactá una nota periodística completa, profunda, rica y atractiva para la com
                     if "categoria" not in result_json or result_json["categoria"] not in CATEGORIAS:
                         result_json["categoria"] = "Comunidad"
                         
-                    logging.info(f"✨ Post generado exitosamente con {model_id}: '{result_json['titulo'][:50]}'")
+                    logging.info(f"✨ Noticia enriquecida exitosamente con {model_id}: '{result_json['titulo'][:50]}'")
                     return result_json
             except Exception as e_sdk:
                 logging.debug(f"SDK model {model_id} error: {e_sdk}")
@@ -162,20 +176,24 @@ Redactá una nota periodística completa, profunda, rica y atractiva para la com
                 result_json = json.loads(candidate_clean)
                 
                 result_json["titulo"] = clean_text(result_json.get("titulo", clean_t))
+                result_json["copete"] = clean_text(result_json.get("copete", clean_t))
                 result_json["slug"] = slugify(result_json.get("slug", result_json["titulo"]))
+                
+                raw_cuerpo = result_json.get("cuerpo", [])
+                if isinstance(raw_cuerpo, list) and len(raw_cuerpo) > 0:
+                    result_json["cuerpo"] = [clean_text(p) for p in raw_cuerpo if len(clean_text(p)) > 20]
+                else:
+                    result_json["cuerpo"] = [clean_text(p) for p in clean_c.split("\n\n") if len(clean_text(p)) > 20]
+
+                resumen = clean_text(result_json.get("resumen", ""))
+                if not resumen:
+                    resumen = result_json["copete"] or (result_json["cuerpo"][0] if result_json["cuerpo"] else clean_t)
+                result_json["resumen"] = resumen[:350]
                 
                 if "categoria" not in result_json or result_json["categoria"] not in CATEGORIAS:
                     result_json["categoria"] = "Comunidad"
                     
-                resumen = clean_text(result_json.get("resumen", ""))
-                if not resumen:
-                    oraciones = [s.strip() for s in clean_c.replace("\n", " ").split(". ") if len(s.strip()) > 20]
-                    resumen = ". ".join(oraciones[:2])[:300]
-                    if resumen and not resumen.endswith("."):
-                        resumen += "."
-                result_json["resumen"] = resumen[:300]
-                    
-                logging.info(f"✨ Post generado vía REST con {model_id}")
+                logging.info(f"✨ Noticia enriquecida vía REST con {model_id}")
                 return result_json
         except Exception:
             continue
@@ -185,17 +203,23 @@ Redactá una nota periodística completa, profunda, rica y atractiva para la com
 
 
 def generate_fallback_rewrite(raw_title: str, raw_content: str, source_name: str) -> dict:
-    """Genera un post corto de feed social en modo de respaldo (sin IA)."""
+    """Genera una noticia completa con desarrollo y resumen en modo de respaldo (sin IA)."""
     title = clean_text(raw_title)
     content = clean_text(raw_content)
 
-    # Generar resumen corto: primeras 2 oraciones útiles del contenido, máx 300 chars
-    oraciones = [s.strip() for s in content.replace("\n", " ").split(". ") if len(s.strip()) > 20]
-    resumen = ". ".join(oraciones[:2])[:300]
-    if resumen and not resumen.endswith("."):
-        resumen += "."
-    if not resumen:
-        resumen = title
+    paragraphs = [clean_text(p) for p in content.split("\n\n") if len(clean_text(p)) > 30]
+    if not paragraphs:
+        paragraphs = [clean_text(p) for p in content.split(". ") if len(clean_text(p)) > 30]
+
+    if len(paragraphs) < 2:
+        paragraphs = [
+            f"En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre {title}.",
+            f"La situación involucra la articulación entre organismos provinciales, el municipio y las instituciones comunitarias del departamento Islas.",
+            f"Para más detalles sobre este acontecimiento, la cobertura continúa en desarrollo a través de las fuentes informativas oficiales de {source_name}."
+        ]
+
+    copete = paragraphs[0] if len(paragraphs[0]) <= 250 else paragraphs[0][:240] + "..."
+    resumen = copete
 
     # Inferir categoría
     text_check = f"{title} {content}".lower()
@@ -209,11 +233,15 @@ def generate_fallback_rewrite(raw_title: str, raw_content: str, source_name: str
         cat = "Salud y Educación"
     elif any(w in text_check for w in ["turismo", "pesca", "artesano", "fiesta", "cabana"]):
         cat = "Turismo y Cultura"
+    elif any(w in text_check for w in ["justicia", "polic", "deten", "fiscal"]):
+        cat = "Sociedad"
     else:
         cat = "Comunidad"
 
     return {
         "titulo": title,
+        "copete": copete,
+        "cuerpo": paragraphs,
         "resumen": resumen,
         "categoria": cat,
         "tags": ["villa paranacito", "delta", cat.lower()],
@@ -221,3 +249,4 @@ def generate_fallback_rewrite(raw_title: str, raw_content: str, source_name: str
         "resumen_whatsapp": f"📰 *{title}* — {source_name}",
         "ancla_geografica": True,
     }
+

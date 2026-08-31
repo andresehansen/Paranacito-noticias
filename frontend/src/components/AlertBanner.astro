@@ -1,45 +1,57 @@
 ---
 /**
  * AlertBanner.astro — Banner de Alertas Urgentes
- * Se muestra fijo debajo del header cuando hay alertas activas.
- * Lee data/alertas_activas.json generado por rebuild_events_index().
+ * Solo se muestra si hay noticias marcadas como 'es_alerta' publicadas en las ÚLTIMAS 24 HORAS.
+ * Las alertas de más de 24 hs se descartan automáticamente para no mostrar información desactualizada.
  */
+import { getCleanAndDeduplicatedNews } from '../utils/news';
 
-// Intentamos importar alertas activas; si el archivo no existe o está vacío, no mostramos nada
-let alertas: any[] = [];
-try {
-  const data = await import('../../../data/alertas_activas.json');
-  alertas = (data.default || []).slice(0, 3); // máximo 3 alertas visibles
-} catch {
-  alertas = [];
-}
+const allNews = getCleanAndDeduplicatedNews();
+const now = Date.now();
+const MAX_ALERT_AGE_MS = 24 * 60 * 60 * 1000; // 24 horas exactas
+
+const alertas = allNews.filter((n: any) => {
+  if (!n.es_alerta) return false;
+  const isoStr = n.fecha_iso || n.fecha_inicio_iso || '';
+  if (!isoStr) return false;
+  const postTime = new Date(isoStr).getTime();
+  if (isNaN(postTime)) return false;
+  const ageMs = now - postTime;
+  return ageMs >= 0 && ageMs <= MAX_ALERT_AGE_MS;
+}).slice(0, 3);
 
 const alertaVisible = alertas.length > 0;
 ---
 
 {alertaVisible && (
-  <div id="alert-banner" class="bg-gradient-to-r from-rose-600 to-rose-700 text-white py-2.5 px-4 relative">
-    <div class="max-w-6xl mx-auto flex items-start md:items-center justify-between gap-3">
+  <div id="alert-banner" class="bg-gradient-to-r from-rose-600 to-rose-700 text-white py-2 px-4 relative shadow-sm border-b border-rose-800">
+    <div class="max-w-2xl mx-auto flex items-start sm:items-center justify-between gap-3">
 
       <!-- Ícono y etiqueta -->
-      <div class="flex items-center gap-2.5 shrink-0">
-        <span class="flex h-7 w-7 items-center justify-center rounded-full bg-white/20 text-base animate-pulse">
+      <div class="flex items-center gap-2 shrink-0">
+        <span class="flex h-6 w-6 items-center justify-center rounded-full bg-white/20 text-xs animate-pulse font-bold">
           🚨
         </span>
-        <span class="text-xs font-black uppercase tracking-wider">Alerta Activa</span>
+        <span class="text-[11px] font-black uppercase tracking-wider bg-black/20 px-2 py-0.5 rounded">
+          Alerta Activa (&lt;24h)
+        </span>
       </div>
 
-      <!-- Scroll de alertas -->
+      <!-- Texto de alerta -->
       <div class="flex-1 overflow-hidden">
-        {alertas.map((alerta, i) => (
-          <div class={`text-xs ${i > 0 ? 'mt-1 pt-1 border-t border-rose-500/50' : ''}`}>
-            <a
-              href={`/noticias/${alerta.slug}`}
-              class="font-semibold hover:underline underline-offset-2"
-            >
-              {alerta.titulo}
-            </a>
-            <span class="text-rose-200 ml-2">— {alerta.fecha_ultima_actualizacion || alerta.fecha_publicacion}</span>
+        {alertas.map((alerta) => (
+          <div class="text-xs">
+            <span class="font-bold">{alerta.titulo}</span>
+            {alerta.fuente_url && (
+              <a
+                href={alerta.fuente_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-rose-100 hover:text-white underline ml-2 text-[11px]"
+              >
+                Ver fuente ↗
+              </a>
+            )}
           </div>
         ))}
       </div>
@@ -48,7 +60,7 @@ const alertaVisible = alertas.length > 0;
       <button
         id="close-alert-banner"
         aria-label="Cerrar alerta"
-        class="shrink-0 text-white/70 hover:text-white text-lg leading-none p-1 rounded transition-colors"
+        class="shrink-0 text-white/80 hover:text-white text-base leading-none p-1 rounded transition-colors cursor-pointer"
       >
         ✕
       </button>
