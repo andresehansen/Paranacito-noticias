@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "31/08/2026 10:35",
-  "timestamp_iso": "2026-08-31T10:35:08.891075",
+  "ultima_actualizacion": "31/08/2026 16:01",
+  "timestamp_iso": "2026-08-31T16:01:15.192538",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 12,
-    "sensacion_termica": 11,
-    "humedad": 99,
-    "viento_velocidad_kmh": 10,
-    "viento_direccion": "ENE",
-    "presion_hpa": 1014,
-    "descripcion": "Mayormente despejado",
-    "icono": "🌤️",
+    "temperatura": 19,
+    "sensacion_termica": 20,
+    "humedad": 70,
+    "viento_velocidad_kmh": 8,
+    "viento_direccion": "E",
+    "presion_hpa": 1015,
+    "descripcion": "Parcialmente nublado",
+    "icono": "⛅",
     "pronostico_extendido": [
       {
         "fecha": "2026-08-31",
-        "temp_max": 21,
+        "temp_max": 20,
         "temp_min": 11,
-        "prob_lluvia": 33,
-        "descripcion": "Llovizna moderada",
-        "icono": "🌧️"
+        "prob_lluvia": 29,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
       },
       {
         "fecha": "2026-09-01",
         "temp_max": 20,
         "temp_min": 9,
-        "prob_lluvia": 2,
-        "descripcion": "Nublado",
-        "icono": "☁️"
+        "prob_lluvia": 4,
+        "descripcion": "Parcialmente nublado",
+        "icono": "⛅"
       },
       {
         "fecha": "2026-09-02",
         "temp_max": 23,
         "temp_min": 10,
-        "prob_lluvia": 41,
-        "descripcion": "Tormenta eléctrica",
-        "icono": "⚡"
+        "prob_lluvia": 34,
+        "descripcion": "Nublado",
+        "icono": "☁️"
       },
       {
         "fecha": "2026-09-03",
         "temp_max": 19,
         "temp_min": 10,
-        "prob_lluvia": 41,
-        "descripcion": "Tormenta eléctrica",
-        "icono": "⚡"
+        "prob_lluvia": 65,
+        "descripcion": "Chaparrones moderados",
+        "icono": "🌧️"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-08-31 10:35"
+    "actualizado": "2026-08-31 16:01"
   }
 }
