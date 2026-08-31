@@ -1,6 +1,1183 @@
 [
   {
-    "id": "2026-08-28-detienen-amparito-rodriguez-villa-paranacito-profuga-diez-anos",
+    "acontecimiento_id": "2026-08-31-villa-paranacito-detienen-apodado-paranacito",
+    "slug": "villa-paranacito-detienen-apodado-paranacito",
+    "titulo": "Villa Paranacito: Detienen a individuo apodado 'Paranacito' en operativo narco",
+    "copete": "",
+    "categoria": "Sociedad",
+    "tags": [
+      "operativo narco",
+      "detención",
+      "crimen",
+      "Buenos Aires"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Infobae)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "31 de Agosto de 2026, 03:52 hs",
+    "fecha_ultima_actualizacion": "31 de Agosto de 2026, 03:52 hs",
+    "fecha_inicio_iso": "2026-08-31T03:52:33.137032",
+    "fecha_ultima_actualizacion_iso": "2026-08-31T03:52:33.137032",
+    "resumen_whatsapp": "🚨 Un hombre apodado 'Paranacito' fue detenido en un megaoperativo narco en Buenos Aires, vinculado a un crimen. #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
+    "slug": "copnaf-herramientas-crianza-villa-paranacito",
+    "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",
+    "copete": "",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Copnaf",
+      "crianza",
+      "familias",
+      "Villa Paranacito"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
+    "fecha_ultima_actualizacion": "30 de Agosto de 2026, 22:25 hs",
+    "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
+    "fecha_ultima_actualizacion_iso": "2026-08-30T22:25:41.418030",
+    "resumen_whatsapp": "El Copnaf brindó herramientas de crianza a familias en Villa Paranacito como parte de su iniciativa provincial. 👨‍👩‍👧‍👦"
+  },
+  {
+    "acontecimiento_id": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
+    "slug": "fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
+    "titulo": "Fortalecen la Salud Mental en el Delta: Capacitación Clave en Villa Paranacito y el Departamento Islas del Ibicuy",
+    "copete": "El ciclo \"Emociones en Familia\" realizó su segundo encuentro en Villa Paranacito, brindando herramientas esenciales sobre salud mental y primeros auxilios psicológicos a la comunidad y fuerzas de seguridad, tras una exitosa primera jornada en Ceibas e Ibicuy.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud Mental",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Capacitación",
+      "Prefectura Naval Argentina",
+      "Emociones en Familia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://informedigital.com.ar/wp-content/uploads/2026/08/portal-er-79171-vl13xo8z-1536x1024.png",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "23 de Agosto de 2026, 04:36 hs",
+    "fecha_ultima_actualizacion": "30 de Agosto de 2026, 03:50 hs",
+    "fecha_inicio_iso": "2026-08-23T04:36:03.579334",
+    "fecha_ultima_actualizacion_iso": "2026-08-30T03:50:42.183498",
+    "resumen_whatsapp": "📰 ¡Salud Mental en el Delta! El ciclo 'Emociones en Familia' capacitó a vecinos y fuerzas de seguridad en Villa Paranacito. 🧠 Aprendé a brindar apoyo y cuidar tu bienestar. ¡Sumate a las próximas jornadas! #SaludMental #Paranacito"
+  },
+  {
+    "acontecimiento_id": "2026-08-30-operativo-policial-villa-paranacito-detienen-profugo",
+    "slug": "operativo-policial-villa-paranacito-detienen-profugo",
+    "titulo": "Operativo Policial en Villa Paranacito: Detienen a Prófugo Buscado por la Justicia",
+    "copete": "Un importante operativo coordinado entre la Policía de Gualeguaychú y fuerzas locales culminó con la detención de una persona que permanecía prófuga de la justicia, siendo localizada en Villa Paranacito. Este arresto representa un paso clave en una causa de relevancia que ha generado expectación en la comunidad.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Policía de Gualeguaychú",
+      "Detención",
+      "Prófugo",
+      "Justicia",
+      "Seguridad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Agosto de 2026, 03:50 hs",
+    "fecha_ultima_actualizacion": "30 de Agosto de 2026, 03:50 hs",
+    "fecha_inicio_iso": "2026-08-30T03:50:33.297086",
+    "fecha_ultima_actualizacion_iso": "2026-08-30T03:50:33.297086",
+    "resumen_whatsapp": "📰 ¡Noticia importante en Villa Paranacito! Un prófugo de la justicia fue capturado en un operativo conjunto de la Policía de Gualeguaychú y fuerzas locales. Un paso clave para la seguridad y la justicia en nuestra comunidad. ¡Mantente informado!"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-delta-entrerriano-documental-vuelos-muerte",
+    "slug": "delta-entrerriano-documental-vuelos-muerte",
+    "titulo": "El Delta Entrerriano, Escenario de un Documental Crucial sobre los 'Vuelos de la Muerte'",
+    "copete": "Las cámaras comenzaron a registrar en el corazón del Delta de Entre Ríos la historia de los 'Vuelos de la Muerte', una iniciativa que busca preservar la memoria histórica y visibilizar el rol de la región en uno de los capítulos más oscuros de la historia argentina.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Delta Entrerriano",
+      "Documental",
+      "Memoria Histórica",
+      "Derechos Humanos",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Entre Ríos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/destacado/public/2026-05/vuelos-en-el-delta.jpg?itok=BER562Y_",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (R2820)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_ultima_actualizacion": "29/8/2026",
+    "fecha_inicio_iso": "2026-08-24T04:43:47.300939",
+    "fecha_ultima_actualizacion_iso": "2026-08-30T00:17:08.352Z",
+    "resumen_whatsapp": "📰 ¡Atención, Delta! Comenzó el rodaje de un documental clave sobre los 'Vuelos de la Muerte' en nuestra región. 🎬 Una producción que busca mantener viva la memoria histórica y visibilizar el rol del Delta entrerriano en este capítulo crucial de Argentina. ¡Enterate de todos los detalles en la nota completa! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-rodaje-documental-historico-delta-entrerriano-vuelos-muerte",
+    "slug": "rodaje-documental-historico-delta-entrerriano-vuelos-muerte",
+    "titulo": "Rodaje de Documental Histórico en el Delta Entrerriano Revive la Memoria de los \"Vuelos de la Muerte\"",
+    "copete": "La región del Delta de Entre Ríos, incluyendo zonas cercanas a Villa Paranacito, es escenario del inicio de filmación de un documental que busca arrojar luz sobre uno de los capítulos más oscuros de la historia argentina, los \"Vuelos de la Muerte\", reafirmando el compromiso con la memoria, la verdad y la justicia.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Delta Entrerriano",
+      "Documental",
+      "Memoria Histórica",
+      "Derechos Humanos",
+      "Villa Paranacito",
+      "Dictadura Argentina"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Diario Junio)",
+      "Google News (Análisis Digital)"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_ultima_actualizacion": "28 de Agosto de 2026, 19:54 hs",
+    "fecha_inicio_iso": "2026-08-25T04:38:14.441677",
+    "fecha_ultima_actualizacion_iso": "2026-08-28T19:54:37.134041",
+    "resumen_whatsapp": "📰 ¡Importante! Comenzó el rodaje de un documental sobre los \"Vuelos de la Muerte\" en nuestro Delta entrerriano. 🌊 Un proyecto clave para mantener viva la memoria y la verdad histórica. ¡Conocé los detalles en nuestra nota! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-nuevo-documental-vuelos-muerte-delta-paranacito",
+    "slug": "nuevo-documental-vuelos-muerte-delta-paranacito",
+    "titulo": "Profundizan la Memoria: Nuevo Documental Reconstruye los 'Vuelos de la Muerte' en el Delta Entrerriano con Foco en Villa Paranacito",
+    "copete": "Un equipo de cineastas inició en Villa Paranacito el rodaje de un documental que investiga los \"Vuelos de la Muerte\" de la última dictadura militar en el Delta entrerriano, buscando preservar la memoria histórica y avanzar en la búsqueda de justicia para la comunidad.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Dictadura Militar",
+      "Delta Entrerriano",
+      "Villa Paranacito",
+      "Derechos Humanos",
+      "Documental",
+      "Memoria"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://www.diariojunio.com.ar/wp-content/uploads/2026/08/IMG-20260824-WA0301.jpg",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "GDELT / diariojunio.com.ar",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "25 de Agosto de 2026, 01:37 hs",
+    "fecha_ultima_actualizacion": "28 de Agosto de 2026, 19:54 hs",
+    "fecha_inicio_iso": "2026-08-25T01:37:16.339473",
+    "fecha_ultima_actualizacion_iso": "2026-08-28T19:54:37.101905",
+    "resumen_whatsapp": "📰 ¡Atención Delta! Un nuevo documental sobre los \"Vuelos de la Muerte\" de la dictadura se filma en Villa Paranacito. 🎬 Busca reconstruir la historia con testimonios locales y avanzar en la justicia. ¡Conocé los detalles! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-28-convocatoria-docente-escuela-secundaria-2-villa-paranacito",
+    "slug": "convocatoria-docente-escuela-secundaria-2-villa-paranacito",
+    "titulo": "Oportunidad Laboral: Convocatoria Docente en la Escuela Secundaria N° 2 de Islas del Ibicuy",
+    "copete": "La Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito ha lanzado una importante convocatoria para la cobertura de cargos docentes, ofreciendo oportunidades laborales para profesionales de la educación en la comunidad.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Convocatoria",
+      "Escuela Secundaria N° 2",
+      "Islas del Ibicuy",
+      "Entre Ríos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "28 de Agosto de 2026, 04:03 hs",
+    "fecha_ultima_actualizacion": "28 de Agosto de 2026, 04:03 hs",
+    "fecha_inicio_iso": "2026-08-28T04:03:34.112760",
+    "fecha_ultima_actualizacion_iso": "2026-08-28T04:03:34.112760",
+    "resumen_whatsapp": "📰 ¡Atención docentes de Villa Paranacito! La Escuela Secundaria N° 2 'Islas del Ibicuy' abre concurso para cubrir cargos. 🧑‍🏫 Una gran oportunidad laboral y para fortalecer la educación local. ¡Consultá requisitos y plazos en la escuela! #Educación #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-capturan-en-villa-paranacito-a-amparito-profuga-por",
+    "slug": "capturan-en-villa-paranacito-a-amparito-profuga-por",
+    "titulo": "Capturan en Villa Paranacito a 'Amparito', prófuga por una década en una causa de estafa",
+    "copete": "Una mujer conocida como \"Amparito\", buscada por la justicia desde hace diez años por una compleja causa de estafa, fue detenida en Villa Paranacito. Su captura resalta la labor de las fuerzas de seguridad y la importancia de la colaboración ciudadana en la región del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "detención",
+      "prófuga",
+      "estafa",
+      "seguridad",
+      "Policía Federal",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 22:05 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 22:05 hs",
+    "fecha_inicio_iso": "2026-08-27T22:05:40.198697",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T22:05:40.198697",
+    "resumen_whatsapp": "📰 ¡Noticia importante en Villa Paranacito! Detuvieron a \"Amparito\", prófuga por 10 años por estafa. 🚨 La captura resalta la labor policial y la seguridad en el Delta. ¡Leé la nota completa para saber más!"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-trasladan-hacienda-el-nino",
+    "slug": "productores-delta-entrerriano-trasladan-hacienda-el-nino",
+    "titulo": "Productores del Delta Entrerriano Trasladan Hacienda Ante la Amenaza de Crecida por el Fenómeno El Niño",
+    "copete": "Ante el inminente impacto del fenómeno El Niño, ganaderos de la región del Delta entrerriano, incluyendo el departamento Islas del Ibicuy, han iniciado el traslado preventivo de sus rodeos a zonas más altas para salvaguardar su producción y evitar pérdidas significativas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Delta Entrerriano",
+      "Islas del Ibicuy",
+      "Ganadería",
+      "Crecida del Río",
+      "Villa Paranacito",
+      "Productores",
+      "Alerta Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Ruralnet)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_inicio_iso": "2026-08-27T18:52:43.968557",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T18:52:43.968557",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Productores de Islas del Ibicuy ya están trasladando su hacienda 🐄 a zonas altas por la amenaza de crecida del río debido a El Niño. Mantente informado y toma precauciones. ¡Leé la nota completa para saber más! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-ganaderos-delta-entrerriano-traslado-hacienda-crecida-el-nino",
+    "slug": "ganaderos-delta-entrerriano-traslado-hacienda-crecida-el-nino",
+    "titulo": "Ganaderos del Delta Entrerriano Inician Traslado Preventivo de Hacienda Ante la Amenaza de Crecida y El Niño",
+    "copete": "Productores de Villa Paranacito y la región del Delta de Entre Ríos han comenzado a mover sus rodeos a zonas más altas, anticipándose a los efectos de la crecida del río Uruguay y el pronóstico de un fenómeno El Niño intenso, buscando proteger su producción y evitar pérdidas económicas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "crecida",
+      "ganadería",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Río Uruguay",
+      "prevención"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
+    "fecha_inicio_iso": "2026-08-27T18:52:30.359389",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T18:52:30.359389",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito ya trasladan su hacienda 🐄 a zonas seguras por la crecida del Río Uruguay y el pronóstico de El Niño. La prevención es clave para proteger la producción local. ¡Mantente informado con Paranacito Noticias! 🌊"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-detencion-amparito-villa-paranacito-profuga-justicia",
+    "slug": "detencion-amparito-villa-paranacito-profuga-justicia",
+    "titulo": "Importante Detención en Villa Paranacito: Cae 'Amparito' Tras Una Década Prófuga de la Justicia",
+    "copete": "Una mujer conocida como 'Amparito', buscada por la justicia federal desde hace diez años por delitos económicos, fue finalmente aprehendida en Villa Paranacito, poniendo fin a una larga fuga y destacando la labor de las fuerzas de seguridad en la región.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Amparito",
+      "detención",
+      "prófuga",
+      "Villa Paranacito",
+      "Policía Federal",
+      "Islas del Ibicuy",
+      "seguridad",
+      "justicia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 07:30 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:30 hs",
+    "fecha_inicio_iso": "2026-08-27T07:30:19.461176",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T07:30:19.461176",
+    "resumen_whatsapp": "🚨 ¡Noticia de último momento en Villa Paranacito! Una mujer conocida como 'Amparito', prófuga por 10 años, fue detenida en un operativo conjunto. 🚔 Entérate de todos los detalles y el impacto en nuestra comunidad. 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-aceleran-traslado-hacienda-amenaza-fenomeno",
+    "slug": "productores-delta-entrerriano-aceleran-traslado-hacienda-amenaza-fenomeno",
+    "titulo": "Productores del Delta Entrerriano Aceleran Traslado de Hacienda Ante la Amenaza del Fenómeno El Niño",
+    "copete": "Ante los pronósticos de un 'Súper Niño' y posibles crecidas significativas, productores ganaderos de Villa Paranacito y el Delta de Entre Ríos están movilizando sus rodeos a zonas más altas. La medida busca proteger la producción y evitar pérdidas económicas en la región, vital para la economía local.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Ganadería",
+      "Crecidas",
+      "Río Paranacito",
+      "Islas del Ibicuy",
+      "Productores"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 07:29 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:29 hs",
+    "fecha_inicio_iso": "2026-08-27T07:29:37.921264",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T07:29:37.921264",
+    "resumen_whatsapp": "📰 Alerta en el Delta: Productores de Villa Paranacito aceleran el traslado de hacienda por la amenaza del fenómeno El Niño. 🌊 Se prevén crecidas y se toman medidas preventivas. ¡Mantente informado y preparado! #Delta #ElNiño"
+  },
+  {
+    "acontecimiento_id": "2026-08-27-productores-delta-retiran-ganado-crecida-rio-paranacito",
+    "slug": "productores-delta-retiran-ganado-crecida-rio-paranacito",
+    "titulo": "Productores del Delta Entrerriano Retiran Ganado Ante la Amenaza de Crecida del Río Paranacito",
+    "copete": "Ganaderos de Villa Paranacito y el Delta de Islas del Ibicuy han iniciado el traslado preventivo de sus animales a zonas más altas, anticipándose a posibles crecidas en los cursos de agua que podrían afectar seriamente la producción local.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Crecida",
+      "Ganadería",
+      "Río Paranacito",
+      "Islas del Ibicuy",
+      "Prevención"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Agosto de 2026, 07:28 hs",
+    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:28 hs",
+    "fecha_inicio_iso": "2026-08-27T07:28:53.279572",
+    "fecha_ultima_actualizacion_iso": "2026-08-27T07:28:53.279572",
+    "resumen_whatsapp": "📰 ¡Atención Delta! Productores de Villa Paranacito retiran ganado preventivamente ante la posible crecida de los ríos. 🌊 Mantente informado y toma precauciones. #Delta #Crecida #Ganadería"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
+    "slug": "ganaderos-villa-paranacito-traslado-hacienda-el-nino-crecida",
+    "titulo": "Ganaderos de Villa Paranacito Inician Preparativos para el Traslado de Hacienda ante la Amenaza de Crecida por El Niño",
+    "copete": "Productores ganaderos del Delta entrerriano, con epicentro en Villa Paranacito, ya observan los primeros efectos del fenómeno El Niño y se organizan para reubicar sus rodeos ante el inminente aumento del caudal del río Uruguay, buscando proteger su producción y evitar pérdidas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Ganadería",
+      "Villa Paranacito",
+      "Río Uruguay",
+      "Crecida",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 22:47 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 22:47 hs",
+    "fecha_inicio_iso": "2026-08-26T22:47:14.083373",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T22:47:14.083373",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito ya preparan el traslado de hacienda por la crecida del Río Uruguay debido a El Niño. 🌊 La prevención es clave. Mantente informado y toma precauciones. #ElNiño #Delta #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-alerta-delta-productores-villa-paranacito-aceleran-traslado-hacienda",
+    "slug": "alerta-delta-productores-villa-paranacito-aceleran-traslado-hacienda",
+    "titulo": "Alerta en el Delta: Productores de Villa Paranacito Aceleran el Traslado de Hacienda ante la Inminente Amenaza de El Niño",
+    "copete": "Ante los pronósticos de un fenómeno El Niño con posibles crecidas extraordinarias, los ganaderos de Villa Paranacito y el departamento Islas del Ibicuy han iniciado el retiro preventivo de sus rodeos, buscando salvaguardar la producción y evitar pérdidas económicas en la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Ganadería",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Crecidas",
+      "Prevención",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 22:46 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 22:46 hs",
+    "fecha_inicio_iso": "2026-08-26T22:46:27.003466",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T22:46:27.003466",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Productores de Villa Paranacito aceleran el traslado de hacienda 🐄 ante la amenaza de crecidas por El Niño 🌊. Medida preventiva clave para la región. ¡Mantente informado y toma precauciones! #ElNiño #Delta"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-alerta-hidrica-delta-ganaderos-paranacito-traslado-hacienda-el",
+    "slug": "alerta-hidrica-delta-ganaderos-paranacito-traslado-hacienda-el",
+    "titulo": "Alerta Hídrica en el Delta: Ganaderos de Villa Paranacito Aceleran el Traslado de Hacienda por el Fenómeno El Niño",
+    "copete": "Ante el inminente impacto del fenómeno El Niño, productores ganaderos de Villa Paranacito y el Delta de Entre Ríos están movilizando sus rodeos a zonas más altas para protegerlos de posibles inundaciones, una medida preventiva crucial para la economía local.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Ganadería",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Alerta Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 16:49 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 16:49 hs",
+    "fecha_inicio_iso": "2026-08-26T16:49:07.566727",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T16:49:07.566727",
+    "resumen_whatsapp": "🚨 ¡Alerta en el Delta! Productores de Villa Paranacito apuran el traslado de hacienda por el fenómeno El Niño. 🌊 La crecida del río amenaza los campos. Infórmate y toma precauciones. 📰 #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-alerta-hidrica-delta-productores-paranacito-apuran-traslado-hacienda",
+    "slug": "alerta-hidrica-delta-productores-paranacito-apuran-traslado-hacienda",
+    "titulo": "Alerta Hídrica en el Delta: Productores de Villa Paranacito Apuran el Traslado de Hacienda ante el Pronóstico del Fenómeno El Niño",
+    "copete": "Ante la inminente llegada de un fenómeno climático El Niño de gran intensidad, productores ganaderos de Villa Paranacito y el Delta de Entre Ríos han iniciado el traslado preventivo de sus rodeos, buscando resguardar la producción y evitar pérdidas significativas en la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Ganadería",
+      "Delta Entrerriano",
+      "Inundaciones",
+      "Prevención",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 12:50 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 12:50 hs",
+    "fecha_inicio_iso": "2026-08-26T12:50:44.211586",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T12:50:44.211586",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Productores de Villa Paranacito están trasladando hacienda por el pronóstico de un fuerte El Niño. 🌊 La prevención es clave para la comunidad. Leé la nota completa para saber cómo prepararte. 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-torneo-eduardo-barbosa-fecha-15-villa-paranacito",
+    "slug": "torneo-eduardo-barbosa-fecha-15-villa-paranacito",
+    "titulo": "El Torneo de Fútbol 'Eduardo Barbosa' Define Candidatos en su 15ª Fecha en Villa Paranacito",
+    "copete": "La comunidad deportiva de Villa Paranacito se prepara para una jornada clave del Torneo de Fútbol 'Eduardo Barbosa', donde los equipos locales buscarán consolidar posiciones en la recta final del campeonato.",
+    "categoria": "Deportes",
+    "tags": [
+      "fútbol",
+      "Torneo Eduardo Barbosa",
+      "Villa Paranacito",
+      "Deportes",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 08:42 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 08:42 hs",
+    "fecha_inicio_iso": "2026-08-26T08:42:35.821626",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T08:42:35.821626",
+    "resumen_whatsapp": "⚽️ ¡Fútbol en Villa Paranacito! La 15ª fecha del Torneo Eduardo Barbosa promete partidos clave para definir candidatos. 🏆 Atlético Sur juega en casa y Defensores del Sur vs. Sportivo Larroque en el Municipal. ¡No te lo pierdas! #Deportes #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-concurso-docente-nivel-primario-villa-paranacito",
+    "slug": "concurso-docente-nivel-primario-villa-paranacito",
+    "titulo": "La Dirección Departamental de Escuelas de Islas del Ibicuy Anuncia Concurso de Nivel Primario",
+    "copete": "La Dirección Departamental de Escuelas de Islas del Ibicuy ha confirmado la realización del concurso de Nivel Primario para el próximo miércoles 26 de agosto en su sede de Villa Paranacito, un evento crucial para la cobertura de cargos docentes en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "educación",
+      "docentes",
+      "concurso",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "CGE",
+      "escuelas primarias"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_inicio_iso": "2026-08-26T04:39:37.033215",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:37.033215",
+    "resumen_whatsapp": "📰 ¡Atención docentes de Nivel Primario! La DDE Islas del Ibicuy convoca a concurso el miércoles 26 de agosto a las 10 hs en Villa Paranacito (Los Cipreses 1012). ¡Oportunidad clave para tu carrera! 📚 Más detalles en Paranacito Noticias."
+  },
+  {
+    "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-pone-en-alerta-al",
+    "slug": "el-fenomeno-el-nino-pone-en-alerta-al",
+    "titulo": "El Fenómeno El Niño Pone en Alerta al Delta Entrerriano y Acelera la Salida de Hacienda",
+    "copete": "El Delta de Entre Ríos, con Villa Paranacito a la cabeza, se prepara para los efectos del fenómeno El Niño, que ya muestra sus primeras señales con un aumento en los niveles hídricos y la consecuente necesidad de trasladar ganado a zonas más altas. Productores locales y autoridades monitorean la situación para mitigar el impacto en la economía regional y la vida isleña.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Delta Entrerriano",
+      "Villa Paranacito",
+      "Ganadería",
+      "Inundaciones",
+      "Río Paranacito",
+      "Prevención"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_inicio_iso": "2026-08-26T04:39:18.748293",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:18.748293",
+    "resumen_whatsapp": "📰 ¡Atención Delta! El Niño ya se siente en Villa Paranacito. 🌊 Productores aceleran la salida de hacienda por subida de ríos. 🚜 Mantente informado y toma precauciones. ¡Leé la nota completa para saber cómo prepararte!"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
+    "slug": "el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
+    "titulo": "El Fenómeno El Niño se Fortalece: Alta Probabilidad de Impacto Significativo en el Delta Entrerriano",
+    "copete": "Las últimas proyecciones meteorológicas confirman un fortalecimiento del fenómeno El Niño, elevando a más del 90% la probabilidad de un evento hidrológico de gran magnitud que podría afectar seriamente a Villa Paranacito y la región del Delta entrerriano, movilizando a autoridades locales y Prefectura Naval.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Delta Entrerriano",
+      "Villa Paranacito",
+      "Crecidas",
+      "Alerta Climática",
+      "Prefectura Naval",
+      "Municipalidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
+    "fecha_inicio_iso": "2026-08-26T04:39:04.107982",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:04.107982",
+    "resumen_whatsapp": "🚨 ¡Alerta en el Delta! El Niño se fortalece con +90% de probabilidad de evento fuerte. 🌊 Villa Paranacito y el Departamento Islas del Ibicuy en monitoreo constante. ⚠️ Preparate y mantenete informado. Leé la nota completa para saber cómo te afecta y qué hacer. 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-26-el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
+    "slug": "el-nino-alerta-hidrica-delta-entrerriano-evacuacion-ganado",
+    "titulo": "El Fenómeno El Niño Genera Alerta Hídrica en el Delta Entrerriano y Acelera la Evacuación de Ganado",
+    "copete": "Ante la inminente llegada de un período de crecida por el fenómeno El Niño, productores ganaderos del Delta entrerriano, incluyendo la zona de Villa Paranacito, intensifican la evacuación de hacienda para proteger sus rodeos y evitar pérdidas económicas significativas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Crecida",
+      "Delta Entrerriano",
+      "Villa Paranacito"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Identidad Correntina)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Agosto de 2026, 01:14 hs",
+    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 01:14 hs",
+    "fecha_inicio_iso": "2026-08-26T01:14:48.643719",
+    "fecha_ultima_actualizacion_iso": "2026-08-26T01:14:48.643719",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! El Niño amenaza con crecidas en el Río Paranacito. Productores apuran la salida de hacienda. 🐄🌊 Vecinos, estén atentos a los comunicados oficiales y tomen precauciones. ¡Infórmate en Paranacito Noticias! #ElNiño #DeltaEntrerriano"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "slug": "comienza-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "titulo": "Comienza en el Delta Entrerriano el Rodaje de un Documental Crucial sobre los Vuelos de la Muerte",
+    "copete": "El vasto paisaje del Delta de Entre Ríos, incluyendo zonas cercanas a Villa Paranacito, es el escenario del inicio de filmación de un documental que busca reconstruir y preservar la memoria de las víctimas de los 'Vuelos de la Muerte' durante la última dictadura militar, un hecho de profunda relevancia histórica para la región y el país.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Delta Entrerriano",
+      "Dictadura Militar",
+      "Memoria Histórica",
+      "Documental",
+      "Villa Paranacito",
+      "Derechos Humanos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (examedia.com.ar)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 20:35 hs",
+    "fecha_inicio_iso": "2026-08-25T20:35:46.940321",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T20:35:46.940321",
+    "resumen_whatsapp": "📰 ¡Atención, vecinos! Comenzó en el Delta Entrerriano el rodaje de un documental crucial sobre los Vuelos de la Muerte de la última dictadura. 🎬 Este proyecto busca reconstruir la memoria histórica y honrar a las víctimas, con locaciones en el departamento Islas del Ibicuy. ¡Leé la nota completa para saber más! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-exito-segundo-encuentro-emociones-familia-villa-paranacito",
+    "slug": "exito-segundo-encuentro-emociones-familia-villa-paranacito",
+    "titulo": "Éxito y Convocatoria en el Segundo Encuentro del Ciclo 'Emociones en Familia' en Villa Paranacito",
+    "copete": "La comunidad de Villa Paranacito celebró con entusiasmo la segunda edición del ciclo 'Emociones en Familia', un espacio diseñado para fortalecer los lazos afectivos y promover el bienestar integral de los vecinos del Delta.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Emociones en Familia",
+      "Comunidad",
+      "Delta Entrerriano",
+      "Eventos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 20:29 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 20:29 hs",
+    "fecha_inicio_iso": "2026-08-25T20:29:27.110061",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T20:29:27.110061",
+    "resumen_whatsapp": "¡Gran éxito en Villa Paranacito! 🥳 El 2do encuentro del ciclo 'Emociones en Familia' reunió a la comunidad para fortalecer lazos y compartir alegría. ¡Un espacio clave para el Delta! 👨‍👩‍👧‍👦 No te pierdas las próximas ediciones. #Comunidad #Familia"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-preocupacion-delta-ganaderos-villa-paranacito-evacuan-hacienda-alerta",
+    "slug": "preocupacion-delta-ganaderos-villa-paranacito-evacuan-hacienda-alerta",
+    "titulo": "Preocupación en el Delta: Ganaderos de Villa Paranacito Evacúan Hacienda por Alerta de Crecida y Lluvias Intensas",
+    "copete": "Ante los pronósticos de un 'Súper Niño' y la inminencia de lluvias intensas y crecidas, los productores ganaderos de Villa Paranacito y el Delta entrerriano han comenzado la evacuación preventiva de sus animales, urgiendo a las autoridades por medidas de apoyo y asistencia.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta",
+      "Crecida",
+      "Ganadería",
+      "Súper Niño",
+      "Alerta Hídrica",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 20:29 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 20:29 hs",
+    "fecha_inicio_iso": "2026-08-25T20:29:01.687858",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T20:29:01.687858",
+    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito apuran el traslado de hacienda por el 'Súper Niño' y pronóstico de crecidas. 🌊 Se esperan lluvias intensas. Autoridades coordinan acciones. ¡Mantente informado y toma precauciones! #DeltaEnAlerta"
+  },
+  {
+    "acontecimiento_id": "2026-08-25-adultos-mayores-delta-avanzan-juegos-departamentales",
+    "slug": "adultos-mayores-delta-avanzan-juegos-departamentales",
+    "titulo": "Adultos Mayores del Departamento Islas del Ibicuy Avanzan hacia los Juegos Provinciales",
+    "copete": "Con entusiasmo y espíritu deportivo, los adultos mayores de la región, incluyendo representantes de Pueblo Belgrano, han definido sus clasificados para la etapa departamental de los Juegos Entrerrianos, un evento clave para la integración y el bienestar de la tercera edad en el Delta.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Adultos Mayores",
+      "Juegos Entrerrianos",
+      "Deporte",
+      "Integración Social",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 12:44 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 12:44 hs",
+    "fecha_inicio_iso": "2026-08-25T12:44:59.057030",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T12:44:59.057030",
+    "resumen_whatsapp": "📰 ¡Nuestros adultos mayores a la cancha! Los clasificados de la región ya están listos para los Juegos Departamentales. 🧓👵 Un paso clave para la integración y el deporte en el Delta. ¡Apoyemos a nuestros representantes! 💪 Más detalles en la nota completa."
+  },
+  {
+    "acontecimiento_id": "2026-08-25-documental-memoria-villa-paranacito-rodaje-entrevistas",
+    "slug": "documental-memoria-villa-paranacito-rodaje-entrevistas",
+    "titulo": "Documental sobre la Memoria de Villa Paranacito Inicia Rodaje con Entrevistas Clave",
+    "copete": "Un equipo de producción audiovisual ha comenzado el rodaje de un documental que busca rescatar y preservar la memoria histórica de Villa Paranacito, realizando una primera etapa de grabaciones en sitios emblemáticos y entrevistando a figuras locales como el periodista Fabián Magnotta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Documental",
+      "Historia Local",
+      "Villa Paranacito",
+      "Fabián Magnotta"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 04:38 hs",
+    "fecha_inicio_iso": "2026-08-25T04:38:00.215186",
+    "fecha_ultima_actualizacion_iso": "2026-08-25T04:38:00.215186",
+    "resumen_whatsapp": "📰 ¡Gran noticia para Villa Paranacito! Un documental sobre nuestra historia y memoria ya está en marcha. 🎥 La primera etapa incluyó grabaciones en el cementerio local y una entrevista clave con el periodista Fabián Magnotta. ¡Pronto más detalles! #ParanacitoHistoria"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-comenzo-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "slug": "comenzo-rodaje-documental-vuelos-muerte-delta-entrerriano",
+    "titulo": "Comenzó el Rodaje de un Documental Clave sobre los Vuelos de la Muerte en el Delta Entrerriano",
+    "copete": "Un equipo de producción audiovisual inició las filmaciones de un ambicioso documental que busca reconstruir y visibilizar los trágicos 'vuelos de la muerte' ocurridos durante la última dictadura cívico-militar, utilizando el paisaje del Delta de Entre Ríos como escenario y testigo de la memoria.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Vuelos de la Muerte",
+      "Derechos Humanos",
+      "Delta Entrerriano",
+      "Documental",
+      "Memoria",
+      "Villa Paranacito",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 16:36 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 16:36 hs",
+    "fecha_inicio_iso": "2026-08-24T16:36:46.446552",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T16:36:46.446552",
+    "resumen_whatsapp": "📰 ¡Memoria Viva en el Delta! Comenzó el rodaje de un documental clave sobre los Vuelos de la Muerte en nuestra región. Un trabajo esencial para la verdad y la justicia. ¡Conocé los detalles! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-black-river-define-liderazgo-partido-local-villa-paranacito",
+    "slug": "black-river-define-liderazgo-partido-local-villa-paranacito",
+    "titulo": "Black River Define su Liderazgo en un Crucial Partido de Local en Villa Paranacito",
+    "copete": "El equipo local Black River de Villa Paranacito enfrenta un partido decisivo en su cancha este 23 de agosto de 2026, donde un tropiezo podría costarle la punta del campeonato, generando gran expectativa en la comunidad isleña.",
+    "categoria": "Deportes",
+    "tags": [
+      "Black River",
+      "Fútbol",
+      "Villa Paranacito",
+      "Campeonato",
+      "Deportes",
+      "Islas del Ibicuy",
+      "Entre Ríos",
+      "Larroque"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 12:48 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 12:48 hs",
+    "fecha_inicio_iso": "2026-08-24T12:48:44.904043",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:44.904043",
+    "resumen_whatsapp": "⚽️ ¡Atención Villa Paranacito! Black River se juega la punta del campeonato en casa este 23/08/2026. 🏆 Un partido clave que definirá el liderazgo. ¡Apoyemos a nuestro equipo local! #FútbolParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-bomberos-villa-paranacito-capacitacion-bombas-emergencias",
+    "slug": "bomberos-villa-paranacito-capacitacion-bombas-emergencias",
+    "titulo": "Bomberos de Villa Paranacito Refuerzan Capacitación Clave en Operación de Bombas para Emergencias",
+    "copete": "Un grupo de bomberos voluntarios de Villa Paranacito participó en una fundamental jornada de capacitación sobre manejo de bombas y sistemas de abastecimiento, una formación crucial para optimizar la respuesta ante incendios y situaciones hídricas en el singular entorno del Delta entrerriano.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Bomberos Voluntarios",
+      "Villa Paranacito",
+      "Capacitación",
+      "Emergencias Hídricas",
+      "Incendios Forestales",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 12:48 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 12:48 hs",
+    "fecha_inicio_iso": "2026-08-24T12:48:30.151999",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:30.151999",
+    "resumen_whatsapp": "📰 ¡Noticia clave para la seguridad de Villa Paranacito! Bomberos locales se capacitaron intensivamente en manejo de bombas y sistemas de abastecimiento. 🌊🔥 Esto mejora la respuesta ante incendios y emergencias hídricas en el Delta. ¡Tu seguridad es nuestra prioridad! #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-alerta-amarillo-frio-extremo-villa-paranacito-delta",
+    "slug": "alerta-amarillo-frio-extremo-villa-paranacito-delta",
+    "titulo": "Alerta Amarillo por Frío Extremo en Villa Paranacito y el Delta Entrerriano",
+    "copete": "El Servicio Meteorológico Nacional emitió un alerta amarillo por temperaturas extremadamente bajas que afectarán a Villa Paranacito y gran parte del Delta de Entre Ríos, instando a la población a tomar precauciones ante el riesgo para la salud.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "frío extremo",
+      "alerta amarillo",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "SMN",
+      "bajas temperaturas",
+      "precaución",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 12:48 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 12:48 hs",
+    "fecha_inicio_iso": "2026-08-24T12:48:00.240535",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:00.240535",
+    "resumen_whatsapp": "🚨 ¡Alerta Amarillo por frío extremo en Villa Paranacito y el Delta! 🥶 El SMN pronostica bajas temperaturas. Abrigate bien, cuidá a los más vulnerables y revisá tu calefacción. ¡Informate y prevení! 📰"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
+    "slug": "gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
+    "titulo": "El Gobierno Provincial Ratifica al Turismo como Eje Estratégico para el Desarrollo del Delta Entrerriano",
+    "copete": "Funcionarios de turismo de diversas localidades entrerrianas, incluyendo Villa Paranacito, se reunieron para delinear estrategias que fortalezcan la actividad turística, considerada un pilar fundamental para la economía y el desarrollo sostenible del Delta.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Turismo",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Desarrollo Regional",
+      "Entre Ríos"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 04:43 hs",
+    "fecha_inicio_iso": "2026-08-24T04:43:31.860894",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T04:43:31.860894",
+    "resumen_whatsapp": "📰 ¡Gran noticia para el Delta! El gobierno provincial reafirma al turismo como motor clave para el desarrollo de Villa Paranacito y la región. 🏞️ Se vienen inversiones y capacitaciones. ¡Enterate de todos los detalles y cómo impacta en tu comunidad! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-22-rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "slug": "rogelio-frigerio-activo-con-intendentes-oficialistas-y",
+    "titulo": "Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ...",
+    "copete": "Por la oposición participaron el intendente de Federación, Ricardo Bravo; su par de Villa Paranacito , César Melchiori; y la intendenta de Victoria, ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.582390",
+    "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-24-bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
+    "slug": "bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito Refuerzan Capacidades en Crucial Capacitación Regional",
+    "copete": "Efectivos de los Bomberos Voluntarios de Villa Paranacito participaron activamente en una importante jornada de capacitación regional en Gualeguaychú, adquiriendo herramientas avanzadas para la respuesta ante emergencias complejas. Este entrenamiento es vital para la seguridad de la comunidad isleña y del Delta entrerriano, dadas las particularidades geográficas de la región.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Bomberos Voluntarios",
+      "Villa Paranacito",
+      "Capacitación",
+      "Seguridad Ciudadana"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_inicio_iso": "2026-08-24T01:13:51.090978",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.090978",
+    "resumen_whatsapp": "📰 ¡Nuestros Bomberos Voluntarios de Villa Paranacito se capacitaron en Gualeguaychú! 🚒 Reforzaron técnicas de rescate y gestión de emergencias para proteger mejor a nuestra comunidad del Delta. ¡Más seguridad para todos! 💪"
+  },
+  {
+    "acontecimiento_id": "2026-08-24-capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias",
+    "slug": "capacitacion-regional-bomberos-voluntarios-villa-paranacito-emergencias",
+    "titulo": "Capacitación Regional de Bomberos Voluntarios en Villa Paranacito Refuerza la Preparación ante Emergencias",
+    "copete": "Cuerpos de bomberos de ocho localidades de Entre Ríos, incluyendo Villa Paranacito e Ibicuy, participaron de una intensa jornada de formación en el predio del Ex Frigorífico, elevando la capacidad de respuesta ante siniestros y situaciones críticas en el Delta y la región.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Bomberos Voluntarios",
+      "Villa Paranacito",
+      "Capacitación",
+      "Emergencias",
+      "Delta Entrerriano",
+      "Seguridad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
+    "fecha_inicio_iso": "2026-08-24T01:13:36.922161",
+    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:36.922161",
+    "resumen_whatsapp": "🚨 Bomberos de 8 localidades se capacitaron en Villa Paranacito para mejorar la respuesta ante emergencias en el Delta. 💪 ¡Más seguridad para nuestros vecinos! Leé la nota completa en Paranacito Noticias."
+  },
+  {
+    "acontecimiento_id": "2026-08-22-frente-al-avance-de-el-nino-la",
+    "slug": "frente-al-avance-de-el-nino-la",
+    "titulo": "Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ...",
+    "copete": "Los equipos de los hospitales Behring de Ibicuy y de Villa Paranacito , en articulación con las autoridades municipales y la Prefectura, llevan ...",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "paranacito",
+      "delta",
+      "salud y educación"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "22 de Agosto de 2026, 00:39 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-08-22T00:39:18.740957",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.057536",
+    "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-23-senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
+    "slug": "senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
+    "titulo": "El Senado Entrerriano Aprueba Expropiaciones Clave para Impulsar Obras Viales en Villa Paranacito",
+    "copete": "La Cámara Alta provincial dio el visto bueno a la adquisición de terrenos fundamentales para el desarrollo de infraestructura vial en la localidad, prometiendo una mejora sustancial en la conectividad y el acceso para los habitantes del Delta.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Obras Viales",
+      "Senado Entre Ríos",
+      "Expropiaciones",
+      "Infraestructura",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-08-23T16:23:57.747750",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:57.747750",
+    "resumen_whatsapp": "📰 ¡Gran noticia para Villa Paranacito! El Senado entrerriano aprobó expropiaciones clave para impulsar obras viales en nuestra localidad. 🚜 Mejora la conectividad, el acceso y el desarrollo del Delta. ¡Mantente informado!"
+  },
+  {
+    "acontecimiento_id": "2026-08-23-villa-paranacito-emociones-en-familia-segundo-encuentro",
+    "slug": "villa-paranacito-emociones-en-familia-segundo-encuentro",
+    "titulo": "Villa Paranacito Fortalece Lazos Comunitarios con el Segundo Encuentro de 'Emociones en Familia'",
+    "copete": "La comunidad de Villa Paranacito fue escenario del exitoso segundo encuentro del ciclo 'Emociones en Familia', una iniciativa que busca fortalecer los vínculos afectivos y la integración social en el corazón del Delta entrerriano.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Emociones en Familia",
+      "Comunidad",
+      "Desarrollo Social",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Agosto de 2026, 08:29 hs",
+    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 08:29 hs",
+    "fecha_inicio_iso": "2026-08-23T08:29:16.996071",
+    "fecha_ultima_actualizacion_iso": "2026-08-23T08:29:16.996071",
+    "resumen_whatsapp": "📰 ¡Gran éxito en Villa Paranacito! El 2do encuentro de 'Emociones en Familia' reunió a más de 150 personas, fortaleciendo lazos y ofreciendo recreación. 👨‍👩‍👧‍👦 ¡Enterate de todos los detalles y próximos encuentros en nuestra nota! 👇"
+  },
+  {
+    "acontecimiento_id": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+    "slug": "frigerio-convoco-a-intendentes-riberenos-para-coordinar",
+    "titulo": "Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...",
+    "copete": "Villa Paranacito , César Melchiori. También estuvieron representantes de los municipios de Concepción del Uruguay y Villaguay, junto con ...",
+    "categoria": "Río y Clima",
+    "tags": [
+      "paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "1 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 23:36 hs",
+    "fecha_inicio_iso": "2026-08-21T23:36:18.566007",
+    "fecha_ultima_actualizacion_iso": "2026-08-21T23:36:18.566007",
+    "resumen_whatsapp": "📰 *Frigerio convocó a intendentes ribereños para coordinar el trabajo ante la crecida de ríos ...* - Novedades de Villa Paranacito."
+  },
+  {
     "acontecimiento_id": "2026-08-28-detienen-amparito-rodriguez-villa-paranacito-profuga-diez-anos",
     "slug": "detienen-amparito-rodriguez-villa-paranacito-profuga-diez-anos",
     "titulo": "Trasladan a la Unidad Penal N° 9 a \"Amparito\" Rodríguez tras ser detenida en Villa Paranacito luego de diez años prófuga",
@@ -19,30 +1196,19 @@
     "nivel_confiabilidad": "Alta",
     "imagen": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "3 min",
-    "fuente_nombre": "Policía Federal Argentina / Jefatura Departamental Islas / Máxima Online",
     "fuentes_consultadas": [
-      {
-        "nombre": "División Unidad Operativa Federal PFA"
-      },
-      {
-        "nombre": "Máxima Online (Gualeguaychú)",
-        "url": "https://www.maximaonline.com.ar"
-      },
-      {
-        "nombre": "Jefatura Departamental Islas del Ibicuy"
-      }
+      "División Unidad Operativa Federal PFA",
+      "Máxima Online (Gualeguaychú)",
+      "Jefatura Departamental Islas del Ibicuy"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "28 de Agosto de 2026, 04:00 hs",
     "fecha_ultima_actualizacion": "28 de Agosto de 2026, 04:00 hs",
-    "fecha_iso": "2026-08-28T04:00:00-03:00",
-    "fecha_inicio_iso": "2026-08-28T04:00:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-28T04:00:00-03:00",
-    "resumen_whatsapp": "⚖️ *Justicia en el Delta:* Detuvieron en Villa Paranacito a una mujer prófuga desde hace 10 años y la trasladaron a la Unidad Penal 9.",
-    "archivo": "2026-08-28-detienen-amparito-rodriguez-villa-paranacito-profuga-diez-anos.json"
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "⚖️ *Justicia en el Delta:* Detuvieron en Villa Paranacito a una mujer prófuga desde hace 10 años y la trasladaron a la Unidad Penal 9."
   },
   {
-    "id": "2026-08-27-productores-delta-entrerriano-traslado-hacienda-crecida-el-nino",
     "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-traslado-hacienda-crecida-el-nino",
     "slug": "productores-delta-entrerriano-traslado-hacienda-crecida-el-nino",
     "titulo": "Productores del Delta inician el traslado preventivo de hacienda ante la crecida de los ríos y el fenómeno de El Niño",
@@ -61,27 +1227,18 @@
     "nivel_confiabilidad": "Alta",
     "imagen": "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "3 min",
-    "fuente_nombre": "Ruralnet / Sociedad Rural Islas del Ibicuy / Senasa",
     "fuentes_consultadas": [
-      {
-        "nombre": "Ruralnet Noticias Agropecuarias",
-        "url": "https://www.ruralnet.com.ar"
-      },
-      {
-        "nombre": "Sociedad Rural de Islas del Ibicuy"
-      }
+      "Ruralnet Noticias Agropecuarias",
+      "Sociedad Rural de Islas del Ibicuy"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
     "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
-    "fecha_iso": "2026-08-27T18:52:00-03:00",
-    "fecha_inicio_iso": "2026-08-27T18:52:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-27T18:52:00-03:00",
-    "resumen_whatsapp": "🐄 *Producción y Río:* Ganaderos de Villa Paranacito e Islas inician el traslado preventivo de hacienda por la crecida del río y El Niño.",
-    "archivo": "2026-08-27-productores-delta-entrerriano-traslado-hacienda-crecida-el-nino.json"
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🐄 *Producción y Río:* Ganaderos de Villa Paranacito e Islas inician el traslado preventivo de hacienda por la crecida del río y El Niño."
   },
   {
-    "id": "2026-08-27-instituto-superior-villa-paranacito-concurso-tecnicatura-enfermeria",
     "acontecimiento_id": "2026-08-27-instituto-superior-villa-paranacito-concurso-tecnicatura-enfermeria",
     "slug": "instituto-superior-villa-paranacito-concurso-tecnicatura-enfermeria",
     "titulo": "El Instituto Superior de Villa Paranacito abrió concurso docente para la Tecnicatura Superior en Enfermería",
@@ -100,68 +1257,18 @@
     "nivel_confiabilidad": "Alta",
     "imagen": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
-    "fuente_nombre": "Instituto Superior Villa Paranacito / Dirección Departamental de Escuelas",
     "fuentes_consultadas": [
-      {
-        "nombre": "Consejo General de Educación de Entre Ríos (CGE)",
-        "url": "https://cge.entrerios.gov.ar"
-      },
-      {
-        "nombre": "Instituto Superior de Formación Docente y Técnica Paranacito"
-      }
+      "Consejo General de Educación de Entre Ríos (CGE)",
+      "Instituto Superior de Formación Docente y Técnica Paranacito"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "27 de Agosto de 2026, 07:29 hs",
     "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:29 hs",
-    "fecha_iso": "2026-08-27T07:29:00-03:00",
-    "fecha_inicio_iso": "2026-08-27T07:29:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-27T07:29:00-03:00",
-    "resumen_whatsapp": "📚 *Educación y Salud:* El Instituto Superior de Villa Paranacito abrió concurso docente para la carrera de Enfermería.",
-    "archivo": "2026-08-27-instituto-superior-villa-paranacito-concurso-tecnicatura-enfermeria.json"
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "📚 *Educación y Salud:* El Instituto Superior de Villa Paranacito abrió concurso docente para la carrera de Enfermería."
   },
   {
-    "id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
-    "acontecimiento_id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
-    "slug": "desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
-    "titulo": "Operativo en Villa Paranacito: interceptaron a cazadores furtivos con visores térmicos y diez armas de fuego",
-    "copete": "La Policía de Entre Ríos y la Brigada de Delitos Rurales desarticularon una cuadrilla que operaba de noche en campos privados del Delta. Secuestraron camionetas, fusiles y más de 300 kilos de carne.",
-    "categoria": "Comunidad",
-    "tags": [
-      "seguridad",
-      "delitos rurales",
-      "villa paranacito",
-      "policia de entre rios",
-      "medio ambiente"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuente_nombre": "Policía de Entre Ríos / Diario El Día / R2820",
-    "fuentes_consultadas": [
-      {
-        "nombre": "Jefatura Departamental Islas del Ibicuy"
-      },
-      {
-        "nombre": "Diario El Día (Gualeguaychú)",
-        "url": "https://www.eldiaonline.com"
-      },
-      {
-        "nombre": "Diario Junio / R2820"
-      }
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Agosto de 2026, 15:00 hs",
-    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 15:00 hs",
-    "fecha_iso": "2026-08-22T15:00:00-03:00",
-    "fecha_inicio_iso": "2026-08-22T15:00:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T15:00:00-03:00",
-    "resumen_whatsapp": "🚨 *Seguridad Rural:* La Policía desarticuló en Villa Paranacito a cazadores furtivos con visores térmicos y 10 armas de fuego.",
-    "archivo": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito.json"
-  },
-  {
-    "id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
     "acontecimiento_id": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito",
     "slug": "inician-obras-ampliacion-modernizacion-hospital-paranacito",
     "titulo": "Inician las obras de ampliación y modernización edilicia en el Hospital de Villa Paranacito",
@@ -179,27 +1286,76 @@
     "nivel_confiabilidad": "Alta",
     "imagen": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "3 min",
-    "fuente_nombre": "Ministerio de Salud de Entre Ríos / La Voz Isleña",
     "fuentes_consultadas": [
-      {
-        "nombre": "Ministerio de Salud de Entre Ríos",
-        "url": "https://www.entrerios.gov.ar"
-      },
-      {
-        "nombre": "Mirador Provincial"
-      }
+      "Ministerio de Salud de Entre Ríos",
+      "Mirador Provincial"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "22 de Agosto de 2026, 12:00 hs",
     "fecha_ultima_actualizacion": "22 de Agosto de 2026, 12:00 hs",
-    "fecha_iso": "2026-08-22T12:00:00-03:00",
-    "fecha_inicio_iso": "2026-08-22T12:00:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-22T12:00:00-03:00",
-    "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios.",
-    "archivo": "2026-08-22-inician-obras-ampliacion-modernizacion-hospital-paranacito.json"
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🏥 *Salud:* Comienzan las obras de ampliación en el Hospital de Villa Paranacito con más de $28 millones de inversión para mejorar la guardia y consultorios."
   },
   {
-    "id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
+    "acontecimiento_id": "2026-08-22-desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "slug": "desarticulan-cazadores-furtivos-armamento-tactico-paranacito",
+    "titulo": "Operativo en Villa Paranacito: interceptaron a cazadores furtivos con visores térmicos y diez armas de fuego",
+    "copete": "La Policía de Entre Ríos y la Brigada de Delitos Rurales desarticularon una cuadrilla que operaba de noche en campos privados del Delta. Secuestraron camionetas, fusiles y más de 300 kilos de carne.",
+    "categoria": "Comunidad",
+    "tags": [
+      "seguridad",
+      "delitos rurales",
+      "villa paranacito",
+      "policia de entre rios",
+      "medio ambiente"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Jefatura Departamental Islas del Ibicuy",
+      "Diario El Día (Gualeguaychú)",
+      "Diario Junio / R2820"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Agosto de 2026, 15:00 hs",
+    "fecha_ultima_actualizacion": "22 de Agosto de 2026, 15:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚨 *Seguridad Rural:* La Policía desarticuló en Villa Paranacito a cazadores furtivos con visores térmicos y 10 armas de fuego."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-rio-paranacito-altura-estable-pronostico-favorable",
+    "slug": "rio-paranacito-altura-estable-pronostico-favorable",
+    "titulo": "Monitoreo del Río Paranacito: Altura y condiciones hidrológicas en la cuenca del Delta",
+    "copete": "Prefectura Naval Argentina y las estaciones hidrométricas de la región informan el estado de los cauces y la navegabilidad en arroyos y ríos del departamento Islas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "rio paranacito",
+      "prefectura",
+      "navegacion",
+      "delta",
+      "clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Prefectura Naval Argentina"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 11:00 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 11:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🌊 *Río Paranacito:* Condiciones hidrológicas estables y navegación normal en todo el Delta entrerriano."
+  },
+  {
     "acontecimiento_id": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
     "slug": "frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino",
     "titulo": "Frigerio coordinó con intendentes ribereños el plan de contingencia ante la crecida de los ríos y el fenómeno de El Niño",
@@ -218,28 +1374,175 @@
     "nivel_confiabilidad": "Alta",
     "imagen": "https://www.diarioelargentino.com/galeria/fotos/2026/08/21/m_1787313394_21810.webp",
     "tiempo_lectura": "3 min",
-    "fuente_nombre": "Gobierno de Entre Ríos / Diario El Argentino / Prensa Municipal",
     "fuentes_consultadas": [
-      {
-        "nombre": "Prensa Oficial - Gobierno de Entre Ríos",
-        "url": "https://www.entrerios.gov.ar"
-      },
-      {
-        "nombre": "Diario El Argentino (Gualeguaychú)",
-        "url": "https://www.diarioelargentino.com"
-      },
-      {
-        "nombre": "Diario El Día / R2820",
-        "url": "https://www.eldiaonline.com"
-      }
+      "Prensa Oficial - Gobierno de Entre Ríos",
+      "Diario El Argentino (Gualeguaychú)",
+      "Diario El Día / R2820"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "21 de Agosto de 2026, 18:30 hs",
     "fecha_ultima_actualizacion": "21 de Agosto de 2026, 18:30 hs",
-    "fecha_iso": "2026-08-21T18:30:00-03:00",
-    "fecha_inicio_iso": "2026-08-21T18:30:00-03:00",
-    "fecha_ultima_actualizacion_iso": "2026-08-21T18:30:00-03:00",
-    "resumen_whatsapp": "🌊 *Plan de Contingencia Hídrico:* Frigerio coordinó con el intendente de Villa Paranacito el monitoreo de diques, bombas de desagüe y asistencia para el Delta.",
-    "archivo": "2026-08-21-frigerio-reunio-a-intendentes-y-funcionarios-por-el-nino.json"
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🌊 *Plan de Contingencia Hídrico:* Frigerio coordinó con el intendente de Villa Paranacito el monitoreo de diques, bombas de desagüe y asistencia para el Delta."
+  },
+  {
+    "acontecimiento_id": "2026-08-21-avanzan-trabajos-mantenimiento-camino-acceso",
+    "slug": "avanzan-trabajos-mantenimiento-camino-acceso",
+    "titulo": "Vialidad Provincial ejecuta tareas de conservación en caminos y accesos a Villa Paranacito",
+    "copete": "Equipos viales llevan adelante tareas de perfilado de calzada, reposición de material y limpieza de cunetas para garantizar la transitabilidad del transporte y la producción local.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "vialidad",
+      "camino de acceso",
+      "obras",
+      "villa paranacito",
+      "infraestructura"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1578885136359-16c8bd4d3a8e?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Dirección Provincial de Vialidad (DPV)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Agosto de 2026, 09:30 hs",
+    "fecha_ultima_actualizacion": "21 de Agosto de 2026, 09:30 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚜 *Vialidad:* Tareas de conservación y mantenimiento en los accesos y caminos de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": null,
+    "slug": "club-islenos-independientes-nueva-fecha-futbol",
+    "titulo": "El Club Isleños Independientes convoca a una nueva fecha del torneo regional de fútbol",
+    "copete": "Este fin de semana la institución deportiva albiverde será sede de una emocionante jornada comunitaria con partidos en categorías infantiles y primera división.",
+    "categoria": "Deportes",
+    "tags": [
+      "club islenos",
+      "futbol",
+      "deportes",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "20 de Agosto de 2026, 18:45 hs",
+    "fecha_ultima_actualizacion": null,
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "⚽ *Deportes:* ¡Gran fecha de fútbol este finde en el Club Isleños Independientes de Paranacito!"
+  },
+  {
+    "acontecimiento_id": "2026-08-20-bomberos-voluntarios-paranacito-guardia-y-emergencias",
+    "slug": "bomberos-voluntarios-paranacito-guardia-y-emergencias",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito: Guardia permanente y recomendaciones ante emergencias",
+    "copete": "El cuartel local recuerda las líneas de comunicación activa y los protocolos de prevención ante contingencias climáticas y rescate fluvial en la zona de islas.",
+    "categoria": "Comunidad",
+    "tags": [
+      "bomberos",
+      "seguridad",
+      "villa paranacito",
+      "emergencias",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Asociación Bomberos Voluntarios de Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "20 de Agosto de 2026, 14:00 hs",
+    "fecha_ultima_actualizacion": "20 de Agosto de 2026, 14:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚒 *Bomberos:* Guardia permanente y recomendaciones de prevención ante contingencias en Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": "2026-08-19-turismo-y-naturaleza-delta-villa-paranacito",
+    "slug": "turismo-y-naturaleza-delta-villa-paranacito",
+    "titulo": "Turismo y Naturaleza: Actividades fluviales y descanso en el Delta de Villa Paranacito",
+    "copete": "Prestadores turísticos locales destacan la propuesta de cabañas, paseos náuticos y pesca deportiva para quienes eligen la tranquilidad del sur entrerriano.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "turismo",
+      "delta",
+      "pesca deportiva",
+      "villa paranacito",
+      "naturaleza"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Alta",
+    "imagen": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Secretaría de Turismo de Entre Ríos"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Agosto de 2026, 17:00 hs",
+    "fecha_ultima_actualizacion": "19 de Agosto de 2026, 17:00 hs",
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🌿 *Turismo:* Cabañas, naturaleza y paseos náuticos en el Delta de Villa Paranacito."
+  },
+  {
+    "acontecimiento_id": null,
+    "slug": "crecen-reservas-turismo-pesca-delta",
+    "titulo": "Temporada de Pesca y Ecoturismo: Crecen las reservas en cabañas y guiadas del Delta",
+    "copete": "Los prestadores turísticos destacan un alto nivel de consultas atraídos por la tranquilidad, la gastronomía isleña y la riqueza ictícola de la región.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "turismo",
+      "pesca deportiva",
+      "delta",
+      "cabanas"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "19 de Agosto de 2026, 17:20 hs",
+    "fecha_ultima_actualizacion": null,
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🎣 *Turismo:* Excelente expectativa y reservas para la pesca y descanso en el Delta."
+  },
+  {
+    "acontecimiento_id": null,
+    "slug": "bomberos-voluntarios-renuevan-equipamiento-rescate",
+    "titulo": "Bomberos Voluntarios de Villa Paranacito renuevan equipamiento para rescate acuático",
+    "copete": "El cuerpo activo incorporó nuevos chalecos salvavidas certificados, cabos de remolque y reflectores de alta potencia para emergencias nocturnas.",
+    "categoria": "Comunidad",
+    "tags": [
+      "bomberos",
+      "rescate",
+      "seguridad",
+      "solidaridad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1000&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "19 de Agosto de 2026, 10:00 hs",
+    "fecha_ultima_actualizacion": null,
+    "fecha_inicio_iso": null,
+    "fecha_ultima_actualizacion_iso": null,
+    "resumen_whatsapp": "🚒 *Comunidad:* Bomberos Voluntarios de Paranacito incorporaron nuevo equipo de rescate fluvial."
   }
 ]

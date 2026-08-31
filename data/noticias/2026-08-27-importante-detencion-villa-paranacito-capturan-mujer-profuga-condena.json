@@ -54,6 +54,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo artículo revela que la detención de 'Amparito' reabrió la historia de abuso sexual intrafamiliar, y que su hija relató años de abusos.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:52",
+      "fecha": "2026-08-31",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo revela que la detención de 'Amparito' reabrió una historia de abuso sexual intrafamiliar, con su hija relatando años de abusos.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -61,8 +68,8 @@
     "3bb4125c0aec6a53b858a70c8c9d6ea04d362935a577de57c2d94d75928b75bb"
   ],
   "fecha_inicio_iso": "2026-08-27T07:28:39.216045",
-  "fecha_ultima_actualizacion_iso": "2026-08-30T16:06:44.043866",
+  "fecha_ultima_actualizacion_iso": "2026-08-31T03:52:17.276694",
   "fecha_publicacion": "27 de Agosto de 2026, 07:28 hs",
-  "fecha_ultima_actualizacion": "30 de Agosto de 2026, 16:06 hs",
+  "fecha_ultima_actualizacion": "31 de Agosto de 2026, 03:52 hs",
   "archivo": "2026-08-27-importante-detencion-villa-paranacito-capturan-mujer-profuga-condena.json"
 }
