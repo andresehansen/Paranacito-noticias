@@ -23,7 +23,7 @@
   "tiempo_lectura": "3 min",
   "resumen_whatsapp": "🚨 ¡Noticia clave en Villa Paranacito! 🚨 Tras 10 años, detuvieron a 'Amparito', la prófuga más buscada de Entre Ríos, vinculada a graves abusos. Un paso importante para la justicia en nuestra comunidad. 📰 Leé la nota completa en Paranacito Noticias.",
   "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://9digital.com.ar/cayo-amparito-despues-de-10-anos-detuvieron-a-la-profuga-mas-buscada-de-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2PYd1wJuYH99HiL3xrSdon",
       "fecha_consulta": "2026-08-27T18:52:16.642018"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://tn.com.ar/policiales/2026/08/31/un-sistema-de-alerta-y-un-plan-de-fuga-que-fallaron-asi-cayo-la-mujer-que-estuvo-profuga-tras-haber-sido-condenada-por-abuso/%3FoutputType%3Damp&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2EEYt7d75BHkjdGdGO-aMD",
+      "fecha_consulta": "2026-08-31T23:38:46.971081"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,14 +47,22 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Una mujer de 48 años, identificada como 'Amparito' y considerada la prófuga más buscada de la provincia, fue finalmente detenida en Villa Paranacito. Su captura pone fin a una década de búsqueda en un",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:38",
+      "fecha": "2026-08-31",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La mujer fue condenada por abusar de sus hijas. Se escondía en una casilla de madera. La policía la rodeó con 32 efectivos y frustró su intento de escape.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "a2a6428167b5572ed3165dbdb13ebf4e8d38b421536e480f2c6668adc6e69b38"
+    "a2a6428167b5572ed3165dbdb13ebf4e8d38b421536e480f2c6668adc6e69b38",
+    "c0e936bca1710e49379aeedbc762cb150ac88cb396eca47625f6eebb73846c33"
   ],
   "fecha_inicio_iso": "2026-08-27T18:52:16.642018",
-  "fecha_ultima_actualizacion_iso": "2026-08-27T18:52:16.642018",
+  "fecha_ultima_actualizacion_iso": "2026-08-31T23:38:46.971081",
   "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
-  "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
+  "fecha_ultima_actualizacion": "31 de Agosto de 2026, 23:38 hs",
   "archivo": "2026-08-27-detienen-en-villa-paranacito-a-la-profuga-mas.json"
 }

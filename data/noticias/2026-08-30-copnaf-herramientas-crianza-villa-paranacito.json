@@ -15,7 +15,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/08/30/el-copnaf-brindo-herramientas-a-familias-de-concordia-para-el-abordaje-de-la-crianza/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3fxwkDIJPDL5iNwWb3Dnh2",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/08/30/el-copnaf-brindo-herramientas-a-familias-de-concordia-para-el-abordaje-de-la-crianza/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3fxwkDIJPDL5iNwWb3Dnh2",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -25,6 +25,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/08/30/el-copnaf-brindo-herramientas-a-familias-de-concordia-para-el-abordaje-de-la-crianza/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3fxwkDIJPDL5iNwWb3Dnh2",
       "fecha_consulta": "2026-08-30T22:25:41.418030"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/el-copnaf-invita-en-parana-a-conversar-sobre-emociones-limites-y-crianza/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1C-dD8HYts5N6WFfojASU-",
+      "fecha_consulta": "2026-08-31T23:38:34.780450"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/08/31/469136-el-copnaf-invita-en-parana-a-conversar-sobre-emociones-limites-y-crianza&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3JXPvad_l5ILgOKmtOuM4T",
+      "fecha_consulta": "2026-08-31T23:38:39.243498"
     }
   ],
   "cronologia_actualizaciones": [
@@ -34,16 +44,32 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Copnaf llevó su iniciativa de apoyo a la crianza a Villa Paranacito. El organismo provincial brindó herramientas a familias locales para abordar la crianza. Esta actividad formó parte de un recorri",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:38",
+      "fecha": "2026-08-31",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El evento de Villa Paranacito forma parte de un ciclo de talleres del Copnaf que también se realizó en La Paz y Concordia. El ciclo culminará con una jornada en Paraná sobre emociones y crianza.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:38",
+      "fecha": "2026-08-31",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El evento de Villa Paranacito fue parte de un ciclo de encuentros del Copnaf que también se realizó en La Paz y Concordia. El nuevo artículo anuncia la última jornada de este ciclo en Paraná, donde se conversará sobre emociones, límites y crianza, con participación gratuita.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "bdc4d2e1a961798f032de766165362efc7255f8ce98cbde50e48473071468e41"
+    "bdc4d2e1a961798f032de766165362efc7255f8ce98cbde50e48473071468e41",
+    "ff64eb1c934cfdb12543ea887c338dcd5e0d3413a70d78b083843f9da9d0be9c",
+    "3c382f5e04b65a3ba2a6130509922e0f1a3e3dcd0ddc611191a49ed37569325e"
   ],
   "fecha_iso": "2026-08-30T22:25:41.418030",
   "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
-  "fecha_ultima_actualizacion_iso": "2026-08-30T22:25:41.418030",
+  "fecha_ultima_actualizacion_iso": "2026-08-31T23:38:39.243498",
   "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
-  "fecha_ultima_actualizacion": "30 de Agosto de 2026, 22:25 hs",
+  "fecha_ultima_actualizacion": "31 de Agosto de 2026, 23:38 hs",
   "archivo": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito.json",
   "copete": "",
   "cuerpo": []

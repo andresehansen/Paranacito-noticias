@@ -38,6 +38,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/detuvieron-a-amparito-y-su-hija-conto-anos-de-abusos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1XxNMdoWdJ3-k3mq2YXCGa",
       "fecha_consulta": "2026-08-30T16:06:44.043866"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lmneuquen.com/pais/escondite-y-fuga-frustrada-como-detuvieron-la-mujer-condenada-abuso-10-anos-profuga-n1251827&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1giOP_AyvLZjS0ATvEk5qv",
+      "fecha_consulta": "2026-08-31T23:38:29.780001"
     }
   ],
   "cronologia_actualizaciones": [
@@ -61,15 +66,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo artículo revela que la detención de 'Amparito' reabrió una historia de abuso sexual intrafamiliar, con su hija relatando años de abusos.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:38",
+      "fecha": "2026-08-31",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo detalla que la detención fue el resultado de meses de seguimiento de una pista, que 32 policías rodearon el predio en Villa Paranacito y que se evitó que la mujer pudiera activar algún mecanismo, sugiriendo una fuga frustrada o intento de resistencia.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "aefd0bc3f58d7b6777b3d59fde78babb0065f70d501db3b96031dab18f631722",
-    "3bb4125c0aec6a53b858a70c8c9d6ea04d362935a577de57c2d94d75928b75bb"
+    "3bb4125c0aec6a53b858a70c8c9d6ea04d362935a577de57c2d94d75928b75bb",
+    "b7d4fbd8aefa018f0b4a75563fc63e9e3a76925d74b50dbb04aaaf8e6fadc6e7"
   ],
   "fecha_inicio_iso": "2026-08-27T07:28:39.216045",
-  "fecha_ultima_actualizacion_iso": "2026-08-31T03:52:17.276694",
+  "fecha_ultima_actualizacion_iso": "2026-08-31T23:38:29.780001",
   "fecha_publicacion": "27 de Agosto de 2026, 07:28 hs",
-  "fecha_ultima_actualizacion": "31 de Agosto de 2026, 03:52 hs",
+  "fecha_ultima_actualizacion": "31 de Agosto de 2026, 23:38 hs",
   "archivo": "2026-08-27-importante-detencion-villa-paranacito-capturan-mujer-profuga-condena.json"
 }
