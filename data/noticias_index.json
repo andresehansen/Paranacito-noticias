@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-01-villa-paranacito-licitacion-viviendas-provinciales",
+    "slug": "villa-paranacito-licitacion-viviendas-provinciales",
+    "titulo": "Villa Paranacito: Siete Empresas Compiten por la Terminación de 50 Viviendas con Fondos Provinciales",
+    "copete": "Un paso fundamental se dio en Villa Paranacito con la apertura de sobres para la licitación de la etapa final de 50 unidades habitacionales, un proyecto que promete aliviar la demanda de vivienda en la localidad.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Viviendas",
+      "Licitación",
+      "Obras Públicas",
+      "Delta Entrerriano",
+      "Desarrollo Urbano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google News (lagacetaonline.com.ar)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
+    "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 19:19 hs",
+    "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
+    "fecha_ultima_actualizacion_iso": "2026-09-01T19:19:43.026936",
+    "resumen_whatsapp": "🏗️ ¡Gran noticia en Villa Paranacito! 7 empresas compiten para terminar 50 viviendas con fondos provinciales. Un paso clave para el hogar de muchas familias isleñas. 🏡✨"
+  },
+  {
     "acontecimiento_id": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual",
     "slug": "aumento-tarifas-peaje-zarate-telepase-pago-manual",
     "titulo": "Aumentan las tarifas en el Peaje Zárate: Fuertes diferencias entre TelePASE y pago manual",
