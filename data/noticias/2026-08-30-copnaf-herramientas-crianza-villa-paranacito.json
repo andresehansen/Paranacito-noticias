@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/08/31/469136-el-copnaf-invita-en-parana-a-conversar-sobre-emociones-limites-y-crianza&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3JXPvad_l5ILgOKmtOuM4T",
       "fecha_consulta": "2026-08-31T23:38:39.243498"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/el-copnaf-invita-en-paran-a-conversar-sobre-emociones-lmites-y-crianza.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Sh7J4czAmrKsh7_eewbCp",
+      "fecha_consulta": "2026-09-01T22:25:44.742016"
     }
   ],
   "cronologia_actualizaciones": [
@@ -58,18 +63,26 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El evento de Villa Paranacito fue parte de un ciclo de encuentros del Copnaf que también se realizó en La Paz y Concordia. El nuevo artículo anuncia la última jornada de este ciclo en Paraná, donde se conversará sobre emociones, límites y crianza, con participación gratuita.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:25",
+      "fecha": "2026-09-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El encuentro en Villa Paranacito fue parte de un ciclo de charlas del Copnaf sobre emociones, límites y crianza. Este ciclo ya se realizó en La Paz, Villaguay y Concordia, y tendrá su última jornada en Paraná.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "bdc4d2e1a961798f032de766165362efc7255f8ce98cbde50e48473071468e41",
     "ff64eb1c934cfdb12543ea887c338dcd5e0d3413a70d78b083843f9da9d0be9c",
-    "3c382f5e04b65a3ba2a6130509922e0f1a3e3dcd0ddc611191a49ed37569325e"
+    "3c382f5e04b65a3ba2a6130509922e0f1a3e3dcd0ddc611191a49ed37569325e",
+    "44446c3bfc15ad608fc546d182842d69796bfbf7a393d0c4c27dee5c1148dd51"
   ],
   "fecha_iso": "2026-08-30T22:25:41.418030",
   "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
-  "fecha_ultima_actualizacion_iso": "2026-08-31T23:38:39.243498",
+  "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:44.742016",
   "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
-  "fecha_ultima_actualizacion": "31 de Agosto de 2026, 23:38 hs",
+  "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
   "archivo": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito.json",
   "copete": "",
   "cuerpo": []

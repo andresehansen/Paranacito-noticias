@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/79521&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw36hf5zd9LZp__4InUKS_xp",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/79521&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw36hf5zd9LZp__4InUKS_xp",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -39,6 +39,31 @@
       "nombre": "Google News (lagacetaonline.com.ar)",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQnJLbm01b3RUS1FUMTZ5ZGlTQ1hEaE5samlmUUpOTTJKV25nRGtjSzZMZW1UVkd2UDNnOTFjVllWX015eUFONk50NDh3WHVhYTczU2k2cUJ2MGdjXy0wSmZHVXR5aE44bkNCRVBzODlaWmZqMTZNbVluODJjSnpRVkJyM0hySWZsT1NaSXRWN1lUUjl4a3VORWI1NVc0UkdkV3ktLWlvQ0lLcWtRR3RvOG16UGdHMGFsaWwwZXZLMTh3eFZhZnc?oc=5",
       "fecha_consulta": "2026-09-01T19:19:43.031456"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/09/01/ternavasio-de-los-personajes-que-han-encarnado-liderazgos-fuertes-el-de-rosas-sigue-siendo-el-mas-misterioso/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0PjfZSu7Es-snEr0-Kcvt3",
+      "fecha_consulta": "2026-09-01T22:24:57.017604"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/09/01/el-ministerio-de-planeamiento-destaco-un-crecimiento-del-108-en-la-inscripcion-de-empresas-para-la-obra-publica-provincial/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw23XYkI1ZyhPaOlmwqDEVsR",
+      "fecha_consulta": "2026-09-01T22:25:11.140862"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/09/01/469279-se-presentaron-siete-empresas-para-la-terminacion-de-50-viviendas-con-fondos-provinciales-en-villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2M_6JuD4sQDiaEiQWOAxkv",
+      "fecha_consulta": "2026-09-01T22:25:11.145181"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/se-presentaron-siete-empresas-para-la-terminacion-de-50-viviendas-en-villa-paranacito/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0hyGnK05ZSpG2Wa6DJSLu6",
+      "fecha_consulta": "2026-09-01T22:25:40.139860"
+    },
+    {
+      "nombre": "Google News (Mirador Provincial)",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSWFYbVBkMWE1Y19hSEtHN2JVOWtfRGtwOFAwME9rWW1KTEU3SS02LVhBLThlczQ0NXlYTEJnQzRvaVhTSVRyV2d4VkRSakdobUZiM3ROVWNKNkhpTUlxYmJ1T0ZPWTZLX1oxNU1Fa3Y3YjNjSUNFbnRMRTQyZHZfZ3NVUTMzb1doZnlpYU5QUTdYYklOQ1lWR21NTFp6MVlQOHU2UF9fRVNXVFg0UXNJQUZ4SmxTZDJXX2Z1MWRhdHZSOUt5U2ZGMzZ6LWc1U1VrbFRZLU52cmVKeGNKQVhucUJqNDZ2S2pGMGFqRF9zMA?oc=5",
+      "fecha_consulta": "2026-09-01T22:25:44.746995"
     }
   ],
   "cronologia_actualizaciones": [
@@ -48,15 +73,39 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito avanza en soluciones habitacionales con la licitación para la terminación de 50 viviendas. Siete empresas presentaron ofertas, garantizando transparencia y competitividad. Este proyec",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:25",
+      "fecha": "2026-09-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Ministerio de Planeamiento destacó un crecimiento del 108% en la ... - Mirador Provincial",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:25",
+      "fecha": "2026-09-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Se presentaron siete empresas para la terminación de 50 viviendas en Villa Paranacito",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:25",
+      "fecha": "2026-09-01",
+      "fuente": "Google News (Mirador Provincial)",
+      "dato": "Villa Paranacito: siete empresas cotizaron para finalizar la construcción de 50 viviendas con fondos provinciales - Mirador Provincial",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "3871050f7ac9a6283a4b7bc163f0d8d00b837786a69f7342d401bcc5fafa58c0"
+    "3871050f7ac9a6283a4b7bc163f0d8d00b837786a69f7342d401bcc5fafa58c0",
+    "0d29ab9b7f4d6a67cc7620835d1471f80b0d490df26b1cb147ee80cfdf65b650",
+    "efcd7d9411f9f1d925a65509fe669095bb60592a46a5d165370f1a80a7c9ec7d",
+    "a97f0db7b12ff161a8458759645482b40215da97c98b95e0e17e595a78d3f3ed"
   ],
   "fecha_iso": "2026-09-01T19:19:43.026936",
   "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
-  "fecha_ultima_actualizacion_iso": "2026-09-01T19:19:43.026936",
+  "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:44.746995",
   "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
-  "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 19:19 hs",
+  "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
   "archivo": "2026-09-01-villa-paranacito-licitacion-viviendas-provinciales.json"
 }

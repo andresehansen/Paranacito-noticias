@@ -13,21 +13,85 @@
       "Delta Entrerriano",
       "Desarrollo Urbano"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
       "Google Alerts - Villa Paranacito",
-      "Google News (lagacetaonline.com.ar)"
+      "Google News (lagacetaonline.com.ar)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google News (Mirador Provincial)"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
+    "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
+    "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
+    "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:44.746995",
+    "resumen_whatsapp": "🏗️ ¡Gran noticia en Villa Paranacito! 7 empresas compiten para terminar 50 viviendas con fondos provinciales. Un paso clave para el hogar de muchas familias isleñas. 🏡✨"
+  },
+  {
+    "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
+    "slug": "copnaf-herramientas-crianza-villa-paranacito",
+    "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",
+    "copete": "",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Copnaf",
+      "crianza",
+      "familias",
+      "Villa Paranacito"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
+    "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
+    "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
+    "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:44.742016",
+    "resumen_whatsapp": "El Copnaf brindó herramientas de crianza a familias en Villa Paranacito como parte de su iniciativa provincial. 👨‍👩‍👧‍👦"
+  },
+  {
+    "acontecimiento_id": "2026-09-01-obras-tunel-subfluvial-impacto-delta",
+    "slug": "obras-tunel-subfluvial-impacto-delta",
+    "titulo": "Obras Cruciales en el Túnel Subfluvial: Impacto para Viajeros de Villa Paranacito y el Delta Entrerriano",
+    "copete": "Vecinos de Villa Paranacito, Ceibas y las Islas del Ibicuy que utilizan el Túnel Subfluvial Uranga-Sylvestre Begnis deberán estar atentos a las demoras por los trabajos de mantenimiento programados en la cabecera santafesina.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Túnel Subfluvial",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Obras Viales",
+      "Tránsito",
+      "Conectividad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
-    "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 19:19 hs",
-    "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
-    "fecha_ultima_actualizacion_iso": "2026-09-01T19:19:43.026936",
-    "resumen_whatsapp": "🏗️ ¡Gran noticia en Villa Paranacito! 7 empresas compiten para terminar 50 viviendas con fondos provinciales. Un paso clave para el hogar de muchas familias isleñas. 🏡✨"
+    "fecha_publicacion": "1 de Septiembre de 2026, 22:25 hs",
+    "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
+    "fecha_inicio_iso": "2026-09-01T22:25:40.134876",
+    "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:40.134876",
+    "resumen_whatsapp": "🚧 ¡Atención vecinos de Villa Paranacito y el Delta! Habrá obras en el Túnel Subfluvial (lado Santa Fe). Planifiquen sus viajes, habrá demoras. 🚗💨"
   },
   {
     "acontecimiento_id": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual",
@@ -58,35 +122,6 @@
     "fecha_inicio_iso": "2026-09-01T12:26:36.478Z",
     "fecha_ultima_actualizacion_iso": "2026-09-01T12:28:57.453Z",
     "resumen_whatsapp": "📰 *Aumentan las tarifas en el Peaje Zárate: Fuertes diferencias entre TelePASE y pago manual*\n\nEl Peaje Zárate-Brazo Largo implementó un nuevo cuadro tarifario con grandes diferencias: el pago manual duplica el costo de TelePASE. Para autos, TelePASE $5.430,70 vs. manual $10.861,40. Motos y transporte pesado también sufren fuertes incrementos. ¡Clave para vecinos de Villa Paranacito que viajan a Buenos Aires!\n\n🔗 paranacito-noticias.vercel.app"
-  },
-  {
-    "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
-    "slug": "copnaf-herramientas-crianza-villa-paranacito",
-    "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",
-    "copete": "",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Copnaf",
-      "crianza",
-      "familias",
-      "Villa Paranacito"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
-    "fecha_ultima_actualizacion": "31 de Agosto de 2026, 23:38 hs",
-    "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
-    "fecha_ultima_actualizacion_iso": "2026-08-31T23:38:39.243498",
-    "resumen_whatsapp": "El Copnaf brindó herramientas de crianza a familias en Villa Paranacito como parte de su iniciativa provincial. 👨‍👩‍👧‍👦"
   },
   {
     "acontecimiento_id": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
@@ -147,36 +182,6 @@
     "fecha_inicio_iso": "2026-08-28T04:03:34.112760",
     "fecha_ultima_actualizacion_iso": "2026-08-28T04:03:34.112760",
     "resumen_whatsapp": "📰 ¡Atención docentes de Villa Paranacito! La Escuela Secundaria N° 2 'Islas del Ibicuy' abre concurso para cubrir cargos. 🧑‍🏫 Una gran oportunidad laboral y para fortalecer la educación local. ¡Consultá requisitos y plazos en la escuela! #Educación #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-08-27-productores-delta-retiran-ganado-crecida-rio-paranacito",
-    "slug": "productores-delta-retiran-ganado-crecida-rio-paranacito",
-    "titulo": "Productores del Delta Entrerriano Retiran Ganado Ante la Amenaza de Crecida del Río Paranacito",
-    "copete": "Ganaderos de Villa Paranacito y el Delta de Islas del Ibicuy han iniciado el traslado preventivo de sus animales a zonas más altas, anticipándose a posibles crecidas en los cursos de agua que podrían afectar seriamente la producción local.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Crecida",
-      "Ganadería",
-      "Río Paranacito",
-      "Islas del Ibicuy",
-      "Prevención"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "27 de Agosto de 2026, 07:28 hs",
-    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 07:28 hs",
-    "fecha_inicio_iso": "2026-08-27T07:28:53.279572",
-    "fecha_ultima_actualizacion_iso": "2026-08-27T07:28:53.279572",
-    "resumen_whatsapp": "📰 ¡Atención Delta! Productores de Villa Paranacito retiran ganado preventivamente ante la posible crecida de los ríos. 🌊 Mantente informado y toma precauciones. #Delta #Crecida #Ganadería"
   },
   {
     "acontecimiento_id": "2026-08-26-torneo-eduardo-barbosa-fecha-15-villa-paranacito",
@@ -703,36 +708,6 @@
     "fecha_inicio_iso": null,
     "fecha_ultima_actualizacion_iso": null,
     "resumen_whatsapp": "⚖️ *Justicia en el Delta:* Detuvieron en Villa Paranacito a una mujer prófuga desde hace 10 años y la trasladaron a la Unidad Penal 9."
-  },
-  {
-    "acontecimiento_id": "2026-08-27-productores-delta-entrerriano-traslado-hacienda-crecida-el-nino",
-    "slug": "productores-delta-entrerriano-traslado-hacienda-crecida-el-nino",
-    "titulo": "Productores del Delta inician el traslado preventivo de hacienda ante la crecida de los ríos y el fenómeno de El Niño",
-    "copete": "Ganaderos y asociaciones rurales de Villa Paranacito y el departamento Islas comenzaron a movilizar miles de cabezas de ganado hacia campos altos para evitar pérdidas frente a los repuntes hídricos pronosticados.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "el nino",
-      "crecida",
-      "ganaderia",
-      "delta entrerriano",
-      "villa paranacito",
-      "produccion"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Alta",
-    "imagen": "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Ruralnet Noticias Agropecuarias",
-      "Sociedad Rural de Islas del Ibicuy"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "27 de Agosto de 2026, 18:52 hs",
-    "fecha_ultima_actualizacion": "27 de Agosto de 2026, 18:52 hs",
-    "fecha_inicio_iso": null,
-    "fecha_ultima_actualizacion_iso": null,
-    "resumen_whatsapp": "🐄 *Producción y Río:* Ganaderos de Villa Paranacito e Islas inician el traslado preventivo de hacienda por la crecida del río y El Niño."
   },
   {
     "acontecimiento_id": "2026-08-27-instituto-superior-villa-paranacito-concurso-tecnicatura-enfermeria",

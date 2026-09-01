@@ -1,0 +1,58 @@
+{
+  "acontecimiento_id": "2026-09-01-productores-paranacito-mueven-hacienda-crecida-rio",
+  "titulo": "Productores de Villa Paranacito Mueven Hacienda Ante la Crecida del Río Uruguay",
+  "copete": "Ganaderos de Villa Paranacito y el Delta entrerriano iniciaron el traslado preventivo de sus rodeos, anticipándose a una posible intensificación de la crecida del río Uruguay y los efectos del fenómeno El Niño.",
+  "cuerpo": [
+    "La región de Villa Paranacito y el vasto Delta entrerriano se encuentra en alerta por la sostenida crecida del río Uruguay, un fenómeno que ya lleva entre 15 y 20 días. Esta situación, agravada por las sudestadas en el Río de la Plata que dificultan el escurrimiento natural del agua, ha impulsado a los productores ganaderos locales a tomar medidas preventivas urgentes para salvaguardar sus rodeos. La amenaza de un evento de El Niño de intensidad fuerte a muy fuerte añade una capa de preocupación a este escenario hídrico complejo que afecta directamente la producción local.",
+    "En Villa Paranacito, varios productores ya han comenzado a mover sus animales, mientras otros preparan campos en zonas más elevadas. Un caso emblemático es el de un ganadero que logró asegurar un establecimiento a unos 350 kilómetros, en el departamento Paraná, para reubicar parte de su hacienda. La prioridad es clara: trasladar primero las vacas con cría, dada la complejidad de su manejo, para luego seguir con la recría y los novillos. Se reporta que un productor ya retiró cerca de 500 novillos de un campo ribereño, y en otro establecimiento, el agua ya habría cubierto aproximadamente el 80% de la superficie productiva.",
+    "La principal preocupación para los isleños y productores del Delta radica en el estado crítico de los caminos rurales y los accesos a los embarcaderos. Estos vitales puntos de conexión se vuelven intransitables con facilidad, dificultando no solo la evacuación de los animales sino también el posterior ingreso de alimentos y suministros a los campos de destino. Una crecida adicional de apenas 50 a 70 centímetros podría dejar incomunicados estos accesos, aislando a las zonas rurales y complicando drásticamente cualquier operación logística.",
+    "Ante este panorama, el sector ganadero de Villa Paranacito y sus alrededores ha elevado un reclamo urgente a las autoridades por la necesidad de obras de infraestructura que permitan elevar y mejorar los caminos rurales. Estas mejoras son cruciales no solo para enfrentar la actual contingencia, sino para garantizar la sostenibilidad de la producción en el largo plazo, asegurando la conectividad y la capacidad de respuesta ante futuros eventos hídricos. La anticipación es clave para evitar que los caminos queden anegados y las comunidades rurales aisladas."
+  ],
+  "resumen": "Productores de Villa Paranacito y el Delta entrerriano están trasladando sus rodeos preventivamente ante la crecida del río Uruguay y la amenaza de El Niño. La prioridad es mover vacas con cría, enfrentando desafíos por el estado de los caminos rurales y accesos a embarcaderos. El sector reclama mejoras en la infraestructura vial para asegurar la c",
+  "categoria": "Río y Clima",
+  "tags": [
+    "crecida",
+    "ganadería",
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "río Uruguay",
+    "caminos rurales",
+    "El Niño"
+  ],
+  "slug": "productores-paranacito-mueven-hacienda-crecida-rio",
+  "resumen_whatsapp": "⚠️ Productores de Villa Paranacito trasladan hacienda por crecida del Río Uruguay. Caminos rurales en alerta. #Delta #Crecida #Ganadería",
+  "imagen": "https://ceibasnoticias.com.ar/wp-content/uploads/2026/09/5E878235-A0B9-4F03-9EF4-A2E84AB761FE-1024x817.png",
+  "fuente_nombre": "Ceibas Noticias",
+  "fuente_url": "https://ceibasnoticias.com.ar/productores-de-villa-paranacito-comienzan-a-trasladar-hacienda-ante-la-creciente/",
+  "url_original": "https://ceibasnoticias.com.ar/productores-de-villa-paranacito-comienzan-a-trasladar-hacienda-ante-la-creciente/",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Ceibas Noticias",
+      "url": "https://ceibasnoticias.com.ar/productores-de-villa-paranacito-comienzan-a-trasladar-hacienda-ante-la-creciente/",
+      "fecha_consulta": "2026-09-01T22:24:53.805290"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:24",
+      "fecha": "2026-09-01",
+      "fuente": "Ceibas Noticias",
+      "dato": "Productores de Villa Paranacito y el Delta entrerriano están trasladando sus rodeos preventivamente ante la crecida del río Uruguay y la amenaza de El Niño. La prioridad es mover vacas con cría, enfre",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "6be4240a240f04586e1f11ca15559bb5917335b0ea91bd7f151f6db2043b3e9c"
+  ],
+  "fecha_iso": "2026-09-01T22:24:53.805290",
+  "fecha_inicio_iso": "2026-09-01T22:24:53.805290",
+  "fecha_ultima_actualizacion_iso": "2026-09-01T22:24:53.805290",
+  "fecha_publicacion": "1 de Septiembre de 2026, 22:24 hs",
+  "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:24 hs",
+  "archivo": "2026-09-01-productores-paranacito-mueven-hacienda-crecida-rio.json"
+}
