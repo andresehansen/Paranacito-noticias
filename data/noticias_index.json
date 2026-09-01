@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual",
+    "slug": "aumento-tarifas-peaje-zarate-telepase-pago-manual",
+    "titulo": "Aumentan las tarifas en el Peaje Zárate: Fuertes diferencias entre TelePASE y pago manual",
+    "copete": "El nuevo cuadro tarifario en la Estación de Peaje Zárate-Brazo Largo ya está en vigencia, presentando incrementos significativos y una marcada brecha entre quienes utilizan el sistema automático TelePASE y el pago manual, afectando directamente a los vecinos de Villa Paranacito y el Delta que transi",
+    "categoria": "Comunidad",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "entre rios",
+      "peaje zarate",
+      "tarifas",
+      "telepase",
+      "transporte"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "3 min",
+    "fuentes_consultadas": [
+      "Reporte Comunitario"
+    ],
+    "num_actualizaciones": 0,
+    "fecha_publicacion": "1 de septiembre de 2026, 09:26 hs",
+    "fecha_ultima_actualizacion": "1/9/2026",
+    "fecha_inicio_iso": "2026-09-01T12:26:36.478Z",
+    "fecha_ultima_actualizacion_iso": "2026-09-01T12:28:57.453Z",
+    "resumen_whatsapp": "📰 *Aumentan las tarifas en el Peaje Zárate: Fuertes diferencias entre TelePASE y pago manual*\n\nEl Peaje Zárate-Brazo Largo implementó un nuevo cuadro tarifario con grandes diferencias: el pago manual duplica el costo de TelePASE. Para autos, TelePASE $5.430,70 vs. manual $10.861,40. Motos y transporte pesado también sufren fuertes incrementos. ¡Clave para vecinos de Villa Paranacito que viajan a Buenos Aires!\n\n🔗 paranacito-noticias.vercel.app"
+  },
+  {
     "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
     "slug": "copnaf-herramientas-crianza-villa-paranacito",
     "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",
