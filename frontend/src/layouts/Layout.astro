@@ -12,13 +12,13 @@ interface Props {
 }
 
 const {
-  title = 'Paranacito Noticias | Portal Informativo del Delta Entrerriano',
-  description = 'Últimas noticias de Villa Paranacito, estado y altura del río, pronóstico del clima, deportes, obras y novedades de la comunidad isleña.',
+  title = 'Paranacito Noticias | Feed en Vivo del Delta',
+  description = 'Últimas noticias de Villa Paranacito, Ceibas y el Delta Entrerriano. Estado del río, pronóstico del clima y novedades comunitarias verificadas.',
   image = '/images/default-paranacito.jpg',
   type = 'website'
 } = Astro.props;
 
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site || 'https://paranacitonoticias.vercel.app');
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site || 'https://paranacito-noticias.vercel.app');
 const ogImageUrl = image.startsWith('http') ? image : new URL(image, canonicalUrl).href;
 ---
 
@@ -50,10 +50,6 @@ const ogImageUrl = image.startsWith('http') ? image : new URL(image, canonicalUr
     <meta property="og:locale" content="es_AR" />
     <meta property="og:site_name" content="Paranacito Noticias" />
 
-    <!-- Google AdSense (Configuración de Monetización) -->
-    <!-- Reemplazá ca-pub-XXXXXXXXXXXXXXXX con tu Publisher ID de AdSense cuando esté aprobado -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
-
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={canonicalUrl} />
@@ -61,13 +57,63 @@ const ogImageUrl = image.startsWith('http') ? image : new URL(image, canonicalUr
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
 
+    <!-- Analítica Web Privada $0 (Cloudflare Web Analytics / Umami opcional) -->
+    <!-- Descomentar y colocar tu Token de Cloudflare cuando desees activar analíticas 100% gratis: -->
+    <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "TU_TOKEN_CLOUDFLARE"}'></script> -->
+
   </head>
   <body class="min-h-screen flex flex-col justify-between">
+
+    <!-- Toast Flotante de Conexión Offline / Online para Isleños del Delta -->
+    <div id="offline-toast" class="hidden fixed top-3 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-full text-xs font-bold shadow-lg border transition-all duration-300 flex items-center gap-2 bg-slate-900/95 text-amber-300 border-amber-500/30 backdrop-blur-sm">
+      <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+      <span id="offline-toast-text">📡 Modo sin conexión • Mostrando noticias guardadas</span>
+    </div>
+
     <Header />
     <main class="flex-grow max-w-6xl w-full mx-auto px-4 py-6">
       <slot />
     </main>
     <Footer />
     <PWAInstaller />
+
+    <!-- Registro de Service Worker para soporte offline PWA -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then((reg) => {
+            console.log('SW registrado con éxito:', reg.scope);
+          }).catch((err) => {
+            console.log('Error registrando SW:', err);
+          });
+        });
+      }
+
+      // Detector de estado de red (Offline / Online)
+      const toast = document.getElementById('offline-toast');
+      const toastText = document.getElementById('offline-toast-text');
+
+      function updateOnlineStatus() {
+        if (!navigator.onLine) {
+          if (toast && toastText) {
+            toastText.textContent = '📡 Modo sin conexión • Mostrando noticias guardadas';
+            toast.className = 'fixed top-3 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-full text-xs font-bold shadow-lg border transition-all duration-300 flex items-center gap-2 bg-slate-900/95 text-amber-300 border-amber-500/30 backdrop-blur-sm';
+            toast.classList.remove('hidden');
+          }
+        } else {
+          if (toast && !toast.classList.contains('hidden')) {
+            toastText!.textContent = '🟢 Conexión restablecida';
+            toast.className = 'fixed top-3 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-full text-xs font-bold shadow-lg border transition-all duration-300 flex items-center gap-2 bg-emerald-950/95 text-emerald-300 border-emerald-500/30 backdrop-blur-sm';
+            setTimeout(() => {
+              toast.classList.add('hidden');
+            }, 3000);
+          }
+        }
+      }
+
+      window.addEventListener('online', updateOnlineStatus);
+      window.addEventListener('offline', updateOnlineStatus);
+      if (!navigator.onLine) updateOnlineStatus();
+    </script>
   </body>
 </html>
