@@ -2,7 +2,7 @@
   "acontecimiento_id": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual",
   "id": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual",
   "titulo": "Aumentan las tarifas en el Peaje Zárate: Fuertes diferencias entre TelePASE y pago manual",
-  "copete": "El nuevo cuadro tarifario en la Estación de Peaje Zárate-Brazo Largo ya está en vigencia, presentando incrementos significativos y una marcada brecha entre quienes utilizan el sistema automático TelePASE y el pago manual, afectando directamente a los vecinos de Villa Paranacito y el Delta que transitan hacia Buenos Aires.",
+  "copete": "El nuevo cuadro tarifario en la Estación de Peaje Zárate-Brazo Largo ya está en vigencia, presentando incrementos significativos y una marcada brecha entre quienes utilizan el sistema automático TelePASE y el pago manual, afectando directamente a los vecinos de Villa Paranacito y el Delta que transi",
   "cuerpo": [
     "La Estación de Peaje Zárate-Brazo Largo ha implementado un nuevo cuadro tarifario que impacta directamente en los costos de quienes transitan por esta vital conexión entre el Delta de Entre Ríos y la provincia de Buenos Aires. Este ajuste, que ya se encuentra en vigencia, introduce nueve categorías de vehículos y establece una notoria diferencia de precios entre los usuarios del sistema automático TelePASE y aquellos que optan por el pago electrónico manual en cabina.",
     "Según el reporte, la brecha tarifaria es considerable, llegando a duplicar el costo para quienes no utilizan TelePASE. Por ejemplo, para la Categoría 1, que incluye autos y utilitarios, el valor asciende a $5.430,70 con TelePASE, mientras que el pago manual alcanza los $10.861,40. En el caso de las motos (Categoría 0), la tarifa es de $2.715,35 con TelePASE y $5.430,70 para el pago manual, evidenciando la política de incentivo al uso del sistema automatizado.",
@@ -23,7 +23,7 @@
   "slug": "aumento-tarifas-peaje-zarate-telepase-pago-manual",
   "tiempo_lectura": "3 min",
   "resumen_whatsapp": "📰 *Aumentan las tarifas en el Peaje Zárate: Fuertes diferencias entre TelePASE y pago manual*\n\nEl Peaje Zárate-Brazo Largo implementó un nuevo cuadro tarifario con grandes diferencias: el pago manual duplica el costo de TelePASE. Para autos, TelePASE $5.430,70 vs. manual $10.861,40. Motos y transporte pesado también sufren fuertes incrementos. ¡Clave para vecinos de Villa Paranacito que viajan a Buenos Aires!\n\n🔗 paranacito-noticias.vercel.app",
-  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYctaR_uqVoemjyg16tm4Zy3EgoBaHCv0ozEo9Y6cWXQ_Qm1GxTbKwk3g&s=10",
   "estado": "Publicado",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
@@ -38,6 +38,8 @@
   "fecha_iso": "2026-09-01T12:26:36.478Z",
   "fecha_inicio_iso": "2026-09-01T12:26:36.478Z",
   "fecha_publicacion": "1 de septiembre de 2026, 09:26 hs",
-  "fecha_ultima_actualizacion_iso": "2026-09-01T12:26:36.478Z",
-  "archivo": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual.json"
+  "fecha_ultima_actualizacion_iso": "2026-09-01T12:28:57.453Z",
+  "archivo": "2026-09-01-aumento-tarifas-peaje-zarate-telepase-pago-manual.json",
+  "resumen": "El nuevo cuadro tarifario en la Estación de Peaje Zárate-Brazo Largo ya está en vigencia, presentando incrementos significativos y una marcada brecha entre quienes utilizan el sistema automático TelePASE y el pago manual, afectando directamente a los vecinos de Villa Paranacito y el Delta que transi",
+  "fecha_ultima_actualizacion": "1/9/2026"
 }
