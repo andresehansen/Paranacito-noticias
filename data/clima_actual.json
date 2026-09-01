@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "31/08/2026 23:40",
-  "timestamp_iso": "2026-08-31T23:40:39.621660",
+  "ultima_actualizacion": "01/09/2026 03:43",
+  "timestamp_iso": "2026-09-01T03:43:49.540160",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 13,
-    "sensacion_termica": 12,
-    "humedad": 93,
-    "viento_velocidad_kmh": 13,
-    "viento_direccion": "SSE",
-    "presion_hpa": 1016,
+    "temperatura": 11,
+    "sensacion_termica": 10,
+    "humedad": 99,
+    "viento_velocidad_kmh": 10,
+    "viento_direccion": "S",
+    "presion_hpa": 1018,
     "descripcion": "Mayormente despejado",
     "icono": "🌤️",
     "pronostico_extendido": [
       {
-        "fecha": "2026-08-31",
-        "temp_max": 21,
-        "temp_min": 11,
-        "prob_lluvia": 25,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
-      },
-      {
         "fecha": "2026-09-01",
         "temp_max": 20,
-        "temp_min": 9,
-        "prob_lluvia": 0,
+        "temp_min": 10,
+        "prob_lluvia": 4,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-09-02",
-        "temp_max": 23,
+        "temp_max": 22,
         "temp_min": 9,
-        "prob_lluvia": 31,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "prob_lluvia": 10,
+        "descripcion": "Chaparrones moderados",
+        "icono": "🌧️"
       },
       {
         "fecha": "2026-09-03",
-        "temp_max": 19,
-        "temp_min": 10,
+        "temp_max": 18,
+        "temp_min": 9,
         "prob_lluvia": 73,
-        "descripcion": "Chaparrones moderados",
-        "icono": "🌧️"
+        "descripcion": "Chaparrones leves",
+        "icono": "🌦️"
+      },
+      {
+        "fecha": "2026-09-04",
+        "temp_max": 17,
+        "temp_min": 6,
+        "prob_lluvia": 0,
+        "descripcion": "Cielo despejado",
+        "icono": "☀️"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-08-31 23:40"
+    "actualizado": "2026-09-01 03:43"
   }
 }
