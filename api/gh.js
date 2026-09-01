@@ -92,6 +92,38 @@ export default async function handler(req, res) {
       return res.status(200).json({ ok: true, action: sha ? 'updated' : 'created' });
     }
 
+    // ── Acción: save_image (subir captura de pantalla como foto real) ──
+    if (action === 'save_image') {
+      const { filename, base64Data } = payload;
+      if (!filename || !base64Data) throw new Error('Faltan filename o base64Data.');
+      if (!/^[a-zA-Z0-9._-]+\.(jpg|jpeg|png|webp)$/.test(filename)) {
+        throw new Error('Nombre de archivo de imagen inválido.');
+      }
+
+      const path = `frontend/public/images/capturas/${filename}`;
+
+      let sha;
+      try {
+        const existing = await ghFetch(path, 'GET', token);
+        sha = existing?.sha;
+      } catch {
+        // No existe aún → se crea
+      }
+
+      await ghFetch(path, 'PUT', token, {
+        message: `📸 Subir captura de pantalla: ${filename}`,
+        content: base64Data,
+        branch: GH_BRANCH,
+        ...(sha ? { sha } : {}),
+      });
+
+      return res.status(200).json({
+        ok: true,
+        action: sha ? 'updated' : 'created',
+        path: `/images/capturas/${filename}`,
+      });
+    }
+
     // ── Acción: delete ─────────────────────────────────────────────
     if (action === 'delete') {
       const { filename } = payload;

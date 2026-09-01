@@ -125,15 +125,23 @@ export const prerender = true;
           </div>
 
           <div>
+            <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">📸 Capturas de posteos en redes (opcional)</label>
+            <p class="text-[11px] text-slate-400 mb-1.5">Subí hasta 4 capturas de Facebook, Instagram o WhatsApp. Gemini lee el texto de la imagen, lo usa como fuente y la primera captura queda como foto de portada real de la noticia.</p>
+            <input type="file" id="captura-input" accept="image/*" multiple
+              class="w-full text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none file:mr-3 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-sky-600 file:text-white file:text-xs file:font-bold file:cursor-pointer cursor-pointer" />
+            <div id="captura-preview" class="hidden mt-2 flex gap-2 flex-wrap"></div>
+          </div>
+
+          <div>
             <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">📝 Información bruta a redactar</label>
             <textarea id="raw-text" rows="5"
-              placeholder="Ej: Hay alerta hidrométrica en el Río Paranacito. Nivel esperado 2.10 mts esta noche por sudestada..."
+              placeholder="Ej: Hay alerta hidrométrica en el Río Paranacito. Nivel esperado 2.10 mts esta noche por sudestada... (opcional si ya subiste una captura)"
               class="w-full text-sm text-slate-800 bg-slate-50 border border-slate-300 rounded-xl p-3.5 focus:ring-2 focus:ring-sky-500 focus:outline-none leading-relaxed resize-none"></textarea>
           </div>
 
           <div>
             <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1">🖼️ URL de foto (opcional)</label>
-            <input type="url" id="imagen-url" placeholder="Dejalo vacío → foto temática automática"
+            <input type="url" id="imagen-url" placeholder="Dejalo vacío → usa la captura subida, o una foto temática automática"
               class="w-full text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 focus:ring-2 focus:ring-sky-500 focus:outline-none" />
           </div>
 
@@ -147,6 +155,23 @@ export const prerender = true;
 
         <!-- Preview generado -->
         <div id="preview-container" class="hidden space-y-4">
+
+          <!-- Aviso de posible repetido -->
+          <div id="dup-warning" class="hidden bg-amber-50 border border-amber-300 rounded-xl p-3.5 text-xs text-amber-900 space-y-2">
+            <p class="font-bold">⚠️ Posible noticia repetida</p>
+            <p>Ya existe una nota parecida publicada: "<span id="dup-title" class="font-semibold"></span>" (<span id="dup-pct"></span>% de coincidencia de contenido).</p>
+            <label class="flex items-center gap-2 font-semibold cursor-pointer">
+              <input type="checkbox" id="dup-override" class="w-4 h-4 cursor-pointer" />
+              Publicar de todas formas (es una actualización o es un hecho distinto)
+            </label>
+          </div>
+
+          <!-- Aviso de relevancia -->
+          <div id="relevance-warning" class="hidden bg-rose-50 border border-rose-300 rounded-xl p-3.5 text-xs text-rose-900">
+            <p class="font-bold">🚫 No parece tener a Villa Paranacito como protagonista</p>
+            <p id="relevance-motivo" class="mt-1"></p>
+          </div>
+
           <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm space-y-4">
             <div class="flex items-center gap-2 flex-wrap">
               <span id="prev-cat" class="text-xs font-bold px-3 py-0.5 rounded-full bg-sky-100 text-sky-800 border border-sky-200"></span>
@@ -321,7 +346,7 @@ export const prerender = true;
   }
 
   // Llamada al endpoint server-side (el token nunca está en el browser)
-  async function apiCall(action: string, payload: object): Promise<{ ok: boolean; error?: string; action?: string }> {
+  async function apiCall(action: string, payload: object): Promise<{ ok: boolean; error?: string; action?: string; path?: string }> {
     const pin = getPin();
     const res = await fetch(API_URL, {
       method: 'POST',
@@ -329,6 +354,133 @@ export const prerender = true;
       body: JSON.stringify({ action, pin, payload }),
     });
     return res.json();
+  }
+
+  // ══════════════════════════════════════════════════════════════════
+  // CAPTURAS DE PANTALLA (fuente visual para el generador de IA)
+  // ══════════════════════════════════════════════════════════════════
+  type CapturaLista = { mime: string; base64: string; previewUrl: string; fileName: string };
+  let capturaFiles: CapturaLista[] = [];
+  const MAX_CAPTURAS = 4;
+
+  // Redimensiona y comprime la imagen en el navegador antes de mandarla a
+  // Gemini (Vision) y antes de subirla al repo, para que el JSON de la API
+  // y el commit a GitHub sean livianos y rápidos.
+  function compressImageFile(file: File, maxDim = 1600, quality = 0.85): Promise<CapturaLista> {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onerror = () => reject(new Error('No se pudo leer el archivo.'));
+      reader.onload = () => {
+        const img = new Image();
+        img.onerror = () => reject(new Error('No se pudo procesar la imagen.'));
+        img.onload = () => {
+          let { width, height } = img;
+          if (width > maxDim || height > maxDim) {
+            const ratio = Math.min(maxDim / width, maxDim / height);
+            width = Math.round(width * ratio);
+            height = Math.round(height * ratio);
+          }
+          const canvas = document.createElement('canvas');
+          canvas.width = width;
+          canvas.height = height;
+          const ctx = canvas.getContext('2d');
+          if (!ctx) { reject(new Error('Canvas no disponible.')); return; }
+          ctx.drawImage(img, 0, width, height);
+          const dataUrl = canvas.toDataURL('image/jpeg', quality);
+          const base64 = dataUrl.split(',')[1] || '';
+          resolve({ mime: 'image/jpeg', base64, previewUrl: dataUrl, fileName: file.name });
+        };
+        img.src = reader.result as string;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function renderCapturaPreview() {
+    const wrap = document.getElementById('captura-preview')!;
+    wrap.innerHTML = '';
+    if (capturaFiles.length === 0) { wrap.classList.add('hidden'); return; }
+    wrap.classList.remove('hidden');
+    capturaFiles.forEach((c, i) => {
+      const box = document.createElement('div');
+      box.className = 'relative w-20 h-20 rounded-xl overflow-hidden border-2 ' + (i === 0 ? 'border-sky-500' : 'border-slate-200');
+      box.innerHTML = `
+        <img src="${c.previewUrl}" class="w-full h-full object-cover" alt="Captura ${i + 1}" />
+        ${i === 0 ? '<span class="absolute bottom-0 left-0 right-0 bg-sky-600 text-white text-[9px] font-bold text-center py-0.5">PORTADA</span>' : ''}
+        <button type="button" data-idx="${i}" class="btn-remove-captura absolute top-0.5 right-0.5 w-5 h-5 bg-black/70 text-white rounded-full text-xs font-bold flex items-center justify-center cursor-pointer">×</button>
+      `;
+      wrap.appendChild(box);
+    });
+    wrap.querySelectorAll('.btn-remove-captura').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = Number((btn as HTMLElement).dataset.idx);
+        capturaFiles.splice(idx, 1);
+        renderCapturaPreview();
+      });
+    });
+  }
+
+  document.getElementById('captura-input')!.addEventListener('change', async (e) => {
+    const input = e.target as HTMLInputElement;
+    const files = Array.from(input.files || []);
+    input.value = ''; // permite volver a elegir el mismo archivo si lo saca y lo repone
+    const errEl = document.getElementById('create-error')!;
+    errEl.classList.add('hidden');
+    for (const file of files) {
+      if (capturaFiles.length >= MAX_CAPTURAS) {
+        errEl.textContent = `Máximo ${MAX_CAPTURAS} capturas por noticia.`;
+        errEl.classList.remove('hidden');
+        break;
+      }
+      if (!file.type.startsWith('image/')) continue;
+      try {
+        const captura = await compressImageFile(file);
+        capturaFiles.push(captura);
+      } catch (err: any) {
+        errEl.textContent = err.message || 'Error al procesar la imagen.';
+        errEl.classList.remove('hidden');
+      }
+    }
+    renderCapturaPreview();
+  });
+
+  // ══════════════════════════════════════════════════════════════════
+  // DETECCIÓN DE NOTICIAS REPETIDAS (misma lógica que el portal público)
+  // ══════════════════════════════════════════════════════════════════
+  const DUP_STOPWORDS = new Set([
+    'de', 'la', 'el', 'en', 'y', 'a', 'los', 'del', 'se', 'las', 'por', 'un', 'para', 'con',
+    'no', 'una', 'su', 'al', 'lo', 'como', 'mas', 'pero', 'sus', 'le', 'ya', 'o', 'fue',
+    'este', 'ha', 'si', 'porque', 'esta', 'son', 'entre', 'cuando', 'muy', 'sin', 'tras',
+    'sobre', 'ser', 'tiene', 'tambien', 'me', 'hasta', 'hay', 'donde', 'quien', 'desde',
+    'todo', 'nos', 'durante', 'todos', 'uno', 'les', 'ni', 'contra', 'otros', 'ese', 'eso',
+    'ante', 'ellos', 'esto', 'antes', 'algunos', 'que', 'noticias', 'noticia', 'diario',
+    'villa', 'paranacito', 'delta', 'entrerriano', 'entre', 'rios',
+  ]);
+
+  function dupKeywords(text: string): Set<string> {
+    const norm = (text || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\s]/g, ' ');
+    return new Set(norm.split(/\s+/).filter(w => w.length >= 4 && !DUP_STOPWORDS.has(w)));
+  }
+
+  function dupOverlap(a: Set<string>, b: Set<string>): number {
+    if (a.size === 0 || b.size === 0) return 0;
+    let matches = 0;
+    for (const w of a) if (b.has(w)) matches++;
+    return matches / Math.min(a.size, b.size);
+  }
+
+  function findLikelyDuplicate(titulo: string, copete: string): { item: any; pct: number } | null {
+    const pool: any[] = (window as any).__PN_DATA || [];
+    const kw = dupKeywords(`${titulo} ${copete}`);
+    let best: { item: any; pct: number } | null = null;
+    for (const item of pool) {
+      const itemKw = dupKeywords(`${item.titulo || ''} ${item.copete || ''} ${item.resumen || ''}`);
+      const overlap = dupOverlap(kw, itemKw);
+      if (overlap >= 0.35 && (!best || overlap > best.pct)) {
+        best = { item, pct: overlap };
+      }
+    }
+    return best;
   }
 
   function getSemanticImage(title: string, text: string, cat: string, custom: string): string {
@@ -651,6 +803,8 @@ export const prerender = true;
 
   let generatedData: any = null;
 
+  let pendingCoverCaptura: CapturaLista | null = null;
+
   document.getElementById('btn-generar')!.addEventListener('click', async () => {
     const key = geminiInput.value.trim() || getGeminiKey();
     const raw = (document.getElementById('raw-text') as HTMLTextAreaElement).value.trim();
@@ -661,8 +815,12 @@ export const prerender = true;
     const customImg = (document.getElementById('imagen-url') as HTMLInputElement).value.trim();
     const errEl = document.getElementById('create-error')!;
     errEl.classList.add('hidden');
+    document.getElementById('dup-warning')!.classList.add('hidden');
+    document.getElementById('relevance-warning')!.classList.add('hidden');
+    (document.getElementById('dup-override') as HTMLInputElement).checked = false;
 
-    if (!raw) { errEl.textContent = 'Ingresá el texto a redactar.'; errEl.classList.remove('hidden'); return; }
+    const tieneCapturas = capturaFiles.length > 0;
+    if (!raw && !tieneCapturas) { errEl.textContent = 'Ingresá el texto a redactar o subí al menos una captura.'; errEl.classList.remove('hidden'); return; }
     if (!key) { errEl.textContent = 'Ingresá tu clave de Gemini API.'; errEl.classList.remove('hidden'); return; }
 
     localStorage.setItem('pn_gemini', key);
@@ -672,18 +830,26 @@ export const prerender = true;
     const lbl = document.getElementById('btn-text')!;
     btn.disabled = true;
     icon.textContent = '⏳';
-    lbl.textContent = 'Redactando...';
+    lbl.textContent = tieneCapturas ? 'Leyendo capturas...' : 'Redactando...';
 
-    const prompt = `Sos el Jefe de Redacción de "Paranacito Noticias" en Villa Paranacito, Delta de Entre Ríos.
-Transformá esta información en una nota periodística completa (4-6 párrafos ricos) y devolvé SOLO un JSON válido:
+    const instruccionFuente = tieneCapturas
+      ? `Se adjuntan ${capturaFiles.length} captura(s) de pantalla de posteo(s) en redes sociales (Facebook/Instagram/WhatsApp). Leé TODO el texto visible en cada imagen (autor, cuerpo del posteo, comentarios relevantes, fecha si aparece) y usalo como la información bruta principal.${raw ? ' Sumale también este contexto adicional aportado por el editor:\n' + raw : ''}`
+      : `INFORMACIÓN BRUTA:\n${raw}`;
 
-INFORMACIÓN BRUTA:
-${raw}
+    const prompt = `Sos el Jefe de Redacción de "Paranacito Noticias", un portal hiperlocal de Villa Paranacito, Delta de Entre Ríos, Argentina.
 
-FUENTE: ${fuente} | CATEGORÍA: ${cat}
+${instruccionFuente}
 
-Formato de respuesta (JSON sin markdown):
-{"titulo":"string","copete":"string","cuerpo":["p1","p2","p3","p4"],"categoria":"${cat}","tags":["villa paranacito","delta","entre rios"],"slug":"slug-amigable","tiempo_lectura":"3 min","resumen_whatsapp":"📰 *Título*\\n\\nResumen.\\n\\n🔗 paranacito-noticias.vercel.app"}`;
+FUENTE DECLARADA: ${fuente} | CATEGORÍA SUGERIDA: ${cat}
+
+REGLA CRÍTICA DE RELEVANCIA: Esta nota SOLO es válida si el hecho ocurrió en Villa Paranacito (o Islas del Ibicuy / Delta de Villa Paranacito) o tiene a Villa Paranacito y sus vecinos como protagonistas directos. Si el contenido es sobre otro lugar, es genérico, es propaganda/publicidad sin valor noticioso, o no podés confirmar el ancla local, marcá "relevante_villa_paranacito": false y explicá por qué en "motivo_relevancia" — igual completá el resto de los campos con tu mejor esfuerzo.
+
+Si es relevante, transformá la información en una nota periodística neutral y completa (4-6 párrafos ricos, sin opiniones propias, atribuyendo lo que sea una opinión de terceros). Devolvé SOLO un JSON válido, sin markdown, con este formato exacto:
+{"relevante_villa_paranacito":true,"motivo_relevancia":"string breve","titulo":"string","copete":"string","cuerpo":["p1","p2","p3","p4"],"categoria":"${cat}","tags":["villa paranacito","delta","entre rios"],"slug":"slug-amigable","tiempo_lectura":"3 min","resumen_whatsapp":"📰 *Título*\\n\\nResumen.\\n\\n🔗 paranacito-noticias.vercel.app"}`;
+
+    const parts: any[] = [];
+    capturaFiles.forEach(c => parts.push({ inline_data: { mime_type: c.mime, data: c.base64 } }));
+    parts.push({ text: prompt });
 
     const endpoints = [
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`,
@@ -700,7 +866,7 @@ Formato de respuesta (JSON sin markdown):
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
+              contents: [{ parts }],
               generationConfig: { temperature: 0.25, responseMimeType: 'application/json' },
             }),
           });
@@ -712,9 +878,22 @@ Formato de respuesta (JSON sin markdown):
       const txt = data.candidates[0].content.parts[0].text;
       const parsed = JSON.parse(txt.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim());
 
+      if (parsed.relevante_villa_paranacito === false) {
+        document.getElementById('relevance-motivo')!.textContent = parsed.motivo_relevancia || 'La IA no encontró un ancla clara con Villa Paranacito.';
+        document.getElementById('relevance-warning')!.classList.remove('hidden');
+        document.getElementById('preview-container')!.classList.add('hidden');
+        generatedData = null;
+        pendingCoverCaptura = null;
+        return;
+      }
+
       const now = new Date();
       const slug = slugify(parsed.slug || parsed.titulo);
-      const img = getSemanticImage(parsed.titulo, raw, cat, customImg);
+
+      // Foto de portada: 1) URL manual > 2) primera captura subida > 3) foto temática automática.
+      pendingCoverCaptura = (!customImg && tieneCapturas) ? capturaFiles[0] : null;
+      const imgPreview = customImg || (tieneCapturas ? capturaFiles[0].previewUrl : getSemanticImage(parsed.titulo, raw, cat, customImg));
+      const imgFinal = customImg || (tieneCapturas ? '' : getSemanticImage(parsed.titulo, raw, cat, customImg)); // se completa en Publicar si viene de una captura
 
       generatedData = {
         acontecimiento_id: `${now.toISOString().split('T')[0]}-${slug}`,
@@ -723,15 +902,23 @@ Formato de respuesta (JSON sin markdown):
         categoria: parsed.categoria || cat, tags: parsed.tags || ['villa paranacito', 'delta'],
         slug, tiempo_lectura: parsed.tiempo_lectura || '3 min',
         resumen_whatsapp: parsed.resumen_whatsapp,
-        imagen: img, estado: alerta ? 'En desarrollo' : 'Publicado',
+        imagen: imgFinal, estado: alerta ? 'En desarrollo' : 'Publicado',
         nivel_confiabilidad: conf, es_alerta: alerta,
         publicado: true, requiere_revision: false,
-        fuentes_consultadas: [{ nombre: fuente, fecha_consulta: now.toISOString() }],
+        fuentes_consultadas: [{ nombre: tieneCapturas ? `${fuente} (captura de pantalla)` : fuente, fecha_consulta: now.toISOString() }],
         fecha_iso: now.toISOString(), fecha_inicio_iso: now.toISOString(),
         fecha_publicacion: `${now.getDate()} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][now.getMonth()]} de ${now.getFullYear()}, ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')} hs`,
         fecha_ultima_actualizacion_iso: now.toISOString(),
         archivo: `${now.toISOString().split('T')[0]}-${slug}.json`,
       };
+
+      // Chequeo de posible duplicado contra lo ya publicado en el portal
+      const dup = findLikelyDuplicate(generatedData.titulo, generatedData.copete);
+      if (dup) {
+        document.getElementById('dup-title')!.textContent = dup.item.titulo || '';
+        document.getElementById('dup-pct')!.textContent = String(Math.round(dup.pct * 100));
+        document.getElementById('dup-warning')!.classList.remove('hidden');
+      }
 
       // Mostrar preview
       document.getElementById('prev-cat')!.textContent = generatedData.categoria;
@@ -741,7 +928,7 @@ Formato de respuesta (JSON sin markdown):
       document.getElementById('prev-titulo')!.textContent = generatedData.titulo;
       document.getElementById('prev-copete')!.textContent = generatedData.copete;
       const imgEl = document.getElementById('prev-imagen') as HTMLImageElement;
-      imgEl.src = img; imgEl.alt = generatedData.titulo;
+      imgEl.src = imgPreview; imgEl.alt = generatedData.titulo;
       const cuerpoEl = document.getElementById('prev-cuerpo')!;
       cuerpoEl.innerHTML = '';
       generatedData.cuerpo.forEach((p: string) => {
@@ -772,6 +959,14 @@ Formato de respuesta (JSON sin markdown):
 
   document.getElementById('btn-publish')!.addEventListener('click', async () => {
     if (!generatedData) return;
+
+    const dupWarningVisible = !document.getElementById('dup-warning')!.classList.contains('hidden');
+    const dupOverride = (document.getElementById('dup-override') as HTMLInputElement).checked;
+    if (dupWarningVisible && !dupOverride) {
+      alert('Esta nota parece repetir algo ya publicado. Tildá "Publicar de todas formas" si estás seguro/a, o revisá la nota existente en la pestaña 📰 Notas.');
+      return;
+    }
+
     const btn = document.getElementById('btn-publish') as HTMLButtonElement;
     const icon = document.getElementById('pub-icon')!;
     const lbl = document.getElementById('pub-label')!;
@@ -780,13 +975,34 @@ Formato de respuesta (JSON sin markdown):
     lbl.textContent = 'Publicando...';
 
     try {
+      // Si la foto de portada viene de una captura subida, la commiteamos
+      // al repo recién ahora (así no quedan imágenes huérfanas de previews descartados).
+      if (pendingCoverCaptura && !generatedData.imagen) {
+        icon.textContent = '📸';
+        lbl.textContent = 'Subiendo captura...';
+        const imgFilename = `${generatedData.slug}-${Date.now()}.jpg`;
+        const imgResult = await apiCall('save_image', { filename: imgFilename, base64Data: pendingCoverCaptura.base64 });
+        if (!imgResult.ok || !imgResult.path) throw new Error(imgResult.error || 'No se pudo subir la captura como foto de portada.');
+        generatedData.imagen = imgResult.path;
+        icon.textContent = '⏳';
+        lbl.textContent = 'Publicando...';
+      }
+      if (!generatedData.imagen) {
+        generatedData.imagen = getSemanticImage(generatedData.titulo, generatedData.copete, generatedData.categoria, '');
+      }
+
       const result = await apiCall('save', { filename: generatedData.archivo, content: generatedData });
       if (!result.ok) throw new Error(result.error || 'Error del servidor');
       newsList.unshift(generatedData);
+      (window as any).__PN_DATA = [generatedData, ...((window as any).__PN_DATA || [])];
       document.getElementById('badge-total')!.textContent = String(newsList.length);
       alert('🚀 ¡Nota publicada! Vercel actualiza el sitio en ~30 segundos.');
       document.getElementById('preview-container')!.classList.add('hidden');
       (document.getElementById('raw-text') as HTMLTextAreaElement).value = '';
+      (document.getElementById('imagen-url') as HTMLInputElement).value = '';
+      capturaFiles = [];
+      pendingCoverCaptura = null;
+      renderCapturaPreview();
       generatedData = null;
       activateTab('admin');
     } catch (err: any) {
