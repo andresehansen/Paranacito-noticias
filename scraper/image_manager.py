@@ -185,3 +185,33 @@ def resolve_semantic_image(title: str, content: str, category: str = "", origina
     fallback = cat_mapping.get(category, THEMATIC_IMAGE_CATALOG["rio_crecida_clima"][0])
     logging.info(f"🖼️ Imagen fallback por categoría: [{category}]")
     return fallback
+
+def localize_image_if_possible(img_url: str, slug: str) -> str:
+    """
+    Descarga la imagen a frontend/public/images/noticias/{slug}.jpg para que
+    el sitio la sirva directamente sin depender de servidores externos ni hotlinks.
+    """
+    if not img_url or img_url.startswith("/images/"):
+        return img_url
+
+    import requests
+    from pathlib import Path
+    
+    try:
+        noticias_img_dir = Path(__file__).parent.parent / "frontend" / "public" / "images" / "noticias"
+        noticias_img_dir.mkdir(parents=True, exist_ok=True)
+        target_file = noticias_img_dir / f"{slug}.jpg"
+
+        if not target_file.exists():
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+            r = requests.get(img_url, timeout=8, headers=headers)
+            if r.status_code == 200 and len(r.content) > 3000:
+                with open(target_file, "wb") as f:
+                    f.write(r.content)
+                logging.info(f"💾 Imagen descargada y localizada: /images/noticias/{slug}.jpg")
+                return f"/images/noticias/{slug}.jpg"
+    except Exception as ex:
+        logging.debug(f"No se pudo localizar imagen ({ex}), conservando URL original.")
+
+    return img_url
+

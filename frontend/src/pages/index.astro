@@ -55,7 +55,7 @@ const categoryFallbackImages: Record<string, string> = {
 };
 
 function getImage(n: any): string {
-  if (n.imagen && typeof n.imagen === 'string' && n.imagen.startsWith('http')) {
+  if (n.imagen && typeof n.imagen === 'string' && (n.imagen.startsWith('http') || n.imagen.startsWith('/images/'))) {
     return n.imagen;
   }
   return categoryFallbackImages[n.categoria] || categoryFallbackImages['Comunidad'];
@@ -114,17 +114,36 @@ const categoryBadges: Record<string, string> = {
   'Turismo y Cultura':'bg-teal-50 text-teal-700 border-teal-200',
   'Sociedad':         'bg-indigo-50 text-indigo-700 border-indigo-200',
 };
+
+// Datos estructurados Schema.org JSON-LD para Google News
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "Paranacito Noticias",
+  "url": "https://paranacito-noticias.vercel.app",
+  "logo": "https://paranacito-noticias.vercel.app/favicon.svg",
+  "description": "Feed informativo en vivo de Villa Paranacito, Ceibas y el Delta Entrerriano.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Villa Paranacito",
+    "addressRegion": "Entre Ríos",
+    "addressCountry": "AR"
+  }
+};
 ---
 
 <Layout title="Paranacito Noticias | Feed en Vivo del Delta" description="Feed de noticias de Villa Paranacito, Ceibas y el Delta Entrerriano. Información con profundidad y fuentes verificadas.">
   
+  <!-- Inyección Schema.org JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
   <!-- Widget Clima y Nivel del Río -->
   <WeatherWidget />
 
   <div class="max-w-2xl mx-auto">
 
     <!-- Encabezado del Feed estilo Twitter / Microblogging -->
-    <div class="bg-white rounded-2xl border border-slate-200 p-4 mb-4 shadow-sm flex items-center justify-between gap-3">
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 mb-3 shadow-sm flex items-center justify-between gap-3">
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-full bg-sky-500 text-white flex items-center justify-center text-xl shadow-inner font-bold">
           🌊
@@ -140,6 +159,29 @@ const categoryBadges: Record<string, string> = {
           Directo
         </span>
       </div>
+    </div>
+
+    <!-- Buscador en Vivo del Feed (Búsqueda instantánea estilo Twitter) -->
+    <div class="relative mb-3">
+      <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </div>
+      <input
+        type="search"
+        id="feed-search-input"
+        placeholder="🔍 Buscar en el Delta (ej: crecida, peaje, hospital, bomberos)..."
+        class="w-full pl-10 pr-10 py-2.5 bg-white border border-slate-200 rounded-2xl text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent shadow-sm transition-all"
+      />
+      <button
+        id="feed-search-clear"
+        type="button"
+        class="hidden absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-slate-600 cursor-pointer font-bold text-sm"
+        title="Limpiar búsqueda"
+      >
+        ✕
+      </button>
     </div>
 
     <!-- Tabs de filtro estilo Twitter (Filtrado instantáneo en la misma página) -->
@@ -160,6 +202,13 @@ const categoryBadges: Record<string, string> = {
           </button>
         ))}
       </div>
+    </div>
+
+    <!-- Estado de Búsqueda sin Resultados -->
+    <div id="no-search-results" class="hidden text-center py-12 px-4 bg-white rounded-2xl border border-slate-200 shadow-sm mb-4">
+      <div class="text-3xl mb-2">🔍</div>
+      <h3 class="text-sm font-bold text-slate-800">No se encontraron noticias coincidentes</h3>
+      <p class="text-xs text-slate-500 mt-1">Probá buscando con otros términos como 'río', 'salud', 'camino' o 'puente'.</p>
     </div>
 
     <!-- Feed Timeline estilo Twitter con profundidad periodística y fotos completas -->
@@ -185,6 +234,7 @@ const categoryBadges: Record<string, string> = {
           <article
             class="tweet-card p-4 sm:p-5 hover:bg-slate-50/40 transition-colors"
             data-category={n.categoria}
+            data-search-text={`${n.titulo} ${paragraphs.join(' ')} ${fuente} ${n.categoria}`.toLowerCase()}
           >
             <div class="flex items-start gap-3">
               
@@ -202,7 +252,7 @@ const categoryBadges: Record<string, string> = {
                     <span class="font-bold text-slate-900 text-sm truncate">{author.name}</span>
                     {author.verified && (
                       <svg class="w-4 h-4 text-sky-500 shrink-0 fill-current" viewBox="0 0 24 24" title="Fuente Verificada">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                       </svg>
                     )}
                     <span class="text-xs text-slate-400 font-normal">{author.handle}</span>
@@ -232,33 +282,29 @@ const categoryBadges: Record<string, string> = {
                 </h2>
 
                 <!-- Imagen Ilustrativa del Post (Estilo Media Card de Twitter) -->
-                {img && (
-                  <div class="my-3 rounded-2xl overflow-hidden border border-slate-200/80 bg-slate-100 aspect-[16/9] relative shadow-sm group">
-                    <img
-                      src={img}
-                      alt={n.titulo}
-                      loading="lazy"
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      onerror={`this.onerror=null;this.src='${categoryFallbackImages[n.categoria] || categoryFallbackImages["Comunidad"]}';`}
-                    />
-                    <span class="absolute bottom-2 left-2 px-2 py-0.5 bg-black/60 backdrop-blur-sm text-white text-[10px] font-bold rounded-md">
-                      📸 {fuente}
-                    </span>
-                  </div>
-                )}
+                <div class="my-3 rounded-2xl overflow-hidden border border-slate-200/80 bg-slate-100 aspect-[16/9] relative shadow-sm group">
+                  <img
+                    src={img}
+                    alt={n.titulo}
+                    loading="lazy"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80';"
+                  />
+                  <span class="absolute bottom-2 left-2 px-2 py-0.5 bg-black/60 backdrop-blur-sm text-white text-[10px] font-bold rounded-md">
+                    📸 {fuente}
+                  </span>
+                </div>
 
                 <!-- Desarrollo y Profundidad Periodística (Párrafos principales) -->
                 <div class="text-slate-700 text-sm leading-relaxed space-y-2.5 mt-2">
-                  {mainParagraphs.map((p: string, pIdx: number) => (
-                    <p class={pIdx === 0 ? "font-medium text-slate-800" : ""}>
-                      {p}
-                    </p>
+                  {mainParagraphs.map((p, idx) => (
+                    <p class={idx === 0 ? "font-medium text-slate-800" : ""}>{p}</p>
                   ))}
 
                   <!-- Párrafos adicionales desplegables in-situ si la nota es larga -->
                   {hasExtra && (
                     <div class="extra-content hidden space-y-2.5 pt-1 border-t border-slate-100">
-                      {extraParagraphs.map((p: string) => (
+                      {extraParagraphs.map((p) => (
                         <p>{p}</p>
                       ))}
                     </div>
@@ -293,13 +339,12 @@ const categoryBadges: Record<string, string> = {
                       <span class="truncate max-w-[150px] sm:max-w-[220px]">Fuente: {fuente}</span>
                     </a>
                   ) : (
-                    <span class="inline-flex items-center gap-1.5 text-slate-400 py-1">
-                      📰 {fuente}
-                    </span>
+                    <span class="text-slate-400">Fuente: {fuente}</span>
                   )}
 
                   <!-- Botones de Interacción -->
                   <div class="flex items-center gap-1.5">
+                    
                     <!-- Botón Copiar Texto -->
                     <button
                       type="button"
@@ -326,6 +371,7 @@ const categoryBadges: Record<string, string> = {
                       </svg>
                       Compartir
                     </a>
+
                   </div>
 
                 </div>
@@ -337,13 +383,6 @@ const categoryBadges: Record<string, string> = {
         );
       })}
 
-      <!-- Estado vacío si el filtro no tiene notas -->
-      <div id="empty-state" class="hidden text-center py-16 px-4 text-slate-400">
-        <div class="text-4xl mb-2">📭</div>
-        <p class="font-bold text-slate-600">No hay posts en esta categoría</p>
-        <p class="text-xs mt-1 text-slate-400">Probá seleccionando "🔥 Todo".</p>
-      </div>
-
     </div>
 
   </div>
@@ -351,79 +390,128 @@ const categoryBadges: Record<string, string> = {
 </Layout>
 
 <script>
-  // ── Filtrado interactivo por tabs en el cliente ─────────────────────
-  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  // ── Interacciones del Feed: Filtro por Categorías + Buscador en Vivo ──────────
+  const tabBtns = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
   const cards = document.querySelectorAll<HTMLElement>('.tweet-card');
-  const emptyState = document.getElementById('empty-state');
+  const searchInput = document.getElementById('feed-search-input') as HTMLInputElement | null;
+  const searchClearBtn = document.getElementById('feed-search-clear');
+  const noResultsEl = document.getElementById('no-search-results');
 
-  function filterFeed(category: string) {
+  let currentCategory = 'todas';
+  let currentQuery = '';
+
+  function normalizeSearch(str: string): string {
+    return (str || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+  }
+
+  function applyFilters() {
     let visibleCount = 0;
+    const q = normalizeSearch(currentQuery);
 
-    cards.forEach((card) => {
+    cards.forEach(card => {
       const cardCat = card.dataset.category || '';
-      if (category === 'todas' || cardCat.toLowerCase() === category.toLowerCase()) {
-        card.style.display = '';
+      const cardText = normalizeSearch(card.dataset.searchText || '');
+
+      const matchesCat = (currentCategory === 'todas' || cardCat === currentCategory);
+      const matchesSearch = !q || cardText.includes(q);
+
+      if (matchesCat && matchesSearch) {
+        card.classList.remove('hidden');
         visibleCount++;
       } else {
-        card.style.display = 'none';
+        card.classList.add('hidden');
       }
     });
 
-    if (emptyState) {
-      emptyState.classList.toggle('hidden', visibleCount > 0);
+    if (noResultsEl) {
+      if (visibleCount === 0) {
+        noResultsEl.classList.remove('hidden');
+      } else {
+        noResultsEl.classList.add('hidden');
+      }
     }
   }
 
-  tabs.forEach((tab) => {
-    tab.addEventListener('click', () => {
-      tabs.forEach((t) => {
-        t.classList.remove('bg-slate-900', 'text-white', 'shadow-sm', 'active');
-        t.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+  // Filtrado por Categorías
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => {
+        b.classList.remove('active', 'bg-slate-900', 'text-white', 'shadow-sm');
+        b.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
       });
 
-      tab.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
-      tab.classList.add('bg-slate-900', 'text-white', 'shadow-sm', 'active');
+      btn.classList.add('active', 'bg-slate-900', 'text-white', 'shadow-sm');
+      btn.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
 
-      const targetCat = tab.dataset.targetCat || 'todas';
-      filterFeed(targetCat);
+      currentCategory = btn.dataset.targetCat || 'todas';
+      applyFilters();
     });
   });
 
-  // ── Botón desplegar más párrafos de una noticia ─────────────────────
-  document.querySelectorAll<HTMLButtonElement>('.btn-toggle-expand').forEach((btn) => {
+  // Buscador en Vivo
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      currentQuery = searchInput.value;
+      if (searchClearBtn) {
+        if (currentQuery.length > 0) {
+          searchClearBtn.classList.remove('hidden');
+        } else {
+          searchClearBtn.classList.add('hidden');
+        }
+      }
+      applyFilters();
+    });
+  }
+
+  if (searchClearBtn && searchInput) {
+    searchClearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      currentQuery = '';
+      searchClearBtn.classList.add('hidden');
+      applyFilters();
+      searchInput.focus();
+    });
+  }
+
+  // Botones para Desplegar Párrafos Extras In-Situ
+  document.querySelectorAll<HTMLButtonElement>('.btn-toggle-expand').forEach(btn => {
     btn.addEventListener('click', () => {
-      const card = btn.closest('.tweet-card');
-      if (!card) return;
-      const extra = card.querySelector<HTMLElement>('.extra-content');
-      const label = btn.querySelector<HTMLElement>('.toggle-text');
-      if (!extra || !label) return;
+      const article = btn.closest('article');
+      if (!article) return;
+      const extra = article.querySelector('.extra-content');
+      const toggleText = btn.querySelector('.toggle-text');
+      if (!extra || !toggleText) return;
 
       const isHidden = extra.classList.contains('hidden');
       if (isHidden) {
         extra.classList.remove('hidden');
-        label.textContent = '▴ Mostrar menos';
+        toggleText.textContent = '▴ Ocultar desarrollo completo';
       } else {
         extra.classList.add('hidden');
-        label.textContent = '📖 Leer desarrollo completo ▾';
+        toggleText.textContent = '📖 Leer desarrollo completo ▾';
       }
     });
   });
 
-  // ── Botón copiar tweet con feedback visual ──────────────────────────
-  document.querySelectorAll<HTMLButtonElement>('.btn-copy-tweet').forEach((btn) => {
+  // Botón Copiar Texto con Animación
+  document.querySelectorAll<HTMLButtonElement>('.btn-copy-tweet').forEach(btn => {
     btn.addEventListener('click', async () => {
-      const text = btn.dataset.copy || '';
-      const label = btn.querySelector<HTMLElement>('.copy-text');
+      const textToCopy = btn.dataset.copy || '';
+      const textSpan = btn.querySelector('.copy-text');
+      if (!textToCopy || !textSpan) return;
+
       try {
-        await navigator.clipboard.writeText(text);
-        if (label) label.textContent = '¡Copiado! ✓';
-        btn.classList.add('text-emerald-600');
+        await navigator.clipboard.writeText(textToCopy);
+        const originalText = textSpan.textContent;
+        textSpan.textContent = '¡Copiado! ✓';
+        btn.classList.add('text-emerald-700', 'bg-emerald-50');
+
         setTimeout(() => {
-          if (label) label.textContent = 'Copiar';
-          btn.classList.remove('text-emerald-600');
+          textSpan.textContent = originalText;
+          btn.classList.remove('text-emerald-700', 'bg-emerald-50');
         }, 2000);
-      } catch (e) {
-        alert('Copiado al portapapeles');
+      } catch (err) {
+        console.error('Error al copiar:', err);
       }
     });
   });

@@ -19,7 +19,7 @@ from events_store import (
     get_recent_events, rebuild_events_index, save_event, EVENTS_DIR
 )
 from event_matcher import match_article_to_events
-from image_manager import resolve_semantic_image
+from image_manager import resolve_semantic_image, localize_image_if_possible
 from quality_gate import assess_quality, is_worth_fetching, sanitize_alert_status
 from config import DATA_DIR, DEFAULT_CATEGORY_IMAGES, DEFAULT_FALLBACK_IMAGE
 
@@ -239,9 +239,10 @@ def run_pipeline(use_radar: bool = True):
             )
             rewritten["url_original"] = full_article_data.get("url") or url
             rewritten["fuente_nombre"] = effective_source
-            rewritten["imagen"] = resolve_semantic_image(
+            raw_img = resolve_semantic_image(
                 article_title, content, rewritten.get("categoria", "Comunidad"), article_image
             )
+            rewritten["imagen"] = localize_image_if_possible(raw_img, rewritten.get("slug", "noticia"))
 
             # ── QUALITY GATE POST-IA ──────────────────────────────────────────
             # Decisión editorial final: ¿publicamos, mandamos a revisión o descartamos?
