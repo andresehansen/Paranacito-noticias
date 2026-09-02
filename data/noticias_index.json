@@ -1,5 +1,122 @@
 [
   {
+    "acontecimiento_id": "2026-09-02-fondos-nacionales-cortados-defensa-villa-paranacito",
+    "slug": "fondos-nacionales-cortados-defensa-villa-paranacito",
+    "titulo": "Preocupación en Villa Paranacito por el Cese de Fondos Nacionales para la Defensa del Casco Urbano",
+    "copete": "La interrupción de la Subfuente 5254, destinada a la protección hídrica de Villa Paranacito, genera incertidumbre y deudas, afectando una obra crucial para la comunidad isleña.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Defensa Hídrica",
+      "Fondos Nacionales",
+      "Obras Públicas",
+      "Delta Entrerriano",
+      "Inundaciones"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 16:02 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 16:02 hs",
+    "fecha_inicio_iso": "2026-09-02T16:02:12.069819",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T16:02:12.069819",
+    "resumen_whatsapp": "🚨 ¡Alerta en Villa Paranacito! Nación cortó fondos clave para la Defensa del Casco Urbano, generando deudas y preocupación por la protección hídrica de la localidad. #VillaParanacito #ObrasPúblicas"
+  },
+  {
+    "acontecimiento_id": "2026-09-02-villa-paranacito-capacitacion-psicosocial-emergencias",
+    "slug": "villa-paranacito-capacitacion-psicosocial-emergencias",
+    "titulo": "Villa Paranacito Refuerza su Preparación ante Crisis con Capacitación en Contención Psicosocial",
+    "copete": "La comunidad de Villa Paranacito se beneficia de una importante capacitación en contención psicosocial, impulsada por la Municipalidad de Concordia, para fortalecer la respuesta local ante emergencias y situaciones de crisis en el Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Contención Psicosocial",
+      "Emergencias",
+      "Capacitación",
+      "Salud Mental",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 16:02 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 16:02 hs",
+    "fecha_inicio_iso": "2026-09-02T16:02:01.540250",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T16:02:01.540250",
+    "resumen_whatsapp": "🚨 Villa Paranacito se capacita en contención psicosocial para emergencias. ¡Comunidad más preparada para el Delta! 💪"
+  },
+  {
+    "acontecimiento_id": "2026-09-02-prevencion-suicidio-villa-paranacito-salud-mental",
+    "slug": "prevencion-suicidio-villa-paranacito-salud-mental",
+    "titulo": "Prevención del Suicidio: Villa Paranacito Refuerza la Conciencia sobre Salud Mental en la Región",
+    "copete": "Ante la realización de una jornada clave en San José, la comunidad de Villa Paranacito y el Delta entrerriano se moviliza para fortalecer la prevención del suicidio y el apoyo a la salud mental de sus habitantes.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Prevención Suicidio",
+      "Salud Mental",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 16:01 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 16:01 hs",
+    "fecha_inicio_iso": "2026-09-02T16:01:49.003571",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T16:01:49.003571",
+    "resumen_whatsapp": "🚨 Villa Paranacito se suma a la prevención del suicidio. Es clave hablar, buscar ayuda y fortalecer la salud mental en el Delta. ¡Tu apoyo es vital! #SaludMental #Paranacito"
+  },
+  {
+    "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
+    "slug": "copnaf-herramientas-crianza-villa-paranacito",
+    "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",
+    "copete": "",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Copnaf",
+      "crianza",
+      "familias",
+      "Villa Paranacito"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 5,
+    "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 16:01 hs",
+    "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T16:01:32.176894",
+    "resumen_whatsapp": "El Copnaf brindó herramientas de crianza a familias en Villa Paranacito como parte de su iniciativa provincial. 👨‍👩‍👧‍👦"
+  },
+  {
     "acontecimiento_id": "2026-09-01-villa-paranacito-licitacion-viviendas-provinciales",
     "slug": "villa-paranacito-licitacion-viviendas-provinciales",
     "titulo": "Villa Paranacito: Siete Empresas Compiten por la Terminación de 50 Viviendas con Fondos Provinciales",
@@ -67,36 +184,6 @@
     "fecha_inicio_iso": "2026-09-02T03:55:02.368280",
     "fecha_ultima_actualizacion_iso": "2026-09-02T03:55:02.368280",
     "resumen_whatsapp": "🚨 Bromatología de Villa Paranacito retiró 161 kg de alimentos no aptos para consumo en comercios del Delta. ¡Cuidemos nuestra salud! 🍎❌"
-  },
-  {
-    "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
-    "slug": "copnaf-herramientas-crianza-villa-paranacito",
-    "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",
-    "copete": "",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Copnaf",
-      "crianza",
-      "familias",
-      "Villa Paranacito"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "30 de Agosto de 2026, 22:25 hs",
-    "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
-    "fecha_inicio_iso": "2026-08-30T22:25:41.418030",
-    "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:44.742016",
-    "resumen_whatsapp": "El Copnaf brindó herramientas de crianza a familias en Villa Paranacito como parte de su iniciativa provincial. 👨‍👩‍👧‍👦"
   },
   {
     "acontecimiento_id": "2026-09-01-obras-tunel-subfluvial-impacto-delta",
