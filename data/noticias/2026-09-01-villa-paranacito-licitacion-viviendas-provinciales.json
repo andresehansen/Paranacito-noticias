@@ -64,6 +64,26 @@
       "nombre": "Google News (Mirador Provincial)",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSWFYbVBkMWE1Y19hSEtHN2JVOWtfRGtwOFAwME9rWW1KTEU3SS02LVhBLThlczQ0NXlYTEJnQzRvaVhTSVRyV2d4VkRSakdobUZiM3ROVWNKNkhpTUlxYmJ1T0ZPWTZLX1oxNU1Fa3Y3YjNjSUNFbnRMRTQyZHZfZ3NVUTMzb1doZnlpYU5QUTdYYklOQ1lWR21NTFp6MVlQOHU2UF9fRVNXVFg0UXNJQUZ4SmxTZDJXX2Z1MWRhdHZSOUt5U2ZGMzZ6LWc1U1VrbFRZLU52cmVKeGNKQVhucUJqNDZ2S2pGMGFqRF9zMA?oc=5",
       "fecha_consulta": "2026-09-01T22:25:44.746995"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/01/115336-siete-empresas-compiten-por-concluir-50-viviendas-en-villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw283gViv3jTyN3OEYGA_shg",
+      "fecha_consulta": "2026-09-02T03:03:31.663235"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/01/115339-el-senado-sanciono-la-ley-de-consorcios-camineros&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw20JRw3CU94afIHM25YSaeR",
+      "fecha_consulta": "2026-09-02T03:03:39.499122"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lavoz901.com/noticias/qued-firme-la-destitucin-del-juez-del-trabajo-eduardo-flores.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2peSou2xnOyfAkkslw5bdK",
+      "fecha_consulta": "2026-09-02T03:03:56.839573"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTktGZFlZWktPbGpqRjhERHpaRGRZcXF0R1QwQVJBVjR1aWxVTng0dGI2VjVIRGV0MDIyV0lwUjlCMkdrSFhKSFlQLTJoVkRmbkFzcl9KTmxsUlJwNGlQY0c1Mm1MRjBoVWtqZ015Rm44cF8zY0YzejE2MDVVV2R2UkVkSUhQX0x2LTBKc1llZjdzR2U5ZjZVbG5EVTg1WHJhZFhpckZfMHo3WWQ4STBkank4cS1sZnkwcGNjaF90MNIBvwFBVV95cUxPTktGZFlZWktPbGpqRjhERHpaRGRZcXF0R1QwQVJBVjR1aWxVTng0dGI2VjVIRGV0MDIyV0lwUjlCMkdrSFhKSFlQLTJoVkRmbkFzcl9KTmxsUlJwNGlQY0c1Mm1MRjBoVWtqZ015Rm44cF8zY0YzejE2MDVVV2R2UkVkSUhQX0x2LTBKc1llZjdzR2U5ZjZVbG5EVTg1WHJhZFhpckZfMHo3WWQ4STBkank4cS1sZnkwcGNjaF90MA?oc=5",
+      "fecha_consulta": "2026-09-02T03:03:56.844994"
     }
   ],
   "cronologia_actualizaciones": [
@@ -94,18 +114,50 @@
       "fuente": "Google News (Mirador Provincial)",
       "dato": "Villa Paranacito: siete empresas cotizaron para finalizar la construcción de 50 viviendas con fondos provinciales - Mirador Provincial",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:03",
+      "fecha": "2026-09-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Siete empresas compiten por concluir 50 viviendas en Villa Paranacito | Noticias de Gualeguaychú",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:03",
+      "fecha": "2026-09-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable menciona la sanción de la ley de Consorcios Camineros por parte del Senado y un suceso en Urdinarrain, información que no estaba presente en la noticia publicada.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:03",
+      "fecha": "2026-09-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Quedó firme la destitución del Juez del Trabajo Eduardo Flores - Noticias | La voz 90.1",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:03",
+      "fecha": "2026-09-02",
+      "fuente": "Google News (R2820)",
+      "dato": "Siete empresas compiten por concluir 50 viviendas en Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "3871050f7ac9a6283a4b7bc163f0d8d00b837786a69f7342d401bcc5fafa58c0",
     "0d29ab9b7f4d6a67cc7620835d1471f80b0d490df26b1cb147ee80cfdf65b650",
     "efcd7d9411f9f1d925a65509fe669095bb60592a46a5d165370f1a80a7c9ec7d",
-    "a97f0db7b12ff161a8458759645482b40215da97c98b95e0e17e595a78d3f3ed"
+    "a97f0db7b12ff161a8458759645482b40215da97c98b95e0e17e595a78d3f3ed",
+    "a9b3f0ae2304094968a2cb015ef38d99e3ad803f20986f1bc1b689c5fc173bca",
+    "54b8162fda9b6ceca43e84227c91c5e7f67a89f23a4ec9158678dc33bdfe2d22",
+    "5d42cb91a1960de097196d66d4cfae3c36e3cb1f8b5dfd9ca41b5e91f3e326db",
+    "ca7edebb0dde3a42f9bf48604531d4bf042299d6e14933db29380c907e89dffe"
   ],
   "fecha_iso": "2026-09-01T19:19:43.026936",
   "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
-  "fecha_ultima_actualizacion_iso": "2026-09-01T22:25:44.746995",
+  "fecha_ultima_actualizacion_iso": "2026-09-02T03:03:56.844994",
   "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
-  "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:25 hs",
+  "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:03 hs",
   "archivo": "2026-09-01-villa-paranacito-licitacion-viviendas-provinciales.json"
 }
