@@ -29,14 +29,44 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
-      "Google News (R2820)"
+      "Google News (R2820)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 8,
+    "num_actualizaciones": 9,
     "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
-    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:03 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:55 hs",
     "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
-    "fecha_ultima_actualizacion_iso": "2026-09-02T03:03:56.844994",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T03:55:16.715529",
     "resumen_whatsapp": "🏗️ ¡Gran noticia en Villa Paranacito! 7 empresas compiten para terminar 50 viviendas con fondos provinciales. Un paso clave para el hogar de muchas familias isleñas. 🏡✨"
+  },
+  {
+    "acontecimiento_id": "2026-09-02-bromatologia-villa-paranacito-alimentos-no-aptos",
+    "slug": "bromatologia-villa-paranacito-alimentos-no-aptos",
+    "titulo": "Bromatología de Villa Paranacito Retiró 161 Kilos de Alimentos No Aptos para Consumo",
+    "copete": "La Dirección de Bromatología municipal de Villa Paranacito llevó a cabo un exhaustivo operativo de control que culminó con la incautación de más de 160 kilogramos de productos alimenticios en mal estado o sin la documentación reglamentaria, garantizando la salud de los vecinos del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Bromatología",
+      "Villa Paranacito",
+      "Seguridad Alimentaria",
+      "Delta Entrerriano",
+      "Controles Sanitarios"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 03:55 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:55 hs",
+    "fecha_inicio_iso": "2026-09-02T03:55:02.368280",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T03:55:02.368280",
+    "resumen_whatsapp": "🚨 Bromatología de Villa Paranacito retiró 161 kg de alimentos no aptos para consumo en comercios del Delta. ¡Cuidemos nuestra salud! 🍎❌"
   },
   {
     "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",

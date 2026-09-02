@@ -84,6 +84,16 @@
       "nombre": "Google News (R2820)",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTktGZFlZWktPbGpqRjhERHpaRGRZcXF0R1QwQVJBVjR1aWxVTng0dGI2VjVIRGV0MDIyV0lwUjlCMkdrSFhKSFlQLTJoVkRmbkFzcl9KTmxsUlJwNGlQY0c1Mm1MRjBoVWtqZ015Rm44cF8zY0YzejE2MDVVV2R2UkVkSUhQX0x2LTBKc1llZjdzR2U5ZjZVbG5EVTg1WHJhZFhpckZfMHo3WWQ4STBkank4cS1sZnkwcGNjaF90MNIBvwFBVV95cUxPTktGZFlZWktPbGpqRjhERHpaRGRZcXF0R1QwQVJBVjR1aWxVTng0dGI2VjVIRGV0MDIyV0lwUjlCMkdrSFhKSFlQLTJoVkRmbkFzcl9KTmxsUlJwNGlQY0c1Mm1MRjBoVWtqZ015Rm44cF8zY0YzejE2MDVVV2R2UkVkSUhQX0x2LTBKc1llZjdzR2U5ZjZVbG5EVTg1WHJhZFhpckZfMHo3WWQ4STBkank4cS1sZnkwcGNjaF90MA?oc=5",
       "fecha_consulta": "2026-09-02T03:03:56.844994"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/09/01/115327-hoteleros-y-gastronomicos-le-pidieron-al-municipio-prorrogas-y-exenciones-de-tasas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw084OP0okKqbIkCZOKlv-_0",
+      "fecha_consulta": "2026-09-02T03:55:10.316498"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/siete-empresas-compiten-por-terminar-50-viviendas-en-villa-paranacito/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3QYkUPRQ6Wmy1Rt0Q9p3ow",
+      "fecha_consulta": "2026-09-02T03:55:16.715529"
     }
   ],
   "cronologia_actualizaciones": [
@@ -142,6 +152,13 @@
       "fuente": "Google News (R2820)",
       "dato": "Siete empresas compiten por concluir 50 viviendas en Villa Paranacito",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:55",
+      "fecha": "2026-09-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Siete empresas compiten por terminar 50 viviendas en Villa Paranacito - Informe Digital",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -152,12 +169,13 @@
     "a9b3f0ae2304094968a2cb015ef38d99e3ad803f20986f1bc1b689c5fc173bca",
     "54b8162fda9b6ceca43e84227c91c5e7f67a89f23a4ec9158678dc33bdfe2d22",
     "5d42cb91a1960de097196d66d4cfae3c36e3cb1f8b5dfd9ca41b5e91f3e326db",
-    "ca7edebb0dde3a42f9bf48604531d4bf042299d6e14933db29380c907e89dffe"
+    "ca7edebb0dde3a42f9bf48604531d4bf042299d6e14933db29380c907e89dffe",
+    "c40868217a354be1eef56aaa3a9d06745e0b5155c126821c8bb87453fdb97a76"
   ],
   "fecha_iso": "2026-09-01T19:19:43.026936",
   "fecha_inicio_iso": "2026-09-01T19:19:43.026936",
-  "fecha_ultima_actualizacion_iso": "2026-09-02T03:03:56.844994",
+  "fecha_ultima_actualizacion_iso": "2026-09-02T03:55:16.715529",
   "fecha_publicacion": "1 de Septiembre de 2026, 19:19 hs",
-  "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:03 hs",
+  "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:55 hs",
   "archivo": "2026-09-01-villa-paranacito-licitacion-viviendas-provinciales.json"
 }
