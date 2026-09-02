@@ -44,6 +44,11 @@
       "nombre": "Google News (Informe Digital)",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFgybnc3ckx3SUtrMHJONmdkaDMtNDFQVFk1VUl1UUdOdUU2Q3JsUXJxT04zek92cWJnNUNKMWgyUkV4bXdWR1paVFZSeU9YRjk1bmJHOTZkR1haYmJ5TTh0c2tSOFRnSDh4bmc4TkNjamdOWEwxenJWMEpNV1ljdUxmWkRobkxxMm1QRGxKZlBqTnhOdTVCVTNNX0hqLXptLVE?oc=5",
       "fecha_consulta": "2026-09-02T03:55:16.721610"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcGhRUnlRVG11ajhrOU5vcTNhQnNTQlNSX1dVX0RNYVJVSUpBc0NMbnNZV2VUQ1JLYmtkREtlYkMyZHR1MnF5M014d3RVSGRYVUZWSm5maktvNUR2OV9JYW9ZbVlkWTAyRUxRWXhaOEc0Y1JmYXhXcjRueEdMeWVYRlVzQW1CMnpicUh3R2x4THBBSHFLMW9vcmgtZ1RMd0M4b2hqZXV2Tm94RnhDOTBiekg4RXhwUWtXeEHSAb8BQVVfeXFMT05LRmRZWVpLT2xqakY4RER6WkRkWXFxdEdUMEFSQVY0dWlsVU54NHRiNlY1SERldDAyMldJcFI5QjJHa0hYSkhZUC0yaFZEZm5Bc3JfSk5sbFJScDRpUGNHNTJtTEYwaFVramdNeUZuOHBfM2NGM3oxNjA1VVdkdlJFZElIUF9Mdi0wSnNZZWY3c0dlOWY2VWxuRFU4NVhyYWRYaXJGXzB6N1lkOEkwZGp5OHEtbGZ5MHBjY2hfdDA?oc=5",
+      "fecha_consulta": "2026-09-02T08:25:29.495676"
     }
   ],
   "cronologia_actualizaciones": [
@@ -60,16 +65,24 @@
       "fuente": "Google News (Informe Digital)",
       "dato": "Siete empresas compiten por terminar 50 viviendas en Villa Paranacito - Informe Digital",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "08:25",
+      "fecha": "2026-09-02",
+      "fuente": "Google News (R2820)",
+      "dato": "Siete empresas compiten por concluir 50 viviendas en Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "741164f5aa9781aa72aef20ece2f713f22a5273b91766947bea830f615c34052",
-    "05dfb1bf46d0c9c33b360c5a425356beb24fa6deb140d52040b31ca63a8f6ebc"
+    "05dfb1bf46d0c9c33b360c5a425356beb24fa6deb140d52040b31ca63a8f6ebc",
+    "f628be6a97e58cb829acae7a448b5a287ffb7d0ad41947749eefd0dbc99f5de2"
   ],
   "fecha_iso": "2026-09-02T03:03:31.658306",
   "fecha_inicio_iso": "2026-09-02T03:03:31.658306",
-  "fecha_ultima_actualizacion_iso": "2026-09-02T03:55:16.721610",
+  "fecha_ultima_actualizacion_iso": "2026-09-02T08:25:29.495676",
   "fecha_publicacion": "2 de Septiembre de 2026, 03:03 hs",
-  "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 03:55 hs",
+  "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 08:25 hs",
   "archivo": "2026-09-02-siete-empresas-compiten-50-viviendas-paranacito.json"
 }
