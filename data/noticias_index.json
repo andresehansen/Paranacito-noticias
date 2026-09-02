@@ -1,5 +1,94 @@
 [
   {
+    "acontecimiento_id": "2026-09-02-licitacion-50-viviendas-villa-paranacito",
+    "slug": "licitacion-50-viviendas-villa-paranacito",
+    "titulo": "Impulso Habitacional: Siete Empresas Licitan por 50 Viviendas en Villa Paranacito",
+    "copete": "Un importante proceso licitatorio se puso en marcha en Villa Paranacito, donde siete empresas constructoras presentaron sus ofertas para la finalización de 50 unidades habitacionales, un proyecto clave para la comunidad del Delta.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Viviendas",
+      "Villa Paranacito",
+      "Licitación",
+      "Obras Públicas",
+      "IAPV",
+      "Desarrollo Urbano",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 22:25 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 22:25 hs",
+    "fecha_inicio_iso": "2026-09-02T22:25:13.190359",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T22:25:13.190359",
+    "resumen_whatsapp": "🏗️ ¡Buenas noticias para Villa Paranacito! Siete empresas compiten para finalizar 50 viviendas. Un paso clave para más hogares y empleo local. #ViviendasParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-09-02-nueva-ambulancia-hospital-paranacito",
+    "slug": "nueva-ambulancia-hospital-paranacito",
+    "titulo": "Nueva Ambulancia de Alta Complejidad Refuerza la Atención Sanitaria en Villa Paranacito",
+    "copete": "El Hospital \"Dr. José María Miranda\" de Villa Paranacito recibió una moderna ambulancia equipada, una incorporación vital para optimizar la respuesta ante emergencias y traslados en la particular geografía del Delta entrerriano.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Hospital Dr. José María Miranda",
+      "Salud Pública",
+      "Ambulancia",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Emergencias",
+      "Gobierno de Entre Ríos"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 22:25 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 22:25 hs",
+    "fecha_inicio_iso": "2026-09-02T22:25:02.541933",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T22:25:02.541933",
+    "resumen_whatsapp": "🚑 ¡Gran noticia para Villa Paranacito! El Hospital \"Dr. José María Miranda\" recibió una nueva ambulancia de alta complejidad para mejorar la atención en el Delta. ¡Más seguridad para todos!"
+  },
+  {
+    "acontecimiento_id": "2026-09-02-vicentin-deporte-oportunidad-villa-paranacito-delta",
+    "slug": "vicentin-deporte-oportunidad-villa-paranacito-delta",
+    "titulo": "Vicentín y el Deporte: ¿Se Extenderá la Iniciativa de Gualeguaychú al Delta de Villa Paranacito?",
+    "copete": "La reciente charla abierta sobre deporte organizada por Vicentín en Gualeguaychú genera expectativas en Villa Paranacito y el Delta, abriendo el interrogante sobre la posibilidad de que iniciativas similares impulsen el desarrollo deportivo local.",
+    "categoria": "Deportes",
+    "tags": [
+      "Vicentín",
+      "Deporte",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Desarrollo Deportivo",
+      "Gualeguaychú"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Septiembre de 2026, 22:24 hs",
+    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 22:24 hs",
+    "fecha_inicio_iso": "2026-09-02T22:24:47.021743",
+    "fecha_ultima_actualizacion_iso": "2026-09-02T22:24:47.021743",
+    "resumen_whatsapp": "⚽️ Vicentín en Gualeguaychú genera expectativas en Villa Paranacito. ¿Llegará el apoyo al deporte al Delta? 🤔"
+  },
+  {
     "acontecimiento_id": "2026-09-02-fondos-nacionales-cortados-defensa-villa-paranacito",
     "slug": "fondos-nacionales-cortados-defensa-villa-paranacito",
     "titulo": "Preocupación en Villa Paranacito por el Cese de Fondos Nacionales para la Defensa del Casco Urbano",
@@ -147,6 +236,7 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google News (R2820)",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
