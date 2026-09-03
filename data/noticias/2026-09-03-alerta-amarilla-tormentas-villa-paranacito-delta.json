@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-03-alerta-amarilla-tormentas-villa-paranacito-delta",
+  "titulo": "Alerta Amarillo por Tormentas Fuertes en Villa Paranacito y el Delta Entrerriano",
+  "copete": "El Servicio Meteorológico Nacional (SMN) emitió una alerta amarilla por tormentas para la jornada de este jueves, afectando directamente a Villa Paranacito y la región del Delta de Entre Ríos, con posibles lluvias intensas y ráfagas de viento.",
+  "cuerpo": [
+    "El Servicio Meteorológico Nacional (SMN) ha emitido una alerta de nivel amarillo por tormentas fuertes que impactarán la región de Villa Paranacito y el Delta de Entre Ríos durante la jornada de este jueves. Esta advertencia abarca un área significativa del sur entrerriano, incluyendo además departamentos como Victoria, Gualeguay y Gualeguaychú, poniendo en aviso a los habitantes de las zonas ribereñas y de islas sobre la posibilidad de fenómenos meteorológicos adversos.",
+    "Según el informe del SMN, se esperan lluvias de variada intensidad, algunas de las cuales podrían ser localmente fuertes, acompañadas de ráfagas de viento, ocasional caída de granizo y una importante actividad eléctrica. Se estima que los valores de precipitación acumulada podrían oscilar entre los 30 y 50 milímetros, pudiendo ser superados de forma puntual en las áreas más afectadas. Las autoridades locales de Villa Paranacito se mantienen atentas a la evolución del pronóstico para coordinar posibles acciones preventivas.",
+    "Para los vecinos de Villa Paranacito y las zonas de islas, esta alerta implica la necesidad de tomar precauciones especiales. Las intensas precipitaciones pueden generar anegamientos temporarios en zonas bajas, dificultar la transitabilidad de caminos rurales y afectar la navegación fluvial, un medio de transporte esencial para la vida cotidiana y la producción local. La visibilidad reducida y las ráfagas de viento también representan un riesgo para quienes se desplazan por el río o trabajan al aire libre.",
+    "Ante este escenario, se recomienda a la comunidad asegurar objetos que puedan volarse, retirar la basura de los desagües para evitar obstrucciones, y evitar actividades al aire libre durante el pico de la tormenta. En caso de emergencia, se aconseja contactar a los números de Defensa Civil o Bomberos Voluntarios de Villa Paranacito. Es fundamental mantenerse informado a través de fuentes oficiales y seguir las indicaciones de las autoridades para garantizar la seguridad de todos los habitantes del Delta."
+  ],
+  "resumen": "Villa Paranacito y el Delta de Entre Ríos se encuentran bajo alerta amarilla por tormentas fuertes para este jueves, según el SMN. Se esperan lluvias intensas, ráfagas de viento y posible granizo, con acumulados de hasta 50 mm. Se recomienda a los vecinos tomar precauciones, asegurar objetos y evitar actividades al aire libre para prevenir anegamie",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "Alerta Meteorológica",
+    "Tormentas",
+    "SMN",
+    "Precauciones"
+  ],
+  "slug": "alerta-amarilla-tormentas-villa-paranacito-delta",
+  "resumen_whatsapp": "⚠️ Alerta Amarilla por tormentas en Villa Paranacito y el Delta este jueves. Lluvias fuertes, viento y posible granizo. ¡Tomá precauciones! ⛈️🌬️",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-emitieron-alerta-amarillo-por-tormentas-para-este-jueves&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Zr7WbI60J5AcFS3WFh4_K",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-emitieron-alerta-amarillo-por-tormentas-para-este-jueves&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Zr7WbI60J5AcFS3WFh4_K",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-emitieron-alerta-amarillo-por-tormentas-para-este-jueves&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Zr7WbI60J5AcFS3WFh4_K",
+      "fecha_consulta": "2026-09-03T03:06:06.074655"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "03:06",
+      "fecha": "2026-09-03",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta de Entre Ríos se encuentran bajo alerta amarilla por tormentas fuertes para este jueves, según el SMN. Se esperan lluvias intensas, ráfagas de viento y posible granizo, con",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "ba4f9c9a05d5a7fdc6eb359cfbcb158e1e27df7a5c0c9a14295e7619d739351c"
+  ],
+  "fecha_iso": "2026-09-03T03:06:06.074655",
+  "fecha_inicio_iso": "2026-09-03T03:06:06.074655",
+  "fecha_ultima_actualizacion_iso": "2026-09-03T03:06:06.074655",
+  "fecha_publicacion": "3 de Septiembre de 2026, 03:06 hs",
+  "fecha_ultima_actualizacion": "3 de Septiembre de 2026, 03:06 hs",
+  "archivo": "2026-09-03-alerta-amarilla-tormentas-villa-paranacito-delta.json"
+}
