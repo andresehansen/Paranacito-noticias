@@ -1,5 +1,32 @@
 [
   {
+    "acontecimiento_id": "2026-09-03-informacion-no-procesable-anclaje-geografico",
+    "slug": "informacion-no-procesable-anclaje-geografico",
+    "titulo": "Información No Procesable: Evento Fuera del Anclaje Geográfico de Paranacito Noticias",
+    "copete": "La información sobre la 'Fiesta de Empanadas y Vino' en Colonia Ensayo no cumple con el requisito fundamental de anclaje geográfico en Villa Paranacito, Ceibas, Islas del Ibicuy o una institución local reconocida.",
+    "categoria": "Sociedad",
+    "tags": [
+      "editorial",
+      "anclaje geografico",
+      "politica de contenido",
+      "informacion local"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "3 de Septiembre de 2026, 15:51 hs",
+    "fecha_ultima_actualizacion": "3 de Septiembre de 2026, 15:51 hs",
+    "fecha_inicio_iso": "2026-09-03T15:51:22.505239",
+    "fecha_ultima_actualizacion_iso": "2026-09-03T15:51:22.505239",
+    "resumen_whatsapp": "🚫 Nota rechazada: Evento en Colonia Ensayo no es relevante para Villa Paranacito. Priorizamos noticias locales. #ParanacitoNoticias"
+  },
+  {
     "acontecimiento_id": "2026-08-30-copnaf-herramientas-crianza-villa-paranacito",
     "slug": "copnaf-herramientas-crianza-villa-paranacito",
     "titulo": "Copnaf brindó herramientas de crianza a familias en Villa Paranacito",

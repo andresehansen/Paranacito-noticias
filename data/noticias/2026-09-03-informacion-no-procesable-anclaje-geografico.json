@@ -1,0 +1,55 @@
+{
+  "acontecimiento_id": "2026-09-03-informacion-no-procesable-anclaje-geografico",
+  "titulo": "Información No Procesable: Evento Fuera del Anclaje Geográfico de Paranacito Noticias",
+  "copete": "La información sobre la 'Fiesta de Empanadas y Vino' en Colonia Ensayo no cumple con el requisito fundamental de anclaje geográfico en Villa Paranacito, Ceibas, Islas del Ibicuy o una institución local reconocida.",
+  "cuerpo": [
+    "Desde 'Paranacito Noticias', nuestro compromiso editorial es brindar a los vecinos de Villa Paranacito y el Delta Entrerriano información de alta calidad, profundidad y, sobre todo, estrictamente relevante para nuestra comunidad. Nuestra misión es ser el pulso informativo de la región, enfocándonos en los sucesos, obras, servicios y actividades que impactan directamente la vida cotidiana de los isleños y habitantes de Ceibas e Islas del Ibicuy.",
+    "En este sentido, la noticia sobre la 'Fiesta de Empanadas y Vino' en Colonia Ensayo, si bien es un evento cultural interesante, se desarrolla en una localidad geográficamente distante y fuera de nuestra área de cobertura designada. Colonia Ensayo se ubica en el departamento Diamante, cerca de Paraná, y no posee un vínculo directo o impacto significativo en Villa Paranacito o el Delta de Entre Ríos, que son el foco exclusivo de nuestro portal.",
+    "Mantener este rigor en el anclaje geográfico es crucial para asegurar que cada nota publicada sea de interés genuino y utilidad práctica para nuestros lectores. Priorizamos los hechos que afectan el transporte fluvial, los caminos isleños, la salud local, la educación en nuestras escuelas, la producción regional y la vida social y cultural dentro de los límites de nuestra comunidad.",
+    "Agradecemos la comprensión de nuestros lectores y reiteramos nuestra invitación a enviar información y novedades que sí estén directamente relacionadas con Villa Paranacito, Ceibas, Islas del Ibicuy o sus instituciones. Nuestro objetivo es fortalecer el periodismo local y servir como una herramienta informativa indispensable para nuestra gente."
+  ],
+  "resumen": "La noticia sobre la 'Fiesta de Empanadas y Vino' en Colonia Ensayo no puede ser procesada por 'Paranacito Noticias' debido a que no cumple con el requisito de anclaje geográfico en Villa Paranacito o el Delta Entrerriano. Nuestro medio se enfoca exclusivamente en información relevante para nuestra comunidad local.",
+  "categoria": "Sociedad",
+  "tags": [
+    "editorial",
+    "anclaje geografico",
+    "politica de contenido",
+    "informacion local"
+  ],
+  "slug": "informacion-no-procesable-anclaje-geografico",
+  "resumen_whatsapp": "🚫 Nota rechazada: Evento en Colonia Ensayo no es relevante para Villa Paranacito. Priorizamos noticias locales. #ParanacitoNoticias",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/colonia-ensayo-repite-su-fiesta-de-empanadas-y-vino/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2rpoA18Y9vi6mQacFDlHfi",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/colonia-ensayo-repite-su-fiesta-de-empanadas-y-vino/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2rpoA18Y9vi6mQacFDlHfi",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/colonia-ensayo-repite-su-fiesta-de-empanadas-y-vino/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2rpoA18Y9vi6mQacFDlHfi",
+      "fecha_consulta": "2026-09-03T15:51:22.505239"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "15:51",
+      "fecha": "2026-09-03",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La noticia sobre la 'Fiesta de Empanadas y Vino' en Colonia Ensayo no puede ser procesada por 'Paranacito Noticias' debido a que no cumple con el requisito de anclaje geográfico en Villa Paranacito o ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "679a77a9918f2a59ba422c06d6d4b72f6c3c3a03e69e5d08b9dcc6202250fd93"
+  ],
+  "fecha_iso": "2026-09-03T15:51:22.505239",
+  "fecha_inicio_iso": "2026-09-03T15:51:22.505239",
+  "fecha_ultima_actualizacion_iso": "2026-09-03T15:51:22.505239",
+  "fecha_publicacion": "3 de Septiembre de 2026, 15:51 hs",
+  "fecha_ultima_actualizacion": "3 de Septiembre de 2026, 15:51 hs",
+  "archivo": "2026-09-03-informacion-no-procesable-anclaje-geografico.json"
+}
