@@ -1,5 +1,92 @@
 [
   {
+    "acontecimiento_id": "2026-09-04-villa-paranacito-detencion-paranacito-narco-san-juan",
+    "slug": "villa-paranacito-detencion-paranacito-narco-san-juan",
+    "titulo": "Villa Paranacito: Detención de 'Paranacito' en San Juan Genera Alerta por Narcotráfico",
+    "copete": "La noticia de la detención en San Juan de un joven de 24 años, conocido por el apodo 'Paranacito' y acusado de liderar una banda narco, ha resonado con preocupación en Villa Paranacito, encendiendo el debate sobre la seguridad y el futuro de la juventud local.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Narcotráfico",
+      "Seguridad",
+      "Juventud",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Diario 13 San Juan)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "4 de Septiembre de 2026, 03:05 hs",
+    "fecha_ultima_actualizacion": "4 de Septiembre de 2026, 03:05 hs",
+    "fecha_inicio_iso": "2026-09-04T03:05:42.849241",
+    "fecha_ultima_actualizacion_iso": "2026-09-04T03:05:42.849241",
+    "resumen_whatsapp": "🚨 Preocupación en Villa Paranacito: Detienen en San Juan a joven apodado 'Paranacito' por liderar banda narco. Alerta por seguridad y juventud local. #Paranacito #Narcotráfico"
+  },
+  {
+    "acontecimiento_id": "2026-09-04-concurso-docente-nivel-primario-villa-paranacito",
+    "slug": "concurso-docente-nivel-primario-villa-paranacito",
+    "titulo": "Definen Cargos Docentes: Concurso de Nivel Primario en Villa Paranacito para la D.D.E. Islas del Ibicuy",
+    "copete": "La Dirección Departamental de Escuelas de Islas del Ibicuy (D.D.E.) convoca a un concurso para el Nivel Primario, un evento crucial para la asignación de cargos docentes en la región, que se realizará este viernes en Villa Paranacito.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Concurso Docente",
+      "Villa Paranacito",
+      "DDE Islas del Ibicuy",
+      "Nivel Primario"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "4 de Septiembre de 2026, 03:05 hs",
+    "fecha_ultima_actualizacion": "4 de Septiembre de 2026, 03:05 hs",
+    "fecha_inicio_iso": "2026-09-04T03:05:22.249197",
+    "fecha_ultima_actualizacion_iso": "2026-09-04T03:05:22.249197",
+    "resumen_whatsapp": "🚨 Educación: Concurso de Nivel Primario de la D.D.E. Islas del Ibicuy este viernes 4/9 a las 11hs en Villa Paranacito. ¡Importante para docentes y la calidad educativa local! 📚"
+  },
+  {
+    "acontecimiento_id": "2026-09-04-enersa-luz-barrio-san-jose-villa-paranacito",
+    "slug": "enersa-luz-barrio-san-jose-villa-paranacito",
+    "titulo": "Hito Energético en Villa Paranacito: Enersa Regulariza el Servicio Eléctrico para 160 Hogares del Barrio San José",
+    "copete": "La empresa provincial de energía, Enersa, completó la normalización del suministro eléctrico en el Barrio San José de Villa Paranacito, una medida esperada que impacta positivamente en la calidad de vida de más de un centenar y medio de familias.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Enersa",
+      "Villa Paranacito",
+      "Barrio San José",
+      "Servicio Eléctrico",
+      "Obras Públicas",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "4 de Septiembre de 2026, 03:05 hs",
+    "fecha_ultima_actualizacion": "4 de Septiembre de 2026, 03:05 hs",
+    "fecha_inicio_iso": "2026-09-04T03:05:02.458559",
+    "fecha_ultima_actualizacion_iso": "2026-09-04T03:05:02.458559",
+    "resumen_whatsapp": "⚡️ Gran noticia en Villa Paranacito: Enersa regularizó la luz en Barrio San José, beneficiando a 160 hogares. ¡Más seguridad y estabilidad para todos! #ParanacitoNoticias"
+  },
+  {
     "acontecimiento_id": "2026-09-03-informacion-no-procesable-anclaje-geografico",
     "slug": "informacion-no-procesable-anclaje-geografico",
     "titulo": "Información No Procesable: Evento Fuera del Anclaje Geográfico de Paranacito Noticias",
@@ -436,36 +523,6 @@
     "fecha_inicio_iso": "2026-08-26T08:42:35.821626",
     "fecha_ultima_actualizacion_iso": "2026-08-26T08:42:35.821626",
     "resumen_whatsapp": "⚽️ ¡Fútbol en Villa Paranacito! La 15ª fecha del Torneo Eduardo Barbosa promete partidos clave para definir candidatos. 🏆 Atlético Sur juega en casa y Defensores del Sur vs. Sportivo Larroque en el Municipal. ¡No te lo pierdas! #Deportes #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-08-26-concurso-docente-nivel-primario-villa-paranacito",
-    "slug": "concurso-docente-nivel-primario-villa-paranacito",
-    "titulo": "La Dirección Departamental de Escuelas de Islas del Ibicuy Anuncia Concurso de Nivel Primario",
-    "copete": "La Dirección Departamental de Escuelas de Islas del Ibicuy ha confirmado la realización del concurso de Nivel Primario para el próximo miércoles 26 de agosto en su sede de Villa Paranacito, un evento crucial para la cobertura de cargos docentes en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "educación",
-      "docentes",
-      "concurso",
-      "Villa Paranacito",
-      "Islas del Ibicuy",
-      "CGE",
-      "escuelas primarias"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
-    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
-    "fecha_inicio_iso": "2026-08-26T04:39:37.033215",
-    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:37.033215",
-    "resumen_whatsapp": "📰 ¡Atención docentes de Nivel Primario! La DDE Islas del Ibicuy convoca a concurso el miércoles 26 de agosto a las 10 hs en Villa Paranacito (Los Cipreses 1012). ¡Oportunidad clave para tu carrera! 📚 Más detalles en Paranacito Noticias."
   },
   {
     "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-pone-en-alerta-al",
