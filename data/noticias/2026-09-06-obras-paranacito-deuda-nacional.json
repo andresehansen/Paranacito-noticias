@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",
+  "titulo": "Obras Cruciales en Villa Paranacito en Riesgo por Deuda Millonaria de la Nación",
+  "copete": "La falta de pago por parte del Gobierno Nacional a la provincia de Entre Ríos impacta directamente en proyectos esenciales para Villa Paranacito, generando incertidumbre sobre su continuidad y finalización.",
+  "cuerpo": [
+    "La comunidad de Villa Paranacito y el Delta entrerriano se encuentra en alerta ante la incertidumbre que rodea a varias obras de infraestructura cruciales para la región. Estos proyectos, esenciales para el desarrollo local, se ven directamente afectados por una significativa deuda que el Gobierno Nacional mantiene con la provincia de Entre Ríos, un patrón que se repite en diversas localidades entrerrianas.",
+    "Según información difundida por el portal INFOPAER, la deuda total de la Nación con Entre Ríos asciende a más de $154 mil millones. Dentro de este monto, se incluyen partidas destinadas a obras específicas en Villa Paranacito, así como proyectos en la cuenca Ezpeleta-Victoria y refacciones en escuelas técnicas de la provincia. Aunque no se desglosa el monto exacto para cada obra local, la mención explícita de Villa Paranacito subraya la relevancia del impacto en nuestra zona.",
+    "La paralización o el retraso de estas obras tiene un impacto directo en la calidad de vida de los isleños y vecinos de Villa Paranacito. Proyectos de infraestructura vial, mejoras en servicios básicos o la infraestructura educativa, si son parte de estas obras, son fundamentales para la conectividad, la salud y el futuro de nuestros jóvenes. La falta de inversión y continuidad en estos frentes puede generar un estancamiento en el progreso de la región, afectando desde el transporte fluvial y terrestre hasta la producción local.",
+    "Ante este escenario, se espera que las autoridades provinciales y municipales intensifiquen las gestiones ante el Gobierno Nacional para destrabar los fondos adeudados y garantizar la reanudación de los trabajos. La comunidad, por su parte, se mantiene atenta a las novedades, consciente de que la finalización de estas obras es clave para el desarrollo sostenible de Villa Paranacito y sus alrededores. Se recomienda a los vecinos mantenerse informados a través de los canales oficiales del Municipio y de este medio para conocer el estado de avance de cada proyecto."
+  ],
+  "resumen": "Obras esenciales para Villa Paranacito se ven afectadas por una deuda millonaria del Gobierno Nacional con Entre Ríos, que supera los $154 mil millones. Esta situación genera incertidumbre sobre la continuidad de proyectos clave para la infraestructura y el desarrollo local, impactando directamente en la calidad de vida de los vecinos del Delta. La",
+  "categoria": "Obras y Servicios",
+  "tags": [
+    "Villa Paranacito",
+    "Obras Públicas",
+    "Deuda Nacional",
+    "Entre Ríos",
+    "Infraestructura"
+  ],
+  "slug": "obras-paranacito-deuda-nacional",
+  "resumen_whatsapp": "🚨 Obras clave en Villa Paranacito en riesgo por deuda nacional de +$154 mil millones con Entre Ríos. 🚧 Vecinos preocupados por el impacto local. #ParanacitoNoticias",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://infopaer.com.ar/primera-plana/la-nacion-le-debe-a-entre-rios-mas-de-154-mil-millones-entre-hospitales-carceles-obras-y-juicios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw09aYF2ftbLqCCxtY3H0e4y",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://infopaer.com.ar/primera-plana/la-nacion-le-debe-a-entre-rios-mas-de-154-mil-millones-entre-hospitales-carceles-obras-y-juicios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw09aYF2ftbLqCCxtY3H0e4y",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://infopaer.com.ar/primera-plana/la-nacion-le-debe-a-entre-rios-mas-de-154-mil-millones-entre-hospitales-carceles-obras-y-juicios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw09aYF2ftbLqCCxtY3H0e4y",
+      "fecha_consulta": "2026-09-06T03:06:46.304825"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "03:06",
+      "fecha": "2026-09-06",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Obras esenciales para Villa Paranacito se ven afectadas por una deuda millonaria del Gobierno Nacional con Entre Ríos, que supera los $154 mil millones. Esta situación genera incertidumbre sobre la co",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "0d8de970977da9b4b5229b1f0799bd90c694b1439c49b8c8b2f1c51505535426"
+  ],
+  "fecha_iso": "2026-09-06T03:06:46.304825",
+  "fecha_inicio_iso": "2026-09-06T03:06:46.304825",
+  "fecha_ultima_actualizacion_iso": "2026-09-06T03:06:46.304825",
+  "fecha_publicacion": "6 de Septiembre de 2026, 03:06 hs",
+  "fecha_ultima_actualizacion": "6 de Septiembre de 2026, 03:06 hs",
+  "archivo": "2026-09-06-obras-paranacito-deuda-nacional.json"
+}

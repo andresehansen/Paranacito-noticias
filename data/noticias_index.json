@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",
+    "slug": "obras-paranacito-deuda-nacional",
+    "titulo": "Obras Cruciales en Villa Paranacito en Riesgo por Deuda Millonaria de la Nación",
+    "copete": "La falta de pago por parte del Gobierno Nacional a la provincia de Entre Ríos impacta directamente en proyectos esenciales para Villa Paranacito, generando incertidumbre sobre su continuidad y finalización.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Obras Públicas",
+      "Deuda Nacional",
+      "Entre Ríos",
+      "Infraestructura"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "6 de Septiembre de 2026, 03:06 hs",
+    "fecha_ultima_actualizacion": "6 de Septiembre de 2026, 03:06 hs",
+    "fecha_inicio_iso": "2026-09-06T03:06:46.304825",
+    "fecha_ultima_actualizacion_iso": "2026-09-06T03:06:46.304825",
+    "resumen_whatsapp": "🚨 Obras clave en Villa Paranacito en riesgo por deuda nacional de +$154 mil millones con Entre Ríos. 🚧 Vecinos preocupados por el impacto local. #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-09-06-memoria-historica-extremismos-villa-paranacito",
+    "slug": "memoria-historica-extremismos-villa-paranacito",
+    "titulo": "La Memoria Histórica: Registros Revelan Pasado de Extremismos en Villa Paranacito",
+    "copete": "Documentos históricos recientes indican la presencia de personas afiliadas a movimientos extremistas en Villa Paranacito, un hallazgo que invita a la reflexión sobre la memoria y los valores comunitarios en el Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Historia local",
+      "Memoria",
+      "Comunidad",
+      "Villa Paranacito",
+      "Extremismo",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "6 de Septiembre de 2026, 03:06 hs",
+    "fecha_ultima_actualizacion": "6 de Septiembre de 2026, 03:06 hs",
+    "fecha_inicio_iso": "2026-09-06T03:06:34.544743",
+    "fecha_ultima_actualizacion_iso": "2026-09-06T03:06:34.544743",
+    "resumen_whatsapp": "📜 Un hallazgo histórico revela la presencia de extremismos en Villa Paranacito. Reflexionemos sobre la memoria y los valores comunitarios en el Delta. #VillaParanacito #Historia"
+  },
+  {
     "acontecimiento_id": "2026-09-05-educacion-delta-uner-jornadas-paranacito",
     "slug": "educacion-delta-uner-jornadas-paranacito",
     "titulo": "Educación en el Delta: UNER Analiza Desafíos y Experiencias en Villa Paranacito",
