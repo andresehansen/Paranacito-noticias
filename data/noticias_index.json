@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-06-gilda-27-anos-santuario-ruta-12-paranacito",
+    "slug": "gilda-27-anos-santuario-ruta-12-paranacito",
+    "titulo": "A 27 Años de la Tragedia de Gilda: El Santuario de Ruta 12, un Hito para Villa Paranacito",
+    "copete": "Se cumplen 27 años del trágico accidente que cobró la vida de la popular cantante Gilda en el kilómetro 129 de la Ruta Nacional 12, un punto de referencia ineludible para los vecinos de Villa Paranacito y el Delta Entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Gilda",
+      "Ruta 12",
+      "Villa Paranacito",
+      "Aniversario",
+      "Tragedia vial",
+      "Seguridad vial",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "6 de Septiembre de 2026, 22:00 hs",
+    "fecha_ultima_actualizacion": "6 de Septiembre de 2026, 22:00 hs",
+    "fecha_inicio_iso": "2026-09-06T22:00:09.660929",
+    "fecha_ultima_actualizacion_iso": "2026-09-06T22:00:09.660929",
+    "resumen_whatsapp": "🚨 Se cumplen 27 años de la tragedia de Gilda en Ruta 12, cerca de Villa Paranacito. Un hito para el Delta que nos recuerda la importancia de la seguridad vial. ¡Precaución al conducir! 🛣️"
+  },
+  {
     "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",
     "slug": "obras-paranacito-deuda-nacional",
     "titulo": "Obras Cruciales en Villa Paranacito en Riesgo por Deuda Millonaria de la Nación",
