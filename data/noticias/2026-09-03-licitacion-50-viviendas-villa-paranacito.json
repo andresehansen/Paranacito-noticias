@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/un-dia-de-pelicula-llevo-cine-y-produccion-a-lucas-norte/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3nEMkC-ZbTxmfqZHpbR7Hp",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/un-dia-de-pelicula-llevo-cine-y-produccion-a-lucas-norte/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3nEMkC-ZbTxmfqZHpbR7Hp",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Baja",
   "es_alerta": false,
   "requiere_revision": true,
@@ -43,6 +43,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/03/115538-gran-labor-de-pueblo-belgrano-en-la-instancia-departamental-de-los-juegos-para-adultos-mayores&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2i1lJdKTB39R5gPcAlJPDz",
       "fecha_consulta": "2026-09-04T22:08:46.813179"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/06/115718-gualeguaychu-concentra-4-de-los-10-consorcios-camineros-de-entre-rios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw20psImRxjN91YnYznvtk7U",
+      "fecha_consulta": "2026-09-06T18:03:06.592173"
     }
   ],
   "cronologia_actualizaciones": [
@@ -52,15 +57,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Siete empresas compiten en la licitación para finalizar 50 viviendas en Villa Paranacito, un proyecto clave para la comunidad. La culminación de estas unidades habitacionales en el sur de la localidad",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "18:03",
+      "fecha": "2026-09-06",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "be88acddb872396148e8258983ce42ad3d1a6034fd887bd684662f6ef94769ac"
+    "be88acddb872396148e8258983ce42ad3d1a6034fd887bd684662f6ef94769ac",
+    "ff27db1b96be2eec459ceadfcbe8e39738a7c0ed74fe0ca431573043a010c4a8"
   ],
   "fecha_iso": "2026-09-03T22:19:00.665438",
   "fecha_inicio_iso": "2026-09-03T22:19:00.665438",
-  "fecha_ultima_actualizacion_iso": "2026-09-03T22:19:00.665438",
+  "fecha_ultima_actualizacion_iso": "2026-09-06T18:03:06.592173",
   "fecha_publicacion": "3 de Septiembre de 2026, 22:19 hs",
-  "fecha_ultima_actualizacion": "3 de Septiembre de 2026, 22:19 hs",
+  "fecha_ultima_actualizacion": "6 de Septiembre de 2026, 18:03 hs",
   "archivo": "2026-09-03-licitacion-50-viviendas-villa-paranacito.json"
 }
