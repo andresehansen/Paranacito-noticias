@@ -35,6 +35,11 @@
       "nombre": "Ceibas Noticias",
       "url": "https://ceibasnoticias.com.ar/productores-de-villa-paranacito-comienzan-a-trasladar-hacienda-ante-la-creciente/",
       "fecha_consulta": "2026-09-01T22:24:53.805290"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lavoz.com.ar/ciudadanos/pasara-verano-amenaza-silenciosa-nino-pone-alerta-argentina_0_y1sH8aDCMG.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1e5WUli4wKrCYFyvJ8HIz7",
+      "fecha_consulta": "2026-09-07T17:19:21.158705"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Ceibas Noticias",
       "dato": "Productores de Villa Paranacito y el Delta entrerriano están trasladando sus rodeos preventivamente ante la crecida del río Uruguay y la amenaza de El Niño. La prioridad es mover vacas con cría, enfre",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "17:19",
+      "fecha": "2026-09-07",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "6be4240a240f04586e1f11ca15559bb5917335b0ea91bd7f151f6db2043b3e9c"
+    "6be4240a240f04586e1f11ca15559bb5917335b0ea91bd7f151f6db2043b3e9c",
+    "bd35f9ecd97a41740f35153597a2f8930b6b5ddb3cba449cbfc49d9c1e0c005d"
   ],
   "fecha_iso": "2026-09-01T22:24:53.805290",
   "fecha_inicio_iso": "2026-09-01T22:24:53.805290",
-  "fecha_ultima_actualizacion_iso": "2026-09-01T22:24:53.805290",
+  "fecha_ultima_actualizacion_iso": "2026-09-07T17:19:21.158705",
   "fecha_publicacion": "1 de Septiembre de 2026, 22:24 hs",
-  "fecha_ultima_actualizacion": "1 de Septiembre de 2026, 22:24 hs",
+  "fecha_ultima_actualizacion": "7 de Septiembre de 2026, 17:19 hs",
   "archivo": "2026-09-01-productores-paranacito-mueven-hacienda-crecida-rio.json"
 }

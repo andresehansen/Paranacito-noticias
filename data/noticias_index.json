@@ -1,20 +1,19 @@
 [
   {
-    "acontecimiento_id": "2026-09-06-gilda-27-anos-santuario-ruta-12-paranacito",
-    "slug": "gilda-27-anos-santuario-ruta-12-paranacito",
-    "titulo": "A 27 Años de la Tragedia de Gilda: El Santuario de Ruta 12, un Hito para Villa Paranacito",
-    "copete": "Se cumplen 27 años del trágico accidente que cobró la vida de la popular cantante Gilda en el kilómetro 129 de la Ruta Nacional 12, un punto de referencia ineludible para los vecinos de Villa Paranacito y el Delta Entrerriano.",
+    "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
+    "slug": "gilda-30-anos-accidente-villa-paranacito",
+    "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
+    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano conmemora tres décadas del trágico accidente que cobró la vida de la icónica cantante Gilda y parte de su comitiva en el kilómetro 129 de la Ruta Nacional 12, un suceso que dejó una huella imborrable en la memoria local y nacional.",
     "categoria": "Sociedad",
     "tags": [
       "Gilda",
-      "Ruta 12",
+      "Accidente",
       "Villa Paranacito",
-      "Aniversario",
-      "Tragedia vial",
-      "Seguridad vial",
-      "Delta Entrerriano"
+      "Ruta 12",
+      "Historia Local",
+      "Música"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
@@ -23,11 +22,11 @@
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "6 de Septiembre de 2026, 22:00 hs",
-    "fecha_ultima_actualizacion": "6 de Septiembre de 2026, 22:00 hs",
-    "fecha_inicio_iso": "2026-09-06T22:00:09.660929",
-    "fecha_ultima_actualizacion_iso": "2026-09-06T22:00:09.660929",
-    "resumen_whatsapp": "🚨 Se cumplen 27 años de la tragedia de Gilda en Ruta 12, cerca de Villa Paranacito. Un hito para el Delta que nos recuerda la importancia de la seguridad vial. ¡Precaución al conducir! 🛣️"
+    "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
+    "fecha_ultima_actualizacion": "7 de Septiembre de 2026, 17:19 hs",
+    "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
+    "fecha_ultima_actualizacion_iso": "2026-09-07T17:19:10.818151",
+    "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",
@@ -289,37 +288,6 @@
     "fecha_inicio_iso": "2026-09-03T08:35:08.303835",
     "fecha_ultima_actualizacion_iso": "2026-09-03T08:35:08.303835",
     "resumen_whatsapp": "🎉 ¡Buenas noticias para la educación en Villa Paranacito! La Escuela N°10 mejoró accesibilidad y eliminó filtraciones. ¡Un Delta más inclusivo! 🏫💧✅"
-  },
-  {
-    "acontecimiento_id": "2026-09-02-licitacion-50-viviendas-villa-paranacito",
-    "slug": "licitacion-50-viviendas-villa-paranacito",
-    "titulo": "Impulso Habitacional: Siete Empresas Licitan por 50 Viviendas en Villa Paranacito",
-    "copete": "Un importante proceso licitatorio se puso en marcha en Villa Paranacito, donde siete empresas constructoras presentaron sus ofertas para la finalización de 50 unidades habitacionales, un proyecto clave para la comunidad del Delta.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "Viviendas",
-      "Villa Paranacito",
-      "Licitación",
-      "Obras Públicas",
-      "IAPV",
-      "Desarrollo Urbano",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "2 de Septiembre de 2026, 22:25 hs",
-    "fecha_ultima_actualizacion": "2 de Septiembre de 2026, 22:25 hs",
-    "fecha_inicio_iso": "2026-09-02T22:25:13.190359",
-    "fecha_ultima_actualizacion_iso": "2026-09-02T22:25:13.190359",
-    "resumen_whatsapp": "🏗️ ¡Buenas noticias para Villa Paranacito! Siete empresas compiten para finalizar 50 viviendas. Un paso clave para más hogares y empleo local. #ViviendasParanacito"
   },
   {
     "acontecimiento_id": "2026-09-02-nueva-ambulancia-hospital-paranacito",
