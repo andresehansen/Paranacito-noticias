@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.infocielo.com/la-plata/gilda-a-30-anos-de-su-partida-la-historia-del-recital-que-dio-en-una-carcel-de-la-plata&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3F1mE567eHUB1TkzPaMqRc",
       "fecha_consulta": "2026-09-07T17:19:10.818151"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/sociedad/canal-9-en-el-santuario-de-gilda-hace-27-anos-que-vengo-porque-ella-cumple-lo-que-le-pedis&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2IDdamqNeioFp-_LnEuWN3",
+      "fecha_consulta": "2026-09-07T22:31:23.538307"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito conmemora 30 años del trágico accidente de Gilda en la Ruta 12, que cobró la vida de la cantante y parte de su comitiva. El suceso, ocurrido en el kilómetro 129, movilizó a los servic",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:31",
+      "fecha": "2026-09-07",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Canal 9 en el Santuario de Gilda: \"Hace 27 años que vengo, porque ella cumple lo que le pedís\"",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "4e8db116bcd67d49d2bd4e4afcc157fc75f05ad4f8c10666a6a8375dd145301c"
+    "4e8db116bcd67d49d2bd4e4afcc157fc75f05ad4f8c10666a6a8375dd145301c",
+    "6670a4abdaf14c14b34f0affc9afd7525df23cf8f48b534a57161d3498a4a6d9"
   ],
   "fecha_iso": "2026-09-07T17:19:10.818151",
   "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
-  "fecha_ultima_actualizacion_iso": "2026-09-07T17:19:10.818151",
+  "fecha_ultima_actualizacion_iso": "2026-09-07T22:31:23.538307",
   "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
-  "fecha_ultima_actualizacion": "7 de Septiembre de 2026, 17:19 hs",
+  "fecha_ultima_actualizacion": "7 de Septiembre de 2026, 22:31 hs",
   "archivo": "2026-09-07-gilda-30-anos-accidente-villa-paranacito.json"
 }
