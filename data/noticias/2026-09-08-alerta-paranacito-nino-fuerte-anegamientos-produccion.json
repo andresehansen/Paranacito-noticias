@@ -1,0 +1,71 @@
+{
+  "acontecimiento_id": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion",
+  "titulo": "Alerta en Villa Paranacito: El 'Niño Fuerte' Complica el Drenaje y Amenaza la Producción Local",
+  "copete": "Las intensas precipitaciones asociadas al fenómeno climático 'Niño Fuerte' han provocado anegamientos en zonas bajas y productivas de Villa Paranacito, generando preocupación entre los vecinos y productores del Delta.",
+  "cuerpo": [
+    "Villa Paranacito y el corazón del Delta Entrerriano enfrentan una situación compleja al inicio de la campaña gruesa, marcada por un exceso de humedad en el suelo y el pronóstico de más tormentas. El fenómeno climático conocido como 'Niño Fuerte' ha intensificado las lluvias en la región, complicando severamente el drenaje natural de las áreas bajas y propiciando el anegamiento de vastos sectores productivos, vitales para la economía local.",
+    "Fuentes municipales y referentes del sector agropecuario de Islas del Ibicuy han manifestado su inquietud ante el panorama. 'La cantidad de agua caída en poco tiempo supera la capacidad de absorción y escurrimiento de nuestros suelos, especialmente en las zonas de islas y campos bajos', señaló un productor local, destacando la necesidad de monitoreo constante y acciones preventivas para mitigar los daños.",
+    "Este escenario tiene un impacto directo en la vida cotidiana de los isleños. Los caminos rurales y de acceso a las propiedades se ven afectados, dificultando el transporte de la producción y el acceso a servicios esenciales. Para los productores ganaderos y agrícolas, el anegamiento representa un riesgo inminente de pérdidas en cultivos y pasturas, afectando la rentabilidad y la subsistencia de muchas familias.",
+    "Desde el Municipio de Villa Paranacito, se recomienda a los vecinos y productores mantener limpios los canales de desagüe internos y estar atentos a los comunicados oficiales. Se están coordinando tareas de monitoreo hídrico y se evalúan posibles intervenciones para mejorar el drenaje en los puntos más críticos, buscando minimizar el impacto de futuras precipitaciones y proteger la infraestructura y la producción local."
+  ],
+  "resumen": "Villa Paranacito y el Delta Entrerriano enfrentan anegamientos por el 'Niño Fuerte', afectando zonas productivas y caminos. La situación genera preocupación entre productores y vecinos, quienes ven comprometida la campaña gruesa y el acceso a servicios. El Municipio monitorea y evalúa acciones para mejorar el drenaje y mitigar los impactos.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "Niño Fuerte",
+    "Anegamientos",
+    "Producción",
+    "Lluvias",
+    "Drenaje"
+  ],
+  "slug": "alerta-paranacito-nino-fuerte-anegamientos-produccion",
+  "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito: El 'Niño Fuerte' causa anegamientos y complica la producción local. ¡Atención vecinos y productores! 🚜💧",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.agrositio.com.ar/noticia/248218-nino-fuerte-la-campana-gruesa-arranca-con-mucha-agua-en-el-suelo-y-tormentas-en-el-horizonte.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0NADYW37N0QI371C3Q7a8P",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.agrositio.com.ar/noticia/248218-nino-fuerte-la-campana-gruesa-arranca-con-mucha-agua-en-el-suelo-y-tormentas-en-el-horizonte.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0NADYW37N0QI371C3Q7a8P",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.agrositio.com.ar/noticia/248218-nino-fuerte-la-campana-gruesa-arranca-con-mucha-agua-en-el-suelo-y-tormentas-en-el-horizonte.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0NADYW37N0QI371C3Q7a8P",
+      "fecha_consulta": "2026-09-08T16:03:30.481033"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.revistachacra.com.ar/actualidad/nino-fuerte-la-gruesa-arranca-con-abundante-humedad-y-un-escenario-de-lluvias-intensas-6096/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Lzdi669CNbtSoTzvbZLfZ",
+      "fecha_consulta": "2026-09-08T16:03:30.485658"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "16:03",
+      "fecha": "2026-09-08",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta Entrerriano enfrentan anegamientos por el 'Niño Fuerte', afectando zonas productivas y caminos. La situación genera preocupación entre productores y vecinos, quienes ven co",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:03",
+      "fecha": "2026-09-08",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Niño fuerte: la gruesa arranca con abundante humedad y un escenario de lluvias intensas",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "97ff942dfa63651406f98affc2c61828440977cec15d1e39a1d02c416065618a",
+    "fa66761142f23ad3374e9c52361fc63a448d97c690235b855a4754dc2df80dae"
+  ],
+  "fecha_iso": "2026-09-08T16:03:30.481033",
+  "fecha_inicio_iso": "2026-09-08T16:03:30.481033",
+  "fecha_ultima_actualizacion_iso": "2026-09-08T16:03:30.485658",
+  "fecha_publicacion": "8 de Septiembre de 2026, 16:03 hs",
+  "fecha_ultima_actualizacion": "8 de Septiembre de 2026, 16:03 hs",
+  "archivo": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion.json"
+}
