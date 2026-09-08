@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/sociedad/canal-9-en-el-santuario-de-gilda-hace-27-anos-que-vengo-porque-ella-cumple-lo-que-le-pedis&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2IDdamqNeioFp-_LnEuWN3",
       "fecha_consulta": "2026-09-07T22:31:23.538307"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.c5n.com/ratingcero/angela-leiva-hablo-su-relacion-mistica-gilda-yo-confie-ella-n248362&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2cromIQh9yYx-KdqxZe5yi",
+      "fecha_consulta": "2026-09-08T22:23:38.775307"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Canal 9 en el Santuario de Gilda: \"Hace 27 años que vengo, porque ella cumple lo que le pedís\"",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:23",
+      "fecha": "2026-09-08",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo introduce la perspectiva de Ángela Leiva, su 'relación mística' con Gilda y su declaración 'Yo confié en ella', lo cual es un enfoque completamente nuevo respecto al impacto del accidente.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "4e8db116bcd67d49d2bd4e4afcc157fc75f05ad4f8c10666a6a8375dd145301c",
-    "6670a4abdaf14c14b34f0affc9afd7525df23cf8f48b534a57161d3498a4a6d9"
+    "6670a4abdaf14c14b34f0affc9afd7525df23cf8f48b534a57161d3498a4a6d9",
+    "7838e259a367ee98cecd9c34ea8e03e9a5ebce67353b14143ab176025d9e27a4"
   ],
   "fecha_iso": "2026-09-07T17:19:10.818151",
   "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
-  "fecha_ultima_actualizacion_iso": "2026-09-07T22:31:23.538307",
+  "fecha_ultima_actualizacion_iso": "2026-09-08T22:23:38.775307",
   "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
-  "fecha_ultima_actualizacion": "7 de Septiembre de 2026, 22:31 hs",
+  "fecha_ultima_actualizacion": "8 de Septiembre de 2026, 22:23 hs",
   "archivo": "2026-09-07-gilda-30-anos-accidente-villa-paranacito.json"
 }
