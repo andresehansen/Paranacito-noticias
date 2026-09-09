@@ -1,18 +1,18 @@
 [
   {
-    "acontecimiento_id": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion",
-    "slug": "alerta-paranacito-nino-fuerte-anegamientos-produccion",
-    "titulo": "Alerta en Villa Paranacito: El 'Niño Fuerte' Complica el Drenaje y Amenaza la Producción Local",
-    "copete": "Las intensas precipitaciones asociadas al fenómeno climático 'Niño Fuerte' han provocado anegamientos en zonas bajas y productivas de Villa Paranacito, generando preocupación entre los vecinos y productores del Delta.",
+    "acontecimiento_id": "2026-09-09-villa-paranacito-alerta-el-nino-fuerte-primavera",
+    "slug": "villa-paranacito-alerta-el-nino-fuerte-primavera",
+    "titulo": "Villa Paranacito en Alerta: Alta Probabilidad de un Fenómeno El Niño Fuerte esta Primavera",
+    "copete": "Expertos meteorológicos estiman en un 90% la probabilidad de que el fenómeno El Niño se manifieste con gran intensidad durante la próxima primavera, generando preocupación entre los productores y vecinos de Villa Paranacito y el Delta entrerriano.",
     "categoria": "Río y Clima",
     "tags": [
+      "El Niño",
       "Villa Paranacito",
       "Delta Entrerriano",
-      "Niño Fuerte",
-      "Anegamientos",
-      "Producción",
-      "Lluvias",
-      "Drenaje"
+      "Inundaciones",
+      "Clima",
+      "Pronóstico",
+      "Productores Ganaderos"
     ],
     "estado": "En desarrollo",
     "es_alerta": false,
@@ -20,19 +20,14 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 6,
-    "fecha_publicacion": "8 de Septiembre de 2026, 16:03 hs",
-    "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 19:11 hs",
-    "fecha_inicio_iso": "2026-09-08T16:03:30.481033",
-    "fecha_ultima_actualizacion_iso": "2026-09-09T19:11:30.836858",
-    "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito: El 'Niño Fuerte' causa anegamientos y complica la producción local. ¡Atención vecinos y productores! 🚜💧"
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Septiembre de 2026, 22:17 hs",
+    "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 22:17 hs",
+    "fecha_inicio_iso": "2026-09-09T22:17:53.496943",
+    "fecha_ultima_actualizacion_iso": "2026-09-09T22:17:53.496943",
+    "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito: 90% de probabilidad de El Niño fuerte esta primavera. Preocupa a productores y vecinos del Delta por posibles crecidas. ¡Tomar precauciones! 🌧️🚤🐄"
   },
   {
     "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
