@@ -1,5 +1,37 @@
 [
   {
+    "acontecimiento_id": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion",
+    "slug": "alerta-paranacito-nino-fuerte-anegamientos-produccion",
+    "titulo": "Alerta en Villa Paranacito: El 'Niño Fuerte' Complica el Drenaje y Amenaza la Producción Local",
+    "copete": "Las intensas precipitaciones asociadas al fenómeno climático 'Niño Fuerte' han provocado anegamientos en zonas bajas y productivas de Villa Paranacito, generando preocupación entre los vecinos y productores del Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Niño Fuerte",
+      "Anegamientos",
+      "Producción",
+      "Lluvias",
+      "Drenaje"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "8 de Septiembre de 2026, 16:03 hs",
+    "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 03:16 hs",
+    "fecha_inicio_iso": "2026-09-08T16:03:30.481033",
+    "fecha_ultima_actualizacion_iso": "2026-09-09T03:16:19.861757",
+    "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito: El 'Niño Fuerte' causa anegamientos y complica la producción local. ¡Atención vecinos y productores! 🚜💧"
+  },
+  {
     "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
     "slug": "gilda-30-anos-accidente-villa-paranacito",
     "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
@@ -29,37 +61,6 @@
     "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
     "fecha_ultima_actualizacion_iso": "2026-09-08T22:23:38.775307",
     "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion",
-    "slug": "alerta-paranacito-nino-fuerte-anegamientos-produccion",
-    "titulo": "Alerta en Villa Paranacito: El 'Niño Fuerte' Complica el Drenaje y Amenaza la Producción Local",
-    "copete": "Las intensas precipitaciones asociadas al fenómeno climático 'Niño Fuerte' han provocado anegamientos en zonas bajas y productivas de Villa Paranacito, generando preocupación entre los vecinos y productores del Delta.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Niño Fuerte",
-      "Anegamientos",
-      "Producción",
-      "Lluvias",
-      "Drenaje"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "8 de Septiembre de 2026, 16:03 hs",
-    "fecha_ultima_actualizacion": "8 de Septiembre de 2026, 16:03 hs",
-    "fecha_inicio_iso": "2026-09-08T16:03:30.481033",
-    "fecha_ultima_actualizacion_iso": "2026-09-08T16:03:30.485658",
-    "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito: El 'Niño Fuerte' causa anegamientos y complica la producción local. ¡Atención vecinos y productores! 🚜💧"
   },
   {
     "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",

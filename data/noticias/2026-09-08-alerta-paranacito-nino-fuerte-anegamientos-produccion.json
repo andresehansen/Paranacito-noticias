@@ -40,6 +40,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.revistachacra.com.ar/actualidad/nino-fuerte-la-gruesa-arranca-con-abundante-humedad-y-un-escenario-de-lluvias-intensas-6096/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Lzdi669CNbtSoTzvbZLfZ",
       "fecha_consulta": "2026-09-08T16:03:30.485658"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://holasalta.com/post/super-nino-advierten-campana-gruesa-arranca-exceso-agua-suelo-preven-mas/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2nU1I-fnW2mMgaYTxCeCxF",
+      "fecha_consulta": "2026-09-09T03:16:19.861757"
     }
   ],
   "cronologia_actualizaciones": [
@@ -56,16 +61,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Niño fuerte: la gruesa arranca con abundante humedad y un escenario de lluvias intensas",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:16",
+      "fecha": "2026-09-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Productores ganaderos de Villa Paranacito tuvieron que trasladar sus animales a zonas no inundadas debido al exceso de agua.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "97ff942dfa63651406f98affc2c61828440977cec15d1e39a1d02c416065618a",
-    "fa66761142f23ad3374e9c52361fc63a448d97c690235b855a4754dc2df80dae"
+    "fa66761142f23ad3374e9c52361fc63a448d97c690235b855a4754dc2df80dae",
+    "c4684ca237a811ff7bc35273e38f95b631f4970efe8a8383bf54a8410f5c4377"
   ],
   "fecha_iso": "2026-09-08T16:03:30.481033",
   "fecha_inicio_iso": "2026-09-08T16:03:30.481033",
-  "fecha_ultima_actualizacion_iso": "2026-09-08T16:03:30.485658",
+  "fecha_ultima_actualizacion_iso": "2026-09-09T03:16:19.861757",
   "fecha_publicacion": "8 de Septiembre de 2026, 16:03 hs",
-  "fecha_ultima_actualizacion": "8 de Septiembre de 2026, 16:03 hs",
+  "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 03:16 hs",
   "archivo": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion.json"
 }
