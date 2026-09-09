@@ -45,6 +45,21 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://holasalta.com/post/super-nino-advierten-campana-gruesa-arranca-exceso-agua-suelo-preven-mas/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2nU1I-fnW2mMgaYTxCeCxF",
       "fecha_consulta": "2026-09-09T03:16:19.861757"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.newsdigitales.com/nota/344438/el-nino-se-fortalece-y-la-campana-gruesa-arranca-con-los-suelos-cargados-de-agua/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3IivpCBb8DplDzyCbYcEmu",
+      "fecha_consulta": "2026-09-09T19:11:20.493173"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.agrolatam.com/argentina/actualidad/super-nino-argentina-lluvias-campana-agricola-verano/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ukOPPFzvE8REkCVrx1lrs",
+      "fecha_consulta": "2026-09-09T19:11:26.164661"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/el-nino-fuerte-amenaza-con-mas-lluvias-y-cambios-de-temperatura/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2P99PlthaTbEQtu4BSxwjC",
+      "fecha_consulta": "2026-09-09T19:11:30.836858"
     }
   ],
   "cronologia_actualizaciones": [
@@ -68,17 +83,41 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Productores ganaderos de Villa Paranacito tuvieron que trasladar sus animales a zonas no inundadas debido al exceso de agua.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:11",
+      "fecha": "2026-09-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable detalla una consecuencia específica del anegamiento: los productores ganaderos de Villa Paranacito tuvieron que trasladar sus animales a zonas no inundadas.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:11",
+      "fecha": "2026-09-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Las sudestadas sobre el Río de la Plata ya dificultaron el drenaje de sectores bajos, y en Villa Paranacito, productores ganaderos debieron trasladar su ganado. El sector agropecuario se prepara para un verano con lluvias extraordinarias.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:11",
+      "fecha": "2026-09-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Productores ganaderos de Villa Paranacito tuvieron que trasladar sus animales a zonas no inundadas.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "97ff942dfa63651406f98affc2c61828440977cec15d1e39a1d02c416065618a",
     "fa66761142f23ad3374e9c52361fc63a448d97c690235b855a4754dc2df80dae",
-    "c4684ca237a811ff7bc35273e38f95b631f4970efe8a8383bf54a8410f5c4377"
+    "c4684ca237a811ff7bc35273e38f95b631f4970efe8a8383bf54a8410f5c4377",
+    "898bc0c6534b52d17053e7b9911e868eb8900c7e13396b6e8d1831d45bec7f37",
+    "dab2464d6dcd144b6898ea8efeee4b7aa8dc4444d8d39809c70eb238eee8f669",
+    "fbbfceb1c9e89682ad6c02aa8386e2d52259a29a09640172640fa420880ebbde"
   ],
   "fecha_iso": "2026-09-08T16:03:30.481033",
   "fecha_inicio_iso": "2026-09-08T16:03:30.481033",
-  "fecha_ultima_actualizacion_iso": "2026-09-09T03:16:19.861757",
+  "fecha_ultima_actualizacion_iso": "2026-09-09T19:11:30.836858",
   "fecha_publicacion": "8 de Septiembre de 2026, 16:03 hs",
-  "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 03:16 hs",
+  "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 19:11 hs",
   "archivo": "2026-09-08-alerta-paranacito-nino-fuerte-anegamientos-produccion.json"
 }
