@@ -1,5 +1,64 @@
 [
   {
+    "acontecimiento_id": "2026-09-10-excelente-pique-delta-villa-paranacito",
+    "slug": "excelente-pique-delta-villa-paranacito",
+    "titulo": "Excelente Pique en el Delta de Villa Paranacito: La Temporada de Pesca Atrae a Aficionados y Turistas",
+    "copete": "Villa Paranacito se consolida como un destino privilegiado para la pesca deportiva, con reportes de un pique excepcional que atrae a pescadores de toda la región y más allá.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "pesca deportiva",
+      "Villa Paranacito",
+      "Delta entrerriano",
+      "turismo",
+      "río",
+      "dorado",
+      "surubí"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "10 de Septiembre de 2026, 12:49 hs",
+    "fecha_ultima_actualizacion": "10 de Septiembre de 2026, 12:49 hs",
+    "fecha_inicio_iso": "2026-09-10T12:49:45.777137",
+    "fecha_ultima_actualizacion_iso": "2026-09-10T12:49:45.777137",
+    "resumen_whatsapp": "🎣 ¡Pique excepcional en Villa Paranacito! Dorados y surubíes a la orden del día. 🚤 Impulsa el turismo local. ¡A disfrutar y cuidar el río! #Pesca #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-09-10-concurso-docente-isfdc-villa-paranacito",
+    "slug": "concurso-docente-isfdc-villa-paranacito",
+    "titulo": "El ISFDC Villa Paranacito Abre Concurso para Fortalecer su Planta Docente",
+    "copete": "El Instituto Superior de Formación Docente Continua “Villa Paranacito” ha lanzado su Primer Llamado a Concurso para cubrir diversas cátedras, ofreciendo importantes oportunidades laborales y de desarrollo profesional en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Concurso docente",
+      "Villa Paranacito",
+      "ISFDC",
+      "Educación superior",
+      "Oportunidad laboral",
+      "Delta entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "10 de Septiembre de 2026, 12:49 hs",
+    "fecha_ultima_actualizacion": "10 de Septiembre de 2026, 12:49 hs",
+    "fecha_inicio_iso": "2026-09-10T12:49:36.980005",
+    "fecha_ultima_actualizacion_iso": "2026-09-10T12:49:36.980005",
+    "resumen_whatsapp": "📢 ¡Atención Villa Paranacito! El ISFDC abre concurso para docentes. Oportunidad laboral y de formación en el Delta. ¡Inscripciones hasta el 26 de julio! 📚👩‍🏫"
+  },
+  {
     "acontecimiento_id": "2026-09-09-villa-paranacito-alerta-el-nino-fuerte-primavera",
     "slug": "villa-paranacito-alerta-el-nino-fuerte-primavera",
     "titulo": "Villa Paranacito en Alerta: Alta Probabilidad de un Fenómeno El Niño Fuerte esta Primavera",
