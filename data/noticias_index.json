@@ -1,5 +1,63 @@
 [
   {
+    "acontecimiento_id": "2026-09-11-produccion-bufalos-delta-entrerriano-islas-ibicuy",
+    "slug": "produccion-bufalos-delta-entrerriano-islas-ibicuy",
+    "titulo": "Impulso Ganadero en el Delta Entrerriano: La Producción de Búfalos Gana Terreno en Islas del Ibicuy",
+    "copete": "La cría de búfalos emerge como una alternativa productiva clave en las Islas del Ibicuy, ofreciendo nuevas oportunidades económicas y de desarrollo sostenible para la región de Villa Paranacito.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Búfalos",
+      "Ganadería",
+      "Delta Entrerriano",
+      "Islas del Ibicuy",
+      "Villa Paranacito",
+      "Producción Local"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Elonce.com)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "11 de Septiembre de 2026, 03:11 hs",
+    "fecha_ultima_actualizacion": "11 de Septiembre de 2026, 03:11 hs",
+    "fecha_inicio_iso": "2026-09-11T03:11:27.887908",
+    "fecha_ultima_actualizacion_iso": "2026-09-11T03:11:27.887908",
+    "resumen_whatsapp": "🐃 ¡Novedad productiva en el Delta! La cría de búfalos crece en Islas del Ibicuy, generando empleo y diversificando la economía local. ¡Una apuesta sostenible para Villa Paranacito! 🌾"
+  },
+  {
+    "acontecimiento_id": "2026-09-11-villa-paranacito-viviendas-licitacion-obras",
+    "slug": "villa-paranacito-viviendas-licitacion-obras",
+    "titulo": "Villa Paranacito: Siete Empresas Compiten por la Finalización de 50 Viviendas Clave para la Comunidad",
+    "copete": "Un proceso licitatorio crucial está en marcha en Villa Paranacito, donde siete empresas constructoras presentaron sus ofertas para completar la construcción de 50 viviendas que representan una solución habitacional esperada por numerosos vecinos.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Viviendas",
+      "Licitación",
+      "Obras Públicas",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "11 de Septiembre de 2026, 03:11 hs",
+    "fecha_ultima_actualizacion": "11 de Septiembre de 2026, 03:11 hs",
+    "fecha_inicio_iso": "2026-09-11T03:11:06.349912",
+    "fecha_ultima_actualizacion_iso": "2026-09-11T03:11:06.349912",
+    "resumen_whatsapp": "🏗️ ¡Buenas noticias para Villa Paranacito! Siete empresas compiten para finalizar 50 viviendas. Se espera pronta adjudicación para retomar las obras. 🏡✨"
+  },
+  {
     "acontecimiento_id": "2026-09-10-excelente-pique-delta-villa-paranacito",
     "slug": "excelente-pique-delta-villa-paranacito",
     "titulo": "Excelente Pique en el Delta de Villa Paranacito: La Temporada de Pesca Atrae a Aficionados y Turistas",
