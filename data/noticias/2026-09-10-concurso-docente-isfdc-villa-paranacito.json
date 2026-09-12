@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-325/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2-5jQDQh8moDO9dZpMNyv-",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-325/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2-5jQDQh8moDO9dZpMNyv-",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-325/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2-5jQDQh8moDO9dZpMNyv-",
       "fecha_consulta": "2026-09-10T12:49:36.980005"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/convocatoria-escuela-secundaria-n-2-islas-del-ibicuy-de-la-localidad-de-villa-paranacito-2/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2-v-KQBBJEZsL4zbTAhs9i",
+      "fecha_consulta": "2026-09-12T03:17:23.749071"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Instituto Superior de Formación Docente Continua “Villa Paranacito” ha convocado a su Primer Llamado a Concurso para cubrir cátedras, buscando fortalecer su equipo docente. Esta iniciativa ofrece o",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:17",
+      "fecha": "2026-09-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Convocatoria Escuela Secundaria N° 2 “Islas del Ibicuy” de la localidad de Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "688b88552b973364c13cde4fe74a5a5ebfb43ee3a45911078e54784dd42c8f60"
+    "688b88552b973364c13cde4fe74a5a5ebfb43ee3a45911078e54784dd42c8f60",
+    "b9169042510f2c6668371506c0035b833de417c33574dc545da0e8dd367cd34e"
   ],
   "fecha_iso": "2026-09-10T12:49:36.980005",
   "fecha_inicio_iso": "2026-09-10T12:49:36.980005",
-  "fecha_ultima_actualizacion_iso": "2026-09-10T12:49:36.980005",
+  "fecha_ultima_actualizacion_iso": "2026-09-12T03:17:23.749071",
   "fecha_publicacion": "10 de Septiembre de 2026, 12:49 hs",
-  "fecha_ultima_actualizacion": "10 de Septiembre de 2026, 12:49 hs",
+  "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 03:17 hs",
   "archivo": "2026-09-10-concurso-docente-isfdc-villa-paranacito.json"
 }
