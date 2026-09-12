@@ -34,6 +34,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/79788&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1CGN4gZdBzSe1JQWL4sE2H",
       "fecha_consulta": "2026-09-12T18:08:17.019347"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://7paginas.com.ar/frigerio-recorrio-el-107-de-concordia-y-destaco-el-fortalecimiento-del-sistema-de-emergencias-sanitarias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw35skoKox1GueeLTdOqjBVe",
+      "fecha_consulta": "2026-09-12T21:57:14.618892"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lavoz901.com/amp/frigerio-recorri-el-107-de-concordia-y-destac-el-fortalecimiento-del-sistema-de-emergencias.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0FvJOqD2KbuCGGCEzNxWLN",
+      "fecha_consulta": "2026-09-12T21:57:18.987967"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +53,31 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito ha recibido una nueva ambulancia para traslado de pacientes y una camioneta Chevrolet S10 para Defensa Civil. Este equipamiento, parte del fortalecimiento provincial de emergencias, e",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "21:57",
+      "fecha": "2026-09-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Frigerio recorrió el 107 de Concordia y destacó el fortalecimiento del sistema de ...",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "21:57",
+      "fecha": "2026-09-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Frigerio recorrió el 107 de Concordia y destacó el fortalecimiento del sistema de emergencias",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "15f55625cd81516b961ebcb89ea634e717e2377a00248e7e6f2e37e9fd4feaa6"
+    "15f55625cd81516b961ebcb89ea634e717e2377a00248e7e6f2e37e9fd4feaa6",
+    "89c3800c0d0a11aaa10c5c35e9b69e4e81b022de0b395f33882ec81a79c82e18",
+    "ab2ee76fd52826c31c2760c2382f4ac3c8a69dbe2db259db1a58e7198bf01e9f"
   ],
   "fecha_iso": "2026-09-12T18:08:17.019347",
   "fecha_inicio_iso": "2026-09-12T18:08:17.019347",
-  "fecha_ultima_actualizacion_iso": "2026-09-12T18:08:17.019347",
+  "fecha_ultima_actualizacion_iso": "2026-09-12T21:57:18.987967",
   "fecha_publicacion": "12 de Septiembre de 2026, 18:08 hs",
-  "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 18:08 hs",
+  "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 21:57 hs",
   "archivo": "2026-09-12-villa-paranacito-emergencias-ambulancia-defensa-civil.json"
 }
