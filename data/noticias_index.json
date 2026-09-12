@@ -1,5 +1,126 @@
 [
   {
+    "acontecimiento_id": "2026-09-09-villa-paranacito-alerta-el-nino-fuerte-primavera",
+    "slug": "villa-paranacito-alerta-el-nino-fuerte-primavera",
+    "titulo": "Villa Paranacito en Alerta: Alta Probabilidad de un Fenómeno El Niño Fuerte esta Primavera",
+    "copete": "Expertos meteorológicos estiman en un 90% la probabilidad de que el fenómeno El Niño se manifieste con gran intensidad durante la próxima primavera, generando preocupación entre los productores y vecinos de Villa Paranacito y el Delta entrerriano.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Inundaciones",
+      "Clima",
+      "Pronóstico",
+      "Productores Ganaderos"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "9 de Septiembre de 2026, 22:17 hs",
+    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 18:08 hs",
+    "fecha_inicio_iso": "2026-09-09T22:17:53.496943",
+    "fecha_ultima_actualizacion_iso": "2026-09-12T18:08:23.560796",
+    "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito: 90% de probabilidad de El Niño fuerte esta primavera. Preocupa a productores y vecinos del Delta por posibles crecidas. ¡Tomar precauciones! 🌧️🚤🐄"
+  },
+  {
+    "acontecimiento_id": "2026-09-12-villa-paranacito-emergencias-ambulancia-defensa-civil",
+    "slug": "villa-paranacito-emergencias-ambulancia-defensa-civil",
+    "titulo": "Villa Paranacito Fortalece su Sistema de Emergencias con Nueva Ambulancia y Vehículo para Defensa Civil",
+    "copete": "La comunidad de Villa Paranacito y el Delta de Entre Ríos recibe equipamiento clave para la atención de emergencias y la protección civil, mejorando significativamente la capacidad de respuesta local.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Emergencias",
+      "Salud",
+      "Defensa Civil",
+      "Delta Entrerriano",
+      "Equipamiento"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "12 de Septiembre de 2026, 18:08 hs",
+    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 18:08 hs",
+    "fecha_inicio_iso": "2026-09-12T18:08:17.019347",
+    "fecha_ultima_actualizacion_iso": "2026-09-12T18:08:17.019347",
+    "resumen_whatsapp": "🚨 Villa Paranacito refuerza su sistema de emergencias con nueva ambulancia y camioneta para Defensa Civil. ¡Más seguridad y rapidez para el Delta! 🚑🚒"
+  },
+  {
+    "acontecimiento_id": "2026-09-12-cementerio-villa-paranacito-memoria-local",
+    "slug": "cementerio-villa-paranacito-memoria-local",
+    "titulo": "El Cementerio de Villa Paranacito: Un Espacio de Memoria y Patrimonio Local",
+    "copete": "El camposanto de Villa Paranacito, un sitio fundamental para la memoria colectiva de la comunidad, se erige como un reflejo de la historia y las raíces isleñas.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Cementerio",
+      "Memoria",
+      "Patrimonio",
+      "Comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "12 de Septiembre de 2026, 18:07 hs",
+    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 18:07 hs",
+    "fecha_inicio_iso": "2026-09-12T18:07:55.183258",
+    "fecha_ultima_actualizacion_iso": "2026-09-12T18:07:55.183258",
+    "resumen_whatsapp": "🌿 El Cementerio de Villa Paranacito: Más que un camposanto, un archivo vivo de nuestra historia. El Municipio trabaja en su preservación. ¡Cuidemos juntos este espacio de memoria! 🙏"
+  },
+  {
+    "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
+    "slug": "gilda-30-anos-accidente-villa-paranacito",
+    "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
+    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano conmemora tres décadas del trágico accidente que cobró la vida de la icónica cantante Gilda y parte de su comitiva en el kilómetro 129 de la Ruta Nacional 12, un suceso que dejó una huella imborrable en la memoria local y nacional.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Gilda",
+      "Accidente",
+      "Villa Paranacito",
+      "Ruta 12",
+      "Historia Local",
+      "Música"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 5,
+    "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
+    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 18:07 hs",
+    "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
+    "fecha_ultima_actualizacion_iso": "2026-09-12T18:07:21.766251",
+    "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-09-12-concurso-docente-villa-paranacito-educacion-delta",
     "slug": "concurso-docente-villa-paranacito-educacion-delta",
     "titulo": "Concurso Departamental de Nivel Primario en Villa Paranacito: Fortaleciendo la Educación en el Delta",
@@ -145,67 +266,6 @@
     "fecha_inicio_iso": "2026-09-10T12:49:45.777137",
     "fecha_ultima_actualizacion_iso": "2026-09-10T12:49:45.777137",
     "resumen_whatsapp": "🎣 ¡Pique excepcional en Villa Paranacito! Dorados y surubíes a la orden del día. 🚤 Impulsa el turismo local. ¡A disfrutar y cuidar el río! #Pesca #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-09-09-villa-paranacito-alerta-el-nino-fuerte-primavera",
-    "slug": "villa-paranacito-alerta-el-nino-fuerte-primavera",
-    "titulo": "Villa Paranacito en Alerta: Alta Probabilidad de un Fenómeno El Niño Fuerte esta Primavera",
-    "copete": "Expertos meteorológicos estiman en un 90% la probabilidad de que el fenómeno El Niño se manifieste con gran intensidad durante la próxima primavera, generando preocupación entre los productores y vecinos de Villa Paranacito y el Delta entrerriano.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Inundaciones",
-      "Clima",
-      "Pronóstico",
-      "Productores Ganaderos"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Septiembre de 2026, 22:17 hs",
-    "fecha_ultima_actualizacion": "9 de Septiembre de 2026, 22:17 hs",
-    "fecha_inicio_iso": "2026-09-09T22:17:53.496943",
-    "fecha_ultima_actualizacion_iso": "2026-09-09T22:17:53.496943",
-    "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito: 90% de probabilidad de El Niño fuerte esta primavera. Preocupa a productores y vecinos del Delta por posibles crecidas. ¡Tomar precauciones! 🌧️🚤🐄"
-  },
-  {
-    "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
-    "slug": "gilda-30-anos-accidente-villa-paranacito",
-    "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
-    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano conmemora tres décadas del trágico accidente que cobró la vida de la icónica cantante Gilda y parte de su comitiva en el kilómetro 129 de la Ruta Nacional 12, un suceso que dejó una huella imborrable en la memoria local y nacional.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Gilda",
-      "Accidente",
-      "Villa Paranacito",
-      "Ruta 12",
-      "Historia Local",
-      "Música"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
-    "fecha_ultima_actualizacion": "8 de Septiembre de 2026, 22:23 hs",
-    "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
-    "fecha_ultima_actualizacion_iso": "2026-09-08T22:23:38.775307",
-    "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",
