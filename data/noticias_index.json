@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-13-super-nino-alerta-delta-paranacito-hacienda",
+    "slug": "super-nino-alerta-delta-paranacito-hacienda",
+    "titulo": "El Súper Niño Pone en Alerta al Delta de Villa Paranacito: Productores Aceleran Traslado de Hacienda",
+    "copete": "Ante la inminente llegada de un fenómeno climático extremo, productores ganaderos de Villa Paranacito y el Delta de Entre Ríos han comenzado a trasladar su hacienda a zonas más altas para prevenir pérdidas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "El Niño",
+      "Ganadería",
+      "Crecidas",
+      "Islas del Ibicuy",
+      "Clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "13 de Septiembre de 2026, 13:14 hs",
+    "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 13:14 hs",
+    "fecha_inicio_iso": "2026-09-13T13:14:04.095097",
+    "fecha_ultima_actualizacion_iso": "2026-09-13T13:14:04.095097",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Productores apuran traslado de hacienda por el Súper Niño. ¡Prepararse es clave! 🐄💧"
+  },
+  {
     "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
     "slug": "gilda-30-anos-accidente-villa-paranacito",
     "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
@@ -825,36 +855,6 @@
     "resumen_whatsapp": "⚽️ ¡Fútbol en Villa Paranacito! La 15ª fecha del Torneo Eduardo Barbosa promete partidos clave para definir candidatos. 🏆 Atlético Sur juega en casa y Defensores del Sur vs. Sportivo Larroque en el Municipal. ¡No te lo pierdas! #Deportes #VillaParanacito"
   },
   {
-    "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-pone-en-alerta-al",
-    "slug": "el-fenomeno-el-nino-pone-en-alerta-al",
-    "titulo": "El Fenómeno El Niño Pone en Alerta al Delta Entrerriano y Acelera la Salida de Hacienda",
-    "copete": "El Delta de Entre Ríos, con Villa Paranacito a la cabeza, se prepara para los efectos del fenómeno El Niño, que ya muestra sus primeras señales con un aumento en los niveles hídricos y la consecuente necesidad de trasladar ganado a zonas más altas. Productores locales y autoridades monitorean la situación para mitigar el impacto en la economía regional y la vida isleña.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Delta Entrerriano",
-      "Villa Paranacito",
-      "Ganadería",
-      "Inundaciones",
-      "Río Paranacito",
-      "Prevención"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "26 de Agosto de 2026, 04:39 hs",
-    "fecha_ultima_actualizacion": "26 de Agosto de 2026, 04:39 hs",
-    "fecha_inicio_iso": "2026-08-26T04:39:18.748293",
-    "fecha_ultima_actualizacion_iso": "2026-08-26T04:39:18.748293",
-    "resumen_whatsapp": "📰 ¡Atención Delta! El Niño ya se siente en Villa Paranacito. 🌊 Productores aceleran la salida de hacienda por subida de ríos. 🚜 Mantente informado y toma precauciones. ¡Leé la nota completa para saber cómo prepararte!"
-  },
-  {
     "acontecimiento_id": "2026-08-26-el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
     "slug": "el-fenomeno-el-nino-se-fortalece-alta-probabilidad",
     "titulo": "El Fenómeno El Niño se Fortalece: Alta Probabilidad de Impacto Significativo en el Delta Entrerriano",
@@ -911,36 +911,6 @@
     "fecha_inicio_iso": "2026-08-25T20:29:27.110061",
     "fecha_ultima_actualizacion_iso": "2026-08-25T20:29:27.110061",
     "resumen_whatsapp": "¡Gran éxito en Villa Paranacito! 🥳 El 2do encuentro del ciclo 'Emociones en Familia' reunió a la comunidad para fortalecer lazos y compartir alegría. ¡Un espacio clave para el Delta! 👨‍👩‍👧‍👦 No te pierdas las próximas ediciones. #Comunidad #Familia"
-  },
-  {
-    "acontecimiento_id": "2026-08-25-preocupacion-delta-ganaderos-villa-paranacito-evacuan-hacienda-alerta",
-    "slug": "preocupacion-delta-ganaderos-villa-paranacito-evacuan-hacienda-alerta",
-    "titulo": "Preocupación en el Delta: Ganaderos de Villa Paranacito Evacúan Hacienda por Alerta de Crecida y Lluvias Intensas",
-    "copete": "Ante los pronósticos de un 'Súper Niño' y la inminencia de lluvias intensas y crecidas, los productores ganaderos de Villa Paranacito y el Delta entrerriano han comenzado la evacuación preventiva de sus animales, urgiendo a las autoridades por medidas de apoyo y asistencia.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Delta",
-      "Crecida",
-      "Ganadería",
-      "Súper Niño",
-      "Alerta Hídrica",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "3 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "25 de Agosto de 2026, 20:29 hs",
-    "fecha_ultima_actualizacion": "25 de Agosto de 2026, 20:29 hs",
-    "fecha_inicio_iso": "2026-08-25T20:29:01.687858",
-    "fecha_ultima_actualizacion_iso": "2026-08-25T20:29:01.687858",
-    "resumen_whatsapp": "📰 ¡Alerta en el Delta! Ganaderos de Villa Paranacito apuran el traslado de hacienda por el 'Súper Niño' y pronóstico de crecidas. 🌊 Se esperan lluvias intensas. Autoridades coordinan acciones. ¡Mantente informado y toma precauciones! #DeltaEnAlerta"
   },
   {
     "acontecimiento_id": "2026-08-25-adultos-mayores-delta-avanzan-juegos-departamentales",
