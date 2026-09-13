@@ -1,5 +1,40 @@
 [
   {
+    "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
+    "slug": "gilda-30-anos-accidente-villa-paranacito",
+    "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
+    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano conmemora tres décadas del trágico accidente que cobró la vida de la icónica cantante Gilda y parte de su comitiva en el kilómetro 129 de la Ruta Nacional 12, un suceso que dejó una huella imborrable en la memoria local y nacional.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Gilda",
+      "Accidente",
+      "Villa Paranacito",
+      "Ruta 12",
+      "Historia Local",
+      "Música"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 7,
+    "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
+    "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 03:21 hs",
+    "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
+    "fecha_ultima_actualizacion_iso": "2026-09-13T03:21:39.689778",
+    "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-09-12-villa-paranacito-emergencias-ambulancia-defensa-civil",
     "slug": "villa-paranacito-emergencias-ambulancia-defensa-civil",
     "titulo": "Villa Paranacito Fortalece su Sistema de Emergencias con Nueva Ambulancia y Vehículo para Defensa Civil",
@@ -29,40 +64,6 @@
     "fecha_inicio_iso": "2026-09-12T18:08:17.019347",
     "fecha_ultima_actualizacion_iso": "2026-09-12T21:57:18.987967",
     "resumen_whatsapp": "🚨 Villa Paranacito refuerza su sistema de emergencias con nueva ambulancia y camioneta para Defensa Civil. ¡Más seguridad y rapidez para el Delta! 🚑🚒"
-  },
-  {
-    "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
-    "slug": "gilda-30-anos-accidente-villa-paranacito",
-    "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
-    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano conmemora tres décadas del trágico accidente que cobró la vida de la icónica cantante Gilda y parte de su comitiva en el kilómetro 129 de la Ruta Nacional 12, un suceso que dejó una huella imborrable en la memoria local y nacional.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Gilda",
-      "Accidente",
-      "Villa Paranacito",
-      "Ruta 12",
-      "Historia Local",
-      "Música"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 6,
-    "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
-    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 21:57 hs",
-    "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
-    "fecha_ultima_actualizacion_iso": "2026-09-12T21:57:18.985560",
-    "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-09-09-villa-paranacito-alerta-el-nino-fuerte-primavera",

@@ -59,6 +59,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lmneuquen.com/pais/el-inesperado-hallazgo-la-tumba-gilda-que-sorprendio-sus-fanaticos-una-foto-se-viralizo-n1253408/amp&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ox7o70tJQvvRONl9VP5a_",
       "fecha_consulta": "2026-09-12T21:57:18.985560"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.mejorinformado.com/espectaculos/imagen-tumba-gilda-conmovio-fanaticos-genero-sorpresa_1789254924&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3d6VZDhpsyPpnrXX68IIOY",
+      "fecha_consulta": "2026-09-13T03:21:39.689778"
     }
   ],
   "cronologia_actualizaciones": [
@@ -103,6 +108,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo artículo se centra en un inesperado hallazgo en la tumba de Gilda y la viralización de una foto, un hecho reciente y distinto al aniversario del accidente.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:21",
+      "fecha": "2026-09-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El accidente fue causado por un camión. La noticia se centra en una imagen de la tumba de Gilda que conmovió a sus fanáticos y el misterio que la rodea.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -111,12 +123,13 @@
     "7838e259a367ee98cecd9c34ea8e03e9a5ebce67353b14143ab176025d9e27a4",
     "3349af7273dfd29432344d093f2c23f49255c6343f891be974b48c7da18e1ce5",
     "8cb03ca641a5670c386c05236c44c621ce5fd21e7f6d6b4794bc17e4770db52a",
-    "f70fcf476f7978701290b4b24723529c95fdd01f3f4ba2029d886fc01b62636d"
+    "f70fcf476f7978701290b4b24723529c95fdd01f3f4ba2029d886fc01b62636d",
+    "d7cc446a592a2f3a205a0de70926ede110027049ca68e558f59ed5d9060f4efb"
   ],
   "fecha_iso": "2026-09-07T17:19:10.818151",
   "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
-  "fecha_ultima_actualizacion_iso": "2026-09-12T21:57:18.985560",
+  "fecha_ultima_actualizacion_iso": "2026-09-13T03:21:39.689778",
   "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
-  "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 21:57 hs",
+  "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 03:21 hs",
   "archivo": "2026-09-07-gilda-30-anos-accidente-villa-paranacito.json"
 }
