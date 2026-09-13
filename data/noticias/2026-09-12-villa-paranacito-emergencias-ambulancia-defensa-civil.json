@@ -44,6 +44,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lavoz901.com/amp/frigerio-recorri-el-107-de-concordia-y-destac-el-fortalecimiento-del-sistema-de-emergencias.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0FvJOqD2KbuCGGCEzNxWLN",
       "fecha_consulta": "2026-09-12T21:57:18.987967"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/provincia/fortalecen-la-capacidad-operativa-y-la-infraestructura-de-la-red-de-emergencias-medicas-en-entre-rios.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3vGFoemaMKSWUF-pCqFeOy",
+      "fecha_consulta": "2026-09-13T18:34:13.855735"
     }
   ],
   "cronologia_actualizaciones": [
@@ -67,17 +72,25 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Frigerio recorrió el 107 de Concordia y destacó el fortalecimiento del sistema de emergencias",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "18:34",
+      "fecha": "2026-09-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La nueva ambulancia mencionada en la noticia ya publicada es una unidad Chevrolet Spin, recibida por el Ministerio de Salud y destinada específicamente al Hospital de Villa Paranacito para el traslado de pacientes.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "15f55625cd81516b961ebcb89ea634e717e2377a00248e7e6f2e37e9fd4feaa6",
     "89c3800c0d0a11aaa10c5c35e9b69e4e81b022de0b395f33882ec81a79c82e18",
-    "ab2ee76fd52826c31c2760c2382f4ac3c8a69dbe2db259db1a58e7198bf01e9f"
+    "ab2ee76fd52826c31c2760c2382f4ac3c8a69dbe2db259db1a58e7198bf01e9f",
+    "e7b8f481c81aab750857a0375b6b35a5438b4d9cdd54d37e2a706828b5660341"
   ],
   "fecha_iso": "2026-09-12T18:08:17.019347",
   "fecha_inicio_iso": "2026-09-12T18:08:17.019347",
-  "fecha_ultima_actualizacion_iso": "2026-09-12T21:57:18.987967",
+  "fecha_ultima_actualizacion_iso": "2026-09-13T18:34:13.855735",
   "fecha_publicacion": "12 de Septiembre de 2026, 18:08 hs",
-  "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 21:57 hs",
+  "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 18:34 hs",
   "archivo": "2026-09-12-villa-paranacito-emergencias-ambulancia-defensa-civil.json"
 }

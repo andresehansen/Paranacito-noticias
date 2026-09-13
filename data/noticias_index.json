@@ -1,5 +1,98 @@
 [
   {
+    "acontecimiento_id": "2026-09-13-legado-gilda-villa-paranacito-viral",
+    "slug": "legado-gilda-villa-paranacito-viral",
+    "titulo": "El Legado de Gilda Resuena en Villa Paranacito tras Viralización de Foto de su Nicho",
+    "copete": "Una imagen del lugar de descanso de la popular cantante Gilda, compartida masivamente en redes, generó un eco de nostalgia y recuerdos entre los vecinos de Villa Paranacito y el Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Gilda",
+      "música",
+      "Villa Paranacito",
+      "Delta",
+      "cultura popular",
+      "redes sociales",
+      "legado"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "13 de Septiembre de 2026, 18:34 hs",
+    "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 18:34 hs",
+    "fecha_inicio_iso": "2026-09-13T18:34:35.670685",
+    "fecha_ultima_actualizacion_iso": "2026-09-13T18:34:35.670685",
+    "resumen_whatsapp": "🎶 La viralización de una foto del nicho de Gilda generó nostalgia y recuerdos en Villa Paranacito. Su música sigue viva en el corazón del Delta. ❤️"
+  },
+  {
+    "acontecimiento_id": "2026-09-12-villa-paranacito-emergencias-ambulancia-defensa-civil",
+    "slug": "villa-paranacito-emergencias-ambulancia-defensa-civil",
+    "titulo": "Villa Paranacito Fortalece su Sistema de Emergencias con Nueva Ambulancia y Vehículo para Defensa Civil",
+    "copete": "La comunidad de Villa Paranacito y el Delta de Entre Ríos recibe equipamiento clave para la atención de emergencias y la protección civil, mejorando significativamente la capacidad de respuesta local.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Emergencias",
+      "Salud",
+      "Defensa Civil",
+      "Delta Entrerriano",
+      "Equipamiento"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "12 de Septiembre de 2026, 18:08 hs",
+    "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 18:34 hs",
+    "fecha_inicio_iso": "2026-09-12T18:08:17.019347",
+    "fecha_ultima_actualizacion_iso": "2026-09-13T18:34:13.855735",
+    "resumen_whatsapp": "🚨 Villa Paranacito refuerza su sistema de emergencias con nueva ambulancia y camioneta para Defensa Civil. ¡Más seguridad y rapidez para el Delta! 🚑🚒"
+  },
+  {
+    "acontecimiento_id": "2026-09-13-villa-paranacito-delta-recuerdan-gilda-santuario-ruta-12",
+    "slug": "villa-paranacito-delta-recuerdan-gilda-santuario-ruta-12",
+    "titulo": "Villa Paranacito y el Delta Recuerdan a Gilda: El Impacto Duradero del Santuario en Ruta 12 Cerca de Ceibas",
+    "copete": "A casi tres décadas del trágico accidente que le costó la vida a la popular cantante Gilda, el sitio en la Ruta Nacional 12, a pocos kilómetros de Ceibas, en el corazón del Departamento Islas del Ibicuy, se ha transformado en un santuario espontáneo que sigue atrayendo a miles de devotos y marca la memoria colectiva de la región.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Gilda",
+      "Accidente",
+      "Ruta 12",
+      "Ceibas",
+      "Islas del Ibicuy",
+      "Santuario",
+      "Memoria Colectiva",
+      "Villa Paranacito"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "13 de Septiembre de 2026, 18:34 hs",
+    "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 18:34 hs",
+    "fecha_inicio_iso": "2026-09-13T18:34:06.356934",
+    "fecha_ultima_actualizacion_iso": "2026-09-13T18:34:06.356934",
+    "resumen_whatsapp": "Delta Entrerriano: El santuario de Gilda en Ruta 12 cerca de Ceibas sigue vivo, atrayendo devotos y marcando la memoria local. 🎶🙏🛣️ #Gilda #Ceibas #Delta"
+  },
+  {
     "acontecimiento_id": "2026-09-13-super-nino-alerta-delta-paranacito-hacienda",
     "slug": "super-nino-alerta-delta-paranacito-hacienda",
     "titulo": "El Súper Niño Pone en Alerta al Delta de Villa Paranacito: Productores Aceleran Traslado de Hacienda",
@@ -28,72 +121,6 @@
     "fecha_inicio_iso": "2026-09-13T13:14:04.095097",
     "fecha_ultima_actualizacion_iso": "2026-09-13T13:14:04.095097",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Productores apuran traslado de hacienda por el Súper Niño. ¡Prepararse es clave! 🐄💧"
-  },
-  {
-    "acontecimiento_id": "2026-09-07-gilda-30-anos-accidente-villa-paranacito",
-    "slug": "gilda-30-anos-accidente-villa-paranacito",
-    "titulo": "A 30 Años de la Tragedia de Gilda: Villa Paranacito Recuerda el Accidente que Marcó la Ruta 12",
-    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano conmemora tres décadas del trágico accidente que cobró la vida de la icónica cantante Gilda y parte de su comitiva en el kilómetro 129 de la Ruta Nacional 12, un suceso que dejó una huella imborrable en la memoria local y nacional.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Gilda",
-      "Accidente",
-      "Villa Paranacito",
-      "Ruta 12",
-      "Historia Local",
-      "Música"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 7,
-    "fecha_publicacion": "7 de Septiembre de 2026, 17:19 hs",
-    "fecha_ultima_actualizacion": "13 de Septiembre de 2026, 03:21 hs",
-    "fecha_inicio_iso": "2026-09-07T17:19:10.818151",
-    "fecha_ultima_actualizacion_iso": "2026-09-13T03:21:39.689778",
-    "resumen_whatsapp": "💔 A 30 años de la tragedia de Gilda en Ruta 12, km 129, cerca de Villa Paranacito. La comunidad recuerda el impacto del accidente que marcó la historia local y nacional. #Gilda #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-09-12-villa-paranacito-emergencias-ambulancia-defensa-civil",
-    "slug": "villa-paranacito-emergencias-ambulancia-defensa-civil",
-    "titulo": "Villa Paranacito Fortalece su Sistema de Emergencias con Nueva Ambulancia y Vehículo para Defensa Civil",
-    "copete": "La comunidad de Villa Paranacito y el Delta de Entre Ríos recibe equipamiento clave para la atención de emergencias y la protección civil, mejorando significativamente la capacidad de respuesta local.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "Villa Paranacito",
-      "Emergencias",
-      "Salud",
-      "Defensa Civil",
-      "Delta Entrerriano",
-      "Equipamiento"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "12 de Septiembre de 2026, 18:08 hs",
-    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 21:57 hs",
-    "fecha_inicio_iso": "2026-09-12T18:08:17.019347",
-    "fecha_ultima_actualizacion_iso": "2026-09-12T21:57:18.987967",
-    "resumen_whatsapp": "🚨 Villa Paranacito refuerza su sistema de emergencias con nueva ambulancia y camioneta para Defensa Civil. ¡Más seguridad y rapidez para el Delta! 🚑🚒"
   },
   {
     "acontecimiento_id": "2026-09-09-villa-paranacito-alerta-el-nino-fuerte-primavera",
