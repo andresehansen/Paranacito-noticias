@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-14-hospital-villa-paranacito-nuevo-vehiculo-emergencias",
+  "titulo": "Fortalecimiento Clave: El Hospital de Villa Paranacito Recibe Nueva Unidad para Emergencias",
+  "copete": "El Hospital de Villa Paranacito ha sido dotado con un moderno vehículo Chevrolet Spin, fortaleciendo significativamente su capacidad de respuesta ante emergencias y traslados en la región del Delta.",
+  "cuerpo": [
+    "El sistema de salud de Villa Paranacito, pilar fundamental para la comunidad del Delta entrerriano, ha recibido un importante refuerzo con la incorporación de un nuevo vehículo Chevrolet Spin. Esta unidad, destinada al Hospital local, representa una mejora sustancial en la logística y capacidad de respuesta para la atención de emergencias y traslados de pacientes en una región con particularidades geográficas que demandan soluciones eficientes.",
+    "La llegada de esta unidad se alinea con las políticas de fortalecimiento del sistema de emergencias y salud pública impulsadas a nivel provincial. Si bien el Gobernador Frigerio ha destacado la importancia de equipar a los centros de salud en diversas localidades, la incorporación de este Chevrolet Spin al Hospital de Villa Paranacito subraya la atención puesta en las necesidades específicas de las comunidades del Delta, garantizando que los recursos lleguen a quienes más los necesitan para optimizar la atención.",
+    "Para los vecinos de Villa Paranacito y las zonas aledañas del Delta, la disponibilidad de este nuevo vehículo significa una mejora directa en la calidad de los servicios de salud. Permite traslados más rápidos y seguros en situaciones de emergencia, reduce los tiempos de espera y facilita el acceso a centros de mayor complejidad en caso de ser necesario. En un entorno donde la conectividad puede ser un desafío, contar con una unidad moderna y confiable es crucial para la tranquilidad y el bienestar de la población.",
+    "El personal del Hospital de Villa Paranacito ya se encuentra capacitado para operar la nueva unidad, que se integrará de inmediato a la flota existente para optimizar los servicios. Se recomienda a la comunidad seguir utilizando los canales habituales de comunicación con el Hospital para cualquier emergencia o consulta, confiando en que esta nueva herramienta contribuirá a una respuesta más eficaz y oportuna para todos los habitantes de Villa Paranacito y sus islas."
+  ],
+  "resumen": "El Hospital de Villa Paranacito recibió un nuevo Chevrolet Spin, fortaleciendo su capacidad de respuesta ante emergencias y traslados en el Delta. Esta incorporación mejora la calidad de los servicios de salud para los vecinos, permitiendo traslados más rápidos y seguros. La unidad ya está operativa, optimizando la atención en la región.",
+  "categoria": "Salud y Educación",
+  "tags": [
+    "Villa Paranacito",
+    "Hospital",
+    "Salud",
+    "Emergencias",
+    "Delta Entrerriano",
+    "Islas del Ibicuy"
+  ],
+  "slug": "hospital-villa-paranacito-nuevo-vehiculo-emergencias",
+  "resumen_whatsapp": "🚨 El Hospital de Villa Paranacito ya cuenta con un nuevo Chevrolet Spin para emergencias y traslados. ¡Más salud y seguridad para el Delta! 🏥🚙",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/salud/noticias/79830&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2qGJ-0FTy9XOzJR2LIRYAy",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/salud/noticias/79830&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2qGJ-0FTy9XOzJR2LIRYAy",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/salud/noticias/79830&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2qGJ-0FTy9XOzJR2LIRYAy",
+      "fecha_consulta": "2026-09-14T17:47:11.851244"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "17:47",
+      "fecha": "2026-09-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Hospital de Villa Paranacito recibió un nuevo Chevrolet Spin, fortaleciendo su capacidad de respuesta ante emergencias y traslados en el Delta. Esta incorporación mejora la calidad de los servicios",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "b6de895eec67382b5ab3763c48b1f68f881a7f5aaab1d6751d032521948c26f4"
+  ],
+  "fecha_iso": "2026-09-14T17:47:11.851244",
+  "fecha_inicio_iso": "2026-09-14T17:47:11.851244",
+  "fecha_ultima_actualizacion_iso": "2026-09-14T17:47:11.851244",
+  "fecha_publicacion": "14 de Septiembre de 2026, 17:47 hs",
+  "fecha_ultima_actualizacion": "14 de Septiembre de 2026, 17:47 hs",
+  "archivo": "2026-09-14-hospital-villa-paranacito-nuevo-vehiculo-emergencias.json"
+}
