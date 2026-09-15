@@ -1,0 +1,70 @@
+{
+  "acontecimiento_id": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico",
+  "titulo": "Villa Paranacito y Enersa Fortalecen la Gestión del Arbolado Urbano para Redes Eléctricas",
+  "copete": "El Municipio de Villa Paranacito y la empresa energética Enersa coordinan acciones para optimizar el mantenimiento del arbolado urbano, buscando mejorar la calidad del servicio eléctrico y la seguridad de los vecinos en la localidad y el Delta.",
+  "cuerpo": [
+    "El Municipio de Villa Paranacito ha iniciado una serie de capacitaciones y coordinaciones con la empresa energética Enersa, enfocadas en la gestión integral del arbolado urbano y su interacción con las redes eléctricas. Esta iniciativa es crucial para la localidad, ubicada en el corazón del Delta entrerriano, donde la exuberante vegetación y las condiciones climáticas particulares representan un desafío constante para el mantenimiento de la infraestructura eléctrica y la provisión de un servicio ininterrumpido a sus habitantes.",
+    "Según informaron fuentes municipales, estas jornadas de trabajo buscan establecer protocolos unificados y buenas prácticas en la poda y manejo de árboles cercanos a las líneas de media y baja tensión. El objetivo principal es minimizar los cortes de energía causados por la caída de ramas o el contacto directo con el tendido eléctrico, una problemática recurrente que afecta la vida diaria de los vecinos y la actividad productiva de la región.",
+    "Para los vecinos de Villa Paranacito y las zonas aledañas del Delta, la mejora en la gestión del arbolado se traduce directamente en una mayor estabilidad del suministro eléctrico. Esto impacta positivamente en el funcionamiento de los hogares, comercios, escuelas y el Hospital Eva Perón, evitando interrupciones que pueden afectar desde la conservación de alimentos hasta la operatividad de equipos médicos o la comunicación. Un servicio eléctrico confiable es fundamental para la calidad de vida y el desarrollo económico local, especialmente en una zona con características geográficas tan particulares.",
+    "En este marco, se prevé la implementación de un plan de trabajo conjunto que incluirá relevamientos periódicos del arbolado crítico y la ejecución de podas preventivas y correctivas, siempre bajo criterios técnicos y de seguridad. Se recomienda a los vecinos no realizar podas por cuenta propia cerca de las líneas eléctricas y, en caso de detectar ramas peligrosas o situaciones de riesgo, comunicarse de inmediato con el área de Servicios Públicos del Municipio o con Enersa para una intervención segura y profesional."
+  ],
+  "resumen": "El Municipio de Villa Paranacito y Enersa coordinan acciones para mejorar la gestión del arbolado urbano y su impacto en las redes eléctricas. Esta iniciativa busca reducir los cortes de energía causados por la vegetación, garantizando un servicio más estable y seguro para los vecinos del Delta. Se implementarán podas preventivas y se pide a la com",
+  "categoria": "Obras y Servicios",
+  "tags": [
+    "Villa Paranacito",
+    "Enersa",
+    "Arbolado Urbano",
+    "Servicio Eléctrico",
+    "Delta Entrerriano",
+    "Mantenimiento"
+  ],
+  "slug": "enersa-municipio-paranacito-arbolado-electrico",
+  "resumen_whatsapp": "⚡️ Villa Paranacito y Enersa coordinan gestión de arbolado para mejorar el servicio eléctrico. ¡Menos cortes y más seguridad para el Delta! 🌳💡",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/79876&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1VwknyL5K-HrPliUQQ5iL4",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/79876&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1VwknyL5K-HrPliUQQ5iL4",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/79876&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1VwknyL5K-HrPliUQQ5iL4",
+      "fecha_consulta": "2026-09-15T19:37:17.189813"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/enersa-se-capacita-junto-a-municipios-en-gestion-del-arbolado-urbano-y-redes-electricas/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3bD2T8q_8lMALkqGUgccJ6",
+      "fecha_consulta": "2026-09-15T19:37:17.193097"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:37",
+      "fecha": "2026-09-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Municipio de Villa Paranacito y Enersa coordinan acciones para mejorar la gestión del arbolado urbano y su impacto en las redes eléctricas. Esta iniciativa busca reducir los cortes de energía causa",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:37",
+      "fecha": "2026-09-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Enersa se capacita en gestión del arbolado urbano - La Gaceta Online",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "d39831a63c810e227d6dd2b8c4648ce2dbad8fae4f74edce0b6a3105bd8ab6dd",
+    "98a7839b0c9caf8d9431490c060a2f28f469a1004c60be87e4f482b39fca41ec"
+  ],
+  "fecha_iso": "2026-09-15T19:37:17.189813",
+  "fecha_inicio_iso": "2026-09-15T19:37:17.189813",
+  "fecha_ultima_actualizacion_iso": "2026-09-15T19:37:17.193097",
+  "fecha_publicacion": "15 de Septiembre de 2026, 19:37 hs",
+  "fecha_ultima_actualizacion": "15 de Septiembre de 2026, 19:37 hs",
+  "archivo": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico.json"
+}

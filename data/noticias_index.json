@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico",
+    "slug": "enersa-municipio-paranacito-arbolado-electrico",
+    "titulo": "Villa Paranacito y Enersa Fortalecen la Gestión del Arbolado Urbano para Redes Eléctricas",
+    "copete": "El Municipio de Villa Paranacito y la empresa energética Enersa coordinan acciones para optimizar el mantenimiento del arbolado urbano, buscando mejorar la calidad del servicio eléctrico y la seguridad de los vecinos en la localidad y el Delta.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Enersa",
+      "Arbolado Urbano",
+      "Servicio Eléctrico",
+      "Delta Entrerriano",
+      "Mantenimiento"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "15 de Septiembre de 2026, 19:37 hs",
+    "fecha_ultima_actualizacion": "15 de Septiembre de 2026, 19:37 hs",
+    "fecha_inicio_iso": "2026-09-15T19:37:17.189813",
+    "fecha_ultima_actualizacion_iso": "2026-09-15T19:37:17.193097",
+    "resumen_whatsapp": "⚡️ Villa Paranacito y Enersa coordinan gestión de arbolado para mejorar el servicio eléctrico. ¡Menos cortes y más seguridad para el Delta! 🌳💡"
+  },
+  {
     "acontecimiento_id": "2026-09-14-hospital-villa-paranacito-nuevo-vehiculo-emergencias",
     "slug": "hospital-villa-paranacito-nuevo-vehiculo-emergencias",
     "titulo": "Fortalecimiento Clave: El Hospital de Villa Paranacito Recibe Nueva Unidad para Emergencias",
