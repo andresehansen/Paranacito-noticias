@@ -39,6 +39,21 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/enersa-se-capacita-junto-a-municipios-en-gestion-del-arbolado-urbano-y-redes-electricas/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3bD2T8q_8lMALkqGUgccJ6",
       "fecha_consulta": "2026-09-15T19:37:17.193097"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/impulso-empresarial/enersa-y-municipios-se-capacitan-para-mejorar-el-manejo-del-arbolado-junto-a-redes-electricas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3CfSDKBY8slKNneajcFI-l",
+      "fecha_consulta": "2026-09-15T22:43:41.309306"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/enersa-impulsa-una-capacitacion-sobre-gestion-del-arbolado-urbano-y-redes-electricas/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw15YDmUo7geDIlSI_zMll1d",
+      "fecha_consulta": "2026-09-15T22:43:45.383957"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/09/15/471211-enersa-se-capacita-junto-a-municipios-en-gestion-del-arbolado-urbano-y-redes-electricas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw02Nt57xZYqGh0xx29bnxD-",
+      "fecha_consulta": "2026-09-15T22:43:50.709266"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +70,32 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Enersa se capacita en gestión del arbolado urbano - La Gaceta Online",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:43",
+      "fecha": "2026-09-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Enersa capacita a municipios sobre arbolado y redes eléctricas",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:43",
+      "fecha": "2026-09-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La propuesta de capacitación se desarrolló este martes en Gualeguay y continuará este miércoles en Villa Paranacito. La fecha de la noticia es martes 15 de septiembre de 2026.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "d39831a63c810e227d6dd2b8c4648ce2dbad8fae4f74edce0b6a3105bd8ab6dd",
-    "98a7839b0c9caf8d9431490c060a2f28f469a1004c60be87e4f482b39fca41ec"
+    "98a7839b0c9caf8d9431490c060a2f28f469a1004c60be87e4f482b39fca41ec",
+    "50d3bb3302786404845dbd090778868e3651e338a2fe8091dd2e4f5c54da0a20",
+    "33fd3a57346350d9d5a41bde983189bdf3e293fbe3d3267612e29ae5d236f363"
   ],
   "fecha_iso": "2026-09-15T19:37:17.189813",
   "fecha_inicio_iso": "2026-09-15T19:37:17.189813",
-  "fecha_ultima_actualizacion_iso": "2026-09-15T19:37:17.193097",
+  "fecha_ultima_actualizacion_iso": "2026-09-15T22:43:50.709266",
   "fecha_publicacion": "15 de Septiembre de 2026, 19:37 hs",
-  "fecha_ultima_actualizacion": "15 de Septiembre de 2026, 19:37 hs",
+  "fecha_ultima_actualizacion": "15 de Septiembre de 2026, 22:43 hs",
   "archivo": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico.json"
 }
