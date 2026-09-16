@@ -1,5 +1,65 @@
 [
   {
+    "acontecimiento_id": "2026-09-16-acceso-justicia-hospital-villa-paranacito",
+    "slug": "acceso-justicia-hospital-villa-paranacito",
+    "titulo": "Acceso a la Justicia para los Isleños: El Programa Provincial Llega al Hospital de Villa Paranacito",
+    "copete": "El programa provincial 'Justicia va a los Barrios' arribará al Hospital Local de Villa Paranacito, ofreciendo asesoramiento legal gratuito y trámites esenciales para los vecinos de la localidad y el Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Justicia va a los Barrios",
+      "Villa Paranacito",
+      "Hospital Local",
+      "Asesoramiento Legal",
+      "Delta Entrerriano",
+      "Servicios Comunitarios"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
+    "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 19:29 hs",
+    "fecha_inicio_iso": "2026-09-16T19:28:52.247923",
+    "fecha_ultima_actualizacion_iso": "2026-09-16T19:29:01.925801",
+    "resumen_whatsapp": "⚖️ ¡Justicia en tu barrio! El programa provincial llega al Hospital de Villa Paranacito de 9 a 12 con asesoramiento legal gratuito y trámites. ¡Aprovechá! 🚤"
+  },
+  {
+    "acontecimiento_id": "2026-09-16-escuela-itinerante-agmer-llega-paranacito",
+    "slug": "escuela-itinerante-agmer-llega-paranacito",
+    "titulo": "La 'Escuela Itinerante Entrerriana' de AGMER Llega a Villa Paranacito para Debatir el Futuro Educativo Local",
+    "copete": "La iniciativa gremial de AGMER, que busca visibilizar y debatir la situación educativa en la provincia, arribará la próxima semana a Villa Paranacito, ofreciendo un espacio de diálogo crucial para docentes, familias y la comunidad del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Educación",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Escuela Itinerante",
+      "Comunidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
+    "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 19:29 hs",
+    "fecha_inicio_iso": "2026-09-16T19:28:40.542909",
+    "fecha_ultima_actualizacion_iso": "2026-09-16T19:29:01.922144",
+    "resumen_whatsapp": "📢 ¡Atención Villa Paranacito! La 'Escuela Itinerante' de AGMER llega la próxima semana para debatir el futuro educativo local. ¡Tu voz es importante! 📚🗣️"
+  },
+  {
     "acontecimiento_id": "2026-09-16-convocatoria-eet-1-villa-paranacito",
     "slug": "convocatoria-eet-1-villa-paranacito",
     "titulo": "Importante Convocatoria en la E.E.T. N°1 'Augusto Widmann' de Villa Paranacito",
