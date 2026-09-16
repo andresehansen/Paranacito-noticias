@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-09-16-convocatoria-eet-1-villa-paranacito",
+    "slug": "convocatoria-eet-1-villa-paranacito",
+    "titulo": "Importante Convocatoria en la E.E.T. N°1 'Augusto Widmann' de Villa Paranacito",
+    "copete": "La Escuela de Educación Técnica N°1 'Augusto Widmann' de Villa Paranacito ha emitido una convocatoria crucial para la comunidad educativa, buscando fortalecer lazos y planificar el futuro institucional.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Villa Paranacito",
+      "EET N°1 Augusto Widmann",
+      "Comunidad Educativa",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "16 de Septiembre de 2026, 13:19 hs",
+    "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 13:19 hs",
+    "fecha_inicio_iso": "2026-09-16T13:19:13.739024",
+    "fecha_ultima_actualizacion_iso": "2026-09-16T13:19:13.739024",
+    "resumen_whatsapp": "📢 ¡Atención Villa Paranacito! La E.E.T. N°1 'Augusto Widmann' convoca a su comunidad para un encuentro clave. ¡Tu participación es importante! 🏫📚"
+  },
+  {
     "acontecimiento_id": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico",
     "slug": "enersa-municipio-paranacito-arbolado-electrico",
     "titulo": "Villa Paranacito y Enersa Fortalecen la Gestión del Arbolado Urbano para Redes Eléctricas",
@@ -261,6 +289,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
