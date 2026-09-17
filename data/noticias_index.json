@@ -1,34 +1,32 @@
 [
   {
-    "acontecimiento_id": "2026-09-16-escuela-itinerante-agmer-llega-paranacito",
-    "slug": "escuela-itinerante-agmer-llega-paranacito",
-    "titulo": "La 'Escuela Itinerante Entrerriana' de AGMER Llega a Villa Paranacito para Debatir el Futuro Educativo Local",
-    "copete": "La iniciativa gremial de AGMER, que busca visibilizar y debatir la situación educativa en la provincia, arribará la próxima semana a Villa Paranacito, ofreciendo un espacio de diálogo crucial para docentes, familias y la comunidad del Delta.",
+    "acontecimiento_id": "2026-09-17-escuela-itinerante-llega-villa-paranacito",
+    "slug": "escuela-itinerante-llega-villa-paranacito",
+    "titulo": "La Escuela Itinerante llega a Villa Paranacito: Oportunidad Educativa para el Corazón del Delta",
+    "copete": "La innovadora propuesta de la Escuela Itinerante, que busca acercar formación y capacitación a distintas localidades, desembarcará la próxima semana en Villa Paranacito, ofreciendo una valiosa oportunidad para la comunidad isleña.",
     "categoria": "Salud y Educación",
     "tags": [
-      "AGMER",
-      "Educación",
-      "Villa Paranacito",
-      "Delta Entrerriano",
       "Escuela Itinerante",
-      "Comunidad"
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Educación",
+      "Capacitación",
+      "Delta Entrerriano"
     ],
-    "estado": "En desarrollo",
+    "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google News (Entre Ríos Ahora)"
+      "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
-    "fecha_ultima_actualizacion": "17 de Septiembre de 2026, 03:36 hs",
-    "fecha_inicio_iso": "2026-09-16T19:28:40.542909",
-    "fecha_ultima_actualizacion_iso": "2026-09-17T03:36:00.795592",
-    "resumen_whatsapp": "📢 ¡Atención Villa Paranacito! La 'Escuela Itinerante' de AGMER llega la próxima semana para debatir el futuro educativo local. ¡Tu voz es importante! 📚🗣️"
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "17 de Septiembre de 2026, 19:39 hs",
+    "fecha_ultima_actualizacion": "17 de Septiembre de 2026, 19:39 hs",
+    "fecha_inicio_iso": "2026-09-17T19:39:28.291509",
+    "fecha_ultima_actualizacion_iso": "2026-09-17T19:39:28.291509",
+    "resumen_whatsapp": "📚 ¡Gran noticia para Villa Paranacito! La Escuela Itinerante llega la próxima semana con talleres y capacitaciones gratuitas para toda la comunidad. ¡No te lo pierdas! #Educación #Delta"
   },
   {
     "acontecimiento_id": "2026-09-17-iapv-confirma-planes-vivienda-villa-paranacito",
