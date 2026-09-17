@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/amp/agmer-lanzo-su-escuela-itinerante-y-reclamo-salarios.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2AT_htMEdzVEXzLC5mdPqv",
       "fecha_consulta": "2026-09-16T19:29:01.922144"
+    },
+    {
+      "nombre": "Google News (Entre Ríos Ahora)",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTXhmcTFuU0c2U2duRzRKMF9VME0yWWxXZEdZdUlfNGwwTWNkQ1dnVFlJWGpsdnpCUTVaWHpJNEVqV0VYZ1FOd1VBZVU3WjlHNTkyOGRycWs3TTlueVBqR2U1VmRWZGZQOFdGSldBdWxnSjQyVjdBWWlzLVlEeEZfa1Jtc3pBM0gyTk1DZ0ZaNThzUQ?oc=5",
+      "fecha_consulta": "2026-09-17T03:36:00.795592"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "AGMER denunció una pérdida salarial del 18% durante el lanzamiento de la Escuela Itinerante Entrerriana en Plaza Mansilla.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:36",
+      "fecha": "2026-09-17",
+      "fuente": "Google News (Entre Ríos Ahora)",
+      "dato": "La Escuela Itinerante inició en Paraná y sigue en Paranacito - Entre Ríos Ahora",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "8bf5873cc068a31ea1e910a69f64f6d11764dd1470d7ec92d394c1f6f49eedf4",
-    "343d8f0ddfbb2901c65011a404f5e638e942bd88877f8465a807e10e6fe8b91b"
+    "343d8f0ddfbb2901c65011a404f5e638e942bd88877f8465a807e10e6fe8b91b",
+    "13e9e47778022bade26775888ba5bfafaa0fc144f1f8fdaa3055eba76116702d"
   ],
   "fecha_iso": "2026-09-16T19:28:40.542909",
   "fecha_inicio_iso": "2026-09-16T19:28:40.542909",
-  "fecha_ultima_actualizacion_iso": "2026-09-16T19:29:01.922144",
+  "fecha_ultima_actualizacion_iso": "2026-09-17T03:36:00.795592",
   "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
-  "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 19:29 hs",
+  "fecha_ultima_actualizacion": "17 de Septiembre de 2026, 03:36 hs",
   "archivo": "2026-09-16-escuela-itinerante-agmer-llega-paranacito.json"
 }
