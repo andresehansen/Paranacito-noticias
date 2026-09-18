@@ -1,5 +1,31 @@
 [
   {
+    "acontecimiento_id": "2026-09-18-hospital-villa-paranacito-estudios-cardiologicos",
+    "slug": "hospital-villa-paranacito-estudios-cardiologicos",
+    "titulo": "Hito Sanitario en Villa Paranacito: El Hospital Local Incorpora Estudios Cardiológicos de Alta Complejidad",
+    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la atención sanitaria local al incorporar equipamiento y personal para realizar estudios cardiológicos completos, evitando traslados y mejorando la calidad de vida de los vecinos.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud",
+      "Hospital",
+      "Villa Paranacito"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Informe Digital)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "18 de Septiembre de 2026, 12:51 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 12:51 hs",
+    "fecha_inicio_iso": "2026-09-18T12:51:06.059867",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T12:51:06.059867",
+    "resumen_whatsapp": "¡Gran noticia para el Delta! 🏥 El Hospital de Villa Paranacito ya realiza estudios cardiológicos completos. ¡Salud más cerca de casa! ❤️🩺"
+  },
+  {
     "acontecimiento_id": "2026-09-17-escuela-itinerante-llega-villa-paranacito",
     "slug": "escuela-itinerante-llega-villa-paranacito",
     "titulo": "La Escuela Itinerante llega a Villa Paranacito: Oportunidad Educativa para el Corazón del Delta",
