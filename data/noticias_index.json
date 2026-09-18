@@ -1,14 +1,14 @@
 [
   {
-    "acontecimiento_id": "2026-09-18-entre-rios-invita-a-construir-entre-todos-una",
-    "slug": "entre-rios-invita-a-construir-entre-todos-una",
-    "titulo": "Entre Ríos invita a construir entre todos una frase que represente a la provincia - AIM Digital",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Entre Ríos invita a construir entre todos una frase que represente a la provincia - AIM Digital.",
-    "categoria": "Río y Clima",
+    "acontecimiento_id": "2026-09-18-allanaron-el-aerodromo-gualeguaychu-por-la-causa-de",
+    "slug": "allanaron-el-aerodromo-gualeguaychu-por-la-causa-de",
+    "titulo": "Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta.",
+    "categoria": "Sociedad",
     "tags": [
       "villa paranacito",
       "delta",
-      "río y clima"
+      "sociedad"
     ],
     "estado": "Publicado",
     "es_alerta": false,
@@ -19,11 +19,40 @@
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_inicio_iso": "2026-09-18T18:54:41.259120",
-    "fecha_ultima_actualizacion_iso": "2026-09-18T18:54:41.259120",
-    "resumen_whatsapp": "📰 *Entre Ríos invita a construir entre todos una frase que represente a la provincia - AIM Digital* — google.com"
+    "fecha_publicacion": "18 de Septiembre de 2026, 22:20 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 22:20 hs",
+    "fecha_inicio_iso": "2026-09-18T22:20:20.275444",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T22:20:20.275444",
+    "resumen_whatsapp": "📰 *Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-09-18-villa-paranacito-festival-memoria-juventud",
+    "slug": "villa-paranacito-festival-memoria-juventud",
+    "titulo": "Villa Paranacito Conmemoró la Memoria con Emotivo Festival y Fuerte Participación Juvenil",
+    "copete": "Un festival vibrante en Villa Paranacito hizo florecer la memoria colectiva entre los jóvenes, marcando un hito en la transmisión de valores y la reflexión histórica a medio siglo de eventos trascendentales.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Memoria",
+      "Festival",
+      "Juventud",
+      "Delta Entrerriano",
+      "Cultura"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "18 de Septiembre de 2026, 22:20 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 22:20 hs",
+    "fecha_inicio_iso": "2026-09-18T22:20:19.079572",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T22:20:19.079572",
+    "resumen_whatsapp": "✨ Villa Paranacito vibró con un emotivo festival que hizo florecer la memoria entre los jóvenes, a 50 años de hitos históricos. ¡Comunidad y cultura unidas en el Delta! 🇦🇷"
   },
   {
     "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
