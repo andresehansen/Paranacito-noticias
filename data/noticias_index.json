@@ -1,29 +1,93 @@
 [
   {
-    "acontecimiento_id": "2026-09-18-hospital-villa-paranacito-estudios-cardiologicos",
-    "slug": "hospital-villa-paranacito-estudios-cardiologicos",
-    "titulo": "Hito Sanitario en Villa Paranacito: El Hospital Local Incorpora Estudios Cardiológicos de Alta Complejidad",
-    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la atención sanitaria local al incorporar equipamiento y personal para realizar estudios cardiológicos completos, evitando traslados y mejorando la calidad de vida de los vecinos.",
-    "categoria": "Salud y Educación",
+    "acontecimiento_id": "2026-09-18-google-noticias",
+    "slug": "google-noticias",
+    "titulo": "Google Noticias",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Google Noticias.",
+    "categoria": "Río y Clima",
     "tags": [
-      "Salud",
-      "Hospital",
-      "Villa Paranacito"
+      "villa paranacito",
+      "delta",
+      "río y clima"
     ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1200&q=80",
+    "imagen": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google News (Informe Digital)"
+      "Google News (Diario El Argentino)"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "18 de Septiembre de 2026, 12:51 hs",
-    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 12:51 hs",
-    "fecha_inicio_iso": "2026-09-18T12:51:06.059867",
-    "fecha_ultima_actualizacion_iso": "2026-09-18T12:51:06.059867",
-    "resumen_whatsapp": "¡Gran noticia para el Delta! 🏥 El Hospital de Villa Paranacito ya realiza estudios cardiológicos completos. ¡Salud más cerca de casa! ❤️🩺"
+    "fecha_publicacion": "18 de Septiembre de 2026, 16:05 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 16:05 hs",
+    "fecha_inicio_iso": "2026-09-18T16:05:35.351796",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T16:05:35.351796",
+    "resumen_whatsapp": "📰 *Google Noticias* — news.google.com"
+  },
+  {
+    "acontecimiento_id": "2026-09-16-acceso-justicia-hospital-villa-paranacito",
+    "slug": "acceso-justicia-hospital-villa-paranacito",
+    "titulo": "Acceso a la Justicia para los Isleños: El Programa Provincial Llega al Hospital de Villa Paranacito",
+    "copete": "El programa provincial 'Justicia va a los Barrios' arribará al Hospital Local de Villa Paranacito, ofreciendo asesoramiento legal gratuito y trámites esenciales para los vecinos de la localidad y el Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Justicia va a los Barrios",
+      "Villa Paranacito",
+      "Hospital Local",
+      "Asesoramiento Legal",
+      "Delta Entrerriano",
+      "Servicios Comunitarios"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 7,
+    "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 16:05 hs",
+    "fecha_inicio_iso": "2026-09-16T19:28:52.247923",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T16:05:33.004185",
+    "resumen_whatsapp": "⚖️ ¡Justicia en tu barrio! El programa provincial llega al Hospital de Villa Paranacito de 9 a 12 con asesoramiento legal gratuito y trámites. ¡Aprovechá! 🚤"
+  },
+  {
+    "acontecimiento_id": "2026-09-18-salud-villa-paranacito-nuevos-estudios",
+    "slug": "salud-villa-paranacito-nuevos-estudios",
+    "titulo": "Avance en Salud Local: Villa Paranacito Suma Nuevos Estudios Diagnósticos para la Comunidad",
+    "copete": "El Hospital Eva Perón de Villa Paranacito ha incorporado equipamiento y personal para ofrecer una gama ampliada de estudios médicos, mejorando significativamente el acceso a la salud para los vecinos del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud",
+      "Villa Paranacito",
+      "Hospital Eva Perón",
+      "Estudios Médicos",
+      "Delta Entrerriano",
+      "Servicios de Salud"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "18 de Septiembre de 2026, 15:57 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 15:57 hs",
+    "fecha_inicio_iso": "2026-09-18T15:57:30.961827",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T15:57:30.961827",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital Eva Perón suma nuevos estudios diagnósticos (ecografías, análisis) mejorando el acceso a la salud local. ¡Menos viajes, más atención!"
   },
   {
     "acontecimiento_id": "2026-09-17-escuela-itinerante-llega-villa-paranacito",
@@ -82,40 +146,6 @@
     "fecha_inicio_iso": "2026-09-17T03:36:00.790913",
     "fecha_ultima_actualizacion_iso": "2026-09-17T03:36:00.790913",
     "resumen_whatsapp": "🏡 ¡Buenas noticias para Villa Paranacito! El IAPV confirma nuevos planes de vivienda para nuestra comunidad. ¡Atentos a los anuncios del Municipio! #ViviendaDigna #Delta"
-  },
-  {
-    "acontecimiento_id": "2026-09-16-acceso-justicia-hospital-villa-paranacito",
-    "slug": "acceso-justicia-hospital-villa-paranacito",
-    "titulo": "Acceso a la Justicia para los Isleños: El Programa Provincial Llega al Hospital de Villa Paranacito",
-    "copete": "El programa provincial 'Justicia va a los Barrios' arribará al Hospital Local de Villa Paranacito, ofreciendo asesoramiento legal gratuito y trámites esenciales para los vecinos de la localidad y el Delta.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Justicia va a los Barrios",
-      "Villa Paranacito",
-      "Hospital Local",
-      "Asesoramiento Legal",
-      "Delta Entrerriano",
-      "Servicios Comunitarios"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 6,
-    "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
-    "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 22:40 hs",
-    "fecha_inicio_iso": "2026-09-16T19:28:52.247923",
-    "fecha_ultima_actualizacion_iso": "2026-09-16T22:40:17.019993",
-    "resumen_whatsapp": "⚖️ ¡Justicia en tu barrio! El programa provincial llega al Hospital de Villa Paranacito de 9 a 12 con asesoramiento legal gratuito y trámites. ¡Aprovechá! 🚤"
   },
   {
     "acontecimiento_id": "2026-09-16-convocatoria-eet-1-villa-paranacito",

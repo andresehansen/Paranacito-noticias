@@ -59,6 +59,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/09/16/471364-este-viernes-justicia-va-a-los-barrios-llega-simultaneamente-a-31-localidades-entrerrianas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3TaJuaPJqbuNghQyHjQx-h",
       "fecha_consulta": "2026-09-16T22:40:17.019993"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.justicia.ar/novedades/5609/2026/09/este-viernes-justicia-va-a-los-barrios-llega-simultaneamente-a-31-localidades-entrerrianas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3DbbObOmAzk3ATGNf-ufsQ",
+      "fecha_consulta": "2026-09-18T16:05:33.004185"
     }
   ],
   "cronologia_actualizaciones": [
@@ -103,6 +108,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Este viernes “Justicia va a los Barrios” llega simultáneamente a 31 localidades entrerrianas",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:05",
+      "fecha": "2026-09-18",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Este viernes, “Justicia va a los Barrios” llega simultáneamente a 31 localidades entrerrianas",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -111,12 +123,13 @@
     "266afe1cb6baa4ff8cc503da8ae18e7f77ddd05859d82d8f26a97c346e84adbc",
     "05d3ce3250f59962216711030ccc65a411de9f4a2060ad935cd6c1f329380824",
     "f8b2c9513084d9179231af3489c41a2ef4a2d884fb90f7661598c1f7f4261979",
-    "68402a83119669d73efe9b964a119290b4dd494e8c4fe9f1449001aea1ea0bba"
+    "68402a83119669d73efe9b964a119290b4dd494e8c4fe9f1449001aea1ea0bba",
+    "a3800c0122ee438b58c68afec8cfe68630cb289b7d8c2f8630fe1b33c00b3b1d"
   ],
   "fecha_iso": "2026-09-16T19:28:52.247923",
   "fecha_inicio_iso": "2026-09-16T19:28:52.247923",
-  "fecha_ultima_actualizacion_iso": "2026-09-16T22:40:17.019993",
+  "fecha_ultima_actualizacion_iso": "2026-09-18T16:05:33.004185",
   "fecha_publicacion": "16 de Septiembre de 2026, 19:28 hs",
-  "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 22:40 hs",
+  "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 16:05 hs",
   "archivo": "2026-09-16-acceso-justicia-hospital-villa-paranacito.json"
 }
