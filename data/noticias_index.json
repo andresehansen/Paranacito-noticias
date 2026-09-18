@@ -1,9 +1,9 @@
 [
   {
-    "acontecimiento_id": "2026-09-18-google-noticias",
-    "slug": "google-noticias",
-    "titulo": "Google Noticias",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Google Noticias.",
+    "acontecimiento_id": "2026-09-18-entre-rios-invita-a-construir-entre-todos-una",
+    "slug": "entre-rios-invita-a-construir-entre-todos-una",
+    "titulo": "Entre Ríos invita a construir entre todos una frase que represente a la provincia - AIM Digital",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Entre Ríos invita a construir entre todos una frase que represente a la provincia - AIM Digital.",
     "categoria": "Río y Clima",
     "tags": [
       "villa paranacito",
@@ -13,17 +13,47 @@
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google News (Diario El Argentino)"
+      "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "18 de Septiembre de 2026, 16:05 hs",
-    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 16:05 hs",
-    "fecha_inicio_iso": "2026-09-18T16:05:35.351796",
-    "fecha_ultima_actualizacion_iso": "2026-09-18T16:05:35.351796",
-    "resumen_whatsapp": "📰 *Google Noticias* — news.google.com"
+    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_inicio_iso": "2026-09-18T18:54:41.259120",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T18:54:41.259120",
+    "resumen_whatsapp": "📰 *Entre Ríos invita a construir entre todos una frase que represente a la provincia - AIM Digital* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
+    "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
+    "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
+    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la mejora de sus servicios de salud, incorporando por primera vez equipamiento especializado para estudios cardiológicos.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Hospital Paranacito",
+      "Salud",
+      "Cardiología",
+      "Equipamiento Médico",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
+    "fecha_ultima_actualizacion_iso": "2026-09-18T18:54:37.999246",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
   },
   {
     "acontecimiento_id": "2026-09-16-acceso-justicia-hospital-villa-paranacito",

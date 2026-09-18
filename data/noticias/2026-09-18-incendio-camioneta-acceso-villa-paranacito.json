@@ -1,0 +1,61 @@
+{
+  "acontecimiento_id": "2026-09-18-incendio-camioneta-acceso-villa-paranacito",
+  "titulo": "Incendio Total de Camioneta en el Acceso a Villa Paranacito: Rápida Intervención de Bomberos",
+  "copete": "Una camioneta sufrió la destrucción total por un incendio en la Ruta Provincial N° 45, a pocos kilómetros del ingreso a Villa Paranacito, generando un operativo de emergencia y un llamado a la precaución vehicular.",
+  "cuerpo": [
+    "Una camioneta quedó completamente calcinada durante la mañana del jueves en la Ruta Provincial N° 45, a pocos kilómetros del ingreso principal a Villa Paranacito, en el corazón del Delta Entrerriano. El incidente, que afortunadamente no registró heridos, movilizó rápidamente a los equipos de emergencia locales, generando preocupación entre los vecinos por la seguridad vial en una de las arterias clave de la región.",
+    "Según fuentes de los Bomberos Voluntarios de Villa Paranacito, el fuego se desató de manera repentina en el compartimento del motor del vehículo, una vez que la conductora, cuya identidad no fue revelada, detuvo la marcha tras notar una falla mecánica. La rápida propagación de las llamas impidió cualquier intento de control inicial, dejando el rodado en estado de pérdida total a pesar de la veloz llegada de la dotación de bomberos que logró extinguir el foco ígneo y asegurar la zona.",
+    "Este tipo de sucesos, aunque sin víctimas, resalta la importancia del mantenimiento preventivo de los vehículos que transitan las rutas del Delta, fundamentales para la conectividad de los isleños. La interrupción momentánea del tránsito en la Ruta 45, si bien fue breve, subraya la vulnerabilidad de los accesos y la necesidad de contar con servicios de emergencia eficientes, vitales para garantizar la fluidez y seguridad en el transporte de personas y productos hacia y desde Villa Paranacito y las Islas del Ibicuy.",
+    "Desde el Municipio de Villa Paranacito, se hizo un llamado a los conductores a extremar las precauciones y realizar revisiones periódicas de sus vehículos, especialmente antes de emprender viajes. Se recordó la importancia de llevar un extintor en condiciones y conocer los números de emergencia locales, como el 100 para Bomberos y el 101 para la Policía, para actuar con celeridad ante cualquier imprevisto en las rutas que conectan nuestra comunidad."
+  ],
+  "resumen": "Una camioneta se incendió por completo en la Ruta Provincial N° 45, cerca del acceso a Villa Paranacito, sin registrar heridos. Bomberos Voluntarios actuaron rápidamente para controlar el fuego. El incidente subraya la importancia del mantenimiento vehicular y la eficiencia de los servicios de emergencia en el Delta.",
+  "categoria": "Sociedad",
+  "tags": [
+    "Villa Paranacito",
+    "Incendio vehicular",
+    "Ruta Provincial 45",
+    "Bomberos Voluntarios",
+    "Seguridad vial"
+  ],
+  "slug": "incendio-camioneta-acceso-villa-paranacito",
+  "resumen_whatsapp": "🚨 Camioneta se incendió totalmente en acceso a Villa Paranacito. Sin heridos, Bomberos actuaron rápido. ¡Precaución en rutas! #VillaParanacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/una-camioneta-se-incendio-completamente-en-el-acceso-a-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2y9sC9qL4ioXI5sboVOLc8",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/una-camioneta-se-incendio-completamente-en-el-acceso-a-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2y9sC9qL4ioXI5sboVOLc8",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/una-camioneta-se-incendio-completamente-en-el-acceso-a-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2y9sC9qL4ioXI5sboVOLc8",
+      "fecha_consulta": "2026-09-18T18:54:28.602223"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/una-llamarada-provoco-el-incendio-en-una-vivienda-de-madera-al-norte-de-gualeguaychu.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0zp5Y8QFEChOCUMlVUnXxn",
+      "fecha_consulta": "2026-09-18T18:54:34.770299"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "18:54",
+      "fecha": "2026-09-18",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Una camioneta se incendió por completo en la Ruta Provincial N° 45, cerca del acceso a Villa Paranacito, sin registrar heridos. Bomberos Voluntarios actuaron rápidamente para controlar el fuego. El in",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "72e49286a4332c39632dcafe1f8b53ea6f4c1fba202993281eacaa0c8a8367b4"
+  ],
+  "fecha_iso": "2026-09-18T18:54:28.602223",
+  "fecha_inicio_iso": "2026-09-18T18:54:28.602223",
+  "fecha_ultima_actualizacion_iso": "2026-09-18T18:54:28.602223",
+  "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
+  "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 18:54 hs",
+  "archivo": "2026-09-18-incendio-camioneta-acceso-villa-paranacito.json"
+}
