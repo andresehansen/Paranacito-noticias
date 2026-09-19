@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
+    "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
+    "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
+    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la mejora de sus servicios de salud, incorporando por primera vez equipamiento especializado para estudios cardiológicos.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Hospital Paranacito",
+      "Salud",
+      "Cardiología",
+      "Equipamiento Médico",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google News (examedia.com.ar)"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 12:23 hs",
+    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T12:23:52.323055",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
+  },
+  {
     "acontecimiento_id": "2026-09-18-allanaron-el-aerodromo-gualeguaychu-por-la-causa-de",
     "slug": "allanaron-el-aerodromo-gualeguaychu-por-la-causa-de",
     "titulo": "Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta",
@@ -54,36 +85,6 @@
     "fecha_inicio_iso": "2026-09-18T22:20:19.079572",
     "fecha_ultima_actualizacion_iso": "2026-09-18T22:20:19.079572",
     "resumen_whatsapp": "✨ Villa Paranacito vibró con un emotivo festival que hizo florecer la memoria entre los jóvenes, a 50 años de hitos históricos. ¡Comunidad y cultura unidas en el Delta! 🇦🇷"
-  },
-  {
-    "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
-    "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
-    "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
-    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la mejora de sus servicios de salud, incorporando por primera vez equipamiento especializado para estudios cardiológicos.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Hospital Paranacito",
-      "Salud",
-      "Cardiología",
-      "Equipamiento Médico",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
-    "fecha_ultima_actualizacion_iso": "2026-09-18T18:54:37.999246",
-    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
   },
   {
     "acontecimiento_id": "2026-09-16-acceso-justicia-hospital-villa-paranacito",

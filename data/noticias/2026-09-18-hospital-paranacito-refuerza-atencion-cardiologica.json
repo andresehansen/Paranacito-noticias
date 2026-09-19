@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/el-hospital-de-villa-paranacito-sumo-nuevo-equipamiento-para-realizar-estudios-cardiologicos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw12Meu7aIqxLbawiBqUqz0h",
       "fecha_consulta": "2026-09-18T18:54:37.999246"
+    },
+    {
+      "nombre": "Google News (examedia.com.ar)",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zWVdYQnN0VlA5amZpVXFMTFpEVEtyZUlGWFZsa2hOMjhXRDVhMHlNclcybm9Va3Y1U3gzRUxTSk9nQ0ZoUmhMb0VVQVozdjExOU1wMm01SkJyZVh0VGc?oc=5",
+      "fecha_consulta": "2026-09-19T12:23:52.323055"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El hospital de Villa Paranacito sumó nuevo equipamiento para realizar estudios cardiológicos",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "12:23",
+      "fecha": "2026-09-19",
+      "fuente": "Google News (examedia.com.ar)",
+      "dato": "El hospital de Villa Paranacito sumó equipamiento para estudios cardi",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "a26c78f1f34c31635c579f7caaf17bc7b5cb8c7df6c2bee3c1a02425f01d00b3",
-    "cede945383c29695b45cc5f562af7cac127987b4a988715a8384b4deba03ffe6"
+    "cede945383c29695b45cc5f562af7cac127987b4a988715a8384b4deba03ffe6",
+    "a0275dd95b77b196c0698c83f93094276242521550aa63d5fe6c976d88f08ba0"
   ],
   "fecha_iso": "2026-09-18T18:54:16.553679",
   "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
-  "fecha_ultima_actualizacion_iso": "2026-09-18T18:54:37.999246",
+  "fecha_ultima_actualizacion_iso": "2026-09-19T12:23:52.323055",
   "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-  "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 18:54 hs",
+  "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 12:23 hs",
   "archivo": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica.json"
 }
