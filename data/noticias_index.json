@@ -10,19 +10,20 @@
       "delta",
       "sociedad"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 1,
+    "num_actualizaciones": 2,
     "fecha_publicacion": "18 de Septiembre de 2026, 22:20 hs",
-    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 22:20 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 03:17 hs",
     "fecha_inicio_iso": "2026-09-18T22:20:20.275444",
-    "fecha_ultima_actualizacion_iso": "2026-09-18T22:20:20.275444",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T03:17:50.498280",
     "resumen_whatsapp": "📰 *Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta* — google.com"
   },
   {
