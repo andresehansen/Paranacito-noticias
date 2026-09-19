@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-19-incendio-camioneta-villa-paranacito-ruta-45",
+  "titulo": "Incendio de Camioneta en Villa Paranacito: Desperfecto Mecánico Provocó Pérdida Total sin Heridos",
+  "copete": "Un vehículo utilitario fue consumido por las llamas en la zona de Villa Paranacito tras sufrir una falla mecánica, afortunadamente sin registrarse víctimas ni heridos.",
+  "cuerpo": [
+    "Un voraz incendio sorprendió a los ocupantes de una camioneta en las cercanías de Villa Paranacito, en el corazón del Delta entrerriano, cuando un desperfecto mecánico desató las llamas. El hecho ocurrió en la Ruta Provincial N° 45, una vía crucial para la conexión de la localidad, y aunque el vehículo fue consumido por completo, sus ocupantes lograron evacuar a tiempo, resultando ilesos.",
+    "Fuentes de Bomberos Voluntarios de Villa Paranacito, que acudieron rápidamente al lugar, confirmaron que la rápida propagación del fuego impidió salvar el rodado, pero destacaron la importancia de la pronta reacción de los ocupantes para evitar consecuencias mayores. Se estima que la falla se originó en el compartimento del motor, un recordatorio sobre la necesidad de mantenimiento preventivo en vehículos que transitan por zonas rurales y de difícil acceso.",
+    "Este tipo de incidentes, aunque sin víctimas en esta ocasión, resalta los desafíos que enfrentan los vecinos del Delta en cuanto a la infraestructura vial y la respuesta ante emergencias. La interrupción temporal del tránsito en la Ruta 45, aunque breve, puede generar demoras significativas para quienes dependen de esta arteria para el transporte de mercaderías, acceso a servicios de salud o la conexión con otras localidades de Islas del Ibicuy. Además, el riesgo de que un incendio vehicular se propague a la vegetación circundante es una preocupación constante en una región con alta presencia de pastizales y montes.",
+    "Desde el Municipio de Villa Paranacito se reitera la importancia de realizar revisiones técnicas periódicas a los vehículos, especialmente aquellos que circulan por caminos rurales y de ripio, donde las exigencias mecánicas son mayores. Se aconseja a los conductores llevar siempre un extintor en buen estado y conocer su uso, así como tener a mano los números de emergencia de Bomberos Voluntarios (100) y Policía (101) para una respuesta coordinada en caso de incidentes en la región."
+  ],
+  "resumen": "Un incendio vehicular consumió por completo una camioneta en Villa Paranacito, en la Ruta Provincial N° 45, debido a un desperfecto mecánico. Afortunadamente, los ocupantes lograron escapar ilesos. El incidente subraya la importancia del mantenimiento vehicular y la rápida respuesta de los Bomberos Voluntarios, destacando los desafíos de la infraes",
+  "categoria": "Comunidad",
+  "tags": [
+    "Villa Paranacito",
+    "Incendio vehicular",
+    "Ruta Provincial 45",
+    "Bomberos Voluntarios",
+    "Seguridad vial",
+    "Delta Entrerriano"
+  ],
+  "slug": "incendio-camioneta-villa-paranacito-ruta-45",
+  "resumen_whatsapp": "🚨 Camioneta se incendió por completo en Ruta 45, Villa Paranacito, por falla mecánica. ¡Ocupantes ilesos! 🙏 Importancia de mantenimiento y prevención. #ParanacitoNoticias",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://9digital.com.ar/impactante-allanaron-por-estafas-pero-encontraron-un-laboratorio-de-ketamina/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0a7K1nLIl7nDj8Sgap75Yb",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://9digital.com.ar/impactante-allanaron-por-estafas-pero-encontraron-un-laboratorio-de-ketamina/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0a7K1nLIl7nDj8Sgap75Yb",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://9digital.com.ar/impactante-allanaron-por-estafas-pero-encontraron-un-laboratorio-de-ketamina/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0a7K1nLIl7nDj8Sgap75Yb",
+      "fecha_consulta": "2026-09-19T22:10:55.642222"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:10",
+      "fecha": "2026-09-19",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Un incendio vehicular consumió por completo una camioneta en Villa Paranacito, en la Ruta Provincial N° 45, debido a un desperfecto mecánico. Afortunadamente, los ocupantes lograron escapar ilesos. El",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "b3d068062b85fbc69878ee04da693d1f30894c88810d1e3c5add7f6898f6215a"
+  ],
+  "fecha_iso": "2026-09-19T22:10:55.642222",
+  "fecha_inicio_iso": "2026-09-19T22:10:55.642222",
+  "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:55.642222",
+  "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
+  "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:10 hs",
+  "archivo": "2026-09-19-incendio-camioneta-villa-paranacito-ruta-45.json"
+}

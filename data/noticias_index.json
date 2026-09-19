@@ -1,5 +1,153 @@
 [
   {
+    "acontecimiento_id": "2026-09-19-unidad-oncologica-municipal-villa-paranacito-200-pacientes",
+    "slug": "unidad-oncologica-municipal-villa-paranacito-200-pacientes",
+    "titulo": "Servicio Vital: La Unidad Oncológica Municipal de Villa Paranacito Benefició a 200 Vecinos del Delta",
+    "copete": "La unidad de traslado municipal de Villa Paranacito, dedicada a pacientes oncológicos, ha brindado asistencia crucial a cerca de 200 vecinos de la región del Delta en sus dos años de funcionamiento, facilitando el acceso a tratamientos especializados.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Salud Pública",
+      "Oncología",
+      "Servicio Municipal",
+      "Delta Entrerriano",
+      "Traslados"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:10 hs",
+    "fecha_inicio_iso": "2026-09-19T22:10:28.367239",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:28.367239",
+    "resumen_whatsapp": "🚨 SALUD EN EL DELTA: La unidad municipal de traslado oncológico de Villa Paranacito asistió a casi 200 pacientes en 2 años, garantizando acceso a tratamientos vitales. 🏥💪"
+  },
+  {
+    "acontecimiento_id": "2026-09-19-operativo-antinarcoticos-ramificaciones-delta-paranacito",
+    "slug": "operativo-antinarcoticos-ramificaciones-delta-paranacito",
+    "titulo": "Operativo Antinarcóticos con Ramificaciones en el Delta: Alerta en Villa Paranacito por el Caso 'Vuelos de la Muerte'",
+    "copete": "La investigación que desmanteló un laboratorio de ketamina y allanó el aeródromo de Gualeguaychú, en el marco del resonante caso 'Vuelos de la Muerte', genera alerta y preocupación en Villa Paranacito y el Delta por sus posibles conexiones y ramificaciones en la región.",
+    "categoria": "Sociedad",
+    "tags": [
+      "narcotráfico",
+      "seguridad",
+      "delta",
+      "villa paranacito",
+      "vuelos de la muerte",
+      "gualeguaychú",
+      "investigación"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:10 hs",
+    "fecha_inicio_iso": "2026-09-19T22:09:33.990039",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:04.863768",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Investigación por narcotráfico y laboratorio de ketamina en Gualeguaychú podría tener ramificaciones en nuestra región. ¡Mantengamos la vigilancia! #SeguridadDelta"
+  },
+  {
+    "acontecimiento_id": "2026-09-19-villa-paranacito-film-vuelos-muerte-testimonios-islenos",
+    "slug": "villa-paranacito-film-vuelos-muerte-testimonios-islenos",
+    "titulo": "Villa Paranacito Proyectará Film Clave sobre Vuelos de la Muerte con Testimonios Isleños",
+    "copete": "La comunidad de Villa Paranacito se prepara para la proyección de un largometraje documental que rescata la memoria histórica a través de los relatos de vecinos y pobladores del Delta, testigos de los 'vuelos de la muerte' durante la última dictadura militar.",
+    "categoria": "Sociedad",
+    "tags": [
+      "memoria",
+      "derechos humanos",
+      "dictadura",
+      "cine documental",
+      "Villa Paranacito",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:10 hs",
+    "fecha_inicio_iso": "2026-09-19T22:10:00.029311",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:00.029311",
+    "resumen_whatsapp": "📽️ Villa Paranacito proyecta film sobre 'vuelos de la muerte' con testimonios isleños. ¡Memoria y verdad en el Delta! Entrada libre. #VillaParanacito #Memoria"
+  },
+  {
+    "acontecimiento_id": "2026-09-19-villa-paranacito-gestion-melchiori-escenario-politico",
+    "slug": "villa-paranacito-gestion-melchiori-escenario-politico",
+    "titulo": "Villa Paranacito: La Gestión de César Melchiori y el Escenario Político Entrerriano",
+    "copete": "La administración del intendente César Melchiori en Villa Paranacito se posiciona como un actor clave en el análisis del presente y futuro político de Entre Ríos, con implicancias directas para la comunidad del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "César Melchiori",
+      "Gestión Municipal",
+      "Política Entrerriana",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:09 hs",
+    "fecha_inicio_iso": "2026-09-19T22:09:48.105537",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T22:09:48.105537",
+    "resumen_whatsapp": "📰 Villa Paranacito: La gestión de César Melchiori es clave en el escenario político entrerriano y el desarrollo local. Impacto directo en servicios y futuro de la comunidad. #VillaParanacito #PolíticaLocal"
+  },
+  {
+    "acontecimiento_id": "2026-09-19-salud-villa-paranacito-estudios-cardiacos",
+    "slug": "salud-villa-paranacito-estudios-cardiacos",
+    "titulo": "Hito en Salud para Villa Paranacito: Hospital Local Ofrecerá Estudios Cardíacos por Primera Vez",
+    "copete": "El Hospital de Villa Paranacito marca un antes y un después en la atención médica local al incorporar la posibilidad de realizar estudios cardiológicos, una prestación inédita para los vecinos de la región del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud",
+      "Villa Paranacito",
+      "Hospital",
+      "Cardiología",
+      "Servicios Médicos",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:09 hs",
+    "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T22:09:17.851250",
+    "resumen_whatsapp": "🩺 ¡Gran noticia para Villa Paranacito! El Hospital local ofrecerá estudios cardíacos por primera vez, mejorando el acceso a la salud para todos los vecinos del Delta. ❤️"
+  },
+  {
     "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
     "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
     "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
@@ -22,41 +170,17 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google News (examedia.com.ar)",
-      "Google News (cuestionentrerriana.com.ar)"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 12:23 hs",
-    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
-    "fecha_ultima_actualizacion_iso": "2026-09-19T12:23:52.323055",
-    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
-  },
-  {
-    "acontecimiento_id": "2026-09-18-allanaron-el-aerodromo-gualeguaychu-por-la-causa-de",
-    "slug": "allanaron-el-aerodromo-gualeguaychu-por-la-causa-de",
-    "titulo": "Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta.",
-    "categoria": "Sociedad",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "sociedad"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
+      "Google News (cuestionentrerriana.com.ar)",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "18 de Septiembre de 2026, 22:20 hs",
-    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 03:17 hs",
-    "fecha_inicio_iso": "2026-09-18T22:20:20.275444",
-    "fecha_ultima_actualizacion_iso": "2026-09-19T03:17:50.498280",
-    "resumen_whatsapp": "📰 *Allanaron el Aeródromo Gualeguaychú por la causa de los “vuelos de la muerte” en el Delta* — google.com"
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:08 hs",
+    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
+    "fecha_ultima_actualizacion_iso": "2026-09-19T22:08:56.779802",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
   },
   {
     "acontecimiento_id": "2026-09-18-villa-paranacito-festival-memoria-juventud",
