@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-09-20-senado-aprueba-expropiaciones-obras-viales-paranacito",
+    "slug": "senado-aprueba-expropiaciones-obras-viales-paranacito",
+    "titulo": "Luz Verde del Senado Entrerriano: Expropiaciones Clave Impulsan Obras Viales en Villa Paranacito",
+    "copete": "El Senado de Entre Ríos aprobó recientemente las expropiaciones necesarias para avanzar con obras viales estratégicas en el departamento Islas del Ibicuy, despejando el camino para mejorar la conectividad de Villa Paranacito y su región.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Obras Viales",
+      "Senado Entre Ríos",
+      "Expropiaciones",
+      "Infraestructura",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "20 de Septiembre de 2026, 15:31 hs",
+    "fecha_ultima_actualizacion": "20 de Septiembre de 2026, 15:31 hs",
+    "fecha_inicio_iso": "2026-09-20T15:31:10.809124",
+    "fecha_ultima_actualizacion_iso": "2026-09-20T15:31:10.809124",
+    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! El Senado aprobó expropiaciones clave para obras viales en la región. Se viene mejora en caminos y conectividad. 🛣️🚤"
+  },
+  {
     "acontecimiento_id": "2026-09-19-unidad-oncologica-municipal-villa-paranacito-200-pacientes",
     "slug": "unidad-oncologica-municipal-villa-paranacito-200-pacientes",
     "titulo": "Servicio Vital: La Unidad Oncológica Municipal de Villa Paranacito Benefició a 200 Vecinos del Delta",
@@ -1589,36 +1618,6 @@
     "fecha_inicio_iso": "2026-08-22T00:39:18.740957",
     "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:58.057536",
     "resumen_whatsapp": "📰 *Frente al avance de El Niño, la producción se equipa con radares meteorológicos e ... - TN* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-23-senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
-    "slug": "senado-aprueba-expropiaciones-obras-viales-villa-paranacito",
-    "titulo": "El Senado Entrerriano Aprueba Expropiaciones Clave para Impulsar Obras Viales en Villa Paranacito",
-    "copete": "La Cámara Alta provincial dio el visto bueno a la adquisición de terrenos fundamentales para el desarrollo de infraestructura vial en la localidad, prometiendo una mejora sustancial en la conectividad y el acceso para los habitantes del Delta.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "Villa Paranacito",
-      "Obras Viales",
-      "Senado Entre Ríos",
-      "Expropiaciones",
-      "Infraestructura",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "23 de Agosto de 2026, 16:23 hs",
-    "fecha_ultima_actualizacion": "23 de Agosto de 2026, 16:23 hs",
-    "fecha_inicio_iso": "2026-08-23T16:23:57.747750",
-    "fecha_ultima_actualizacion_iso": "2026-08-23T16:23:57.747750",
-    "resumen_whatsapp": "📰 ¡Gran noticia para Villa Paranacito! El Senado entrerriano aprobó expropiaciones clave para impulsar obras viales en nuestra localidad. 🚜 Mejora la conectividad, el acceso y el desarrollo del Delta. ¡Mantente informado!"
   },
   {
     "acontecimiento_id": "2026-08-21-frigerio-convoco-a-intendentes-riberenos-para-coordinar",
