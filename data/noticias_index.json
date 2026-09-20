@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-19-villa-paranacito-film-vuelos-muerte-testimonios-islenos",
+    "slug": "villa-paranacito-film-vuelos-muerte-testimonios-islenos",
+    "titulo": "Villa Paranacito Proyectará Film Clave sobre Vuelos de la Muerte con Testimonios Isleños",
+    "copete": "La comunidad de Villa Paranacito se prepara para la proyección de un largometraje documental que rescata la memoria histórica a través de los relatos de vecinos y pobladores del Delta, testigos de los 'vuelos de la muerte' durante la última dictadura militar.",
+    "categoria": "Sociedad",
+    "tags": [
+      "memoria",
+      "derechos humanos",
+      "dictadura",
+      "cine documental",
+      "Villa Paranacito",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
+    "fecha_ultima_actualizacion": "20 de Septiembre de 2026, 18:30 hs",
+    "fecha_inicio_iso": "2026-09-19T22:10:00.029311",
+    "fecha_ultima_actualizacion_iso": "2026-09-20T18:30:09.538961",
+    "resumen_whatsapp": "📽️ Villa Paranacito proyecta film sobre 'vuelos de la muerte' con testimonios isleños. ¡Memoria y verdad en el Delta! Entrada libre. #VillaParanacito #Memoria"
+  },
+  {
     "acontecimiento_id": "2026-09-20-senado-aprueba-expropiaciones-obras-viales-paranacito",
     "slug": "senado-aprueba-expropiaciones-obras-viales-paranacito",
     "titulo": "Luz Verde del Senado Entrerriano: Expropiaciones Clave Impulsan Obras Viales en Villa Paranacito",
@@ -87,35 +117,6 @@
     "fecha_inicio_iso": "2026-09-19T22:09:33.990039",
     "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:04.863768",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Investigación por narcotráfico y laboratorio de ketamina en Gualeguaychú podría tener ramificaciones en nuestra región. ¡Mantengamos la vigilancia! #SeguridadDelta"
-  },
-  {
-    "acontecimiento_id": "2026-09-19-villa-paranacito-film-vuelos-muerte-testimonios-islenos",
-    "slug": "villa-paranacito-film-vuelos-muerte-testimonios-islenos",
-    "titulo": "Villa Paranacito Proyectará Film Clave sobre Vuelos de la Muerte con Testimonios Isleños",
-    "copete": "La comunidad de Villa Paranacito se prepara para la proyección de un largometraje documental que rescata la memoria histórica a través de los relatos de vecinos y pobladores del Delta, testigos de los 'vuelos de la muerte' durante la última dictadura militar.",
-    "categoria": "Sociedad",
-    "tags": [
-      "memoria",
-      "derechos humanos",
-      "dictadura",
-      "cine documental",
-      "Villa Paranacito",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
-    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:10 hs",
-    "fecha_inicio_iso": "2026-09-19T22:10:00.029311",
-    "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:00.029311",
-    "resumen_whatsapp": "📽️ Villa Paranacito proyecta film sobre 'vuelos de la muerte' con testimonios isleños. ¡Memoria y verdad en el Delta! Entrada libre. #VillaParanacito #Memoria"
   },
   {
     "acontecimiento_id": "2026-09-19-villa-paranacito-gestion-melchiori-escenario-politico",

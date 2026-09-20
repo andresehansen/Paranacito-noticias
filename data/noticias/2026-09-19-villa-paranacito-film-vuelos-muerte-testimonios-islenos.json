@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/proyectaran-largometraje-sobre-vuelos-de-la-muerte-en-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2zuzIIZ5o_1RqTGv9HzZUG",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/proyectaran-largometraje-sobre-vuelos-de-la-muerte-en-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2zuzIIZ5o_1RqTGv9HzZUG",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/provincial/proyectaran-largometraje-sobre-vuelos-de-la-muerte-en-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2zuzIIZ5o_1RqTGv9HzZUG",
       "fecha_consulta": "2026-09-19T22:10:00.029311"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioriouruguay.com/interes-general/concepcion-del-uruguay-proyectara-un-documental-sobre-vuelos-de-la-muerte-en-el-delta.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2lDrhECMQG2NIdSXqtpRif",
+      "fecha_consulta": "2026-09-20T18:30:09.538961"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito será sede de la proyección de un documental sobre los 'vuelos de la muerte', que incluye testimonios clave de pobladores isleños y locales. Este film busca rescatar la memoria históri",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "18:30",
+      "fecha": "2026-09-20",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Concepción del Uruguay proyectará un documental sobre vuelos de la muerte en el delta",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "f60e248fd6b6ce26d78204650cc3c7bfb38274dc1d934851f17d0d166623f8bf"
+    "f60e248fd6b6ce26d78204650cc3c7bfb38274dc1d934851f17d0d166623f8bf",
+    "6c75a42215d650fe15bbae4a5636837d3c2b8454a69cfb91bd2db85e5d65d8b9"
   ],
   "fecha_iso": "2026-09-19T22:10:00.029311",
   "fecha_inicio_iso": "2026-09-19T22:10:00.029311",
-  "fecha_ultima_actualizacion_iso": "2026-09-19T22:10:00.029311",
+  "fecha_ultima_actualizacion_iso": "2026-09-20T18:30:09.538961",
   "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
-  "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:10 hs",
+  "fecha_ultima_actualizacion": "20 de Septiembre de 2026, 18:30 hs",
   "archivo": "2026-09-19-villa-paranacito-film-vuelos-muerte-testimonios-islenos.json"
 }
