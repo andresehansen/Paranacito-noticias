@@ -1,0 +1,55 @@
+{
+  "acontecimiento_id": "2026-09-21-informacion-no-procesable-anclaje-geografico",
+  "titulo": "Información No Procesable: Anclaje Geográfico Ausente para Paranacito Noticias",
+  "copete": "El material periodístico provisto sobre la refacción de una escuela en Diamante no cumple con el requisito fundamental de anclaje geográfico para nuestra comunidad del Delta Entrerriano.",
+  "cuerpo": [
+    "La información recibida detalla la refacción de la escuela La Concordia en Diamante con una inversión de $39 millones. Sin embargo, para 'Paranacito Noticias', es un requisito fundamental que cada nota se centre en Villa Paranacito, Ceibas, Islas del Ibicuy o una institución local concreta de nuestra región.",
+    "Nuestra línea editorial prohíbe estrictamente la publicación de sucesos ajenos sin un impacto directo y verificable en la vida cotidiana de los vecinos del Delta Entrerriano. El objetivo es asegurar que cada pieza informativa sea de máxima relevancia y utilidad para nuestra audiencia local.",
+    "Dado que el material provisto no establece una conexión directa con nuestra comunidad, sus servicios, salud, transporte fluvial, caminos o producción, no es posible elaborar una nota periodística que cumpla con los estándares de profundidad, rigor y relevancia local que exigimos para nuestros lectores.",
+    "Invitamos a nuestros colaboradores a enviar información que esté directamente vinculada con Villa Paranacito, Ceibas, Islas del Ibicuy o sus instituciones, para poder transformarla en noticias de alto valor informativo y anclaje local."
+  ],
+  "resumen": "La noticia sobre la refacción de una escuela en Diamante no puede ser publicada por 'Paranacito Noticias' al no cumplir con el requisito de anclaje geográfico local, fundamental para nuestra línea editorial y la relevancia para los vecinos del Delta.",
+  "categoria": "Comunidad",
+  "tags": [
+    "anclaje-geografico",
+    "normas-editoriales",
+    "informacion-no-procesable",
+    "delta-entrerriano"
+  ],
+  "slug": "informacion-no-procesable-anclaje-geografico",
+  "resumen_whatsapp": "🚫 Info sobre escuela de Diamante no cumple anclaje geográfico para Paranacito Noticias. No se puede publicar. #NormasEditoriales #Delta",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/refaccionan-la-escuela-la-concordia-de-diamante-con-39-millones/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0REAelyCJrApFl2xtJExLZ",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/refaccionan-la-escuela-la-concordia-de-diamante-con-39-millones/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0REAelyCJrApFl2xtJExLZ",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/refaccionan-la-escuela-la-concordia-de-diamante-con-39-millones/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0REAelyCJrApFl2xtJExLZ",
+      "fecha_consulta": "2026-09-21T20:21:43.558832"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "20:21",
+      "fecha": "2026-09-21",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La noticia sobre la refacción de una escuela en Diamante no puede ser publicada por 'Paranacito Noticias' al no cumplir con el requisito de anclaje geográfico local, fundamental para nuestra línea edi",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "6585cbc3837498473a676b828f6a935536eaa09c7755f00229c983c6fee0ddf0"
+  ],
+  "fecha_iso": "2026-09-21T20:21:43.558832",
+  "fecha_inicio_iso": "2026-09-21T20:21:43.558832",
+  "fecha_ultima_actualizacion_iso": "2026-09-21T20:21:43.558832",
+  "fecha_publicacion": "21 de Septiembre de 2026, 20:21 hs",
+  "fecha_ultima_actualizacion": "21 de Septiembre de 2026, 20:21 hs",
+  "archivo": "2026-09-21-informacion-no-procesable-anclaje-geografico.json"
+}
