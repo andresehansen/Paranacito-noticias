@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
+    "slug": "agmer-escuela-itinerante-paranacito-crisis-salarial",
+    "titulo": "AGMER Llega a Villa Paranacito con la 'Escuela Itinerante' para Visibilizar la Crisis Salarial Docente",
+    "copete": "El gremio docente AGMER realizará una jornada de protesta y visibilización en Villa Paranacito este miércoles, en el marco de su 'Escuela Entrerriana Itinerante', para denunciar la grave situación salarial que atraviesan los educadores de la provincia.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Crisis Salarial",
+      "Paritarias",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
+    "fecha_ultima_actualizacion": "21 de Septiembre de 2026, 23:02 hs",
+    "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
+    "fecha_ultima_actualizacion_iso": "2026-09-21T23:02:09.413934",
+    "resumen_whatsapp": "🚨 AGMER llega a Villa Paranacito este miércoles con su 'Escuela Itinerante' para visibilizar la crisis salarial docente. ¡Apoyemos a nuestros maestros! 📚🍎"
+  },
+  {
     "acontecimiento_id": "2026-09-21-informacion-no-procesable-anclaje-geografico",
     "slug": "informacion-no-procesable-anclaje-geografico",
     "titulo": "Información No Procesable: Anclaje Geográfico Ausente para Paranacito Noticias",
