@@ -64,6 +64,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/09/18/villa-elisa-sera-sede-de-un-encuentro-sobre-informacion-financiera-para-pymes-y-emprendedores/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0r243JOjP1cIrPRosP9pmC",
       "fecha_consulta": "2026-09-19T22:10:59.685707"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diariovictoria.com.ar/el-gobierno-y-los-gremios-docentes-retoman-la-paritaria-este-martes/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3IIa1kp9sTJL2-Pt1tQIKu",
+      "fecha_consulta": "2026-09-22T19:40:27.263694"
     }
   ],
   "cronologia_actualizaciones": [
@@ -94,18 +99,26 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:40",
+      "fecha": "2026-09-22",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La fecha del acontecimiento (18/09/2026) y la fuente de la información (OSER).",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "a26c78f1f34c31635c579f7caaf17bc7b5cb8c7df6c2bee3c1a02425f01d00b3",
     "cede945383c29695b45cc5f562af7cac127987b4a988715a8384b4deba03ffe6",
     "a0275dd95b77b196c0698c83f93094276242521550aa63d5fe6c976d88f08ba0",
-    "a4bc7ec2d63b9f569cd1859fb91ef5e9a671f6773225f27b5aeedbb676625ab0"
+    "a4bc7ec2d63b9f569cd1859fb91ef5e9a671f6773225f27b5aeedbb676625ab0",
+    "0f2c64dda2ac04d0fdca9b27a34690a992009e61bffc90238c7120c51dcb1be1"
   ],
   "fecha_iso": "2026-09-18T18:54:16.553679",
   "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
-  "fecha_ultima_actualizacion_iso": "2026-09-19T22:08:56.779802",
+  "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:27.263694",
   "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-  "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:08 hs",
+  "fecha_ultima_actualizacion": "22 de Septiembre de 2026, 19:40 hs",
   "archivo": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica.json"
 }

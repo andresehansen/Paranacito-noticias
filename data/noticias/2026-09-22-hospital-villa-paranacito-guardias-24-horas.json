@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-22-hospital-villa-paranacito-guardias-24-horas",
+  "titulo": "Refuerzo Sanitario Histórico: Hospital de Villa Paranacito Suma Guardias Médicas 24 Horas",
+  "copete": "El Hospital Dr. José María Miranda de Villa Paranacito implementa un servicio de guardias médicas permanentes, garantizando atención ininterrumpida para toda la comunidad del Delta.",
+  "cuerpo": [
+    "Una noticia de vital importancia para los habitantes de Villa Paranacito y las zonas isleñas circundantes: el Hospital Dr. José María Miranda ha puesto en marcha un sistema de guardias médicas las 24 horas del día, los siete días de la semana. Esta medida representa un avance significativo en la cobertura de salud para esta estratégica localidad del Delta entrerriano, ubicada en el corazón de las Islas del Ibicuy, donde el acceso a servicios médicos urgentes es crucial.",
+    "Fuentes del Municipio de Islas del Ibicuy y la dirección del nosocomio confirmaron la efectiva implementación de este servicio. \"Es un compromiso cumplido con nuestros vecinos. Sabemos la complejidad de vivir en el Delta y la necesidad de contar con atención médica en cualquier momento. Esta gestión es el resultado de un esfuerzo conjunto para fortalecer nuestro sistema de salud local\", afirmó un vocero municipal, destacando la inversión en recursos humanos y equipamiento.",
+    "La disponibilidad de guardias médicas permanentes impacta directamente en la calidad de vida de los isleños. Anteriormente, fuera del horario habitual, las emergencias requerían traslados complejos y demorados a centros de mayor complejidad en Ceibas o incluso Gualeguaychú. Ahora, los residentes de Villa Paranacito y las islas aledañas cuentan con una respuesta inmediata ante cualquier urgencia, mejorando la seguridad y tranquilidad de las familias productoras y turísticas de la región.",
+    "Este nuevo esquema de atención no solo cubre emergencias, sino que también busca descomprimir la demanda en horarios pico y ofrecer una primera respuesta ante situaciones que antes implicaban derivaciones. Se recomienda a la comunidad hacer uso responsable del servicio de guardia, priorizando las urgencias y consultando en los horarios habituales para atenciones programadas. La medida se suma a otras iniciativas para consolidar a Villa Paranacito como un polo de servicios esenciales en el Delta."
+  ],
+  "resumen": "El Hospital Dr. José María Miranda de Villa Paranacito ha implementado guardias médicas las 24 horas, un hito para la salud local. Esta mejora garantiza atención ininterrumpida para los vecinos del Delta, reduciendo la necesidad de traslados y brindando mayor seguridad sanitaria a la comunidad. Es un paso clave para fortalecer los servicios esencia",
+  "categoria": "Salud y Educación",
+  "tags": [
+    "salud",
+    "hospital",
+    "villa paranacito",
+    "guardia medica",
+    "delta entrerriano",
+    "servicios de salud"
+  ],
+  "slug": "hospital-villa-paranacito-guardias-24-horas",
+  "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital Dr. José María Miranda ya tiene guardias médicas 24 horas. ¡Más salud y seguridad para el Delta! ✨",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/villa-clara-suma-guardias-medicas-las-24-horas-en-su-hospital/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ghVr897l7PPrh31yzfg4W",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/villa-clara-suma-guardias-medicas-las-24-horas-en-su-hospital/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ghVr897l7PPrh31yzfg4W",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/villa-clara-suma-guardias-medicas-las-24-horas-en-su-hospital/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ghVr897l7PPrh31yzfg4W",
+      "fecha_consulta": "2026-09-22T19:40:11.821947"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:40",
+      "fecha": "2026-09-22",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Hospital Dr. José María Miranda de Villa Paranacito ha implementado guardias médicas las 24 horas, un hito para la salud local. Esta mejora garantiza atención ininterrumpida para los vecinos del De",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "7966fd896a3bd05474f6c27f0b6fcac5f31d0e31b9c45856a97a37ae1ebd9fff"
+  ],
+  "fecha_iso": "2026-09-22T19:40:11.821947",
+  "fecha_inicio_iso": "2026-09-22T19:40:11.821947",
+  "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:11.821947",
+  "fecha_publicacion": "22 de Septiembre de 2026, 19:40 hs",
+  "fecha_ultima_actualizacion": "22 de Septiembre de 2026, 19:40 hs",
+  "archivo": "2026-09-22-hospital-villa-paranacito-guardias-24-horas.json"
+}

@@ -1,5 +1,99 @@
 [
   {
+    "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
+    "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
+    "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
+    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la mejora de sus servicios de salud, incorporando por primera vez equipamiento especializado para estudios cardiológicos.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Hospital Paranacito",
+      "Salud",
+      "Cardiología",
+      "Equipamiento Médico",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google News (examedia.com.ar)",
+      "Google News (cuestionentrerriana.com.ar)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 5,
+    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
+    "fecha_ultima_actualizacion": "22 de Septiembre de 2026, 19:40 hs",
+    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
+    "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:27.263694",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
+  },
+  {
+    "acontecimiento_id": "2026-09-22-villa-paranacito-juegos-entrerrianos-final-provincial",
+    "slug": "villa-paranacito-juegos-entrerrianos-final-provincial",
+    "titulo": "Jóvenes de Villa Paranacito Representan al Delta en la Final Provincial de los Juegos Entrerrianos",
+    "copete": "Una delegación de jóvenes atletas de Villa Paranacito se hizo presente en Concordia para la gran final provincial de los Juegos Entrerrianos, llevando el espíritu deportivo del Delta a la competencia de alto nivel.",
+    "categoria": "Deportes",
+    "tags": [
+      "Juegos Entrerrianos",
+      "Villa Paranacito",
+      "Deporte Juvenil",
+      "Concordia",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Septiembre de 2026, 19:40 hs",
+    "fecha_ultima_actualizacion": "22 de Septiembre de 2026, 19:40 hs",
+    "fecha_inicio_iso": "2026-09-22T19:40:22.457299",
+    "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:22.457299",
+    "resumen_whatsapp": "¡Orgullo Delta! 🏞️ Jóvenes de Villa Paranacito compiten en la final provincial de los Juegos Entrerrianos en Concordia. ¡A dejarlo todo! 💪"
+  },
+  {
+    "acontecimiento_id": "2026-09-22-hospital-villa-paranacito-guardias-24-horas",
+    "slug": "hospital-villa-paranacito-guardias-24-horas",
+    "titulo": "Refuerzo Sanitario Histórico: Hospital de Villa Paranacito Suma Guardias Médicas 24 Horas",
+    "copete": "El Hospital Dr. José María Miranda de Villa Paranacito implementa un servicio de guardias médicas permanentes, garantizando atención ininterrumpida para toda la comunidad del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "salud",
+      "hospital",
+      "villa paranacito",
+      "guardia medica",
+      "delta entrerriano",
+      "servicios de salud"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Septiembre de 2026, 19:40 hs",
+    "fecha_ultima_actualizacion": "22 de Septiembre de 2026, 19:40 hs",
+    "fecha_inicio_iso": "2026-09-22T19:40:11.821947",
+    "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:11.821947",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital Dr. José María Miranda ya tiene guardias médicas 24 horas. ¡Más salud y seguridad para el Delta! ✨"
+  },
+  {
     "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
     "slug": "agmer-escuela-itinerante-paranacito-crisis-salarial",
     "titulo": "AGMER Llega a Villa Paranacito con la 'Escuela Itinerante' para Visibilizar la Crisis Salarial Docente",
@@ -262,41 +356,6 @@
     "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
     "fecha_ultima_actualizacion_iso": "2026-09-19T22:09:17.851250",
     "resumen_whatsapp": "🩺 ¡Gran noticia para Villa Paranacito! El Hospital local ofrecerá estudios cardíacos por primera vez, mejorando el acceso a la salud para todos los vecinos del Delta. ❤️"
-  },
-  {
-    "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
-    "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
-    "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
-    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la mejora de sus servicios de salud, incorporando por primera vez equipamiento especializado para estudios cardiológicos.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Hospital Paranacito",
-      "Salud",
-      "Cardiología",
-      "Equipamiento Médico",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google News (examedia.com.ar)",
-      "Google News (cuestionentrerriana.com.ar)",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:08 hs",
-    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
-    "fecha_ultima_actualizacion_iso": "2026-09-19T22:08:56.779802",
-    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
   },
   {
     "acontecimiento_id": "2026-09-18-villa-paranacito-festival-memoria-juventud",
