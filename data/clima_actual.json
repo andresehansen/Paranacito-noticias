@@ -1,46 +1,46 @@
 {
-  "ultima_actualizacion": "21/09/2026 23:01",
-  "timestamp_iso": "2026-09-21T23:01:26.687204",
+  "ultima_actualizacion": "22/09/2026 03:28",
+  "timestamp_iso": "2026-09-22T03:28:23.935950",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 12,
-    "sensacion_termica": 9,
-    "humedad": 60,
+    "temperatura": 10,
+    "sensacion_termica": 7,
+    "humedad": 62,
     "viento_velocidad_kmh": 13,
-    "viento_direccion": "SSO",
-    "presion_hpa": 1015,
-    "descripcion": "Cielo despejado",
-    "icono": "☀️",
+    "viento_direccion": "SO",
+    "presion_hpa": 1018,
+    "descripcion": "Mayormente despejado",
+    "icono": "🌤️",
     "pronostico_extendido": [
       {
-        "fecha": "2026-09-21",
-        "temp_max": 17,
-        "temp_min": 10,
-        "prob_lluvia": 12,
+        "fecha": "2026-09-22",
+        "temp_max": 14,
+        "temp_min": 6,
+        "prob_lluvia": 0,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
-        "fecha": "2026-09-22",
-        "temp_max": 14,
-        "temp_min": 5,
-        "prob_lluvia": 0,
-        "descripcion": "Parcialmente nublado",
-        "icono": "⛅"
-      },
-      {
         "fecha": "2026-09-23",
-        "temp_max": 17,
-        "temp_min": 5,
-        "prob_lluvia": 2,
+        "temp_max": 18,
+        "temp_min": 6,
+        "prob_lluvia": 0,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-09-24",
         "temp_max": 24,
-        "temp_min": 9,
+        "temp_min": 10,
         "prob_lluvia": 0,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-09-25",
+        "temp_max": 26,
+        "temp_min": 13,
+        "prob_lluvia": 2,
         "descripcion": "Nublado",
         "icono": "☁️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-09-21 23:01"
+    "actualizado": "2026-09-22 03:28"
   }
 }
