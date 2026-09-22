@@ -1,24 +1,24 @@
 {
-  "ultima_actualizacion": "22/09/2026 04:15",
-  "timestamp_iso": "2026-09-22T04:15:50.769260",
+  "ultima_actualizacion": "22/09/2026 09:02",
+  "timestamp_iso": "2026-09-22T09:02:24.124218",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 10,
-    "sensacion_termica": 6,
-    "humedad": 65,
-    "viento_velocidad_kmh": 12,
+    "temperatura": 6,
+    "sensacion_termica": 2,
+    "humedad": 80,
+    "viento_velocidad_kmh": 11,
     "viento_direccion": "SO",
-    "presion_hpa": 1018,
-    "descripcion": "Nublado",
-    "icono": "☁️",
+    "presion_hpa": 1020,
+    "descripcion": "Mayormente despejado",
+    "icono": "🌤️",
     "pronostico_extendido": [
       {
         "fecha": "2026-09-22",
         "temp_max": 14,
-        "temp_min": 6,
+        "temp_min": 5,
         "prob_lluvia": 0,
-        "descripcion": "Nublado",
-        "icono": "☁️"
+        "descripcion": "Parcialmente nublado",
+        "icono": "⛅"
       },
       {
         "fecha": "2026-09-23",
@@ -31,7 +31,7 @@
       {
         "fecha": "2026-09-24",
         "temp_max": 24,
-        "temp_min": 10,
+        "temp_min": 9,
         "prob_lluvia": 0,
         "descripcion": "Nublado",
         "icono": "☁️"
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-09-22 04:15"
+    "actualizado": "2026-09-22 09:02"
   }
 }
