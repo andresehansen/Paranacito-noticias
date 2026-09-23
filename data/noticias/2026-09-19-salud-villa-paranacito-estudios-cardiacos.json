@@ -44,6 +44,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/19/116773-la-capilla-rural-mas-antigua-del-departamento-celebra-sus-129-anos-de-historia&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2U3PKg8plRyYYAXmUnix6j",
       "fecha_consulta": "2026-09-19T22:09:17.851250"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/22/117082-cuatro-atletas-de-aldea-san-antonio-fueron-finalistas-de-los-juegos-evita&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1-V7tdSnsd2qTPehY4hr8T",
+      "fecha_consulta": "2026-09-23T09:06:46.614075"
     }
   ],
   "cronologia_actualizaciones": [
@@ -67,17 +72,25 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La capilla rural más antigua del departamento celebra sus 129 años de historia",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "09:06",
+      "fecha": "2026-09-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Cuatro atletas de Aldea San Antonio fueron finalistas de los Juegos Evita",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "db6fa0eaaa4a99bf35ffd88e434591818e2a52b299c56b97f30696340716fec2",
     "eff1c66f50cbb87f73f90eaa8120dabc638474138806672754ed80a52f5ef044",
-    "98ec605c018b1a253860ab75cd4e6b83e9ee9477815d03ec3c51a97666181607"
+    "98ec605c018b1a253860ab75cd4e6b83e9ee9477815d03ec3c51a97666181607",
+    "078f1cccdf7931f14401b65e2e40e5a1318e627ac7d28fe7c7f8bd12e8dfc9b7"
   ],
   "fecha_iso": "2026-09-19T22:09:11.156635",
   "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
-  "fecha_ultima_actualizacion_iso": "2026-09-19T22:09:17.851250",
+  "fecha_ultima_actualizacion_iso": "2026-09-23T09:06:46.614075",
   "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
-  "fecha_ultima_actualizacion": "19 de Septiembre de 2026, 22:09 hs",
+  "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 09:06 hs",
   "archivo": "2026-09-19-salud-villa-paranacito-estudios-cardiacos.json"
 }
