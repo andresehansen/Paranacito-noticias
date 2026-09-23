@@ -1,5 +1,64 @@
 [
   {
+    "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",
+    "slug": "pescador-mordido-yarara-paranacito-hospitalizado",
+    "titulo": "Alerta en Villa Paranacito: Pescador Hospitalizado Tras Mordedura de Yarará en el Delta",
+    "copete": "Un vecino de Villa Paranacito fue internado de urgencia luego de sufrir la mordedura de una yarará mientras pescaba en las costas del río Paranacito, un incidente que subraya los riesgos naturales de la vida en el Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Yarará",
+      "Mordedura de serpiente",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Salud Pública",
+      "Emergencia"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (ReconquistaHOY)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Septiembre de 2026, 03:29 hs",
+    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 03:29 hs",
+    "fecha_inicio_iso": "2026-09-23T03:29:48.369116",
+    "fecha_ultima_actualizacion_iso": "2026-09-23T03:29:48.369116",
+    "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito: Pescador hospitalizado por mordedura de yarará en el río. ¡Precaución al aire libre y atención médica urgente!"
+  },
+  {
+    "acontecimiento_id": "2026-09-23-villa-paranacito-area-conservacion-ecologica-delta",
+    "slug": "villa-paranacito-area-conservacion-ecologica-delta",
+    "titulo": "Histórico Avance para el Delta: Villa Paranacito Lidera la Creación de un Área de Conservación y Rescate Ecológico",
+    "copete": "Con el apoyo del senador César Melchiori, se consolidan los pasos para establecer un espacio vital de protección ambiental en el corazón del Delta entrerriano, con epicentro en Villa Paranacito.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Conservación",
+      "Medio Ambiente",
+      "Islas del Ibicuy",
+      "César Melchiori",
+      "Ecosistema"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Septiembre de 2026, 03:29 hs",
+    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 03:29 hs",
+    "fecha_inicio_iso": "2026-09-23T03:29:36.412446",
+    "fecha_ultima_actualizacion_iso": "2026-09-23T03:29:36.412446",
+    "resumen_whatsapp": "🌿 ¡Gran noticia para Villa Paranacito! Avanza la creación de un Área de Conservación Ecológica en el Delta. Protegemos nuestra naturaleza y futuro. #DeltaSostenible"
+  },
+  {
     "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
     "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
     "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
