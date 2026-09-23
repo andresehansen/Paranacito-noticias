@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-09-23-festejo-escuela-angel-elias-paranacito",
+    "slug": "festejo-escuela-angel-elias-paranacito",
+    "titulo": "Gran Celebración en la Escuela Nina N°19 Ángel Elías de Paraje Sagastume, Villa Paranacito",
+    "copete": "La comunidad educativa de la Escuela de Educación Primaria Nina N°19 Ángel Elías, en el Paraje Sagastume de Villa Paranacito, se unió en un vibrante festejo que congregó a alumnos, docentes, familias y vecinos, fortaleciendo los lazos comunitarios en el corazón del Delta.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Escuela N°19 Ángel Elías",
+      "Paraje Sagastume",
+      "Educación Rural",
+      "Comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Septiembre de 2026, 16:11 hs",
+    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 16:11 hs",
+    "fecha_inicio_iso": "2026-09-23T16:11:32.139103",
+    "fecha_ultima_actualizacion_iso": "2026-09-23T16:11:32.139103",
+    "resumen_whatsapp": "🎉 Gran festejo en la Escuela N°19 Ángel Elías de Villa Paranacito unió a toda la comunidad educativa en Paraje Sagastume. ¡Alegría y unión en el Delta! 🏫👨‍👩‍👧‍👦"
+  },
+  {
     "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",
     "slug": "pescador-mordido-yarara-paranacito-hospitalizado",
     "titulo": "Alerta en Villa Paranacito: Pescador Hospitalizado Tras Mordedura de Yarará en el Delta",
