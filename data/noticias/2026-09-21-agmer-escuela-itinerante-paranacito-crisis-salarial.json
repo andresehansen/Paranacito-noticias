@@ -40,6 +40,26 @@
       "nombre": "GDELT / aimdigital.com.ar",
       "url": "https://www.aimdigital.com.ar/politica/la-escuela-itinerante-lleg-a-villa-paranacito.htm",
       "fecha_consulta": "2026-09-23T19:35:36.586620"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://paginagremial.com.ar/tenemos-companeros-por-debajo-de-la-indigencia-y-eso-no-esta-en-la-agenda-del-gobierno/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3yHzXGPdJ11hGA2ktb66UI",
+      "fecha_consulta": "2026-09-23T22:42:31.748338"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://2025.agmer.org.ar/post/la-escuela-itinerante-de-agmer-llego-a-villa-paranacito-la-situacion-es-desesperante-para-toda-la-docencia-entrerriana&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ejoHbG7g9o-APgCNFGBGN",
+      "fecha_consulta": "2026-09-23T22:42:37.965723"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/politica/la-escuela-itinerante-lleg-a-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1POxMdYmi34pLfPU8e764E",
+      "fecha_consulta": "2026-09-23T22:42:44.888539"
+    },
+    {
+      "nombre": "Google News (APFDigital)",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUm9seXRPMmtCUTQxd2N6WUhPWkJUNlVuLWJ4OERvdy1fdTBVRjlBekxuYTNIdlFNVkpubWtKazZLdzlMUFIyZkVxVGpQUnhiSFhReVF4Q05CUnk4Y2o4TjJXc2xGc2lCaDRUQm9ZWEY1WEpBc3RuM3JhV1VYWTZCU3k4ekdnS3AtUm9PRkRxYWdWOWFGdkNHQXRDZ2N0NUJJaEM4RWNSMnNuREtqZ05FWC1n0gG3AUFVX3lxTE5SZzJOdkx6d19QLWIyOG1OWUpBZnRLellONTc1SndkZ29MZWlKNmxtd2FxX29RN0psTE8zRHZvYkY5MFhqU25NdXJ2Um1FRWp1aEhTSF8zRVFTZDh6OWtNY09sYUpZaEJGdVU3UFFxZ2lZMDh6dVIyVGxabkVGcGNTYk5pRmJ6NWM0TW1KeW1uaTZ4anFwSTEwcHFQY3VuXzNkSlV2ZlY5d2ZFVW11VTVxdVdkTXN4bw?oc=5",
+      "fecha_consulta": "2026-09-23T22:42:44.893633"
     }
   ],
   "cronologia_actualizaciones": [
@@ -56,16 +76,40 @@
       "fuente": "GDELT / aimdigital.com.ar",
       "dato": "La Escuela itinerante llegó a Villa Paranacito",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:42",
+      "fecha": "2026-09-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La Escuela Itinerante de Agmer llegó a Villa Paranacito, localidad donde tiene domicilio el gobernador Rogelio Frigerio, lo que añade un contexto político a la elección del lugar para la protesta. También se menciona una declaración del secretario general sobre compañeros docentes por debajo de la l",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:42",
+      "fecha": "2026-09-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo confirma que la 'Escuela Itinerante' de AGMER se instaló en Villa Paranacito este miércoles, dando continuidad a un recorrido que ya había comenzado. El título incluye la frase 'La situación es desesperante'.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:42",
+      "fecha": "2026-09-23",
+      "fuente": "Google News (APFDigital)",
+      "dato": "La Escuela itinerante de Agmer llegó a Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "5ec9d005a958cf4d7d316eabd68c677eb9cf8e129cea73969624c10774551df6",
-    "26d6c843015b093b8ce65b08193043b16a33f2402d415a0bd94fbd623e841c7a"
+    "26d6c843015b093b8ce65b08193043b16a33f2402d415a0bd94fbd623e841c7a",
+    "705118b540a37e19f959b19005679fbc64fa2a9c29819bd4790df4f22b88cabc",
+    "e4a90d6e1ed1257bf2b6ba491f47af7618f26374729c7574a8076598aacaae57",
+    "2d3e44422278e58c4e467146da5d99eae63cf9fb4296429bd40924a9a0783a3b"
   ],
   "fecha_iso": "2026-09-21T23:02:09.413934",
   "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
-  "fecha_ultima_actualizacion_iso": "2026-09-23T19:35:36.586620",
+  "fecha_ultima_actualizacion_iso": "2026-09-23T22:42:44.893633",
   "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
-  "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 19:35 hs",
+  "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 22:42 hs",
   "archivo": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial.json"
 }
