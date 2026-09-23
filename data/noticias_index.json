@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
+    "slug": "agmer-escuela-itinerante-paranacito-crisis-salarial",
+    "titulo": "AGMER Llega a Villa Paranacito con la 'Escuela Itinerante' para Visibilizar la Crisis Salarial Docente",
+    "copete": "El gremio docente AGMER realizará una jornada de protesta y visibilización en Villa Paranacito este miércoles, en el marco de su 'Escuela Entrerriana Itinerante', para denunciar la grave situación salarial que atraviesan los educadores de la provincia.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Crisis Salarial",
+      "Paritarias",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "GDELT / aimdigital.com.ar"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
+    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 19:35 hs",
+    "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
+    "fecha_ultima_actualizacion_iso": "2026-09-23T19:35:36.586620",
+    "resumen_whatsapp": "🚨 AGMER llega a Villa Paranacito este miércoles con su 'Escuela Itinerante' para visibilizar la crisis salarial docente. ¡Apoyemos a nuestros maestros! 📚🍎"
+  },
+  {
     "acontecimiento_id": "2026-09-23-festejo-escuela-angel-elias-paranacito",
     "slug": "festejo-escuela-angel-elias-paranacito",
     "titulo": "Gran Celebración en la Escuela Nina N°19 Ángel Elías de Paraje Sagastume, Villa Paranacito",
@@ -241,36 +272,6 @@
     "fecha_inicio_iso": "2026-09-22T19:40:11.821947",
     "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:11.821947",
     "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital Dr. José María Miranda ya tiene guardias médicas 24 horas. ¡Más salud y seguridad para el Delta! ✨"
-  },
-  {
-    "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
-    "slug": "agmer-escuela-itinerante-paranacito-crisis-salarial",
-    "titulo": "AGMER Llega a Villa Paranacito con la 'Escuela Itinerante' para Visibilizar la Crisis Salarial Docente",
-    "copete": "El gremio docente AGMER realizará una jornada de protesta y visibilización en Villa Paranacito este miércoles, en el marco de su 'Escuela Entrerriana Itinerante', para denunciar la grave situación salarial que atraviesan los educadores de la provincia.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "AGMER",
-      "Villa Paranacito",
-      "Educación",
-      "Docentes",
-      "Crisis Salarial",
-      "Paritarias",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
-    "fecha_ultima_actualizacion": "21 de Septiembre de 2026, 23:02 hs",
-    "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
-    "fecha_ultima_actualizacion_iso": "2026-09-21T23:02:09.413934",
-    "resumen_whatsapp": "🚨 AGMER llega a Villa Paranacito este miércoles con su 'Escuela Itinerante' para visibilizar la crisis salarial docente. ¡Apoyemos a nuestros maestros! 📚🍎"
   },
   {
     "acontecimiento_id": "2026-09-21-informacion-no-procesable-anclaje-geografico",

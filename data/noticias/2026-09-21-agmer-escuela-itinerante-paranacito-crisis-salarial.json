@@ -25,7 +25,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://costa.parana.gob.ar/pesimismo-de-agmer-ante-la-nueva-reunion-paritaria/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Nzz7nDVgDwYrsUndFcg7-",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://costa.parana.gob.ar/pesimismo-de-agmer-ante-la-nueva-reunion-paritaria/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Nzz7nDVgDwYrsUndFcg7-",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://costa.parana.gob.ar/pesimismo-de-agmer-ante-la-nueva-reunion-paritaria/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Nzz7nDVgDwYrsUndFcg7-",
       "fecha_consulta": "2026-09-21T23:02:09.413934"
+    },
+    {
+      "nombre": "GDELT / aimdigital.com.ar",
+      "url": "https://www.aimdigital.com.ar/politica/la-escuela-itinerante-lleg-a-villa-paranacito.htm",
+      "fecha_consulta": "2026-09-23T19:35:36.586620"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "AGMER llevará su 'Escuela Entrerriana Itinerante' a Villa Paranacito este miércoles para visibilizar la crisis salarial docente. La iniciativa busca concientizar sobre el impacto de los bajos sueldos ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:35",
+      "fecha": "2026-09-23",
+      "fuente": "GDELT / aimdigital.com.ar",
+      "dato": "La Escuela itinerante llegó a Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "5ec9d005a958cf4d7d316eabd68c677eb9cf8e129cea73969624c10774551df6"
+    "5ec9d005a958cf4d7d316eabd68c677eb9cf8e129cea73969624c10774551df6",
+    "26d6c843015b093b8ce65b08193043b16a33f2402d415a0bd94fbd623e841c7a"
   ],
   "fecha_iso": "2026-09-21T23:02:09.413934",
   "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
-  "fecha_ultima_actualizacion_iso": "2026-09-21T23:02:09.413934",
+  "fecha_ultima_actualizacion_iso": "2026-09-23T19:35:36.586620",
   "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
-  "fecha_ultima_actualizacion": "21 de Septiembre de 2026, 23:02 hs",
+  "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 19:35 hs",
   "archivo": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial.json"
 }
