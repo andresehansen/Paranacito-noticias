@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-24-alerta-villa-paranacito-lluvias-temperatura-delta",
+  "titulo": "Alerta en Villa Paranacito: Ascenso Térmico y Regreso de Lluvias en el Delta Entrerriano",
+  "copete": "Villa Paranacito y la región del Delta se preparan para un marcado aumento de las temperaturas y el retorno de las precipitaciones, un escenario que demanda atención especial de la comunidad isleña.",
+  "cuerpo": [
+    "La comunidad de Villa Paranacito y las Islas del Ibicuy se encuentra en alerta ante el pronóstico de un significativo ascenso de las temperaturas, que se combinará con el regreso de las lluvias en los próximos días. Este cambio meteorológico, característico de la transición estacional en nuestra particular geografía de humedales y ríos, impactará directamente en la vida cotidiana de los habitantes del Delta entrerriano, desde el transporte fluvial hasta las actividades productivas.",
+    "Según los informes del Servicio Meteorológico Nacional (SMN), se espera que los termómetros superen los 30°C, acompañados de una alta humedad, creando un ambiente propicio para el desarrollo de tormentas. Si bien no se han emitido alertas de gran magnitud al momento, las autoridades municipales y de Defensa Civil de Villa Paranacito monitorean de cerca la situación, especialmente el caudal de los ríos y el estado de los caminos de ripio, fundamentales para la conectividad de la zona.",
+    "El impacto de estas condiciones climáticas es multifacético para los isleños. El aumento de la temperatura y la humedad intensifica la presencia de mosquitos, requiriendo medidas preventivas sanitarias. Las lluvias, si bien necesarias, pueden afectar la transitabilidad de los caminos internos y el acceso a los muelles, complicando el transporte de productos locales y el desplazamiento de los vecinos. Además, la crecida de arroyos y riachos es una preocupación constante para quienes viven en las zonas más bajas del Delta.",
+    "Ante este panorama, se recomienda a los vecinos de Villa Paranacito y las zonas ribereñas tomar precauciones. Es fundamental mantenerse hidratado, evitar la exposición prolongada al sol en horas pico y utilizar repelente de mosquitos. Se aconseja asegurar embarcaciones y objetos al aire libre, y estar atentos a los comunicados oficiales del Municipio de Islas del Ibicuy y Prefectura Naval Argentina sobre el estado de los ríos y la navegabilidad. En caso de emergencias, contactar a los Bomberos Voluntarios de Villa Paranacito o a la Comisaría local."
+  ],
+  "resumen": "Villa Paranacito y el Delta se preparan para un aumento de temperaturas y lluvias. Este cambio climático impactará en la vida isleña, afectando la transitabilidad y la salud pública por mosquitos. Se recomienda a los vecinos tomar precauciones, mantenerse informados y asegurar sus bienes.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "Lluvias",
+    "Temperatura",
+    "Clima",
+    "Alerta Meteorológica"
+  ],
+  "slug": "alerta-villa-paranacito-lluvias-temperatura-delta",
+  "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Se esperan altas temperaturas y lluvias en el Delta. 🌡️🌧️ Tomá precauciones y mantenete informado. #ClimaParanacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/sube-la-temperatura-en-entre-ros-y-anticipan-el-regreso-de-las-lluvias.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3qSBKK1Imo0lHloT9FcHC5",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/sube-la-temperatura-en-entre-ros-y-anticipan-el-regreso-de-las-lluvias.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3qSBKK1Imo0lHloT9FcHC5",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/sube-la-temperatura-en-entre-ros-y-anticipan-el-regreso-de-las-lluvias.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3qSBKK1Imo0lHloT9FcHC5",
+      "fecha_consulta": "2026-09-24T23:02:06.804624"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "23:02",
+      "fecha": "2026-09-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta se preparan para un aumento de temperaturas y lluvias. Este cambio climático impactará en la vida isleña, afectando la transitabilidad y la salud pública por mosquitos. Se ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "567ce6354b0520ce05d3975576696ae0b0dbd8bed0121b8794adad8ab6ae605b"
+  ],
+  "fecha_iso": "2026-09-24T23:02:06.804624",
+  "fecha_inicio_iso": "2026-09-24T23:02:06.804624",
+  "fecha_ultima_actualizacion_iso": "2026-09-24T23:02:06.804624",
+  "fecha_publicacion": "24 de Septiembre de 2026, 23:02 hs",
+  "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 23:02 hs",
+  "archivo": "2026-09-24-alerta-villa-paranacito-lluvias-temperatura-delta.json"
+}
