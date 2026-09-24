@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/09/23/472339-el-ejecutivo-ratifico-las-desvinculaciones-en-el-registro-nico-de-la-verdad&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw20xArw5sCziqY8tq6qF73e",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/09/23/472339-el-ejecutivo-ratifico-las-desvinculaciones-en-el-registro-nico-de-la-verdad&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw20xArw5sCziqY8tq6qF73e",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/09/23/472339-el-ejecutivo-ratifico-las-desvinculaciones-en-el-registro-nico-de-la-verdad&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw20xArw5sCziqY8tq6qF73e",
       "fecha_consulta": "2026-09-24T03:20:11.814602"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/amp/noticias/2026/09/23/472405-registro-nico-de-la-verdad-boeykens-anticipo-que-acudiran-a-la-via-contencioso-administrativa&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2w72B1B7F3q8HrpXMg3_BB",
+      "fecha_consulta": "2026-09-24T09:01:43.096298"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Escuela Itinerante de AGMER llegó a Villa Paranacito, ofreciendo un espacio de formación y debate educativo para docentes y la comunidad del Delta. La iniciativa busca abordar los desafíos específi",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "09:01",
+      "fecha": "2026-09-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable introduce el tema del 'Registro Único de la Verdad' y la anticipación de 'Boeykens' de acudir a la vía contencioso administrativa, información que no estaba presente en la noticia ya publicada.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "2312bde49179cd7d07b0d8b92aeb88fd848042c436d39c7c4ed929a723f331d1"
+    "2312bde49179cd7d07b0d8b92aeb88fd848042c436d39c7c4ed929a723f331d1",
+    "b5219bd72fce2d2e4529795b0e13caf96e3f81190de3ca325f2cf158e6f0ff37"
   ],
   "fecha_iso": "2026-09-24T03:20:11.814602",
   "fecha_inicio_iso": "2026-09-24T03:20:11.814602",
-  "fecha_ultima_actualizacion_iso": "2026-09-24T03:20:11.814602",
+  "fecha_ultima_actualizacion_iso": "2026-09-24T09:01:43.096298",
   "fecha_publicacion": "24 de Septiembre de 2026, 03:20 hs",
-  "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 03:20 hs",
+  "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 09:01 hs",
   "archivo": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-educacion.json"
 }

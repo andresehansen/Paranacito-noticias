@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-educacion-delta",
+    "slug": "escuela-itinerante-agmer-villa-paranacito-educacion-delta",
+    "titulo": "La Escuela Itinerante de AGMER llegó a Villa Paranacito para fortalecer la educación en el Delta",
+    "copete": "La Asociación Gremial del Magisterio de Entre Ríos (AGMER) desplegó su Escuela Itinerante en Villa Paranacito, buscando brindar apoyo pedagógico y comunitario frente a las particularidades del sistema educativo isleño.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Educación",
+      "Villa Paranacito",
+      "Escuela Itinerante",
+      "Delta Entrerriano",
+      "Docentes"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Septiembre de 2026, 09:02 hs",
+    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 09:02 hs",
+    "fecha_inicio_iso": "2026-09-24T09:02:09.340921",
+    "fecha_ultima_actualizacion_iso": "2026-09-24T09:02:09.340921",
+    "resumen_whatsapp": "📚 AGMER llegó a Villa Paranacito con su Escuela Itinerante para fortalecer la educación en el Delta. ¡Talleres y apoyo para docentes y alumnos! #EducaciónIsleña"
+  },
+  {
     "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-educacion",
     "slug": "escuela-itinerante-agmer-villa-paranacito-educacion",
     "titulo": "La Escuela Itinerante de AGMER Impulsa el Debate Educativo en Villa Paranacito",
@@ -12,19 +41,20 @@
       "Delta Entrerriano",
       "Formación Docente"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 1,
+    "num_actualizaciones": 2,
     "fecha_publicacion": "24 de Septiembre de 2026, 03:20 hs",
-    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 03:20 hs",
+    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 09:01 hs",
     "fecha_inicio_iso": "2026-09-24T03:20:11.814602",
-    "fecha_ultima_actualizacion_iso": "2026-09-24T03:20:11.814602",
+    "fecha_ultima_actualizacion_iso": "2026-09-24T09:01:43.096298",
     "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER llegó a Villa Paranacito para debatir y formar sobre educación en el Delta. ¡Una gran oportunidad para docentes y la comunidad! #EducaciónLocal"
   },
   {
