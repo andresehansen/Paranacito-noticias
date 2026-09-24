@@ -60,6 +60,11 @@
       "nombre": "Google News (APFDigital)",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUm9seXRPMmtCUTQxd2N6WUhPWkJUNlVuLWJ4OERvdy1fdTBVRjlBekxuYTNIdlFNVkpubWtKazZLdzlMUFIyZkVxVGpQUnhiSFhReVF4Q05CUnk4Y2o4TjJXc2xGc2lCaDRUQm9ZWEY1WEpBc3RuM3JhV1VYWTZCU3k4ekdnS3AtUm9PRkRxYWdWOWFGdkNHQXRDZ2N0NUJJaEM4RWNSMnNuREtqZ05FWC1n0gG3AUFVX3lxTE5SZzJOdkx6d19QLWIyOG1OWUpBZnRLellONTc1SndkZ29MZWlKNmxtd2FxX29RN0psTE8zRHZvYkY5MFhqU25NdXJ2Um1FRWp1aEhTSF8zRVFTZDh6OWtNY09sYUpZaEJGdVU3UFFxZ2lZMDh6dVIyVGxabkVGcGNTYk5pRmJ6NWM0TW1KeW1uaTZ4anFwSTEwcHFQY3VuXzNkSlV2ZlY5d2ZFVW11VTVxdVdkTXN4bw?oc=5",
       "fecha_consulta": "2026-09-23T22:42:44.893633"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/amp/noticias/2026/09/23/472369-senadores-analizaron-modificaciones-al-proyecto-sobre-transparencia-y-tica-publica&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw22lYBDAmulTL9N9nzzcnu-",
+      "fecha_consulta": "2026-09-24T03:19:59.412877"
     }
   ],
   "cronologia_actualizaciones": [
@@ -97,6 +102,13 @@
       "fuente": "Google News (APFDigital)",
       "dato": "La Escuela itinerante de Agmer llegó a Villa Paranacito",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:19",
+      "fecha": "2026-09-24",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -104,12 +116,13 @@
     "26d6c843015b093b8ce65b08193043b16a33f2402d415a0bd94fbd623e841c7a",
     "705118b540a37e19f959b19005679fbc64fa2a9c29819bd4790df4f22b88cabc",
     "e4a90d6e1ed1257bf2b6ba491f47af7618f26374729c7574a8076598aacaae57",
-    "2d3e44422278e58c4e467146da5d99eae63cf9fb4296429bd40924a9a0783a3b"
+    "2d3e44422278e58c4e467146da5d99eae63cf9fb4296429bd40924a9a0783a3b",
+    "c2c3a72a91de73df8ab5069b056a315eb085b42f1c01a1b4b4a2c862e7769686"
   ],
   "fecha_iso": "2026-09-21T23:02:09.413934",
   "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
-  "fecha_ultima_actualizacion_iso": "2026-09-23T22:42:44.893633",
+  "fecha_ultima_actualizacion_iso": "2026-09-24T03:19:59.412877",
   "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
-  "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 22:42 hs",
+  "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 03:19 hs",
   "archivo": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial.json"
 }
