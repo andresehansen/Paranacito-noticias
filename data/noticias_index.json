@@ -1,17 +1,18 @@
 [
   {
-    "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-educacion-delta",
-    "slug": "escuela-itinerante-agmer-villa-paranacito-educacion-delta",
-    "titulo": "La Escuela Itinerante de AGMER llegó a Villa Paranacito para fortalecer la educación en el Delta",
-    "copete": "La Asociación Gremial del Magisterio de Entre Ríos (AGMER) desplegó su Escuela Itinerante en Villa Paranacito, buscando brindar apoyo pedagógico y comunitario frente a las particularidades del sistema educativo isleño.",
+    "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito",
+    "slug": "escuela-itinerante-agmer-villa-paranacito",
+    "titulo": "Educación en el Delta: La Escuela Itinerante de AGMER Arribó a Villa Paranacito",
+    "copete": "La Asociación Gremial del Magisterio de Entre Ríos (AGMER) desplegó su innovadora Escuela Itinerante en Villa Paranacito, ofreciendo capacitación y actualización pedagógica a los docentes de la región.",
     "categoria": "Salud y Educación",
     "tags": [
+      "educacion",
       "AGMER",
-      "Educación",
       "Villa Paranacito",
-      "Escuela Itinerante",
+      "docentes",
+      "formacion docente",
       "Delta Entrerriano",
-      "Docentes"
+      "Islas del Ibicuy"
     ],
     "estado": "Publicado",
     "es_alerta": false,
@@ -19,44 +20,14 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google News (elonce.com)"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "24 de Septiembre de 2026, 09:02 hs",
-    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 09:02 hs",
-    "fecha_inicio_iso": "2026-09-24T09:02:09.340921",
-    "fecha_ultima_actualizacion_iso": "2026-09-24T09:02:09.340921",
-    "resumen_whatsapp": "📚 AGMER llegó a Villa Paranacito con su Escuela Itinerante para fortalecer la educación en el Delta. ¡Talleres y apoyo para docentes y alumnos! #EducaciónIsleña"
-  },
-  {
-    "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-educacion",
-    "slug": "escuela-itinerante-agmer-villa-paranacito-educacion",
-    "titulo": "La Escuela Itinerante de AGMER Impulsa el Debate Educativo en Villa Paranacito",
-    "copete": "La iniciativa del gremio docente AGMER arribó a Villa Paranacito, abriendo un espacio de diálogo y formación sobre los desafíos actuales de la educación en la región del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Educación",
-      "AGMER",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Formación Docente"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "24 de Septiembre de 2026, 03:20 hs",
-    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 09:01 hs",
-    "fecha_inicio_iso": "2026-09-24T03:20:11.814602",
-    "fecha_ultima_actualizacion_iso": "2026-09-24T09:01:43.096298",
-    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER llegó a Villa Paranacito para debatir y formar sobre educación en el Delta. ¡Una gran oportunidad para docentes y la comunidad! #EducaciónLocal"
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "24 de Septiembre de 2026, 19:55 hs",
+    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 19:55 hs",
+    "fecha_inicio_iso": "2026-09-24T19:55:18.716823",
+    "fecha_ultima_actualizacion_iso": "2026-09-24T19:55:18.716823",
+    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER llegó a Villa Paranacito para capacitar a docentes del Delta, ¡mejorando la educación local! 🍎 #Educación #Paranacito"
   },
   {
     "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
@@ -93,35 +64,6 @@
     "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
     "fecha_ultima_actualizacion_iso": "2026-09-24T03:19:59.412877",
     "resumen_whatsapp": "🚨 AGMER llega a Villa Paranacito este miércoles con su 'Escuela Itinerante' para visibilizar la crisis salarial docente. ¡Apoyemos a nuestros maestros! 📚🍎"
-  },
-  {
-    "acontecimiento_id": "2026-09-24-agmer-escuela-itinerante-villa-paranacito-educacion",
-    "slug": "agmer-escuela-itinerante-villa-paranacito-educacion",
-    "titulo": "Educación en Movimiento: AGMER Desembarcó con su Escuela Itinerante en Villa Paranacito",
-    "copete": "La comunidad educativa de Villa Paranacito recibió con entusiasmo la llegada de la Escuela Itinerante de AGMER, una iniciativa clave para la capacitación y actualización de docentes en el corazón del Delta entrerriano.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "AGMER",
-      "Educación",
-      "Formación Docente",
-      "Delta Entrerriano",
-      "Comunidad Educativa"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "24 de Septiembre de 2026, 03:19 hs",
-    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 03:19 hs",
-    "fecha_inicio_iso": "2026-09-24T03:19:49.142391",
-    "fecha_ultima_actualizacion_iso": "2026-09-24T03:19:49.142391",
-    "resumen_whatsapp": "¡Gran noticia para la educación en Villa Paranacito! 📚 La Escuela Itinerante de AGMER llegó al Delta para capacitar a nuestros docentes. ¡Más herramientas para el futuro de nuestros chicos! #Educación #Paranacito"
   },
   {
     "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",
