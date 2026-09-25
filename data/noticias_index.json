@@ -1,5 +1,38 @@
 [
   {
+    "acontecimiento_id": "2026-09-19-salud-villa-paranacito-estudios-cardiacos",
+    "slug": "salud-villa-paranacito-estudios-cardiacos",
+    "titulo": "Hito en Salud para Villa Paranacito: Hospital Local Ofrecerá Estudios Cardíacos por Primera Vez",
+    "copete": "El Hospital de Villa Paranacito marca un antes y un después en la atención médica local al incorporar la posibilidad de realizar estudios cardiológicos, una prestación inédita para los vecinos de la región del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud",
+      "Villa Paranacito",
+      "Hospital",
+      "Cardiología",
+      "Servicios Médicos",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 5,
+    "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
+    "fecha_ultima_actualizacion": "25 de Septiembre de 2026, 09:24 hs",
+    "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
+    "fecha_ultima_actualizacion_iso": "2026-09-25T09:24:52.282317",
+    "resumen_whatsapp": "🩺 ¡Gran noticia para Villa Paranacito! El Hospital local ofrecerá estudios cardíacos por primera vez, mejorando el acceso a la salud para todos los vecinos del Delta. ❤️"
+  },
+  {
     "acontecimiento_id": "2026-09-24-alerta-villa-paranacito-humedal-inundaciones-delta",
     "slug": "alerta-villa-paranacito-humedal-inundaciones-delta",
     "titulo": "Alerta en Villa Paranacito: Expertos Advierten por Cambios en el Humedal y Riesgo de Inundaciones en el Delta Entrerriano",
@@ -49,7 +82,8 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
+      "Google Alerts - Villa Paranacito",
+      "Google News (flipr.com.ar)"
     ],
     "num_actualizaciones": 1,
     "fecha_publicacion": "24 de Septiembre de 2026, 23:02 hs",
@@ -173,6 +207,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
@@ -181,38 +216,6 @@
     "fecha_inicio_iso": "2026-09-23T09:07:00.213493",
     "fecha_ultima_actualizacion_iso": "2026-09-23T09:07:00.213493",
     "resumen_whatsapp": "🚨 ¡Atención docentes! Concurso para Nivel Inicial y Primario en Villa Paranacito: Miércoles 23/9, 11:30 hs en Los Cipreses 1012. ¡Oportunidad clave para la educación del Delta! 📚🍎"
-  },
-  {
-    "acontecimiento_id": "2026-09-19-salud-villa-paranacito-estudios-cardiacos",
-    "slug": "salud-villa-paranacito-estudios-cardiacos",
-    "titulo": "Hito en Salud para Villa Paranacito: Hospital Local Ofrecerá Estudios Cardíacos por Primera Vez",
-    "copete": "El Hospital de Villa Paranacito marca un antes y un después en la atención médica local al incorporar la posibilidad de realizar estudios cardiológicos, una prestación inédita para los vecinos de la región del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Salud",
-      "Villa Paranacito",
-      "Hospital",
-      "Cardiología",
-      "Servicios Médicos",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
-    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 09:06 hs",
-    "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
-    "fecha_ultima_actualizacion_iso": "2026-09-23T09:06:46.614075",
-    "resumen_whatsapp": "🩺 ¡Gran noticia para Villa Paranacito! El Hospital local ofrecerá estudios cardíacos por primera vez, mejorando el acceso a la salud para todos los vecinos del Delta. ❤️"
   },
   {
     "acontecimiento_id": "2026-09-23-villa-paranacito-area-conservacion-ecologica-delta",
