@@ -34,6 +34,11 @@
       "nombre": "Google News (Elonce.com)",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONWRPSXkydUZKVFVLSlB5cGFDWkF1SVY4b1J3dUFMX3pidC1sdFpyUlFFeWlLRm9kTC1RNU42VWdPN19idUVBTkgtU0tmZk9sNzRhYUhpR3JFa3BVVTdUajFBcVB5eGJGTU80NThPRXNuZ2NYWW4xal96bFNUQmVQWHhGdUs2X0VETDhVY2xtdVRuZGc5MFowSDZvWXFfTVIzWU1POWUycFZFcnM2ekNXeFhrYi3SAa4BQVVfeXFMTmpsMXdnUGJnbGNJS09OZmhLSUg3UEx2a19YaGVUWk1kQnEtdzIwdHkyV2NYclNXNE80aXJjV1k0eXRnTHFSTTdUQUNzMlRLZ2VhU1NYS2U3Y0xFTGlMU19vcFJLOF9ieDRmZERsdUQxMFdHRFdSSFFtQmJFUm1fcDY1UnVpblEzNEdMbWlEdFZ1QUc3S1dPSEZvRWtkQUZRYXFzRjZIRWNGM1pLMDdn?oc=5",
       "fecha_consulta": "2026-09-24T23:03:02.242538"
+    },
+    {
+      "nombre": "Google News (Elonce.com)",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamwxd2dQYmdsY0lLT05maEtJSDdQTHZrX1hoZVRaTWRCcS13MjB0eTJXY1hyU1c0TzRpcmNXWTR5dGdMcVJNN1RBQ3MyVEtnZWFTU1hLZTdjTEVMaUxTX29wUks4X2J4NGZkRGx1RDEwV0dEV1JIUW1CYkVSbV9wNjVSdWluUTM0R0xtaUR0VnVBRzdLV09IRm9Fa2RBRlFhcXNGNkhFY0YzWkswN2fSAa4BQVVfeXFMTmpsMXdnUGJnbGNJS09OZmhLSUg3UEx2a19YaGVUWk1kQnEtdzIwdHkyV2NYclNXNE80aXJjV1k0eXRnTHFSTTdUQUNzMlRLZ2VhU1NYS2U3Y0xFTGlMU19vcFJLOF9ieDRmZERsdUQxMFdHRFdSSFFtQmJFUm1fcDY1UnVpblEzNEdMbWlEdFZ1QUc3S1dPSEZvRWtkQUZRYXFzRjZIRWNGM1pLMDdn?oc=5",
+      "fecha_consulta": "2026-09-25T03:36:53.066099"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google News (Elonce.com)",
       "dato": "Expertos alertan sobre cambios en el humedal del Delta Entrerriano, aumentando el riesgo de inundaciones en Villa Paranacito y la región. Estas transformaciones impactan la vida isleña, afectando cami",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:36",
+      "fecha": "2026-09-25",
+      "fuente": "Google News (Elonce.com)",
+      "dato": "Delta entrerriano: advierten por cambios en el humedal ante posibles inundaciones",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "d3251e412dcd8673662829fa0636e28e6761f6f735a974ba5e86206adcfe5df4"
+    "d3251e412dcd8673662829fa0636e28e6761f6f735a974ba5e86206adcfe5df4",
+    "56dbfb65e5f876a24548f37fbf033096f659a049183c388899f639ad2185412b"
   ],
   "fecha_iso": "2026-09-24T23:03:02.242538",
   "fecha_inicio_iso": "2026-09-24T23:03:02.242538",
-  "fecha_ultima_actualizacion_iso": "2026-09-24T23:03:02.242538",
+  "fecha_ultima_actualizacion_iso": "2026-09-25T03:36:53.066099",
   "fecha_publicacion": "24 de Septiembre de 2026, 23:03 hs",
-  "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 23:03 hs",
+  "fecha_ultima_actualizacion": "25 de Septiembre de 2026, 03:36 hs",
   "archivo": "2026-09-24-alerta-villa-paranacito-humedal-inundaciones-delta.json"
 }
