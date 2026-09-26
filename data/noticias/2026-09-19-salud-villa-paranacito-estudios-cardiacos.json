@@ -54,6 +54,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/24/117253-a-traves-de-un-credito-internacional-anunciaron-la-construccion-del-puente-sobre-el-arroyo-el-sauce&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw06zNWX1L2ID4yPDnoBaUx2",
       "fecha_consulta": "2026-09-25T09:24:52.282317"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/09/25/117343-el-hospital-san-isidro-labrador-incorporo-una-ambulancia-de-mediana-complejidad&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0EUroOcvw5463SZfwbVd-P",
+      "fecha_consulta": "2026-09-26T03:43:01.745197"
     }
   ],
   "cronologia_actualizaciones": [
@@ -91,6 +96,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:43",
+      "fecha": "2026-09-26",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -98,12 +110,13 @@
     "eff1c66f50cbb87f73f90eaa8120dabc638474138806672754ed80a52f5ef044",
     "98ec605c018b1a253860ab75cd4e6b83e9ee9477815d03ec3c51a97666181607",
     "078f1cccdf7931f14401b65e2e40e5a1318e627ac7d28fe7c7f8bd12e8dfc9b7",
-    "415fb0cce2bf40bf8106d8473603bf98c2e17e43fd0cfb8d27141bc47cffd496"
+    "415fb0cce2bf40bf8106d8473603bf98c2e17e43fd0cfb8d27141bc47cffd496",
+    "0647d074ebf2227530666231567a89767437a683adf47dfb3913348129f1c4a5"
   ],
   "fecha_iso": "2026-09-19T22:09:11.156635",
   "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
-  "fecha_ultima_actualizacion_iso": "2026-09-25T09:24:52.282317",
+  "fecha_ultima_actualizacion_iso": "2026-09-26T03:43:01.745197",
   "fecha_publicacion": "19 de Septiembre de 2026, 22:09 hs",
-  "fecha_ultima_actualizacion": "25 de Septiembre de 2026, 09:24 hs",
+  "fecha_ultima_actualizacion": "26 de Septiembre de 2026, 03:43 hs",
   "archivo": "2026-09-19-salud-villa-paranacito-estudios-cardiacos.json"
 }
