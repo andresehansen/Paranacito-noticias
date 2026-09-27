@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/tiene-acuerdo-del-senado-para-fiscal-y-pedido-de-condena-a-4-anos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2cUTWohZPO5SBv18YxUPCl",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/tiene-acuerdo-del-senado-para-fiscal-y-pedido-de-condena-a-4-anos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2cUTWohZPO5SBv18YxUPCl",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -34,6 +34,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/tiene-acuerdo-del-senado-para-fiscal-y-pedido-de-condena-a-4-anos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2cUTWohZPO5SBv18YxUPCl",
       "fecha_consulta": "2026-09-27T03:51:41.858247"
+    },
+    {
+      "nombre": "Google News (Flipr.news)",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNVVUV0pZZTdRMWhHUDVMQUFhRDFJOGtuOHFyNlUyRHc3Ym92R2FzdnZoLWVjb1FqOUxOWUVsSzFLTVlnZGt6R3pIUmg3Q1BzR2htbFp4eWFOTXJ0VnlFU2FIV2ptWHQ0YUZZVXc3d0xhWUNDdWJRLVlGN2Jqa1hva1FlS0ZuOFBWMVU1cUVNMHlUbVZPM0JPN0ZyYm1Qc082Unk3Q0Joc2tHRmV2YXRkeW1mYw?oc=5",
+      "fecha_consulta": "2026-09-27T09:51:20.445622"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV1ZRb0xySUpEd04tSGktTlkyZ2MtNERUSERjcTRnYjg3MHhlbVpiNWdOZmk4N1R0TDhOWWhOTV9MVHp2eEZGUjZNX1d4dEMzSkRNYjVGdFNxWWFmc2ZCVVpTemtmWUROUWZxYzJOU3VmTjdCYWc0cldVSV93NkVHV2lBV0gzdmlxQWwydExoRHptLTlBbUlfNV9lck1rN2hwNjV5V1RlbElQZWg4OF9SM1JiNHBKdmxkREFZeU5DNTPSAcYBQVVfeXFMUHc4M3VfYTJ4NXRLRlE1eWxxTm52aVRXTEFIVElHRmFzaDR4ZElJQU1lQWhHQ0w0RnVxYXNxbHpMN09DSnI4d2pjamVjR3VBc0hsM1FKcmEwSVhFWXRjRVFuS3NyRmk3ckVOSDNPSmEyRmZsZVJtWDVweklaaW0tTUdsRVlvQ3R5RjZyUzFkbmkwTHY3UWdEaml0QW16enREaWpmbFhmUUZ5ZHhPY0JUYnVheEY2VGFxWF9KZjlLaHNEa0RfVE53?oc=5",
+      "fecha_consulta": "2026-09-27T09:51:25.192061"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +53,31 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Senado de Entre Ríos aprobó la designación de un fiscal para Villa Paranacito, a pesar de que el funcionario enfrenta denuncias y un pedido de condena de cuatro años. Las impugnaciones en su contra",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "09:51",
+      "fecha": "2026-09-27",
+      "fuente": "Google News (Flipr.news)",
+      "dato": "La Fiscalía solicitará la prisión efectiva para el fiscal recientemente designado en Villa Paranacito, lo que representa una concreción y un avance sobre los 'trascendidos pedidos de condena' mencionados previamente.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "09:51",
+      "fecha": "2026-09-27",
+      "fuente": "Google News (R2820)",
+      "dato": "La Fiscalía pedirá prisión efectiva para el fiscal designado en Villa Paranacito, lo que representa una acción legal concreta y más avanzada que el 'trascendido pedido de condena' mencionado previamente.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "5fd96a0fd7d5181e09a59a2f1c54b75151de60db3292db598a09c7fb82853368"
+    "5fd96a0fd7d5181e09a59a2f1c54b75151de60db3292db598a09c7fb82853368",
+    "caf0d99dd1285cec524474ac27c9b8d958dcaf08e8197a294b269356f4c1cdf6",
+    "f26f427f1545e1d81b282ca24328fade55514e7b38123bac0e05c5bc08efcf69"
   ],
   "fecha_iso": "2026-09-27T03:51:41.858247",
   "fecha_inicio_iso": "2026-09-27T03:51:41.858247",
-  "fecha_ultima_actualizacion_iso": "2026-09-27T03:51:41.858247",
+  "fecha_ultima_actualizacion_iso": "2026-09-27T09:51:25.192061",
   "fecha_publicacion": "27 de Septiembre de 2026, 03:51 hs",
-  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 03:51 hs",
+  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 09:51 hs",
   "archivo": "2026-09-27-designacion-fiscal-villa-paranacito-polemica.json"
 }
