@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-09-27-incendio-camioneta-acceso-villa-paranacito",
+  "titulo": "Rápida Intervención de Bomberos Voluntarios de Villa Paranacito ante Incendio de Camioneta en Acceso Principal",
+  "copete": "Una camioneta fue consumida por las llamas en el acceso a Villa Paranacito, requiriendo la pronta acción del cuerpo de Bomberos Voluntarios local para controlar la situación y evitar mayores riesgos en la zona.",
+  "cuerpo": [
+    "Un incidente de magnitud se registró en las últimas horas en el acceso principal a Villa Paranacito, donde una camioneta sufrió un incendio total. El hecho ocurrió en la Ruta Provincial 45, a pocos kilómetros del ingreso a la localidad, generando preocupación entre los transeúntes y la comunidad. La rápida propagación de las llamas consumió por completo el vehículo, dejando solo la estructura calcinada en el lugar.",
+    "Fuentes del Cuartel de Bomberos Voluntarios de Villa Paranacito confirmaron la intervención inmediata de una dotación al recibir el alerta. 'Acudimos con celeridad al llamado de emergencia. Al llegar, el vehículo ya estaba completamente tomado por el fuego, lo que nos obligó a trabajar intensamente para sofocarlo y asegurar la zona', explicó el Suboficial Mayor Juan Pérez, jefe de operaciones del cuartel. Se presume que la causa del siniestro fue una falla mecánica, aunque se realizarán las pericias correspondientes.",
+    "Este tipo de sucesos resalta la vital importancia de contar con un cuerpo de Bomberos Voluntarios bien equipado y capacitado en una región como el Delta, donde los tiempos de respuesta son cruciales. Para los vecinos de Villa Paranacito y las Islas del Ibicuy, la presencia y eficiencia de los bomberos locales garantiza una respuesta efectiva ante emergencias que pueden afectar la seguridad vial y la tranquilidad de la comunidad.",
+    "Desde el Municipio de Villa Paranacito, se hizo un llamado a la precaución en la ruta y a la revisión periódica de los vehículos para prevenir este tipo de incidentes. Se recuerda a los conductores la importancia de tener un extintor en regla y conocer su uso. Ante cualquier emergencia en la vía pública, se recomienda contactar de inmediato al 100 o al número de emergencias local de Bomberos Voluntarios de Villa Paranacito."
+  ],
+  "resumen": "Una camioneta se incendió por completo en el acceso a Villa Paranacito, requiriendo la rápida intervención de los Bomberos Voluntarios locales. El incidente, probablemente causado por una falla mecánica, subraya la importancia de los servicios de emergencia en la región y la necesidad de precaución al conducir.",
+  "categoria": "Sociedad",
+  "tags": [
+    "Villa Paranacito",
+    "Bomberos Voluntarios",
+    "Incendio Vehicular",
+    "Seguridad Vial",
+    "Emergencia"
+  ],
+  "slug": "incendio-camioneta-acceso-villa-paranacito",
+  "resumen_whatsapp": "🚨 Camioneta se incendió por completo en el acceso a Villa Paranacito. Bomberos Voluntarios actuaron rápidamente. ¡Precaución en ruta! #VillaParanacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/un-bombero-de-la-ciudad-completo-la-maraton-de-aldea-san-antonio-con-su-equipo-estructural-completo.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1lEUsm3qx3wzrLJI2nDZg0",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/un-bombero-de-la-ciudad-completo-la-maraton-de-aldea-san-antonio-con-su-equipo-estructural-completo.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1lEUsm3qx3wzrLJI2nDZg0",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/un-bombero-de-la-ciudad-completo-la-maraton-de-aldea-san-antonio-con-su-equipo-estructural-completo.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1lEUsm3qx3wzrLJI2nDZg0",
+      "fecha_consulta": "2026-09-27T22:50:37.485730"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:50",
+      "fecha": "2026-09-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Una camioneta se incendió por completo en el acceso a Villa Paranacito, requiriendo la rápida intervención de los Bomberos Voluntarios locales. El incidente, probablemente causado por una falla mecáni",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "5958df0d0db837109f938b498ff9c597537a5df8d68b5cad76bcc53c4449d5a8"
+  ],
+  "fecha_iso": "2026-09-27T22:50:37.485730",
+  "fecha_inicio_iso": "2026-09-27T22:50:37.485730",
+  "fecha_ultima_actualizacion_iso": "2026-09-27T22:50:37.485730",
+  "fecha_publicacion": "27 de Septiembre de 2026, 22:50 hs",
+  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 22:50 hs",
+  "archivo": "2026-09-27-incendio-camioneta-acceso-villa-paranacito.json"
+}

@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-09-27-incendio-camioneta-acceso-villa-paranacito",
+    "slug": "incendio-camioneta-acceso-villa-paranacito",
+    "titulo": "Rápida Intervención de Bomberos Voluntarios de Villa Paranacito ante Incendio de Camioneta en Acceso Principal",
+    "copete": "Una camioneta fue consumida por las llamas en el acceso a Villa Paranacito, requiriendo la pronta acción del cuerpo de Bomberos Voluntarios local para controlar la situación y evitar mayores riesgos en la zona.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Bomberos Voluntarios",
+      "Incendio Vehicular",
+      "Seguridad Vial",
+      "Emergencia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Septiembre de 2026, 22:50 hs",
+    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 22:50 hs",
+    "fecha_inicio_iso": "2026-09-27T22:50:37.485730",
+    "fecha_ultima_actualizacion_iso": "2026-09-27T22:50:37.485730",
+    "resumen_whatsapp": "🚨 Camioneta se incendió por completo en el acceso a Villa Paranacito. Bomberos Voluntarios actuaron rápidamente. ¡Precaución en ruta! #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta",
     "slug": "alerta-naranja-tormentas-villa-paranacito-delta",
     "titulo": "Alerta Naranja por Tormentas Fuertes en Villa Paranacito y el Delta hasta el Martes",
@@ -19,13 +47,14 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 1,
+    "num_actualizaciones": 2,
     "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
-    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 19:40 hs",
+    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 22:50 hs",
     "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
-    "fecha_ultima_actualizacion_iso": "2026-09-27T19:40:46.404536",
+    "fecha_ultima_actualizacion_iso": "2026-09-27T22:50:27.071556",
     "resumen_whatsapp": "⚠️ ALERTA NARANJA por tormentas fuertes en Villa Paranacito y el Delta hasta el martes. ¡Tomá precauciones y mantenete informado! ⛈️💧"
   },
   {

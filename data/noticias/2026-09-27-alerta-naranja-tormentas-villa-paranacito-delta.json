@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80145&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZZhGicEPAGUsHOJcVjQ3w",
       "fecha_consulta": "2026-09-27T19:40:46.404536"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/sociedad/granizo-y-fuerte-lluvia-sorprendieron-a-gualeguaychu-las-imagenes-del-temporal.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3mQvJz50gmOYa95-3yhoM9",
+      "fecha_consulta": "2026-09-27T22:50:27.071556"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito y el Delta están bajo alerta naranja por tormentas fuertes hasta el martes, con riesgo de intensas lluvias, ráfagas y granizo. Se esperan acumulaciones de agua significativas y posibl",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:50",
+      "fecha": "2026-09-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Granizo y fuerte lluvia sorprendieron a Gualeguaychú: las imágenes del temporal",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "2c710f03f39a4abd5bd542dcaa2e359949e18eeeb6d61e179e43742789d55a82"
+    "2c710f03f39a4abd5bd542dcaa2e359949e18eeeb6d61e179e43742789d55a82",
+    "57341c014744863011ba5b24a0588ede653e1df1465c97a47ac9392bbbc11c43"
   ],
   "fecha_iso": "2026-09-27T19:40:46.404536",
   "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
-  "fecha_ultima_actualizacion_iso": "2026-09-27T19:40:46.404536",
+  "fecha_ultima_actualizacion_iso": "2026-09-27T22:50:27.071556",
   "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
-  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 19:40 hs",
+  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 22:50 hs",
   "archivo": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta.json"
 }
