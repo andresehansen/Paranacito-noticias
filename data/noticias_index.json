@@ -1,5 +1,70 @@
 [
   {
+    "acontecimiento_id": "2026-09-27-impacto-judicial-villa-paranacito-fiscal-prision",
+    "slug": "impacto-judicial-villa-paranacito-fiscal-prision",
+    "titulo": "Impacto Judicial en Villa Paranacito: Fiscalía Pide Prisión para Fiscal Designado y Abren Concurso para Nuevos Cargos",
+    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano sigue de cerca las novedades judiciales tras la solicitud de prisión efectiva para un fiscal que había sido designado para la localidad, mientras el Consejo de la Magistratura avanza en la cobertura de nuevas vacantes.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Justicia",
+      "Fiscalía",
+      "Consejo de la Magistratura",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Septiembre de 2026, 16:30 hs",
+    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 16:30 hs",
+    "fecha_inicio_iso": "2026-09-27T16:30:31.558869",
+    "fecha_ultima_actualizacion_iso": "2026-09-27T16:30:31.558869",
+    "resumen_whatsapp": "🚨 Noticia Judicial en Villa Paranacito: Fiscalía pide prisión para fiscal designado y abren concurso para nuevos cargos. ¡Impacto en la justicia local! ⚖️"
+  },
+  {
+    "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
+    "slug": "agmer-escuela-itinerante-paranacito-crisis-salarial",
+    "titulo": "AGMER Llega a Villa Paranacito con la 'Escuela Itinerante' para Visibilizar la Crisis Salarial Docente",
+    "copete": "El gremio docente AGMER realizará una jornada de protesta y visibilización en Villa Paranacito este miércoles, en el marco de su 'Escuela Entrerriana Itinerante', para denunciar la grave situación salarial que atraviesan los educadores de la provincia.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Crisis Salarial",
+      "Paritarias",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "GDELT / aimdigital.com.ar",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google News (APFDigital)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 7,
+    "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
+    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 16:28 hs",
+    "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
+    "fecha_ultima_actualizacion_iso": "2026-09-27T16:28:10.383421",
+    "resumen_whatsapp": "🚨 AGMER llega a Villa Paranacito este miércoles con su 'Escuela Itinerante' para visibilizar la crisis salarial docente. ¡Apoyemos a nuestros maestros! 📚🍎"
+  },
+  {
     "acontecimiento_id": "2026-09-19-salud-villa-paranacito-estudios-cardiacos",
     "slug": "salud-villa-paranacito-estudios-cardiacos",
     "titulo": "Hito en Salud para Villa Paranacito: Hospital Local Ofrecerá Estudios Cardíacos por Primera Vez",
@@ -208,42 +273,6 @@
     "fecha_inicio_iso": "2026-09-24T23:02:06.804624",
     "fecha_ultima_actualizacion_iso": "2026-09-24T23:02:06.804624",
     "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Se esperan altas temperaturas y lluvias en el Delta. 🌡️🌧️ Tomá precauciones y mantenete informado. #ClimaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
-    "slug": "agmer-escuela-itinerante-paranacito-crisis-salarial",
-    "titulo": "AGMER Llega a Villa Paranacito con la 'Escuela Itinerante' para Visibilizar la Crisis Salarial Docente",
-    "copete": "El gremio docente AGMER realizará una jornada de protesta y visibilización en Villa Paranacito este miércoles, en el marco de su 'Escuela Entrerriana Itinerante', para denunciar la grave situación salarial que atraviesan los educadores de la provincia.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "AGMER",
-      "Villa Paranacito",
-      "Educación",
-      "Docentes",
-      "Crisis Salarial",
-      "Paritarias",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "GDELT / aimdigital.com.ar",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google News (APFDigital)",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 6,
-    "fecha_publicacion": "21 de Septiembre de 2026, 23:02 hs",
-    "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 03:19 hs",
-    "fecha_inicio_iso": "2026-09-21T23:02:09.413934",
-    "fecha_ultima_actualizacion_iso": "2026-09-24T03:19:59.412877",
-    "resumen_whatsapp": "🚨 AGMER llega a Villa Paranacito este miércoles con su 'Escuela Itinerante' para visibilizar la crisis salarial docente. ¡Apoyemos a nuestros maestros! 📚🍎"
   },
   {
     "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",

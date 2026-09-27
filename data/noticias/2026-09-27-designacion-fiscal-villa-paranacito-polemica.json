@@ -44,6 +44,11 @@
       "nombre": "Google News (R2820)",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV1ZRb0xySUpEd04tSGktTlkyZ2MtNERUSERjcTRnYjg3MHhlbVpiNWdOZmk4N1R0TDhOWWhOTV9MVHp2eEZGUjZNX1d4dEMzSkRNYjVGdFNxWWFmc2ZCVVpTemtmWUROUWZxYzJOU3VmTjdCYWc0cldVSV93NkVHV2lBV0gzdmlxQWwydExoRHptLTlBbUlfNV9lck1rN2hwNjV5V1RlbElQZWg4OF9SM1JiNHBKdmxkREFZeU5DNTPSAcYBQVVfeXFMUHc4M3VfYTJ4NXRLRlE1eWxxTm52aVRXTEFIVElHRmFzaDR4ZElJQU1lQWhHQ0w0RnVxYXNxbHpMN09DSnI4d2pjamVjR3VBc0hsM1FKcmEwSVhFWXRjRVFuS3NyRmk3ckVOSDNPSmEyRmZsZVJtWDVweklaaW0tTUdsRVlvQ3R5RjZyUzFkbmkwTHY3UWdEaml0QW16enREaWpmbFhmUUZ5ZHhPY0JUYnVheEY2VGFxWF9KZjlLaHNEa0RfVE53?oc=5",
       "fecha_consulta": "2026-09-27T09:51:25.192061"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/09/27/117442-fiscalia-pedira-prision-efectiva-para-fiscal-designado-en-villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2k8R6LwSu2ss-OUGYdqZ4c",
+      "fecha_consulta": "2026-09-27T16:29:59.707863"
     }
   ],
   "cronologia_actualizaciones": [
@@ -67,17 +72,25 @@
       "fuente": "Google News (R2820)",
       "dato": "La Fiscalía pedirá prisión efectiva para el fiscal designado en Villa Paranacito, lo que representa una acción legal concreta y más avanzada que el 'trascendido pedido de condena' mencionado previamente.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:29",
+      "fecha": "2026-09-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El fiscal es identificado como Leonardo Schonfeld. Se detalla que tiene más de una docena de denuncias y, lo más relevante, la Fiscalía pedirá prisión efectiva para él, lo que actualiza el 'trascendido pedido de condena' mencionado previamente.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "5fd96a0fd7d5181e09a59a2f1c54b75151de60db3292db598a09c7fb82853368",
     "caf0d99dd1285cec524474ac27c9b8d958dcaf08e8197a294b269356f4c1cdf6",
-    "f26f427f1545e1d81b282ca24328fade55514e7b38123bac0e05c5bc08efcf69"
+    "f26f427f1545e1d81b282ca24328fade55514e7b38123bac0e05c5bc08efcf69",
+    "df7cd3fb1038635315b307ee879b0878f2adddddd305077c18374891dca76fbf"
   ],
   "fecha_iso": "2026-09-27T03:51:41.858247",
   "fecha_inicio_iso": "2026-09-27T03:51:41.858247",
-  "fecha_ultima_actualizacion_iso": "2026-09-27T09:51:25.192061",
+  "fecha_ultima_actualizacion_iso": "2026-09-27T16:29:59.707863",
   "fecha_publicacion": "27 de Septiembre de 2026, 03:51 hs",
-  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 09:51 hs",
+  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 16:29 hs",
   "archivo": "2026-09-27-designacion-fiscal-villa-paranacito-polemica.json"
 }
