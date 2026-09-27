@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta",
+  "titulo": "Alerta Naranja por Tormentas Fuertes en Villa Paranacito y el Delta hasta el Martes",
+  "copete": "El Servicio Meteorológico Nacional ha emitido una alerta naranja por lluvias y tormentas de intensidad que afectarán directamente a Villa Paranacito y las Islas del Ibicuy, con vigencia hasta el martes.",
+  "cuerpo": [
+    "Villa Paranacito y toda la región del Delta entrerriano se encuentran bajo una alerta naranja emitida por el Servicio Meteorológico Nacional (SMN) debido a la previsión de lluvias y tormentas fuertes. Este fenómeno meteorológico, que se espera impacte con particular intensidad en nuestra zona, se extenderá al menos hasta el martes, generando preocupación entre los vecinos y las autoridades locales por sus posibles consecuencias en el ecosistema insular y la vida cotidiana.",
+    "Según el informe del Gobierno de Entre Ríos, que replica la advertencia del SMN, se esperan valores de precipitación acumulada que podrían superar los 70 mm en cortos períodos, acompañados de ráfagas intensas, ocasional caída de granizo y fuerte actividad eléctrica. Esta situación coloca a Villa Paranacito, junto a otras localidades de la provincia, en un nivel de riesgo significativo que requiere la máxima atención y preparación por parte de la comunidad.",
+    "El impacto directo para los isleños y habitantes de Villa Paranacito podría ser considerable. Las intensas lluvias pueden provocar anegamientos en zonas bajas, dificultar el tránsito por caminos de tierra y afectar la navegabilidad en arroyos y ríos, esenciales para el transporte fluvial y la conexión de las islas. Además, la producción local, especialmente la hortícola y frutícola, es vulnerable a los fenómenos de granizo y vientos fuertes, mientras que los servicios básicos podrían verse interrumpidos por cortes de energía.",
+    "Ante este escenario, desde el Municipio de Villa Paranacito se recomienda a la población tomar precauciones extremas. Es fundamental asegurar objetos que puedan volarse, limpiar desagües y canaletas para evitar acumulaciones de agua, y evitar salir de casa si no es estrictamente necesario. Se aconseja mantenerse informado a través de canales oficiales y, en caso de emergencia, contactar a los Bomberos Voluntarios de Villa Paranacito (100), Prefectura Naval Argentina (106) o la Policía local (101)."
+  ],
+  "resumen": "Villa Paranacito y el Delta están bajo alerta naranja por tormentas fuertes hasta el martes, con riesgo de intensas lluvias, ráfagas y granizo. Se esperan acumulaciones de agua significativas y posibles interrupciones en servicios y transporte fluvial. Se recomienda a los vecinos tomar precauciones y estar atentos a los comunicados oficiales.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Alerta Naranja",
+    "Tormentas",
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "SMN",
+    "Prevención"
+  ],
+  "slug": "alerta-naranja-tormentas-villa-paranacito-delta",
+  "resumen_whatsapp": "⚠️ ALERTA NARANJA por tormentas fuertes en Villa Paranacito y el Delta hasta el martes. ¡Tomá precauciones y mantenete informado! ⛈️💧",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80145&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZZhGicEPAGUsHOJcVjQ3w",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80145&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZZhGicEPAGUsHOJcVjQ3w",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80145&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZZhGicEPAGUsHOJcVjQ3w",
+      "fecha_consulta": "2026-09-27T19:40:46.404536"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:40",
+      "fecha": "2026-09-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta están bajo alerta naranja por tormentas fuertes hasta el martes, con riesgo de intensas lluvias, ráfagas y granizo. Se esperan acumulaciones de agua significativas y posibl",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "2c710f03f39a4abd5bd542dcaa2e359949e18eeeb6d61e179e43742789d55a82"
+  ],
+  "fecha_iso": "2026-09-27T19:40:46.404536",
+  "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
+  "fecha_ultima_actualizacion_iso": "2026-09-27T19:40:46.404536",
+  "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
+  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 19:40 hs",
+  "archivo": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta.json"
+}

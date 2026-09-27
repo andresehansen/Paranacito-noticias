@@ -1,19 +1,20 @@
 [
   {
-    "acontecimiento_id": "2026-09-27-impacto-judicial-villa-paranacito-fiscal-prision",
-    "slug": "impacto-judicial-villa-paranacito-fiscal-prision",
-    "titulo": "Impacto Judicial en Villa Paranacito: Fiscalía Pide Prisión para Fiscal Designado y Abren Concurso para Nuevos Cargos",
-    "copete": "La comunidad de Villa Paranacito y el Delta Entrerriano sigue de cerca las novedades judiciales tras la solicitud de prisión efectiva para un fiscal que había sido designado para la localidad, mientras el Consejo de la Magistratura avanza en la cobertura de nuevas vacantes.",
-    "categoria": "Sociedad",
+    "acontecimiento_id": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta",
+    "slug": "alerta-naranja-tormentas-villa-paranacito-delta",
+    "titulo": "Alerta Naranja por Tormentas Fuertes en Villa Paranacito y el Delta hasta el Martes",
+    "copete": "El Servicio Meteorológico Nacional ha emitido una alerta naranja por lluvias y tormentas de intensidad que afectarán directamente a Villa Paranacito y las Islas del Ibicuy, con vigencia hasta el martes.",
+    "categoria": "Río y Clima",
     "tags": [
+      "Alerta Naranja",
+      "Tormentas",
       "Villa Paranacito",
-      "Justicia",
-      "Fiscalía",
-      "Consejo de la Magistratura",
-      "Islas del Ibicuy"
+      "Delta Entrerriano",
+      "SMN",
+      "Prevención"
     ],
-    "estado": "Publicado",
-    "es_alerta": false,
+    "estado": "En desarrollo",
+    "es_alerta": true,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
@@ -21,11 +22,11 @@
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "27 de Septiembre de 2026, 16:30 hs",
-    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 16:30 hs",
-    "fecha_inicio_iso": "2026-09-27T16:30:31.558869",
-    "fecha_ultima_actualizacion_iso": "2026-09-27T16:30:31.558869",
-    "resumen_whatsapp": "🚨 Noticia Judicial en Villa Paranacito: Fiscalía pide prisión para fiscal designado y abren concurso para nuevos cargos. ¡Impacto en la justicia local! ⚖️"
+    "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
+    "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 19:40 hs",
+    "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
+    "fecha_ultima_actualizacion_iso": "2026-09-27T19:40:46.404536",
+    "resumen_whatsapp": "⚠️ ALERTA NARANJA por tormentas fuertes en Villa Paranacito y el Delta hasta el martes. ¡Tomá precauciones y mantenete informado! ⛈️💧"
   },
   {
     "acontecimiento_id": "2026-09-21-agmer-escuela-itinerante-paranacito-crisis-salarial",
@@ -1843,37 +1844,6 @@
     "fecha_inicio_iso": "2026-08-24T12:48:30.151999",
     "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:30.151999",
     "resumen_whatsapp": "📰 ¡Noticia clave para la seguridad de Villa Paranacito! Bomberos locales se capacitaron intensivamente en manejo de bombas y sistemas de abastecimiento. 🌊🔥 Esto mejora la respuesta ante incendios y emergencias hídricas en el Delta. ¡Tu seguridad es nuestra prioridad! #ParanacitoNoticias"
-  },
-  {
-    "acontecimiento_id": "2026-08-24-alerta-amarillo-frio-extremo-villa-paranacito-delta",
-    "slug": "alerta-amarillo-frio-extremo-villa-paranacito-delta",
-    "titulo": "Alerta Amarillo por Frío Extremo en Villa Paranacito y el Delta Entrerriano",
-    "copete": "El Servicio Meteorológico Nacional emitió un alerta amarillo por temperaturas extremadamente bajas que afectarán a Villa Paranacito y gran parte del Delta de Entre Ríos, instando a la población a tomar precauciones ante el riesgo para la salud.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "frío extremo",
-      "alerta amarillo",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "SMN",
-      "bajas temperaturas",
-      "precaución",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "24 de Agosto de 2026, 12:48 hs",
-    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 12:48 hs",
-    "fecha_inicio_iso": "2026-08-24T12:48:00.240535",
-    "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:00.240535",
-    "resumen_whatsapp": "🚨 ¡Alerta Amarillo por frío extremo en Villa Paranacito y el Delta! 🥶 El SMN pronostica bajas temperaturas. Abrigate bien, cuidá a los más vulnerables y revisá tu calefacción. ¡Informate y prevení! 📰"
   },
   {
     "acontecimiento_id": "2026-08-24-gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
