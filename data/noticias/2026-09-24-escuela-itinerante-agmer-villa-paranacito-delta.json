@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/amp/noticias/2026/09/24/472483-trabajadores-viales-tendran-descuentos-en-farmacias-y-salud-en-seis-departamentos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1_6X9Nez0avIvgIWksJgNa",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/amp/noticias/2026/09/24/472483-trabajadores-viales-tendran-descuentos-en-farmacias-y-salud-en-seis-departamentos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1_6X9Nez0avIvgIWksJgNa",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -39,6 +39,11 @@
       "nombre": "Google News (flipr.com.ar)",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSUJsX2FqQzZ1MW1nWl9TNlRQRXpJWk1sNHpWRGtzRVAyaHFFMld5Y1J3azNlb2tLa1haNFFyOGFqQUJOcHZiczZQWkpKenE2NUZBV2xqWTVyeDdsWVducE9hcWJEYS1GUlp2YS1KaG1BdzFmSk5CU2xmVHlmSzdyZmZCZllRR1NBLW1Tc1F0Z3JmS25CTk5faEhRYng0SVkx?oc=5",
       "fecha_consulta": "2026-09-25T09:24:52.285820"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.examedia.com.ar/portada/analisis/35-paritaria-docente-la-oferta-del-7-que-rechazo-agmer-puesta-en-contexto&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1-0FKi3VoWFMJHaPZC6DXy",
+      "fecha_consulta": "2026-09-28T16:38:47.490090"
     }
   ],
   "cronologia_actualizaciones": [
@@ -48,15 +53,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Escuela Itinerante de AGMER visitó Villa Paranacito, llevando formación y debate pedagógico a los docentes del Delta. Esta iniciativa busca descentralizar la capacitación, ofreciendo herramientas y",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:38",
+      "fecha": "2026-09-28",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "667d89e113fa3c48b3deea3a63c1c5be4c4e6becad12a953deab7cb7463d5f63"
+    "667d89e113fa3c48b3deea3a63c1c5be4c4e6becad12a953deab7cb7463d5f63",
+    "6f325e2901163b10c09cb52954238f40aec2fa32cb4d3236fda44daf5154992e"
   ],
   "fecha_iso": "2026-09-24T23:02:44.692898",
   "fecha_inicio_iso": "2026-09-24T23:02:44.692898",
-  "fecha_ultima_actualizacion_iso": "2026-09-24T23:02:44.692898",
+  "fecha_ultima_actualizacion_iso": "2026-09-28T16:38:47.490090",
   "fecha_publicacion": "24 de Septiembre de 2026, 23:02 hs",
-  "fecha_ultima_actualizacion": "24 de Septiembre de 2026, 23:02 hs",
+  "fecha_ultima_actualizacion": "28 de Septiembre de 2026, 16:38 hs",
   "archivo": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-delta.json"
 }
