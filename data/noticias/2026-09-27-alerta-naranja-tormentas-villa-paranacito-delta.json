@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/sociedad/granizo-y-fuerte-lluvia-sorprendieron-a-gualeguaychu-las-imagenes-del-temporal.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3mQvJz50gmOYa95-3yhoM9",
       "fecha_consulta": "2026-09-27T22:50:27.071556"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/el-servicio-meterologico-nacional-extiende-el-alerta-por-tormentas-fuertes-en-la-ciudad-y-en-la-provincia&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1FIntUWp6lagRQsjQXpJEA",
+      "fecha_consulta": "2026-09-28T03:51:19.131616"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Granizo y fuerte lluvia sorprendieron a Gualeguaychú: las imágenes del temporal",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:51",
+      "fecha": "2026-09-28",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El alerta por tormentas fuertes del Servicio Meteorológico Nacional se extiende geográficamente, incluyendo ahora a Gualeguaychú, Colón, Uruguay, Tala, Victoria y Gualeguay, además de Villa Paranacito. El título sugiere una extensión temporal del alerta.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "2c710f03f39a4abd5bd542dcaa2e359949e18eeeb6d61e179e43742789d55a82",
-    "57341c014744863011ba5b24a0588ede653e1df1465c97a47ac9392bbbc11c43"
+    "57341c014744863011ba5b24a0588ede653e1df1465c97a47ac9392bbbc11c43",
+    "d93c0cce65f06b068736fbf2f40f862f45fe1e889d1ecece183ecf195437681b"
   ],
   "fecha_iso": "2026-09-27T19:40:46.404536",
   "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
-  "fecha_ultima_actualizacion_iso": "2026-09-27T22:50:27.071556",
+  "fecha_ultima_actualizacion_iso": "2026-09-28T03:51:19.131616",
   "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
-  "fecha_ultima_actualizacion": "27 de Septiembre de 2026, 22:50 hs",
+  "fecha_ultima_actualizacion": "28 de Septiembre de 2026, 03:51 hs",
   "archivo": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta.json"
 }
