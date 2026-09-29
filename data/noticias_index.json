@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-09-29-impacto-arena-silicea-delta-ibicuy",
+    "slug": "impacto-arena-silicea-delta-ibicuy",
+    "titulo": "Preocupación en Islas del Ibicuy por el impacto ambiental de la extracción de arena silícea en el Delta",
+    "copete": "Organizaciones ambientalistas y vecinos de la región de Islas del Ibicuy advierten sobre las graves consecuencias ecológicas y socioeconómicas de la extracción de arena silícea, un recurso clave para la industria, pero de alto riesgo para el frágil ecosistema del Delta entrerriano.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "arena silícea",
+      "impacto ambiental",
+      "Delta entrerriano",
+      "Islas del Ibicuy",
+      "Villa Paranacito"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Paralelo32)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "29 de Septiembre de 2026, 00:13 hs",
+    "fecha_ultima_actualizacion": "29 de Septiembre de 2026, 00:13 hs",
+    "fecha_inicio_iso": "2026-09-29T00:13:19.894011",
+    "fecha_ultima_actualizacion_iso": "2026-09-29T00:13:19.894011",
+    "resumen_whatsapp": "⚠️ Alerta en el Delta de Islas del Ibicuy por extracción de arena silícea. ¡Impacto ambiental y en la vida isleña! 🏞️🚤 #CuidemosElDelta"
+  },
+  {
     "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-delta",
     "slug": "escuela-itinerante-agmer-villa-paranacito-delta",
     "titulo": "Fortaleciendo la Educación en el Delta: Escuela Itinerante de AGMER en Villa Paranacito",
