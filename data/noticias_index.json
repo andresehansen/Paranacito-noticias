@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-09-29-incendios-delta-villa-paranacito-emergencia",
+    "slug": "incendios-delta-villa-paranacito-emergencia",
+    "titulo": "Intenso Combate Contra Focos Ígneos Persistentes en el Delta de Villa Paranacito",
+    "copete": "El Gobierno provincial y el Municipio de Villa Paranacito intensifican las tareas para controlar los focos ígneos que persisten en la zona del Delta, generando preocupación entre los vecinos y afectando el ecosistema local.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "incendios",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "emergencia ambiental",
+      "Defensa Civil",
+      "bomberos"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "29 de Septiembre de 2026, 23:27 hs",
+    "fecha_ultima_actualizacion": "29 de Septiembre de 2026, 23:27 hs",
+    "fecha_inicio_iso": "2026-09-29T23:27:51.195325",
+    "fecha_ultima_actualizacion_iso": "2026-09-29T23:27:51.195325",
+    "resumen_whatsapp": "🔥 Villa Paranacito: Focos ígneos persisten en el Delta. Autoridades intensifican el combate. ¡Precaución y reportar emergencias! ⚠️"
+  },
+  {
     "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",
     "slug": "pescador-mordido-yarara-paranacito-hospitalizado",
     "titulo": "Alerta en Villa Paranacito: Pescador Hospitalizado Tras Mordedura de Yarará en el Delta",

@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-09-29-incendios-delta-villa-paranacito-emergencia",
+  "titulo": "Intenso Combate Contra Focos Ígneos Persistentes en el Delta de Villa Paranacito",
+  "copete": "El Gobierno provincial y el Municipio de Villa Paranacito intensifican las tareas para controlar los focos ígneos que persisten en la zona del Delta, generando preocupación entre los vecinos y afectando el ecosistema local.",
+  "cuerpo": [
+    "La región del Delta de Entre Ríos, particularmente en las cercanías de Villa Paranacito, enfrenta una compleja situación debido a la persistencia de focos ígneos que, a pesar de los esfuerzos, continúan activos. Estos incendios, que se desarrollan en zonas de difícil acceso, representan una amenaza constante para la biodiversidad local y la tranquilidad de las comunidades isleñas, extendiéndose por áreas de pastizales y vegetación nativa.",
+    "Desde el Gobierno provincial, en coordinación con el Municipio de Villa Paranacito, se ha desplegado un operativo que incluye brigadistas, bomberos voluntarios y personal de Defensa Civil. Fuentes municipales indicaron que se trabaja en la identificación de los puntos más críticos y en la implementación de estrategias para contener el avance del fuego, aunque las condiciones climáticas, como la sequía y el viento, complican las labores de extinción.",
+    "La presencia de humo afecta directamente la calidad del aire en Villa Paranacito y sus alrededores, generando preocupación por la salud respiratoria de los vecinos, especialmente niños y adultos mayores. Además, la actividad productiva de la zona, como la ganadería y la apicultura, se ve amenazada, y la navegación fluvial, vital para el transporte y el turismo, puede sufrir restricciones debido a la baja visibilidad y el riesgo inherente a la situación.",
+    "Ante esta situación, se recomienda a la población de Villa Paranacito y las islas aledañas extremar las precauciones, evitar cualquier tipo de quema y reportar de inmediato cualquier indicio de fuego a las autoridades locales o al número de emergencias. El Municipio ha habilitado canales de comunicación para emergencias y se mantiene en alerta máxima, monitoreando la evolución de los focos y coordinando recursos adicionales en caso de ser necesarios para proteger a la comunidad y el entorno natural."
+  ],
+  "resumen": "Villa Paranacito y el Delta entrerriano continúan bajo la amenaza de focos ígneos persistentes. El Gobierno provincial y el Municipio intensifican los esfuerzos para controlar los incendios, que afectan la calidad del aire, la producción local y la salud de los vecinos. Se recomienda a la comunidad extremar precauciones y reportar cualquier indicio",
+  "categoria": "Río y Clima",
+  "tags": [
+    "incendios",
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "emergencia ambiental",
+    "Defensa Civil",
+    "bomberos"
+  ],
+  "slug": "incendios-delta-villa-paranacito-emergencia",
+  "resumen_whatsapp": "🔥 Villa Paranacito: Focos ígneos persisten en el Delta. Autoridades intensifican el combate. ¡Precaución y reportar emergencias! ⚠️",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://campoenaccion.com/actualidad/el-fuego-cerca-de-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3dHvqQ7jNzWORqP6sApDIh",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://campoenaccion.com/actualidad/el-fuego-cerca-de-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3dHvqQ7jNzWORqP6sApDIh",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://campoenaccion.com/actualidad/el-fuego-cerca-de-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3dHvqQ7jNzWORqP6sApDIh",
+      "fecha_consulta": "2026-09-29T23:27:51.195325"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "23:27",
+      "fecha": "2026-09-29",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta entrerriano continúan bajo la amenaza de focos ígneos persistentes. El Gobierno provincial y el Municipio intensifican los esfuerzos para controlar los incendios, que afect",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "c2e6bb008b4a439bdbe914485df347f6d861a50494bd3f49d8f18b36b3fdb8ee"
+  ],
+  "fecha_iso": "2026-09-29T23:27:51.195325",
+  "fecha_inicio_iso": "2026-09-29T23:27:51.195325",
+  "fecha_ultima_actualizacion_iso": "2026-09-29T23:27:51.195325",
+  "fecha_publicacion": "29 de Septiembre de 2026, 23:27 hs",
+  "fecha_ultima_actualizacion": "29 de Septiembre de 2026, 23:27 hs",
+  "archivo": "2026-09-29-incendios-delta-villa-paranacito-emergencia.json"
+}
