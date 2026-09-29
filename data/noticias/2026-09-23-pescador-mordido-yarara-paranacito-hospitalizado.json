@@ -34,6 +34,11 @@
       "nombre": "Google News (ReconquistaHOY)",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSnpKRjhvTXRYdTc2R3BacFZJSXI3bjdtVDJQNnV1TGtxZjdTS1JGR0VhbngyOUhob3M4SWNOMEFXQkNuSTZQWDJJNS0yMnVkdEl3WF9NeHdEWG9HTTRtQVRQZHdRQ2RibDRWV3N5MEF5V0FRWTdYazc0N0Z2U3A4YzRjQm1XTHljUVFOX1N4b0Nwc1RXa185VFdmc0V1MFlxRU9fd0tSUG96MF96ZzZtTzEtdGlrbXYzZ2VwM2dDMk4?oc=5",
       "fecha_consulta": "2026-09-23T03:29:48.369116"
+    },
+    {
+      "nombre": "Google News (Campo en acción)",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ3EtZnI3OFF6U2hxWnBFa3BmTGxuQ2Jsb01mNzkzdTkzQ0x4d0k3SUZhWU16UEpNTzF0SHVnbW9aTHNnNE5FMkRFekZMM005WG5vVzNMdTlMX1BIMU5xeUpmMUdybWstNE1pWDhQcC1NZ180MXFTNm80SzNIdm1JVNIBd0FVX3lxTFBzVVRqcjRzdlIzSnA3aVl5MEdjdlZFbEdtZFN5NWU4MHVQUkd2MmptRWo5ZVViSlNYRnZ4UGU3TnlQS1ZaNXE1eUpCVHl1MlY5aHZ5NVM1LXJBMEUxaDdtYlFLNkY5SGdzRDM4VXg5TFdkcDVUS1Jz?oc=5",
+      "fecha_consulta": "2026-09-29T17:42:45.238136"
     }
   ],
   "cronologia_actualizaciones": [
@@ -50,16 +55,24 @@
       "fuente": "Google News (reconquistahoy.com)",
       "dato": "Fue mordido por una yarará mientras pescaba en el Paranacito y debió ser hospitalizado - reconquistahoy.com",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "17:42",
+      "fecha": "2026-09-29",
+      "fuente": "Google News (Campo en acción)",
+      "dato": "El fuego cerca de Villa Paranacito - Campo en acción",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "94eaff2a6b7c62bd78a237610400492b25693727a64e1e1db8d4f36a429ed80c",
-    "0d63104ba75f437eb3dc129f1eea37c4079017b5890fca12b6933c0e6937464c"
+    "0d63104ba75f437eb3dc129f1eea37c4079017b5890fca12b6933c0e6937464c",
+    "0b301c3ea0f5a200d69956fc4437d9ba26557d5d67dde5aada15b9ee09a83bed"
   ],
   "fecha_iso": "2026-09-23T03:29:48.369116",
   "fecha_inicio_iso": "2026-09-23T03:29:48.369116",
-  "fecha_ultima_actualizacion_iso": "2026-09-23T09:07:00.218115",
+  "fecha_ultima_actualizacion_iso": "2026-09-29T17:42:45.238136",
   "fecha_publicacion": "23 de Septiembre de 2026, 03:29 hs",
-  "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 09:07 hs",
+  "fecha_ultima_actualizacion": "29 de Septiembre de 2026, 17:42 hs",
   "archivo": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado.json"
 }

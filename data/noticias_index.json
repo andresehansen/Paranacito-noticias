@@ -1,5 +1,65 @@
 [
   {
+    "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",
+    "slug": "pescador-mordido-yarara-paranacito-hospitalizado",
+    "titulo": "Alerta en Villa Paranacito: Pescador Hospitalizado Tras Mordedura de Yarará en el Delta",
+    "copete": "Un vecino de Villa Paranacito fue internado de urgencia luego de sufrir la mordedura de una yarará mientras pescaba en las costas del río Paranacito, un incidente que subraya los riesgos naturales de la vida en el Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Yarará",
+      "Mordedura de serpiente",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Salud Pública",
+      "Emergencia"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (ReconquistaHOY)",
+      "Google News (Campo en acción)"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "23 de Septiembre de 2026, 03:29 hs",
+    "fecha_ultima_actualizacion": "29 de Septiembre de 2026, 17:42 hs",
+    "fecha_inicio_iso": "2026-09-23T03:29:48.369116",
+    "fecha_ultima_actualizacion_iso": "2026-09-29T17:42:45.238136",
+    "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito: Pescador hospitalizado por mordedura de yarará en el río. ¡Precaución al aire libre y atención médica urgente!"
+  },
+  {
+    "acontecimiento_id": "2026-09-29-alerta-ambiental-delta-paranacito-ypf-humedales",
+    "slug": "alerta-ambiental-delta-paranacito-ypf-humedales",
+    "titulo": "Alerta Ambiental en el Delta: Preocupación en Villa Paranacito por el Futuro de los Humedales ante Posible Acuerdo con YPF",
+    "copete": "Vecinos y ambientalistas de Villa Paranacito expresan profunda inquietud ante la posibilidad de un acuerdo con YPF que, según alertan, podría comprometer irreversiblemente el delicado ecosistema de humedales del Delta entrerriano.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta",
+      "Humedales",
+      "YPF",
+      "Medio Ambiente",
+      "Islas del Ibicuy",
+      "Contaminación"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "29 de Septiembre de 2026, 17:42 hs",
+    "fecha_ultima_actualizacion": "29 de Septiembre de 2026, 17:42 hs",
+    "fecha_inicio_iso": "2026-09-29T17:42:45.229493",
+    "fecha_ultima_actualizacion_iso": "2026-09-29T17:42:45.229493",
+    "resumen_whatsapp": "🚨 ¡Alerta en Villa Paranacito! Vecinos preocupados por posible acuerdo con YPF y su impacto en los humedales del Delta. Exigen transparencia y protección ambiental. #DeltaProtegido #Humedales"
+  },
+  {
     "acontecimiento_id": "2026-09-29-impacto-arena-silicea-delta-ibicuy",
     "slug": "impacto-arena-silicea-delta-ibicuy",
     "titulo": "Preocupación en Islas del Ibicuy por el impacto ambiental de la extracción de arena silícea en el Delta",
@@ -335,35 +395,6 @@
     "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Se esperan altas temperaturas y lluvias en el Delta. 🌡️🌧️ Tomá precauciones y mantenete informado. #ClimaParanacito"
   },
   {
-    "acontecimiento_id": "2026-09-23-pescador-mordido-yarara-paranacito-hospitalizado",
-    "slug": "pescador-mordido-yarara-paranacito-hospitalizado",
-    "titulo": "Alerta en Villa Paranacito: Pescador Hospitalizado Tras Mordedura de Yarará en el Delta",
-    "copete": "Un vecino de Villa Paranacito fue internado de urgencia luego de sufrir la mordedura de una yarará mientras pescaba en las costas del río Paranacito, un incidente que subraya los riesgos naturales de la vida en el Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Yarará",
-      "Mordedura de serpiente",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Salud Pública",
-      "Emergencia"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google News (ReconquistaHOY)"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "23 de Septiembre de 2026, 03:29 hs",
-    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 09:07 hs",
-    "fecha_inicio_iso": "2026-09-23T03:29:48.369116",
-    "fecha_ultima_actualizacion_iso": "2026-09-23T09:07:00.218115",
-    "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito: Pescador hospitalizado por mordedura de yarará en el río. ¡Precaución al aire libre y atención médica urgente!"
-  },
-  {
     "acontecimiento_id": "2026-09-23-convocatoria-docente-villa-paranacito-nivel-inicial-primario",
     "slug": "convocatoria-docente-villa-paranacito-nivel-inicial-primario",
     "titulo": "Convocatoria Docente Crucial en Villa Paranacito para Nivel Inicial y Primario",
@@ -384,6 +415,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
