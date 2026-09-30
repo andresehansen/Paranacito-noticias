@@ -1,5 +1,90 @@
 [
   {
+    "acontecimiento_id": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito",
+    "slug": "concurso-docente-escuela-secundaria-villa-paranacito",
+    "titulo": "Convocatoria Clave: Concurso de Cargos y Horas Cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito",
+    "copete": "La comunidad educativa de Villa Paranacito se prepara para un importante concurso de adjudicación de cargos y horas cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy', un proceso fundamental para garantizar la calidad educativa en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Escuela Secundaria",
+      "Islas del Ibicuy",
+      "Concurso Docente"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_ultima_actualizacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_inicio_iso": "2026-09-30T20:34:51.660399",
+    "fecha_ultima_actualizacion_iso": "2026-09-30T20:34:51.660399",
+    "resumen_whatsapp": "📢 ¡Atención docentes! La Escuela Secundaria N° 2 de Villa Paranacito convoca a concurso de cargos. ¡Oportunidad clave para la educación local! 📚"
+  },
+  {
+    "acontecimiento_id": "2026-09-30-villa-paranacito-eleccion-reina-estudiante",
+    "slug": "villa-paranacito-eleccion-reina-estudiante",
+    "titulo": "Villa Paranacito Ultima Detalles para la 6º Elección de la Reina del Estudiante",
+    "copete": "La comunidad educativa de Villa Paranacito se prepara con entusiasmo para la sexta edición de la Elección de la Reina del Estudiante, un evento que celebra la juventud y el espíritu de los alumnos de la región.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Elección Reina Estudiante",
+      "Fiesta Estudiantil",
+      "Delta Entrerriano",
+      "Juventud"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_ultima_actualizacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_inicio_iso": "2026-09-30T20:34:38.284612",
+    "fecha_ultima_actualizacion_iso": "2026-09-30T20:34:38.284612",
+    "resumen_whatsapp": "👑 Villa Paranacito ultima detalles para la 6º Elección de la Reina del Estudiante. ¡Gran fiesta de la juventud en el Delta! 🎉"
+  },
+  {
+    "acontecimiento_id": "2026-09-30-escuela-itinerante-llega-villa-paranacito",
+    "slug": "escuela-itinerante-llega-villa-paranacito",
+    "titulo": "La Escuela Itinerante desembarcó en Villa Paranacito para fortalecer la educación local",
+    "copete": "Una innovadora propuesta educativa llegó a Villa Paranacito, llevando talleres y recursos pedagógicos directamente a la comunidad del Delta, buscando complementar la oferta formativa existente.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Villa Paranacito",
+      "Escuela Itinerante",
+      "Delta Entrerriano",
+      "Comunidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_ultima_actualizacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_inicio_iso": "2026-09-30T20:34:21.771150",
+    "fecha_ultima_actualizacion_iso": "2026-09-30T20:34:27.150721",
+    "resumen_whatsapp": "📚 ¡Gran noticia para Villa Paranacito! La Escuela Itinerante ya está en el Delta, llevando talleres y apoyo educativo a la comunidad. ¡No te lo pierdas! #Educación #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-09-30-el-clausura-busca-ponerse-al-dia-y-completar",
     "slug": "el-clausura-busca-ponerse-al-dia-y-completar",
     "titulo": "El Clausura busca ponerse al día y completar su segunda fecha - Máxima Online",
@@ -931,34 +1016,6 @@
     "resumen_whatsapp": "🏡 ¡Buenas noticias para Villa Paranacito! El IAPV confirma nuevos planes de vivienda para nuestra comunidad. ¡Atentos a los anuncios del Municipio! #ViviendaDigna #Delta"
   },
   {
-    "acontecimiento_id": "2026-09-16-convocatoria-eet-1-villa-paranacito",
-    "slug": "convocatoria-eet-1-villa-paranacito",
-    "titulo": "Importante Convocatoria en la E.E.T. N°1 'Augusto Widmann' de Villa Paranacito",
-    "copete": "La Escuela de Educación Técnica N°1 'Augusto Widmann' de Villa Paranacito ha emitido una convocatoria crucial para la comunidad educativa, buscando fortalecer lazos y planificar el futuro institucional.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Educación",
-      "Villa Paranacito",
-      "EET N°1 Augusto Widmann",
-      "Comunidad Educativa",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "16 de Septiembre de 2026, 13:19 hs",
-    "fecha_ultima_actualizacion": "16 de Septiembre de 2026, 13:19 hs",
-    "fecha_inicio_iso": "2026-09-16T13:19:13.739024",
-    "fecha_ultima_actualizacion_iso": "2026-09-16T13:19:13.739024",
-    "resumen_whatsapp": "📢 ¡Atención Villa Paranacito! La E.E.T. N°1 'Augusto Widmann' convoca a su comunidad para un encuentro clave. ¡Tu participación es importante! 🏫📚"
-  },
-  {
     "acontecimiento_id": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico",
     "slug": "enersa-municipio-paranacito-arbolado-electrico",
     "titulo": "Villa Paranacito y Enersa Fortalecen la Gestión del Arbolado Urbano para Redes Eléctricas",
@@ -1757,36 +1814,6 @@
     "fecha_inicio_iso": "2026-08-23T04:36:03.579334",
     "fecha_ultima_actualizacion_iso": "2026-08-30T03:50:42.183498",
     "resumen_whatsapp": "📰 ¡Salud Mental en el Delta! El ciclo 'Emociones en Familia' capacitó a vecinos y fuerzas de seguridad en Villa Paranacito. 🧠 Aprendé a brindar apoyo y cuidar tu bienestar. ¡Sumate a las próximas jornadas! #SaludMental #Paranacito"
-  },
-  {
-    "acontecimiento_id": "2026-08-28-convocatoria-docente-escuela-secundaria-2-villa-paranacito",
-    "slug": "convocatoria-docente-escuela-secundaria-2-villa-paranacito",
-    "titulo": "Oportunidad Laboral: Convocatoria Docente en la Escuela Secundaria N° 2 de Islas del Ibicuy",
-    "copete": "La Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito ha lanzado una importante convocatoria para la cobertura de cargos docentes, ofreciendo oportunidades laborales para profesionales de la educación en la comunidad.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Educación",
-      "Docentes",
-      "Convocatoria",
-      "Escuela Secundaria N° 2",
-      "Islas del Ibicuy",
-      "Entre Ríos"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "28 de Agosto de 2026, 04:03 hs",
-    "fecha_ultima_actualizacion": "28 de Agosto de 2026, 04:03 hs",
-    "fecha_inicio_iso": "2026-08-28T04:03:34.112760",
-    "fecha_ultima_actualizacion_iso": "2026-08-28T04:03:34.112760",
-    "resumen_whatsapp": "📰 ¡Atención docentes de Villa Paranacito! La Escuela Secundaria N° 2 'Islas del Ibicuy' abre concurso para cubrir cargos. 🧑‍🏫 Una gran oportunidad laboral y para fortalecer la educación local. ¡Consultá requisitos y plazos en la escuela! #Educación #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-08-26-torneo-eduardo-barbosa-fecha-15-villa-paranacito",

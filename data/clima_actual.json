@@ -1,14 +1,14 @@
 {
-  "ultima_actualizacion": "30/09/2026 14:47",
-  "timestamp_iso": "2026-09-30T14:47:18.226671",
+  "ultima_actualizacion": "30/09/2026 20:33",
+  "timestamp_iso": "2026-09-30T20:33:36.284725",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 17,
-    "sensacion_termica": 19,
-    "humedad": 64,
-    "viento_velocidad_kmh": 4,
+    "temperatura": 19,
+    "sensacion_termica": 18,
+    "humedad": 52,
+    "viento_velocidad_kmh": 8,
     "viento_direccion": "SSO",
-    "presion_hpa": 1017,
+    "presion_hpa": 1013,
     "descripcion": "Cielo despejado",
     "icono": "☀️",
     "pronostico_extendido": [
@@ -16,33 +16,33 @@
         "fecha": "2026-09-30",
         "temp_max": 20,
         "temp_min": 8,
-        "prob_lluvia": 19,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "prob_lluvia": 39,
+        "descripcion": "Nublado",
+        "icono": "☁️"
       },
       {
         "fecha": "2026-10-01",
         "temp_max": 17,
-        "temp_min": 9,
-        "prob_lluvia": 90,
-        "descripcion": "Chaparrones leves",
-        "icono": "🌦️"
+        "temp_min": 10,
+        "prob_lluvia": 95,
+        "descripcion": "Llovizna moderada",
+        "icono": "🌧️"
       },
       {
         "fecha": "2026-10-02",
         "temp_max": 18,
         "temp_min": 6,
-        "prob_lluvia": 5,
-        "descripcion": "Nublado",
-        "icono": "☁️"
+        "prob_lluvia": 11,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
       },
       {
         "fecha": "2026-10-03",
-        "temp_max": 18,
-        "temp_min": 12,
-        "prob_lluvia": 91,
-        "descripcion": "Chaparrones leves",
-        "icono": "🌦️"
+        "temp_max": 17,
+        "temp_min": 10,
+        "prob_lluvia": 89,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-09-30 14:47"
+    "actualizado": "2026-09-30 20:33"
   }
 }
