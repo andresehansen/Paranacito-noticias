@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "30/09/2026 20:40",
-  "timestamp_iso": "2026-09-30T20:40:39.214767",
+  "ultima_actualizacion": "01/10/2026 04:20",
+  "timestamp_iso": "2026-10-01T04:20:43.867059",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 19,
-    "sensacion_termica": 18,
-    "humedad": 52,
-    "viento_velocidad_kmh": 8,
+    "temperatura": 12,
+    "sensacion_termica": 11,
+    "humedad": 95,
+    "viento_velocidad_kmh": 6,
     "viento_direccion": "SSO",
-    "presion_hpa": 1013,
-    "descripcion": "Cielo despejado",
-    "icono": "☀️",
+    "presion_hpa": 1018,
+    "descripcion": "Llovizna moderada",
+    "icono": "🌧️",
     "pronostico_extendido": [
       {
-        "fecha": "2026-09-30",
-        "temp_max": 20,
-        "temp_min": 8,
-        "prob_lluvia": 39,
-        "descripcion": "Nublado",
-        "icono": "☁️"
-      },
-      {
         "fecha": "2026-10-01",
-        "temp_max": 17,
-        "temp_min": 10,
+        "temp_max": 16,
+        "temp_min": 9,
         "prob_lluvia": 95,
-        "descripcion": "Llovizna moderada",
-        "icono": "🌧️"
+        "descripcion": "Lluvia leve",
+        "icono": "🌦️"
       },
       {
         "fecha": "2026-10-02",
         "temp_max": 18,
         "temp_min": 6,
         "prob_lluvia": 11,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "descripcion": "Nublado",
+        "icono": "☁️"
       },
       {
         "fecha": "2026-10-03",
         "temp_max": 17,
         "temp_min": 10,
         "prob_lluvia": 89,
-        "descripcion": "Tormenta eléctrica",
-        "icono": "⚡"
+        "descripcion": "Chaparrones moderados",
+        "icono": "🌧️"
+      },
+      {
+        "fecha": "2026-10-04",
+        "temp_max": 23,
+        "temp_min": 8,
+        "prob_lluvia": 6,
+        "descripcion": "Nublado",
+        "icono": "☁️"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-09-30 20:40"
+    "actualizado": "2026-10-01 04:20"
   }
 }

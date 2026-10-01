@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/politica/los-trabajadores-de-educacion-venimos-siendo-golpeados-mes-a-mes-por-el-proceso-inflacionario-sostuvo-agmer.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0d4SKtM8FAyHE9HMGqzb6R",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/politica/los-trabajadores-de-educacion-venimos-siendo-golpeados-mes-a-mes-por-el-proceso-inflacionario-sostuvo-agmer.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0d4SKtM8FAyHE9HMGqzb6R",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/politica/los-trabajadores-de-educacion-venimos-siendo-golpeados-mes-a-mes-por-el-proceso-inflacionario-sostuvo-agmer.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0d4SKtM8FAyHE9HMGqzb6R",
       "fecha_consulta": "2026-09-26T03:42:41.897856"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://paginagremial.com.ar/la-escuela-itinerante-visibilizara-en-concepcion-del-uruguay-la-grave-situacion-salarial/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2jq7qcb5sEKypnPG-r0yn0",
+      "fecha_consulta": "2026-10-01T04:21:47.521180"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Docentes de Villa Paranacito, a través de AGMER, se sumaron al rechazo provincial de la oferta salarial del gobierno entrerriano. La asamblea local expresó su disconformidad, buscando una recomposició",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:21",
+      "fecha": "2026-10-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La iniciativa se denomina 'La Escuela Itinerante' y tendrá una nueva instancia este viernes en Concepción del Uruguay con un acto de apertura y conferencia de prensa. Las instancias de Paraná y Villa Paranacito fueron las iniciales de esta gira.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "0eec42677c4c73b6a8a326a6e3de2d3d97386b77765efc815d5fface19162104"
+    "0eec42677c4c73b6a8a326a6e3de2d3d97386b77765efc815d5fface19162104",
+    "8b94d8c88beafe17995ac4cd7dea5170398f8eed976368d049daac006ccd5abd"
   ],
   "fecha_iso": "2026-09-26T03:42:41.897856",
   "fecha_inicio_iso": "2026-09-26T03:42:41.897856",
-  "fecha_ultima_actualizacion_iso": "2026-09-26T03:42:41.897856",
+  "fecha_ultima_actualizacion_iso": "2026-10-01T04:21:47.521180",
   "fecha_publicacion": "26 de Septiembre de 2026, 03:42 hs",
-  "fecha_ultima_actualizacion": "26 de Septiembre de 2026, 03:42 hs",
+  "fecha_ultima_actualizacion": "1 de Octubre de 2026, 04:21 hs",
   "archivo": "2026-09-26-agmer-rechazo-oferta-salarial-villa-paranacito.json"
 }

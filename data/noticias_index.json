@@ -1,5 +1,65 @@
 [
   {
+    "acontecimiento_id": "2026-09-26-agmer-rechazo-oferta-salarial-villa-paranacito",
+    "slug": "agmer-rechazo-oferta-salarial-villa-paranacito",
+    "titulo": "Educadores de Villa Paranacito se Suman al Rechazo de AGMER a la Propuesta Salarial Provincial",
+    "copete": "La seccional local de AGMER en Villa Paranacito fue parte esta semana de la gira provincial del gremio, donde se ratificó el rechazo a la oferta salarial del gobierno entrerriano, generando expectativa en la comunidad educativa del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Villa Paranacito",
+      "Educación",
+      "Salarios Docentes",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "26 de Septiembre de 2026, 03:42 hs",
+    "fecha_ultima_actualizacion": "1 de Octubre de 2026, 04:21 hs",
+    "fecha_inicio_iso": "2026-09-26T03:42:41.897856",
+    "fecha_ultima_actualizacion_iso": "2026-10-01T04:21:47.521180",
+    "resumen_whatsapp": "🚨 Docentes de Villa Paranacito se suman al rechazo salarial de AGMER. ¡Atentos a nuevas negociaciones para garantizar las clases en el Delta! 🍎📚"
+  },
+  {
+    "acontecimiento_id": "2026-10-01-villa-paranacito-estrena-iluminacion-estadio-futbol",
+    "slug": "villa-paranacito-estrena-iluminacion-estadio-futbol",
+    "titulo": "Villa Paranacito Estrena Iluminación en su Estadio para el Duelo Clave del Clausura",
+    "copete": "El Club Atlético Villa Paranacito se prepara para recibir a Isleños Independientes en un partido reprogramado de la Liga Departamental, marcando el debut de su nuevo sistema lumínico que promete revolucionar las noches deportivas del Delta.",
+    "categoria": "Deportes",
+    "tags": [
+      "fútbol",
+      "Torneo Clausura",
+      "Villa Paranacito",
+      "Isleños Independientes",
+      "iluminación estadio",
+      "Liga Departamental",
+      "Deportes Delta"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "1 de Octubre de 2026, 04:21 hs",
+    "fecha_ultima_actualizacion": "1 de Octubre de 2026, 04:21 hs",
+    "fecha_inicio_iso": "2026-10-01T04:21:42.114616",
+    "fecha_ultima_actualizacion_iso": "2026-10-01T04:21:42.114616",
+    "resumen_whatsapp": "⚽️ Villa Paranacito estrena iluminación en su estadio para el duelo clave del Clausura vs. Isleños Independientes. ¡Noches de fútbol en el Delta! ✨"
+  },
+  {
     "acontecimiento_id": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito",
     "slug": "concurso-docente-escuela-secundaria-villa-paranacito",
     "titulo": "Convocatoria Clave: Concurso de Cargos y Horas Cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito",
@@ -387,35 +447,6 @@
     "fecha_inicio_iso": "2026-09-19T22:09:11.156635",
     "fecha_ultima_actualizacion_iso": "2026-09-26T03:43:01.745197",
     "resumen_whatsapp": "🩺 ¡Gran noticia para Villa Paranacito! El Hospital local ofrecerá estudios cardíacos por primera vez, mejorando el acceso a la salud para todos los vecinos del Delta. ❤️"
-  },
-  {
-    "acontecimiento_id": "2026-09-26-agmer-rechazo-oferta-salarial-villa-paranacito",
-    "slug": "agmer-rechazo-oferta-salarial-villa-paranacito",
-    "titulo": "Educadores de Villa Paranacito se Suman al Rechazo de AGMER a la Propuesta Salarial Provincial",
-    "copete": "La seccional local de AGMER en Villa Paranacito fue parte esta semana de la gira provincial del gremio, donde se ratificó el rechazo a la oferta salarial del gobierno entrerriano, generando expectativa en la comunidad educativa del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "AGMER",
-      "Villa Paranacito",
-      "Educación",
-      "Salarios Docentes",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "26 de Septiembre de 2026, 03:42 hs",
-    "fecha_ultima_actualizacion": "26 de Septiembre de 2026, 03:42 hs",
-    "fecha_inicio_iso": "2026-09-26T03:42:41.897856",
-    "fecha_ultima_actualizacion_iso": "2026-09-26T03:42:41.897856",
-    "resumen_whatsapp": "🚨 Docentes de Villa Paranacito se suman al rechazo salarial de AGMER. ¡Atentos a nuevas negociaciones para garantizar las clases en el Delta! 🍎📚"
   },
   {
     "acontecimiento_id": "2026-09-25-emergencia-agropecuaria-delta-villa-paranacito",
