@@ -44,6 +44,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.examedia.com.ar/portada/analisis/35-paritaria-docente-la-oferta-del-7-que-rechazo-agmer-puesta-en-contexto&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1-0FKi3VoWFMJHaPZC6DXy",
       "fecha_consulta": "2026-09-28T16:38:47.490090"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://flipr.com.ar/entre-rios/entreriosahora/antivero-reclamo-a-boleas-por-el-fracaso-de-la-paritaria/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0zmxUHeZcEthvK-io6nMnQ",
+      "fecha_consulta": "2026-10-01T20:49:23.790304"
     }
   ],
   "cronologia_actualizaciones": [
@@ -60,16 +65,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:49",
+      "fecha": "2026-10-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable introduce un reclamo de Antivero a Boleas por el fracaso de la paritaria, utilizando la llegada de la Escuela Itinerante como contexto. También especifica que la llegada fue este miércoles.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "667d89e113fa3c48b3deea3a63c1c5be4c4e6becad12a953deab7cb7463d5f63",
-    "6f325e2901163b10c09cb52954238f40aec2fa32cb4d3236fda44daf5154992e"
+    "6f325e2901163b10c09cb52954238f40aec2fa32cb4d3236fda44daf5154992e",
+    "2a4baf0aceb45a0587125d2462c2064f7c0ca776b4a1cd5782270aa25ce04101"
   ],
   "fecha_iso": "2026-09-24T23:02:44.692898",
   "fecha_inicio_iso": "2026-09-24T23:02:44.692898",
-  "fecha_ultima_actualizacion_iso": "2026-09-28T16:38:47.490090",
+  "fecha_ultima_actualizacion_iso": "2026-10-01T20:49:23.790304",
   "fecha_publicacion": "24 de Septiembre de 2026, 23:02 hs",
-  "fecha_ultima_actualizacion": "28 de Septiembre de 2026, 16:38 hs",
+  "fecha_ultima_actualizacion": "1 de Octubre de 2026, 20:49 hs",
   "archivo": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-delta.json"
 }

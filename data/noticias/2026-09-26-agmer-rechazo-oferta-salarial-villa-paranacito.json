@@ -39,6 +39,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://paginagremial.com.ar/la-escuela-itinerante-visibilizara-en-concepcion-del-uruguay-la-grave-situacion-salarial/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2jq7qcb5sEKypnPG-r0yn0",
       "fecha_consulta": "2026-10-01T04:21:47.521180"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elheraldo.com.ar/noticias/educacion/la-escuela-itinerante-de-agmer-llega-este-viernes-a-concepcion-del-uruguay&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw24kphBLQMbtplHgn0ucuZw",
+      "fecha_consulta": "2026-10-01T20:49:30.559334"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://2025.agmer.org.ar/post/la-escuela-itinerante-de-agmer-llega-este-viernes-a-concepcion-del-uruguay&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2ndp80OYmFupW1IhRjOmaX",
+      "fecha_consulta": "2026-10-01T20:49:48.388963"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +65,32 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La iniciativa se denomina 'La Escuela Itinerante' y tendrá una nueva instancia este viernes en Concepción del Uruguay con un acto de apertura y conferencia de prensa. Las instancias de Paraná y Villa Paranacito fueron las iniciales de esta gira.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:49",
+      "fecha": "2026-10-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El recorrido de AGMER es parte de la iniciativa 'Escuela Itinerante' y continuará este viernes en Concepción del Uruguay, en el departamento Uruguay.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:49",
+      "fecha": "2026-10-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La visita de AGMER a Villa Paranacito formó parte de la iniciativa denominada 'Escuela Itinerante', la cual tiene previsto arribar este viernes a Concepción del Uruguay.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "0eec42677c4c73b6a8a326a6e3de2d3d97386b77765efc815d5fface19162104",
-    "8b94d8c88beafe17995ac4cd7dea5170398f8eed976368d049daac006ccd5abd"
+    "8b94d8c88beafe17995ac4cd7dea5170398f8eed976368d049daac006ccd5abd",
+    "b451e81d531df8c9dd6244532f39e1e0072373b70678df3a12aad4fae863046a",
+    "086e722323c81e7ed7586e3dbf8a932cea15d55583986e4e4427c3b73b47cb92"
   ],
   "fecha_iso": "2026-09-26T03:42:41.897856",
   "fecha_inicio_iso": "2026-09-26T03:42:41.897856",
-  "fecha_ultima_actualizacion_iso": "2026-10-01T04:21:47.521180",
+  "fecha_ultima_actualizacion_iso": "2026-10-01T20:49:48.388963",
   "fecha_publicacion": "26 de Septiembre de 2026, 03:42 hs",
-  "fecha_ultima_actualizacion": "1 de Octubre de 2026, 04:21 hs",
+  "fecha_ultima_actualizacion": "1 de Octubre de 2026, 20:49 hs",
   "archivo": "2026-09-26-agmer-rechazo-oferta-salarial-villa-paranacito.json"
 }

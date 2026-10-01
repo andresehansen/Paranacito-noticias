@@ -20,14 +20,77 @@
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 2,
+    "num_actualizaciones": 4,
     "fecha_publicacion": "26 de Septiembre de 2026, 03:42 hs",
-    "fecha_ultima_actualizacion": "1 de Octubre de 2026, 04:21 hs",
+    "fecha_ultima_actualizacion": "1 de Octubre de 2026, 20:49 hs",
     "fecha_inicio_iso": "2026-09-26T03:42:41.897856",
-    "fecha_ultima_actualizacion_iso": "2026-10-01T04:21:47.521180",
+    "fecha_ultima_actualizacion_iso": "2026-10-01T20:49:48.388963",
     "resumen_whatsapp": "🚨 Docentes de Villa Paranacito se suman al rechazo salarial de AGMER. ¡Atentos a nuevas negociaciones para garantizar las clases en el Delta! 🍎📚"
+  },
+  {
+    "acontecimiento_id": "2026-10-01-reclamo-gremial-paritarias-villa-paranacito",
+    "slug": "reclamo-gremial-paritarias-villa-paranacito",
+    "titulo": "Reclamo Gremial por Paritarias en Villa Paranacito: Impacto en el Departamento Islas",
+    "copete": "La semana pasada, una iniciativa gremial liderada por Antivero, que denuncia el fracaso de las negociaciones paritarias con Boleas, recaló en Villa Paranacito, generando un debate crucial sobre el poder adquisitivo de los trabajadores del Departamento Islas.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Paritarias",
+      "Gremiales",
+      "Villa Paranacito",
+      "Departamento Islas",
+      "Trabajadores",
+      "Economía Local"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "1 de Octubre de 2026, 20:49 hs",
+    "fecha_ultima_actualizacion": "1 de Octubre de 2026, 20:49 hs",
+    "fecha_inicio_iso": "2026-10-01T20:49:43.114775",
+    "fecha_ultima_actualizacion_iso": "2026-10-01T20:49:43.114775",
+    "resumen_whatsapp": "🚨 Reclamo gremial por paritarias llegó a Villa Paranacito. Impacto en el poder adquisitivo de los trabajadores del Delta. ¡Mantente informado! 💼💸"
+  },
+  {
+    "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-delta",
+    "slug": "escuela-itinerante-agmer-villa-paranacito-delta",
+    "titulo": "Fortaleciendo la Educación en el Delta: Escuela Itinerante de AGMER en Villa Paranacito",
+    "copete": "La Escuela Itinerante de la Asociación Gremial del Magisterio de Entre Ríos (AGMER) arribó a Villa Paranacito, llevando propuestas de formación y debate pedagógico directamente a los docentes del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Villa Paranacito",
+      "Educación",
+      "Delta Entrerriano",
+      "Formación Docente",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google News (flipr.com.ar)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "24 de Septiembre de 2026, 23:02 hs",
+    "fecha_ultima_actualizacion": "1 de Octubre de 2026, 20:49 hs",
+    "fecha_inicio_iso": "2026-09-24T23:02:44.692898",
+    "fecha_ultima_actualizacion_iso": "2026-10-01T20:49:23.790304",
+    "resumen_whatsapp": "📚 AGMER llevó su Escuela Itinerante a Villa Paranacito, fortaleciendo la formación docente en el Delta. ¡Educación de calidad para nuestros isleños! 🍎"
   },
   {
     "acontecimiento_id": "2026-10-01-villa-paranacito-estrena-iluminacion-estadio-futbol",
@@ -286,37 +349,6 @@
     "fecha_inicio_iso": "2026-09-29T00:13:19.894011",
     "fecha_ultima_actualizacion_iso": "2026-09-29T00:13:19.894011",
     "resumen_whatsapp": "⚠️ Alerta en el Delta de Islas del Ibicuy por extracción de arena silícea. ¡Impacto ambiental y en la vida isleña! 🏞️🚤 #CuidemosElDelta"
-  },
-  {
-    "acontecimiento_id": "2026-09-24-escuela-itinerante-agmer-villa-paranacito-delta",
-    "slug": "escuela-itinerante-agmer-villa-paranacito-delta",
-    "titulo": "Fortaleciendo la Educación en el Delta: Escuela Itinerante de AGMER en Villa Paranacito",
-    "copete": "La Escuela Itinerante de la Asociación Gremial del Magisterio de Entre Ríos (AGMER) arribó a Villa Paranacito, llevando propuestas de formación y debate pedagógico directamente a los docentes del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "AGMER",
-      "Villa Paranacito",
-      "Educación",
-      "Delta Entrerriano",
-      "Formación Docente",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google News (flipr.com.ar)",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "24 de Septiembre de 2026, 23:02 hs",
-    "fecha_ultima_actualizacion": "28 de Septiembre de 2026, 16:38 hs",
-    "fecha_inicio_iso": "2026-09-24T23:02:44.692898",
-    "fecha_ultima_actualizacion_iso": "2026-09-28T16:38:47.490090",
-    "resumen_whatsapp": "📚 AGMER llevó su Escuela Itinerante a Villa Paranacito, fortaleciendo la formación docente en el Delta. ¡Educación de calidad para nuestros isleños! 🍎"
   },
   {
     "acontecimiento_id": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta",
