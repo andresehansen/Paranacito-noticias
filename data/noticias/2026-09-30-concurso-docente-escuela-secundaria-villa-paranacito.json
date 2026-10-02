@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/convocatoria-concurso-escuela-secundaria-n-2-islas-del-ibicuy-2/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2tt_bLJMVGFDLzHz7B-0T3",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/convocatoria-concurso-escuela-secundaria-n-2-islas-del-ibicuy-2/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2tt_bLJMVGFDLzHz7B-0T3",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/09/convocatoria-concurso-escuela-secundaria-n-2-islas-del-ibicuy-2/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2tt_bLJMVGFDLzHz7B-0T3",
       "fecha_consulta": "2026-09-30T20:34:51.660399"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/10/convocatoria-a-concurso-escuela-secundaria-n-2-islas-del-ibicuy-3/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2zx5FzsYyM4WISH2hcW_eF",
+      "fecha_consulta": "2026-10-02T14:28:43.953590"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito ha lanzado una convocatoria para concurso de adjudicación de cargos y horas cátedra. Este proceso es vital para la estabilidad y calid",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "14:28",
+      "fecha": "2026-10-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "CONVOCATORIA A CONCURSO-ESCUELA SECUNDARIA N° 2 “ISLAS DEL IBICUY”",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "f90c6b80d6ab3a612d2883320dd4919d84a7869a69dafd50f22b9a0ad8f91016"
+    "f90c6b80d6ab3a612d2883320dd4919d84a7869a69dafd50f22b9a0ad8f91016",
+    "aac7c4e885d2120f855899e8e5a48483ad0be2bafb8eed015e944a0860e2567e"
   ],
   "fecha_iso": "2026-09-30T20:34:51.660399",
   "fecha_inicio_iso": "2026-09-30T20:34:51.660399",
-  "fecha_ultima_actualizacion_iso": "2026-09-30T20:34:51.660399",
+  "fecha_ultima_actualizacion_iso": "2026-10-02T14:28:43.953590",
   "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
-  "fecha_ultima_actualizacion": "30 de Septiembre de 2026, 20:34 hs",
+  "fecha_ultima_actualizacion": "2 de Octubre de 2026, 14:28 hs",
   "archivo": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito.json"
 }

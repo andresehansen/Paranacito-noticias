@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-10-02-concurso-nivel-inicial-villa-paranacito",
+    "slug": "concurso-nivel-inicial-villa-paranacito",
+    "titulo": "Concurso de Nivel Inicial en Villa Paranacito: Oportunidades para Docentes del Delta",
+    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy, dependiente del Consejo General de Educación, convoca a un importante concurso de Nivel Inicial que se realizará en Villa Paranacito, abriendo nuevas oportunidades laborales para profesionales de la educación en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Nivel Inicial",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Concurso Docente"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "2 de Octubre de 2026, 14:28 hs",
+    "fecha_ultima_actualizacion": "2 de Octubre de 2026, 14:28 hs",
+    "fecha_inicio_iso": "2026-10-02T14:28:56.048729",
+    "fecha_ultima_actualizacion_iso": "2026-10-02T14:28:56.048729",
+    "resumen_whatsapp": "📚 ¡Atención docentes! Concurso de Nivel Inicial en Villa Paranacito este viernes 2 de octubre a las 10hs en Los Cipreses 1012. ¡Oportunidad clave para la educación del Delta! #Educación #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito",
+    "slug": "concurso-docente-escuela-secundaria-villa-paranacito",
+    "titulo": "Convocatoria Clave: Concurso de Cargos y Horas Cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito",
+    "copete": "La comunidad educativa de Villa Paranacito se prepara para un importante concurso de adjudicación de cargos y horas cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy', un proceso fundamental para garantizar la calidad educativa en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Escuela Secundaria",
+      "Islas del Ibicuy",
+      "Concurso Docente"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
+    "fecha_ultima_actualizacion": "2 de Octubre de 2026, 14:28 hs",
+    "fecha_inicio_iso": "2026-09-30T20:34:51.660399",
+    "fecha_ultima_actualizacion_iso": "2026-10-02T14:28:43.953590",
+    "resumen_whatsapp": "📢 ¡Atención docentes! La Escuela Secundaria N° 2 de Villa Paranacito convoca a concurso de cargos. ¡Oportunidad clave para la educación local! 📚"
+  },
+  {
     "acontecimiento_id": "2026-09-26-agmer-rechazo-oferta-salarial-villa-paranacito",
     "slug": "agmer-rechazo-oferta-salarial-villa-paranacito",
     "titulo": "Educadores de Villa Paranacito se Suman al Rechazo de AGMER a la Propuesta Salarial Provincial",
@@ -121,34 +178,6 @@
     "fecha_inicio_iso": "2026-10-01T04:21:42.114616",
     "fecha_ultima_actualizacion_iso": "2026-10-01T04:21:42.114616",
     "resumen_whatsapp": "⚽️ Villa Paranacito estrena iluminación en su estadio para el duelo clave del Clausura vs. Isleños Independientes. ¡Noches de fútbol en el Delta! ✨"
-  },
-  {
-    "acontecimiento_id": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito",
-    "slug": "concurso-docente-escuela-secundaria-villa-paranacito",
-    "titulo": "Convocatoria Clave: Concurso de Cargos y Horas Cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito",
-    "copete": "La comunidad educativa de Villa Paranacito se prepara para un importante concurso de adjudicación de cargos y horas cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy', un proceso fundamental para garantizar la calidad educativa en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Educación",
-      "Escuela Secundaria",
-      "Islas del Ibicuy",
-      "Concurso Docente"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
-    "fecha_ultima_actualizacion": "30 de Septiembre de 2026, 20:34 hs",
-    "fecha_inicio_iso": "2026-09-30T20:34:51.660399",
-    "fecha_ultima_actualizacion_iso": "2026-09-30T20:34:51.660399",
-    "resumen_whatsapp": "📢 ¡Atención docentes! La Escuela Secundaria N° 2 de Villa Paranacito convoca a concurso de cargos. ¡Oportunidad clave para la educación local! 📚"
   },
   {
     "acontecimiento_id": "2026-09-30-villa-paranacito-eleccion-reina-estudiante",
