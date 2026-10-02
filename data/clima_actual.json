@@ -1,36 +1,28 @@
 {
-  "ultima_actualizacion": "01/10/2026 20:54",
-  "timestamp_iso": "2026-10-01T20:54:40.205843",
+  "ultima_actualizacion": "02/10/2026 04:13",
+  "timestamp_iso": "2026-10-02T04:13:43.166124",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 15,
-    "sensacion_termica": 13,
-    "humedad": 59,
-    "viento_velocidad_kmh": 11,
-    "viento_direccion": "SO",
-    "presion_hpa": 1019,
-    "descripcion": "Nublado",
-    "icono": "☁️",
+    "temperatura": 9,
+    "sensacion_termica": 8,
+    "humedad": 88,
+    "viento_velocidad_kmh": 4,
+    "viento_direccion": "SSE",
+    "presion_hpa": 1021,
+    "descripcion": "Cielo despejado",
+    "icono": "☀️",
     "pronostico_extendido": [
-      {
-        "fecha": "2026-10-01",
-        "temp_max": 16,
-        "temp_min": 11,
-        "prob_lluvia": 98,
-        "descripcion": "Llovizna intensa",
-        "icono": "🌧️"
-      },
       {
         "fecha": "2026-10-02",
         "temp_max": 18,
-        "temp_min": 8,
+        "temp_min": 6,
         "prob_lluvia": 4,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "descripcion": "Nublado",
+        "icono": "☁️"
       },
       {
         "fecha": "2026-10-03",
-        "temp_max": 17,
+        "temp_max": 16,
         "temp_min": 11,
         "prob_lluvia": 96,
         "descripcion": "Chaparrones moderados",
@@ -41,6 +33,14 @@
         "temp_max": 22,
         "temp_min": 8,
         "prob_lluvia": 0,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-10-05",
+        "temp_max": 21,
+        "temp_min": 11,
+        "prob_lluvia": 4,
         "descripcion": "Nublado",
         "icono": "☁️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-01 20:54"
+    "actualizado": "2026-10-02 04:13"
   }
 }
