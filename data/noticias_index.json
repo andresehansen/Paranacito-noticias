@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-10-03-la-fe-del-delta-peregrinos-paranacito-lujan",
+    "slug": "la-fe-del-delta-peregrinos-paranacito-lujan",
+    "titulo": "La Fe del Delta: Cientos de Vecinos de Villa Paranacito Peregrinaron a Luján",
+    "copete": "Cientos de fieles de Villa Paranacito y otras localidades del Delta entrerriano se unieron a la tradicional peregrinación a Luján, en un acto de profunda devoción que fortalece los lazos comunitarios.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Peregrinación Luján",
+      "Fe",
+      "Comunidad",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "3 de Octubre de 2026, 19:01 hs",
+    "fecha_ultima_actualizacion": "3 de Octubre de 2026, 19:01 hs",
+    "fecha_inicio_iso": "2026-10-03T19:01:50.904607",
+    "fecha_ultima_actualizacion_iso": "2026-10-03T19:01:50.904607",
+    "resumen_whatsapp": "🙏 Cientos de vecinos de Villa Paranacito peregrinaron a Luján, fortaleciendo la fe y la comunidad del Delta. ¡Un viaje de devoción! ✨"
+  },
+  {
     "acontecimiento_id": "2026-10-02-escuela-itinerante-agmer-villa-paranacito",
     "slug": "escuela-itinerante-agmer-villa-paranacito",
     "titulo": "La Escuela Itinerante de AGMER Impulsó el Debate Educativo en Villa Paranacito",
