@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/destruccion-total-de-un-auto-que-se-incendio-sobre-una-ruta-nacional-entrerriana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3PLBNRECx5Edr8BWsdOOUm",
       "fecha_consulta": "2026-10-03T03:57:01.838201"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/dos-automoviles-se-incendiaron-por-completo-en-cercanias-de-ceibas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3lBvIGs1qbCynz2n4-LdRB",
+      "fecha_consulta": "2026-10-03T13:12:41.748269"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Un vecino de Villa Paranacito sufrió la destrucción total de su automóvil por un incendio en una Ruta Nacional entrerriana, afortunadamente sin heridos. El incidente resalta la importancia del manteni",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "13:12",
+      "fecha": "2026-10-03",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La ubicación más precisa del incidente (en cercanías de Ceibas) y la dirección en la que circulaba el vehículo (desde Ibicuy hacia Gualeguay). El título del nuevo artículo menciona el incendio de dos automóviles, aunque el contenido provisto solo detalla el incidente de un conductor.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "5d1ee9bfabf2210e757285617a1ee5d7ddbb4392916b1ff7ab7fdc082d732213"
+    "5d1ee9bfabf2210e757285617a1ee5d7ddbb4392916b1ff7ab7fdc082d732213",
+    "26a7d3e094765ef8d1ca552c815c7fddbf4ea90506abe4b40e4f8b080503a479"
   ],
   "fecha_iso": "2026-10-03T03:57:01.838201",
   "fecha_inicio_iso": "2026-10-03T03:57:01.838201",
-  "fecha_ultima_actualizacion_iso": "2026-10-03T03:57:01.838201",
+  "fecha_ultima_actualizacion_iso": "2026-10-03T13:12:41.748269",
   "fecha_publicacion": "3 de Octubre de 2026, 03:57 hs",
-  "fecha_ultima_actualizacion": "3 de Octubre de 2026, 03:57 hs",
+  "fecha_ultima_actualizacion": "3 de Octubre de 2026, 13:12 hs",
   "archivo": "2026-10-03-incendio-total-vehiculo-vecino-paranacito-ruta.json"
 }

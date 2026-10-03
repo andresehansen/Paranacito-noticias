@@ -53,6 +53,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/01/117840-el-defensor-general-de-justicia-presentara-su-informe-de-gestion&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3vJkK64UvVtoOuhs6mFsii",
       "fecha_consulta": "2026-10-02T04:14:10.903425"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/02/117924-salud-mental-ninez-y-adolescencia-fueron-ejes-del-balance-del-defensor-general&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw003lGjNCxXdSbU8pQ1Kasu",
+      "fecha_consulta": "2026-10-03T13:12:52.307534"
     }
   ],
   "cronologia_actualizaciones": [
@@ -69,16 +74,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Defensor General de Justicia presentará su informe de gestión | Noticias de Gualeguaychú",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "13:12",
+      "fecha": "2026-10-03",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "5d6f4a77aac6f6eefb99fbf3b1b4f6298ab04dc6557b9b589ff0a2c02099d162",
-    "3de2fa5f21d302524764d83808c361dba01514619b1432465498327be789260f"
+    "3de2fa5f21d302524764d83808c361dba01514619b1432465498327be789260f",
+    "0b42a7daef5b3fcda85183570391d83755cfca077d1aceb2002e59831f4e3e96"
   ],
   "fecha_iso": "2026-09-27T19:41:08.738821",
   "fecha_inicio_iso": "2026-09-27T19:41:08.738821",
-  "fecha_ultima_actualizacion_iso": "2026-10-02T04:14:10.903425",
+  "fecha_ultima_actualizacion_iso": "2026-10-03T13:12:52.307534",
   "fecha_publicacion": "27 de Septiembre de 2026, 19:41 hs",
-  "fecha_ultima_actualizacion": "2 de Octubre de 2026, 04:14 hs",
+  "fecha_ultima_actualizacion": "3 de Octubre de 2026, 13:12 hs",
   "archivo": "2026-09-27-impacto-judicial-villa-paranacito-fiscal.json"
 }
