@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-10-03-incendio-total-vehiculo-vecino-paranacito-ruta",
+  "titulo": "Incendio Total de Vehículo de un Vecino de Villa Paranacito en Ruta Nacional Entrerriana",
+  "copete": "Un automóvil perteneciente a un residente de Villa Paranacito fue completamente destruido por un incendio en una Ruta Nacional de Entre Ríos, sin que se registraran heridos.",
+  "cuerpo": [
+    "Un dramático incidente vial sacudió la tranquilidad de un vecino de Villa Paranacito cuando su automóvil fue consumido por las llamas en una Ruta Nacional entrerriana. El suceso, que resultó en la destrucción total del vehículo, ocurrió en una de las principales arterias que conectan la región del Delta con el resto de la provincia, generando preocupación entre los automovilistas que transitan habitualmente por estas vías. El conductor, un hombre de 38 años domiciliado en nuestra localidad, afortunadamente resultó ileso.",
+    "Según trascendió, el propio conductor brindó su testimonio a las autoridades intervinientes, explicando las circunstancias en las que se inició el fuego. Si bien las causas exactas del siniestro aún están bajo investigación, se presume una falla mecánica como origen del foco ígneo. Personal de Bomberos Voluntarios y efectivos policiales acudieron rápidamente al lugar para controlar la situación y asegurar la zona, evitando mayores riesgos para el tránsito.",
+    "Este tipo de incidentes pone de manifiesto la importancia de la seguridad vial y el mantenimiento preventivo de los vehículos, especialmente para los habitantes de Villa Paranacito y las Islas del Ibicuy, quienes dependen en gran medida de las rutas nacionales para su conexión con centros urbanos, servicios de salud y abastecimiento. La transitabilidad segura de estas vías es crucial para la vida cotidiana, el transporte de la producción local y el acceso a la educación y el trabajo fuera del ejido isleño.",
+    "Ante este hecho, las autoridades de tránsito y seguridad vial reiteran la importancia de realizar revisiones técnicas periódicas a los automóviles, verificar el estado de los sistemas eléctricos y de combustible, y contar con matafuegos reglamentarios. Se recomienda a los conductores extremar las precauciones al circular por las rutas, especialmente en trayectos largos, y estar atentos a cualquier señal de alerta en el funcionamiento de sus vehículos para prevenir situaciones de riesgo como la ocurrida."
+  ],
+  "resumen": "Un vecino de Villa Paranacito sufrió la destrucción total de su automóvil por un incendio en una Ruta Nacional entrerriana, afortunadamente sin heridos. El incidente resalta la importancia del mantenimiento vehicular y la seguridad vial para los habitantes del Delta, quienes dependen de estas rutas para su conexión diaria. Las autoridades instan a ",
+  "categoria": "Sociedad",
+  "tags": [
+    "Villa Paranacito",
+    "Incendio Vehicular",
+    "Ruta Nacional",
+    "Seguridad Vial",
+    "Delta Entrerriano"
+  ],
+  "slug": "incendio-total-vehiculo-vecino-paranacito-ruta",
+  "resumen_whatsapp": "🚨 Auto de vecino de Villa Paranacito se incendió y fue destruido en Ruta Nacional. ¡Afortunadamente, el conductor está ileso! 🙏🚗🔥 #SeguridadVial #Paranacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/destruccion-total-de-un-auto-que-se-incendio-sobre-una-ruta-nacional-entrerriana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3PLBNRECx5Edr8BWsdOOUm",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/destruccion-total-de-un-auto-que-se-incendio-sobre-una-ruta-nacional-entrerriana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3PLBNRECx5Edr8BWsdOOUm",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/destruccion-total-de-un-auto-que-se-incendio-sobre-una-ruta-nacional-entrerriana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3PLBNRECx5Edr8BWsdOOUm",
+      "fecha_consulta": "2026-10-03T03:57:01.838201"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "03:57",
+      "fecha": "2026-10-03",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Un vecino de Villa Paranacito sufrió la destrucción total de su automóvil por un incendio en una Ruta Nacional entrerriana, afortunadamente sin heridos. El incidente resalta la importancia del manteni",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "5d1ee9bfabf2210e757285617a1ee5d7ddbb4392916b1ff7ab7fdc082d732213"
+  ],
+  "fecha_iso": "2026-10-03T03:57:01.838201",
+  "fecha_inicio_iso": "2026-10-03T03:57:01.838201",
+  "fecha_ultima_actualizacion_iso": "2026-10-03T03:57:01.838201",
+  "fecha_publicacion": "3 de Octubre de 2026, 03:57 hs",
+  "fecha_ultima_actualizacion": "3 de Octubre de 2026, 03:57 hs",
+  "archivo": "2026-10-03-incendio-total-vehiculo-vecino-paranacito-ruta.json"
+}
