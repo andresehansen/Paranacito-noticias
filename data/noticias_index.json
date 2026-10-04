@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-10-04-vecinos-paranacito-delta-peregrinaron-lujan",
+    "slug": "vecinos-paranacito-delta-peregrinaron-lujan",
+    "titulo": "Vecinos de Villa Paranacito y el Delta llevaron sus plegarias a Luján por la salud y el trabajo regional",
+    "copete": "Fieles de Villa Paranacito y las Islas del Ibicuy participaron de la tradicional peregrinación a la Basílica de Luján, elevando intenciones por el bienestar, la salud y la prosperidad laboral de toda la comunidad del Delta entrerriano.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Peregrinación",
+      "Luján",
+      "Delta Entrerriano",
+      "Fe",
+      "Comunidad",
+      "Salud",
+      "Trabajo"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "4 de Octubre de 2026, 22:46 hs",
+    "fecha_ultima_actualizacion": "4 de Octubre de 2026, 22:46 hs",
+    "fecha_inicio_iso": "2026-10-04T22:46:43.524294",
+    "fecha_ultima_actualizacion_iso": "2026-10-04T22:46:43.524294",
+    "resumen_whatsapp": "🙏 Vecinos de Villa Paranacito y el Delta peregrinaron a Luján, llevando plegarias por salud, trabajo y paz para toda la comunidad isleña. ¡Fe y esperanza para nuestra región! ✨"
+  },
+  {
     "acontecimiento_id": "2026-10-03-la-fe-del-delta-peregrinos-paranacito-lujan",
     "slug": "la-fe-del-delta-peregrinos-paranacito-lujan",
     "titulo": "La Fe del Delta: Cientos de Vecinos de Villa Paranacito Peregrinaron a Luján",
