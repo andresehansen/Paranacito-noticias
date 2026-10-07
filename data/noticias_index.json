@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
+    "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
+    "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",
+    "copete": "El Servicio Meteorológico Nacional elevó a naranja el nivel de alerta por fenómenos meteorológicos que afectarán a Villa Paranacito y las Islas del Ibicuy, anticipando lluvias y tormentas de fuerte intensidad.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Alerta Naranja",
+      "Tormentas",
+      "Lluvias",
+      "Delta Entrerriano",
+      "Defensa Civil",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_ultima_actualizacion": "7 de Octubre de 2026, 21:01 hs",
+    "fecha_inicio_iso": "2026-10-07T04:30:28.389035",
+    "fecha_ultima_actualizacion_iso": "2026-10-07T21:01:39.068672",
+    "resumen_whatsapp": "⚠️ Alerta Naranja en Villa Paranacito y el Delta por lluvias y tormentas intensas. ¡Tomá precauciones! 🌧️⚡️"
+  },
+  {
     "acontecimiento_id": "2026-10-07-fiscal-villa-paranacito-prision-efectiva",
     "slug": "fiscal-villa-paranacito-prision-efectiva",
     "titulo": "Incertidumbre Judicial en Villa Paranacito: Fiscal Designado Enfrenta Pedido de Prisión Efectiva",
@@ -27,36 +58,6 @@
     "fecha_inicio_iso": "2026-10-07T15:24:10.692071",
     "fecha_ultima_actualizacion_iso": "2026-10-07T15:24:10.692071",
     "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Fiscal designado Leonardo Schonfeld enfrenta pedido de prisión efectiva. ⚖️ Incertidumbre en la justicia local."
-  },
-  {
-    "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
-    "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
-    "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",
-    "copete": "El Servicio Meteorológico Nacional elevó a naranja el nivel de alerta por fenómenos meteorológicos que afectarán a Villa Paranacito y las Islas del Ibicuy, anticipando lluvias y tormentas de fuerte intensidad.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Alerta Naranja",
-      "Tormentas",
-      "Lluvias",
-      "Delta Entrerriano",
-      "Defensa Civil",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
-    "fecha_ultima_actualizacion": "7 de Octubre de 2026, 04:30 hs",
-    "fecha_inicio_iso": "2026-10-07T04:30:28.389035",
-    "fecha_ultima_actualizacion_iso": "2026-10-07T04:30:28.389035",
-    "resumen_whatsapp": "⚠️ Alerta Naranja en Villa Paranacito y el Delta por lluvias y tormentas intensas. ¡Tomá precauciones! 🌧️⚡️"
   },
   {
     "acontecimiento_id": "2026-10-07-hospital-paranacito-fortalece-cardiologia-equipamiento",

@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-elevaron-a-naranja-el-alerta-por-lluvias-y-tormentas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2-mNC6yi0tL4Uc6yuhPFDJ",
       "fecha_consulta": "2026-10-07T04:30:28.389035"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://concordia1021digital.com.ar/2026/10/07/el-servicio-meteorologico-nacional-emitio-alertas-naranja-y-amarilla-por-tormentas-fuertes-para-la-provincia-de-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0Z4vydQ2_g-M5cYUEzg6hK",
+      "fecha_consulta": "2026-10-07T21:01:39.068672"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito y el Delta Entrerriano se encuentran bajo alerta naranja por lluvias y tormentas intensas, con acumulados de hasta 90 mm. Se esperan ráfagas, granizo y actividad eléctrica, lo que rep",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "21:01",
+      "fecha": "2026-10-07",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La alerta naranja abarca más departamentos (Colón, Concepción del Uruguay, Gualeguaychú, Gualeguay) y también se emitieron alertas amarillas.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "97aa889faad059d4781296a2c7e660449f119bcb5728a6b192575cd8576b3140"
+    "97aa889faad059d4781296a2c7e660449f119bcb5728a6b192575cd8576b3140",
+    "5dbf8431b90b1026984ecabb4a1428c7d155282e14ee05924727697e9b8c6557"
   ],
   "fecha_iso": "2026-10-07T04:30:28.389035",
   "fecha_inicio_iso": "2026-10-07T04:30:28.389035",
-  "fecha_ultima_actualizacion_iso": "2026-10-07T04:30:28.389035",
+  "fecha_ultima_actualizacion_iso": "2026-10-07T21:01:39.068672",
   "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
-  "fecha_ultima_actualizacion": "7 de Octubre de 2026, 04:30 hs",
+  "fecha_ultima_actualizacion": "7 de Octubre de 2026, 21:01 hs",
   "archivo": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta.json"
 }
