@@ -1,5 +1,64 @@
 [
   {
+    "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
+    "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
+    "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",
+    "copete": "El Servicio Meteorológico Nacional elevó a naranja el nivel de alerta por fenómenos meteorológicos que afectarán a Villa Paranacito y las Islas del Ibicuy, anticipando lluvias y tormentas de fuerte intensidad.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Alerta Naranja",
+      "Tormentas",
+      "Lluvias",
+      "Delta Entrerriano",
+      "Defensa Civil",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_ultima_actualizacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_inicio_iso": "2026-10-07T04:30:28.389035",
+    "fecha_ultima_actualizacion_iso": "2026-10-07T04:30:28.389035",
+    "resumen_whatsapp": "⚠️ Alerta Naranja en Villa Paranacito y el Delta por lluvias y tormentas intensas. ¡Tomá precauciones! 🌧️⚡️"
+  },
+  {
+    "acontecimiento_id": "2026-10-07-hospital-paranacito-fortalece-cardiologia-equipamiento",
+    "slug": "hospital-paranacito-fortalece-cardiologia-equipamiento",
+    "titulo": "El Hospital de Villa Paranacito Fortalece su Capacidad Cardiológica con Equipamiento de Última Generación",
+    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha incorporado tecnología de punta para realizar estudios cardiológicos, mejorando significativamente la atención sanitaria y la calidad de vida de los vecinos del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Hospital",
+      "Salud",
+      "Cardiología",
+      "Equipamiento Médico",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_ultima_actualizacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_inicio_iso": "2026-10-07T04:30:15.916251",
+    "fecha_ultima_actualizacion_iso": "2026-10-07T04:30:15.916251",
+    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital suma equipamiento de última generación para estudios cardiológicos. Mejor atención y menos traslados para los vecinos del Delta. ❤️🩺"
+  },
+  {
     "acontecimiento_id": "2026-10-04-vecinos-paranacito-delta-peregrinaron-lujan",
     "slug": "vecinos-paranacito-delta-peregrinaron-lujan",
     "titulo": "Vecinos de Villa Paranacito y el Delta llevaron sus plegarias a Luján por la salud y el trabajo regional",
@@ -467,37 +526,6 @@
     "resumen_whatsapp": "⚠️ Alerta en el Delta de Islas del Ibicuy por extracción de arena silícea. ¡Impacto ambiental y en la vida isleña! 🏞️🚤 #CuidemosElDelta"
   },
   {
-    "acontecimiento_id": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta",
-    "slug": "alerta-naranja-tormentas-villa-paranacito-delta",
-    "titulo": "Alerta Naranja por Tormentas Fuertes en Villa Paranacito y el Delta hasta el Martes",
-    "copete": "El Servicio Meteorológico Nacional ha emitido una alerta naranja por lluvias y tormentas de intensidad que afectarán directamente a Villa Paranacito y las Islas del Ibicuy, con vigencia hasta el martes.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Alerta Naranja",
-      "Tormentas",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "SMN",
-      "Prevención"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
-    "fecha_ultima_actualizacion": "28 de Septiembre de 2026, 03:51 hs",
-    "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
-    "fecha_ultima_actualizacion_iso": "2026-09-28T03:51:19.131616",
-    "resumen_whatsapp": "⚠️ ALERTA NARANJA por tormentas fuertes en Villa Paranacito y el Delta hasta el martes. ¡Tomá precauciones y mantenete informado! ⛈️💧"
-  },
-  {
     "acontecimiento_id": "2026-09-27-incendio-camioneta-acceso-villa-paranacito",
     "slug": "incendio-camioneta-acceso-villa-paranacito",
     "titulo": "Rápida Intervención de Bomberos Voluntarios de Villa Paranacito ante Incendio de Camioneta en Acceso Principal",
@@ -774,42 +802,6 @@
     "fecha_inicio_iso": "2026-09-23T03:29:36.412446",
     "fecha_ultima_actualizacion_iso": "2026-09-23T03:29:36.412446",
     "resumen_whatsapp": "🌿 ¡Gran noticia para Villa Paranacito! Avanza la creación de un Área de Conservación Ecológica en el Delta. Protegemos nuestra naturaleza y futuro. #DeltaSostenible"
-  },
-  {
-    "acontecimiento_id": "2026-09-18-hospital-paranacito-refuerza-atencion-cardiologica",
-    "slug": "hospital-paranacito-refuerza-atencion-cardiologica",
-    "titulo": "El Hospital de Villa Paranacito Fortalece su Atención Cardiológica con Equipamiento de Vanguardia",
-    "copete": "El Hospital Eva Duarte de Perón de Villa Paranacito ha dado un paso fundamental en la mejora de sus servicios de salud, incorporando por primera vez equipamiento especializado para estudios cardiológicos.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Hospital Paranacito",
-      "Salud",
-      "Cardiología",
-      "Equipamiento Médico",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google News (examedia.com.ar)",
-      "Google News (cuestionentrerriana.com.ar)",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 5,
-    "fecha_publicacion": "18 de Septiembre de 2026, 18:54 hs",
-    "fecha_ultima_actualizacion": "22 de Septiembre de 2026, 19:40 hs",
-    "fecha_inicio_iso": "2026-09-18T18:54:16.553679",
-    "fecha_ultima_actualizacion_iso": "2026-09-22T19:40:27.263694",
-    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital local incorporó equipamiento de vanguardia para estudios cardiológicos. Ahora los vecinos tienen acceso a diagnósticos clave sin salir del Delta. ❤️🩺"
   },
   {
     "acontecimiento_id": "2026-09-22-villa-paranacito-juegos-entrerrianos-final-provincial",
@@ -1135,35 +1127,6 @@
     "fecha_inicio_iso": "2026-09-16T19:28:52.247923",
     "fecha_ultima_actualizacion_iso": "2026-09-18T16:05:33.004185",
     "resumen_whatsapp": "⚖️ ¡Justicia en tu barrio! El programa provincial llega al Hospital de Villa Paranacito de 9 a 12 con asesoramiento legal gratuito y trámites. ¡Aprovechá! 🚤"
-  },
-  {
-    "acontecimiento_id": "2026-09-18-salud-villa-paranacito-nuevos-estudios",
-    "slug": "salud-villa-paranacito-nuevos-estudios",
-    "titulo": "Avance en Salud Local: Villa Paranacito Suma Nuevos Estudios Diagnósticos para la Comunidad",
-    "copete": "El Hospital Eva Perón de Villa Paranacito ha incorporado equipamiento y personal para ofrecer una gama ampliada de estudios médicos, mejorando significativamente el acceso a la salud para los vecinos del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Salud",
-      "Villa Paranacito",
-      "Hospital Eva Perón",
-      "Estudios Médicos",
-      "Delta Entrerriano",
-      "Servicios de Salud"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "18 de Septiembre de 2026, 15:57 hs",
-    "fecha_ultima_actualizacion": "18 de Septiembre de 2026, 15:57 hs",
-    "fecha_inicio_iso": "2026-09-18T15:57:30.961827",
-    "fecha_ultima_actualizacion_iso": "2026-09-18T15:57:30.961827",
-    "resumen_whatsapp": "🏥 ¡Gran noticia para Villa Paranacito! El Hospital Eva Perón suma nuevos estudios diagnósticos (ecografías, análisis) mejorando el acceso a la salud local. ¡Menos viajes, más atención!"
   },
   {
     "acontecimiento_id": "2026-09-17-iapv-confirma-planes-vivienda-villa-paranacito",

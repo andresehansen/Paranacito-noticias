@@ -1,17 +1,18 @@
 [
   {
-    "acontecimiento_id": "2026-09-27-alerta-naranja-tormentas-villa-paranacito-delta",
-    "slug": "alerta-naranja-tormentas-villa-paranacito-delta",
-    "titulo": "Alerta Naranja por Tormentas Fuertes en Villa Paranacito y el Delta hasta el Martes",
-    "copete": "El Servicio Meteorológico Nacional ha emitido una alerta naranja por lluvias y tormentas de intensidad que afectarán directamente a Villa Paranacito y las Islas del Ibicuy, con vigencia hasta el martes.",
+    "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
+    "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
+    "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",
+    "copete": "El Servicio Meteorológico Nacional elevó a naranja el nivel de alerta por fenómenos meteorológicos que afectarán a Villa Paranacito y las Islas del Ibicuy, anticipando lluvias y tormentas de fuerte intensidad.",
     "categoria": "Río y Clima",
     "tags": [
+      "Villa Paranacito",
       "Alerta Naranja",
       "Tormentas",
-      "Villa Paranacito",
+      "Lluvias",
       "Delta Entrerriano",
-      "SMN",
-      "Prevención"
+      "Defensa Civil",
+      "Islas del Ibicuy"
     ],
     "estado": "En desarrollo",
     "es_alerta": true,
@@ -19,16 +20,14 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "27 de Septiembre de 2026, 19:40 hs",
-    "fecha_ultima_actualizacion": "28 de Septiembre de 2026, 03:51 hs",
-    "fecha_inicio_iso": "2026-09-27T19:40:46.404536",
-    "fecha_ultima_actualizacion_iso": "2026-09-28T03:51:19.131616",
-    "resumen_whatsapp": "⚠️ ALERTA NARANJA por tormentas fuertes en Villa Paranacito y el Delta hasta el martes. ¡Tomá precauciones y mantenete informado! ⛈️💧"
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_ultima_actualizacion": "7 de Octubre de 2026, 04:30 hs",
+    "fecha_inicio_iso": "2026-10-07T04:30:28.389035",
+    "fecha_ultima_actualizacion_iso": "2026-10-07T04:30:28.389035",
+    "resumen_whatsapp": "⚠️ Alerta Naranja en Villa Paranacito y el Delta por lluvias y tormentas intensas. ¡Tomá precauciones! 🌧️⚡️"
   },
   {
     "acontecimiento_id": "2026-08-23-fortalecen-salud-mental-delta-capacitacion-villa-paranacito",
