@@ -1,5 +1,72 @@
 [
   {
+    "acontecimiento_id": "2026-10-08-fortalecimiento-servicios-clave-paranacito-ibicuy",
+    "slug": "fortalecimiento-servicios-clave-paranacito-ibicuy",
+    "titulo": "Fortalecimiento de Servicios Clave: Nuevas Ambulancias y Vehículos para Villa Paranacito e Ibicuy",
+    "copete": "El gobernador Rogelio Frigerio formalizó la entrega de equipamiento vital, incluyendo ambulancias de alta complejidad y vehículos utilitarios, destinados a optimizar la respuesta sanitaria y operativa en Villa Paranacito y General Galarza (Ibicuy). Esta inversión estratégica busca mejorar la calidad de vida de los habitantes del Delta entrerriano.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Ibicuy",
+      "Salud",
+      "Ambulancias",
+      "Rogelio Frigerio",
+      "Delta Entrerriano",
+      "Servicios Públicos",
+      "Infraestructura"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google News (Elonce.com)"
+    ],
+    "num_actualizaciones": 6,
+    "fecha_publicacion": "8 de Octubre de 2026, 15:15 hs",
+    "fecha_ultima_actualizacion": "8 de Octubre de 2026, 15:16 hs",
+    "fecha_inicio_iso": "2026-10-08T15:15:10.914526",
+    "fecha_ultima_actualizacion_iso": "2026-10-08T15:16:46.369149",
+    "resumen_whatsapp": "🚨 ¡Gran noticia para el Delta! Frigerio entregó nuevas ambulancias y vehículos a Villa Paranacito e Ibicuy para fortalecer servicios esenciales y mejorar la respuesta en emergencias. 🚑🛣️"
+  },
+  {
+    "acontecimiento_id": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
+    "slug": "villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
+    "titulo": "Villa Paranacito Refuerza su Justicia con la Designación del Nuevo Fiscal Auxiliar Leonardo Schonfeld",
+    "copete": "El Senado de Entre Ríos prestó acuerdo constitucional para que Leonardo Augusto Schonfeld asuma como fiscal auxiliar en la localidad, una medida clave para fortalecer la presencia judicial y la administración de justicia en el corazón del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Justicia",
+      "Villa Paranacito",
+      "Fiscal Auxiliar",
+      "Senado Entre Ríos",
+      "Islas del Ibicuy",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "8 de Octubre de 2026, 15:16 hs",
+    "fecha_ultima_actualizacion": "8 de Octubre de 2026, 15:16 hs",
+    "fecha_inicio_iso": "2026-10-08T15:16:46.357499",
+    "fecha_ultima_actualizacion_iso": "2026-10-08T15:16:46.361571",
+    "resumen_whatsapp": "⚖️ Villa Paranacito tendrá nuevo Fiscal Auxiliar: Leonardo Schonfeld fue aprobado por el Senado para fortalecer la justicia local y el acceso de los vecinos. ¡Más cerca y eficiente! 🚤"
+  },
+  {
     "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
     "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
     "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",
@@ -226,6 +293,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,

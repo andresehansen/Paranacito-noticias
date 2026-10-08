@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-10-08-obras-agua-villa-paranacito-restriccion-servicio",
+  "titulo": "Obras Cruciales en la Red de Agua de Villa Paranacito: Restricciones Temporales en la Zona Sur",
+  "copete": "La Municipalidad de Islas del Ibicuy informa a los vecinos de Villa Paranacito sobre la instalación de una nueva válvula de presión en la red de agua, lo que implicará cortes programados en el suministro para la zona sur de la localidad.",
+  "cuerpo": [
+    "Villa Paranacito se prepara para una mejora significativa en su infraestructura hídrica. La Secretaría de Obras Públicas del Municipio de Islas del Ibicuy ha anunciado la ejecución de trabajos para la instalación de una nueva válvula de presión en la red de agua potable. Esta intervención, vital para optimizar el servicio, se concentrará en el sector sur de la localidad, buscando garantizar un caudal y presión adecuados para todos los hogares, especialmente ante las altas temperaturas que caracterizan a nuestra región del Delta.",
+    "Fuentes municipales explicaron que esta inversión es parte de un plan integral para modernizar la infraestructura hídrica de Villa Paranacito. 'La incorporación de esta nueva válvula es un paso fundamental para asegurar la eficiencia y confiabilidad de nuestro sistema de distribución de agua', afirmó un vocero de la Secretaría de Obras Públicas. 'Entendemos las molestias temporales que esto puede generar, pero los beneficios a largo plazo en la calidad del servicio serán sustanciales para toda la comunidad isleña'.",
+    "Para los vecinos de la zona sur de Villa Paranacito, esta obra significa una interrupción momentánea de un servicio esencial. Sin embargo, el impacto positivo se sentirá en la vida cotidiana una vez finalizados los trabajos, con una mejora palpable en la presión y continuidad del suministro. Esto es crucial no solo para el consumo doméstico y la higiene, sino también para la actividad productiva y turística que depende de un acceso constante y fiable al agua potable en esta particular geografía del Delta entrerriano.",
+    "Se recomienda a los residentes de la zona afectada tomar las precauciones necesarias, como almacenar agua en recipientes limpios antes de los cortes programados. El Municipio de Islas del Ibicuy informará con antelación los horarios específicos de las restricciones a través de sus canales oficiales y redes sociales. Ante cualquier consulta o emergencia, los vecinos pueden comunicarse con la Mesa de Ayuda Municipal, cuyos datos serán difundidos junto con el cronograma detallado de los trabajos."
+  ],
+  "resumen": "Villa Paranacito realizará obras de mejora en su red de agua, instalando una nueva válvula de presión. Esto generará cortes temporales en el suministro para la zona sur de la localidad, pero busca optimizar el servicio a largo plazo. Se recomienda a los vecinos almacenar agua y estar atentos a los comunicados oficiales del Municipio de Islas del Ib",
+  "categoria": "Obras y Servicios",
+  "tags": [
+    "agua",
+    "Villa Paranacito",
+    "servicios públicos",
+    "obras",
+    "Islas del Ibicuy"
+  ],
+  "slug": "obras-agua-villa-paranacito-restriccion-servicio",
+  "resumen_whatsapp": "💧 ¡Atención Villa Paranacito! Obras en la red de agua causarán cortes temporales en la zona sur. 🗓️ Planificá tu consumo. Mejora a largo plazo. #AguaParanacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/policiales/secuestro-vehicular-tunel-subfluvial&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw177Rgf8yZoeMSYOvcnoEnY",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/policiales/secuestro-vehicular-tunel-subfluvial&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw177Rgf8yZoeMSYOvcnoEnY",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/policiales/secuestro-vehicular-tunel-subfluvial&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw177Rgf8yZoeMSYOvcnoEnY",
+      "fecha_consulta": "2026-10-08T15:14:54.916586"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "15:14",
+      "fecha": "2026-10-08",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito realizará obras de mejora en su red de agua, instalando una nueva válvula de presión. Esto generará cortes temporales en el suministro para la zona sur de la localidad, pero busca opt",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "2e6040bdd10718381bc9811a4e663e20935e8bd8577052265520a097323c0df2"
+  ],
+  "fecha_iso": "2026-10-08T15:14:54.916586",
+  "fecha_inicio_iso": "2026-10-08T15:14:54.916586",
+  "fecha_ultima_actualizacion_iso": "2026-10-08T15:14:54.916586",
+  "fecha_publicacion": "8 de Octubre de 2026, 15:14 hs",
+  "fecha_ultima_actualizacion": "8 de Octubre de 2026, 15:14 hs",
+  "archivo": "2026-10-08-obras-agua-villa-paranacito-restriccion-servicio.json"
+}
