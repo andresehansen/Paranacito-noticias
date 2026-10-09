@@ -35,6 +35,11 @@
       "nombre": "Google News (Vía País)",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaUdrQkR1enRKVERLTV9KOUo0R3RwLU52WTBmdEtwc0RkSjBHM05TWmo5N0NFQTlMRVEtRGFaNVVBSkItaWhPZ3J6OTdKcjNIZ0owaXBwb1dKUkJxRWRkQVZyMXAtdF81RVdpSGpYRlg2TXZvZnNVaS1YTzRnbWwxaVBMTVFxa3ZxdVhTcGlrR3F4UUZMS2ZrUEJUdU96bFFDSEg2VnhVN2ZCTEM0N2VpV2owR2c4UHM0Ti1zUWVzcFluTDMyX2E0VFNB?oc=5",
       "fecha_consulta": "2026-10-09T15:00:10.270037"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://viapais.com.ar/gualeguaychu/ambulancias-ceibas-paranacito-ibicuy-refuerzan-atencion-sanitaria-provincial_0_C0opSVyKbg.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ndNkGIvXtI35zki3dQjr7",
+      "fecha_consulta": "2026-10-09T20:34:55.750428"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Google News (Vía País)",
       "dato": "Villa Paranacito, Ceibas y el departamento Islas del Ibicuy recibieron nuevas ambulancias de última generación. Esta inversión provincial busca fortalecer la atención sanitaria y la respuesta a emerge",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:34",
+      "fecha": "2026-10-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Con ambulancias para Ceibas, Paranacito e Ibicuy refuerzan la atención sanitaria provincial",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "53d71ae9cf7afcb7e7c09512526781a2306e7f6644c20a809ed271bf5f9926b1"
+    "53d71ae9cf7afcb7e7c09512526781a2306e7f6644c20a809ed271bf5f9926b1",
+    "c027357a9264f9f614b0a16786a9de439099e4c60593066c70f4f82f56cc21aa"
   ],
   "fecha_iso": "2026-10-09T15:00:10.270037",
   "fecha_inicio_iso": "2026-10-09T15:00:10.270037",
-  "fecha_ultima_actualizacion_iso": "2026-10-09T15:00:10.270037",
+  "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:55.750428",
   "fecha_publicacion": "9 de Octubre de 2026, 15:00 hs",
-  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 15:00 hs",
+  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
   "archivo": "2026-10-09-nuevas-ambulancias-paranacito-ceibas-ibicuy.json"
 }

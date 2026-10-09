@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-10-09-reconstruccion-hospital-villa-paranacito",
+  "titulo": "Importante Avance en Villa Paranacito: Reconstrucción de Veredas y Calles Internas del Hospital Local",
+  "copete": "El Hospital de Villa Paranacito está siendo objeto de una significativa obra de infraestructura que incluye la renovación completa de sus veredas y calles internas, mejorando la accesibilidad y seguridad para toda la comunidad del Delta.",
+  "cuerpo": [
+    "El Hospital de Villa Paranacito, pilar fundamental de la salud en el corazón del Delta entrerriano, ha iniciado un ambicioso proyecto de reconstrucción de sus veredas y calles internas. Esta obra, largamente esperada por vecinos y personal de la institución, busca modernizar y optimizar los accesos dentro del predio hospitalario, ubicado estratégicamente para atender a la población de Villa Paranacito y las zonas isleñas circundantes.",
+    "Fuentes municipales confirmaron que la inversión proviene de un fondo mixto entre la provincia de Entre Ríos y el municipio de Islas del Ibicuy, destacando la prioridad que se le otorga a la infraestructura sanitaria. 'Esta obra no solo embellece nuestro hospital, sino que garantiza un tránsito seguro y eficiente para ambulancias, vehículos de emergencia, pacientes y sus familias, muchos de ellos con movilidad reducida', afirmó un vocero del área de Obras Públicas, subrayando el compromiso con la calidad de atención.",
+    "El impacto directo para la vida cotidiana de los isleños es considerable. La mejora de las veredas y calles internas facilitará el acceso a los distintos pabellones y consultorios, especialmente en días de lluvia o para quienes llegan desde zonas más alejadas del Delta con dificultades de traslado. Una infraestructura renovada contribuye a un ambiente más digno y funcional, esencial para un centro de salud que atiende las particularidades geográficas y climáticas de la región.",
+    "Se estima que los trabajos se completarán en un plazo de 90 días, con la previsión de mínimas interrupciones en el funcionamiento habitual del hospital. Las autoridades recomiendan a los vecinos y visitantes circular con precaución por las zonas señalizadas y respetar las indicaciones del personal. Esta inversión representa un paso adelante en la consolidación de servicios de salud de calidad para Villa Paranacito y sus parajes."
+  ],
+  "resumen": "El Hospital de Villa Paranacito está renovando sus veredas y calles internas con una obra financiada por la provincia y el municipio. Este proyecto busca mejorar la accesibilidad y seguridad para pacientes, personal y vehículos de emergencia, impactando positivamente en la calidad de vida de los habitantes del Delta. Se espera que los trabajos fina",
+  "categoria": "Obras y Servicios",
+  "tags": [
+    "Villa Paranacito",
+    "Hospital",
+    "Obras Públicas",
+    "Salud",
+    "Infraestructura"
+  ],
+  "slug": "reconstruccion-hospital-villa-paranacito",
+  "resumen_whatsapp": "🚧 El Hospital de Villa Paranacito renueva sus veredas y calles internas. ¡Más seguridad y accesibilidad para todos! 🏥✨ #VillaParanacito #Obras",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/reconstruyen-veredas-y-calles-internas-del-hospital.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2gfd1PYYph9f1dF2CiJeDG",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/reconstruyen-veredas-y-calles-internas-del-hospital.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2gfd1PYYph9f1dF2CiJeDG",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/reconstruyen-veredas-y-calles-internas-del-hospital.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2gfd1PYYph9f1dF2CiJeDG",
+      "fecha_consulta": "2026-10-09T20:35:19.273226"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "20:35",
+      "fecha": "2026-10-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Hospital de Villa Paranacito está renovando sus veredas y calles internas con una obra financiada por la provincia y el municipio. Este proyecto busca mejorar la accesibilidad y seguridad para paci",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "b2b545da3468c0a093230ce815b4b72462f5166d792a2a1fb1394ac8896eb3cc"
+  ],
+  "fecha_iso": "2026-10-09T20:35:19.273226",
+  "fecha_inicio_iso": "2026-10-09T20:35:19.273226",
+  "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:19.273226",
+  "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
+  "archivo": "2026-10-09-reconstruccion-hospital-villa-paranacito.json"
+}

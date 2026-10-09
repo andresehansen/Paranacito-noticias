@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
+    "slug": "villa-paranacito-alerta-crecida-rio-uruguay",
+    "titulo": "Villa Paranacito en Alerta: Monitoreo Constante ante la Crecida del Río Uruguay y su Impacto en el Delta",
+    "copete": "Las autoridades de Villa Paranacito mantienen un seguimiento exhaustivo del nivel del río Uruguay, ante la crecida que ya provoca evacuaciones en otras localidades, para prevenir posibles afectaciones en la región del Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "crecida rio uruguay",
+      "villa paranacito",
+      "delta entrerriano",
+      "alerta hidrica",
+      "islas del ibicuy",
+      "defensa civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:54.477385",
+    "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida del Río Uruguay. Monitoreo constante en el Delta. ¡Precaución vecinos! 🌊"
+  },
+  {
     "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
     "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
     "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",

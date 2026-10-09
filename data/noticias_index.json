@@ -1,39 +1,89 @@
 [
   {
-    "acontecimiento_id": "2026-10-08-fermin-tristan-candidato-intendente-paranacito",
-    "slug": "fermin-tristan-candidato-intendente-paranacito",
-    "titulo": "Elecciones 2023: Fermín Tristán Oficializa su Candidatura a Intendente de Villa Paranacito",
-    "copete": "Fermín Tristán anunció formalmente su postulación como candidato a intendente de Villa Paranacito, presentando una plataforma que prioriza la cercanía con los vecinos y la mejora de los servicios esenciales para la comunidad del Delta.",
-    "categoria": "Sociedad",
+    "acontecimiento_id": "2026-10-09-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "titulo": "El Fenómeno El Niño Suspende las Tradicionales Carrozas Náuticas en Villa Paranacito",
+    "copete": "La emblemática celebración de las Carrozas Náuticas de Villa Paranacito no se realizará este año debido a las condiciones hidrometeorológicas adversas provocadas por el fenómeno El Niño.",
+    "categoria": "Turismo y Cultura",
     "tags": [
-      "Elecciones 2023",
       "Villa Paranacito",
-      "Fermín Tristán",
-      "Candidatura",
+      "Carrozas Náuticas",
+      "El Niño",
       "Delta Entrerriano",
-      "Islas del Ibicuy"
+      "Eventos Locales",
+      "Suspension"
     ],
-    "estado": "En desarrollo",
+    "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google News (R2820)",
-      "Google News (Flipr.news)",
-      "Google Alerts - Villa Paranacito",
-      "Google News (Máxima Online)",
-      "Google News (Máxima Online)",
-      "Google News (Máxima Online)"
+      "Google News (R2820)"
     ],
-    "num_actualizaciones": 7,
-    "fecha_publicacion": "8 de Octubre de 2026, 21:04 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 15:09 hs",
-    "fecha_inicio_iso": "2026-10-08T21:04:19.367160",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T15:09:16.901809",
-    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propone cercanía con vecinos y mejora de servicios esenciales para el Delta. #Elecciones2023 #Paranacito"
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 20:36 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:36 hs",
+    "fecha_inicio_iso": "2026-10-09T20:36:38.118274",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:36:38.118274",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 🛶 se suspenden este año por El Niño y la seguridad en el río. 🌧️🌊"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
+    "slug": "villa-paranacito-alerta-crecida-rio-uruguay",
+    "titulo": "Villa Paranacito en Alerta: Monitoreo Constante ante la Crecida del Río Uruguay y su Impacto en el Delta",
+    "copete": "Las autoridades de Villa Paranacito mantienen un seguimiento exhaustivo del nivel del río Uruguay, ante la crecida que ya provoca evacuaciones en otras localidades, para prevenir posibles afectaciones en la región del Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "crecida rio uruguay",
+      "villa paranacito",
+      "delta entrerriano",
+      "alerta hidrica",
+      "islas del ibicuy",
+      "defensa civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:54.477385",
+    "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida del Río Uruguay. Monitoreo constante en el Delta. ¡Precaución vecinos! 🌊"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-desafio-politico-villa-paranacito-melchiori-tristan",
+    "slug": "desafio-politico-villa-paranacito-melchiori-tristan",
+    "titulo": "Escenario Político en Villa Paranacito: Fermín Tristán Desafía la Hegemonía de Melchiori",
+    "copete": "Villa Paranacito se prepara para un período de intensa actividad política, con la figura de Fermín Tristán emergiendo como un contendiente clave que busca renovar el panorama local frente al liderazgo establecido de Melchiori.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Política Local",
+      "Fermín Tristán",
+      "Melchiori",
+      "Elecciones"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_inicio_iso": "2026-10-09T20:35:30.668137",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:30.668137",
+    "resumen_whatsapp": "🚨 #VillaParanacito: Fermín Tristán busca romper la hegemonía de Melchiori. Se viene un debate clave para el futuro del Delta. ¡Mantente informado! 🗳️"
   },
   {
     "acontecimiento_id": "2026-10-09-nuevas-ambulancias-paranacito-ceibas-ibicuy",
@@ -56,14 +106,73 @@
     "imagen": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google News (Vía País)"
+      "Google News (Vía País)",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "9 de Octubre de 2026, 15:00 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
+    "fecha_inicio_iso": "2026-10-09T15:00:10.270037",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:55.750428",
+    "resumen_whatsapp": "🚨 ¡Gran noticia para la salud del Delta! Nuevas ambulancias llegan a Villa Paranacito, Ceibas e Islas del Ibicuy para mejorar la atención de emergencias. 🚑💨"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-isabella-olivera-representa-paranacito-fiesta-estudiante",
+    "slug": "isabella-olivera-representa-paranacito-fiesta-estudiante",
+    "titulo": "Isabella Olivera de Villa Paranacito Brilla en la Fiesta Provincial del Estudiante",
+    "copete": "La joven Isabella Olivera representa con orgullo a Villa Paranacito y el Delta Entrerriano en la prestigiosa Fiesta Provincial del Estudiante Secundario, que se celebra en la ciudad de Villaguay.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Estudiantes",
+      "Fiesta Provincial",
+      "Isabella Olivera",
+      "Juventud"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Octubre de 2026, 15:00 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 15:00 hs",
-    "fecha_inicio_iso": "2026-10-09T15:00:10.270037",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T15:00:10.270037",
-    "resumen_whatsapp": "🚨 ¡Gran noticia para la salud del Delta! Nuevas ambulancias llegan a Villa Paranacito, Ceibas e Islas del Ibicuy para mejorar la atención de emergencias. 🚑💨"
+    "fecha_publicacion": "9 de Octubre de 2026, 20:34 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
+    "fecha_inicio_iso": "2026-10-09T20:34:55.745624",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:55.745624",
+    "resumen_whatsapp": "🎉 ¡Orgullo local! Isabella Olivera de Villa Paranacito representa a la comunidad en la Fiesta Provincial del Estudiante. ¡Éxitos para nuestra joven del Delta! 👏"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
+    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
+    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
+    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Crecida del Río",
+      "Defensas",
+      "Delta Entrerriano",
+      "Emergencia Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:35.705654",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-09-detuvieron-a-un-hombre-armado-con-un-nunchaku",
@@ -90,61 +199,6 @@
     "fecha_inicio_iso": "2026-10-09T04:44:51.500048",
     "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:51.500048",
     "resumen_whatsapp": "📰 *Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti* — google.com"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-fermin-tristan-candidato-intendente-villa-paranacito",
-    "slug": "fermin-tristan-candidato-intendente-villa-paranacito",
-    "titulo": "Fermín Tristán Lanza Candidatura a Intendente de Villa Paranacito: Un Nuevo Capítulo Político en el Delta",
-    "copete": "Fermín Tristán oficializó su postulación para la intendencia de Villa Paranacito, marcando el inicio de la contienda electoral en la localidad y el Delta entrerriano.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Elecciones 2023",
-      "Fermín Tristán"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:47.458764",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:47.458764",
-    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. ¡Se viene la campaña con foco en el Delta! #ParanacitoVota"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
-    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
-    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
-    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Villa Paranacito",
-      "Crecida del Río",
-      "Defensas",
-      "Delta Entrerriano",
-      "Emergencia Hídrica"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:27.884217",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-delta-alerta-climatica-prevencion",
@@ -176,37 +230,6 @@
     "fecha_inicio_iso": "2026-10-08T21:04:07.562247",
     "fecha_ultima_actualizacion_iso": "2026-10-08T21:04:07.562247",
     "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito y el Delta por temporales. Municipio refuerza revisión de clubes e infraestructura. ¡Vecinos, a extremar precauciones! 🌬️🌧️🏡"
-  },
-  {
-    "acontecimiento_id": "2026-10-08-fortalecimiento-salud-logistica-villa-paranacito-ibicuy",
-    "slug": "fortalecimiento-salud-logistica-villa-paranacito-ibicuy",
-    "titulo": "Fortalecimiento Sanitario y Logístico: Nuevas Ambulancias y Vehículos para Villa Paranacito e Ibicuy",
-    "copete": "El gobernador Rogelio Frigerio realizó la entrega de unidades esenciales, incluyendo ambulancias y vehículos de apoyo, destinadas a mejorar los servicios de salud y la operatividad municipal en Villa Paranacito y la localidad de Ibicuy.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "Villa Paranacito",
-      "Ibicuy",
-      "Ambulancias",
-      "Vehículos",
-      "Salud",
-      "Servicios Públicos",
-      "Delta Entrerriano",
-      "Gobierno de Entre Ríos"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "8 de Octubre de 2026, 21:03 hs",
-    "fecha_ultima_actualizacion": "8 de Octubre de 2026, 21:03 hs",
-    "fecha_inicio_iso": "2026-10-08T21:03:49.424203",
-    "fecha_ultima_actualizacion_iso": "2026-10-08T21:03:49.424203",
-    "resumen_whatsapp": "🚑🚗 Villa Paranacito e Ibicuy reciben nuevas ambulancias y vehículos del Gobernador Frigerio. ¡Mejora clave para salud y servicios en el Delta!"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",

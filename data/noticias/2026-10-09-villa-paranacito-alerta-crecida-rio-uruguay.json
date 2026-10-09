@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
+  "titulo": "Villa Paranacito en Alerta: Monitoreo Constante ante la Crecida del Río Uruguay y su Impacto en el Delta",
+  "copete": "Las autoridades de Villa Paranacito mantienen un seguimiento exhaustivo del nivel del río Uruguay, ante la crecida que ya provoca evacuaciones en otras localidades, para prevenir posibles afectaciones en la región del Delta.",
+  "cuerpo": [
+    "Villa Paranacito y la región de Islas del Ibicuy se encuentran en estado de alerta y monitoreo constante debido a la significativa crecida del río Uruguay, un fenómeno hidrológico que, aunque con epicentro en el norte entrerriano y correntino, genera preocupación por sus posibles repercusiones en el complejo sistema hídrico del Delta. La situación se agrava con las evacuaciones ya registradas en ciudades como Concordia y Paso de los Libres, lo que impulsa a las autoridades locales a extremar las precauciones y evaluar el impacto indirecto en nuestros cursos de agua.",
+    "Fuentes de la Prefectura Naval Argentina con asiento en Villa Paranacito informaron que se está realizando un seguimiento minuto a minuto de los niveles de los ríos y arroyos que componen el entramado fluvial del Delta. Si bien el impacto directo de la crecida del Uruguay en el Paraná de las Palmas o el Gualeguaychú no es inmediato, la interconexión de los cursos de agua y la saturación de los suelos pueden generar un aumento gradual de los niveles en la zona, especialmente en los brazos más cercanos al río Uruguay y sus afluentes.",
+    "Para los vecinos de las islas y zonas ribereñas de Villa Paranacito, esta situación implica una vigilancia especial sobre sus viviendas y embarcaciones. El aumento del nivel del agua puede afectar la transitabilidad de caminos internos, el acceso a muelles y la operatividad de los servicios de lanchas de pasajeros y carga, vitales para la conexión de la comunidad. Productores locales, especialmente aquellos con cultivos o ganado en zonas bajas, también se mantienen en alerta ante la posibilidad de anegamientos que comprometan sus actividades y la infraestructura productiva.",
+    "Desde el Municipio de Islas del Ibicuy y Defensa Civil se recomienda a la población mantenerse informada a través de los canales oficiales, asegurar elementos flotantes, revisar el estado de las embarcaciones y, en caso de emergencia, contactar a las autoridades locales. Se ha dispuesto un equipo de respuesta rápida para asistir a quienes lo necesiten y se monitorean los pronósticos hidrometeorológicos para anticipar cualquier cambio significativo en la situación. Los vecinos pueden comunicarse con la Municipalidad o Prefectura ante cualquier duda o necesidad, garantizando una respuesta coordinada y eficiente."
+  ],
+  "resumen": "Villa Paranacito y el Delta están en alerta por la crecida del río Uruguay, que ya causa evacuaciones en el norte. Las autoridades locales monitorean los niveles de los ríos para prevenir impactos. Se recomienda a los vecinos estar informados y tomar precauciones ante posibles afectaciones en la vida cotidiana y la producción.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "crecida rio uruguay",
+    "villa paranacito",
+    "delta entrerriano",
+    "alerta hidrica",
+    "islas del ibicuy",
+    "defensa civil"
+  ],
+  "slug": "villa-paranacito-alerta-crecida-rio-uruguay",
+  "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida del Río Uruguay. Monitoreo constante en el Delta. ¡Precaución vecinos! 🌊",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.cfin.com.ar/especiales/crecida-rio-uruguay-evacuados-concordia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0IhaakaF3mRDcU_sTZ-ERd",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.cfin.com.ar/especiales/crecida-rio-uruguay-evacuados-concordia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0IhaakaF3mRDcU_sTZ-ERd",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.cfin.com.ar/especiales/crecida-rio-uruguay-evacuados-concordia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0IhaakaF3mRDcU_sTZ-ERd",
+      "fecha_consulta": "2026-10-09T20:35:54.477385"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "20:35",
+      "fecha": "2026-10-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta están en alerta por la crecida del río Uruguay, que ya causa evacuaciones en el norte. Las autoridades locales monitorean los niveles de los ríos para prevenir impactos. Se",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "0cd5d65c39d4d4ba874c51a9c3c9d03e85f65acfe7dfbe48d31d2fb6d15ff25a"
+  ],
+  "fecha_iso": "2026-10-09T20:35:54.477385",
+  "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
+  "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:54.477385",
+  "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
+  "archivo": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay.json"
+}

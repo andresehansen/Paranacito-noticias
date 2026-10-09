@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.infobae.com/sociedad/2026/10/08/el-nino-comenzo-a-golpear-en-el-litoral-ya-se-produjeron-las-primeras-evacuaciones-y-hay-restricciones-para-cruzar-a-brasil-y-uruguay/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw10rO5NQOqldnQcJwcDcbZp",
       "fecha_consulta": "2026-10-09T04:44:27.884217"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/09/118488-por-el-nino-no-habra-carrozas-nauticas-este-ano-en-villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2b6-BQi2RBacsATE5AHjAi",
+      "fecha_consulta": "2026-10-09T20:34:35.705654"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El fenómeno El Niño está impactando el Litoral, llevando a las autoridades a reforzar las defensas en Villa Paranacito. Se monitorea la crecida de los ríos, que afecta el acceso, transporte y producci",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:34",
+      "fecha": "2026-10-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La suspensión del Desfile de Carrozas Náuticas de Villa Paranacito este año, debido al fenómeno El Niño, informada por la Comisión Mixta y la Junta de Defensa Civil.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "09c7346f16774c8f41b0018f9c3b9ac8e8d1274ca43f332564c1638fe0a31617"
+    "09c7346f16774c8f41b0018f9c3b9ac8e8d1274ca43f332564c1638fe0a31617",
+    "0631b5820a5d0f907e3601398d0a0a89bdaac1ec350f24077642ef9e9fa4dd59"
   ],
   "fecha_iso": "2026-10-09T04:44:27.884217",
   "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-  "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:27.884217",
+  "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:35.705654",
   "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
+  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
   "archivo": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito.json"
 }
