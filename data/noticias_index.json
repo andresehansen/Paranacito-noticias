@@ -1,5 +1,57 @@
 [
   {
+    "acontecimiento_id": "2026-10-09-detuvieron-a-un-hombre-armado-con-un-nunchaku",
+    "slug": "detuvieron-a-un-hombre-armado-con-un-nunchaku",
+    "titulo": "Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:51.500048",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:51.500048",
+    "resumen_whatsapp": "📰 *Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-fermin-tristan-candidato-intendente-villa-paranacito",
+    "slug": "fermin-tristan-candidato-intendente-villa-paranacito",
+    "titulo": "Fermín Tristán Lanza Candidatura a Intendente de Villa Paranacito: Un Nuevo Capítulo Político en el Delta",
+    "copete": "Fermín Tristán oficializó su postulación para la intendencia de Villa Paranacito, marcando el inicio de la contienda electoral en la localidad y el Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Elecciones 2023",
+      "Fermín Tristán"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:47.458764",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:47.458764",
+    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. ¡Se viene la campaña con foco en el Delta! #ParanacitoVota"
+  },
+  {
     "acontecimiento_id": "2026-10-08-fermin-tristan-candidato-intendente-paranacito",
     "slug": "fermin-tristan-candidato-intendente-paranacito",
     "titulo": "Elecciones 2023: Fermín Tristán Oficializa su Candidatura a Intendente de Villa Paranacito",
@@ -22,14 +74,44 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google News (R2820)",
-      "Google News (Flipr.news)"
+      "Google News (Flipr.news)",
+      "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 3,
+    "num_actualizaciones": 4,
     "fecha_publicacion": "8 de Octubre de 2026, 21:04 hs",
-    "fecha_ultima_actualizacion": "8 de Octubre de 2026, 21:04 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
     "fecha_inicio_iso": "2026-10-08T21:04:19.367160",
-    "fecha_ultima_actualizacion_iso": "2026-10-08T21:04:26.642605",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:31.803143",
     "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propone cercanía con vecinos y mejora de servicios esenciales para el Delta. #Elecciones2023 #Paranacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
+    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
+    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
+    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Crecida del Río",
+      "Defensas",
+      "Delta Entrerriano",
+      "Emergencia Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:27.884217",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-delta-alerta-climatica-prevencion",
@@ -536,32 +618,6 @@
     "fecha_inicio_iso": "2026-09-30T20:34:21.771150",
     "fecha_ultima_actualizacion_iso": "2026-09-30T20:34:27.150721",
     "resumen_whatsapp": "📚 ¡Gran noticia para Villa Paranacito! La Escuela Itinerante ya está en el Delta, llevando talleres y apoyo educativo a la comunidad. ¡No te lo pierdas! #Educación #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-09-30-el-clausura-busca-ponerse-al-dia-y-completar",
-    "slug": "el-clausura-busca-ponerse-al-dia-y-completar",
-    "titulo": "El Clausura busca ponerse al día y completar su segunda fecha - Máxima Online",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre El Clausura busca ponerse al día y completar su segunda fecha - Máxima Online.",
-    "categoria": "Deportes",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "deportes"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "30 de Septiembre de 2026, 14:39 hs",
-    "fecha_ultima_actualizacion": "30 de Septiembre de 2026, 14:39 hs",
-    "fecha_inicio_iso": "2026-09-30T14:39:14.236530",
-    "fecha_ultima_actualizacion_iso": "2026-09-30T14:39:14.236530",
-    "resumen_whatsapp": "📰 *El Clausura busca ponerse al día y completar su segunda fecha - Máxima Online* — google.com"
   },
   {
     "acontecimiento_id": "2026-09-29-incendios-delta-villa-paranacito-emergencia",

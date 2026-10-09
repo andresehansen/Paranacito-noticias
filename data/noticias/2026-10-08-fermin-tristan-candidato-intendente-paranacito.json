@@ -49,6 +49,11 @@
       "nombre": "Google News (Flipr.news)",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa1h2Q0d2a2k5cmZ0cVR3MnM1R2RjVU9DazdhQndKRkJfZmRERldRS0pMVHptY1Vfc3RWbm00QVF4Q0dNbEx4SEljRW0wRFR0OFFHMWNhZlFHamtKX1VXVFlkaTM4cG1uTVZYUjJfR3MwTGZmV2RIQmptZUNJcWhvS2hrZ0kxUlpWUEU2dE52SnBmNmJmMlF6ZFZNSzZQSldXRks4TV9DX3ZzNjQ?oc=5",
       "fecha_consulta": "2026-10-08T21:04:26.642605"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://flipr.com.ar/entre-rios/r2820/fermin-tristan-lanzo-su-candidatura-a-intendente-de-villa-paranacito/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3lbmpJBSyNjS-YqvFW-pfC",
+      "fecha_consulta": "2026-10-09T04:44:31.803143"
     }
   ],
   "cronologia_actualizaciones": [
@@ -72,17 +77,25 @@
       "fuente": "Google News (Flipr.news)",
       "dato": "Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito - Flipr.news",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:44",
+      "fecha": "2026-10-09",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Se revela que Fermín Tristán fue ex integrante del equipo de Comunicación de la Provincia y que será candidato por el partido de Rogelio Frigerio.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "b7b2f3781175deee4b124ab7ea852f2e47db0dbd2865edecba3d70e2a54cf994",
     "70549bc4f620905c425cba442fcf60c4837b6ab66a0b557ba49f0fa5873128ee",
-    "0f68c9db1b1d3d5b9261dffad0da174db88aa953f2a3a270b703b09cd8afbf05"
+    "0f68c9db1b1d3d5b9261dffad0da174db88aa953f2a3a270b703b09cd8afbf05",
+    "9dc337ebb8c68d4330f0593dbc482a77e7cce90aeee46e6a46ed238990bc12d9"
   ],
   "fecha_iso": "2026-10-08T21:04:19.367160",
   "fecha_inicio_iso": "2026-10-08T21:04:19.367160",
-  "fecha_ultima_actualizacion_iso": "2026-10-08T21:04:26.642605",
+  "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:31.803143",
   "fecha_publicacion": "8 de Octubre de 2026, 21:04 hs",
-  "fecha_ultima_actualizacion": "8 de Octubre de 2026, 21:04 hs",
+  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
   "archivo": "2026-10-08-fermin-tristan-candidato-intendente-paranacito.json"
 }
