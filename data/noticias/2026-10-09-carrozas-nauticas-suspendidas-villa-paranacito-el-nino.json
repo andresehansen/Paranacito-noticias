@@ -24,7 +24,7 @@
   "fuente_nombre": "Google News (R2820)",
   "fuente_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU3FpMTNUbjhSbVNweDVFNlBuWU4xWmg5U3F1NnVxUHhTc1FueVVzMGpwYUxyYVZYYTZDY3c5Sk1HcnJuSjZIZlIxcGIyWlVwNDNQT2M2akk4dGJJSEhjd0dPUXBuLThxY3Q3ZDd5SkxrWEI0LUJRV3FMVGh1dE10RDhwNF8xVTNtUFBEU2VtZ2FpSlctakVYamhmdERiU1lZMGsyOFJzLUhXTTAtWEJOUFY0dnFaOFBHejN1aNIBvAFBVV95cUxOU3FpMTNUbjhSbVNweDVFNlBuWU4xWmg5U3F1NnVxUHhTc1FueVVzMGpwYUxyYVZYYTZDY3c5Sk1HcnJuSjZIZlIxcGIyWlVwNDNQT2M2akk4dGJJSEhjd0dPUXBuLThxY3Q3ZDd5SkxrWEI0LUJRV3FMVGh1dE10RDhwNF8xVTNtUFBEU2VtZ2FpSlctakVYamhmdERiU1lZMGsyOFJzLUhXTTAtWEJOUFY0dnFaOFBHejN1aA?oc=5",
   "url_original": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU3FpMTNUbjhSbVNweDVFNlBuWU4xWmg5U3F1NnVxUHhTc1FueVVzMGpwYUxyYVZYYTZDY3c5Sk1HcnJuSjZIZlIxcGIyWlVwNDNQT2M2akk4dGJJSEhjd0dPUXBuLThxY3Q3ZDd5SkxrWEI0LUJRV3FMVGh1dE10RDhwNF8xVTNtUFBEU2VtZ2FpSlctakVYamhmdERiU1lZMGsyOFJzLUhXTTAtWEJOUFY0dnFaOFBHejN1aNIBvAFBVV95cUxOU3FpMTNUbjhSbVNweDVFNlBuWU4xWmg5U3F1NnVxUHhTc1FueVVzMGpwYUxyYVZYYTZDY3c5Sk1HcnJuSjZIZlIxcGIyWlVwNDNQT2M2akk4dGJJSEhjd0dPUXBuLThxY3Q3ZDd5SkxrWEI0LUJRV3FMVGh1dE10RDhwNF8xVTNtUFBEU2VtZ2FpSlctakVYamhmdERiU1lZMGsyOFJzLUhXTTAtWEJOUFY0dnFaOFBHejN1aA?oc=5",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google News (R2820)",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU3FpMTNUbjhSbVNweDVFNlBuWU4xWmg5U3F1NnVxUHhTc1FueVVzMGpwYUxyYVZYYTZDY3c5Sk1HcnJuSjZIZlIxcGIyWlVwNDNQT2M2akk4dGJJSEhjd0dPUXBuLThxY3Q3ZDd5SkxrWEI0LUJRV3FMVGh1dE10RDhwNF8xVTNtUFBEU2VtZ2FpSlctakVYamhmdERiU1lZMGsyOFJzLUhXTTAtWEJOUFY0dnFaOFBHejN1aNIBvAFBVV95cUxOU3FpMTNUbjhSbVNweDVFNlBuWU4xWmg5U3F1NnVxUHhTc1FueVVzMGpwYUxyYVZYYTZDY3c5Sk1HcnJuSjZIZlIxcGIyWlVwNDNQT2M2akk4dGJJSEhjd0dPUXBuLThxY3Q3ZDd5SkxrWEI0LUJRV3FMVGh1dE10RDhwNF8xVTNtUFBEU2VtZ2FpSlctakVYamhmdERiU1lZMGsyOFJzLUhXTTAtWEJOUFY0dnFaOFBHejN1aA?oc=5",
       "fecha_consulta": "2026-10-09T20:36:38.118274"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWVRkV0FpZWRhTnVPU0hnUHhLallkZzJNWFYtOGVQTEh4RExfZzUwaWNVdjh4YXl6NFJoV0NrX29EcG95a1VpcjlDUUtLellnODBDRmxjOUs3SjdpUExwNDhSXzNITDhQRmFWQm9tbFlEank2N1NKNFRKQWU5SF8xN2g5V0xyUGJKMjZ6ZVNYalRfYlF5d05kdUFObzV5QUFrRGhHLVV1VUFxcEF6X3JDRTg1bUd4SFHSAbwBQVVfeXFMTlNxaTEzVG44Um1TcHg1RTZQbllOMVpoOVNxdTZ1cVB4U3NRbnlVczBqcGFMcmFWWGE2Q2N3OUpNR3Jybko2SGZSMXBiMlpVcDQzUE9jNmpJOHRiSUhIY3dHT1Fwbi04cWN0N2Q3eUpMa1hCNC1CUVdxTFRodXRNdEQ4cDRfMVUzbVBQRFNlbWdhaUpXLWpFWGpoZnREYlNZWTBrMjhScy1IV00wLVhCTlBWNHZxWjhQR3ozdWg?oc=5",
+      "fecha_consulta": "2026-10-09T20:42:41.983858"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google News (R2820)",
       "dato": "Las tradicionales Carrozas Náuticas de Villa Paranacito fueron suspendidas para esta temporada debido a las condiciones hidrometeorológicas adversas provocadas por el fenómeno El Niño. La decisión mun",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:42",
+      "fecha": "2026-10-09",
+      "fuente": "Google News (R2820)",
+      "dato": "Por El Niño, no habrá Carrozas Náuticas este año en Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "942fd15d18e23caed658ab7964408e9b5723ed4d2079abdbe29be0899e0c78d2"
+    "942fd15d18e23caed658ab7964408e9b5723ed4d2079abdbe29be0899e0c78d2",
+    "dfa2240a40ecbfbd0487bbad3e96762319702a7d8ad0f104cce9fa4576a7a9ae"
   ],
   "fecha_iso": "2026-10-09T20:36:38.118274",
   "fecha_inicio_iso": "2026-10-09T20:36:38.118274",
-  "fecha_ultima_actualizacion_iso": "2026-10-09T20:36:38.118274",
+  "fecha_ultima_actualizacion_iso": "2026-10-09T20:42:41.983858",
   "fecha_publicacion": "9 de Octubre de 2026, 20:36 hs",
-  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:36 hs",
+  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:42 hs",
   "archivo": "2026-10-09-carrozas-nauticas-suspendidas-villa-paranacito-el-nino.json"
 }
