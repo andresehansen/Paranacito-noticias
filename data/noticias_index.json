@@ -1,5 +1,69 @@
 [
   {
+    "acontecimiento_id": "2026-10-09-nuevas-ambulancias-paranacito-ceibas-ibicuy",
+    "slug": "nuevas-ambulancias-paranacito-ceibas-ibicuy",
+    "titulo": "Histórico Refuerzo Sanitario: Nuevas Ambulancias Potencian la Atención en Villa Paranacito, Ceibas e Islas del Ibicuy",
+    "copete": "La provincia de Entre Ríos ha dotado a los centros de salud de Villa Paranacito, Ceibas y el departamento Islas del Ibicuy con modernas ambulancias, marcando un hito en la mejora de la respuesta ante emergencias médicas en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud",
+      "Ambulancias",
+      "Villa Paranacito",
+      "Ceibas",
+      "Islas del Ibicuy",
+      "Emergencias Médicas",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Vía País)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Octubre de 2026, 15:00 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 15:00 hs",
+    "fecha_inicio_iso": "2026-10-09T15:00:10.270037",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T15:00:10.270037",
+    "resumen_whatsapp": "🚨 ¡Gran noticia para la salud del Delta! Nuevas ambulancias llegan a Villa Paranacito, Ceibas e Islas del Ibicuy para mejorar la atención de emergencias. 🚑💨"
+  },
+  {
+    "acontecimiento_id": "2026-10-08-fermin-tristan-candidato-intendente-paranacito",
+    "slug": "fermin-tristan-candidato-intendente-paranacito",
+    "titulo": "Elecciones 2023: Fermín Tristán Oficializa su Candidatura a Intendente de Villa Paranacito",
+    "copete": "Fermín Tristán anunció formalmente su postulación como candidato a intendente de Villa Paranacito, presentando una plataforma que prioriza la cercanía con los vecinos y la mejora de los servicios esenciales para la comunidad del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Elecciones 2023",
+      "Villa Paranacito",
+      "Fermín Tristán",
+      "Candidatura",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google News (R2820)",
+      "Google News (Flipr.news)",
+      "Google Alerts - Villa Paranacito",
+      "Google News (Máxima Online)"
+    ],
+    "num_actualizaciones": 5,
+    "fecha_publicacion": "8 de Octubre de 2026, 21:04 hs",
+    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 14:59 hs",
+    "fecha_inicio_iso": "2026-10-08T21:04:19.367160",
+    "fecha_ultima_actualizacion_iso": "2026-10-09T14:59:55.947510",
+    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propone cercanía con vecinos y mejora de servicios esenciales para el Delta. #Elecciones2023 #Paranacito"
+  },
+  {
     "acontecimiento_id": "2026-10-09-detuvieron-a-un-hombre-armado-con-un-nunchaku",
     "slug": "detuvieron-a-un-hombre-armado-con-un-nunchaku",
     "titulo": "Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti",
@@ -50,39 +114,6 @@
     "fecha_inicio_iso": "2026-10-09T04:44:47.458764",
     "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:47.458764",
     "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. ¡Se viene la campaña con foco en el Delta! #ParanacitoVota"
-  },
-  {
-    "acontecimiento_id": "2026-10-08-fermin-tristan-candidato-intendente-paranacito",
-    "slug": "fermin-tristan-candidato-intendente-paranacito",
-    "titulo": "Elecciones 2023: Fermín Tristán Oficializa su Candidatura a Intendente de Villa Paranacito",
-    "copete": "Fermín Tristán anunció formalmente su postulación como candidato a intendente de Villa Paranacito, presentando una plataforma que prioriza la cercanía con los vecinos y la mejora de los servicios esenciales para la comunidad del Delta.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Elecciones 2023",
-      "Villa Paranacito",
-      "Fermín Tristán",
-      "Candidatura",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google News (R2820)",
-      "Google News (Flipr.news)",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "8 de Octubre de 2026, 21:04 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_inicio_iso": "2026-10-08T21:04:19.367160",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:31.803143",
-    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propone cercanía con vecinos y mejora de servicios esenciales para el Delta. #Elecciones2023 #Paranacito"
   },
   {
     "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
