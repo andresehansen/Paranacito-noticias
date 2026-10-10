@@ -1,5 +1,64 @@
 [
   {
+    "acontecimiento_id": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "titulo": "Impacto del Fenómeno El Niño: Suspendidas las Carrozas Náuticas 2024 en Villa Paranacito",
+    "copete": "Las tradicionales Carrozas Náuticas de Villa Paranacito no se realizarán este año debido a las condiciones climáticas adversas y las crecidas generadas por el fenómeno El Niño en el Delta entrerriano.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Villa Paranacito",
+      "Carrozas Náuticas",
+      "El Niño",
+      "Delta Entrerriano",
+      "Turismo",
+      "Eventos"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 14:16 hs",
+    "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T14:16:02.674416",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-10-10-isfdc-villa-paranacito-concurso-docente",
+    "slug": "isfdc-villa-paranacito-concurso-docente",
+    "titulo": "El ISFDC Villa Paranacito Lanza Concurso Clave para Fortalecer la Formación Docente Local",
+    "copete": "La Rectoría del Instituto Superior de Formación Docente Continua (ISFDC) 'Villa Paranacito' ha convocado a un primer llamado a concurso para la cobertura de horas cátedra, buscando reforzar su plantel educativo.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "ISFDC",
+      "Villa Paranacito",
+      "Concurso Docente",
+      "Educación",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "10 de Octubre de 2026, 14:15 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 14:15 hs",
+    "fecha_inicio_iso": "2026-10-10T14:15:56.905742",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T14:15:56.905742",
+    "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso para cubrir horas cátedra. 📚 Plazo de 5 días hábiles desde el 9 de junio. ¡Informate en la institución! #EducaciónLocal"
+  },
+  {
     "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
     "slug": "el-nino-refuerzan-defensas-villa-paranacito",
     "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
@@ -86,35 +145,6 @@
     "resumen_whatsapp": "🚨 #VillaParanacito: Fermín Tristán busca romper la hegemonía de Melchiori. Se viene un debate clave para el futuro del Delta. ¡Mantente informado! 🗳️"
   },
   {
-    "acontecimiento_id": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
-    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
-    "titulo": "Impacto del Fenómeno El Niño: Suspendidas las Carrozas Náuticas 2024 en Villa Paranacito",
-    "copete": "Las tradicionales Carrozas Náuticas de Villa Paranacito no se realizarán este año debido a las condiciones climáticas adversas y las crecidas generadas por el fenómeno El Niño en el Delta entrerriano.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "Villa Paranacito",
-      "Carrozas Náuticas",
-      "El Niño",
-      "Delta Entrerriano",
-      "Turismo",
-      "Eventos"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:29 hs",
-    "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T04:29:56.090460",
-    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
-  },
-  {
     "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
     "slug": "villa-paranacito-alerta-crecida-rio-uruguay",
     "titulo": "Villa Paranacito en Alerta: Monitoreo Constante ante la Crecida del Río Uruguay y su Impacto en el Delta",
@@ -173,34 +203,6 @@
     "fecha_inicio_iso": "2026-10-09T15:00:10.270037",
     "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:55.750428",
     "resumen_whatsapp": "🚨 ¡Gran noticia para la salud del Delta! Nuevas ambulancias llegan a Villa Paranacito, Ceibas e Islas del Ibicuy para mejorar la atención de emergencias. 🚑💨"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-isabella-olivera-representa-paranacito-fiesta-estudiante",
-    "slug": "isabella-olivera-representa-paranacito-fiesta-estudiante",
-    "titulo": "Isabella Olivera de Villa Paranacito Brilla en la Fiesta Provincial del Estudiante",
-    "copete": "La joven Isabella Olivera representa con orgullo a Villa Paranacito y el Delta Entrerriano en la prestigiosa Fiesta Provincial del Estudiante Secundario, que se celebra en la ciudad de Villaguay.",
-    "categoria": "Comunidad",
-    "tags": [
-      "Villa Paranacito",
-      "Estudiantes",
-      "Fiesta Provincial",
-      "Isabella Olivera",
-      "Juventud"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Octubre de 2026, 20:34 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
-    "fecha_inicio_iso": "2026-10-09T20:34:55.745624",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:55.745624",
-    "resumen_whatsapp": "🎉 ¡Orgullo local! Isabella Olivera de Villa Paranacito representa a la comunidad en la Fiesta Provincial del Estudiante. ¡Éxitos para nuestra joven del Delta! 👏"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-delta-alerta-climatica-prevencion",
@@ -1638,37 +1640,6 @@
     "fecha_inicio_iso": "2026-09-12T18:07:55.183258",
     "fecha_ultima_actualizacion_iso": "2026-09-12T18:07:55.183258",
     "resumen_whatsapp": "🌿 El Cementerio de Villa Paranacito: Más que un camposanto, un archivo vivo de nuestra historia. El Municipio trabaja en su preservación. ¡Cuidemos juntos este espacio de memoria! 🙏"
-  },
-  {
-    "acontecimiento_id": "2026-09-10-concurso-docente-isfdc-villa-paranacito",
-    "slug": "concurso-docente-isfdc-villa-paranacito",
-    "titulo": "El ISFDC Villa Paranacito Abre Concurso para Fortalecer su Planta Docente",
-    "copete": "El Instituto Superior de Formación Docente Continua “Villa Paranacito” ha lanzado su Primer Llamado a Concurso para cubrir diversas cátedras, ofreciendo importantes oportunidades laborales y de desarrollo profesional en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Concurso docente",
-      "Villa Paranacito",
-      "ISFDC",
-      "Educación superior",
-      "Oportunidad laboral",
-      "Delta entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "10 de Septiembre de 2026, 12:49 hs",
-    "fecha_ultima_actualizacion": "12 de Septiembre de 2026, 03:17 hs",
-    "fecha_inicio_iso": "2026-09-10T12:49:36.980005",
-    "fecha_ultima_actualizacion_iso": "2026-09-12T03:17:23.749071",
-    "resumen_whatsapp": "📢 ¡Atención Villa Paranacito! El ISFDC abre concurso para docentes. Oportunidad laboral y de formación en el Delta. ¡Inscripciones hasta el 26 de julio! 📚👩‍🏫"
   },
   {
     "acontecimiento_id": "2026-09-11-produccion-bufalos-delta-entrerriano-islas-ibicuy",
