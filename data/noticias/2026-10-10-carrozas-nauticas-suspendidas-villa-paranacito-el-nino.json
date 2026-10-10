@@ -44,6 +44,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://flipr.com.ar/entre-rios/r2820/por-el-nino-no-habra-carrozas-nauticas-este-ano-en-villa-paranacito/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw30LbgQYH7Ocwt8Q8Qc43T9",
       "fecha_consulta": "2026-10-10T14:16:06.079162"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/10/118554-por-el-mal-tiempo-fue-postergada-la-celebracion-del-dia-del-respeto-a-la-diversidad-cultural&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3RTj56iWnrxzJlu1Fi9bVD",
+      "fecha_consulta": "2026-10-10T19:48:05.773025"
     }
   ],
   "cronologia_actualizaciones": [
@@ -60,16 +65,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo cable especifica la fecha y hora de emisión del reporte (09/10 | 16:15) y menciona a 'La Comisión Mixta y la Junta de Defensa' como entidades involucradas en la decisión o el anuncio, lo cual es más específico que 'Fuentes municipales'.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:48",
+      "fecha": "2026-10-10",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "713bc217d76f114af1c45ae839a87ebd7bdfc94e5c5a1491c9a2a2fbc899833f",
-    "ea76074faa568fd1680d2546aa45ad04164d060da064ae577a98dd87d5f5b03f"
+    "ea76074faa568fd1680d2546aa45ad04164d060da064ae577a98dd87d5f5b03f",
+    "8e970da28e9746fd7f11399dea1ad38ebc15bd3bf2b14c7b2c49ca356d1bb69f"
   ],
   "fecha_iso": "2026-10-10T04:29:56.090460",
   "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
-  "fecha_ultima_actualizacion_iso": "2026-10-10T14:16:02.674416",
+  "fecha_ultima_actualizacion_iso": "2026-10-10T19:48:05.773025",
   "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
-  "fecha_ultima_actualizacion": "10 de Octubre de 2026, 14:16 hs",
+  "fecha_ultima_actualizacion": "10 de Octubre de 2026, 19:48 hs",
   "archivo": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino.json"
 }

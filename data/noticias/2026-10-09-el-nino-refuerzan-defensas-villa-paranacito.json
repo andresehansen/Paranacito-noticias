@@ -44,6 +44,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/nacionales/el-nio-comenz-a-golpear-en-el-litoral.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ApOlT44JBb2PTwznFhNQ4",
       "fecha_consulta": "2026-10-10T04:30:05.751178"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://la100.cienradios.com/clima/el-nino-avanza-sobre-el-litoral-y-agrava-las-inundaciones-hay-evacuados-y-restricciones-para-cruzar-a-uruguay-y-brasil/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0P8vrBmSczDTae3KzIubJh",
+      "fecha_consulta": "2026-10-10T19:47:55.480379"
     }
   ],
   "cronologia_actualizaciones": [
@@ -67,17 +72,25 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:47",
+      "fecha": "2026-10-10",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El fenómeno El Niño ha agravado las inundaciones, resultando en evacuados y restricciones. Además de las acciones en Villa Paranacito, se realizaron intervenciones en Rosario del Tala.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "09c7346f16774c8f41b0018f9c3b9ac8e8d1274ca43f332564c1638fe0a31617",
     "0631b5820a5d0f907e3601398d0a0a89bdaac1ec350f24077642ef9e9fa4dd59",
-    "740d80bb97654c40a17c1b9f14558fc26a329c9133e072dadfb78289f2daf541"
+    "740d80bb97654c40a17c1b9f14558fc26a329c9133e072dadfb78289f2daf541",
+    "faf7f50436019e196d945775bfd4d7e9900cb59dfa3b4a22dd05769d72cc05ac"
   ],
   "fecha_iso": "2026-10-09T04:44:27.884217",
   "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-  "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:05.751178",
+  "fecha_ultima_actualizacion_iso": "2026-10-10T19:47:55.480379",
   "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-  "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
+  "fecha_ultima_actualizacion": "10 de Octubre de 2026, 19:47 hs",
   "archivo": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito.json"
 }

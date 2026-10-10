@@ -21,14 +21,47 @@
     "fuentes_consultadas": [
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 2,
+    "num_actualizaciones": 3,
     "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 14:16 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 19:48 hs",
     "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T14:16:02.674416",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T19:48:05.773025",
     "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
+    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
+    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
+    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Crecida del Río",
+      "Defensas",
+      "Delta Entrerriano",
+      "Emergencia Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 19:47 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T19:47:55.480379",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-10-isfdc-villa-paranacito-concurso-docente",
@@ -57,37 +90,6 @@
     "fecha_inicio_iso": "2026-10-10T14:15:56.905742",
     "fecha_ultima_actualizacion_iso": "2026-10-10T14:15:56.905742",
     "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso para cubrir horas cátedra. 📚 Plazo de 5 días hábiles desde el 9 de junio. ¡Informate en la institución! #EducaciónLocal"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
-    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
-    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
-    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Villa Paranacito",
-      "Crecida del Río",
-      "Defensas",
-      "Delta Entrerriano",
-      "Emergencia Hídrica"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:05.751178",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-10-central-entrerriano-cierra-su-preparacion-ante-rocamora-maxima",
@@ -1398,35 +1400,6 @@
     "fecha_inicio_iso": "2026-09-16T19:28:52.247923",
     "fecha_ultima_actualizacion_iso": "2026-09-18T16:05:33.004185",
     "resumen_whatsapp": "⚖️ ¡Justicia en tu barrio! El programa provincial llega al Hospital de Villa Paranacito de 9 a 12 con asesoramiento legal gratuito y trámites. ¡Aprovechá! 🚤"
-  },
-  {
-    "acontecimiento_id": "2026-09-17-iapv-confirma-planes-vivienda-villa-paranacito",
-    "slug": "iapv-confirma-planes-vivienda-villa-paranacito",
-    "titulo": "Villa Paranacito: El IAPV Confirma Nuevos Planes de Vivienda para la Comunidad del Delta",
-    "copete": "El Instituto Autárquico de Planeamiento y Vivienda (IAPV) de Entre Ríos ha incluido a Villa Paranacito entre las localidades beneficiadas con próximos planes de construcción de viviendas, una noticia clave para el desarrollo local.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "vivienda",
-      "IAPV",
-      "Villa Paranacito",
-      "Delta",
-      "obras publicas",
-      "comunidad"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "17 de Septiembre de 2026, 03:36 hs",
-    "fecha_ultima_actualizacion": "17 de Septiembre de 2026, 03:36 hs",
-    "fecha_inicio_iso": "2026-09-17T03:36:00.790913",
-    "fecha_ultima_actualizacion_iso": "2026-09-17T03:36:00.790913",
-    "resumen_whatsapp": "🏡 ¡Buenas noticias para Villa Paranacito! El IAPV confirma nuevos planes de vivienda para nuestra comunidad. ¡Atentos a los anuncios del Municipio! #ViviendaDigna #Delta"
   },
   {
     "acontecimiento_id": "2026-09-15-enersa-municipio-paranacito-arbolado-electrico",
