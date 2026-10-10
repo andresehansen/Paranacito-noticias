@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "10/10/2026 19:47",
-  "timestamp_iso": "2026-10-10T19:47:26.498389",
+  "ultima_actualizacion": "10/10/2026 19:54",
+  "timestamp_iso": "2026-10-10T19:54:55.706159",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
     "temperatura": 17,
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-10 19:47"
+    "actualizado": "2026-10-10 19:54"
   }
 }
