@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/gualeguaychu-vive-jornadas-inestables-y-frescas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1pWvi7Wq9CsMNpRObRDqWM",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/gualeguaychu-vive-jornadas-inestables-y-frescas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1pWvi7Wq9CsMNpRObRDqWM",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/gualeguaychu-vive-jornadas-inestables-y-frescas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1pWvi7Wq9CsMNpRObRDqWM",
       "fecha_consulta": "2026-10-09T20:35:30.668137"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/se-espera-un-crecimiento-de-los-rios-parana-y-uruguay-y-se-anticipan-mas-lluvias.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2aPMFfqndVwn0ZkgJ_P2Up",
+      "fecha_consulta": "2026-10-10T04:30:02.572307"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Fermín Tristán emerge como un nuevo actor político en Villa Paranacito, buscando desafiar la hegemonía de Melchiori. Este movimiento promete renovar el debate sobre la gestión local y las prioridades ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:30",
+      "fecha": "2026-10-10",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "f310c6f3bbefa98493ce8694f9878b6112e4e38dffa3f0588eda8a08653e43c8"
+    "f310c6f3bbefa98493ce8694f9878b6112e4e38dffa3f0588eda8a08653e43c8",
+    "5b2d38b1d59207467d3598afc0f56a946fa5091398fef094460bf338b2023bcc"
   ],
   "fecha_iso": "2026-10-09T20:35:30.668137",
   "fecha_inicio_iso": "2026-10-09T20:35:30.668137",
-  "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:30.668137",
+  "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:02.572307",
   "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
-  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
+  "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
   "archivo": "2026-10-09-desafio-politico-villa-paranacito-melchiori-tristan.json"
 }

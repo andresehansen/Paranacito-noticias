@@ -1,17 +1,17 @@
 [
   {
-    "acontecimiento_id": "2026-10-09-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
-    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
-    "titulo": "El Fenómeno El Niño Suspende las Tradicionales Carrozas Náuticas en Villa Paranacito",
-    "copete": "La emblemática celebración de las Carrozas Náuticas de Villa Paranacito no se realizará este año debido a las condiciones hidrometeorológicas adversas provocadas por el fenómeno El Niño.",
-    "categoria": "Turismo y Cultura",
+    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
+    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
+    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
+    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
+    "categoria": "Río y Clima",
     "tags": [
-      "Villa Paranacito",
-      "Carrozas Náuticas",
       "El Niño",
+      "Villa Paranacito",
+      "Crecida del Río",
+      "Defensas",
       "Delta Entrerriano",
-      "Eventos Locales",
-      "Suspension"
+      "Emergencia Hídrica"
     ],
     "estado": "En desarrollo",
     "es_alerta": false,
@@ -19,15 +19,100 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google News (R2820)",
-      "Google News (R2820)"
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:05.751178",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
+  },
+  {
+    "acontecimiento_id": "2026-10-10-central-entrerriano-cierra-su-preparacion-ante-rocamora-maxima",
+    "slug": "central-entrerriano-cierra-su-preparacion-ante-rocamora-maxima",
+    "titulo": "Central Entrerriano cierra su preparación ante Rocamora - Máxima Online",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Central Entrerriano cierra su preparación ante Rocamora - Máxima Online.",
+    "categoria": "Comunidad",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "10 de Octubre de 2026, 04:30 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
+    "fecha_inicio_iso": "2026-10-10T04:30:05.333245",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:05.333245",
+    "resumen_whatsapp": "📰 *Central Entrerriano cierra su preparación ante Rocamora - Máxima Online* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-desafio-politico-villa-paranacito-melchiori-tristan",
+    "slug": "desafio-politico-villa-paranacito-melchiori-tristan",
+    "titulo": "Escenario Político en Villa Paranacito: Fermín Tristán Desafía la Hegemonía de Melchiori",
+    "copete": "Villa Paranacito se prepara para un período de intensa actividad política, con la figura de Fermín Tristán emergiendo como un contendiente clave que busca renovar el panorama local frente al liderazgo establecido de Melchiori.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Política Local",
+      "Fermín Tristán",
+      "Melchiori",
+      "Elecciones"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 2,
-    "fecha_publicacion": "9 de Octubre de 2026, 20:36 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:42 hs",
-    "fecha_inicio_iso": "2026-10-09T20:36:38.118274",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T20:42:41.983858",
-    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 🛶 se suspenden este año por El Niño y la seguridad en el río. 🌧️🌊"
+    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
+    "fecha_inicio_iso": "2026-10-09T20:35:30.668137",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:02.572307",
+    "resumen_whatsapp": "🚨 #VillaParanacito: Fermín Tristán busca romper la hegemonía de Melchiori. Se viene un debate clave para el futuro del Delta. ¡Mantente informado! 🗳️"
+  },
+  {
+    "acontecimiento_id": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "titulo": "Impacto del Fenómeno El Niño: Suspendidas las Carrozas Náuticas 2024 en Villa Paranacito",
+    "copete": "Las tradicionales Carrozas Náuticas de Villa Paranacito no se realizarán este año debido a las condiciones climáticas adversas y las crecidas generadas por el fenómeno El Niño en el Delta entrerriano.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Villa Paranacito",
+      "Carrozas Náuticas",
+      "El Niño",
+      "Delta Entrerriano",
+      "Turismo",
+      "Eventos"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
+    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:29 hs",
+    "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
+    "fecha_ultima_actualizacion_iso": "2026-10-10T04:29:56.090460",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
   },
   {
     "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
@@ -57,34 +142,6 @@
     "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
     "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:54.477385",
     "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida del Río Uruguay. Monitoreo constante en el Delta. ¡Precaución vecinos! 🌊"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-desafio-politico-villa-paranacito-melchiori-tristan",
-    "slug": "desafio-politico-villa-paranacito-melchiori-tristan",
-    "titulo": "Escenario Político en Villa Paranacito: Fermín Tristán Desafía la Hegemonía de Melchiori",
-    "copete": "Villa Paranacito se prepara para un período de intensa actividad política, con la figura de Fermín Tristán emergiendo como un contendiente clave que busca renovar el panorama local frente al liderazgo establecido de Melchiori.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Política Local",
-      "Fermín Tristán",
-      "Melchiori",
-      "Elecciones"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:35 hs",
-    "fecha_inicio_iso": "2026-10-09T20:35:30.668137",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T20:35:30.668137",
-    "resumen_whatsapp": "🚨 #VillaParanacito: Fermín Tristán busca romper la hegemonía de Melchiori. Se viene un debate clave para el futuro del Delta. ¡Mantente informado! 🗳️"
   },
   {
     "acontecimiento_id": "2026-10-09-nuevas-ambulancias-paranacito-ceibas-ibicuy",
@@ -144,62 +201,6 @@
     "fecha_inicio_iso": "2026-10-09T20:34:55.745624",
     "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:55.745624",
     "resumen_whatsapp": "🎉 ¡Orgullo local! Isabella Olivera de Villa Paranacito representa a la comunidad en la Fiesta Provincial del Estudiante. ¡Éxitos para nuestra joven del Delta! 👏"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
-    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
-    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
-    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Villa Paranacito",
-      "Crecida del Río",
-      "Defensas",
-      "Delta Entrerriano",
-      "Emergencia Hídrica"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:34 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T20:34:35.705654",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-detuvieron-a-un-hombre-armado-con-un-nunchaku",
-    "slug": "detuvieron-a-un-hombre-armado-con-un-nunchaku",
-    "titulo": "Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:51.500048",
-    "fecha_ultima_actualizacion_iso": "2026-10-09T04:44:51.500048",
-    "resumen_whatsapp": "📰 *Detuvieron a un hombre armado con un nunchaku tras resistirse a la policía en barrio Candioti* — google.com"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-delta-alerta-climatica-prevencion",
