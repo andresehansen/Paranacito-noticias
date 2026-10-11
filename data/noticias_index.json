@@ -23,14 +23,102 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 5,
+    "num_actualizaciones": 9,
     "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 14:41 hs",
+    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:57 hs",
     "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-11T14:41:06.649261",
+    "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:16.121586",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
+  },
+  {
+    "acontecimiento_id": "2026-10-11-el-nino-golpea-al-litoral-familias-evacuadas-y",
+    "slug": "el-nino-golpea-al-litoral-familias-evacuadas-y",
+    "titulo": "El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "11 de Octubre de 2026, 19:57 hs",
+    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:57 hs",
+    "fecha_inicio_iso": "2026-10-11T19:57:04.949535",
+    "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:04.949535",
+    "resumen_whatsapp": "📰 *El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-10-11-villa-paranacito-defensas-hidricas-mejoras-seguridad",
+    "slug": "villa-paranacito-defensas-hidricas-mejoras-seguridad",
+    "titulo": "Villa Paranacito: Mejoras Cruciales en Defensas Hídricas Refuerzan la Seguridad Local",
+    "copete": "En un contexto de alerta hídrica regional, Villa Paranacito avanza con importantes mejoras en sus defensas, una medida preventiva fundamental para la protección de la comunidad y sus bienes.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Defensas Hídricas",
+      "Inundaciones",
+      "El Niño",
+      "Obras Públicas",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "11 de Octubre de 2026, 19:56 hs",
+    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:56 hs",
+    "fecha_inicio_iso": "2026-10-11T19:56:52.581110",
+    "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:52.581110",
+    "resumen_whatsapp": "🚨 Villa Paranacito: Mejoras clave en defensas hídricas para proteger la comunidad ante posibles crecidas. ¡Mantente informado! #DeltaSeguro"
+  },
+  {
+    "acontecimiento_id": "2026-10-11-alerta-hidrica-villa-paranacito-el-nino",
+    "slug": "alerta-hidrica-villa-paranacito-el-nino",
+    "titulo": "Alerta Hídrica en Villa Paranacito: Productores Ganaderos Enfrentan Desafíos por el Fenómeno El Niño",
+    "copete": "El impacto del fenómeno climático El Niño se hace sentir en Villa Paranacito y el Delta Entrerriano, obligando a productores ganaderos a movilizar sus animales ante el riesgo de crecidas e inundaciones.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "El Niño",
+      "Inundaciones",
+      "Ganadería",
+      "Delta Entrerriano",
+      "Alerta Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "11 de Octubre de 2026, 19:56 hs",
+    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:56 hs",
+    "fecha_inicio_iso": "2026-10-11T19:56:32.392000",
+    "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:32.392000",
+    "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito por El Niño: Productores ganaderos trasladan animales ante riesgo de inundaciones. ¡A estar atentos! #Delta #ElNiño"
   },
   {
     "acontecimiento_id": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
@@ -55,13 +143,14 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 3,
+    "num_actualizaciones": 4,
     "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 19:48 hs",
+    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:56 hs",
     "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T19:48:05.773025",
+    "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:15.568550",
     "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
   },
   {
@@ -91,32 +180,6 @@
     "fecha_inicio_iso": "2026-10-10T14:15:56.905742",
     "fecha_ultima_actualizacion_iso": "2026-10-10T14:15:56.905742",
     "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso para cubrir horas cátedra. 📚 Plazo de 5 días hábiles desde el 9 de junio. ¡Informate en la institución! #EducaciónLocal"
-  },
-  {
-    "acontecimiento_id": "2026-10-10-central-entrerriano-cierra-su-preparacion-ante-rocamora-maxima",
-    "slug": "central-entrerriano-cierra-su-preparacion-ante-rocamora-maxima",
-    "titulo": "Central Entrerriano cierra su preparación ante Rocamora - Máxima Online",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Central Entrerriano cierra su preparación ante Rocamora - Máxima Online.",
-    "categoria": "Comunidad",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "comunidad"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "10 de Octubre de 2026, 04:30 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 04:30 hs",
-    "fecha_inicio_iso": "2026-10-10T04:30:05.333245",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T04:30:05.333245",
-    "resumen_whatsapp": "📰 *Central Entrerriano cierra su preparación ante Rocamora - Máxima Online* — google.com"
   },
   {
     "acontecimiento_id": "2026-10-09-desafio-politico-villa-paranacito-melchiori-tristan",

@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-11-alerta-hidrica-villa-paranacito-el-nino",
+  "titulo": "Alerta Hídrica en Villa Paranacito: Productores Ganaderos Enfrentan Desafíos por el Fenómeno El Niño",
+  "copete": "El impacto del fenómeno climático El Niño se hace sentir en Villa Paranacito y el Delta Entrerriano, obligando a productores ganaderos a movilizar sus animales ante el riesgo de crecidas e inundaciones.",
+  "cuerpo": [
+    "El Delta del Paraná, y en particular la región de Villa Paranacito, se encuentra en estado de alerta debido a las proyecciones del fenómeno El Niño, que anticipa un verano con precipitaciones por encima de lo normal. Esta situación climática, caracterizada por el calentamiento anómalo de las aguas del Pacífico, tiene un impacto directo en el régimen hídrico de nuestra zona, históricamente vulnerable a las crecidas de los ríos y arroyos que atraviesan las Islas del Ibicuy.",
+    "Especialistas del Servicio Meteorológico Nacional (SMN) y del Instituto Nacional de Tecnología Agropecuaria (INTA) han advertido sobre la persistencia de estas condiciones, que ya han llevado a productores ganaderos de Villa Paranacito a tomar medidas preventivas. La necesidad de trasladar rodeos a zonas más elevadas y seguras es una realidad que se repite, buscando proteger el capital productivo ante la inminencia de anegamientos que podrían afectar pasturas y accesos.",
+    "Este escenario tiene un impacto significativo en la vida cotidiana de los isleños. Más allá de la ganadería, las posibles crecidas afectan la transitabilidad de caminos rurales y terraplenes, dificultando el acceso a servicios esenciales, el transporte fluvial y la logística para la producción local. La resiliencia de nuestra comunidad se pone a prueba una vez más, requiriendo una planificación cuidadosa y la coordinación entre vecinos y autoridades.",
+    "Ante esta situación, se recomienda a los productores y habitantes de zonas bajas monitorear constantemente los niveles de los ríos y arroyos, así como estar atentos a los comunicados oficiales del Municipio de Islas del Ibicuy y Defensa Civil. Es fundamental tener planes de contingencia para el traslado de animales, asegurar insumos y, en caso de ser necesario, preparar la evacuación. Las autoridades locales están evaluando medidas de apoyo y monitoreando la situación para brindar asistencia oportuna a quienes lo necesiten."
+  ],
+  "resumen": "Villa Paranacito enfrenta un verano desafiante por el fenómeno El Niño, que anticipa lluvias intensas y crecidas. Productores ganaderos ya están trasladando sus animales a zonas seguras para evitar pérdidas. Se recomienda a la comunidad estar alerta y seguir las indicaciones de las autoridades locales para mitigar los impactos en la región del Delt",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "El Niño",
+    "Inundaciones",
+    "Ganadería",
+    "Delta Entrerriano",
+    "Alerta Hídrica"
+  ],
+  "slug": "alerta-hidrica-villa-paranacito-el-nino",
+  "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito por El Niño: Productores ganaderos trasladan animales ante riesgo de inundaciones. ¡A estar atentos! #Delta #ElNiño",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.radio3caseros.com.ar/articulo/super-nino-anticipan-como-seran-las-lluvias-en-un-momento-critico-del-verano.php&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3czEhnHuKz6CK3ElwqRm7U",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.radio3caseros.com.ar/articulo/super-nino-anticipan-como-seran-las-lluvias-en-un-momento-critico-del-verano.php&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3czEhnHuKz6CK3ElwqRm7U",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.radio3caseros.com.ar/articulo/super-nino-anticipan-como-seran-las-lluvias-en-un-momento-critico-del-verano.php&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3czEhnHuKz6CK3ElwqRm7U",
+      "fecha_consulta": "2026-10-11T19:56:32.392000"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:56",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito enfrenta un verano desafiante por el fenómeno El Niño, que anticipa lluvias intensas y crecidas. Productores ganaderos ya están trasladando sus animales a zonas seguras para evitar pé",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "ddb2c3aa51ee81fecf70fac1400841699422520234886cb17c8b1dab568d3941"
+  ],
+  "fecha_iso": "2026-10-11T19:56:32.392000",
+  "fecha_inicio_iso": "2026-10-11T19:56:32.392000",
+  "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:32.392000",
+  "fecha_publicacion": "11 de Octubre de 2026, 19:56 hs",
+  "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:56 hs",
+  "archivo": "2026-10-11-alerta-hidrica-villa-paranacito-el-nino.json"
+}

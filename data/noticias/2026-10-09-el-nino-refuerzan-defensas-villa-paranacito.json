@@ -54,6 +54,26 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.corrienteshoy.com/info-general/el-ninio-avanza-sobre-el-litoral-y-agrava-las-inundaciones-hay-evacuados-y-restricciones-para-cruzar-a-uruguay-y-brasil.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3Qt4D5p5Tnqa7Qd6PDghsg",
       "fecha_consulta": "2026-10-11T14:41:06.649261"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lagaceta.com.ar/nota/amp/1157599/sociedad/nino-provoca-inundaciones-litoral-hay-evacuados-preocupa-crecida-rios.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3UY3_RkpyBTwboWTsEXjTl",
+      "fecha_consulta": "2026-10-11T19:56:57.452301"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lagaceta.com.ar/nota/1157599/sociedad/nino-provoca-inundaciones-litoral-hay-evacuados-preocupa-crecida-rios.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2WE6fmrPYSXo7SlY5sfGIU",
+      "fecha_consulta": "2026-10-11T19:57:02.740516"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelnorte.com.ar/el-nino-provoco-inundaciones-en-el-litoral-hay-evacuados-y-crece-la-preocupacion-en-entre-rios-y-corrientes/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1jfSXJBujMARZ8QpSKE8fi",
+      "fecha_consulta": "2026-10-11T19:57:11.514119"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://tn.com.ar/sociedad/2026/10/11/el-nino-golpeo-el-litoral-y-provoco-inundaciones-en-entre-rios-y-corrientes/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3wazmyMry64pOLOEV3M_-8",
+      "fecha_consulta": "2026-10-11T19:57:16.121586"
     }
   ],
   "cronologia_actualizaciones": [
@@ -91,6 +111,34 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo cable confirma que ya se actuó en las defensas de Villa Paranacito, menciona intervenciones en Rosario del Tala, y reporta la existencia de evacuados debido a las inundaciones, además de la afectación del río Uruguay.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:56",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable menciona intervenciones en las defensas de Rosario del Tala, además de Villa Paranacito. También reporta inundaciones en el Litoral y la existencia de evacuados.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:57",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable informa que las inundaciones ya se han producido, hay personas evacuadas y que las intervenciones en las defensas también se realizaron en Rosario del Tala, además de Villa Paranacito.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:57",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo confirma que El Niño ya provocó inundaciones y hay evacuados, lo cual es una escalada de la situación respecto a la alerta y refuerzo de defensas. Además, amplía el alcance geográfico mencionando trabajos en Rosario del Tala y la situación en Corrientes con más evacuados y cruces f",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:57",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable amplía el alcance geográfico de las inundaciones a Corrientes y menciona la readecuación del arroyo Cabayú Cuatiá en La Paz, además de otras intervenciones no especificadas en el fragmento.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -98,12 +146,16 @@
     "0631b5820a5d0f907e3601398d0a0a89bdaac1ec350f24077642ef9e9fa4dd59",
     "740d80bb97654c40a17c1b9f14558fc26a329c9133e072dadfb78289f2daf541",
     "faf7f50436019e196d945775bfd4d7e9900cb59dfa3b4a22dd05769d72cc05ac",
-    "6ea4b414ef7133c2ed1a8ff64acb9f2ea1b0b09ab8c7287609f56653e61ebffe"
+    "6ea4b414ef7133c2ed1a8ff64acb9f2ea1b0b09ab8c7287609f56653e61ebffe",
+    "f35d2a3562ff2f54d1051255a5b031d94423679f1d5e8c9e2f6df3f92d9fd610",
+    "d7dbeb98f165d43c1c5671489a5b599a8b59cb22f02b8a9c942ea951a709b952",
+    "180b8c3d63768e91950ab3683cefbd4fa45651ac707586e387a97fa7e8299130",
+    "a6a1681ca6592c958013e1ea17b425f6e43979b0d6ee928031a96e872189efb5"
   ],
   "fecha_iso": "2026-10-09T04:44:27.884217",
   "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-  "fecha_ultima_actualizacion_iso": "2026-10-11T14:41:06.649261",
+  "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:16.121586",
   "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-  "fecha_ultima_actualizacion": "11 de Octubre de 2026, 14:41 hs",
+  "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:57 hs",
   "archivo": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito.json"
 }

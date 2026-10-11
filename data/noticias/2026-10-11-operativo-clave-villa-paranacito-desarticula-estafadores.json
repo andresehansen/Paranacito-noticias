@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/policiales/desarticulan-banda-de-estafadores-que-operaba-en-misiones-y-buenos-aires/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2cQzMHb8CcRPxU8xp9T0mM",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://lagacetaonline.com.ar/policiales/desarticulan-banda-de-estafadores-que-operaba-en-misiones-y-buenos-aires/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2cQzMHb8CcRPxU8xp9T0mM",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -39,6 +39,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/cayo-en-entre-rios-una-banda-de-estafadores-de-misiones-y-buenos-aires/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2HBTSelc3gcKSBqKB8LOYY",
       "fecha_consulta": "2026-10-11T14:41:02.512083"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/10/11/118641-estafas-con-enganche-detuvieron-a-tres-integrantes-de-una-banda-con-base-en-misiones-y-buenos-aires&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw01oiPVbmXeAMAVfleXOMSr",
+      "fecha_consulta": "2026-10-11T19:56:21.557294"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/amp/desarticularon-en-entre-rios-a-una-banda-de-estafadores-que-operaba-en-misiones-y-buenos-aires-tres-detenidos.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2lCJT9Y-05WEemueSD6bBL",
+      "fecha_consulta": "2026-10-11T19:57:16.125897"
     }
   ],
   "cronologia_actualizaciones": [
@@ -48,15 +58,31 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Policía de Entre Ríos, con una operación clave en Villa Paranacito, desarticuló una banda de estafadores que operaba en varias provincias. La investigación, liderada por el Comisario Gastón Popelka",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:56",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable detalla que las estafas eran del tipo 'con enganche', que se detuvo a tres integrantes de la banda, y que los detenidos quedaron a disposición del Juzgado de Garantías y Transición N.º 2 de Gualeguaychú, a cargo de Natalia Céspedes, y de la Fiscalía de Villa Paranacito.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:57",
+      "fecha": "2026-10-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Desarticularon en Entre Ríos a una banda de estafadores que operaba en Misiones y Buenos Aires",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "d6a459e0a726e32242b70f5455181074a51638714e1a9c133b0e64de9f13e2ca"
+    "d6a459e0a726e32242b70f5455181074a51638714e1a9c133b0e64de9f13e2ca",
+    "d3f6f460b76a36c5d4a7fdb84362be76fab0c7a9ae007adf8ba9f1959cb1dc4a",
+    "3248ababcc2e39fc20b995d4289223d840846067fc14f0170406baee8be7c2bd"
   ],
   "fecha_iso": "2026-10-11T14:41:02.507888",
   "fecha_inicio_iso": "2026-10-11T14:41:02.507888",
-  "fecha_ultima_actualizacion_iso": "2026-10-11T14:41:02.507888",
+  "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:16.125897",
   "fecha_publicacion": "11 de Octubre de 2026, 14:41 hs",
-  "fecha_ultima_actualizacion": "11 de Octubre de 2026, 14:41 hs",
+  "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:57 hs",
   "archivo": "2026-10-11-operativo-clave-villa-paranacito-desarticula-estafadores.json"
 }
