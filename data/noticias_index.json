@@ -1,5 +1,38 @@
 [
   {
+    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
+    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
+    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
+    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Crecida del Río",
+      "Defensas",
+      "Delta Entrerriano",
+      "Emergencia Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 5,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 14:41 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
+    "fecha_ultima_actualizacion_iso": "2026-10-11T14:41:06.649261",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
+  },
+  {
     "acontecimiento_id": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
     "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
     "titulo": "Impacto del Fenómeno El Niño: Suspendidas las Carrozas Náuticas 2024 en Villa Paranacito",
@@ -30,38 +63,6 @@
     "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
     "fecha_ultima_actualizacion_iso": "2026-10-10T19:48:05.773025",
     "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
-    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
-    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
-    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Villa Paranacito",
-      "Crecida del Río",
-      "Defensas",
-      "Delta Entrerriano",
-      "Emergencia Hídrica"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 19:47 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T19:47:55.480379",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-10-isfdc-villa-paranacito-concurso-docente",
