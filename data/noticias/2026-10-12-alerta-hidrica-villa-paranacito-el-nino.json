@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
+  "titulo": "Alerta Hídrica en Villa Paranacito: El Niño Provoca Crecida de Ríos y Preocupación en el Delta",
+  "copete": "Las intensas lluvias y la persistencia del fenómeno El Niño han generado una significativa crecida en los cursos de agua que rodean Villa Paranacito, poniendo en alerta a la comunidad del Delta entrerriano.",
+  "cuerpo": [
+    "Villa Paranacito y toda la región de Islas del Ibicuy se encuentran bajo un monitoreo constante debido al aumento de los niveles hídricos en los ríos y arroyos locales. La influencia del fenómeno climático El Niño, caracterizado por precipitaciones superiores a lo normal, ha provocado que el río Gualeguay y sus afluentes, así como los brazos del Delta del Paraná, experimenten un ascenso sostenido, generando anegamientos en zonas bajas y preocupación entre los vecinos ribereños.",
+    "Fuentes de la Dirección de Defensa Civil de Islas del Ibicuy confirmaron que se está trabajando en coordinación con Prefectura Naval Argentina y el Municipio para evaluar la situación minuto a minuto. 'Estamos monitoreando los puntos críticos y en contacto permanente con los productores y habitantes de las zonas más expuestas. La prioridad es la seguridad de las personas y la prevención de daños mayores', indicaron, aunque sin reportar evacuaciones masivas hasta el momento en nuestra localidad, a diferencia de otras zonas de la provincia.",
+    "El impacto de esta crecida es directo en la vida cotidiana de los isleños. El transporte fluvial se ve dificultado, con la necesidad de extremar precauciones al navegar. Varios caminos internos y accesos a propiedades rurales en el Delta ya presentan anegamientos, afectando la movilidad y el traslado de la producción. La ganadería y la citricultura, pilares económicos de la región, son particularmente vulnerables a la saturación del suelo y la pérdida de pasturas o cultivos.",
+    "Ante este escenario, se recomienda a los vecinos ribereños asegurar embarcaciones, retirar objetos de valor de zonas bajas y tener a mano los números de emergencia. La Municipalidad de Islas del Ibicuy y Defensa Civil han habilitado canales de comunicación para reportar cualquier situación de riesgo y solicitar asistencia. Se insta a la población a mantenerse informada a través de los canales oficiales y a no transitar por caminos anegados."
+  ],
+  "resumen": "Villa Paranacito y la región de Islas del Ibicuy están en alerta por la crecida de ríos y arroyos, producto de las intensas lluvias y el fenómeno El Niño. Defensa Civil y el Municipio monitorean la situación, que ya afecta el transporte fluvial y caminos internos. Se recomienda a los vecinos tomar precauciones y mantenerse informados.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "inundaciones",
+    "El Niño",
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "alerta hídrica",
+    "Defensa Civil"
+  ],
+  "slug": "alerta-hidrica-villa-paranacito-el-nino",
+  "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Ríos crecen por El Niño. Defensa Civil monitorea la situación. ¡Tomá precauciones! 🚤⚠️",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.laarena.com.ar/el-pais/el-nino-inundaciones-azotaron-a-entre-rios-202610120110&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw14yXzKxkv0GyqeouhuLLm5",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.laarena.com.ar/el-pais/el-nino-inundaciones-azotaron-a-entre-rios-202610120110&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw14yXzKxkv0GyqeouhuLLm5",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.laarena.com.ar/el-pais/el-nino-inundaciones-azotaron-a-entre-rios-202610120110&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw14yXzKxkv0GyqeouhuLLm5",
+      "fecha_consulta": "2026-10-12T17:25:32.950744"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "17:25",
+      "fecha": "2026-10-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y la región de Islas del Ibicuy están en alerta por la crecida de ríos y arroyos, producto de las intensas lluvias y el fenómeno El Niño. Defensa Civil y el Municipio monitorean la si",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "efe02b612410e805c81626a84ccb43ec62ea12df444e2a29c04787d9c16f4e56"
+  ],
+  "fecha_iso": "2026-10-12T17:25:32.950744",
+  "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
+  "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:32.950744",
+  "fecha_publicacion": "12 de Octubre de 2026, 17:25 hs",
+  "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
+  "archivo": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino.json"
+}

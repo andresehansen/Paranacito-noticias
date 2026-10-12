@@ -59,6 +59,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://vive.click/cayo-en-entre-rios-una-banda-de-estafadores-de-misiones-y-buenos-aires/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw18PS7wrYLFP5RkY1bsVAsY",
       "fecha_consulta": "2026-10-12T04:30:58.911453"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/la-justicia-de-gualeguaychu-interviene-en-un-caso-que-permitio-terminar-con-una-banda-de-estafadores.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1UodTIkLGkKolk9khMJ8NA",
+      "fecha_consulta": "2026-10-12T17:25:22.966600"
     }
   ],
   "cronologia_actualizaciones": [
@@ -96,6 +101,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Cayó en Entre Ríos una banda de estafadores de Misiones y Buenos Aires - Vive Click",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "17:25",
+      "fecha": "2026-10-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La intervención de la Justicia de Gualeguaychú en el caso y la mención de Gastón Popelka representando a Villa Paranacito.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -103,12 +115,13 @@
     "d3f6f460b76a36c5d4a7fdb84362be76fab0c7a9ae007adf8ba9f1959cb1dc4a",
     "3248ababcc2e39fc20b995d4289223d840846067fc14f0170406baee8be7c2bd",
     "a314ed2eb198b13bea2fbe8d20fb14c32fe59aa08ff541827debc09a9c46f17b",
-    "1a2c00b5e0304e6f5b39e93debfbbf04d5f52ccd313a0aaf9c743d4ddbd9b310"
+    "1a2c00b5e0304e6f5b39e93debfbbf04d5f52ccd313a0aaf9c743d4ddbd9b310",
+    "4d4178c88c45820c0c3da424da2d33f5f383af3bf7c7e768f6e0bc618fbbb4cc"
   ],
   "fecha_iso": "2026-10-11T14:41:02.507888",
   "fecha_inicio_iso": "2026-10-11T14:41:02.507888",
-  "fecha_ultima_actualizacion_iso": "2026-10-12T04:30:58.911453",
+  "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:22.966600",
   "fecha_publicacion": "11 de Octubre de 2026, 14:41 hs",
-  "fecha_ultima_actualizacion": "12 de Octubre de 2026, 04:30 hs",
+  "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
   "archivo": "2026-10-11-operativo-clave-villa-paranacito-desarticula-estafadores.json"
 }
