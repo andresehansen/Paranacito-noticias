@@ -49,6 +49,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/amp/desarticularon-en-entre-rios-a-una-banda-de-estafadores-que-operaba-en-misiones-y-buenos-aires-tres-detenidos.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2lCJT9Y-05WEemueSD6bBL",
       "fecha_consulta": "2026-10-11T19:57:16.125897"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://despertarentrerriano.com/desarticularon-en-entre-rios-a-una-banda-de-estafadores-que-operaba-en-misiones-y-buenos-aires/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0AutX1fkYDR535Ku93yIRe",
+      "fecha_consulta": "2026-10-12T04:30:54.645867"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://vive.click/cayo-en-entre-rios-una-banda-de-estafadores-de-misiones-y-buenos-aires/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw18PS7wrYLFP5RkY1bsVAsY",
+      "fecha_consulta": "2026-10-12T04:30:58.911453"
     }
   ],
   "cronologia_actualizaciones": [
@@ -72,17 +82,33 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Desarticularon en Entre Ríos a una banda de estafadores que operaba en Misiones y Buenos Aires",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:30",
+      "fecha": "2026-10-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La operación fue encabezada por Gastón Popelka. La fuente de la noticia es El Once.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:30",
+      "fecha": "2026-10-12",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Cayó en Entre Ríos una banda de estafadores de Misiones y Buenos Aires - Vive Click",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "d6a459e0a726e32242b70f5455181074a51638714e1a9c133b0e64de9f13e2ca",
     "d3f6f460b76a36c5d4a7fdb84362be76fab0c7a9ae007adf8ba9f1959cb1dc4a",
-    "3248ababcc2e39fc20b995d4289223d840846067fc14f0170406baee8be7c2bd"
+    "3248ababcc2e39fc20b995d4289223d840846067fc14f0170406baee8be7c2bd",
+    "a314ed2eb198b13bea2fbe8d20fb14c32fe59aa08ff541827debc09a9c46f17b",
+    "1a2c00b5e0304e6f5b39e93debfbbf04d5f52ccd313a0aaf9c743d4ddbd9b310"
   ],
   "fecha_iso": "2026-10-11T14:41:02.507888",
   "fecha_inicio_iso": "2026-10-11T14:41:02.507888",
-  "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:16.125897",
+  "fecha_ultima_actualizacion_iso": "2026-10-12T04:30:58.911453",
   "fecha_publicacion": "11 de Octubre de 2026, 14:41 hs",
-  "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:57 hs",
+  "fecha_ultima_actualizacion": "12 de Octubre de 2026, 04:30 hs",
   "archivo": "2026-10-11-operativo-clave-villa-paranacito-desarticula-estafadores.json"
 }
