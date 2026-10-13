@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://estasinformado.com.ar/el-nino-golpea-el-litoral-crecidas-del-parana-y-el-uruguay-dejan-evacuados-en-entre-rios-y-corrientes/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2lHGuQeYrvX0Jj7mPm0quk",
       "fecha_consulta": "2026-10-12T17:25:15.894102"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.clarin.com/rural/nino-comienza-golpear-litoral-alarma-productores-crecida-rios-uruguay-parana_0_e1FASn3CPT.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1z_Q84WL1lwFOHAD-XsBbR",
+      "fecha_consulta": "2026-10-13T23:37:08.305714"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Menciona a El Niño como causa de las crecidas, incluye el río Paraná además del Uruguay, añade Rosario del Tala como localidad afectada y especifica 25 personas evacuadas en Paso de los Libres.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:37",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo menciona la crecida de los ríos Uruguay y Paraná (no solo el Uruguay), incluye la perspectiva de un productor local de Villa Paranacito, José Peter, y detalla que la crecida es un fenómeno que se viene observando desde hace meses.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "0cd5d65c39d4d4ba874c51a9c3c9d03e85f65acfe7dfbe48d31d2fb6d15ff25a",
-    "1f29c5a3289a6518199b46bd76f879dc558ee063875650c55f5db99075ce0544"
+    "1f29c5a3289a6518199b46bd76f879dc558ee063875650c55f5db99075ce0544",
+    "02eb7601da2f9b73e070111e6217b280f8be8d6edeba09e105662c9c06dc45af"
   ],
   "fecha_iso": "2026-10-09T20:35:54.477385",
   "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
-  "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:15.894102",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:08.305714",
   "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
-  "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
   "archivo": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay.json"
 }

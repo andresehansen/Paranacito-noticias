@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/161844_frigerio-anticipo-una-leve-bajante-del-rio-uruguay-para-los-proximos-dias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1yDbnvkzQT9xnLvJuLxM42",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/161844_frigerio-anticipo-una-leve-bajante-del-rio-uruguay-para-los-proximos-dias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1yDbnvkzQT9xnLvJuLxM42",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elheraldo.com.ar/noticias/interes-general/frigerio-aseguro-que-el-rio-uruguay-bajaria-en-los-proximos-dias-y-destaco-las-medidas-preventivas-en-concordia&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2WW8-1uFmOFX2ctgVOsjPR",
       "fecha_consulta": "2026-10-13T11:27:13.793479"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://flipr.com.ar/entre-rios/concordia/diariojunio/frigerio-anticipo-una-leve-bajante-del-rio-uruguay-para-los-proximos-dias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0DsKMW_TskPmMDbq1O0bzr",
+      "fecha_consulta": "2026-10-13T23:37:04.310257"
     }
   ],
   "cronologia_actualizaciones": [
@@ -48,15 +53,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Gobernador Frigerio anunció una leve bajante del Río Uruguay para los próximos días, impactando positivamente en Villa Paranacito y el Delta Entrerriano. Esta noticia es crucial para la navegación ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:37",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El gobernador Frigerio estuvo acompañado por Azcué. Se anticipa una nueva reunión la semana próxima.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "2e5fbd9ec15a2980f2363927b16ecee75726bbb5a62fee0b38954d7ebe733ed2"
+    "2e5fbd9ec15a2980f2363927b16ecee75726bbb5a62fee0b38954d7ebe733ed2",
+    "8a99f5eb58b29be5e2e29347e5b729a26c223c296c36877c97226dae1051e8da"
   ],
   "fecha_iso": "2026-10-13T11:26:53.312516",
   "fecha_inicio_iso": "2026-10-13T11:26:53.312516",
-  "fecha_ultima_actualizacion_iso": "2026-10-13T11:26:53.312516",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:04.310257",
   "fecha_publicacion": "13 de Octubre de 2026, 11:26 hs",
-  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 11:26 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
   "archivo": "2026-10-13-leve-bajante-rio-uruguay-villa-paranacito.json"
 }

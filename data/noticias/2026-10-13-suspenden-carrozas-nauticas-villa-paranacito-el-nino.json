@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/13/118764-el-utilitario-del-siniestro-fatal-pertenecia-al-municipio-de-urdinarrain-y-una-victima-era-empleado&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hVry0We3C_2g5altAsusM",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/13/118764-el-utilitario-del-siniestro-fatal-pertenecia-al-municipio-de-urdinarrain-y-una-victima-era-empleado&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hVry0We3C_2g5altAsusM",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/13/118764-el-utilitario-del-siniestro-fatal-pertenecia-al-municipio-de-urdinarrain-y-una-victima-era-empleado&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hVry0We3C_2g5altAsusM",
       "fecha_consulta": "2026-10-13T18:56:46.761536"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/13/118779-conmocion-en-urdinarrain-es-un-doloroso-momento-expresaron-desde-el-municipio&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw17DaQLgOhT2eqkNUZI-GOV",
+      "fecha_consulta": "2026-10-13T23:37:36.661644"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Las Carrozas Náuticas 2024 en Villa Paranacito han sido suspendidas debido a las condiciones climáticas adversas generadas por el fenómeno El Niño. La decisión, tomada por el Municipio, prioriza la se",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:37",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "baa93952c8e6b377d2a5a15c69c3dcf689d13a4fd7a3f6bbbde2a25da1965a66"
+    "baa93952c8e6b377d2a5a15c69c3dcf689d13a4fd7a3f6bbbde2a25da1965a66",
+    "c84012ad48bcb3182cdb42b94bce49edf312edb88e26c90cdb6c353d9919ea99"
   ],
   "fecha_iso": "2026-10-13T18:56:46.761536",
   "fecha_inicio_iso": "2026-10-13T18:56:46.761536",
-  "fecha_ultima_actualizacion_iso": "2026-10-13T18:56:46.761536",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:36.661644",
   "fecha_publicacion": "13 de Octubre de 2026, 18:56 hs",
-  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 18:56 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
   "archivo": "2026-10-13-suspenden-carrozas-nauticas-villa-paranacito-el-nino.json"
 }

@@ -13,6 +13,36 @@
       "Turismo",
       "Delta Entrerriano"
     ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "13 de Octubre de 2026, 18:56 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
+    "fecha_inicio_iso": "2026-10-13T18:56:46.761536",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:36.661644",
+    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el impacto de El Niño. 🌧️🌊 Afecta al turismo y la economía local. #VillaParanacito #CarrozasNauticas"
+  },
+  {
+    "acontecimiento_id": "2026-10-13-busqueda-hombre-desaparecido-villa-paranacito",
+    "slug": "busqueda-hombre-desaparecido-villa-paranacito",
+    "titulo": "Intensa Búsqueda en Villa Paranacito por un Hombre Desaparecido en Zona Rural",
+    "copete": "La comunidad de Villa Paranacito se encuentra en alerta ante la desaparición de un hombre en una zona rural del Delta entrerriano, activándose un amplio operativo de búsqueda por parte de las fuerzas de seguridad locales.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "desaparecido",
+      "búsqueda",
+      "Policía",
+      "Delta Entrerriano",
+      "Comunidad"
+    ],
     "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
@@ -22,11 +52,73 @@
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "13 de Octubre de 2026, 18:56 hs",
-    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 18:56 hs",
-    "fecha_inicio_iso": "2026-10-13T18:56:46.761536",
-    "fecha_ultima_actualizacion_iso": "2026-10-13T18:56:46.761536",
-    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el impacto de El Niño. 🌧️🌊 Afecta al turismo y la economía local. #VillaParanacito #CarrozasNauticas"
+    "fecha_publicacion": "13 de Octubre de 2026, 23:37 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
+    "fecha_inicio_iso": "2026-10-13T23:37:26.366205",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:26.366205",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Intensa búsqueda de un hombre desaparecido en zona rural. Si tenés info, contactá a la Comisaría local. #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
+    "slug": "villa-paranacito-alerta-crecida-rio-uruguay",
+    "titulo": "Villa Paranacito en Alerta: Monitoreo Constante ante la Crecida del Río Uruguay y su Impacto en el Delta",
+    "copete": "Las autoridades de Villa Paranacito mantienen un seguimiento exhaustivo del nivel del río Uruguay, ante la crecida que ya provoca evacuaciones en otras localidades, para prevenir posibles afectaciones en la región del Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "crecida rio uruguay",
+      "villa paranacito",
+      "delta entrerriano",
+      "alerta hidrica",
+      "islas del ibicuy",
+      "defensa civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
+    "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:08.305714",
+    "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida del Río Uruguay. Monitoreo constante en el Delta. ¡Precaución vecinos! 🌊"
+  },
+  {
+    "acontecimiento_id": "2026-10-13-leve-bajante-rio-uruguay-villa-paranacito",
+    "slug": "leve-bajante-rio-uruguay-villa-paranacito",
+    "titulo": "Anticipan Leve Bajante del Río Uruguay para Villa Paranacito y el Delta Entrerriano",
+    "copete": "El Gobernador Gustavo Frigerio informó sobre una esperada disminución en el nivel del Río Uruguay en los próximos días, una noticia clave para la navegación y la vida cotidiana en Villa Paranacito y las Islas del Ibicuy.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Río Uruguay",
+      "Villa Paranacito",
+      "Nivel del Río",
+      "Pronóstico Hídrico",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "13 de Octubre de 2026, 11:26 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
+    "fecha_inicio_iso": "2026-10-13T11:26:53.312516",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:04.310257",
+    "resumen_whatsapp": "💧 ¡Atención Paranacito! Se anticipa leve bajante del Río Uruguay. Clave para la navegación y el Delta. ¡A estar atentos! 🚤"
   },
   {
     "acontecimiento_id": "2026-10-13-obras-hidricas-villa-paranacito-prevencion",
@@ -55,36 +147,6 @@
     "fecha_inicio_iso": "2026-10-13T11:27:09.897578",
     "fecha_ultima_actualizacion_iso": "2026-10-13T11:27:09.897578",
     "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Se confirman intervenciones clave para la prevención hídrica en la localidad. Más protección para el Delta. 💧🚧"
-  },
-  {
-    "acontecimiento_id": "2026-10-13-leve-bajante-rio-uruguay-villa-paranacito",
-    "slug": "leve-bajante-rio-uruguay-villa-paranacito",
-    "titulo": "Anticipan Leve Bajante del Río Uruguay para Villa Paranacito y el Delta Entrerriano",
-    "copete": "El Gobernador Gustavo Frigerio informó sobre una esperada disminución en el nivel del Río Uruguay en los próximos días, una noticia clave para la navegación y la vida cotidiana en Villa Paranacito y las Islas del Ibicuy.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Río Uruguay",
-      "Villa Paranacito",
-      "Nivel del Río",
-      "Pronóstico Hídrico",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "13 de Octubre de 2026, 11:26 hs",
-    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 11:26 hs",
-    "fecha_inicio_iso": "2026-10-13T11:26:53.312516",
-    "fecha_ultima_actualizacion_iso": "2026-10-13T11:26:53.312516",
-    "resumen_whatsapp": "💧 ¡Atención Paranacito! Se anticipa leve bajante del Río Uruguay. Clave para la navegación y el Delta. ¡A estar atentos! 🚤"
   },
   {
     "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
@@ -186,36 +248,6 @@
     "fecha_inicio_iso": "2026-10-08T15:16:46.357499",
     "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.597038",
     "resumen_whatsapp": "⚖️ Villa Paranacito tendrá nuevo Fiscal Auxiliar: Leonardo Schonfeld fue aprobado por el Senado para fortalecer la justicia local y el acceso de los vecinos. ¡Más cerca y eficiente! 🚤"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
-    "slug": "villa-paranacito-alerta-crecida-rio-uruguay",
-    "titulo": "Villa Paranacito en Alerta: Monitoreo Constante ante la Crecida del Río Uruguay y su Impacto en el Delta",
-    "copete": "Las autoridades de Villa Paranacito mantienen un seguimiento exhaustivo del nivel del río Uruguay, ante la crecida que ya provoca evacuaciones en otras localidades, para prevenir posibles afectaciones en la región del Delta.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "crecida rio uruguay",
-      "villa paranacito",
-      "delta entrerriano",
-      "alerta hidrica",
-      "islas del ibicuy",
-      "defensa civil"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "9 de Octubre de 2026, 20:35 hs",
-    "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
-    "fecha_inicio_iso": "2026-10-09T20:35:54.477385",
-    "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:15.894102",
-    "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida del Río Uruguay. Monitoreo constante en el Delta. ¡Precaución vecinos! 🌊"
   },
   {
     "acontecimiento_id": "2026-10-11-el-nino-golpea-al-litoral-familias-evacuadas-y",
