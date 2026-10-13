@@ -1,0 +1,62 @@
+{
+  "acontecimiento_id": "2026-10-13-leve-bajante-rio-uruguay-villa-paranacito",
+  "titulo": "Anticipan Leve Bajante del Río Uruguay para Villa Paranacito y el Delta Entrerriano",
+  "copete": "El Gobernador Gustavo Frigerio informó sobre una esperada disminución en el nivel del Río Uruguay en los próximos días, una noticia clave para la navegación y la vida cotidiana en Villa Paranacito y las Islas del Ibicuy.",
+  "cuerpo": [
+    "Las autoridades provinciales han emitido un pronóstico alentador para los habitantes de Villa Paranacito y la región del Delta Entrerriano, anticipando una leve bajante en el caudal del Río Uruguay. Esta previsión, comunicada por el Gobernador Gustavo Frigerio, es de vital importancia para una zona donde los niveles hídricos impactan directamente en la conectividad, la producción y la seguridad de sus comunidades ribereñas. La fluctuación del río es un factor constante en la vida de los isleños, y cualquier cambio es monitoreado con atención.",
+    "Según lo expresado por el mandatario provincial, quien estuvo acompañado por el intendente de Concordia, Francisco Azcué, se espera que esta tendencia a la baja se manifieste en el corto plazo. Frigerio también adelantó que la próxima semana se realizará una nueva reunión con equipos técnicos para analizar en profundidad el pronóstico hidrológico y sus posibles implicancias a mediano plazo, asegurando un seguimiento continuo de la situación.",
+    "Para los vecinos de Villa Paranacito y las Islas del Ibicuy, una leve bajante del río puede traer alivio en ciertos aspectos, facilitando la navegación de embarcaciones menores y el acceso a muelles que pudieron verse afectados por crecidas recientes. Sin embargo, también implica la necesidad de estar atentos a posibles cambios en la profundidad de los arroyos internos y canales, crucial para el transporte fluvial de pasajeros y la salida de la producción local, como la forestal y la citrícola.",
+    "Ante este panorama, se recomienda a la comunidad mantenerse informada a través de los canales oficiales del Municipio de Villa Paranacito y Prefectura Naval Argentina. Es fundamental que los navegantes extremen las precauciones y consulten los partes diarios de altura de los ríos, mientras que los productores deben planificar sus actividades logísticas considerando estas variaciones. La coordinación entre vecinos y autoridades es clave para adaptarse a las dinámicas del Delta."
+  ],
+  "resumen": "El Gobernador Frigerio anunció una leve bajante del Río Uruguay para los próximos días, impactando positivamente en Villa Paranacito y el Delta Entrerriano. Esta noticia es crucial para la navegación y la vida ribereña, aunque se recomienda seguir monitoreando los canales oficiales. Una nueva reunión analizará el pronóstico a mediano plazo.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Río Uruguay",
+    "Villa Paranacito",
+    "Nivel del Río",
+    "Pronóstico Hídrico",
+    "Delta Entrerriano",
+    "Islas del Ibicuy"
+  ],
+  "slug": "leve-bajante-rio-uruguay-villa-paranacito",
+  "resumen_whatsapp": "💧 ¡Atención Paranacito! Se anticipa leve bajante del Río Uruguay. Clave para la navegación y el Delta. ¡A estar atentos! 🚤",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/161844_frigerio-anticipo-una-leve-bajante-del-rio-uruguay-para-los-proximos-dias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1yDbnvkzQT9xnLvJuLxM42",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/161844_frigerio-anticipo-una-leve-bajante-del-rio-uruguay-para-los-proximos-dias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1yDbnvkzQT9xnLvJuLxM42",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/161844_frigerio-anticipo-una-leve-bajante-del-rio-uruguay-para-los-proximos-dias/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1yDbnvkzQT9xnLvJuLxM42",
+      "fecha_consulta": "2026-10-13T11:26:53.312516"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elheraldo.com.ar/noticias/interes-general/frigerio-aseguro-que-el-rio-uruguay-bajaria-en-los-proximos-dias-y-destaco-las-medidas-preventivas-en-concordia&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2WW8-1uFmOFX2ctgVOsjPR",
+      "fecha_consulta": "2026-10-13T11:27:13.793479"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "11:26",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Gobernador Frigerio anunció una leve bajante del Río Uruguay para los próximos días, impactando positivamente en Villa Paranacito y el Delta Entrerriano. Esta noticia es crucial para la navegación ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "2e5fbd9ec15a2980f2363927b16ecee75726bbb5a62fee0b38954d7ebe733ed2"
+  ],
+  "fecha_iso": "2026-10-13T11:26:53.312516",
+  "fecha_inicio_iso": "2026-10-13T11:26:53.312516",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T11:26:53.312516",
+  "fecha_publicacion": "13 de Octubre de 2026, 11:26 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 11:26 hs",
+  "archivo": "2026-10-13-leve-bajante-rio-uruguay-villa-paranacito.json"
+}

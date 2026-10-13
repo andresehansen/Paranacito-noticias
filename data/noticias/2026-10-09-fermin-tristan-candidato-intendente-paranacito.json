@@ -25,7 +25,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/10/08/118389-somos-afortunados-emma-avanza-en-su-recuperacion-tras-inedita-cirugia-cardiaca&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2dlzReN_-IVl17Wgrc0UXG",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/10/08/118389-somos-afortunados-emma-avanza-en-su-recuperacion-tras-inedita-cirugia-cardiaca&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2dlzReN_-IVl17Wgrc0UXG",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Baja",
   "es_alerta": false,
   "requiere_revision": true,
@@ -40,6 +40,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/11/118614-michel-propone-quitar-beneficios-fiscales-a-empresas-chilenas-que-invierten-en-el-pais&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1y1jCy-0i0wC-bole8GVOd",
       "fecha_consulta": "2026-10-11T19:56:39.797070"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/12/118746-frigerio-ratifico-su-respaldo-a-la-eliminacion-de-las-paso&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ESBCunfMPOsrctWAzWxk2",
+      "fecha_consulta": "2026-10-13T11:26:59.457820"
     }
   ],
   "cronologia_actualizaciones": [
@@ -49,15 +54,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Fermín Tristán lanzó oficialmente su candidatura a intendente de Villa Paranacito, presentando una plataforma centrada en la mejora de infraestructura, servicios esenciales y el desarrollo sostenible ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "11:26",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable introduce la noticia de que Frigerio ratificó su respaldo a la eliminación de las PASO y la mención de un diputado, información completamente ausente en la noticia ya publicada.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "2584f4fe4d6108baea5621a4b92d7025896b6897d49314108238ada4bbcff4f7"
+    "2584f4fe4d6108baea5621a4b92d7025896b6897d49314108238ada4bbcff4f7",
+    "f67af13f4c2830891e473e854f86f8dffd14ea393e7639b8c6aef7418f860107"
   ],
   "fecha_iso": "2026-10-09T20:36:27.067884",
   "fecha_inicio_iso": "2026-10-09T20:36:27.067884",
-  "fecha_ultima_actualizacion_iso": "2026-10-09T20:36:27.067884",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T11:26:59.457820",
   "fecha_publicacion": "9 de Octubre de 2026, 20:36 hs",
-  "fecha_ultima_actualizacion": "9 de Octubre de 2026, 20:36 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 11:26 hs",
   "archivo": "2026-10-09-fermin-tristan-candidato-intendente-paranacito.json"
 }
