@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-13-suspenden-carrozas-nauticas-villa-paranacito-el-nino",
+    "slug": "suspenden-carrozas-nauticas-villa-paranacito-el-nino",
+    "titulo": "Suspenden las Carrozas Náuticas 2024 en Villa Paranacito por el Impacto del Fenómeno El Niño",
+    "copete": "La tradicional y esperada celebración de las Carrozas Náuticas de Villa Paranacito, un emblema del verano en el Delta entrerriano, no se realizará este año debido a las condiciones climáticas adversas generadas por el fenómeno El Niño.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Carrozas Náuticas",
+      "Villa Paranacito",
+      "El Niño",
+      "Eventos",
+      "Turismo",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "13 de Octubre de 2026, 18:56 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 18:56 hs",
+    "fecha_inicio_iso": "2026-10-13T18:56:46.761536",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T18:56:46.761536",
+    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el impacto de El Niño. 🌧️🌊 Afecta al turismo y la economía local. #VillaParanacito #CarrozasNauticas"
+  },
+  {
     "acontecimiento_id": "2026-10-13-obras-hidricas-villa-paranacito-prevencion",
     "slug": "obras-hidricas-villa-paranacito-prevencion",
     "titulo": "Confirman Intervenciones Cruciales en Villa Paranacito para la Prevención Hídrica",
@@ -271,39 +300,6 @@
     "fecha_inicio_iso": "2026-10-11T19:56:32.392000",
     "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:32.392000",
     "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito por El Niño: Productores ganaderos trasladan animales ante riesgo de inundaciones. ¡A estar atentos! #Delta #ElNiño"
-  },
-  {
-    "acontecimiento_id": "2026-10-10-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
-    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
-    "titulo": "Impacto del Fenómeno El Niño: Suspendidas las Carrozas Náuticas 2024 en Villa Paranacito",
-    "copete": "Las tradicionales Carrozas Náuticas de Villa Paranacito no se realizarán este año debido a las condiciones climáticas adversas y las crecidas generadas por el fenómeno El Niño en el Delta entrerriano.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "Villa Paranacito",
-      "Carrozas Náuticas",
-      "El Niño",
-      "Delta Entrerriano",
-      "Turismo",
-      "Eventos"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 4,
-    "fecha_publicacion": "10 de Octubre de 2026, 04:29 hs",
-    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:56 hs",
-    "fecha_inicio_iso": "2026-10-10T04:29:56.090460",
-    "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:15.568550",
-    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el Fenómeno El Niño. 🌧️🚣‍♀️ La seguridad es prioridad. #ParanacitoNoticias"
   },
   {
     "acontecimiento_id": "2026-10-10-isfdc-villa-paranacito-concurso-docente",
