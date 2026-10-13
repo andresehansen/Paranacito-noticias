@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/por-que-quieren-llevar-a-juicio-a-candidato-a-fiscal/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3lsLSN67DWxy-0J4VO4DSz",
       "fecha_consulta": "2026-10-08T15:16:46.361571"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/schonfeld-el-postulante-a-fiscal-que-esta-a-un-paso-de-ir-a-juicio/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2meu-D2j98xwmOEvu0zdVw",
+      "fecha_consulta": "2026-10-13T01:50:21.597038"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Por qué quieren llevar a juicio a candidato a fiscal - Entre Ríos Ahora",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "01:50",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Schonfeld, el postulante a fiscal que está a un paso de ir a juicio - Entre Ríos Ahora",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "88a9ccacc0c5c571046761f5c846488725b93550624a47a289a4c56032119d6c",
-    "53007762267a286b1f800d3d762b139955bef4ebd652865d8ad047fe46674ded"
+    "53007762267a286b1f800d3d762b139955bef4ebd652865d8ad047fe46674ded",
+    "638040a212f0efdccfce623ef4b92107e6a4ae645cb0ab898babaac0f2eb7726"
   ],
   "fecha_iso": "2026-10-08T15:16:46.357499",
   "fecha_inicio_iso": "2026-10-08T15:16:46.357499",
-  "fecha_ultima_actualizacion_iso": "2026-10-08T15:16:46.361571",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.597038",
   "fecha_publicacion": "8 de Octubre de 2026, 15:16 hs",
-  "fecha_ultima_actualizacion": "8 de Octubre de 2026, 15:16 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
   "archivo": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld.json"
 }

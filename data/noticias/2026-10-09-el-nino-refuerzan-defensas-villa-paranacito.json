@@ -84,6 +84,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://elciudadanoweb.com/alerta-en-el-litoral-por-el-nino-el-rio-uruguay-supero-los-11-metros-y-empiezan-a-evacuar-familias/amp/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1g2i1t3RtfygXO7eDPO_D0",
       "fecha_consulta": "2026-10-12T17:25:37.450864"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://lapoliticambiental.com.ar/contenido/8173/el-nino-golpea-al-litoral-inundaciones-evacuados-y-alerta-por-la-crecida-de-los-&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2F2_DYljIY0UnXuHMoMeAk",
+      "fecha_consulta": "2026-10-13T01:50:21.601368"
     }
   ],
   "cronologia_actualizaciones": [
@@ -163,6 +168,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El río Uruguay superó los 11 metros, lo que ha llevado al inicio de evacuaciones de familias, incluyendo en Paso de los Libres. También se realizaron intervenciones en Rosario del Tala y se actuó en las defensas de Villa Paranacito.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "01:50",
+      "fecha": "2026-10-13",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Niño golpea al Litoral: inundaciones, evacuados y alerta por la crecida de los ríos en ...",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -176,12 +188,13 @@
     "180b8c3d63768e91950ab3683cefbd4fa45651ac707586e387a97fa7e8299130",
     "a6a1681ca6592c958013e1ea17b425f6e43979b0d6ee928031a96e872189efb5",
     "1b515ba8c7f9676e46d95cdc954c0d6c59f8c907247f846ee48c317bcb7adfd6",
-    "a19910ab32784e25c820b04ee70238762e728e7c2d286b40dc8dcc53af41f534"
+    "a19910ab32784e25c820b04ee70238762e728e7c2d286b40dc8dcc53af41f534",
+    "df58ef5e760d47d5791744d6c9609f96ea2b1336782bdb9e5867113f0c5c8d73"
   ],
   "fecha_iso": "2026-10-09T04:44:27.884217",
   "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-  "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:37.450864",
+  "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.601368",
   "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-  "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
+  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
   "archivo": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito.json"
 }

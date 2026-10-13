@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
+    "slug": "alerta-hidrica-villa-paranacito-el-nino",
+    "titulo": "Alerta Hídrica en Villa Paranacito: El Niño Provoca Crecida de Ríos y Preocupación en el Delta",
+    "copete": "Las intensas lluvias y la persistencia del fenómeno El Niño han generado una significativa crecida en los cursos de agua que rodean Villa Paranacito, poniendo en alerta a la comunidad del Delta entrerriano.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "inundaciones",
+      "El Niño",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "alerta hídrica",
+      "Defensa Civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "12 de Octubre de 2026, 17:25 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
+    "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:25.815999",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Ríos crecen por El Niño. Defensa Civil monitorea la situación. ¡Tomá precauciones! 🚤⚠️"
+  },
+  {
     "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
     "slug": "el-nino-refuerzan-defensas-villa-paranacito",
     "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
@@ -29,28 +59,29 @@
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 11,
+    "num_actualizaciones": 12,
     "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
     "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:37.450864",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.601368",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
-    "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
-    "slug": "alerta-hidrica-villa-paranacito-el-nino",
-    "titulo": "Alerta Hídrica en Villa Paranacito: El Niño Provoca Crecida de Ríos y Preocupación en el Delta",
-    "copete": "Las intensas lluvias y la persistencia del fenómeno El Niño han generado una significativa crecida en los cursos de agua que rodean Villa Paranacito, poniendo en alerta a la comunidad del Delta entrerriano.",
-    "categoria": "Río y Clima",
+    "acontecimiento_id": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
+    "slug": "villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
+    "titulo": "Villa Paranacito Refuerza su Justicia con la Designación del Nuevo Fiscal Auxiliar Leonardo Schonfeld",
+    "copete": "El Senado de Entre Ríos prestó acuerdo constitucional para que Leonardo Augusto Schonfeld asuma como fiscal auxiliar en la localidad, una medida clave para fortalecer la presencia judicial y la administración de justicia en el corazón del Delta.",
+    "categoria": "Sociedad",
     "tags": [
-      "inundaciones",
-      "El Niño",
+      "Justicia",
       "Villa Paranacito",
-      "Delta Entrerriano",
-      "alerta hídrica",
-      "Defensa Civil"
+      "Fiscal Auxiliar",
+      "Senado Entre Ríos",
+      "Islas del Ibicuy",
+      "Delta Entrerriano"
     ],
     "estado": "En desarrollo",
     "es_alerta": false,
@@ -58,14 +89,16 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "12 de Octubre de 2026, 17:25 hs",
-    "fecha_ultima_actualizacion": "12 de Octubre de 2026, 17:25 hs",
-    "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
-    "fecha_ultima_actualizacion_iso": "2026-10-12T17:25:32.950744",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Ríos crecen por El Niño. Defensa Civil monitorea la situación. ¡Tomá precauciones! 🚤⚠️"
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "8 de Octubre de 2026, 15:16 hs",
+    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
+    "fecha_inicio_iso": "2026-10-08T15:16:46.357499",
+    "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.597038",
+    "resumen_whatsapp": "⚖️ Villa Paranacito tendrá nuevo Fiscal Auxiliar: Leonardo Schonfeld fue aprobado por el Senado para fortalecer la justicia local y el acceso de los vecinos. ¡Más cerca y eficiente! 🚤"
   },
   {
     "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
@@ -332,36 +365,6 @@
     "fecha_inicio_iso": "2026-10-08T21:04:07.562247",
     "fecha_ultima_actualizacion_iso": "2026-10-08T21:04:07.562247",
     "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito y el Delta por temporales. Municipio refuerza revisión de clubes e infraestructura. ¡Vecinos, a extremar precauciones! 🌬️🌧️🏡"
-  },
-  {
-    "acontecimiento_id": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
-    "slug": "villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
-    "titulo": "Villa Paranacito Refuerza su Justicia con la Designación del Nuevo Fiscal Auxiliar Leonardo Schonfeld",
-    "copete": "El Senado de Entre Ríos prestó acuerdo constitucional para que Leonardo Augusto Schonfeld asuma como fiscal auxiliar en la localidad, una medida clave para fortalecer la presencia judicial y la administración de justicia en el corazón del Delta.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Justicia",
-      "Villa Paranacito",
-      "Fiscal Auxiliar",
-      "Senado Entre Ríos",
-      "Islas del Ibicuy",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "8 de Octubre de 2026, 15:16 hs",
-    "fecha_ultima_actualizacion": "8 de Octubre de 2026, 15:16 hs",
-    "fecha_inicio_iso": "2026-10-08T15:16:46.357499",
-    "fecha_ultima_actualizacion_iso": "2026-10-08T15:16:46.361571",
-    "resumen_whatsapp": "⚖️ Villa Paranacito tendrá nuevo Fiscal Auxiliar: Leonardo Schonfeld fue aprobado por el Senado para fortalecer la justicia local y el acceso de los vecinos. ¡Más cerca y eficiente! 🚤"
   },
   {
     "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
