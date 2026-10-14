@@ -94,6 +94,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariomendoza.com.ar/sociedad/el-nino-provoca-inundaciones-litoral-evacuados-preocupacion-rios-n181588&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3WpMQGwYZ5q-teQUb7yENb",
       "fecha_consulta": "2026-10-14T16:37:15.448672"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/el-nino-impulsa-crecidas-en-el-litoral-y-evacuan-ganado-de-campos-que-quedan-bajo-el-agua/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2sM2fSnLMsHUbNByQPLHJ2",
+      "fecha_consulta": "2026-10-14T23:00:00.402276"
     }
   ],
   "cronologia_actualizaciones": [
@@ -187,6 +192,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Menciona inundaciones y evacuados, y amplía el alcance geográfico a Rosario del Tala y el arroyo Manzores.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:00",
+      "fecha": "2026-10-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable detalla el impacto directo de las inundaciones en los campos sin defensas de Villa Paranacito, la evacuación de ganado y la advertencia del productor ganadero y forestal José Peter sobre la situación.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -202,12 +214,13 @@
     "1b515ba8c7f9676e46d95cdc954c0d6c59f8c907247f846ee48c317bcb7adfd6",
     "a19910ab32784e25c820b04ee70238762e728e7c2d286b40dc8dcc53af41f534",
     "df58ef5e760d47d5791744d6c9609f96ea2b1336782bdb9e5867113f0c5c8d73",
-    "f83f74a7bcf62ff519f658d2feb6263ff7f4284c65051119ebebc12bd433a953"
+    "f83f74a7bcf62ff519f658d2feb6263ff7f4284c65051119ebebc12bd433a953",
+    "13f7a33ff292551deef0e98bb772e0cbe28fbe43b3bc5adf1d6910c814291d75"
   ],
   "fecha_iso": "2026-10-09T04:44:27.884217",
   "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-  "fecha_ultima_actualizacion_iso": "2026-10-14T16:37:15.448672",
+  "fecha_ultima_actualizacion_iso": "2026-10-14T23:00:00.402276",
   "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:37 hs",
+  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 23:00 hs",
   "archivo": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito.json"
 }
