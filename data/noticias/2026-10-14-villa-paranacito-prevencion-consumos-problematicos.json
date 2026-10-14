@@ -24,7 +24,7 @@
   "fuente_nombre": "Google News (gualeguaychu.gov.ar)",
   "fuente_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcXFsT1FXSnJqSkdoVVhpRkFSRERzbzlMZmxrT3JMbDNYdDFFMHBZY3g2ZjQzd0RRQjZldnEzLWJ3akVWN005RGZqWFg2MlVGeVNuWWFmOXBtMFdpVXctYmdsNnpnd05kVHJiOG1pQWJoWmVXSGo3T0ZkMFBKNjQ0M3ZSV2gyZ3JkNTlXMU5SRGJ3LVBlbkEwTms1RFJsOG5XTnVCNXFRd0tYMWJHM3d0UmRYWU8xaExLRFFkamNsLTQ1Y3NXdlZ2UG1Bd2wyQQ?oc=5",
   "url_original": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcXFsT1FXSnJqSkdoVVhpRkFSRERzbzlMZmxrT3JMbDNYdDFFMHBZY3g2ZjQzd0RRQjZldnEzLWJ3akVWN005RGZqWFg2MlVGeVNuWWFmOXBtMFdpVXctYmdsNnpnd05kVHJiOG1pQWJoWmVXSGo3T0ZkMFBKNjQ0M3ZSV2gyZ3JkNTlXMU5SRGJ3LVBlbkEwTms1RFJsOG5XTnVCNXFRd0tYMWJHM3d0UmRYWU8xaExLRFFkamNsLTQ1Y3NXdlZ2UG1Bd2wyQQ?oc=5",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,21 @@
       "nombre": "Google News (gualeguaychu.gov.ar)",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcXFsT1FXSnJqSkdoVVhpRkFSRERzbzlMZmxrT3JMbDNYdDFFMHBZY3g2ZjQzd0RRQjZldnEzLWJ3akVWN005RGZqWFg2MlVGeVNuWWFmOXBtMFdpVXctYmdsNnpnd05kVHJiOG1pQWJoWmVXSGo3T0ZkMFBKNjQ0M3ZSV2gyZ3JkNTlXMU5SRGJ3LVBlbkEwTms1RFJsOG5XTnVCNXFRd0tYMWJHM3d0UmRYWU8xaExLRFFkamNsLTQ1Y3NXdlZ2UG1Bd2wyQQ?oc=5",
       "fecha_consulta": "2026-10-14T13:30:14.379622"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.gualeguaychu.gov.ar/redaccion/gualeguaychu-celebrara-sus-243-anos-con-un-acto-en-la-plaza-de-los-antepasados&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0cr8QyCcEk6WNGT0JECbDQ",
+      "fecha_consulta": "2026-10-14T16:37:25.754311"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://gualeguaychu.gov.ar/noticia/32197-tres-deportistas-de-gualeguaychu-clasificaron-a-los-juegos-evita-adaptados&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0vKkHyaNINndz8UTXJ778x",
+      "fecha_consulta": "2026-10-14T16:37:47.359271"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.gualeguaychu.gov.ar/redaccion/gualeguaychu-presento-su-modelo-de-prevencion-de-consumos-problematicos-en-villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1lu2r2oxnvvEREiTOseCx3",
+      "fecha_consulta": "2026-10-14T16:38:02.520541"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +58,31 @@
       "fuente": "Google News (gualeguaychu.gov.ar)",
       "dato": "Villa Paranacito recibió a la Municipalidad de Gualeguaychú para conocer su modelo de prevención de consumos problemáticos. La iniciativa busca adaptar estrategias exitosas a la realidad del Delta, me",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:37",
+      "fecha": "2026-10-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:38",
+      "fecha": "2026-10-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Gualeguaychú presentó su modelo de prevención de consumos problemáticos en Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "7cf45f3c5455520ae82da84e0b2048618d484d148d6bba857a67623118cf8003"
+    "7cf45f3c5455520ae82da84e0b2048618d484d148d6bba857a67623118cf8003",
+    "fdb3b3547ad7f78d2906a07212c11e74ce306c8f95fa5fa81895cff501e9982c",
+    "c6dd309f8d696e469f2ce3b41de418f13f4be91608e158e3138a916032c2c4ad"
   ],
   "fecha_iso": "2026-10-14T13:30:14.379622",
   "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
-  "fecha_ultima_actualizacion_iso": "2026-10-14T13:30:14.379622",
+  "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:02.520541",
   "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
-  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 13:30 hs",
+  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
   "archivo": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos.json"
 }

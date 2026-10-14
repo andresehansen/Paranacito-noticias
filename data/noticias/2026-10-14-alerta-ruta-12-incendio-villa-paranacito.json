@@ -1,0 +1,54 @@
+{
+  "acontecimiento_id": "2026-10-14-alerta-ruta-12-incendio-villa-paranacito",
+  "titulo": "Alerta en Ruta 12: Vehículo Incendiado Cerca de Villa Paranacito Tras Explosión",
+  "copete": "Un automóvil sufrió un incendio total en la Ruta Nacional 12, a la altura del kilómetro 158, en las cercanías de Villa Paranacito, luego de una explosión en su motor. Afortunadamente, no se registraron heridos en el incidente.",
+  "cuerpo": [
+    "Un grave incidente vehicular movilizó a los servicios de emergencia en la Ruta Nacional 12, a la altura del kilómetro 158, en el tramo que atraviesa el corazón del Delta entrerriano, muy próximo a Villa Paranacito. Un automóvil particular se incendió por completo tras una súbita explosión en su motor, generando preocupación entre los transeúntes y residentes de la zona.",
+    "Según el relato del conductor, quien se dirigía hacia la zona de Médanos, la explosión se produjo de manera inesperada, sin dar tiempo a reaccionar antes de que las llamas comenzaran a consumir el vehículo. Afortunadamente, logró salir ileso antes de que el fuego se propagara por completo. Personal de Bomberos Voluntarios de Villa Paranacito y efectivos de la Policía de Entre Ríos acudieron rápidamente al lugar para controlar la situación y asegurar la calzada.",
+    "Este tipo de incidentes en la Ruta 12, arteria vital para la conectividad de Villa Paranacito y las Islas del Ibicuy con el resto de la provincia y el país, subraya la importancia de la precaución al transitar. Si bien el tráfico fue momentáneamente afectado, la rápida intervención evitó mayores complicaciones. Para los isleños, la seguridad vial en esta ruta es fundamental, ya que es el principal acceso para el transporte de mercaderías, servicios y el traslado de vecinos.",
+    "Desde las autoridades locales se reitera la recomendación a los conductores de realizar controles mecánicos periódicos a sus vehículos, especialmente antes de emprender viajes largos, y de extremar las precauciones al circular por las rutas del Delta. Ante cualquier emergencia en la vía pública, se aconseja contactar de inmediato al 911 o a los Bomberos Voluntarios de Villa Paranacito al número local, para garantizar una respuesta rápida y eficaz."
+  ],
+  "resumen": "Un automóvil se incendió por completo en la Ruta Nacional 12, cerca de Villa Paranacito, tras una explosión en el motor. El conductor resultó ileso, y Bomberos Voluntarios de la localidad intervinieron rápidamente. El incidente resalta la importancia de la seguridad vial en esta ruta clave para la comunidad del Delta.",
+  "categoria": "Comunidad",
+  "tags": [
+    "Ruta 12",
+    "Villa Paranacito",
+    "Incendio Vehicular"
+  ],
+  "slug": "alerta-ruta-12-incendio-villa-paranacito",
+  "resumen_whatsapp": "🚨 Auto incendiado en Ruta 12 cerca de Villa Paranacito. Conductor ileso. ¡Precaución al manejar! 🔥🚗",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/un-auto-se-incendio-por-completo-en-la-ruta-12-tras-una-explosion-en-el-motor.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0z_66Z0VXWL_Lg-YkBN4Ly",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/un-auto-se-incendio-por-completo-en-la-ruta-12-tras-una-explosion-en-el-motor.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0z_66Z0VXWL_Lg-YkBN4Ly",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/un-auto-se-incendio-por-completo-en-la-ruta-12-tras-una-explosion-en-el-motor.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0z_66Z0VXWL_Lg-YkBN4Ly",
+      "fecha_consulta": "2026-10-14T16:38:13.254907"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "16:38",
+      "fecha": "2026-10-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Un automóvil se incendió por completo en la Ruta Nacional 12, cerca de Villa Paranacito, tras una explosión en el motor. El conductor resultó ileso, y Bomberos Voluntarios de la localidad interviniero",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "f84149e108656de824c4d618897850f76ab512df47b81a5df39beac4c429e38b"
+  ],
+  "fecha_iso": "2026-10-14T16:38:13.254907",
+  "fecha_inicio_iso": "2026-10-14T16:38:13.254907",
+  "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:13.254907",
+  "fecha_publicacion": "14 de Octubre de 2026, 16:38 hs",
+  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
+  "archivo": "2026-10-14-alerta-ruta-12-incendio-villa-paranacito.json"
+}

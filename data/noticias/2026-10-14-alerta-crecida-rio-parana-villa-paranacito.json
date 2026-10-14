@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-14-alerta-crecida-rio-parana-villa-paranacito",
+  "titulo": "Alerta en Villa Paranacito: El Río Paraná podría alcanzar los 5,50 metros y se refuerza la preparación",
+  "copete": "Ante la inminente crecida del río Paraná, que podría llegar a los 5,50 metros, las autoridades de Villa Paranacito intensifican las medidas preventivas y la asistencia a la comunidad, tras recientes lluvias extremas.",
+  "cuerpo": [
+    "Villa Paranacito y el vasto Delta de Entre Ríos se encuentran en estado de alerta ante la proyección de una crecida significativa del río Paraná, que según los últimos pronósticos hidrológicos, podría alcanzar los 5,50 metros en las próximas semanas. Esta situación, que evoca recuerdos de eventos hídricos pasados, se agrava por las intensas precipitaciones registradas en la región, como los 100 milímetros caídos en una hora en la propia Villa, un volumen que pone a prueba la infraestructura local y la capacidad de respuesta comunitaria.",
+    "Desde el Municipio de Islas del Ibicuy, se destacó la preparación anticipada frente a este escenario. Fuentes de la Secretaría de Obras Públicas y Defensa Civil Municipal señalaron que, si bien el caudal del río es monitoreado constantemente, la magnitud de las lluvias recientes, como los mencionados 100 milímetros en una hora en Villa Paranacito, subraya la necesidad de una respuesta coordinada. \"Estamos trabajando en la limpieza de desagües y el refuerzo de defensas en puntos críticos, además de mantener un contacto permanente con Prefectura Naval y el Instituto Nacional del Agua (INA) para actualizar los pronósticos\", afirmó un vocero municipal.",
+    "La potencial crecida impacta directamente en la vida cotidiana de los isleños. El transporte fluvial, vital para la conexión de numerosas familias y la salida de la producción local, podría verse afectado por la altura del agua y la corriente. Caminos internos y accesos a propiedades en zonas bajas son los primeros en sufrir anegamientos, dificultando el traslado de insumos y la atención de emergencias. Además, la actividad productiva, desde la ganadería hasta la fruticultura, enfrenta el riesgo de pérdidas significativas si el agua permanece por períodos prolongados.",
+    "Ante este panorama, el Municipio de Islas del Ibicuy ha activado un protocolo de emergencia, instando a los vecinos de zonas ribereñas y bajas a tomar precauciones. Se recomienda asegurar embarcaciones, retirar objetos de valor de las plantas bajas y tener a mano documentación importante. Para consultas, asistencia o reportar situaciones de riesgo, los habitantes pueden comunicarse con la Mesa de Ayuda Municipal o Defensa Civil, cuyos números serán difundidos a través de los canales oficiales y redes sociales. Se prevé la distribución de bolsones de arena y la asistencia con evacuaciones preventivas en caso de ser necesario, con puntos de encuentro y refugios ya identificados."
+  ],
+  "resumen": "Villa Paranacito se prepara para una posible crecida del río Paraná que podría alcanzar los 5,50 metros, exacerbada por recientes lluvias intensas. El Municipio de Islas del Ibicuy ha activado un protocolo de emergencia, monitoreando la situación y coordinando acciones con Prefectura y el INA. Se recomienda a los vecinos de zonas bajas tomar precau",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Crecida Paraná",
+    "Delta Entrerriano",
+    "Alerta Hídrica",
+    "Defensa Civil",
+    "Islas del Ibicuy"
+  ],
+  "slug": "alerta-crecida-rio-parana-villa-paranacito",
+  "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Río Paraná podría llegar a 5,50m. Municipio activa protocolo y pide precaución a vecinos. ¡Informate y preparate! #CrecidaParana #VillaParanacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/sociedad/el-rio-parana-podria-llegar-a-5-50-metros-pero-destacan-la-preparacion-ante-la-crecida.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3QTWm7W6lyZ_6Fbr6Ins_w",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/sociedad/el-rio-parana-podria-llegar-a-5-50-metros-pero-destacan-la-preparacion-ante-la-crecida.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3QTWm7W6lyZ_6Fbr6Ins_w",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/sociedad/el-rio-parana-podria-llegar-a-5-50-metros-pero-destacan-la-preparacion-ante-la-crecida.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3QTWm7W6lyZ_6Fbr6Ins_w",
+      "fecha_consulta": "2026-10-14T16:38:02.514758"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "16:38",
+      "fecha": "2026-10-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito se prepara para una posible crecida del río Paraná que podría alcanzar los 5,50 metros, exacerbada por recientes lluvias intensas. El Municipio de Islas del Ibicuy ha activado un prot",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "c434b2cf66ff193993fc4f03de7021c5f07c33c0e61e2af8b0d5194c3bb606fd"
+  ],
+  "fecha_iso": "2026-10-14T16:38:02.514758",
+  "fecha_inicio_iso": "2026-10-14T16:38:02.514758",
+  "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:02.514758",
+  "fecha_publicacion": "14 de Octubre de 2026, 16:38 hs",
+  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
+  "archivo": "2026-10-14-alerta-crecida-rio-parana-villa-paranacito.json"
+}

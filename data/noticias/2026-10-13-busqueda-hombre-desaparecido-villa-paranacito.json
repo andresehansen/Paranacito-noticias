@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://viapais.com.ar/gualeguaychu/buscan-intensamente-hombre-desaparecido-zona-rural-sabe-caso_0_zwVXvOtiLQ.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3F9eMXPKsgNEUIlkzbd3HR",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://viapais.com.ar/gualeguaychu/buscan-intensamente-hombre-desaparecido-zona-rural-sabe-caso_0_zwVXvOtiLQ.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3F9eMXPKsgNEUIlkzbd3HR",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://viapais.com.ar/gualeguaychu/buscan-intensamente-hombre-desaparecido-zona-rural-sabe-caso_0_zwVXvOtiLQ.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3F9eMXPKsgNEUIlkzbd3HR",
       "fecha_consulta": "2026-10-13T23:37:26.366205"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elentrerios.com/actualidad/dos-peones-rurales-encontraron-con-vida-a-un-hombre-de-75-anos-que-estaba-desaparecido-en-zona-de-islas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw11Kzsq2cbZoZavyvIxlbwh",
+      "fecha_consulta": "2026-10-14T16:37:51.595651"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La comunidad de Villa Paranacito está movilizada por la intensa búsqueda de un hombre desaparecido en una zona rural del Delta. La Comisaría local lidera el operativo, posiblemente con apoyo de Prefec",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:37",
+      "fecha": "2026-10-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El hombre desaparecido fue encontrado por peones rurales. En la búsqueda y hallazgo participaron Bomberos Voluntarios, trabajadores de la empresa Arauco, baqueanos y vecinos de la zona.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "bde89654d6f01cd174c878637439fbd352800954d60293538a63328fae8c7132"
+    "bde89654d6f01cd174c878637439fbd352800954d60293538a63328fae8c7132",
+    "49e7478f7f85e6e3e751997108da8eea7d8fc02d347093e681c97626da1b7e00"
   ],
   "fecha_iso": "2026-10-13T23:37:26.366205",
   "fecha_inicio_iso": "2026-10-13T23:37:26.366205",
-  "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:26.366205",
+  "fecha_ultima_actualizacion_iso": "2026-10-14T16:37:51.595651",
   "fecha_publicacion": "13 de Octubre de 2026, 23:37 hs",
-  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
+  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:37 hs",
   "archivo": "2026-10-13-busqueda-hombre-desaparecido-villa-paranacito.json"
 }

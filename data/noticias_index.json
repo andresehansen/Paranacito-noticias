@@ -1,5 +1,31 @@
 [
   {
+    "acontecimiento_id": "2026-10-14-alerta-ruta-12-incendio-villa-paranacito",
+    "slug": "alerta-ruta-12-incendio-villa-paranacito",
+    "titulo": "Alerta en Ruta 12: Vehículo Incendiado Cerca de Villa Paranacito Tras Explosión",
+    "copete": "Un automóvil sufrió un incendio total en la Ruta Nacional 12, a la altura del kilómetro 158, en las cercanías de Villa Paranacito, luego de una explosión en su motor. Afortunadamente, no se registraron heridos en el incidente.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Ruta 12",
+      "Villa Paranacito",
+      "Incendio Vehicular"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "14 de Octubre de 2026, 16:38 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
+    "fecha_inicio_iso": "2026-10-14T16:38:13.254907",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:13.254907",
+    "resumen_whatsapp": "🚨 Auto incendiado en Ruta 12 cerca de Villa Paranacito. Conductor ileso. ¡Precaución al manejar! 🔥🚗"
+  },
+  {
     "acontecimiento_id": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos",
     "slug": "villa-paranacito-prevencion-consumos-problematicos",
     "titulo": "Villa Paranacito Fortalece la Prevención de Consumos Problemáticos con Modelo de Gualeguaychú",
@@ -13,20 +39,122 @@
       "salud comunitaria",
       "Islas del Ibicuy"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google News (gualeguaychu.gov.ar)"
+      "Google News (gualeguaychu.gov.ar)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
+    "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:02.520541",
+    "resumen_whatsapp": "🚨 Villa Paranacito adopta modelo de Gualeguaychú para prevenir consumos problemáticos. ¡Un paso clave para la salud de nuestra comunidad isleña! 💪"
+  },
+  {
+    "acontecimiento_id": "2026-10-13-busqueda-hombre-desaparecido-villa-paranacito",
+    "slug": "busqueda-hombre-desaparecido-villa-paranacito",
+    "titulo": "Intensa Búsqueda en Villa Paranacito por un Hombre Desaparecido en Zona Rural",
+    "copete": "La comunidad de Villa Paranacito se encuentra en alerta ante la desaparición de un hombre en una zona rural del Delta entrerriano, activándose un amplio operativo de búsqueda por parte de las fuerzas de seguridad locales.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "desaparecido",
+      "búsqueda",
+      "Policía",
+      "Delta Entrerriano",
+      "Comunidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "13 de Octubre de 2026, 23:37 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:37 hs",
+    "fecha_inicio_iso": "2026-10-13T23:37:26.366205",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T16:37:51.595651",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Intensa búsqueda de un hombre desaparecido en zona rural. Si tenés info, contactá a la Comisaría local. #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-14-incendio-vehicular-ruta-45-villa-paranacito",
+    "slug": "incendio-vehicular-ruta-45-villa-paranacito",
+    "titulo": "Incendio Vehicular en Ruta Provincial 45: Conductor de Villa Paranacito Ileso Tras Consumo Total del Automóvil",
+    "copete": "Un automóvil fue completamente devorado por las llamas en la Ruta Provincial N° 45, en las cercanías de Villa Paranacito, generando un rápido despliegue de los Bomberos Voluntarios locales, que lograron controlar la situación sin lamentar heridos.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Incendio vehicular",
+      "Ruta Provincial 45",
+      "Bomberos Voluntarios",
+      "Seguridad Vial"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
-    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 13:30 hs",
-    "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
-    "fecha_ultima_actualizacion_iso": "2026-10-14T13:30:14.379622",
-    "resumen_whatsapp": "🚨 Villa Paranacito adopta modelo de Gualeguaychú para prevenir consumos problemáticos. ¡Un paso clave para la salud de nuestra comunidad isleña! 💪"
+    "fecha_publicacion": "14 de Octubre de 2026, 16:37 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:37 hs",
+    "fecha_inicio_iso": "2026-10-14T16:37:38.266274",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T16:37:38.266274",
+    "resumen_whatsapp": "🚨 Auto incendiado en Ruta 45 cerca de Villa Paranacito. Conductor ileso. ¡Atención a la prevención vehicular! 🔥🚗💨"
+  },
+  {
+    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
+    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
+    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
+    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Crecida del Río",
+      "Defensas",
+      "Delta Entrerriano",
+      "Emergencia Hídrica"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 13,
+    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:37 hs",
+    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T16:37:15.448672",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-14-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
@@ -86,35 +214,6 @@
     "fecha_inicio_iso": "2026-10-14T03:41:25.567046",
     "fecha_ultima_actualizacion_iso": "2026-10-14T03:41:25.567046",
     "resumen_whatsapp": "🚨 ¡Atención docentes de Nivel Inicial y Primario! La D.D.E. Islas del Ibicuy convoca a concurso el 14/10 a las 11h en Villa Paranacito (Los Cipreses 1012). ¡Oportunidad clave para la educación del Delta! 📚🍎"
-  },
-  {
-    "acontecimiento_id": "2026-10-13-busqueda-hombre-desaparecido-villa-paranacito",
-    "slug": "busqueda-hombre-desaparecido-villa-paranacito",
-    "titulo": "Intensa Búsqueda en Villa Paranacito por un Hombre Desaparecido en Zona Rural",
-    "copete": "La comunidad de Villa Paranacito se encuentra en alerta ante la desaparición de un hombre en una zona rural del Delta entrerriano, activándose un amplio operativo de búsqueda por parte de las fuerzas de seguridad locales.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "desaparecido",
-      "búsqueda",
-      "Policía",
-      "Delta Entrerriano",
-      "Comunidad"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "13 de Octubre de 2026, 23:37 hs",
-    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
-    "fecha_inicio_iso": "2026-10-13T23:37:26.366205",
-    "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:26.366205",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Intensa búsqueda de un hombre desaparecido en zona rural. Si tenés info, contactá a la Comisaría local. #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
@@ -235,46 +334,6 @@
     "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
     "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:25.815999",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Ríos crecen por El Niño. Defensa Civil monitorea la situación. ¡Tomá precauciones! 🚤⚠️"
-  },
-  {
-    "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
-    "slug": "el-nino-refuerzan-defensas-villa-paranacito",
-    "titulo": "El Niño: Refuerzan Defensas en Villa Paranacito ante la Crecida del Río y la Alerta Hídrica",
-    "copete": "Las autoridades provinciales confirmaron intervenciones en las defensas de Villa Paranacito, en el corazón del Delta Entrerriano, como parte de las acciones preventivas frente al impacto del fenómeno El Niño y el aumento del caudal de los ríos.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Villa Paranacito",
-      "Crecida del Río",
-      "Defensas",
-      "Delta Entrerriano",
-      "Emergencia Hídrica"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 12,
-    "fecha_publicacion": "9 de Octubre de 2026, 04:44 hs",
-    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
-    "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
-    "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.601368",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
