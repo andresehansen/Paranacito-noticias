@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos",
+    "slug": "villa-paranacito-prevencion-consumos-problematicos",
+    "titulo": "Villa Paranacito Fortalece la Prevención de Consumos Problemáticos con Modelo de Gualeguaychú",
+    "copete": "La Municipalidad de Gualeguaychú presentó en Villa Paranacito su exitoso programa de prevención de adicciones, buscando replicar estrategias efectivas y adaptadas a la realidad de la comunidad isleña.",
+    "categoria": "Sociedad",
+    "tags": [
+      "consumos problemáticos",
+      "prevención",
+      "adicciones",
+      "Villa Paranacito",
+      "salud comunitaria",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (gualeguaychu.gov.ar)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 13:30 hs",
+    "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T13:30:14.379622",
+    "resumen_whatsapp": "🚨 Villa Paranacito adopta modelo de Gualeguaychú para prevenir consumos problemáticos. ¡Un paso clave para la salud de nuestra comunidad isleña! 💪"
+  },
+  {
     "acontecimiento_id": "2026-10-14-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
     "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
     "titulo": "Villa Paranacito: Carrozas Náuticas Suspendidas por el Impacto del Fenómeno El Niño",
