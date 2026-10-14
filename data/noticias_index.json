@@ -1,33 +1,62 @@
 [
   {
-    "acontecimiento_id": "2026-10-13-suspenden-carrozas-nauticas-villa-paranacito-el-nino",
-    "slug": "suspenden-carrozas-nauticas-villa-paranacito-el-nino",
-    "titulo": "Suspenden las Carrozas Náuticas 2024 en Villa Paranacito por el Impacto del Fenómeno El Niño",
-    "copete": "La tradicional y esperada celebración de las Carrozas Náuticas de Villa Paranacito, un emblema del verano en el Delta entrerriano, no se realizará este año debido a las condiciones climáticas adversas generadas por el fenómeno El Niño.",
-    "categoria": "Turismo y Cultura",
+    "acontecimiento_id": "2026-10-14-carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "slug": "carrozas-nauticas-suspendidas-villa-paranacito-el-nino",
+    "titulo": "Villa Paranacito: Carrozas Náuticas Suspendidas por el Impacto del Fenómeno El Niño",
+    "copete": "La tradicional celebración de las Carrozas Náuticas en Villa Paranacito no se realizará este año, una decisión tomada ante las condiciones climáticas y la inestabilidad hídrica generadas por el fenómeno El Niño.",
+    "categoria": "Comunidad",
     "tags": [
-      "Carrozas Náuticas",
       "Villa Paranacito",
+      "Carrozas Náuticas",
       "El Niño",
       "Eventos",
       "Turismo",
       "Delta Entrerriano"
     ],
-    "estado": "En desarrollo",
+    "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "13 de Octubre de 2026, 18:56 hs",
-    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 23:37 hs",
-    "fecha_inicio_iso": "2026-10-13T18:56:46.761536",
-    "fecha_ultima_actualizacion_iso": "2026-10-13T23:37:36.661644",
-    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el impacto de El Niño. 🌧️🌊 Afecta al turismo y la economía local. #VillaParanacito #CarrozasNauticas"
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "14 de Octubre de 2026, 03:41 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 03:41 hs",
+    "fecha_inicio_iso": "2026-10-14T03:41:35.902019",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T03:41:35.902019",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por El Niño y la inestabilidad del río. 🛶🚫 Más info en Paranacito Noticias."
+  },
+  {
+    "acontecimiento_id": "2026-10-14-concurso-docente-villa-paranacito-dde-islas-ibicuy",
+    "slug": "concurso-docente-villa-paranacito-dde-islas-ibicuy",
+    "titulo": "Concurso Docente Clave en Villa Paranacito: La D.D.E. Islas del Ibicuy convoca a Nivel Inicial y Primario",
+    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy realizará un importante concurso para cargos de Nivel Inicial y Primario el próximo miércoles 14 de octubre en su sede de Villa Paranacito.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Concurso Docente",
+      "Villa Paranacito",
+      "DDE Islas del Ibicuy",
+      "Nivel Inicial",
+      "Nivel Primario",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "14 de Octubre de 2026, 03:41 hs",
+    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 03:41 hs",
+    "fecha_inicio_iso": "2026-10-14T03:41:25.567046",
+    "fecha_ultima_actualizacion_iso": "2026-10-14T03:41:25.567046",
+    "resumen_whatsapp": "🚨 ¡Atención docentes de Nivel Inicial y Primario! La D.D.E. Islas del Ibicuy convoca a concurso el 14/10 a las 11h en Villa Paranacito (Los Cipreses 1012). ¡Oportunidad clave para la educación del Delta! 📚🍎"
   },
   {
     "acontecimiento_id": "2026-10-13-busqueda-hombre-desaparecido-villa-paranacito",
@@ -661,35 +690,6 @@
     "resumen_whatsapp": "🚨 Recuperan 10 toneladas de hierro robado en Ibicuy gracias a la Fiscalía de Villa Paranacito. Investigación en curso. ¡Cuidemos nuestro Delta! 👮‍♂️⚖️"
   },
   {
-    "acontecimiento_id": "2026-10-02-concurso-nivel-inicial-villa-paranacito",
-    "slug": "concurso-nivel-inicial-villa-paranacito",
-    "titulo": "Concurso de Nivel Inicial en Villa Paranacito: Oportunidades para Docentes del Delta",
-    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy, dependiente del Consejo General de Educación, convoca a un importante concurso de Nivel Inicial que se realizará en Villa Paranacito, abriendo nuevas oportunidades laborales para profesionales de la educación en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Educación",
-      "Nivel Inicial",
-      "Villa Paranacito",
-      "Islas del Ibicuy",
-      "Concurso Docente"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "2 de Octubre de 2026, 14:28 hs",
-    "fecha_ultima_actualizacion": "2 de Octubre de 2026, 14:28 hs",
-    "fecha_inicio_iso": "2026-10-02T14:28:56.048729",
-    "fecha_ultima_actualizacion_iso": "2026-10-02T14:28:56.048729",
-    "resumen_whatsapp": "📚 ¡Atención docentes! Concurso de Nivel Inicial en Villa Paranacito este viernes 2 de octubre a las 10hs en Los Cipreses 1012. ¡Oportunidad clave para la educación del Delta! #Educación #VillaParanacito"
-  },
-  {
     "acontecimiento_id": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito",
     "slug": "concurso-docente-escuela-secundaria-villa-paranacito",
     "titulo": "Convocatoria Clave: Concurso de Cargos y Horas Cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito",
@@ -1198,38 +1198,6 @@
     "fecha_inicio_iso": "2026-09-24T23:02:06.804624",
     "fecha_ultima_actualizacion_iso": "2026-09-24T23:02:06.804624",
     "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Se esperan altas temperaturas y lluvias en el Delta. 🌡️🌧️ Tomá precauciones y mantenete informado. #ClimaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-09-23-convocatoria-docente-villa-paranacito-nivel-inicial-primario",
-    "slug": "convocatoria-docente-villa-paranacito-nivel-inicial-primario",
-    "titulo": "Convocatoria Docente Crucial en Villa Paranacito para Nivel Inicial y Primario",
-    "copete": "La Dirección Departamental de Escuelas de Islas del Ibicuy anunció la realización de un concurso para cubrir cargos en Nivel Inicial y Primario, un evento fundamental para la comunidad educativa de Villa Paranacito y el Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Docentes",
-      "Educación",
-      "Villa Paranacito",
-      "Islas del Ibicuy",
-      "Concurso",
-      "Nivel Inicial",
-      "Nivel Primario"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "23 de Septiembre de 2026, 09:07 hs",
-    "fecha_ultima_actualizacion": "23 de Septiembre de 2026, 09:07 hs",
-    "fecha_inicio_iso": "2026-09-23T09:07:00.213493",
-    "fecha_ultima_actualizacion_iso": "2026-09-23T09:07:00.213493",
-    "resumen_whatsapp": "🚨 ¡Atención docentes! Concurso para Nivel Inicial y Primario en Villa Paranacito: Miércoles 23/9, 11:30 hs en Los Cipreses 1012. ¡Oportunidad clave para la educación del Delta! 📚🍎"
   },
   {
     "acontecimiento_id": "2026-09-23-villa-paranacito-area-conservacion-ecologica-delta",
