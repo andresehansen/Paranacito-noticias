@@ -49,6 +49,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.gualeguaychu.gov.ar/redaccion/gualeguaychu-presento-su-modelo-de-prevencion-de-consumos-problematicos-en-villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1lu2r2oxnvvEREiTOseCx3",
       "fecha_consulta": "2026-10-14T16:38:02.520541"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://viapais.com.ar/gualeguaychu/consumos-problematicos-salud-mental-estrategia-busca-fortalecer-redes-comunitarias_0_J9Th9QHiCa.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3CLpRETx7gyf9qkmZmopXp",
+      "fecha_consulta": "2026-10-15T16:23:08.019679"
     }
   ],
   "cronologia_actualizaciones": [
@@ -72,17 +77,25 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Gualeguaychú presentó su modelo de prevención de consumos problemáticos en Villa Paranacito",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:23",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Consumos problemáticos y salud mental, la estrategia que busca fortalecer las redes comunitarias",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "7cf45f3c5455520ae82da84e0b2048618d484d148d6bba857a67623118cf8003",
     "fdb3b3547ad7f78d2906a07212c11e74ce306c8f95fa5fa81895cff501e9982c",
-    "c6dd309f8d696e469f2ce3b41de418f13f4be91608e158e3138a916032c2c4ad"
+    "c6dd309f8d696e469f2ce3b41de418f13f4be91608e158e3138a916032c2c4ad",
+    "153aae689eb18334f2a593a583d95cfc7a88cab04032c2ad490d5eba9b9eb73c"
   ],
   "fecha_iso": "2026-10-14T13:30:14.379622",
   "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
-  "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:02.520541",
+  "fecha_ultima_actualizacion_iso": "2026-10-15T16:23:08.019679",
   "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
-  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
+  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 16:23 hs",
   "archivo": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos.json"
 }

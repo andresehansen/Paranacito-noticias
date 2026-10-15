@@ -1,5 +1,98 @@
 [
   {
+    "acontecimiento_id": "2026-10-15-alerta-villa-paranacito-crecida-rios-el-nino",
+    "slug": "alerta-villa-paranacito-crecida-rios-el-nino",
+    "titulo": "Alerta en Villa Paranacito: La crecida de los ríos por El Niño amenaza la producción y el ganado",
+    "copete": "El fenómeno El Niño provoca una preocupante crecida de los ríos en Villa Paranacito y el Delta, afectando seriamente los campos sin defensas y obligando a productores a evacuar ganado.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "El Niño",
+      "crecida de ríos",
+      "ganadería",
+      "producción",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "15 de Octubre de 2026, 16:23 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-10-15T16:23:08.014853",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T16:23:31.296103",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: El Niño provoca crecida de ríos, campos bajo agua y evacuación de ganado. ¡Productores en emergencia! 🐄💧 #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-15-villa-paranacito-carrozas-nauticas-suspendidas-el-nino",
+    "slug": "villa-paranacito-carrozas-nauticas-suspendidas-el-nino",
+    "titulo": "Villa Paranacito: Las Carrozas Náuticas Suspendidas por el Impacto de El Niño",
+    "copete": "La tradicional celebración de las Carrozas Náuticas en Villa Paranacito no se realizará este año, una decisión tomada por las autoridades locales ante las complejas condiciones hídricas y la crecida de los ríos en el Delta entrerriano, producto del fenómeno de El Niño.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Carrozas Náuticas",
+      "Villa Paranacito",
+      "El Niño",
+      "Delta Entrerriano",
+      "Suspensión de Eventos",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "15 de Octubre de 2026, 16:23 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-10-15T16:23:25.939273",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T16:23:25.939273",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 🛶 se suspenden este año por el impacto de El Niño y la crecida del río. Prioridad: seguridad. #VillaParanacito #ElNiño"
+  },
+  {
+    "acontecimiento_id": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos",
+    "slug": "villa-paranacito-prevencion-consumos-problematicos",
+    "titulo": "Villa Paranacito Fortalece la Prevención de Consumos Problemáticos con Modelo de Gualeguaychú",
+    "copete": "La Municipalidad de Gualeguaychú presentó en Villa Paranacito su exitoso programa de prevención de adicciones, buscando replicar estrategias efectivas y adaptadas a la realidad de la comunidad isleña.",
+    "categoria": "Sociedad",
+    "tags": [
+      "consumos problemáticos",
+      "prevención",
+      "adicciones",
+      "Villa Paranacito",
+      "salud comunitaria",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (gualeguaychu.gov.ar)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 4,
+    "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 16:23 hs",
+    "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T16:23:08.019679",
+    "resumen_whatsapp": "🚨 Villa Paranacito adopta modelo de Gualeguaychú para prevenir consumos problemáticos. ¡Un paso clave para la salud de nuestra comunidad isleña! 💪"
+  },
+  {
     "acontecimiento_id": "2026-10-15-villa-paranacito-alerta-maxima-crecida-litoral",
     "slug": "villa-paranacito-alerta-maxima-crecida-litoral",
     "titulo": "Villa Paranacito en Alerta Máxima: El Delta Entrerriano Enfrenta la Crecida del Litoral",
@@ -27,35 +120,6 @@
     "fecha_inicio_iso": "2026-10-15T08:53:55.181861",
     "fecha_ultima_actualizacion_iso": "2026-10-15T08:53:55.181861",
     "resumen_whatsapp": "🚨 Villa Paranacito en alerta máxima por crecida de ríos. Municipio y Defensa Civil coordinan asistencia. ¡Mantente informado y toma precauciones! #Inundaciones #Delta"
-  },
-  {
-    "acontecimiento_id": "2026-10-15-villa-paranacito-suspende-carrozas-nauticas-el-nino",
-    "slug": "villa-paranacito-suspende-carrozas-nauticas-el-nino",
-    "titulo": "Villa Paranacito Suspende las Carrozas Náuticas 2024 por el Impacto del Fenómeno El Niño",
-    "copete": "La tradicional celebración de las Carrozas Náuticas en Villa Paranacito no se realizará este año debido a las condiciones climáticas adversas y los altos niveles hídricos generados por el fenómeno El Niño.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "Villa Paranacito",
-      "Carrozas Náuticas",
-      "El Niño",
-      "Suspensión",
-      "Delta Entrerriano",
-      "Turismo"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "15 de Octubre de 2026, 04:04 hs",
-    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 04:04 hs",
-    "fecha_inicio_iso": "2026-10-15T04:04:47.675249",
-    "fecha_ultima_actualizacion_iso": "2026-10-15T04:04:47.675249",
-    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el impacto de El Niño y seguridad en el río. 🛶❌ #VillaParanacito #ElNiño"
   },
   {
     "acontecimiento_id": "2026-10-15-escuela-itinerante-agmer-villa-paranacito-delta",
@@ -153,38 +217,6 @@
     "fecha_inicio_iso": "2026-10-14T16:38:13.254907",
     "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:13.254907",
     "resumen_whatsapp": "🚨 Auto incendiado en Ruta 12 cerca de Villa Paranacito. Conductor ileso. ¡Precaución al manejar! 🔥🚗"
-  },
-  {
-    "acontecimiento_id": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos",
-    "slug": "villa-paranacito-prevencion-consumos-problematicos",
-    "titulo": "Villa Paranacito Fortalece la Prevención de Consumos Problemáticos con Modelo de Gualeguaychú",
-    "copete": "La Municipalidad de Gualeguaychú presentó en Villa Paranacito su exitoso programa de prevención de adicciones, buscando replicar estrategias efectivas y adaptadas a la realidad de la comunidad isleña.",
-    "categoria": "Sociedad",
-    "tags": [
-      "consumos problemáticos",
-      "prevención",
-      "adicciones",
-      "Villa Paranacito",
-      "salud comunitaria",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google News (gualeguaychu.gov.ar)",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 3,
-    "fecha_publicacion": "14 de Octubre de 2026, 13:30 hs",
-    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 16:38 hs",
-    "fecha_inicio_iso": "2026-10-14T13:30:14.379622",
-    "fecha_ultima_actualizacion_iso": "2026-10-14T16:38:02.520541",
-    "resumen_whatsapp": "🚨 Villa Paranacito adopta modelo de Gualeguaychú para prevenir consumos problemáticos. ¡Un paso clave para la salud de nuestra comunidad isleña! 💪"
   },
   {
     "acontecimiento_id": "2026-10-13-busqueda-hombre-desaparecido-villa-paranacito",

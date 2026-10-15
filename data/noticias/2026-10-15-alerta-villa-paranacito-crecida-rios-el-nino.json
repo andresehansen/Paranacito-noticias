@@ -1,0 +1,83 @@
+{
+  "acontecimiento_id": "2026-10-15-alerta-villa-paranacito-crecida-rios-el-nino",
+  "titulo": "Alerta en Villa Paranacito: La crecida de los ríos por El Niño amenaza la producción y el ganado",
+  "copete": "El fenómeno El Niño provoca una preocupante crecida de los ríos en Villa Paranacito y el Delta, afectando seriamente los campos sin defensas y obligando a productores a evacuar ganado.",
+  "cuerpo": [
+    "En el corazón del Delta entrerriano, específicamente en la zona de Villa Paranacito, la preocupación crece ante el avance sostenido de las aguas de los ríos, impulsado por el fenómeno climático El Niño. Los campos bajos y aquellos que carecen de sistemas de defensa adecuados ya se encuentran visiblemente afectados, con vastas extensiones de tierra productiva bajo el agua, alterando drásticamente el paisaje habitual de la región.",
+    "José Peter, reconocido productor ganadero y forestal de Villa Paranacito, ha sido una de las voces de alerta, confirmando que 'los campos sin defensas ya están afectados por el avance del agua'. Esta situación no solo compromete la infraestructura de las explotaciones, sino que también genera un estrés significativo en la actividad productiva, especialmente en la ganadería, donde la relocalización de animales se vuelve una tarea urgente y costosa para evitar pérdidas.",
+    "El impacto directo para los vecinos y productores de Villa Paranacito y sus alrededores es inminente. La inundación de tierras productivas amenaza la base económica de muchas familias, afectando la disponibilidad de pasturas para el ganado y dificultando el acceso a los campos. Además, la crecida puede comprometer caminos rurales y vías de acceso fluvial secundarias, esenciales para el transporte de insumos y productos, así como para la conectividad de las comunidades isleñas con los centros urbanos, afectando servicios básicos y la vida cotidiana.",
+    "Ante este escenario, el Municipio de Villa Paranacito, en coordinación con Defensa Civil y otras entidades locales, se encuentra monitoreando constantemente la situación hídrica. Se recomienda a los productores ganaderos y forestales que aún no lo hayan hecho, evaluar la evacuación preventiva de animales a zonas más altas y asegurar equipos e instalaciones. Asimismo, se insta a la comunidad a mantenerse informada a través de los canales oficiales y a reportar cualquier situación de riesgo a las autoridades locales para coordinar asistencia y recursos de manera efectiva."
+  ],
+  "resumen": "Villa Paranacito enfrenta una crítica situación por la crecida de los ríos a causa del fenómeno El Niño. Campos sin defensas están bajo el agua, afectando la producción ganadera y forestal. Productores como José Peter alertan sobre la necesidad de evacuar ganado y se recomienda a la comunidad mantenerse informada y tomar precauciones.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "El Niño",
+    "crecida de ríos",
+    "ganadería",
+    "producción",
+    "Delta Entrerriano"
+  ],
+  "slug": "alerta-villa-paranacito-crecida-rios-el-nino",
+  "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: El Niño provoca crecida de ríos, campos bajo agua y evacuación de ganado. ¡Productores en emergencia! 🐄💧 #VillaParanacito",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.quepasajujuy.com.ar/jujuy/el-nino-preocupa-al-campo-crecen-los-rios-se-inundan-las-tierras-y-evacuan-ganado-en-el-litoral/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0GRCwYhSltvIP7DVowc809",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.quepasajujuy.com.ar/jujuy/el-nino-preocupa-al-campo-crecen-los-rios-se-inundan-las-tierras-y-evacuan-ganado-en-el-litoral/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0GRCwYhSltvIP7DVowc809",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.quepasajujuy.com.ar/jujuy/el-nino-preocupa-al-campo-crecen-los-rios-se-inundan-las-tierras-y-evacuan-ganado-en-el-litoral/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0GRCwYhSltvIP7DVowc809",
+      "fecha_consulta": "2026-10-15T16:23:08.014853"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariotag.com/198865-la-crecida-de-los-rios-uruguay-y-parana-preocupa-a-los-productores-del-litoral&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2SW4cGesAmIyItsC6jvmex",
+      "fecha_consulta": "2026-10-15T16:23:25.944038"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://qpaso.ar/noticias/clarin/rural/nino-comienza-golpear-litoral-alarma-productores-crecida-rios-uruguay-parana_0_e1FASn3CPT.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0zbV1pdiDBGCatKpMmyLoD",
+      "fecha_consulta": "2026-10-15T16:23:31.296103"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "16:23",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito enfrenta una crítica situación por la crecida de los ríos a causa del fenómeno El Niño. Campos sin defensas están bajo el agua, afectando la producción ganadera y forestal. Productore",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:23",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La crecida de los ríos Uruguay y Paraná preocupa a los productores del Litoral | Diario TAG",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:23",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable detalla que los campos abiertos ya están completamente inundados, que muchos ganaderos están evacuando su hacienda, y que los diques están permitiendo alivio y la evacuación por tierra o barco.",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "dbd1d7da7540c05490bfb3a3581ccafff36f9fe3e2cac19e8341cee307340fb2",
+    "15a6aa70f59900e9d031ac1b85b07ee13cc76ef0ebdeffb7ecda685c60c58d58",
+    "a3160be0d8c1be76655266ada13dc584d55c72adfa898a5ecbc912d0f899dd40"
+  ],
+  "fecha_iso": "2026-10-15T16:23:08.014853",
+  "fecha_inicio_iso": "2026-10-15T16:23:08.014853",
+  "fecha_ultima_actualizacion_iso": "2026-10-15T16:23:31.296103",
+  "fecha_publicacion": "15 de Octubre de 2026, 16:23 hs",
+  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 16:23 hs",
+  "archivo": "2026-10-15-alerta-villa-paranacito-crecida-rios-el-nino.json"
+}
