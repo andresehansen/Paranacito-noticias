@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-10-15-fermin-tristan-candidato-intendente-villa-paranacito",
+    "slug": "fermin-tristan-candidato-intendente-villa-paranacito",
+    "titulo": "Villa Paranacito: Fermín Tristán Oficializa su Candidatura a Intendente",
+    "copete": "El dirigente local Fermín Tristán anunció formalmente su postulación para la intendencia de Villa Paranacito, marcando el inicio de la carrera electoral en la localidad y el Delta.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Elecciones 2023",
+      "Fermín Tristán",
+      "Intendente",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "15 de Octubre de 2026, 22:55 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 22:55 hs",
+    "fecha_inicio_iso": "2026-10-15T22:55:10.164855",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T22:55:10.164855",
+    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propuestas para mejorar servicios e infraestructura en el Delta. ¡Se viene la campaña! #Elecciones2023"
+  },
+  {
     "acontecimiento_id": "2026-10-15-escuela-itinerante-agmer-villa-paranacito-delta",
     "slug": "escuela-itinerante-agmer-villa-paranacito-delta",
     "titulo": "La Escuela Itinerante de AGMER Profundiza su Alcance en Villa Paranacito y el Delta",
