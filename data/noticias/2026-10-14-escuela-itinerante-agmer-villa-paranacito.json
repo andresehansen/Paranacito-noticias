@@ -25,7 +25,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://2025.agmer.org.ar/post/la-escuela-itinerante-de-agmer-llego-este-miercoles-a-villaguay&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3kFoyQ2kk5AV0QWM2PRdYE",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://2025.agmer.org.ar/post/la-escuela-itinerante-de-agmer-llego-este-miercoles-a-villaguay&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3kFoyQ2kk5AV0QWM2PRdYE",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://2025.agmer.org.ar/post/la-escuela-itinerante-de-agmer-llego-este-miercoles-a-villaguay&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3kFoyQ2kk5AV0QWM2PRdYE",
       "fecha_consulta": "2026-10-14T22:59:56.081349"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/politica/la-escuela-itinerante-de-agmer-lleg-este-mircoles-a-villaguay.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw386enLHjAF00sBal3fKclM",
+      "fecha_consulta": "2026-10-15T03:21:54.149814"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Escuela Itinerante de AGMER visitó Villa Paranacito, llevando formación y debate a los docentes del Delta entrerriano. Esta iniciativa fortalece la calidad educativa local y apoya a los maestros en",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:21",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo revela que la Escuela Itinerante de AGMER, además de Villa Paranacito, ya visitó Paraná, Uruguay y Villaguay, siendo este último el cuarto destino de su recorrido. Proporciona un contexto más amplio del itinerario de la escuela.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "89d3935705cd65109cc355e099d263af89052f29266d00be3963be53ad4ff8da"
+    "89d3935705cd65109cc355e099d263af89052f29266d00be3963be53ad4ff8da",
+    "ea7d8a17da8aaa1afda2b7c7e190236140da628f6bd763e7611699be9b8a0389"
   ],
   "fecha_iso": "2026-10-14T22:59:56.081349",
   "fecha_inicio_iso": "2026-10-14T22:59:56.081349",
-  "fecha_ultima_actualizacion_iso": "2026-10-14T22:59:56.081349",
+  "fecha_ultima_actualizacion_iso": "2026-10-15T03:21:54.149814",
   "fecha_publicacion": "14 de Octubre de 2026, 22:59 hs",
-  "fecha_ultima_actualizacion": "14 de Octubre de 2026, 22:59 hs",
+  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 03:21 hs",
   "archivo": "2026-10-14-escuela-itinerante-agmer-villa-paranacito.json"
 }

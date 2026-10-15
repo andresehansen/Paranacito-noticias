@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-10-14-escuela-itinerante-agmer-villa-paranacito",
+    "slug": "escuela-itinerante-agmer-villa-paranacito",
+    "titulo": "La Escuela Itinerante de AGMER dejó su huella en Villa Paranacito",
+    "copete": "La iniciativa de formación y debate gremial de AGMER visitó Villa Paranacito, llevando capacitación y diálogo a los docentes de la región del Delta entrerriano.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Escuela Itinerante",
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "14 de Octubre de 2026, 22:59 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 03:21 hs",
+    "fecha_inicio_iso": "2026-10-14T22:59:56.081349",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T03:21:54.149814",
+    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER visitó Villa Paranacito, fortaleciendo la educación y apoyando a docentes del Delta. ¡Gran iniciativa para nuestra comunidad! #Educación #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-10-14-el-nino-suspende-carrozas-nauticas-villa-paranacito",
     "slug": "el-nino-suspende-carrozas-nauticas-villa-paranacito",
     "titulo": "El Niño Suspende las Tradicionales Carrozas Náuticas en Villa Paranacito",
@@ -70,36 +101,6 @@
     "fecha_inicio_iso": "2026-10-09T04:44:27.884217",
     "fecha_ultima_actualizacion_iso": "2026-10-14T23:00:00.402276",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Refuerzan defensas por la crecida del río debido a El Niño. ¡Mantente informado! 💧"
-  },
-  {
-    "acontecimiento_id": "2026-10-14-escuela-itinerante-agmer-villa-paranacito",
-    "slug": "escuela-itinerante-agmer-villa-paranacito",
-    "titulo": "La Escuela Itinerante de AGMER dejó su huella en Villa Paranacito",
-    "copete": "La iniciativa de formación y debate gremial de AGMER visitó Villa Paranacito, llevando capacitación y diálogo a los docentes de la región del Delta entrerriano.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "AGMER",
-      "Escuela Itinerante",
-      "Villa Paranacito",
-      "Educación",
-      "Docentes",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "14 de Octubre de 2026, 22:59 hs",
-    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 22:59 hs",
-    "fecha_inicio_iso": "2026-10-14T22:59:56.081349",
-    "fecha_ultima_actualizacion_iso": "2026-10-14T22:59:56.081349",
-    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER visitó Villa Paranacito, fortaleciendo la educación y apoyando a docentes del Delta. ¡Gran iniciativa para nuestra comunidad! #Educación #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-10-14-alerta-ruta-12-incendio-villa-paranacito",
