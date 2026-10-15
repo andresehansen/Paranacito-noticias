@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-15-villa-paranacito-alerta-maxima-crecida-litoral",
+  "titulo": "Villa Paranacito en Alerta Máxima: El Delta Entrerriano Enfrenta la Crecida del Litoral",
+  "copete": "Villa Paranacito, en el corazón de las Islas del Ibicuy, se posiciona entre las localidades más afectadas de Entre Ríos por la sostenida crecida de los ríos, activando un plan integral de prevención y asistencia para sus vecinos.",
+  "cuerpo": [
+    "La situación hídrica en la región del Litoral argentino mantiene en vilo a varias comunidades, y Villa Paranacito, ubicada estratégicamente en el Delta entrerriano, no es la excepción. Las constantes precipitaciones y el caudal elevado de los principales afluentes de la cuenca del Plata han provocado un incremento significativo en los niveles de los ríos, afectando directamente a las zonas ribereñas y de islas. Esta localidad, parte del departamento Islas del Ibicuy, se encuentra entre las más perjudicadas de la provincia, junto a ciudades como Concordia y Colón, lo que demanda una respuesta coordinada y eficaz.",
+    "Desde el Municipio de Islas del Ibicuy, en conjunto con Defensa Civil y Prefectura Naval Argentina, se ha intensificado el monitoreo de los niveles de agua y se han activado los protocolos de emergencia. Fuentes municipales indicaron que se está trabajando en la identificación de las familias más vulnerables y en la provisión de recursos esenciales. 'Estamos en contacto permanente con los vecinos, evaluando cada situación y coordinando la asistencia necesaria. La prioridad es salvaguardar la integridad de las personas y sus bienes', afirmó un vocero del área de Desarrollo Social local, destacando la importancia de la colaboración comunitaria.",
+    "El impacto de esta crecida es palpable en la vida cotidiana de los isleños. El acceso a viviendas y establecimientos productivos se ve comprometido, afectando la movilidad fluvial y terrestre en caminos rurales. La producción ganadera y forestal, pilares de la economía local, enfrenta desafíos logísticos y pérdidas potenciales. Además, la conectividad de las escuelas rurales y los centros de salud puede verse alterada, lo que exige una planificación cuidadosa para garantizar la continuidad de los servicios básicos a toda la población del Delta.",
+    "Ante este escenario, las autoridades recomiendan a los vecinos de Villa Paranacito y zonas aledañas mantenerse informados a través de los canales oficiales del Municipio y Defensa Civil. Se aconseja asegurar embarcaciones y bienes, evitar transitar por zonas anegadas y, en caso de ser necesario, coordinar evacuaciones preventivas. El Municipio ha habilitado líneas telefónicas de emergencia y puntos de acopio para donaciones, instando a la solidaridad de la comunidad para afrontar juntos este desafío hídrico y minimizar sus consecuencias."
+  ],
+  "resumen": "Villa Paranacito y el Delta de Entre Ríos enfrentan una compleja situación por la crecida de los ríos, siendo una de las localidades más afectadas del Litoral. El Municipio, Defensa Civil y Prefectura coordinan acciones de monitoreo y asistencia. Se recomienda a los vecinos mantenerse informados y tomar precauciones para proteger sus bienes y garan",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Inundaciones",
+    "Delta Entrerriano",
+    "Islas del Ibicuy",
+    "Alerta Hídrica",
+    "Defensa Civil"
+  ],
+  "slug": "villa-paranacito-alerta-maxima-crecida-litoral",
+  "resumen_whatsapp": "🚨 Villa Paranacito en alerta máxima por crecida de ríos. Municipio y Defensa Civil coordinan asistencia. ¡Mantente informado y toma precauciones! #Inundaciones #Delta",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldia.com/opinion/ayuda-y-prevencion-ante-las-inundaciones-que-sufre-el-litoral-opinion_1792038335&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2wvWTgZTHCCUZ6NVV2QEaK",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldia.com/opinion/ayuda-y-prevencion-ante-las-inundaciones-que-sufre-el-litoral-opinion_1792038335&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2wvWTgZTHCCUZ6NVV2QEaK",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldia.com/opinion/ayuda-y-prevencion-ante-las-inundaciones-que-sufre-el-litoral-opinion_1792038335&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2wvWTgZTHCCUZ6NVV2QEaK",
+      "fecha_consulta": "2026-10-15T08:53:55.181861"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "08:53",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta de Entre Ríos enfrentan una compleja situación por la crecida de los ríos, siendo una de las localidades más afectadas del Litoral. El Municipio, Defensa Civil y Prefectura",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "95e168918044d3f4261b40f3b78c0d6bed12a40a4a03769eb0dda4c53a76a1fd"
+  ],
+  "fecha_iso": "2026-10-15T08:53:55.181861",
+  "fecha_inicio_iso": "2026-10-15T08:53:55.181861",
+  "fecha_ultima_actualizacion_iso": "2026-10-15T08:53:55.181861",
+  "fecha_publicacion": "15 de Octubre de 2026, 08:53 hs",
+  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 08:53 hs",
+  "archivo": "2026-10-15-villa-paranacito-alerta-maxima-crecida-litoral.json"
+}
