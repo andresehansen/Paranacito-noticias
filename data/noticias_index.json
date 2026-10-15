@@ -1,51 +1,19 @@
 [
   {
-    "acontecimiento_id": "2026-10-14-escuela-itinerante-agmer-villa-paranacito",
-    "slug": "escuela-itinerante-agmer-villa-paranacito",
-    "titulo": "La Escuela Itinerante de AGMER dejó su huella en Villa Paranacito",
-    "copete": "La iniciativa de formación y debate gremial de AGMER visitó Villa Paranacito, llevando capacitación y diálogo a los docentes de la región del Delta entrerriano.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "AGMER",
-      "Escuela Itinerante",
-      "Villa Paranacito",
-      "Educación",
-      "Docentes",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "14 de Octubre de 2026, 22:59 hs",
-    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 03:21 hs",
-    "fecha_inicio_iso": "2026-10-14T22:59:56.081349",
-    "fecha_ultima_actualizacion_iso": "2026-10-15T03:21:54.149814",
-    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER visitó Villa Paranacito, fortaleciendo la educación y apoyando a docentes del Delta. ¡Gran iniciativa para nuestra comunidad! #Educación #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-10-14-el-nino-suspende-carrozas-nauticas-villa-paranacito",
-    "slug": "el-nino-suspende-carrozas-nauticas-villa-paranacito",
-    "titulo": "El Niño Suspende las Tradicionales Carrozas Náuticas en Villa Paranacito",
-    "copete": "La Municipalidad de Villa Paranacito confirmó la cancelación de la edición 2024 de las emblemáticas Carrozas Náuticas debido a las condiciones climáticas adversas y la crecida del río provocadas por el fenómeno El Niño.",
-    "categoria": "Río y Clima",
+    "acontecimiento_id": "2026-10-15-villa-paranacito-suspende-carrozas-nauticas-el-nino",
+    "slug": "villa-paranacito-suspende-carrozas-nauticas-el-nino",
+    "titulo": "Villa Paranacito Suspende las Carrozas Náuticas 2024 por el Impacto del Fenómeno El Niño",
+    "copete": "La tradicional celebración de las Carrozas Náuticas en Villa Paranacito no se realizará este año debido a las condiciones climáticas adversas y los altos niveles hídricos generados por el fenómeno El Niño.",
+    "categoria": "Turismo y Cultura",
     "tags": [
       "Villa Paranacito",
       "Carrozas Náuticas",
       "El Niño",
+      "Suspensión",
       "Delta Entrerriano",
-      "Eventos Culturales",
-      "Impacto Climático",
-      "Seguridad"
+      "Turismo"
     ],
-    "estado": "En desarrollo",
+    "estado": "Publicado",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
@@ -54,11 +22,40 @@
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "14 de Octubre de 2026, 23:00 hs",
-    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 23:00 hs",
-    "fecha_inicio_iso": "2026-10-14T23:00:20.807965",
-    "fecha_ultima_actualizacion_iso": "2026-10-14T23:00:20.807965",
-    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! 🛶 Las Carrozas Náuticas 2024 se suspenden por El Niño y la crecida del río. ¡Prioridad a la seguridad! #Delta #ElNiño"
+    "fecha_publicacion": "15 de Octubre de 2026, 04:04 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 04:04 hs",
+    "fecha_inicio_iso": "2026-10-15T04:04:47.675249",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T04:04:47.675249",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 se suspenden por el impacto de El Niño y seguridad en el río. 🛶❌ #VillaParanacito #ElNiño"
+  },
+  {
+    "acontecimiento_id": "2026-10-15-escuela-itinerante-agmer-villa-paranacito-delta",
+    "slug": "escuela-itinerante-agmer-villa-paranacito-delta",
+    "titulo": "La Escuela Itinerante de AGMER Profundiza su Alcance en Villa Paranacito y el Delta",
+    "copete": "La iniciativa de formación gremial y pedagógica de AGMER, que ya visitó Villaguay, pone ahora su mirada en las particularidades educativas de Villa Paranacito y las Islas del Ibicuy, buscando fortalecer la labor docente en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "educacion",
+      "agmer",
+      "villa paranacito",
+      "delta entrerriano",
+      "docentes",
+      "formacion gremial"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "15 de Octubre de 2026, 04:04 hs",
+    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 04:04 hs",
+    "fecha_inicio_iso": "2026-10-15T04:04:32.150633",
+    "fecha_ultima_actualizacion_iso": "2026-10-15T04:04:32.150633",
+    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER llega a Villa Paranacito y el Delta. Fortalecerá a docentes con capacitaciones adaptadas a la región. ¡Mejor educación para nuestros chicos! 🧑‍🏫✨"
   },
   {
     "acontecimiento_id": "2026-10-09-el-nino-refuerzan-defensas-villa-paranacito",
@@ -502,6 +499,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
