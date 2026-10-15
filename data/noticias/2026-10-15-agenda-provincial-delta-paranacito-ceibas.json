@@ -1,0 +1,59 @@
+{
+  "acontecimiento_id": "2026-10-15-agenda-provincial-delta-paranacito-ceibas",
+  "titulo": "Agenda Provincial en el Delta: Cancelación de Carrozas Náuticas en Villa Paranacito y Refuerzo Sanitario en Ceibas",
+  "copete": "La región del Delta de Entre Ríos vive una dualidad de noticias: mientras Villa Paranacito lamenta la suspensión de sus tradicionales Carrozas Náuticas por el fenómeno El Niño, Ceibas celebra la entrega de una nueva ambulancia y avances en infraestructura educativa con la presencia del Gobernador.",
+  "cuerpo": [
+    "Villa Paranacito, corazón del Delta entrerriano, enfrenta la triste noticia de la suspensión de sus emblemáticas Carrozas Náuticas para la temporada 2024. La decisión, comunicada por las autoridades locales, se fundamenta en las complejas condiciones hídricas y climáticas generadas por el fenómeno El Niño, que han alterado significativamente el cauce y las riberas del río Paranacito, vital para el desarrollo del evento cultural más esperado de la localidad.",
+    "Fuentes municipales de Villa Paranacito habrían indicado que la prioridad es la seguridad de los participantes y espectadores, así como la preservación del entorno natural, haciendo inviable la realización del desfile fluvial en las condiciones actuales. En contraste, a pocos kilómetros, en la localidad de Ceibas, el Gobernador Rogelio Frigerio encabezó un acto de entrega de una moderna ambulancia para el centro de salud local y supervisó importantes obras de mejora en una escuela de la zona, reafirmando el compromiso provincial con el desarrollo de la región de Islas del Ibicuy.",
+    "La cancelación de las Carrozas Náuticas representa un golpe cultural y turístico para Villa Paranacito, afectando la economía local que se dinamiza significativamente con la llegada de visitantes y la actividad comercial asociada. Para los vecinos de Ceibas y sus alrededores, la nueva ambulancia significa una mejora sustancial en la capacidad de respuesta ante emergencias médicas, acortando tiempos y garantizando traslados más seguros. Las obras escolares, por su parte, impactan directamente en la calidad educativa de niños y jóvenes del departamento, brindando mejores espacios para el aprendizaje.",
+    "Si bien la suspensión de las Carrozas Náuticas es definitiva para este año, las autoridades de Villa Paranacito ya evalúan alternativas y fechas para retomar la celebración en futuras temporadas, una vez que las condiciones hídricas se normalicen y permitan garantizar la seguridad del evento. En Ceibas, la inversión en salud y educación se enmarca en un plan provincial de fortalecimiento de servicios esenciales en el interior, buscando equiparar oportunidades y mejorar la calidad de vida de los habitantes del Delta entrerriano. Se espera que la nueva unidad sanitaria esté operativa de inmediato, reforzando la atención primaria en la comunidad."
+  ],
+  "resumen": "Villa Paranacito lamenta la cancelación de sus Carrozas Náuticas 2024 debido a las condiciones climáticas de El Niño, un evento clave para la cultura y el turismo local. Paralelamente, en Ceibas, el Gobernador Frigerio entregó una ambulancia y recorrió obras escolares, fortaleciendo la salud y educación en la región del Delta. Ambas noticias reflej",
+  "categoria": "Sociedad",
+  "tags": [
+    "Villa Paranacito",
+    "Ceibas",
+    "Carrozas Náuticas",
+    "El Niño",
+    "Ambulancia",
+    "Obras Escolares",
+    "Delta Entrerriano",
+    "Gobierno de Entre Ríos"
+  ],
+  "slug": "agenda-provincial-delta-paranacito-ceibas",
+  "resumen_whatsapp": "⚠️ Villa Paranacito suspende Carrozas Náuticas por El Niño. 🚑 En Ceibas, el Gobernador entregó ambulancia y recorrió obras escolares. #DeltaNoticias",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/10/14/118890-la-provincia-finalizara-cuatro-viviendas-en-la-comuna-de-faustino-parera-pastor-britos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw30Jcs6-V_u2arsbnR2t4Xj",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/10/14/118890-la-provincia-finalizara-cuatro-viviendas-en-la-comuna-de-faustino-parera-pastor-britos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw30Jcs6-V_u2arsbnR2t4Xj",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Baja",
+  "es_alerta": false,
+  "requiere_revision": true,
+  "publicado": false,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/10/14/118890-la-provincia-finalizara-cuatro-viviendas-en-la-comuna-de-faustino-parera-pastor-britos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw30Jcs6-V_u2arsbnR2t4Xj",
+      "fecha_consulta": "2026-10-15T19:48:10.474172"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:48",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito lamenta la cancelación de sus Carrozas Náuticas 2024 debido a las condiciones climáticas de El Niño, un evento clave para la cultura y el turismo local. Paralelamente, en Ceibas, el G",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "819e32c498da4339a83e5fd0335673f8ced2d1b5e851d1dd7018252a4864970c"
+  ],
+  "fecha_iso": "2026-10-15T19:48:10.474172",
+  "fecha_inicio_iso": "2026-10-15T19:48:10.474172",
+  "fecha_ultima_actualizacion_iso": "2026-10-15T19:48:10.474172",
+  "fecha_publicacion": "15 de Octubre de 2026, 19:48 hs",
+  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 19:48 hs",
+  "archivo": "2026-10-15-agenda-provincial-delta-paranacito-ceibas.json"
+}

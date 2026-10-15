@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://paginagremial.com.ar/villaguay-recibio-a-la-escuela-itinerante-de-agmer/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Kvlw4UG7S18f4VlsbJ5TY",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://paginagremial.com.ar/villaguay-recibio-a-la-escuela-itinerante-de-agmer/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Kvlw4UG7S18f4VlsbJ5TY",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://paginagremial.com.ar/villaguay-recibio-a-la-escuela-itinerante-de-agmer/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Kvlw4UG7S18f4VlsbJ5TY",
       "fecha_consulta": "2026-10-15T04:04:32.150633"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/10/15/474950-escuela-itinerante-de-agmer-en-villaguay-los-docentes-se-estan-empobreciendo&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1vUoHCwDIIqP5ZPC4pddNA",
+      "fecha_consulta": "2026-10-15T19:47:56.980963"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Escuela Itinerante de AGMER extiende su programa de formación y apoyo a los docentes de Villa Paranacito y el Delta. La iniciativa busca abordar las particularidades de la educación en zonas de isl",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:47",
+      "fecha": "2026-10-15",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable detalla que la Escuela Itinerante de Agmer también visitará Uruguay y Chajarí (este jueves), y que la travesía comenzó el 16. Además, incluye una declaración sobre el empobrecimiento de los docentes.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "4b5c2090ce66546fa8355b77474992b1a192ee4c45cfe6a39f5ae0510e0ad65e"
+    "4b5c2090ce66546fa8355b77474992b1a192ee4c45cfe6a39f5ae0510e0ad65e",
+    "8e1e628cb84f254c97feda5eafe5451d68c96368203b1fcb60ac904340816ed1"
   ],
   "fecha_iso": "2026-10-15T04:04:32.150633",
   "fecha_inicio_iso": "2026-10-15T04:04:32.150633",
-  "fecha_ultima_actualizacion_iso": "2026-10-15T04:04:32.150633",
+  "fecha_ultima_actualizacion_iso": "2026-10-15T19:47:56.980963",
   "fecha_publicacion": "15 de Octubre de 2026, 04:04 hs",
-  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 04:04 hs",
+  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 19:47 hs",
   "archivo": "2026-10-15-escuela-itinerante-agmer-villa-paranacito-delta.json"
 }
