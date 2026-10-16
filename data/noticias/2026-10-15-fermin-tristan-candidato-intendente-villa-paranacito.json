@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/15/119000-michel-y-marclay-gestionan-ante-india-mejores-condiciones-para-las-exportaciones-entrerrianas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Lj7DOHXDWdf-oQVQAMe9e",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/15/119000-michel-y-marclay-gestionan-ante-india-mejores-condiciones-para-las-exportaciones-entrerrianas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Lj7DOHXDWdf-oQVQAMe9e",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/15/119000-michel-y-marclay-gestionan-ante-india-mejores-condiciones-para-las-exportaciones-entrerrianas&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Lj7DOHXDWdf-oQVQAMe9e",
       "fecha_consulta": "2026-10-15T22:55:10.164855"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/16/119045-gualeguaychu-proponen-cambios-en-los-circuitos-electorales-general-almada-y-pastor-britos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0ALVLUho5a7PYtjcnGoA1w",
+      "fecha_consulta": "2026-10-16T22:34:04.472730"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito, marcando el inicio de la campaña electoral. Sus propuestas se centran en infraestructura, servicios y desarrollo productivo para l",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:34",
+      "fecha": "2026-10-16",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Se propone cambios en los circuitos electorales General Almada y Pastor Britos, ubicados en Gualeguaychú.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "79a4dffc62fc74efdfe3ebbe9e6fae29684acac4e04f3774fcf483b560f23623"
+    "79a4dffc62fc74efdfe3ebbe9e6fae29684acac4e04f3774fcf483b560f23623",
+    "d26b9773f325b0e02cff87e61bb157c0e7315d6480ccee538f5398e9a93c03cf"
   ],
   "fecha_iso": "2026-10-15T22:55:10.164855",
   "fecha_inicio_iso": "2026-10-15T22:55:10.164855",
-  "fecha_ultima_actualizacion_iso": "2026-10-15T22:55:10.164855",
+  "fecha_ultima_actualizacion_iso": "2026-10-16T22:34:04.472730",
   "fecha_publicacion": "15 de Octubre de 2026, 22:55 hs",
-  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 22:55 hs",
+  "fecha_ultima_actualizacion": "16 de Octubre de 2026, 22:34 hs",
   "archivo": "2026-10-15-fermin-tristan-candidato-intendente-villa-paranacito.json"
 }

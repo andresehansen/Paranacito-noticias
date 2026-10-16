@@ -44,6 +44,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://qpaso.ar/noticias/clarin/rural/nino-comienza-golpear-litoral-alarma-productores-crecida-rios-uruguay-parana_0_e1FASn3CPT.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0zbV1pdiDBGCatKpMmyLoD",
       "fecha_consulta": "2026-10-15T16:23:31.296103"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.telediariodigital.com.ar/post/el-agua-avanza-sobre-los-campos-y-los-productores-retiran-ganado-temen-que-lo-peor-est%25C3%25A9-por-llegar&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3abjkrh6ldXBgW0FItSmCa",
+      "fecha_consulta": "2026-10-16T22:34:04.475838"
     }
   ],
   "cronologia_actualizaciones": [
@@ -67,17 +72,25 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo cable detalla que los campos abiertos ya están completamente inundados, que muchos ganaderos están evacuando su hacienda, y que los diques están permitiendo alivio y la evacuación por tierra o barco.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:34",
+      "fecha": "2026-10-16",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El agua avanza sobre los campos y los productores retiran ganado: temen que lo peor esté ...",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "dbd1d7da7540c05490bfb3a3581ccafff36f9fe3e2cac19e8341cee307340fb2",
     "15a6aa70f59900e9d031ac1b85b07ee13cc76ef0ebdeffb7ecda685c60c58d58",
-    "a3160be0d8c1be76655266ada13dc584d55c72adfa898a5ecbc912d0f899dd40"
+    "a3160be0d8c1be76655266ada13dc584d55c72adfa898a5ecbc912d0f899dd40",
+    "6cbf6d2d57d960d4693368e2b0d563426e8ae14c21e92577d9dd9f1ff37c3205"
   ],
   "fecha_iso": "2026-10-15T16:23:08.014853",
   "fecha_inicio_iso": "2026-10-15T16:23:08.014853",
-  "fecha_ultima_actualizacion_iso": "2026-10-15T16:23:31.296103",
+  "fecha_ultima_actualizacion_iso": "2026-10-16T22:34:04.475838",
   "fecha_publicacion": "15 de Octubre de 2026, 16:23 hs",
-  "fecha_ultima_actualizacion": "15 de Octubre de 2026, 16:23 hs",
+  "fecha_ultima_actualizacion": "16 de Octubre de 2026, 22:34 hs",
   "archivo": "2026-10-15-alerta-villa-paranacito-crecida-rios-el-nino.json"
 }
