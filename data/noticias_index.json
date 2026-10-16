@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-10-16-convocatoria-escuela-secundaria-villa-paranacito",
+    "slug": "convocatoria-escuela-secundaria-villa-paranacito",
+    "titulo": "Escuela Secundaria N° 2 de Villa Paranacito Abre Importante Convocatoria Docente",
+    "copete": "La Rectoría de la Escuela Secundaria N° 2 'Islas del Ibicuy', ubicada en el corazón de Villa Paranacito, ha lanzado un llamado a concurso para la cobertura de cargos y horas cátedra, fundamental para el ciclo lectivo en el Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Villa Paranacito",
+      "Escuela Secundaria",
+      "Convocatoria Docente",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "16 de Octubre de 2026, 03:18 hs",
+    "fecha_ultima_actualizacion": "16 de Octubre de 2026, 03:18 hs",
+    "fecha_inicio_iso": "2026-10-16T03:18:12.800749",
+    "fecha_ultima_actualizacion_iso": "2026-10-16T03:18:12.800749",
+    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! La Escuela Secundaria N° 2 'Islas del Ibicuy' abre convocatoria para docentes. 📚 ¡Oportunidad para la educación local! Más info en la escuela. #Educación #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-16-agmer-lucha-salarial-escuela-itinerante-villa-paranacito",
+    "slug": "agmer-lucha-salarial-escuela-itinerante-villa-paranacito",
+    "titulo": "AGMER y la Lucha Salarial: El Eco de la Escuela Itinerante en Villa Paranacito y el Delta",
+    "copete": "La reciente visita de la Escuela Itinerante de AGMER a Villa Paranacito resuena en la comunidad, mientras el gremio docente provincial intensifica su reclamo por mejoras salariales que impactan directamente en la vida de los educadores del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "educacion",
+      "Villa Paranacito",
+      "salarios docentes",
+      "Delta Entrerriano",
+      "Escuela Itinerante"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "16 de Octubre de 2026, 03:17 hs",
+    "fecha_ultima_actualizacion": "16 de Octubre de 2026, 03:17 hs",
+    "fecha_inicio_iso": "2026-10-16T03:17:56.898293",
+    "fecha_ultima_actualizacion_iso": "2026-10-16T03:17:56.898293",
+    "resumen_whatsapp": "📢 AGMER y la lucha salarial: La Escuela Itinerante dejó su huella en Villa Paranacito, visibilizando el impacto en docentes y la educación del Delta. ¡Atentos a las novedades! 📚🍎"
+  },
+  {
     "acontecimiento_id": "2026-10-15-fermin-tristan-candidato-intendente-villa-paranacito",
     "slug": "fermin-tristan-candidato-intendente-villa-paranacito",
     "titulo": "Villa Paranacito: Fermín Tristán Oficializa su Candidatura a Intendente",
@@ -571,35 +628,6 @@
     "resumen_whatsapp": "🌧️ Alerta en Villa Paranacito por El Niño: Productores ganaderos trasladan animales ante riesgo de inundaciones. ¡A estar atentos! #Delta #ElNiño"
   },
   {
-    "acontecimiento_id": "2026-10-10-isfdc-villa-paranacito-concurso-docente",
-    "slug": "isfdc-villa-paranacito-concurso-docente",
-    "titulo": "El ISFDC Villa Paranacito Lanza Concurso Clave para Fortalecer la Formación Docente Local",
-    "copete": "La Rectoría del Instituto Superior de Formación Docente Continua (ISFDC) 'Villa Paranacito' ha convocado a un primer llamado a concurso para la cobertura de horas cátedra, buscando reforzar su plantel educativo.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "ISFDC",
-      "Villa Paranacito",
-      "Concurso Docente",
-      "Educación",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "10 de Octubre de 2026, 14:15 hs",
-    "fecha_ultima_actualizacion": "10 de Octubre de 2026, 14:15 hs",
-    "fecha_inicio_iso": "2026-10-10T14:15:56.905742",
-    "fecha_ultima_actualizacion_iso": "2026-10-10T14:15:56.905742",
-    "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso para cubrir horas cátedra. 📚 Plazo de 5 días hábiles desde el 9 de junio. ¡Informate en la institución! #EducaciónLocal"
-  },
-  {
     "acontecimiento_id": "2026-10-09-desafio-politico-villa-paranacito-melchiori-tristan",
     "slug": "desafio-politico-villa-paranacito-melchiori-tristan",
     "titulo": "Escenario Político en Villa Paranacito: Fermín Tristán Desafía la Hegemonía de Melchiori",
@@ -869,35 +897,6 @@
     "fecha_inicio_iso": "2026-10-02T20:22:44.922596",
     "fecha_ultima_actualizacion_iso": "2026-10-02T20:22:44.922596",
     "resumen_whatsapp": "🚨 Recuperan 10 toneladas de hierro robado en Ibicuy gracias a la Fiscalía de Villa Paranacito. Investigación en curso. ¡Cuidemos nuestro Delta! 👮‍♂️⚖️"
-  },
-  {
-    "acontecimiento_id": "2026-09-30-concurso-docente-escuela-secundaria-villa-paranacito",
-    "slug": "concurso-docente-escuela-secundaria-villa-paranacito",
-    "titulo": "Convocatoria Clave: Concurso de Cargos y Horas Cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito",
-    "copete": "La comunidad educativa de Villa Paranacito se prepara para un importante concurso de adjudicación de cargos y horas cátedra en la Escuela Secundaria N° 2 'Islas del Ibicuy', un proceso fundamental para garantizar la calidad educativa en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Educación",
-      "Escuela Secundaria",
-      "Islas del Ibicuy",
-      "Concurso Docente"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "30 de Septiembre de 2026, 20:34 hs",
-    "fecha_ultima_actualizacion": "2 de Octubre de 2026, 14:28 hs",
-    "fecha_inicio_iso": "2026-09-30T20:34:51.660399",
-    "fecha_ultima_actualizacion_iso": "2026-10-02T14:28:43.953590",
-    "resumen_whatsapp": "📢 ¡Atención docentes! La Escuela Secundaria N° 2 de Villa Paranacito convoca a concurso de cargos. ¡Oportunidad clave para la educación local! 📚"
   },
   {
     "acontecimiento_id": "2026-09-26-agmer-rechazo-oferta-salarial-villa-paranacito",
