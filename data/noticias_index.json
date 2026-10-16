@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-10-16-control-rural-villa-paranacito-carne-ilegal",
+    "slug": "control-rural-villa-paranacito-carne-ilegal",
+    "titulo": "Control Rural en Villa Paranacito: Incautan 200 Kilos de Carne Vacuna y Detienen a un Hombre por Faena Ilegal",
+    "copete": "Un operativo de control rural en la zona de Villa Paranacito, en el corazón del Delta entrerriano, culminó con la incautación de 200 kilogramos de carne vacuna sin las condiciones sanitarias adecuadas y la detención de una persona implicada en faena clandestina.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "control rural",
+      "faena ilegal",
+      "carne vacuna",
+      "seguridad alimentaria",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Infoqom)",
+      "Google News (Noticias Data)",
+      "Google News (Flipr.news)"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "16 de Octubre de 2026, 16:24 hs",
+    "fecha_ultima_actualizacion": "16 de Octubre de 2026, 16:24 hs",
+    "fecha_inicio_iso": "2026-10-16T16:24:41.270434",
+    "fecha_ultima_actualizacion_iso": "2026-10-16T16:24:41.282034",
+    "resumen_whatsapp": "🚨 Operativo en Villa Paranacito: Incautan 200 kg de carne ilegal y detienen a un hombre. ¡Cuidemos nuestra salud y economía local! 🥩🚫"
+  },
+  {
     "acontecimiento_id": "2026-10-16-convocatoria-escuela-secundaria-villa-paranacito",
     "slug": "convocatoria-escuela-secundaria-villa-paranacito",
     "titulo": "Escuela Secundaria N° 2 de Villa Paranacito Abre Importante Convocatoria Docente",
