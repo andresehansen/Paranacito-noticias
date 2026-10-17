@@ -1,5 +1,63 @@
 [
   {
+    "acontecimiento_id": "2026-10-17-escuela-itinerante-agmer-capacitacion-docente-villa-paranacito",
+    "slug": "escuela-itinerante-agmer-capacitacion-docente-villa-paranacito",
+    "titulo": "La Escuela Itinerante de AGMER Impulsa la Capacitación Docente en Villa Paranacito",
+    "copete": "La Asociación Gremial del Magisterio de Entre Ríos (AGMER) instaló su Escuela Itinerante en Villa Paranacito, departamento Islas, ofreciendo jornadas de formación y debate cruciales para los educadores del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "AGMER",
+      "Villa Paranacito",
+      "Educación",
+      "Docentes",
+      "Capacitación",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "17 de Octubre de 2026, 21:59 hs",
+    "fecha_ultima_actualizacion": "17 de Octubre de 2026, 21:59 hs",
+    "fecha_inicio_iso": "2026-10-17T21:59:14.394613",
+    "fecha_ultima_actualizacion_iso": "2026-10-17T21:59:14.394613",
+    "resumen_whatsapp": "🏫 AGMER llegó a Villa Paranacito con su Escuela Itinerante para capacitar docentes del Delta. ¡Mejor educación para nuestros chicos! 📚✨"
+  },
+  {
+    "acontecimiento_id": "2026-10-17-colegio-el-redentor-villa-paranacito-senado-juvenil",
+    "slug": "colegio-el-redentor-villa-paranacito-senado-juvenil",
+    "titulo": "Jóvenes de Villa Paranacito Brindan Orgullo: Colegio El Redentor Gana Instancia Departamental del Senado Juvenil",
+    "copete": "Estudiantes del Colegio Luterano El Redentor de Villa Paranacito se destacaron al ganar la instancia departamental del programa Senado Juvenil, asegurando su pase a la fase provincial y representando a la región del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Senado Juvenil",
+      "Colegio El Redentor",
+      "Educación",
+      "Juventud",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "17 de Octubre de 2026, 21:58 hs",
+    "fecha_ultima_actualizacion": "17 de Octubre de 2026, 21:58 hs",
+    "fecha_inicio_iso": "2026-10-17T21:58:54.692605",
+    "fecha_ultima_actualizacion_iso": "2026-10-17T21:58:54.692605",
+    "resumen_whatsapp": "🎉 ¡Orgullo Isleño! El Colegio El Redentor de Villa Paranacito ganó la instancia departamental del Senado Juvenil y va a la final provincial. ¡Felicitaciones a nuestros jóvenes!"
+  },
+  {
     "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
     "slug": "alerta-hidrica-villa-paranacito-el-nino",
     "titulo": "Alerta Hídrica en Villa Paranacito: El Niño Provoca Crecida de Ríos y Preocupación en el Delta",
@@ -237,36 +295,6 @@
     "fecha_inicio_iso": "2026-10-16T03:17:56.898293",
     "fecha_ultima_actualizacion_iso": "2026-10-16T03:17:56.898293",
     "resumen_whatsapp": "📢 AGMER y la lucha salarial: La Escuela Itinerante dejó su huella en Villa Paranacito, visibilizando el impacto en docentes y la educación del Delta. ¡Atentos a las novedades! 📚🍎"
-  },
-  {
-    "acontecimiento_id": "2026-10-15-escuela-itinerante-agmer-villa-paranacito-delta",
-    "slug": "escuela-itinerante-agmer-villa-paranacito-delta",
-    "titulo": "La Escuela Itinerante de AGMER Profundiza su Alcance en Villa Paranacito y el Delta",
-    "copete": "La iniciativa de formación gremial y pedagógica de AGMER, que ya visitó Villaguay, pone ahora su mirada en las particularidades educativas de Villa Paranacito y las Islas del Ibicuy, buscando fortalecer la labor docente en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "educacion",
-      "agmer",
-      "villa paranacito",
-      "delta entrerriano",
-      "docentes",
-      "formacion gremial"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "15 de Octubre de 2026, 04:04 hs",
-    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 19:47 hs",
-    "fecha_inicio_iso": "2026-10-15T04:04:32.150633",
-    "fecha_ultima_actualizacion_iso": "2026-10-15T19:47:56.980963",
-    "resumen_whatsapp": "📚 La Escuela Itinerante de AGMER llega a Villa Paranacito y el Delta. Fortalecerá a docentes con capacitaciones adaptadas a la región. ¡Mejor educación para nuestros chicos! 🧑‍🏫✨"
   },
   {
     "acontecimiento_id": "2026-10-15-carrozas-nauticas-canceladas-villa-paranacito-el-nino",
