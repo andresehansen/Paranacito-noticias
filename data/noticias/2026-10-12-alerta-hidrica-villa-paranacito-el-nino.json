@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.cadena3.com/amp/noticia/ahora-pais/el-fenomeno-de-el-nino-golpea-al-litoral-evacuaciones-y-emergencia-en-corrientes-y-entre-rios_602640&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw23uNYO0o_4vUeOZObgvUOF",
       "fecha_consulta": "2026-10-13T01:50:25.815999"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://aireagro.com.ar/ganaderia/el-nino-se-hace-sentir-apuran-la-evacuacion-de-hacienda-desde-las-islas-de-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw26yAjbnylKmC8nR45QwLT2",
+      "fecha_consulta": "2026-10-17T18:10:57.465475"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo cable amplía el alcance geográfico a Corrientes, Rosario del Tala y el arroyo Manzores, menciona evacuaciones y situación de emergencia, y establece un umbral crítico de 12,5 para el nivel del río.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "18:10",
+      "fecha": "2026-10-17",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Se está apurando la evacuación de hacienda desde las islas de Entre Ríos debido a la crecida, y se han organizado espacios para el ganado en Villa Paranacito, Gualeguay y Victoria.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "efe02b612410e805c81626a84ccb43ec62ea12df444e2a29c04787d9c16f4e56",
-    "c565aebb08b44388f723f55fb7b362de1a2b4007f90731c597a5b059c8f75472"
+    "c565aebb08b44388f723f55fb7b362de1a2b4007f90731c597a5b059c8f75472",
+    "dc312e1a87d558a348aaca3fed34763a91e0d827dc63b522a13da1719cb3015f"
   ],
   "fecha_iso": "2026-10-12T17:25:32.950744",
   "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
-  "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:25.815999",
+  "fecha_ultima_actualizacion_iso": "2026-10-17T18:10:57.465475",
   "fecha_publicacion": "12 de Octubre de 2026, 17:25 hs",
-  "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
+  "fecha_ultima_actualizacion": "17 de Octubre de 2026, 18:10 hs",
   "archivo": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino.json"
 }

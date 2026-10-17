@@ -1,5 +1,65 @@
 [
   {
+    "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
+    "slug": "alerta-hidrica-villa-paranacito-el-nino",
+    "titulo": "Alerta Hídrica en Villa Paranacito: El Niño Provoca Crecida de Ríos y Preocupación en el Delta",
+    "copete": "Las intensas lluvias y la persistencia del fenómeno El Niño han generado una significativa crecida en los cursos de agua que rodean Villa Paranacito, poniendo en alerta a la comunidad del Delta entrerriano.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "inundaciones",
+      "El Niño",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "alerta hídrica",
+      "Defensa Civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "12 de Octubre de 2026, 17:25 hs",
+    "fecha_ultima_actualizacion": "17 de Octubre de 2026, 18:10 hs",
+    "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
+    "fecha_ultima_actualizacion_iso": "2026-10-17T18:10:57.465475",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Ríos crecen por El Niño. Defensa Civil monitorea la situación. ¡Tomá precauciones! 🚤⚠️"
+  },
+  {
+    "acontecimiento_id": "2026-10-17-inclusion-laboral-villa-paranacito-enrique-carbo",
+    "slug": "inclusion-laboral-villa-paranacito-enrique-carbo",
+    "titulo": "Inclusión Laboral en el Delta: Catorce Vecinos de Villa Paranacito y Enrique Carbó se Integran en Proyectos Públicos",
+    "copete": "Tres iniciativas en el sector público de Villa Paranacito y Enrique Carbó están brindando oportunidades laborales a catorce personas, fortaleciendo la inclusión y el desarrollo comunitario en la región del Delta entrerriano.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Inclusión laboral",
+      "Villa Paranacito",
+      "Enrique Carbó",
+      "Delta Entrerriano",
+      "Empleo público",
+      "Integración social"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "17 de Octubre de 2026, 18:10 hs",
+    "fecha_ultima_actualizacion": "17 de Octubre de 2026, 18:10 hs",
+    "fecha_inicio_iso": "2026-10-17T18:10:51.991838",
+    "fecha_ultima_actualizacion_iso": "2026-10-17T18:10:51.991838",
+    "resumen_whatsapp": "¡Gran noticia en el Delta! 👏 Villa Paranacito y Enrique Carbó integran a 14 vecinos en proyectos laborales públicos, fomentando la inclusión. #EmpleoLocal #Comunidad"
+  },
+  {
     "acontecimiento_id": "2026-10-17-villa-paranacito-contienda-politica-hegemonia-melchiori",
     "slug": "villa-paranacito-contienda-politica-hegemonia-melchiori",
     "titulo": "Villa Paranacito: La Contienda Política que Desafía la Hegemonía de Melchiori",
@@ -545,36 +605,6 @@
     "fecha_inicio_iso": "2026-10-13T11:27:09.897578",
     "fecha_ultima_actualizacion_iso": "2026-10-13T11:27:09.897578",
     "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Se confirman intervenciones clave para la prevención hídrica en la localidad. Más protección para el Delta. 💧🚧"
-  },
-  {
-    "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
-    "slug": "alerta-hidrica-villa-paranacito-el-nino",
-    "titulo": "Alerta Hídrica en Villa Paranacito: El Niño Provoca Crecida de Ríos y Preocupación en el Delta",
-    "copete": "Las intensas lluvias y la persistencia del fenómeno El Niño han generado una significativa crecida en los cursos de agua que rodean Villa Paranacito, poniendo en alerta a la comunidad del Delta entrerriano.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "inundaciones",
-      "El Niño",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "alerta hídrica",
-      "Defensa Civil"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "12 de Octubre de 2026, 17:25 hs",
-    "fecha_ultima_actualizacion": "13 de Octubre de 2026, 01:50 hs",
-    "fecha_inicio_iso": "2026-10-12T17:25:32.950744",
-    "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:25.815999",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Ríos crecen por El Niño. Defensa Civil monitorea la situación. ¡Tomá precauciones! 🚤⚠️"
   },
   {
     "acontecimiento_id": "2026-10-08-villa-paranacito-nuevo-fiscal-auxiliar-schonfeld",
