@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-17-villa-paranacito-contienda-politica-hegemonia-melchiori",
+    "slug": "villa-paranacito-contienda-politica-hegemonia-melchiori",
+    "titulo": "Villa Paranacito: La Contienda Política que Desafía la Hegemonía de Melchiori",
+    "copete": "El panorama político en Villa Paranacito se calienta con la figura de Fermín Tristán, quien emerge como un fuerte contendiente dispuesto a disputar el liderazgo local históricamente asociado a la gestión de Melchiori.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Política Local",
+      "Elecciones",
+      "Delta Entrerriano",
+      "Fermín Tristán",
+      "Melchiori"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "17 de Octubre de 2026, 08:17 hs",
+    "fecha_ultima_actualizacion": "17 de Octubre de 2026, 08:17 hs",
+    "fecha_inicio_iso": "2026-10-17T08:17:20.752758",
+    "fecha_ultima_actualizacion_iso": "2026-10-17T08:17:20.752758",
+    "resumen_whatsapp": "🗳️ Villa Paranacito: Fermín Tristán desafía la hegemonía política de Melchiori. Se viene un debate clave para el futuro del Delta. ¡Mantente informado! #PolíticaLocal #VillaParanacito"
+  },
+  {
     "acontecimiento_id": "2026-10-15-alerta-villa-paranacito-crecida-rios-el-nino",
     "slug": "alerta-villa-paranacito-crecida-rios-el-nino",
     "titulo": "Alerta en Villa Paranacito: La crecida de los ríos por El Niño amenaza la producción y el ganado",
@@ -59,34 +88,6 @@
     "fecha_inicio_iso": "2026-10-15T22:55:10.164855",
     "fecha_ultima_actualizacion_iso": "2026-10-16T22:34:04.472730",
     "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propuestas para mejorar servicios e infraestructura en el Delta. ¡Se viene la campaña! #Elecciones2023"
-  },
-  {
-    "acontecimiento_id": "2026-10-16-fermin-tristan-desafia-hegemonia-politica-paranacito",
-    "slug": "fermin-tristan-desafia-hegemonia-politica-paranacito",
-    "titulo": "Fermín Tristán Desafía la Hegemonía Política en Villa Paranacito",
-    "copete": "La escena política de Villa Paranacito se dinamiza con la irrupción de Fermín Tristán, quien busca ofrecer una alternativa a la gestión actual, prometiendo un nuevo rumbo para el desarrollo local.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Política Local",
-      "Elecciones",
-      "Gestión Pública",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "16 de Octubre de 2026, 22:33 hs",
-    "fecha_ultima_actualizacion": "16 de Octubre de 2026, 22:33 hs",
-    "fecha_inicio_iso": "2026-10-16T22:33:56.510910",
-    "fecha_ultima_actualizacion_iso": "2026-10-16T22:33:56.510910",
-    "resumen_whatsapp": "🚨 #VillaParanacito: Fermín Tristán desafía la gestión actual de Melchiori, prometiendo un nuevo rumbo para el Delta. ¡Se viene un debate político clave! 🗳️"
   },
   {
     "acontecimiento_id": "2026-10-16-control-rural-villa-paranacito-carne-ilegal",
@@ -445,6 +446,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
