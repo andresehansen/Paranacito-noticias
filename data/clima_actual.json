@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "17/10/2026 22:05",
-  "timestamp_iso": "2026-10-17T22:05:35.082005",
+  "ultima_actualizacion": "18/10/2026 03:10",
+  "timestamp_iso": "2026-10-18T03:10:30.660617",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 12,
-    "sensacion_termica": 10,
-    "humedad": 65,
-    "viento_velocidad_kmh": 8,
+    "temperatura": 9,
+    "sensacion_termica": 7,
+    "humedad": 78,
+    "viento_velocidad_kmh": 9,
     "viento_direccion": "SSO",
-    "presion_hpa": 1021,
-    "descripcion": "Nublado",
-    "icono": "☁️",
+    "presion_hpa": 1022,
+    "descripcion": "Parcialmente nublado",
+    "icono": "⛅",
     "pronostico_extendido": [
-      {
-        "fecha": "2026-10-17",
-        "temp_max": 14,
-        "temp_min": 8,
-        "prob_lluvia": 0,
-        "descripcion": "Nublado",
-        "icono": "☁️"
-      },
       {
         "fecha": "2026-10-18",
         "temp_max": 16,
-        "temp_min": 8,
+        "temp_min": 7,
         "prob_lluvia": 0,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-10-19",
-        "temp_max": 17,
-        "temp_min": 6,
+        "temp_max": 16,
+        "temp_min": 7,
         "prob_lluvia": 0,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-10-20",
-        "temp_max": 19,
-        "temp_min": 8,
-        "prob_lluvia": 12,
-        "descripcion": "Nublado",
-        "icono": "☁️"
+        "temp_max": 20,
+        "temp_min": 9,
+        "prob_lluvia": 25,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
+      },
+      {
+        "fecha": "2026-10-21",
+        "temp_max": 21,
+        "temp_min": 13,
+        "prob_lluvia": 43,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-17 22:05"
+    "actualizado": "2026-10-18 03:10"
   }
 }

@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.mercurionoticias.com.ar/noticias/62064_el-colegio-luterano-el-redentor-gano-la-instancia-departamental-del-senado-juvenil.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3OlVlRyb2gCckcVa_UHFYw",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.mercurionoticias.com.ar/noticias/62064_el-colegio-luterano-el-redentor-gano-la-instancia-departamental-del-senado-juvenil.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3OlVlRyb2gCckcVa_UHFYw",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.mercurionoticias.com.ar/noticias/62064_el-colegio-luterano-el-redentor-gano-la-instancia-departamental-del-senado-juvenil.html&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3OlVlRyb2gCckcVa_UHFYw",
       "fecha_consulta": "2026-10-17T21:58:54.692605"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://lasemanaentredosrios.com/el-colegio-luterano-gano-el-senado-juvenil-y-representara-al-departamento-san-salvador-en-parana/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2tE4OHuldbo3an_X9omEQr",
+      "fecha_consulta": "2026-10-18T03:11:05.850075"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Colegio Luterano El Redentor de Villa Paranacito ganó la instancia departamental del Senado Juvenil, un programa que promueve la participación cívica de jóvenes. Este logro destaca el talento de lo",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:11",
+      "fecha": "2026-10-18",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Colegio Luterano representará al departamento San Salvador. La instancia provincial se llevará a cabo del 11 al 13 de noviembre y menciona otras localidades como Uruguay (Concepción del Uruguay), Concordia y Villaguay.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "cf8190977eaa5c3d2ce0dd7a75a2ef628ec9cb6f7a5dbe968ab3039985031b63"
+    "cf8190977eaa5c3d2ce0dd7a75a2ef628ec9cb6f7a5dbe968ab3039985031b63",
+    "32393550dbcf8665e578292ee649986f6d7639b25caab4a04ae91cce961fa5d6"
   ],
   "fecha_iso": "2026-10-17T21:58:54.692605",
   "fecha_inicio_iso": "2026-10-17T21:58:54.692605",
-  "fecha_ultima_actualizacion_iso": "2026-10-17T21:58:54.692605",
+  "fecha_ultima_actualizacion_iso": "2026-10-18T03:11:05.850075",
   "fecha_publicacion": "17 de Octubre de 2026, 21:58 hs",
-  "fecha_ultima_actualizacion": "17 de Octubre de 2026, 21:58 hs",
+  "fecha_ultima_actualizacion": "18 de Octubre de 2026, 03:11 hs",
   "archivo": "2026-10-17-colegio-el-redentor-villa-paranacito-senado-juvenil.json"
 }

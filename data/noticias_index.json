@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-10-17-colegio-el-redentor-villa-paranacito-senado-juvenil",
+    "slug": "colegio-el-redentor-villa-paranacito-senado-juvenil",
+    "titulo": "Jóvenes de Villa Paranacito Brindan Orgullo: Colegio El Redentor Gana Instancia Departamental del Senado Juvenil",
+    "copete": "Estudiantes del Colegio Luterano El Redentor de Villa Paranacito se destacaron al ganar la instancia departamental del programa Senado Juvenil, asegurando su pase a la fase provincial y representando a la región del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Senado Juvenil",
+      "Colegio El Redentor",
+      "Educación",
+      "Juventud",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "17 de Octubre de 2026, 21:58 hs",
+    "fecha_ultima_actualizacion": "18 de Octubre de 2026, 03:11 hs",
+    "fecha_inicio_iso": "2026-10-17T21:58:54.692605",
+    "fecha_ultima_actualizacion_iso": "2026-10-18T03:11:05.850075",
+    "resumen_whatsapp": "🎉 ¡Orgullo Isleño! El Colegio El Redentor de Villa Paranacito ganó la instancia departamental del Senado Juvenil y va a la final provincial. ¡Felicitaciones a nuestros jóvenes!"
+  },
+  {
     "acontecimiento_id": "2026-10-17-escuela-itinerante-agmer-capacitacion-docente-villa-paranacito",
     "slug": "escuela-itinerante-agmer-capacitacion-docente-villa-paranacito",
     "titulo": "La Escuela Itinerante de AGMER Impulsa la Capacitación Docente en Villa Paranacito",
@@ -27,35 +57,6 @@
     "fecha_inicio_iso": "2026-10-17T21:59:14.394613",
     "fecha_ultima_actualizacion_iso": "2026-10-17T21:59:14.394613",
     "resumen_whatsapp": "🏫 AGMER llegó a Villa Paranacito con su Escuela Itinerante para capacitar docentes del Delta. ¡Mejor educación para nuestros chicos! 📚✨"
-  },
-  {
-    "acontecimiento_id": "2026-10-17-colegio-el-redentor-villa-paranacito-senado-juvenil",
-    "slug": "colegio-el-redentor-villa-paranacito-senado-juvenil",
-    "titulo": "Jóvenes de Villa Paranacito Brindan Orgullo: Colegio El Redentor Gana Instancia Departamental del Senado Juvenil",
-    "copete": "Estudiantes del Colegio Luterano El Redentor de Villa Paranacito se destacaron al ganar la instancia departamental del programa Senado Juvenil, asegurando su pase a la fase provincial y representando a la región del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Senado Juvenil",
-      "Colegio El Redentor",
-      "Educación",
-      "Juventud",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "17 de Octubre de 2026, 21:58 hs",
-    "fecha_ultima_actualizacion": "17 de Octubre de 2026, 21:58 hs",
-    "fecha_inicio_iso": "2026-10-17T21:58:54.692605",
-    "fecha_ultima_actualizacion_iso": "2026-10-17T21:58:54.692605",
-    "resumen_whatsapp": "🎉 ¡Orgullo Isleño! El Colegio El Redentor de Villa Paranacito ganó la instancia departamental del Senado Juvenil y va a la final provincial. ¡Felicitaciones a nuestros jóvenes!"
   },
   {
     "acontecimiento_id": "2026-10-12-alerta-hidrica-villa-paranacito-el-nino",
