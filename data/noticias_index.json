@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-10-18-villa-paranacito-sede-quinta-fecha-torneo-clausura",
+    "slug": "villa-paranacito-sede-quinta-fecha-torneo-clausura",
+    "titulo": "Villa Paranacito, Sede de la Quinta Fecha del Torneo Clausura 'Claudio Romani'",
+    "copete": "El Estadio Mario Urriste de Villa Paranacito será el escenario de un vibrante encuentro por la quinta fecha del Torneo Clausura de Primera A, consolidando a la localidad como un punto clave del fútbol regional.",
+    "categoria": "Deportes",
+    "tags": [
+      "Fútbol",
+      "Torneo Clausura",
+      "Villa Paranacito",
+      "Estadio Mario Urriste",
+      "Deporte Local"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "18 de Octubre de 2026, 22:14 hs",
+    "fecha_ultima_actualizacion": "18 de Octubre de 2026, 22:14 hs",
+    "fecha_inicio_iso": "2026-10-18T22:14:43.482283",
+    "fecha_ultima_actualizacion_iso": "2026-10-18T22:14:43.482283",
+    "resumen_whatsapp": "⚽️ ¡Fútbol en Villa Paranacito! El Estadio Mario Urriste recibe la 5ta fecha del Torneo Clausura. ¡Apoyemos el deporte local y disfrutemos en comunidad! #ParanacitoDeportivo"
+  },
+  {
     "acontecimiento_id": "2026-10-17-colegio-el-redentor-villa-paranacito-senado-juvenil",
     "slug": "colegio-el-redentor-villa-paranacito-senado-juvenil",
     "titulo": "Jóvenes de Villa Paranacito Brindan Orgullo: Colegio El Redentor Gana Instancia Departamental del Senado Juvenil",
@@ -296,35 +324,6 @@
     "fecha_inicio_iso": "2026-10-16T03:17:56.898293",
     "fecha_ultima_actualizacion_iso": "2026-10-16T03:17:56.898293",
     "resumen_whatsapp": "📢 AGMER y la lucha salarial: La Escuela Itinerante dejó su huella en Villa Paranacito, visibilizando el impacto en docentes y la educación del Delta. ¡Atentos a las novedades! 📚🍎"
-  },
-  {
-    "acontecimiento_id": "2026-10-15-carrozas-nauticas-canceladas-villa-paranacito-el-nino",
-    "slug": "carrozas-nauticas-canceladas-villa-paranacito-el-nino",
-    "titulo": "Canceladas las Carrozas Náuticas 2024 en Villa Paranacito por el impacto de El Niño",
-    "copete": "La tradicional celebración de las Carrozas Náuticas en Villa Paranacito no se realizará este año debido a las complejas condiciones hídricas y los riesgos asociados al fenómeno de El Niño.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "Carrozas Náuticas",
-      "Villa Paranacito",
-      "El Niño",
-      "Eventos",
-      "Turismo",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "15 de Octubre de 2026, 19:47 hs",
-    "fecha_ultima_actualizacion": "15 de Octubre de 2026, 19:47 hs",
-    "fecha_inicio_iso": "2026-10-15T19:47:46.030315",
-    "fecha_ultima_actualizacion_iso": "2026-10-15T19:47:46.030315",
-    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Las Carrozas Náuticas 2024 fueron canceladas por El Niño y las condiciones del río. Impacto en seguridad y economía local. 😔"
   },
   {
     "acontecimiento_id": "2026-10-14-villa-paranacito-prevencion-consumos-problematicos",
