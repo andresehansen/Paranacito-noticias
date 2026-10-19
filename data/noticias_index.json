@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-19-escuela-itinerante-agmer-legado-villa-paranacito",
+    "slug": "escuela-itinerante-agmer-legado-villa-paranacito",
+    "titulo": "La Escuela Itinerante de Agmer dejó un legado educativo en Villa Paranacito",
+    "copete": "El programa de formación docente de Agmer, que tuvo una exitosa estación en Villa Paranacito, continúa su recorrido por la provincia de Entre Ríos, reafirmando el impacto positivo de estas iniciativas en las comunidades del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Agmer",
+      "Educación",
+      "Villa Paranacito",
+      "Delta",
+      "Formación Docente",
+      "Escuela Itinerante"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Octubre de 2026, 03:25 hs",
+    "fecha_ultima_actualizacion": "19 de Octubre de 2026, 03:25 hs",
+    "fecha_inicio_iso": "2026-10-19T03:25:07.025784",
+    "fecha_ultima_actualizacion_iso": "2026-10-19T03:25:07.025784",
+    "resumen_whatsapp": "📚 La Escuela Itinerante de Agmer dejó una huella positiva en Villa Paranacito, fortaleciendo la educación local y la capacitación docente en el Delta. #EducaciónDelta #Paranacito"
+  },
+  {
     "acontecimiento_id": "2026-10-18-villa-paranacito-sede-quinta-fecha-torneo-clausura",
     "slug": "villa-paranacito-sede-quinta-fecha-torneo-clausura",
     "titulo": "Villa Paranacito, Sede de la Quinta Fecha del Torneo Clausura 'Claudio Romani'",
