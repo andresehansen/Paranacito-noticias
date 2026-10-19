@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/escuela-itinerante-en-feliciano-repudian-a-la-senadora-dominguez/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0h286yRyRV3Lk5l12_jV6l",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/escuela-itinerante-en-feliciano-repudian-a-la-senadora-dominguez/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0h286yRyRV3Lk5l12_jV6l",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://entreriosahora.com/escuela-itinerante-en-feliciano-repudian-a-la-senadora-dominguez/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0h286yRyRV3Lk5l12_jV6l",
       "fecha_consulta": "2026-10-19T15:25:57.193583"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/162336_feliciano-voto-a-favor-de-la-reforma-previsional-y-la-invitaron-a-retirarse-de-la-escuela-itinerante-de-agmer/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1W1MYs3BgUosuWUN1fDpzE",
+      "fecha_consulta": "2026-10-19T18:23:11.344089"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La 'Escuela Itinerante' de Entre Ríos hizo una de sus primeras paradas en Villa Paranacito, llevando formación y recursos a la comunidad del Delta. Este programa provincial ofreció talleres y capacita",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "18:23",
+      "fecha": "2026-10-19",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La escuela itinerante también visitó Paraná y actualmente se encuentra en Feliciano. Se confirma que ya pasó por Villa Paranacito, Concepción del Uruguay, Villaguay y Chajarí.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "1179e8ac84ec272436fa0fa2681281187468c589d6b34b35aded2e2aa7713a5e"
+    "1179e8ac84ec272436fa0fa2681281187468c589d6b34b35aded2e2aa7713a5e",
+    "8802ab3563250360d7562ea5731ffbf43aa814427ef8a15bc7af551a3ed6fb04"
   ],
   "fecha_iso": "2026-10-19T15:25:57.193583",
   "fecha_inicio_iso": "2026-10-19T15:25:57.193583",
-  "fecha_ultima_actualizacion_iso": "2026-10-19T15:25:57.193583",
+  "fecha_ultima_actualizacion_iso": "2026-10-19T18:23:11.344089",
   "fecha_publicacion": "19 de Octubre de 2026, 15:25 hs",
-  "fecha_ultima_actualizacion": "19 de Octubre de 2026, 15:25 hs",
+  "fecha_ultima_actualizacion": "19 de Octubre de 2026, 18:23 hs",
   "archivo": "2026-10-19-escuela-itinerante-villa-paranacito-delta.json"
 }
