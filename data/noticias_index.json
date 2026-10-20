@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-10-20-memoria-viva-documental-represion-delta-paranacito",
+    "slug": "memoria-viva-documental-represion-delta-paranacito",
+    "titulo": "Memoria Viva en el Delta: Documental sobre la Represión Histórica se Proyectará en Villa Paranacito",
+    "copete": "La comunidad de Villa Paranacito tendrá la oportunidad de reflexionar sobre pasajes complejos de la historia regional con la proyección de un documental sobre la represión en el Delta entrerriano, un evento clave para la memoria colectiva.",
+    "categoria": "Sociedad",
+    "tags": [
+      "memoria historica",
+      "documental",
+      "villa paranacito",
+      "delta entrerriano",
+      "agmer",
+      "cultura local",
+      "islas del ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (Análisis Digital)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "20 de Octubre de 2026, 13:28 hs",
+    "fecha_ultima_actualizacion": "20 de Octubre de 2026, 13:28 hs",
+    "fecha_inicio_iso": "2026-10-20T13:28:23.046844",
+    "fecha_ultima_actualizacion_iso": "2026-10-20T13:28:23.046844",
+    "resumen_whatsapp": "🎬 Documental sobre la represión en el Delta llega a Villa Paranacito. ¡Memoria histórica para la comunidad! 🗓️ Viernes 17/5, 19h, Salón Agmer. ¡Entrada libre! #VillaParanacito #DeltaEntrerriano"
+  },
+  {
     "acontecimiento_id": "2026-10-20-villa-paranacito-carrozas-nauticas-suspendidas-el-nino",
     "slug": "villa-paranacito-carrozas-nauticas-suspendidas-el-nino",
     "titulo": "Villa Paranacito: Carrozas Náuticas Canceladas por el Impacto de El Niño en el Delta",
@@ -1701,36 +1731,6 @@
     "fecha_inicio_iso": "2026-09-21T14:59:44.490748",
     "fecha_ultima_actualizacion_iso": "2026-09-21T14:59:44.490748",
     "resumen_whatsapp": "🛣️ Nueve ofertas para mejorar camino clave en Antonio Tomás. Beneficio indirecto para la conectividad y logística del Delta Entrerriano, incluyendo Villa Paranacito. ¡Más infraestructura para la región! #Obras #Delta"
-  },
-  {
-    "acontecimiento_id": "2026-09-19-villa-paranacito-film-vuelos-muerte-testimonios-islenos",
-    "slug": "villa-paranacito-film-vuelos-muerte-testimonios-islenos",
-    "titulo": "Villa Paranacito Proyectará Film Clave sobre Vuelos de la Muerte con Testimonios Isleños",
-    "copete": "La comunidad de Villa Paranacito se prepara para la proyección de un largometraje documental que rescata la memoria histórica a través de los relatos de vecinos y pobladores del Delta, testigos de los 'vuelos de la muerte' durante la última dictadura militar.",
-    "categoria": "Sociedad",
-    "tags": [
-      "memoria",
-      "derechos humanos",
-      "dictadura",
-      "cine documental",
-      "Villa Paranacito",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "19 de Septiembre de 2026, 22:10 hs",
-    "fecha_ultima_actualizacion": "20 de Septiembre de 2026, 18:30 hs",
-    "fecha_inicio_iso": "2026-09-19T22:10:00.029311",
-    "fecha_ultima_actualizacion_iso": "2026-09-20T18:30:09.538961",
-    "resumen_whatsapp": "📽️ Villa Paranacito proyecta film sobre 'vuelos de la muerte' con testimonios isleños. ¡Memoria y verdad en el Delta! Entrada libre. #VillaParanacito #Memoria"
   },
   {
     "acontecimiento_id": "2026-09-20-senado-aprueba-expropiaciones-obras-viales-paranacito",
