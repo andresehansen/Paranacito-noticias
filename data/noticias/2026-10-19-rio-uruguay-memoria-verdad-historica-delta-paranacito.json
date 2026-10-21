@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.agesor.com.uy/movil/noticia.php%3Fid%3D87496&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZWrqFGPKgtPNXfuKNgSVh",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.agesor.com.uy/movil/noticia.php%3Fid%3D87496&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZWrqFGPKgtPNXfuKNgSVh",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.agesor.com.uy/movil/noticia.php%3Fid%3D87496&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3ZWrqFGPKgtPNXfuKNgSVh",
       "fecha_consulta": "2026-10-19T15:26:25.543448"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/la-fiscal-minatta-asegura-que-el-rio-uruguay-fue-clave-en-el-plan-condor.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2UNrVTrFec4SQL2UN1fPqJ",
+      "fecha_consulta": "2026-10-21T16:41:00.822061"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Río Uruguay, vital para Villa Paranacito, fue un escenario histórico de los crímenes de lesa humanidad durante la última dictadura, incluyendo los 'vuelos de la muerte'. Aunque no directamente en l",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:41",
+      "fecha": "2026-10-21",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La fiscal Minatta asegura que el río Uruguay fue 'clave' en el Plan Cóndor.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "7cee61d0234f235ae94b528cde6cf1bad771632b113f990d5d4dec66647fca0f"
+    "7cee61d0234f235ae94b528cde6cf1bad771632b113f990d5d4dec66647fca0f",
+    "955f24724450d935ebb2221212e68d7c1b015526d5f4ac5ba0777a7ba99551ef"
   ],
   "fecha_iso": "2026-10-19T15:26:25.543448",
   "fecha_inicio_iso": "2026-10-19T15:26:25.543448",
-  "fecha_ultima_actualizacion_iso": "2026-10-19T15:26:25.543448",
+  "fecha_ultima_actualizacion_iso": "2026-10-21T16:41:00.822061",
   "fecha_publicacion": "19 de Octubre de 2026, 15:26 hs",
-  "fecha_ultima_actualizacion": "19 de Octubre de 2026, 15:26 hs",
+  "fecha_ultima_actualizacion": "21 de Octubre de 2026, 16:41 hs",
   "archivo": "2026-10-19-rio-uruguay-memoria-verdad-historica-delta-paranacito.json"
 }
