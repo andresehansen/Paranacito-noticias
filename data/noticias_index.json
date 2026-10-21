@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-21-ciclista-accidente-pozo-ruta-paranacito",
+    "slug": "ciclista-accidente-pozo-ruta-paranacito",
+    "titulo": "Ciclista Sufre Accidente por Pozo en Ruta Cercana a Villa Paranacito: Alerta sobre el Estado de Caminos",
+    "copete": "Un ciclista de 66 años, Jorge, sufrió una caída significativa en la ruta que conecta Gualeguay con Villa Paranacito, poniendo en relieve la preocupación por el estado de la infraestructura vial en la región del Delta.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "seguridad vial",
+      "rutas",
+      "Villa Paranacito",
+      "accidentes",
+      "mantenimiento vial",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Octubre de 2026, 03:27 hs",
+    "fecha_ultima_actualizacion": "21 de Octubre de 2026, 03:27 hs",
+    "fecha_inicio_iso": "2026-10-21T03:27:25.994845",
+    "fecha_ultima_actualizacion_iso": "2026-10-21T03:27:25.994845",
+    "resumen_whatsapp": "⚠️ Ciclista accidentado cerca de Villa Paranacito por pozo en la ruta. 🚴‍♂️🛣️ ¡Atención al estado de los caminos! La seguridad vial es clave para nuestros vecinos. #ParanacitoNoticias"
+  },
+  {
     "acontecimiento_id": "2026-10-20-villa-paranacito-documental-represion-delta-agmer",
     "slug": "villa-paranacito-documental-represion-delta-agmer",
     "titulo": "Villa Paranacito: Agmer Anuncia Proyección de Documental Clave sobre la Represión en el Delta Entrerriano",
