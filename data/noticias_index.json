@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-22-alerta-lluvias-intensas-villa-paranacito-delta",
+    "slug": "alerta-lluvias-intensas-villa-paranacito-delta",
+    "titulo": "Alerta Meteorológica: Lluvias Intensas Pronosticadas para Villa Paranacito y el Delta",
+    "copete": "El Servicio Meteorológico Nacional emitió un alerta por inestabilidad y precipitaciones significativas que afectarán a Villa Paranacito, Ibicuy y toda la región del Delta entrerriano durante las próximas horas.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Lluvias Intensas",
+      "Alerta Meteorológica",
+      "Delta Entrerriano",
+      "Islas del Ibicuy",
+      "Pronóstico"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Octubre de 2026, 19:52 hs",
+    "fecha_ultima_actualizacion": "22 de Octubre de 2026, 19:52 hs",
+    "fecha_inicio_iso": "2026-10-22T19:52:31.210279",
+    "fecha_ultima_actualizacion_iso": "2026-10-22T19:52:31.210279",
+    "resumen_whatsapp": "⚠️ Alerta por lluvias intensas en Villa Paranacito y el Delta. Precaución en caminos y navegación. ¡Mantente informado! 🌧️🚤"
+  },
+  {
     "acontecimiento_id": "2026-10-22-alerta-hidrica-villa-paranacito-casa-frigerio",
     "slug": "alerta-hidrica-villa-paranacito-casa-frigerio",
     "titulo": "Alerta Hídrica en Villa Paranacito: La Propia Vivienda del Gobernador Frigerio y Producciones Locales Amenazadas por la Crecida",
@@ -1101,37 +1130,6 @@
     "fecha_inicio_iso": "2026-10-08T21:04:07.562247",
     "fecha_ultima_actualizacion_iso": "2026-10-08T21:04:07.562247",
     "resumen_whatsapp": "⚠️ Alerta en Villa Paranacito y el Delta por temporales. Municipio refuerza revisión de clubes e infraestructura. ¡Vecinos, a extremar precauciones! 🌬️🌧️🏡"
-  },
-  {
-    "acontecimiento_id": "2026-10-07-alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
-    "slug": "alerta-naranja-tormentas-lluvias-villa-paranacito-delta",
-    "titulo": "Alerta Naranja por Tormentas y Lluvias Intensas en Villa Paranacito y el Delta Entrerriano",
-    "copete": "El Servicio Meteorológico Nacional elevó a naranja el nivel de alerta por fenómenos meteorológicos que afectarán a Villa Paranacito y las Islas del Ibicuy, anticipando lluvias y tormentas de fuerte intensidad.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Alerta Naranja",
-      "Tormentas",
-      "Lluvias",
-      "Delta Entrerriano",
-      "Defensa Civil",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "7 de Octubre de 2026, 04:30 hs",
-    "fecha_ultima_actualizacion": "7 de Octubre de 2026, 21:01 hs",
-    "fecha_inicio_iso": "2026-10-07T04:30:28.389035",
-    "fecha_ultima_actualizacion_iso": "2026-10-07T21:01:39.068672",
-    "resumen_whatsapp": "⚠️ Alerta Naranja en Villa Paranacito y el Delta por lluvias y tormentas intensas. ¡Tomá precauciones! 🌧️⚡️"
   },
   {
     "acontecimiento_id": "2026-10-07-fiscal-villa-paranacito-prision-efectiva",

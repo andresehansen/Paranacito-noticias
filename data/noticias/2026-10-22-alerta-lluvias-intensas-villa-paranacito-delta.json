@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-22-alerta-lluvias-intensas-villa-paranacito-delta",
+  "titulo": "Alerta Meteorológica: Lluvias Intensas Pronosticadas para Villa Paranacito y el Delta",
+  "copete": "El Servicio Meteorológico Nacional emitió un alerta por inestabilidad y precipitaciones significativas que afectarán a Villa Paranacito, Ibicuy y toda la región del Delta entrerriano durante las próximas horas.",
+  "cuerpo": [
+    "La comunidad de Villa Paranacito y las zonas aledañas del Departamento Islas del Ibicuy se preparan para enfrentar una jornada de marcada inestabilidad climática. Los pronósticos indican la llegada de lluvias intensas y persistentes a partir de este jueves, con la posibilidad de tormentas aisladas que podrían generar acumulados significativos de agua en un corto período. Esta situación meteorológica abarca específicamente el corazón del Delta entrerriano, impactando directamente en la vida cotidiana de sus habitantes.",
+    "Según los informes del Servicio Meteorológico Nacional (SMN), la región se encuentra bajo un sistema de baja presión que favorece la formación de núcleos de tormenta. Si bien no se han especificado milimetrajes exactos, las autoridades meteorológicas advierten sobre la probabilidad de que las precipitaciones superen los valores normales para la época, con ráfagas de viento y ocasional caída de granizo en puntos aislados. Desde el Municipio de Islas del Ibicuy, se monitorea la situación y se mantiene contacto con Defensa Civil para coordinar posibles acciones preventivas.",
+    "El impacto de estas lluvias intensas es una preocupación central para los isleños. Los caminos de ripio y tierra, vitales para la conectividad en el Delta, podrían volverse intransitables, dificultando el acceso a servicios esenciales, el transporte de la producción local y la movilidad de los vecinos. Además, el aumento del caudal en arroyos y zanjas, sumado a la saturación del suelo, eleva el riesgo de anegamientos temporales en zonas bajas, afectando viviendas y cultivos. La navegación fluvial también podría verse comprometida por la visibilidad reducida y las condiciones adversas.",
+    "Ante este panorama, se recomienda a los residentes de Villa Paranacito y las zonas ribereñas tomar precauciones. Es fundamental limpiar desagües y canaletas para evitar obstrucciones, asegurar objetos que puedan volarse con el viento y evitar transitar por calles anegadas. En caso de emergencia, se insta a comunicarse con los números de Defensa Civil o la Policía local. Se aconseja mantenerse informado a través de los canales oficiales del Municipio y las radios comunitarias, y posponer actividades al aire libre o viajes no esenciales hasta que mejoren las condiciones climáticas."
+  ],
+  "resumen": "Villa Paranacito y el Delta entrerriano se encuentran bajo alerta por lluvias intensas y tormentas pronosticadas para este jueves. La inestabilidad climática podría afectar la transitabilidad de caminos, generar anegamientos y complicar la navegación fluvial, por lo que se recomienda a los vecinos tomar precauciones y mantenerse informados a través",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Lluvias Intensas",
+    "Alerta Meteorológica",
+    "Delta Entrerriano",
+    "Islas del Ibicuy",
+    "Pronóstico"
+  ],
+  "slug": "alerta-lluvias-intensas-villa-paranacito-delta",
+  "resumen_whatsapp": "⚠️ Alerta por lluvias intensas en Villa Paranacito y el Delta. Precaución en caminos y navegación. ¡Mantente informado! 🌧️🚤",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/amp/inestabilidad-y-pronosticos-de-lluvias-intensas-marcan-este-jueves-en-entre-rios-gualeguaychu-bajo-alerta-amarilla.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw31abAtDJEPtQYaXAyN4R0E",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/amp/inestabilidad-y-pronosticos-de-lluvias-intensas-marcan-este-jueves-en-entre-rios-gualeguaychu-bajo-alerta-amarilla.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw31abAtDJEPtQYaXAyN4R0E",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/amp/inestabilidad-y-pronosticos-de-lluvias-intensas-marcan-este-jueves-en-entre-rios-gualeguaychu-bajo-alerta-amarilla.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw31abAtDJEPtQYaXAyN4R0E",
+      "fecha_consulta": "2026-10-22T19:52:31.210279"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:52",
+      "fecha": "2026-10-22",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito y el Delta entrerriano se encuentran bajo alerta por lluvias intensas y tormentas pronosticadas para este jueves. La inestabilidad climática podría afectar la transitabilidad de camin",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "c8b58ba9667e4b24b5a33d15a1bd2076ab3b4e59c1550235e740372722e68032"
+  ],
+  "fecha_iso": "2026-10-22T19:52:31.210279",
+  "fecha_inicio_iso": "2026-10-22T19:52:31.210279",
+  "fecha_ultima_actualizacion_iso": "2026-10-22T19:52:31.210279",
+  "fecha_publicacion": "22 de Octubre de 2026, 19:52 hs",
+  "fecha_ultima_actualizacion": "22 de Octubre de 2026, 19:52 hs",
+  "archivo": "2026-10-22-alerta-lluvias-intensas-villa-paranacito-delta.json"
+}
