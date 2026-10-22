@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/juegos-entrerrianos-para-adultos-mayores-pueblo-belgrano-fue-campeon-en-padel-femenino.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hv2cS-aqNP4oQEgYnMDWl",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/juegos-entrerrianos-para-adultos-mayores-pueblo-belgrano-fue-campeon-en-padel-femenino.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hv2cS-aqNP4oQEgYnMDWl",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/sociedad/juegos-entrerrianos-para-adultos-mayores-pueblo-belgrano-fue-campeon-en-padel-femenino.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2hv2cS-aqNP4oQEgYnMDWl",
       "fecha_consulta": "2026-10-17T08:17:20.752758"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/22/119530-bahillo-la-produccion-entrerriana-necesita-respuestas-para-salir-de-la-crisis&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1V8IWBadM41A19_E2KItPb",
+      "fecha_consulta": "2026-10-22T22:58:27.495813"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Fermín Tristán emerge como un desafiante político en Villa Paranacito, buscando terminar con la hegemonía de la familia Melchiori. Este movimiento genera expectativas sobre cambios en la gestión munic",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:58",
+      "fecha": "2026-10-22",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Fermín Tristán lanzó oficialmente su candidatura a intendente de Villa Paranacito. El artículo también menciona a Bahillo y la necesidad de respuestas para la producción entrerriana.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "b5246dbc83ce0f1f5d8fece6d0b1cebf784b6477da239216fa31c444989157d1"
+    "b5246dbc83ce0f1f5d8fece6d0b1cebf784b6477da239216fa31c444989157d1",
+    "ed95a9a50f71979490610d2e8833dc55de6f00740078f9711aa8e45bc34f3fb1"
   ],
   "fecha_iso": "2026-10-17T08:17:20.752758",
   "fecha_inicio_iso": "2026-10-17T08:17:20.752758",
-  "fecha_ultima_actualizacion_iso": "2026-10-17T08:17:20.752758",
+  "fecha_ultima_actualizacion_iso": "2026-10-22T22:58:27.495813",
   "fecha_publicacion": "17 de Octubre de 2026, 08:17 hs",
-  "fecha_ultima_actualizacion": "17 de Octubre de 2026, 08:17 hs",
+  "fecha_ultima_actualizacion": "22 de Octubre de 2026, 22:58 hs",
   "archivo": "2026-10-17-villa-paranacito-contienda-politica-hegemonia-melchiori.json"
 }
