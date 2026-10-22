@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-22-alerta-hidrica-villa-paranacito-casa-frigerio",
+  "titulo": "Alerta Hídrica en Villa Paranacito: La Propia Vivienda del Gobernador Frigerio y Producciones Locales Amenazadas por la Crecida",
+  "copete": "La situación de los ríos en el Delta entrerriano se agrava, y el gobernador Rogelio Frigerio admitió que su casa en Villa Paranacito y su producción de nuez pecán están en riesgo inminente de inundación.",
+  "cuerpo": [
+    "La creciente de los ríos Uruguay y Paraná, alimentada por las intensas lluvias en la cuenca alta, mantiene en vilo a los habitantes del Delta entrerriano. En Villa Paranacito, corazón de esta región insular, la preocupación es palpable ante el avance de las aguas. La particular geografía del lugar, con sus arroyos y brazos de río, hace que cada crecida sea un desafío directo para la vida cotidiana y la infraestructura local.",
+    "En este contexto de alerta, el propio gobernador de Entre Ríos, Rogelio Frigerio, puso de manifiesto la gravedad de la situación al reconocer públicamente que su vivienda particular en Villa Paranacito podría quedar bajo el agua. Asimismo, el mandatario provincial señaló que su producción de nuez pecán, una actividad económica relevante para la zona, también se encuentra amenazada por el avance de la inundación.",
+    "La admisión del gobernador subraya la vulnerabilidad que enfrentan cientos de familias isleñas y productores de la región. Para los vecinos de Villa Paranacito y sus alrededores, la crecida implica no solo el riesgo de perder bienes materiales, sino también la interrupción de servicios esenciales, el aislamiento de caminos y la afectación directa a la producción agropecuaria, pilar de la economía local. La nuez pecán, en particular, es un cultivo que requiere condiciones específicas y es altamente sensible a los excesos hídricos.",
+    "Ante este panorama, el Municipio de Islas del Ibicuy, en coordinación con Defensa Civil y Prefectura Naval Argentina, ha intensificado el monitoreo de los niveles hídricos y se encuentra en estado de alerta. Se recomienda a los residentes de zonas bajas y ribereñas tomar precauciones, asegurar sus pertenencias, y estar atentos a los comunicados oficiales. En caso de ser necesario, se activarán los protocolos de asistencia y evacuación, y se insta a los vecinos a contactar a las autoridades locales para reportar cualquier emergencia o solicitar ayuda."
+  ],
+  "resumen": "La crecida de los ríos amenaza Villa Paranacito, incluyendo la vivienda del gobernador Frigerio y su producción de nuez pecán. Esta situación refleja la vulnerabilidad de las familias isleñas y productores locales, afectando servicios y la economía regional. Autoridades monitorean la situación y recomiendan precaución a los vecinos.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Inundaciones",
+    "Villa Paranacito",
+    "Río Uruguay",
+    "Delta Entrerriano",
+    "Producción Pecán",
+    "Defensa Civil"
+  ],
+  "slug": "alerta-hidrica-villa-paranacito-casa-frigerio",
+  "resumen_whatsapp": "🚨 Villa Paranacito en alerta por crecida: Casa del Gobernador Frigerio y producción de nuez pecán en riesgo. ¡Precaución para todos los vecinos!",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://plazaweb.com.ar/frigerio-confirmo-que-definira-si-busca-la-reeleccion-tras-hablar-con-su-familia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1uCWM3kCqaySUD8Rbhjkxp",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://plazaweb.com.ar/frigerio-confirmo-que-definira-si-busca-la-reeleccion-tras-hablar-con-su-familia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1uCWM3kCqaySUD8Rbhjkxp",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://plazaweb.com.ar/frigerio-confirmo-que-definira-si-busca-la-reeleccion-tras-hablar-con-su-familia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1uCWM3kCqaySUD8Rbhjkxp",
+      "fecha_consulta": "2026-10-22T13:40:04.238425"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "13:40",
+      "fecha": "2026-10-22",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La crecida de los ríos amenaza Villa Paranacito, incluyendo la vivienda del gobernador Frigerio y su producción de nuez pecán. Esta situación refleja la vulnerabilidad de las familias isleñas y produc",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "aca299bdfba8d2a80241293344c1fb8ba904a4d9cbccd0b8a093ab5e38b54114"
+  ],
+  "fecha_iso": "2026-10-22T13:40:04.238425",
+  "fecha_inicio_iso": "2026-10-22T13:40:04.238425",
+  "fecha_ultima_actualizacion_iso": "2026-10-22T13:40:04.238425",
+  "fecha_publicacion": "22 de Octubre de 2026, 13:40 hs",
+  "fecha_ultima_actualizacion": "22 de Octubre de 2026, 13:40 hs",
+  "archivo": "2026-10-22-alerta-hidrica-villa-paranacito-casa-frigerio.json"
+}
