@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-10-22-excelente-pique-delta-villa-paranacito",
+    "slug": "excelente-pique-delta-villa-paranacito",
+    "titulo": "Excelente Pique en el Delta de Villa Paranacito: La Temporada Promete para Pescadores y Turismo",
+    "copete": "Pescadores y aficionados de Villa Paranacito y la región celebran un momento óptimo para la pesca deportiva, con variadas especies y condiciones favorables en los arroyos y ríos del Delta entrerriano.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "pesca",
+      "Villa Paranacito",
+      "Delta",
+      "turismo",
+      "río",
+      "deportes",
+      "Nicolás Tersi Poneff"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "22 de Octubre de 2026, 04:08 hs",
+    "fecha_ultima_actualizacion": "22 de Octubre de 2026, 04:08 hs",
+    "fecha_inicio_iso": "2026-10-22T04:08:44.819280",
+    "fecha_ultima_actualizacion_iso": "2026-10-22T04:08:44.819280",
+    "resumen_whatsapp": "🎣 ¡Excelente pique en Villa Paranacito! Dorados y surubíes abundan en el Delta, impulsando el turismo local. ¡A pescar con responsabilidad! 🚤"
+  },
+  {
     "acontecimiento_id": "2026-10-22-isfdc-villa-paranacito-concurso-docente",
     "slug": "isfdc-villa-paranacito-concurso-docente",
     "titulo": "El ISFDC Villa Paranacito Lanza Concurso Docente Clave para la Formación Regional",
@@ -2298,36 +2328,6 @@
     "fecha_inicio_iso": "2026-09-11T03:11:06.349912",
     "fecha_ultima_actualizacion_iso": "2026-09-11T03:11:06.349912",
     "resumen_whatsapp": "🏗️ ¡Buenas noticias para Villa Paranacito! Siete empresas compiten para finalizar 50 viviendas. Se espera pronta adjudicación para retomar las obras. 🏡✨"
-  },
-  {
-    "acontecimiento_id": "2026-09-10-excelente-pique-delta-villa-paranacito",
-    "slug": "excelente-pique-delta-villa-paranacito",
-    "titulo": "Excelente Pique en el Delta de Villa Paranacito: La Temporada de Pesca Atrae a Aficionados y Turistas",
-    "copete": "Villa Paranacito se consolida como un destino privilegiado para la pesca deportiva, con reportes de un pique excepcional que atrae a pescadores de toda la región y más allá.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "pesca deportiva",
-      "Villa Paranacito",
-      "Delta entrerriano",
-      "turismo",
-      "río",
-      "dorado",
-      "surubí"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "10 de Septiembre de 2026, 12:49 hs",
-    "fecha_ultima_actualizacion": "10 de Septiembre de 2026, 12:49 hs",
-    "fecha_inicio_iso": "2026-09-10T12:49:45.777137",
-    "fecha_ultima_actualizacion_iso": "2026-09-10T12:49:45.777137",
-    "resumen_whatsapp": "🎣 ¡Pique excepcional en Villa Paranacito! Dorados y surubíes a la orden del día. 🚤 Impulsa el turismo local. ¡A disfrutar y cuidar el río! #Pesca #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-09-06-obras-paranacito-deuda-nacional",
