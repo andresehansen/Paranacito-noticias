@@ -1,22 +1,22 @@
 {
-  "ultima_actualizacion": "23/10/2026 13:14",
-  "timestamp_iso": "2026-10-23T13:14:36.973243",
+  "ultima_actualizacion": "23/10/2026 16:31",
+  "timestamp_iso": "2026-10-23T16:31:08.821974",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 19,
-    "sensacion_termica": 21,
-    "humedad": 95,
-    "viento_velocidad_kmh": 9,
-    "viento_direccion": "SSO",
-    "presion_hpa": 1010,
-    "descripcion": "Nublado",
-    "icono": "☁️",
+    "temperatura": 22,
+    "sensacion_termica": 24,
+    "humedad": 83,
+    "viento_velocidad_kmh": 10,
+    "viento_direccion": "SO",
+    "presion_hpa": 1009,
+    "descripcion": "Llovizna intensa",
+    "icono": "🌧️",
     "pronostico_extendido": [
       {
         "fecha": "2026-10-23",
         "temp_max": 24,
         "temp_min": 16,
-        "prob_lluvia": 65,
+        "prob_lluvia": 59,
         "descripcion": "Chaparrones moderados",
         "icono": "🌧️"
       },
@@ -24,7 +24,7 @@
         "fecha": "2026-10-24",
         "temp_max": 19,
         "temp_min": 12,
-        "prob_lluvia": 16,
+        "prob_lluvia": 7,
         "descripcion": "Llovizna leve",
         "icono": "🌦️"
       },
@@ -32,7 +32,7 @@
         "fecha": "2026-10-25",
         "temp_max": 17,
         "temp_min": 10,
-        "prob_lluvia": 35,
+        "prob_lluvia": 43,
         "descripcion": "Llovizna moderada",
         "icono": "🌧️"
       },
@@ -40,7 +40,7 @@
         "fecha": "2026-10-26",
         "temp_max": 18,
         "temp_min": 8,
-        "prob_lluvia": 18,
+        "prob_lluvia": 22,
         "descripcion": "Niebla en el Delta",
         "icono": "🌫️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-23 13:14"
+    "actualizado": "2026-10-23 16:31"
   }
 }
