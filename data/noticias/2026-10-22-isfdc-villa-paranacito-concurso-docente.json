@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/10/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-330/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Ls7xpx7I9pAiLqzRHr3z5",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/10/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-330/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Ls7xpx7I9pAiLqzRHr3z5",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/10/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-330/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Ls7xpx7I9pAiLqzRHr3z5",
       "fecha_consulta": "2026-10-22T03:26:54.386609"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/10/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-331/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw32XuZM1OHRQM8SqicrHlPu",
+      "fecha_consulta": "2026-10-23T03:31:44.529834"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El ISFDC “Villa Paranacito” convoca a concurso docente del 21 al 27 de octubre de 2026. Esta iniciativa busca cubrir cargos y fortalecer la educación en el Delta entrerriano, ofreciendo oportunidades ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "03:31",
+      "fecha": "2026-10-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Llamado a Concurso – Instituto Superior de Formación Docente Continua “ Villa Paranacito ” – ISLAS",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "9a2a8afb9bc9c53c29a03fe5ade281cb183bc44f67f2aea0087c3eec2585e6f4"
+    "9a2a8afb9bc9c53c29a03fe5ade281cb183bc44f67f2aea0087c3eec2585e6f4",
+    "55b1e0fbef46cfc8e057ec04f3c3239d47f8477c68c7e5e29205c708ef398696"
   ],
   "fecha_iso": "2026-10-22T03:26:54.386609",
   "fecha_inicio_iso": "2026-10-22T03:26:54.386609",
-  "fecha_ultima_actualizacion_iso": "2026-10-22T03:26:54.386609",
+  "fecha_ultima_actualizacion_iso": "2026-10-23T03:31:44.529834",
   "fecha_publicacion": "22 de Octubre de 2026, 03:26 hs",
-  "fecha_ultima_actualizacion": "22 de Octubre de 2026, 03:26 hs",
+  "fecha_ultima_actualizacion": "23 de Octubre de 2026, 03:31 hs",
   "archivo": "2026-10-22-isfdc-villa-paranacito-concurso-docente.json"
 }

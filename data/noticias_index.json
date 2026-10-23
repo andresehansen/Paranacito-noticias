@@ -1,5 +1,93 @@
 [
   {
+    "acontecimiento_id": "2026-10-23-fermin-tristan-candidato-intendente-villa-paranacito",
+    "slug": "fermin-tristan-candidato-intendente-villa-paranacito",
+    "titulo": "Fermín Tristán Oficializa su Candidatura a Intendente de Villa Paranacito",
+    "copete": "Fermín Tristán ha formalizado su postulación para la intendencia de Villa Paranacito, presentando una plataforma centrada en el desarrollo sostenible y la mejora de la calidad de vida para los vecinos del Delta.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Elecciones",
+      "Candidatura",
+      "Fermín Tristán",
+      "Delta Entrerriano",
+      "Política Local"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Octubre de 2026, 03:32 hs",
+    "fecha_ultima_actualizacion": "23 de Octubre de 2026, 03:32 hs",
+    "fecha_inicio_iso": "2026-10-23T03:32:10.046950",
+    "fecha_ultima_actualizacion_iso": "2026-10-23T03:32:10.046950",
+    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a Intendente de Villa Paranacito. Propone desarrollo local, mejoras en servicios y atención a las necesidades del Delta. ¡Elecciones en marcha! #Paranacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-23-concurso-docente-primario-villa-paranacito",
+    "slug": "concurso-docente-primario-villa-paranacito",
+    "titulo": "Concurso Docente de Nivel Primario en Villa Paranacito: Fortaleciendo la Educación del Delta",
+    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy convoca a docentes de Nivel Primario a un concurso complementario que se realizará en Villa Paranacito, una iniciativa clave para la cobertura de cargos y la continuidad pedagógica en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Concurso Docente",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "DDE"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Octubre de 2026, 03:31 hs",
+    "fecha_ultima_actualizacion": "23 de Octubre de 2026, 03:31 hs",
+    "fecha_inicio_iso": "2026-10-23T03:31:56.876044",
+    "fecha_ultima_actualizacion_iso": "2026-10-23T03:31:56.876044",
+    "resumen_whatsapp": "📚 ¡Atención docentes de Primaria! Concurso complementario en Villa Paranacito el 23/10 a las 09:30 hs. Oportunidades para la educación del Delta. #Educación #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-22-isfdc-villa-paranacito-concurso-docente",
+    "slug": "isfdc-villa-paranacito-concurso-docente",
+    "titulo": "El ISFDC Villa Paranacito Lanza Concurso Docente Clave para la Formación Regional",
+    "copete": "El Instituto Superior de Formación Docente Continua “Villa Paranacito” ha convocado a un primer llamado a concurso para cubrir cargos, una oportunidad fundamental para profesionales de la educación en la región del Delta.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Concurso Docente",
+      "ISFDC",
+      "Delta Entrerriano",
+      "Oportunidad Laboral"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "22 de Octubre de 2026, 03:26 hs",
+    "fecha_ultima_actualizacion": "23 de Octubre de 2026, 03:31 hs",
+    "fecha_inicio_iso": "2026-10-22T03:26:54.386609",
+    "fecha_ultima_actualizacion_iso": "2026-10-23T03:31:44.529834",
+    "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso del 21 al 27 de octubre de 2026. ¡Oportunidad en el Delta! 📚👩‍🏫"
+  },
+  {
     "acontecimiento_id": "2026-10-22-ley-vandalismo-rural-seguridad-delta-paranacito",
     "slug": "ley-vandalismo-rural-seguridad-delta-paranacito",
     "titulo": "Nueva Ley de Vandalismo Rural: Impacto en la Seguridad de Productores de Villa Paranacito y el Delta",
@@ -146,35 +234,6 @@
     "fecha_inicio_iso": "2026-10-22T04:08:44.819280",
     "fecha_ultima_actualizacion_iso": "2026-10-22T04:08:44.819280",
     "resumen_whatsapp": "🎣 ¡Excelente pique en Villa Paranacito! Dorados y surubíes abundan en el Delta, impulsando el turismo local. ¡A pescar con responsabilidad! 🚤"
-  },
-  {
-    "acontecimiento_id": "2026-10-22-isfdc-villa-paranacito-concurso-docente",
-    "slug": "isfdc-villa-paranacito-concurso-docente",
-    "titulo": "El ISFDC Villa Paranacito Lanza Concurso Docente Clave para la Formación Regional",
-    "copete": "El Instituto Superior de Formación Docente Continua “Villa Paranacito” ha convocado a un primer llamado a concurso para cubrir cargos, una oportunidad fundamental para profesionales de la educación en la región del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Educación",
-      "Concurso Docente",
-      "ISFDC",
-      "Delta Entrerriano",
-      "Oportunidad Laboral"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Octubre de 2026, 03:26 hs",
-    "fecha_ultima_actualizacion": "22 de Octubre de 2026, 03:26 hs",
-    "fecha_inicio_iso": "2026-10-22T03:26:54.386609",
-    "fecha_ultima_actualizacion_iso": "2026-10-22T03:26:54.386609",
-    "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso del 21 al 27 de octubre de 2026. ¡Oportunidad en el Delta! 📚👩‍🏫"
   },
   {
     "acontecimiento_id": "2026-10-21-emergencia-agropecuaria-villa-paranacito-crecida-rios",
@@ -559,35 +618,6 @@
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: El Niño provoca crecida de ríos, campos bajo agua y evacuación de ganado. ¡Productores en emergencia! 🐄💧 #VillaParanacito"
   },
   {
-    "acontecimiento_id": "2026-10-15-fermin-tristan-candidato-intendente-villa-paranacito",
-    "slug": "fermin-tristan-candidato-intendente-villa-paranacito",
-    "titulo": "Villa Paranacito: Fermín Tristán Oficializa su Candidatura a Intendente",
-    "copete": "El dirigente local Fermín Tristán anunció formalmente su postulación para la intendencia de Villa Paranacito, marcando el inicio de la carrera electoral en la localidad y el Delta.",
-    "categoria": "Comunidad",
-    "tags": [
-      "Villa Paranacito",
-      "Elecciones 2023",
-      "Fermín Tristán",
-      "Intendente",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "15 de Octubre de 2026, 22:55 hs",
-    "fecha_ultima_actualizacion": "16 de Octubre de 2026, 22:34 hs",
-    "fecha_inicio_iso": "2026-10-15T22:55:10.164855",
-    "fecha_ultima_actualizacion_iso": "2026-10-16T22:34:04.472730",
-    "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a intendente de Villa Paranacito. Propuestas para mejorar servicios e infraestructura en el Delta. ¡Se viene la campaña! #Elecciones2023"
-  },
-  {
     "acontecimiento_id": "2026-10-16-control-rural-villa-paranacito-carne-ilegal",
     "slug": "control-rural-villa-paranacito-carne-ilegal",
     "titulo": "Control Rural en Villa Paranacito: Incautan 200 Kilos de Carne Vacuna y Detienen a un Hombre por Faena Ilegal",
@@ -863,37 +893,6 @@
     "fecha_inicio_iso": "2026-10-14T16:37:38.266274",
     "fecha_ultima_actualizacion_iso": "2026-10-14T16:37:38.266274",
     "resumen_whatsapp": "🚨 Auto incendiado en Ruta 45 cerca de Villa Paranacito. Conductor ileso. ¡Atención a la prevención vehicular! 🔥🚗💨"
-  },
-  {
-    "acontecimiento_id": "2026-10-14-concurso-docente-villa-paranacito-dde-islas-ibicuy",
-    "slug": "concurso-docente-villa-paranacito-dde-islas-ibicuy",
-    "titulo": "Concurso Docente Clave en Villa Paranacito: La D.D.E. Islas del Ibicuy convoca a Nivel Inicial y Primario",
-    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy realizará un importante concurso para cargos de Nivel Inicial y Primario el próximo miércoles 14 de octubre en su sede de Villa Paranacito.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Educación",
-      "Concurso Docente",
-      "Villa Paranacito",
-      "DDE Islas del Ibicuy",
-      "Nivel Inicial",
-      "Nivel Primario",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "14 de Octubre de 2026, 03:41 hs",
-    "fecha_ultima_actualizacion": "14 de Octubre de 2026, 03:41 hs",
-    "fecha_inicio_iso": "2026-10-14T03:41:25.567046",
-    "fecha_ultima_actualizacion_iso": "2026-10-14T03:41:25.567046",
-    "resumen_whatsapp": "🚨 ¡Atención docentes de Nivel Inicial y Primario! La D.D.E. Islas del Ibicuy convoca a concurso el 14/10 a las 11h en Villa Paranacito (Los Cipreses 1012). ¡Oportunidad clave para la educación del Delta! 📚🍎"
   },
   {
     "acontecimiento_id": "2026-10-09-villa-paranacito-alerta-crecida-rio-uruguay",
