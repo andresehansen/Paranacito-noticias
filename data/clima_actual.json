@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "24/10/2026 04:03",
-  "timestamp_iso": "2026-10-24T04:03:51.945279",
+  "ultima_actualizacion": "24/10/2026 08:40",
+  "timestamp_iso": "2026-10-24T08:40:26.969008",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 15,
-    "sensacion_termica": 14,
-    "humedad": 87,
-    "viento_velocidad_kmh": 14,
-    "viento_direccion": "S",
-    "presion_hpa": 1011,
-    "descripcion": "Parcialmente nublado",
-    "icono": "⛅",
+    "temperatura": 12,
+    "sensacion_termica": 11,
+    "humedad": 91,
+    "viento_velocidad_kmh": 10,
+    "viento_direccion": "SSO",
+    "presion_hpa": 1012,
+    "descripcion": "Nublado",
+    "icono": "☁️",
     "pronostico_extendido": [
       {
         "fecha": "2026-10-24",
-        "temp_max": 18,
+        "temp_max": 19,
         "temp_min": 12,
-        "prob_lluvia": 7,
+        "prob_lluvia": 31,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-10-25",
+        "temp_max": 16,
+        "temp_min": 10,
+        "prob_lluvia": 31,
         "descripcion": "Llovizna leve",
         "icono": "🌦️"
       },
       {
-        "fecha": "2026-10-25",
-        "temp_max": 17,
-        "temp_min": 10,
-        "prob_lluvia": 43,
-        "descripcion": "Llovizna moderada",
-        "icono": "🌧️"
-      },
-      {
         "fecha": "2026-10-26",
         "temp_max": 17,
-        "temp_min": 8,
-        "prob_lluvia": 22,
+        "temp_min": 7,
+        "prob_lluvia": 31,
         "descripcion": "Llovizna leve",
         "icono": "🌦️"
       },
       {
         "fecha": "2026-10-27",
         "temp_max": 19,
-        "temp_min": 10,
+        "temp_min": 9,
         "prob_lluvia": 10,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "descripcion": "Llovizna moderada",
+        "icono": "🌧️"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-24 04:03"
+    "actualizado": "2026-10-24 08:40"
   }
 }
