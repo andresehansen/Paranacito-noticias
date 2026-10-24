@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-10-24-accidente-ruta-45-paranacito-hospitalizado",
+  "titulo": "Grave Accidente en el Acceso a Villa Paranacito: Volcó vehículo con pescadores y un hombre fue hospitalizado",
+  "copete": "Un siniestro vial se registró en la Ruta Provincial 45, en el tramo que conduce a Villa Paranacito, cuando un automóvil con ocupantes que se dirigían a pescar sufrió un vuelco, dejando a uno de ellos con heridas que requirieron internación.",
+  "cuerpo": [
+    "Un incidente de tránsito conmocionó la tranquilidad de la región del Delta entrerriano este fin de semana, cuando un vehículo particular que se dirigía hacia Villa Paranacito con un grupo de pescadores a bordo, sufrió un vuelco en la Ruta Provincial 45. El hecho ocurrió en un tramo clave de acceso a nuestra localidad, generando la inmediata movilización de los servicios de emergencia locales para asistir a los involucrados.",
+    "Según información recabada en el lugar y confirmada por fuentes cercanas al operativo, uno de los ocupantes del rodado, un hombre mayor de edad, debió ser trasladado de urgencia al Hospital de Villa Paranacito. Allí recibió las primeras atenciones médicas por lesiones de diversa consideración, quedando internado para observación y estudios complementarios. En el sitio del accidente intervinieron efectivos de la Comisaría de Villa Paranacito, personal de Bomberos Voluntarios y ambulancias del centro de salud local, quienes trabajaron coordinadamente para asegurar la zona y brindar asistencia.",
+    "Este lamentable suceso pone de manifiesto la importancia de la seguridad vial en las rutas que conectan a Villa Paranacito y las Islas del Ibicuy con el resto de la provincia. Para los vecinos y visitantes que transitan diariamente por estos caminos, la precaución es fundamental, especialmente considerando las características de la traza y la posible presencia de fauna silvestre. La capacidad de respuesta de nuestras instituciones locales, como el Hospital y los Bomberos, es vital para atender estas emergencias que impactan directamente en la vida cotidiana de la comunidad.",
+    "Desde las autoridades municipales y de seguridad vial se reitera el llamado a extremar las medidas de precaución al conducir. Se aconseja respetar estrictamente los límites de velocidad, mantener la distancia de seguridad, evitar el consumo de alcohol al volante y utilizar siempre el cinturón de seguridad. Asimismo, se recomienda verificar el estado mecánico del vehículo antes de emprender cualquier viaje, contribuyendo así a la prevención de accidentes y a la protección de la vida en nuestras rutas."
+  ],
+  "resumen": "Un vehículo con pescadores volcó en la Ruta Provincial 45, en el acceso a Villa Paranacito, resultando en la hospitalización de uno de sus ocupantes. El incidente movilizó a los servicios de emergencia locales y subraya la importancia de la seguridad vial en las rutas del Delta entrerriano, instando a la precaución al conducir.",
+  "categoria": "Sociedad",
+  "tags": [
+    "Accidente vial",
+    "Ruta Provincial 45",
+    "Villa Paranacito",
+    "Seguridad Vial",
+    "Emergencias"
+  ],
+  "slug": "accidente-ruta-45-paranacito-hospitalizado",
+  "resumen_whatsapp": "🚨 Accidente en Ruta 45, acceso a Villa Paranacito: Volcó vehículo con pescadores y un hombre fue hospitalizado. ¡Manejemos con precaución! 🚗⚠️",
+  "imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google News (AHORA Entre Ríos)",
+  "fuente_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMFpoc1lTQmlmT1E0RmtfeXdsdi1aUHpZTmtkQkZJUGItZ0c5QS1FZWlwVkp3MThIekRwVVl6U1hmX1h5MWlzS1ZLY2lwV0RNaU1LX1dBdG90TkIwUmZnZWpveXRzZEpxYUVwSWk3dGdMWVBaYXVzZ0xNZEhqSGZNZHBraEFzZw?oc=5",
+  "url_original": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMFpoc1lTQmlmT1E0RmtfeXdsdi1aUHpZTmtkQkZJUGItZ0c5QS1FZWlwVkp3MThIekRwVVl6U1hmX1h5MWlzS1ZLY2lwV0RNaU1LX1dBdG90TkIwUmZnZWpveXRzZEpxYUVwSWk3dGdMWVBaYXVzZ0xNZEhqSGZNZHBraEFzZw?oc=5",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google News (AHORA Entre Ríos)",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMFpoc1lTQmlmT1E0RmtfeXdsdi1aUHpZTmtkQkZJUGItZ0c5QS1FZWlwVkp3MThIekRwVVl6U1hmX1h5MWlzS1ZLY2lwV0RNaU1LX1dBdG90TkIwUmZnZWpveXRzZEpxYUVwSWk3dGdMWVBaYXVzZ0xNZEhqSGZNZHBraEFzZw?oc=5",
+      "fecha_consulta": "2026-10-24T22:15:50.301835"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "22:15",
+      "fecha": "2026-10-24",
+      "fuente": "Google News (AHORA Entre Ríos)",
+      "dato": "Un vehículo con pescadores volcó en la Ruta Provincial 45, en el acceso a Villa Paranacito, resultando en la hospitalización de uno de sus ocupantes. El incidente movilizó a los servicios de emergenci",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "ec17944395a5311b10ea6c5189a8f1ba0d77ba596c798b4cb2bbfefe4f3a5ce9"
+  ],
+  "fecha_iso": "2026-10-24T22:15:50.301835",
+  "fecha_inicio_iso": "2026-10-24T22:15:50.301835",
+  "fecha_ultima_actualizacion_iso": "2026-10-24T22:15:50.301835",
+  "fecha_publicacion": "24 de Octubre de 2026, 22:15 hs",
+  "fecha_ultima_actualizacion": "24 de Octubre de 2026, 22:15 hs",
+  "archivo": "2026-10-24-accidente-ruta-45-paranacito-hospitalizado.json"
+}
