@@ -1,13 +1,13 @@
 {
-  "ultima_actualizacion": "26/10/2026 20:57",
-  "timestamp_iso": "2026-10-26T20:57:22.244157",
+  "ultima_actualizacion": "26/10/2026 23:35",
+  "timestamp_iso": "2026-10-26T23:35:07.053134",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 16,
-    "sensacion_termica": 15,
-    "humedad": 61,
-    "viento_velocidad_kmh": 8,
-    "viento_direccion": "E",
+    "temperatura": 14,
+    "sensacion_termica": 12,
+    "humedad": 76,
+    "viento_velocidad_kmh": 6,
+    "viento_direccion": "ESE",
     "presion_hpa": 1020,
     "descripcion": "Nublado",
     "icono": "☁️",
@@ -16,7 +16,7 @@
         "fecha": "2026-10-26",
         "temp_max": 18,
         "temp_min": 8,
-        "prob_lluvia": 48,
+        "prob_lluvia": 24,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
@@ -24,7 +24,7 @@
         "fecha": "2026-10-27",
         "temp_max": 19,
         "temp_min": 10,
-        "prob_lluvia": 12,
+        "prob_lluvia": 10,
         "descripcion": "Llovizna leve",
         "icono": "🌦️"
       },
@@ -32,7 +32,7 @@
         "fecha": "2026-10-28",
         "temp_max": 22,
         "temp_min": 10,
-        "prob_lluvia": 10,
+        "prob_lluvia": 14,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
@@ -40,7 +40,7 @@
         "fecha": "2026-10-29",
         "temp_max": 24,
         "temp_min": 12,
-        "prob_lluvia": 49,
+        "prob_lluvia": 59,
         "descripcion": "Llovizna leve",
         "icono": "🌦️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-26 20:57"
+    "actualizado": "2026-10-26 23:35"
   }
 }
