@@ -1,5 +1,37 @@
 [
   {
+    "acontecimiento_id": "2026-10-26-oportunidad-laboral-juzgado-paz-paranacito-ibicuy",
+    "slug": "oportunidad-laboral-juzgado-paz-paranacito-ibicuy",
+    "titulo": "Oportunidad Laboral en el Delta: Abren Concurso para Secretarías de Juzgados de Paz en Villa Paranacito e Ibicuy",
+    "copete": "El Superior Tribunal de Justicia de Entre Ríos ha lanzado un concurso público para cubrir las Secretarías de los Juzgados de Paz de Villa Paranacito y de Ibicuy, ofreciendo una valiosa oportunidad de empleo para profesionales de la región.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Ibicuy",
+      "Juzgado de Paz",
+      "Concurso Público",
+      "Empleo",
+      "Justicia",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "26 de Octubre de 2026, 20:58 hs",
+    "fecha_ultima_actualizacion": "26 de Octubre de 2026, 20:58 hs",
+    "fecha_inicio_iso": "2026-10-26T20:58:00.073139",
+    "fecha_ultima_actualizacion_iso": "2026-10-26T20:58:09.592496",
+    "resumen_whatsapp": "🚨 ¡Atención Delta! Abren concurso para Secretarías de Juzgados de Paz en Villa Paranacito e Ibicuy. ¡Oportunidad laboral clave para la justicia local! ⚖️💼"
+  },
+  {
     "acontecimiento_id": "2026-10-26-escuela-itinerante-agmer-villa-paranacito",
     "slug": "escuela-itinerante-agmer-villa-paranacito",
     "titulo": "La Escuela Itinerante de Agmer dejó su huella en Villa Paranacito",
@@ -26,34 +58,6 @@
     "fecha_inicio_iso": "2026-10-26T18:19:49.220917",
     "fecha_ultima_actualizacion_iso": "2026-10-26T18:19:49.220917",
     "resumen_whatsapp": "📚 La Escuela Itinerante de Agmer estuvo en Villa Paranacito, llevando el debate educativo a los docentes del Delta. ¡Una oportunidad clave para la educación isleña! #Educación #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-10-26-concurso-secretaria-juzgado-paz-paranacito",
-    "slug": "concurso-secretaria-juzgado-paz-paranacito",
-    "titulo": "Concurso Abierto para Secretaría del Juzgado de Paz de Villa Paranacito: Oportunidad Laboral en el Delta",
-    "copete": "El Superior Tribunal de Justicia de Entre Ríos ha lanzado un llamado a concurso abierto para cubrir la Secretaría del Juzgado de Paz de Villa Paranacito, una posición fundamental para la administración de justicia en la región de Islas del Ibicuy.",
-    "categoria": "Comunidad",
-    "tags": [
-      "Villa Paranacito",
-      "Juzgado de Paz",
-      "Concurso Laboral",
-      "Islas del Ibicuy",
-      "Poder Judicial"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "26 de Octubre de 2026, 18:19 hs",
-    "fecha_ultima_actualizacion": "26 de Octubre de 2026, 18:19 hs",
-    "fecha_inicio_iso": "2026-10-26T18:19:36.929811",
-    "fecha_ultima_actualizacion_iso": "2026-10-26T18:19:36.929811",
-    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Abierto concurso para la Secretaría del Juzgado de Paz. Oportunidad laboral clave para la justicia local. Más info en Paranacito Noticias. ⚖️"
   },
   {
     "acontecimiento_id": "2026-10-25-accidente-acceso-paranacito-volco-camioneta-pescadores",
