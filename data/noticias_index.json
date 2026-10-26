@@ -1,5 +1,61 @@
 [
   {
+    "acontecimiento_id": "2026-10-26-escuela-itinerante-agmer-villa-paranacito",
+    "slug": "escuela-itinerante-agmer-villa-paranacito",
+    "titulo": "La Escuela Itinerante de Agmer dejó su huella en Villa Paranacito",
+    "copete": "La iniciativa de formación y debate sindical de Agmer visitó Villa Paranacito, llevando el diálogo educativo a los docentes de la región del Delta entrerriano.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Agmer",
+      "Villa Paranacito",
+      "Delta",
+      "Escuela Itinerante"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Octubre de 2026, 18:19 hs",
+    "fecha_ultima_actualizacion": "26 de Octubre de 2026, 18:19 hs",
+    "fecha_inicio_iso": "2026-10-26T18:19:49.220917",
+    "fecha_ultima_actualizacion_iso": "2026-10-26T18:19:49.220917",
+    "resumen_whatsapp": "📚 La Escuela Itinerante de Agmer estuvo en Villa Paranacito, llevando el debate educativo a los docentes del Delta. ¡Una oportunidad clave para la educación isleña! #Educación #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-10-26-concurso-secretaria-juzgado-paz-paranacito",
+    "slug": "concurso-secretaria-juzgado-paz-paranacito",
+    "titulo": "Concurso Abierto para Secretaría del Juzgado de Paz de Villa Paranacito: Oportunidad Laboral en el Delta",
+    "copete": "El Superior Tribunal de Justicia de Entre Ríos ha lanzado un llamado a concurso abierto para cubrir la Secretaría del Juzgado de Paz de Villa Paranacito, una posición fundamental para la administración de justicia en la región de Islas del Ibicuy.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Juzgado de Paz",
+      "Concurso Laboral",
+      "Islas del Ibicuy",
+      "Poder Judicial"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Octubre de 2026, 18:19 hs",
+    "fecha_ultima_actualizacion": "26 de Octubre de 2026, 18:19 hs",
+    "fecha_inicio_iso": "2026-10-26T18:19:36.929811",
+    "fecha_ultima_actualizacion_iso": "2026-10-26T18:19:36.929811",
+    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito! Abierto concurso para la Secretaría del Juzgado de Paz. Oportunidad laboral clave para la justicia local. Más info en Paranacito Noticias. ⚖️"
+  },
+  {
     "acontecimiento_id": "2026-10-25-accidente-acceso-paranacito-volco-camioneta-pescadores",
     "slug": "accidente-acceso-paranacito-volco-camioneta-pescadores",
     "titulo": "Grave Accidente en el Acceso a Villa Paranacito: Volcó Camioneta de Pescadores y un Hombre Fue Hospitalizado",
@@ -115,36 +171,6 @@
     "fecha_inicio_iso": "2026-10-23T03:31:56.876044",
     "fecha_ultima_actualizacion_iso": "2026-10-23T03:31:56.876044",
     "resumen_whatsapp": "📚 ¡Atención docentes de Primaria! Concurso complementario en Villa Paranacito el 23/10 a las 09:30 hs. Oportunidades para la educación del Delta. #Educación #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-10-22-isfdc-villa-paranacito-concurso-docente",
-    "slug": "isfdc-villa-paranacito-concurso-docente",
-    "titulo": "El ISFDC Villa Paranacito Lanza Concurso Docente Clave para la Formación Regional",
-    "copete": "El Instituto Superior de Formación Docente Continua “Villa Paranacito” ha convocado a un primer llamado a concurso para cubrir cargos, una oportunidad fundamental para profesionales de la educación en la región del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Educación",
-      "Concurso Docente",
-      "ISFDC",
-      "Delta Entrerriano",
-      "Oportunidad Laboral"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "22 de Octubre de 2026, 03:26 hs",
-    "fecha_ultima_actualizacion": "23 de Octubre de 2026, 03:31 hs",
-    "fecha_inicio_iso": "2026-10-22T03:26:54.386609",
-    "fecha_ultima_actualizacion_iso": "2026-10-23T03:31:44.529834",
-    "resumen_whatsapp": "🚨 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso del 21 al 27 de octubre de 2026. ¡Oportunidad en el Delta! 📚👩‍🏫"
   },
   {
     "acontecimiento_id": "2026-10-22-ley-vandalismo-rural-seguridad-delta-paranacito",
@@ -438,64 +464,6 @@
     "fecha_inicio_iso": "2026-10-20T19:56:43.366050",
     "fecha_ultima_actualizacion_iso": "2026-10-20T19:56:43.366050",
     "resumen_whatsapp": "⚠️ Alerta El Niño en Villa Paranacito y Delta de Ibicuy. 🌧️ 100mm en 1 hora evidencian vulnerabilidad. ¡Preparate y seguí los avisos oficiales! #ElNiño #Paranacito"
-  },
-  {
-    "acontecimiento_id": "2026-10-19-escuela-itinerante-villa-paranacito-delta",
-    "slug": "escuela-itinerante-villa-paranacito-delta",
-    "titulo": "La Escuela Itinerante que Marcó Presencia en Villa Paranacito: Un Legado Educativo para el Delta",
-    "copete": "Villa Paranacito fue una de las primeras paradas de la 'Escuela Itinerante', una iniciativa provincial que buscó acercar formación y recursos a diversas comunidades, dejando una huella en el corazón del Delta entrerriano.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Educación Itinerante",
-      "Formación Comunitaria",
-      "Entre Ríos"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "19 de Octubre de 2026, 15:25 hs",
-    "fecha_ultima_actualizacion": "19 de Octubre de 2026, 18:23 hs",
-    "fecha_inicio_iso": "2026-10-19T15:25:57.193583",
-    "fecha_ultima_actualizacion_iso": "2026-10-19T18:23:11.344089",
-    "resumen_whatsapp": "🏫 Villa Paranacito fue sede de la 'Escuela Itinerante', llevando formación y oportunidades al corazón del Delta. ¡Un paso clave para la comunidad! ✨"
-  },
-  {
-    "acontecimiento_id": "2026-10-19-escuela-itinerante-agmer-legado-villa-paranacito",
-    "slug": "escuela-itinerante-agmer-legado-villa-paranacito",
-    "titulo": "La Escuela Itinerante de Agmer dejó un legado educativo en Villa Paranacito",
-    "copete": "El programa de formación docente de Agmer, que tuvo una exitosa estación en Villa Paranacito, continúa su recorrido por la provincia de Entre Ríos, reafirmando el impacto positivo de estas iniciativas en las comunidades del Delta.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Agmer",
-      "Educación",
-      "Villa Paranacito",
-      "Delta",
-      "Formación Docente",
-      "Escuela Itinerante"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "19 de Octubre de 2026, 03:25 hs",
-    "fecha_ultima_actualizacion": "19 de Octubre de 2026, 03:25 hs",
-    "fecha_inicio_iso": "2026-10-19T03:25:07.025784",
-    "fecha_ultima_actualizacion_iso": "2026-10-19T03:25:07.025784",
-    "resumen_whatsapp": "📚 La Escuela Itinerante de Agmer dejó una huella positiva en Villa Paranacito, fortaleciendo la educación local y la capacitación docente en el Delta. #EducaciónDelta #Paranacito"
   },
   {
     "acontecimiento_id": "2026-10-18-villa-paranacito-sede-quinta-fecha-torneo-clausura",
