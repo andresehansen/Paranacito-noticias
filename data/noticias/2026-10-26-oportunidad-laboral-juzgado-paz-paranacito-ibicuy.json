@@ -45,6 +45,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.apfdigital.com.ar/noticias/2026/10/26/476364-el-stj-lanzo-un-llamado-a-concurso-abierto-para-cubrir-secretarias-de-juzgados-de-paz-en-12-localidades&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2pcVg2p8XFXbNv96JhunP_",
       "fecha_consulta": "2026-10-26T20:58:09.592496"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojudicial.com/news-104744-concursos-para-secretarias-de-juzgados-de-paz&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0m-Dae4W2qUg-5kDJu8o3N",
+      "fecha_consulta": "2026-10-27T23:30:38.948659"
     }
   ],
   "cronologia_actualizaciones": [
@@ -68,17 +73,25 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo cable detalla las localidades adicionales donde se abrieron concursos para Secretarías de Juzgados de Paz: Maciá, San Jaime de la Frontera, Villa Urquiza, Villa San Marcial y Villa Mantero.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:30",
+      "fecha": "2026-10-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Concursos para Secretarías de Juzgados de Paz - Diario Judicial",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "a38589815fea5ad31f584f45637a2e77aa2353165b56c699265b8e29cc1c5c6a",
     "6679c2f72d27a675efd6fcc0219759527d50d7375376fbc5a45eca2e6a8fea1e",
-    "b78207ec9f3f629d1389dbbe05e8af5a5a3cf95381589f6a2d822030228303d1"
+    "b78207ec9f3f629d1389dbbe05e8af5a5a3cf95381589f6a2d822030228303d1",
+    "0fcf3708b958d42d3c43402954593507f570056600de7ab3f0e9fac58e278844"
   ],
   "fecha_iso": "2026-10-26T20:58:00.073139",
   "fecha_inicio_iso": "2026-10-26T20:58:00.073139",
-  "fecha_ultima_actualizacion_iso": "2026-10-26T20:58:09.592496",
+  "fecha_ultima_actualizacion_iso": "2026-10-27T23:30:38.948659",
   "fecha_publicacion": "26 de Octubre de 2026, 20:58 hs",
-  "fecha_ultima_actualizacion": "26 de Octubre de 2026, 20:58 hs",
+  "fecha_ultima_actualizacion": "27 de Octubre de 2026, 23:30 hs",
   "archivo": "2026-10-26-oportunidad-laboral-juzgado-paz-paranacito-ibicuy.json"
 }
