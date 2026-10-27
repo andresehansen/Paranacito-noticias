@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-10-27-isfdc-villa-paranacito-desconvoca-practica-docente",
+    "slug": "isfdc-villa-paranacito-desconvoca-practica-docente",
+    "titulo": "El ISFDC Villa Paranacito Desconvoca Cátedra Clave para la Formación Docente",
+    "copete": "El Instituto Superior de Formación Docente Continua de Villa Paranacito anunció la desconvocatoria de un espacio curricular fundamental para la carrera de Profesorado, generando interrogantes sobre la planificación académica.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Villa Paranacito",
+      "ISFDC",
+      "Formación Docente",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "27 de Octubre de 2026, 03:51 hs",
+    "fecha_ultima_actualizacion": "27 de Octubre de 2026, 03:51 hs",
+    "fecha_inicio_iso": "2026-10-27T03:51:23.215897",
+    "fecha_ultima_actualizacion_iso": "2026-10-27T03:51:43.838935",
+    "resumen_whatsapp": "⚠️ ATENCIÓN: El ISFDC Villa Paranacito desconvocó la cátedra de Práctica Docente IV. Estudiantes afectados, contactar a la institución. 📚🎓"
+  },
+  {
     "acontecimiento_id": "2026-10-26-oportunidad-laboral-juzgado-paz-paranacito-ibicuy",
     "slug": "oportunidad-laboral-juzgado-paz-paranacito-ibicuy",
     "titulo": "Oportunidad Laboral en el Delta: Abren Concurso para Secretarías de Juzgados de Paz en Villa Paranacito e Ibicuy",
