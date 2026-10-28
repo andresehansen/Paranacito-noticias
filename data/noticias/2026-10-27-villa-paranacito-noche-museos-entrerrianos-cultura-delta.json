@@ -38,6 +38,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/27/119919-gilbert-urdinarrain-y-gualeguaychu-seran-parte-de-la-noche-de-los-museos-entrerrianos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3QRYtHVnecQ1gAmboC7Ujg",
       "fecha_consulta": "2026-10-27T23:30:44.195274"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elmiercolesdigital.com.ar/mas-de-150-instituciones-de-toda-la-provincia-participaran-de-la-noche-de-los-museos-entrerrianos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw10Qabe7hOGOzu3LbZBmBp-",
+      "fecha_consulta": "2026-10-28T20:47:30.312294"
     }
   ],
   "cronologia_actualizaciones": [
@@ -54,16 +59,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El nuevo cable/artículo añade que Gilbert, Urdinarrain, Gualeguaychú, Villa Clara, Villa Elisa y Villaguay también serán parte de 'La Noche de los Museos Entrerrianos', ampliando el alcance geográfico de la noticia.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:47",
+      "fecha": "2026-10-28",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Más de 150 instituciones de toda la provincia participarán de La Noche de los Museos Entrerrianos",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "cbd27ef145f0971bbeadf37ace8bdd26e571b4cb0849b52851be04210bf511c2",
-    "e2feb0761fcd5cdc646433efc422144844d57e826bd1930aba37766e9c1d31c5"
+    "e2feb0761fcd5cdc646433efc422144844d57e826bd1930aba37766e9c1d31c5",
+    "66685ccbf455e320342ea94cd5673a922b7d6532321469ed3b79093078145a3f"
   ],
   "fecha_iso": "2026-10-27T17:31:31.783641",
   "fecha_inicio_iso": "2026-10-27T17:31:31.783641",
-  "fecha_ultima_actualizacion_iso": "2026-10-27T23:30:44.195274",
+  "fecha_ultima_actualizacion_iso": "2026-10-28T20:47:30.312294",
   "fecha_publicacion": "27 de Octubre de 2026, 17:31 hs",
-  "fecha_ultima_actualizacion": "27 de Octubre de 2026, 23:30 hs",
+  "fecha_ultima_actualizacion": "28 de Octubre de 2026, 20:47 hs",
   "archivo": "2026-10-27-villa-paranacito-noche-museos-entrerrianos-cultura-delta.json"
 }
