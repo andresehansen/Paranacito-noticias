@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-10-28-bienestar-emocional-villa-paranacito-delta",
+    "slug": "bienestar-emocional-villa-paranacito-delta",
+    "titulo": "Bienestar Emocional: Programa Provincial de Gestión de Emociones Alcanza a Villa Paranacito y el Delta",
+    "copete": "Un nuevo programa provincial de salud mental, enfocado en la gestión de emociones, se extiende a la comunidad de Villa Paranacito y el Delta, ofreciendo herramientas gratuitas para mejorar la calidad de vida de sus habitantes.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Salud mental",
+      "Bienestar emocional",
+      "Villa Paranacito",
+      "Delta",
+      "Programa provincial",
+      "Salud pública"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "28 de Octubre de 2026, 14:53 hs",
+    "fecha_ultima_actualizacion": "28 de Octubre de 2026, 14:53 hs",
+    "fecha_inicio_iso": "2026-10-28T14:53:01.823347",
+    "fecha_ultima_actualizacion_iso": "2026-10-28T14:53:01.823347",
+    "resumen_whatsapp": "¡Atención Villa Paranacito! 🧠 Se lanza programa provincial de gestión emocional para el Delta. 🏝️ Herramientas gratuitas para tu bienestar. ¡Pronto talleres locales! #SaludMental"
+  },
+  {
     "acontecimiento_id": "2026-10-26-oportunidad-laboral-juzgado-paz-paranacito-ibicuy",
     "slug": "oportunidad-laboral-juzgado-paz-paranacito-ibicuy",
     "titulo": "Oportunidad Laboral en el Delta: Abren Concurso para Secretarías de Juzgados de Paz en Villa Paranacito e Ibicuy",
