@@ -25,7 +25,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/la-provincia-aprobo-un-convenio-con-el-conicet-para-relevar-los-recursos-geologicos-y-mineros-de-entre-rios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3-eOcGUsD-DDNDnqNCjZNy",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/la-provincia-aprobo-un-convenio-con-el-conicet-para-relevar-los-recursos-geologicos-y-mineros-de-entre-rios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3-eOcGUsD-DDNDnqNCjZNy",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/la-provincia-aprobo-un-convenio-con-el-conicet-para-relevar-los-recursos-geologicos-y-mineros-de-entre-rios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3-eOcGUsD-DDNDnqNCjZNy",
       "fecha_consulta": "2026-10-27T20:32:31.592318"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elheraldo.com.ar/noticias/interes-general/entre-rios-y-el-conicet-relevaran-recursos-minerales-en-distintas-regiones-de-la-provincia&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2kwbzY0OaPnHBKXJTIxFrR",
+      "fecha_consulta": "2026-10-29T04:32:22.925374"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La provincia de Entre Ríos y el CONICET han firmado un convenio para un relevamiento geológico clave, con una etapa específica que incluye Villa Paranacito y las Islas del Ibicuy. Este estudio es fund",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "04:32",
+      "fecha": "2026-10-29",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Entre Ríos y el Conicet relevarán recursos minerales en distintas regiones de la provincia",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "b74144c127c918c70afa9919e2bf251577385ca325a1ac4eb739b51820e49828"
+    "b74144c127c918c70afa9919e2bf251577385ca325a1ac4eb739b51820e49828",
+    "0cf5c38f690661dc2b8ae5de46c9fd2bf3179ceec922be71d5b8c84c0ef15f0f"
   ],
   "fecha_iso": "2026-10-27T20:32:31.592318",
   "fecha_inicio_iso": "2026-10-27T20:32:31.592318",
-  "fecha_ultima_actualizacion_iso": "2026-10-27T20:32:31.592318",
+  "fecha_ultima_actualizacion_iso": "2026-10-29T04:32:22.925374",
   "fecha_publicacion": "27 de Octubre de 2026, 20:32 hs",
-  "fecha_ultima_actualizacion": "27 de Octubre de 2026, 20:32 hs",
+  "fecha_ultima_actualizacion": "29 de Octubre de 2026, 04:32 hs",
   "archivo": "2026-10-27-conicet-relevamiento-geologico-villa-paranacito.json"
 }

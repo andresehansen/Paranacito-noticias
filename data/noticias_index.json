@@ -1,5 +1,94 @@
 [
   {
+    "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",
+    "slug": "villa-paranacito-noche-museos-entrerrianos-2026",
+    "titulo": "Villa Paranacito será protagonista de La Noche de los Museos Entrerrianos 2026",
+    "copete": "La localidad del Delta entrerriano ha sido confirmada como una de las sedes de este importante evento cultural provincial, que busca visibilizar el patrimonio histórico y natural de la región.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Villa Paranacito",
+      "Noche de los Museos",
+      "Cultura",
+      "Delta",
+      "Turismo",
+      "Patrimonio",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_ultima_actualizacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_inicio_iso": "2026-10-29T04:32:51.442563",
+    "fecha_ultima_actualizacion_iso": "2026-10-29T04:32:51.442563",
+    "resumen_whatsapp": "🎉 Villa Paranacito será sede de La Noche de los Museos Entrerrianos 2026. ¡Gran oportunidad para mostrar la riqueza cultural y natural de nuestro Delta! 🏞️🎭"
+  },
+  {
+    "acontecimiento_id": "2026-10-29-villa-paranacito-defensa-sur-generador-electrogeno",
+    "slug": "villa-paranacito-defensa-sur-generador-electrogeno",
+    "titulo": "Villa Paranacito Refuerza su Defensa Sur con Nuevo Grupo Electrógeno para Garantizar la Protección Hídrica",
+    "copete": "El Municipio de Villa Paranacito adquirió un potente grupo electrógeno destinado a la Defensa Sur, asegurando la operatividad de esta infraestructura vital ante cualquier interrupción del suministro eléctrico y fortaleciendo la resiliencia de la comunidad.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Defensa Sur",
+      "Grupo Electrógeno",
+      "Inundaciones",
+      "Obras Públicas"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_ultima_actualizacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_inicio_iso": "2026-10-29T04:32:34.806053",
+    "fecha_ultima_actualizacion_iso": "2026-10-29T04:32:34.806053",
+    "resumen_whatsapp": "🚨 Villa Paranacito refuerza su Defensa Sur con nuevo grupo electrógeno para garantizar protección hídrica ante cortes de luz. ¡Más seguridad para todos! #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-10-27-conicet-relevamiento-geologico-villa-paranacito",
+    "slug": "conicet-relevamiento-geologico-villa-paranacito",
+    "titulo": "CONICET y Provincia: Relevamiento Geológico Clave para el Futuro de Villa Paranacito y las Islas del Ibicuy",
+    "copete": "La provincia de Entre Ríos ha formalizado un convenio con el CONICET para realizar un exhaustivo relevamiento de recursos geológicos, con una etapa crucial centrada en Villa Paranacito y el área de Islas del Ibicuy.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "CONICET",
+      "Geología",
+      "Recursos Naturales",
+      "Desarrollo Sostenible",
+      "Infraestructura"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "27 de Octubre de 2026, 20:32 hs",
+    "fecha_ultima_actualizacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_inicio_iso": "2026-10-27T20:32:31.592318",
+    "fecha_ultima_actualizacion_iso": "2026-10-29T04:32:22.925374",
+    "resumen_whatsapp": "🔬 ¡Noticia clave para el Delta! Provincia y CONICET inician relevamiento geológico en Villa Paranacito e Islas del Ibicuy para planificar el futuro de la región. #ParanacitoNoticias"
+  },
+  {
     "acontecimiento_id": "2026-10-28-bienestar-emocional-villa-paranacito-delta",
     "slug": "bienestar-emocional-villa-paranacito-delta",
     "titulo": "Bienestar Emocional: Programa Provincial de Gestión de Emociones Alcanza a Villa Paranacito y el Delta",
@@ -60,36 +149,6 @@
     "fecha_inicio_iso": "2026-10-26T20:58:00.073139",
     "fecha_ultima_actualizacion_iso": "2026-10-27T23:30:38.948659",
     "resumen_whatsapp": "🚨 ¡Atención Delta! Abren concurso para Secretarías de Juzgados de Paz en Villa Paranacito e Ibicuy. ¡Oportunidad laboral clave para la justicia local! ⚖️💼"
-  },
-  {
-    "acontecimiento_id": "2026-10-27-conicet-relevamiento-geologico-villa-paranacito",
-    "slug": "conicet-relevamiento-geologico-villa-paranacito",
-    "titulo": "CONICET y Provincia: Relevamiento Geológico Clave para el Futuro de Villa Paranacito y las Islas del Ibicuy",
-    "copete": "La provincia de Entre Ríos ha formalizado un convenio con el CONICET para realizar un exhaustivo relevamiento de recursos geológicos, con una etapa crucial centrada en Villa Paranacito y el área de Islas del Ibicuy.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "Villa Paranacito",
-      "Islas del Ibicuy",
-      "CONICET",
-      "Geología",
-      "Recursos Naturales",
-      "Desarrollo Sostenible",
-      "Infraestructura"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "27 de Octubre de 2026, 20:32 hs",
-    "fecha_ultima_actualizacion": "27 de Octubre de 2026, 20:32 hs",
-    "fecha_inicio_iso": "2026-10-27T20:32:31.592318",
-    "fecha_ultima_actualizacion_iso": "2026-10-27T20:32:31.592318",
-    "resumen_whatsapp": "🔬 ¡Noticia clave para el Delta! Provincia y CONICET inician relevamiento geológico en Villa Paranacito e Islas del Ibicuy para planificar el futuro de la región. #ParanacitoNoticias"
   },
   {
     "acontecimiento_id": "2026-10-27-alerta-paranacito-escuelas-riesgo-inundacion-nino",
