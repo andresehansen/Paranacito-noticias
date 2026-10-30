@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-10-30-planes-evacuacion-villa-paranacito-delta",
+  "titulo": "Preparación ante Emergencias: La Provincia Refuerza Planes de Evacuación para Villa Paranacito y el Delta",
+  "copete": "El gobierno provincial intensifica sus esfuerzos para asegurar evacuaciones seguras y la disponibilidad de espacios adecuados para las familias de Villa Paranacito y el Delta, ante posibles eventos hidrológicos.",
+  "cuerpo": [
+    "Ante la recurrente vulnerabilidad de la región del Delta de Entre Ríos a fenómenos climáticos y crecidas de los ríos, las autoridades provinciales han puesto en marcha un plan de fortalecimiento de las capacidades de respuesta. Este enfoque prioritario busca garantizar la seguridad de los habitantes de Villa Paranacito y sus zonas aledañas, un área históricamente afectada por la dinámica hídrica del Paraná y sus afluentes.",
+    "Desde el Gobierno de Entre Ríos se ha confirmado que se trabaja activamente en la articulación de protocolos y recursos para 'garantizar evacuaciones seguras y disponer de espacios adecuados para las familias'. Esta labor implica la coordinación entre diversas carteras y organismos, como Defensa Civil, Salud y Desarrollo Social, para optimizar la logística de traslado, la identificación y equipamiento de centros de evacuados, y la provisión de asistencia básica en caso de ser necesaria.",
+    "Para los vecinos de Villa Paranacito y las islas, estas medidas representan un pilar fundamental en la protección de sus vidas y bienes. La previsión y la existencia de planes claros de evacuación son cruciales para minimizar el impacto de las emergencias, permitiendo a las familias isleñas resguardarse a tiempo, proteger su ganado y asegurar la continuidad de servicios esenciales, como la atención médica y el acceso a alimentos, en momentos críticos.",
+    "Se recomienda a la comunidad mantenerse informada a través de los canales oficiales del Municipio de Villa Paranacito y Defensa Civil. Es fundamental que cada familia tenga un plan de contingencia personal, conozca las rutas de evacuación designadas y prepare un kit de emergencia con documentos, medicinas y provisiones básicas. La colaboración ciudadana y la atención a las indicaciones de las autoridades locales son vitales para el éxito de cualquier operativo de emergencia."
+  ],
+  "resumen": "El gobierno provincial refuerza los planes de evacuación y la disposición de espacios seguros para las familias de Villa Paranacito y el Delta entrerriano. Esta iniciativa busca proteger a la comunidad ante posibles crecidas de los ríos, garantizando la seguridad y el bienestar de los habitantes de la región.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Evacuación",
+    "Emergencias",
+    "Delta Entrerriano",
+    "Defensa Civil"
+  ],
+  "slug": "planes-evacuacion-villa-paranacito-delta",
+  "resumen_whatsapp": "🚨 La Provincia refuerza planes de evacuación y espacios seguros para Villa Paranacito y el Delta. ¡Preparados ante emergencias! #VillaParanacito #Delta",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/noticias/80940&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1tqtD8r8fHc9xbb2tl56Gf",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/noticias/80940&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1tqtD8r8fHc9xbb2tl56Gf",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/noticias/80940&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1tqtD8r8fHc9xbb2tl56Gf",
+      "fecha_consulta": "2026-10-30T04:33:11.461743"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "04:33",
+      "fecha": "2026-10-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El gobierno provincial refuerza los planes de evacuación y la disposición de espacios seguros para las familias de Villa Paranacito y el Delta entrerriano. Esta iniciativa busca proteger a la comunida",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "5afd82faa75d4323e6a8e16117b6ffcc1df5c1428d0b75787893fe041b68116b"
+  ],
+  "fecha_iso": "2026-10-30T04:33:11.461743",
+  "fecha_inicio_iso": "2026-10-30T04:33:11.461743",
+  "fecha_ultima_actualizacion_iso": "2026-10-30T04:33:11.461743",
+  "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
+  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 04:33 hs",
+  "archivo": "2026-10-30-planes-evacuacion-villa-paranacito-delta.json"
+}

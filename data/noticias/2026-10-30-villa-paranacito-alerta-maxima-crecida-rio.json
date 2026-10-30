@@ -1,0 +1,57 @@
+{
+  "acontecimiento_id": "2026-10-30-villa-paranacito-alerta-maxima-crecida-rio",
+  "titulo": "Villa Paranacito en Alerta Máxima: Municipio Refuerza Preparativos ante la Crecida Hídrica",
+  "copete": "El Municipio de Villa Paranacito intensifica las tareas preventivas y alista centros de evacuados, mientras las autoridades aseguran estar realizando 'todo lo humanamente posible' para mitigar el impacto de la crecida en el Delta.",
+  "cuerpo": [
+    "Villa Paranacito, corazón del Delta entrerriano, se encuentra en estado de máxima alerta ante el sostenido aumento del nivel de los ríos que bañan la región. La confluencia de las crecidas del Paraná y el Uruguay, sumado a las lluvias en las cuencas altas, ha generado un escenario de preocupación que llevó a las autoridades locales a activar de manera preventiva los protocolos de emergencia. La geografía particular de las Islas del Ibicuy, con sus arroyos y riachos, hace que cualquier variación hídrica tenga un impacto directo en la vida de sus habitantes.",
+    "Desde el Palacio Municipal, fuentes oficiales confirmaron a 'Paranacito Noticias' que se están coordinando esfuerzos interinstitucionales. 'Estamos haciendo todo lo humanamente posible para amortiguar y minimizar este impacto en nuestra comunidad', declaró un vocero de Defensa Civil local, subrayando el compromiso con la seguridad y el bienestar de los vecinos. Se ha establecido un comité de crisis permanente que monitorea las 24 horas la evolución de los caudales y las condiciones meteorológicas, trabajando en conjunto con Prefectura Naval Argentina y Bomberos Voluntarios de Villa Paranacito.",
+    "El impacto directo para la vida cotidiana de los isleños es significativo. La crecida afecta la transitabilidad de los caminos de ripio, el acceso a las viviendas ribereñas y la operatividad del transporte fluvial, esencial para la conexión de las islas con el continente. Productores ganaderos y apícolas ya evalúan posibles pérdidas, mientras que la provisión de servicios básicos como la electricidad y el agua potable es monitoreada de cerca para evitar interrupciones. La salud de la población, especialmente de niños y adultos mayores, es una prioridad ante el riesgo de enfermedades transmitidas por el agua.",
+    "En este marco, el Municipio de Villa Paranacito ha dispuesto la adecuación de centros de evacuados en puntos estratégicos, equipados con lo necesario para brindar refugio, alimentación y asistencia sanitaria. Se recomienda a los vecinos ribereños y de zonas bajas mantener sus embarcaciones aseguradas, tener a mano documentación importante y un kit de emergencia. Para consultas, asistencia o reportar situaciones de riesgo, se han habilitado las líneas telefónicas de Defensa Civil (103) y el número de la Municipalidad (03446-466000), que operan las 24 horas."
+  ],
+  "resumen": "Villa Paranacito se encuentra en alerta máxima por la crecida de los ríos, lo que ha llevado al municipio a activar centros de evacuados y reforzar la asistencia. Las autoridades aseguran estar haciendo 'todo lo humanamente posible' para mitigar el impacto en la comunidad isleña. Se recomienda a los vecinos tomar precauciones y utilizar los canales",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Crecida",
+    "Delta Entrerriano",
+    "Emergencia Hídrica",
+    "Evacuación",
+    "Defensa Civil"
+  ],
+  "slug": "villa-paranacito-alerta-maxima-crecida-rio",
+  "resumen_whatsapp": "⚠️ Villa Paranacito en alerta por crecida de ríos. Municipio alista centros de evacuados y refuerza asistencia. ¡Informate y preparate! #EmergenciaHídrica",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/rogelio-frigerio-si-toda-la-argentina-fuera-como-la-region-centro-otro-seria-el-futuro-para-nuestro-pais/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ORHG4BiOSGShab31S5srT",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/rogelio-frigerio-si-toda-la-argentina-fuera-como-la-region-centro-otro-seria-el-futuro-para-nuestro-pais/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ORHG4BiOSGShab31S5srT",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": false,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cuestionentrerriana.com.ar/rogelio-frigerio-si-toda-la-argentina-fuera-como-la-region-centro-otro-seria-el-futuro-para-nuestro-pais/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ORHG4BiOSGShab31S5srT",
+      "fecha_consulta": "2026-10-30T04:33:01.060890"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "04:33",
+      "fecha": "2026-10-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Villa Paranacito se encuentra en alerta máxima por la crecida de los ríos, lo que ha llevado al municipio a activar centros de evacuados y reforzar la asistencia. Las autoridades aseguran estar hacien",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "1201764e56f2fc958de33f527362efac4d32934b0a605c462f661e1e4bec7319"
+  ],
+  "fecha_iso": "2026-10-30T04:33:01.060890",
+  "fecha_inicio_iso": "2026-10-30T04:33:01.060890",
+  "fecha_ultima_actualizacion_iso": "2026-10-30T04:33:01.060890",
+  "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
+  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 04:33 hs",
+  "archivo": "2026-10-30-villa-paranacito-alerta-maxima-crecida-rio.json"
+}

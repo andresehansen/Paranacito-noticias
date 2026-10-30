@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-10-30-planes-evacuacion-villa-paranacito-delta",
+    "slug": "planes-evacuacion-villa-paranacito-delta",
+    "titulo": "Preparación ante Emergencias: La Provincia Refuerza Planes de Evacuación para Villa Paranacito y el Delta",
+    "copete": "El gobierno provincial intensifica sus esfuerzos para asegurar evacuaciones seguras y la disponibilidad de espacios adecuados para las familias de Villa Paranacito y el Delta, ante posibles eventos hidrológicos.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Evacuación",
+      "Emergencias",
+      "Delta Entrerriano",
+      "Defensa Civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
+    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 04:33 hs",
+    "fecha_inicio_iso": "2026-10-30T04:33:11.461743",
+    "fecha_ultima_actualizacion_iso": "2026-10-30T04:33:11.461743",
+    "resumen_whatsapp": "🚨 La Provincia refuerza planes de evacuación y espacios seguros para Villa Paranacito y el Delta. ¡Preparados ante emergencias! #VillaParanacito #Delta"
+  },
+  {
+    "acontecimiento_id": "2026-10-30-villa-paranacito-alerta-maxima-crecida-rio",
+    "slug": "villa-paranacito-alerta-maxima-crecida-rio",
+    "titulo": "Villa Paranacito en Alerta Máxima: Municipio Refuerza Preparativos ante la Crecida Hídrica",
+    "copete": "El Municipio de Villa Paranacito intensifica las tareas preventivas y alista centros de evacuados, mientras las autoridades aseguran estar realizando 'todo lo humanamente posible' para mitigar el impacto de la crecida en el Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Crecida",
+      "Delta Entrerriano",
+      "Emergencia Hídrica",
+      "Evacuación",
+      "Defensa Civil"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
+    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 04:33 hs",
+    "fecha_inicio_iso": "2026-10-30T04:33:01.060890",
+    "fecha_ultima_actualizacion_iso": "2026-10-30T04:33:01.060890",
+    "resumen_whatsapp": "⚠️ Villa Paranacito en alerta por crecida de ríos. Municipio alista centros de evacuados y refuerza asistencia. ¡Informate y preparate! #EmergenciaHídrica"
+  },
+  {
     "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",
     "slug": "villa-paranacito-noche-museos-entrerrianos-2026",
     "titulo": "Villa Paranacito será protagonista de La Noche de los Museos Entrerrianos 2026",
@@ -415,35 +472,6 @@
     "fecha_inicio_iso": "2026-10-17T08:17:20.752758",
     "fecha_ultima_actualizacion_iso": "2026-10-22T22:58:27.495813",
     "resumen_whatsapp": "🗳️ Villa Paranacito: Fermín Tristán desafía la hegemonía política de Melchiori. Se viene un debate clave para el futuro del Delta. ¡Mantente informado! #PolíticaLocal #VillaParanacito"
-  },
-  {
-    "acontecimiento_id": "2026-10-22-alerta-lluvias-intensas-villa-paranacito-delta",
-    "slug": "alerta-lluvias-intensas-villa-paranacito-delta",
-    "titulo": "Alerta Meteorológica: Lluvias Intensas Pronosticadas para Villa Paranacito y el Delta",
-    "copete": "El Servicio Meteorológico Nacional emitió un alerta por inestabilidad y precipitaciones significativas que afectarán a Villa Paranacito, Ibicuy y toda la región del Delta entrerriano durante las próximas horas.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Lluvias Intensas",
-      "Alerta Meteorológica",
-      "Delta Entrerriano",
-      "Islas del Ibicuy",
-      "Pronóstico"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Octubre de 2026, 19:52 hs",
-    "fecha_ultima_actualizacion": "22 de Octubre de 2026, 19:52 hs",
-    "fecha_inicio_iso": "2026-10-22T19:52:31.210279",
-    "fecha_ultima_actualizacion_iso": "2026-10-22T19:52:31.210279",
-    "resumen_whatsapp": "⚠️ Alerta por lluvias intensas en Villa Paranacito y el Delta. Precaución en caminos y navegación. ¡Mantente informado! 🌧️🚤"
   },
   {
     "acontecimiento_id": "2026-10-22-alerta-hidrica-villa-paranacito-casa-frigerio",
