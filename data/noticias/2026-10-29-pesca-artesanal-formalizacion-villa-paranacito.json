@@ -37,6 +37,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/entre-rios-capacito-a-pescadores-y-entrego-carnets-en-colon/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw38ALD9TD38vOXjsCZkHN_v",
       "fecha_consulta": "2026-10-30T14:51:22.420510"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/capacitaron-a-pescadores-artesanales-y-entregaron-carnets-habilitantes-en-coln.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2RppyCSMCIGfVvc0-dAUsC",
+      "fecha_consulta": "2026-10-30T20:26:18.963517"
     }
   ],
   "cronologia_actualizaciones": [
@@ -53,16 +58,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Entre Ríos capacitó a pescadores y entregó carnets en Colón - Informe Digital",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:26",
+      "fecha": "2026-10-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Capacitaron a pescadores artesanales y entregaron carnets habilitantes en Colón - AIM Digital",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "ef135c5294fe4bd093422ec60ba710259cb29c37e6138c5630912c654a9a0eb1",
-    "2d027f9c469bcbb6cb76a6b03d96c0fd4a7f471ad0b712d95a11d6b0276c16fd"
+    "2d027f9c469bcbb6cb76a6b03d96c0fd4a7f471ad0b712d95a11d6b0276c16fd",
+    "5a562c7342ea0409bda7fe2d04fee1fd643a8dea2470c27c57d9772d3cc05981"
   ],
   "fecha_iso": "2026-10-29T20:53:37.884762",
   "fecha_inicio_iso": "2026-10-29T20:53:37.884762",
-  "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:22.420510",
+  "fecha_ultima_actualizacion_iso": "2026-10-30T20:26:18.963517",
   "fecha_publicacion": "29 de Octubre de 2026, 20:53 hs",
-  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
+  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 20:26 hs",
   "archivo": "2026-10-29-pesca-artesanal-formalizacion-villa-paranacito.json"
 }

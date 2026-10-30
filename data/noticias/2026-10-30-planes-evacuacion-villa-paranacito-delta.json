@@ -38,6 +38,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://examedia.com.ar/portada/post/88145559&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1bM70u9r8ND4SoKQMRwuDw",
       "fecha_consulta": "2026-10-30T14:51:36.193756"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diarioriouruguay.com/amp/frigerio-afirmo-que-el-derrame-no-es-automatico-y-pidio-integrar-a-las-pymes-a-las-grandes-inversiones.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1DHDNrLZyuKrJHYy0InZqN",
+      "fecha_consulta": "2026-10-30T20:26:18.960241"
     }
   ],
   "cronologia_actualizaciones": [
@@ -54,16 +59,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Frigerio en Rosario: El derrame no es automático, hay que construirlo - Examedia",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:26",
+      "fecha": "2026-10-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Frigerio afirmó que “el derrame no es automático” y pidió integrar a las pymes ... - Diario Río Uruguay",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "5afd82faa75d4323e6a8e16117b6ffcc1df5c1428d0b75787893fe041b68116b",
-    "d98716ea9af836054754439f110bb59211d13d3ec440d35f10238089a450afaf"
+    "d98716ea9af836054754439f110bb59211d13d3ec440d35f10238089a450afaf",
+    "25818edc7092f583f89dd0cd51c566d98e48cf93fc38c7cf889339e04acef456"
   ],
   "fecha_iso": "2026-10-30T04:33:11.461743",
   "fecha_inicio_iso": "2026-10-30T04:33:11.461743",
-  "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:36.193756",
+  "fecha_ultima_actualizacion_iso": "2026-10-30T20:26:18.960241",
   "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
-  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
+  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 20:26 hs",
   "archivo": "2026-10-30-planes-evacuacion-villa-paranacito-delta.json"
 }

@@ -19,14 +19,44 @@
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 2,
+    "num_actualizaciones": 3,
     "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
-    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
+    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 20:26 hs",
     "fecha_inicio_iso": "2026-10-30T04:33:11.461743",
-    "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:36.193756",
+    "fecha_ultima_actualizacion_iso": "2026-10-30T20:26:18.960241",
     "resumen_whatsapp": "🚨 La Provincia refuerza planes de evacuación y espacios seguros para Villa Paranacito y el Delta. ¡Preparados ante emergencias! #VillaParanacito #Delta"
+  },
+  {
+    "acontecimiento_id": "2026-10-30-siniestro-vial-ruta-12-villa-paranacito-camion",
+    "slug": "siniestro-vial-ruta-12-villa-paranacito-camion",
+    "titulo": "Siniestro Vial en Ruta 12 a la altura de Villa Paranacito: Camión Volcó con Carga de Plantas",
+    "copete": "Un camión que transportaba plantas desde Escobar hacia Paraná sufrió un vuelco en el kilómetro 148 de la Autovía Nacional N.º 12, en cercanías de Villa Paranacito, generando la inmediata movilización de los Bomberos Voluntarios de Ceibas.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Ruta 12",
+      "Siniestro Vial",
+      "Bomberos Ceibas",
+      "Islas del Ibicuy",
+      "Seguridad Vial"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "30 de Octubre de 2026, 20:26 hs",
+    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 20:26 hs",
+    "fecha_inicio_iso": "2026-10-30T20:26:18.956910",
+    "fecha_ultima_actualizacion_iso": "2026-10-30T20:26:18.956910",
+    "resumen_whatsapp": "🚨 Siniestro vial en Ruta 12 cerca de Villa Paranacito: Camión volcó en km 148. Bomberos de Ceibas actuaron rápido, sin heridos graves. ¡Precaución al circular! 🚧"
   },
   {
     "acontecimiento_id": "2026-10-30-provincia-revisa-defensas-hidricas-villa-paranacito",
