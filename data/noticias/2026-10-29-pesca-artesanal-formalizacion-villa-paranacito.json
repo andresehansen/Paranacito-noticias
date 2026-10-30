@@ -22,7 +22,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80935&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1YPdeB374eAOfc999RrXm2",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80935&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1YPdeB374eAOfc999RrXm2",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Baja",
   "es_alerta": false,
   "requiere_revision": true,
@@ -32,6 +32,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/noticias/80935&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1YPdeB374eAOfc999RrXm2",
       "fecha_consulta": "2026-10-29T20:53:37.884762"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/entre-rios-capacito-a-pescadores-y-entrego-carnets-en-colon/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw38ALD9TD38vOXjsCZkHN_v",
+      "fecha_consulta": "2026-10-30T14:51:22.420510"
     }
   ],
   "cronologia_actualizaciones": [
@@ -41,15 +46,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La provincia de Entre Ríos impulsó la formalización de la pesca artesanal en Villa Paranacito, entregando carnets habilitantes y capacitando a pescadores locales. Esta medida busca dignificar la activ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "14:51",
+      "fecha": "2026-10-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Entre Ríos capacitó a pescadores y entregó carnets en Colón - Informe Digital",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "ef135c5294fe4bd093422ec60ba710259cb29c37e6138c5630912c654a9a0eb1"
+    "ef135c5294fe4bd093422ec60ba710259cb29c37e6138c5630912c654a9a0eb1",
+    "2d027f9c469bcbb6cb76a6b03d96c0fd4a7f471ad0b712d95a11d6b0276c16fd"
   ],
   "fecha_iso": "2026-10-29T20:53:37.884762",
   "fecha_inicio_iso": "2026-10-29T20:53:37.884762",
-  "fecha_ultima_actualizacion_iso": "2026-10-29T20:53:37.884762",
+  "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:22.420510",
   "fecha_publicacion": "29 de Octubre de 2026, 20:53 hs",
-  "fecha_ultima_actualizacion": "29 de Octubre de 2026, 20:53 hs",
+  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
   "archivo": "2026-10-29-pesca-artesanal-formalizacion-villa-paranacito.json"
 }

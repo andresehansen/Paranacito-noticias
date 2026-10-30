@@ -18,14 +18,44 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
+    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
+    "fecha_inicio_iso": "2026-10-30T04:33:11.461743",
+    "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:36.193756",
+    "resumen_whatsapp": "🚨 La Provincia refuerza planes de evacuación y espacios seguros para Villa Paranacito y el Delta. ¡Preparados ante emergencias! #VillaParanacito #Delta"
+  },
+  {
+    "acontecimiento_id": "2026-10-30-provincia-revisa-defensas-hidricas-villa-paranacito",
+    "slug": "provincia-revisa-defensas-hidricas-villa-paranacito",
+    "titulo": "Refuerzan la Seguridad Hídrica: Provincia Revisa Defensas Clave en Villa Paranacito",
+    "copete": "El gobierno de Entre Ríos ha iniciado una exhaustiva revisión de las defensas hídricas en Villa Paranacito, una acción prioritaria para garantizar la protección de la comunidad y la infraestructura vital del Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Defensas Hídricas",
+      "Delta Entrerriano",
+      "Inundaciones",
+      "Seguridad Hídrica",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "30 de Octubre de 2026, 04:33 hs",
-    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 04:33 hs",
-    "fecha_inicio_iso": "2026-10-30T04:33:11.461743",
-    "fecha_ultima_actualizacion_iso": "2026-10-30T04:33:11.461743",
-    "resumen_whatsapp": "🚨 La Provincia refuerza planes de evacuación y espacios seguros para Villa Paranacito y el Delta. ¡Preparados ante emergencias! #VillaParanacito #Delta"
+    "fecha_publicacion": "30 de Octubre de 2026, 14:51 hs",
+    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
+    "fecha_inicio_iso": "2026-10-30T14:51:36.190790",
+    "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:36.190790",
+    "resumen_whatsapp": "🚨 La Provincia revisa defensas hídricas en Villa Paranacito para proteger a la comunidad del Delta. ¡Es clave para nuestra seguridad y producción! 🌊🏡"
   },
   {
     "acontecimiento_id": "2026-10-30-villa-paranacito-alerta-maxima-crecida-rio",
@@ -1279,35 +1309,6 @@
     "fecha_inicio_iso": "2026-10-11T19:57:04.949535",
     "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:04.949535",
     "resumen_whatsapp": "📰 *El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene* — google.com"
-  },
-  {
-    "acontecimiento_id": "2026-10-11-villa-paranacito-defensas-hidricas-mejoras-seguridad",
-    "slug": "villa-paranacito-defensas-hidricas-mejoras-seguridad",
-    "titulo": "Villa Paranacito: Mejoras Cruciales en Defensas Hídricas Refuerzan la Seguridad Local",
-    "copete": "En un contexto de alerta hídrica regional, Villa Paranacito avanza con importantes mejoras en sus defensas, una medida preventiva fundamental para la protección de la comunidad y sus bienes.",
-    "categoria": "Obras y Servicios",
-    "tags": [
-      "Villa Paranacito",
-      "Defensas Hídricas",
-      "Inundaciones",
-      "El Niño",
-      "Obras Públicas",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "11 de Octubre de 2026, 19:56 hs",
-    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:56 hs",
-    "fecha_inicio_iso": "2026-10-11T19:56:52.581110",
-    "fecha_ultima_actualizacion_iso": "2026-10-11T19:56:52.581110",
-    "resumen_whatsapp": "🚨 Villa Paranacito: Mejoras clave en defensas hídricas para proteger la comunidad ante posibles crecidas. ¡Mantente informado! #DeltaSeguro"
   },
   {
     "acontecimiento_id": "2026-10-11-alerta-hidrica-villa-paranacito-el-nino",

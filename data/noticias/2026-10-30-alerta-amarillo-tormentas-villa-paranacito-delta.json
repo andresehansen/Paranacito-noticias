@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-emitieron-un-alerta-amarillo-por-tormentas-en-siete-departamentos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0oqZlfNqaoSQZlD2J9wIgc",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-emitieron-un-alerta-amarillo-por-tormentas-en-siete-departamentos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0oqZlfNqaoSQZlD2J9wIgc",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Baja",
   "es_alerta": false,
   "requiere_revision": true,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://ahora.com.ar/2/tiempo-en-entre-rios-emitieron-un-alerta-amarillo-por-tormentas-en-siete-departamentos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0oqZlfNqaoSQZlD2J9wIgc",
       "fecha_consulta": "2026-10-30T04:32:44.474107"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elentrerios.com/actualidad/anuncian-lluvias-entre-rios.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3w2oEdM9ZYJPPtp2HiOWWz",
+      "fecha_consulta": "2026-10-30T14:51:26.077717"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito y el Delta están bajo alerta amarillo del SMN por tormentas fuertes, con riesgo de lluvias intensas, ráfagas y granizo. Se recomienda a los vecinos tomar precauciones, asegurar objeto",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "14:51",
+      "fecha": "2026-10-30",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo especifica otros departamentos entrerrianos bajo alerta amarillo por tormentas, además de Villa Paranacito: Gualeguaychú, Rosario del Tala, Concepción del Uruguay y Colón.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "aea1793142affc7f13656d3e2a0649060bb09d4f411bcc71f35621462a3561bd"
+    "aea1793142affc7f13656d3e2a0649060bb09d4f411bcc71f35621462a3561bd",
+    "04a73bea9a344958dc1355bc9fb56ff6c975d4be4e9067ce85d3a9aa5900688f"
   ],
   "fecha_iso": "2026-10-30T04:32:44.474107",
   "fecha_inicio_iso": "2026-10-30T04:32:44.474107",
-  "fecha_ultima_actualizacion_iso": "2026-10-30T04:32:44.474107",
+  "fecha_ultima_actualizacion_iso": "2026-10-30T14:51:26.077717",
   "fecha_publicacion": "30 de Octubre de 2026, 04:32 hs",
-  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 04:32 hs",
+  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 14:51 hs",
   "archivo": "2026-10-30-alerta-amarillo-tormentas-villa-paranacito-delta.json"
 }
