@@ -1,48 +1,48 @@
 {
-  "ultima_actualizacion": "31/10/2026 04:56",
-  "timestamp_iso": "2026-10-31T04:56:23.676236",
+  "ultima_actualizacion": "31/10/2026 14:19",
+  "timestamp_iso": "2026-10-31T14:19:01.202835",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 14,
-    "sensacion_termica": 14,
-    "humedad": 98,
+    "temperatura": 22,
+    "sensacion_termica": 26,
+    "humedad": 69,
     "viento_velocidad_kmh": 6,
-    "viento_direccion": "NNE",
+    "viento_direccion": "ENE",
     "presion_hpa": 1013,
-    "descripcion": "Cielo despejado",
-    "icono": "☀️",
+    "descripcion": "Mayormente despejado",
+    "icono": "🌤️",
     "pronostico_extendido": [
       {
         "fecha": "2026-10-31",
-        "temp_max": 26,
+        "temp_max": 25,
         "temp_min": 13,
-        "prob_lluvia": 29,
+        "prob_lluvia": 52,
         "descripcion": "Llovizna leve",
         "icono": "🌦️"
       },
       {
         "fecha": "2026-11-01",
         "temp_max": 26,
-        "temp_min": 16,
-        "prob_lluvia": 80,
-        "descripcion": "Tormenta con granizo",
-        "icono": "⛈️"
+        "temp_min": 17,
+        "prob_lluvia": 83,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
       },
       {
         "fecha": "2026-11-02",
         "temp_max": 27,
-        "temp_min": 15,
-        "prob_lluvia": 63,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "temp_min": 16,
+        "prob_lluvia": 78,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
       },
       {
         "fecha": "2026-11-03",
         "temp_max": 24,
         "temp_min": 16,
-        "prob_lluvia": 61,
-        "descripcion": "Llovizna intensa",
-        "icono": "🌧️"
+        "prob_lluvia": 59,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
       }
     ]
   },
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-31 04:56"
+    "actualizado": "2026-10-31 14:19"
   }
 }

@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-10-31-concurso-nivel-primario-villa-paranacito",
+    "slug": "concurso-nivel-primario-villa-paranacito",
+    "titulo": "Concurso de Nivel Primario en Villa Paranacito: La DDE Islas del Ibicuy convoca a docentes",
+    "copete": "La Dirección Departamental de Escuelas de Islas del Ibicuy invita a participar del Concurso de Nivel Primario, un paso fundamental para la cobertura de cargos y horas cátedra, que se realizará el próximo lunes 2 de noviembre en Villa Paranacito.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Villa Paranacito",
+      "DDE Islas del Ibicuy",
+      "Concurso Docente",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "31 de Octubre de 2026, 14:19 hs",
+    "fecha_ultima_actualizacion": "31 de Octubre de 2026, 14:19 hs",
+    "fecha_inicio_iso": "2026-10-31T14:19:43.941731",
+    "fecha_ultima_actualizacion_iso": "2026-10-31T14:19:43.941731",
+    "resumen_whatsapp": "📢 ¡Atención docentes! La DDE Islas del Ibicuy convoca a Concurso de Nivel Primario el 2/11 a las 10:30 hs en Villa Paranacito. ¡Clave para la educación en el Delta! 📚✏️"
+  },
+  {
     "acontecimiento_id": "2026-10-30-planes-evacuacion-villa-paranacito-delta",
     "slug": "planes-evacuacion-villa-paranacito-delta",
     "titulo": "Preparación ante Emergencias: La Provincia Refuerza Planes de Evacuación para Villa Paranacito y el Delta",
@@ -443,35 +471,6 @@
     "fecha_inicio_iso": "2026-10-23T03:32:10.046950",
     "fecha_ultima_actualizacion_iso": "2026-10-23T03:32:10.046950",
     "resumen_whatsapp": "🗳️ Fermín Tristán lanzó su candidatura a Intendente de Villa Paranacito. Propone desarrollo local, mejoras en servicios y atención a las necesidades del Delta. ¡Elecciones en marcha! #Paranacito"
-  },
-  {
-    "acontecimiento_id": "2026-10-23-concurso-docente-primario-villa-paranacito",
-    "slug": "concurso-docente-primario-villa-paranacito",
-    "titulo": "Concurso Docente de Nivel Primario en Villa Paranacito: Fortaleciendo la Educación del Delta",
-    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy convoca a docentes de Nivel Primario a un concurso complementario que se realizará en Villa Paranacito, una iniciativa clave para la cobertura de cargos y la continuidad pedagógica en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Educación",
-      "Concurso Docente",
-      "Villa Paranacito",
-      "Islas del Ibicuy",
-      "DDE"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "23 de Octubre de 2026, 03:31 hs",
-    "fecha_ultima_actualizacion": "23 de Octubre de 2026, 03:31 hs",
-    "fecha_inicio_iso": "2026-10-23T03:31:56.876044",
-    "fecha_ultima_actualizacion_iso": "2026-10-23T03:31:56.876044",
-    "resumen_whatsapp": "📚 ¡Atención docentes de Primaria! Concurso complementario en Villa Paranacito el 23/10 a las 09:30 hs. Oportunidades para la educación del Delta. #Educación #VillaParanacito"
   },
   {
     "acontecimiento_id": "2026-10-22-ley-vandalismo-rural-seguridad-delta-paranacito",
