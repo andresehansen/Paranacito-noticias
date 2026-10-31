@@ -1,0 +1,56 @@
+{
+  "acontecimiento_id": "2026-10-31-nivel-rio-paranacito-estacionario-sin-riesgo",
+  "titulo": "Nivel del Río Uruguay en Villa Paranacito: La Tinta se mantiene en 1.64 metros, sin riesgo inminente",
+  "copete": "El hidrómetro de La Tinta, en Villa Paranacito, registra un nivel de 1.64 metros según el último informe disponible, manteniéndose estacionario y lejos de los umbrales de alerta y evacuación para la comunidad isleña.",
+  "cuerpo": [
+    "La tranquilidad hídrica persiste en Villa Paranacito y sus alrededores. El punto de medición de La Tinta, un referente clave para monitorear el comportamiento del Río Uruguay en esta sección del Delta entrerriano, marcó 1.64 metros. Este registro, con fecha del 30 de octubre de 2026, indica una estabilidad casi total, con una variación insignificante de -0.01 metros, lo que asegura condiciones normales para la navegación y la vida cotidiana en la región.",
+    "Fuentes locales y los datos históricos de Prefectura Naval Argentina confirman que el nivel actual se encuentra muy por debajo de los parámetros que activarían protocolos de emergencia. Generalmente, los niveles de alerta en esta zona suelen establecerse alrededor de los 2.50 metros, mientras que la evacuación se considera a partir de los 3.00 metros. La situación actual, por lo tanto, no representa ninguna preocupación para las autoridades ni para los vecinos, permitiendo el desarrollo habitual de las actividades fluviales y terrestres.",
+    "Esta estabilidad del río es fundamental para la vida de los isleños. Garantiza el acceso sin interrupciones a los muelles y embarcaderos, facilita el transporte fluvial de pasajeros y mercaderías, y mantiene en óptimas condiciones los caminos rurales y de acceso a las propiedades ribereñas. Además, la ausencia de crecidas o bajantes pronunciadas beneficia directamente a la producción local, desde la ganadería hasta la fruticultura, evitando pérdidas por anegamientos o dificultades en el riego.",
+    "Si bien la situación es de calma, las autoridades de Prefectura Naval Argentina y el Municipio de Islas del Ibicuy recomiendan a la población mantenerse informada a través de los canales oficiales. Aunque no se prevén cambios drásticos a corto plazo, el monitoreo constante de los niveles hídricos es una práctica habitual en una región tan ligada al río. No se han emitido recomendaciones especiales ni se han activado medidas preventivas, pero la precaución y el conocimiento del entorno fluvial son siempre esenciales para quienes habitan el Delta."
+  ],
+  "resumen": "El nivel del Río Uruguay en Villa Paranacito, medido en La Tinta, se mantiene en 1.64 metros, sin variaciones significativas. Este registro está muy por debajo de los niveles de alerta y evacuación, asegurando la normalidad en las actividades diarias y el transporte fluvial para la comunidad isleña. Las autoridades recomiendan mantenerse informados",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Villa Paranacito",
+    "Nivel del Río",
+    "Río Uruguay",
+    "Delta Entrerriano",
+    "Hidrometría"
+  ],
+  "slug": "nivel-rio-paranacito-estacionario-sin-riesgo",
+  "resumen_whatsapp": "💧 El Río Uruguay en Villa Paranacito se mantiene en 1.64m en La Tinta. Nivel estable y lejos de alerta. ¡Tranquilidad en el Delta! #ParanacitoNoticias",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://news.agrofy.com.ar/altura-de-los-rios/villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw394kP4HYBhfg5naFvnHNYb",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://news.agrofy.com.ar/altura-de-los-rios/villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw394kP4HYBhfg5naFvnHNYb",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://news.agrofy.com.ar/altura-de-los-rios/villa-paranacito&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw394kP4HYBhfg5naFvnHNYb",
+      "fecha_consulta": "2026-10-31T19:44:30.281444"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "19:44",
+      "fecha": "2026-10-31",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nivel del Río Uruguay en Villa Paranacito, medido en La Tinta, se mantiene en 1.64 metros, sin variaciones significativas. Este registro está muy por debajo de los niveles de alerta y evacuación, a",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "a8de40ced55c7635c92ef8706d6ac9f4acab893480a918f1bba282bd8b7217ed"
+  ],
+  "fecha_iso": "2026-10-31T19:44:30.281444",
+  "fecha_inicio_iso": "2026-10-31T19:44:30.281444",
+  "fecha_ultima_actualizacion_iso": "2026-10-31T19:44:30.281444",
+  "fecha_publicacion": "31 de Octubre de 2026, 19:44 hs",
+  "fecha_ultima_actualizacion": "31 de Octubre de 2026, 19:44 hs",
+  "archivo": "2026-10-31-nivel-rio-paranacito-estacionario-sin-riesgo.json"
+}

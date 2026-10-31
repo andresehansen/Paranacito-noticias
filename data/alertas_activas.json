@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-10-31-nivel-rio-paranacito-estacionario-sin-riesgo",
+    "slug": "nivel-rio-paranacito-estacionario-sin-riesgo",
+    "titulo": "Nivel del Río Uruguay en Villa Paranacito: La Tinta se mantiene en 1.64 metros, sin riesgo inminente",
+    "copete": "El hidrómetro de La Tinta, en Villa Paranacito, registra un nivel de 1.64 metros según el último informe disponible, manteniéndose estacionario y lejos de los umbrales de alerta y evacuación para la comunidad isleña.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Nivel del Río",
+      "Río Uruguay",
+      "Delta Entrerriano",
+      "Hidrometría"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "31 de Octubre de 2026, 19:44 hs",
+    "fecha_ultima_actualizacion": "31 de Octubre de 2026, 19:44 hs",
+    "fecha_inicio_iso": "2026-10-31T19:44:30.281444",
+    "fecha_ultima_actualizacion_iso": "2026-10-31T19:44:30.281444",
+    "resumen_whatsapp": "💧 El Río Uruguay en Villa Paranacito se mantiene en 1.64m en La Tinta. Nivel estable y lejos de alerta. ¡Tranquilidad en el Delta! #ParanacitoNoticias"
+  },
+  {
     "acontecimiento_id": "2026-10-30-planes-evacuacion-villa-paranacito-delta",
     "slug": "planes-evacuacion-villa-paranacito-delta",
     "titulo": "Preparación ante Emergencias: La Provincia Refuerza Planes de Evacuación para Villa Paranacito y el Delta",
