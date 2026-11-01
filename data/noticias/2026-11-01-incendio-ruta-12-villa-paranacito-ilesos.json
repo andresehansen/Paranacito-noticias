@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/10/31/120177-un-automovil-se-incendio-por-completo-en-la-autovia-12-sus-ocupantes-salieron-ilesos&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2owTnjvnlI_KPcxvXqqit5",
       "fecha_consulta": "2026-11-01T14:46:26.719651"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/guale/un-auto-se-incendio-por-completo-en-la-ruta-12-dos-hombres-lograron-salir-ilesos.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0IHLYc-sq01OhcqVcfgZjo",
+      "fecha_consulta": "2026-11-01T20:12:44.018595"
     }
   ],
   "cronologia_actualizaciones": [
@@ -55,16 +60,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Los ocupantes comenzaron a sentir olor a quemado y observaron humo proveniente del sector del motor. El propósito de su viaje a Villa Paranacito era visitar a un familiar.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "20:12",
+      "fecha": "2026-11-01",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Un auto se incendió por completo en la Ruta 12: dos hombres lograron salir ilesos",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "3847ba5a165b23e653e8904962cf44549cef34e1d27d329ec2a8f4547f07cab4",
-    "5f528bd149c14f2549db17ecb76767bb6d39c7aa752191590ee560294afb635f"
+    "5f528bd149c14f2549db17ecb76767bb6d39c7aa752191590ee560294afb635f",
+    "074cdb58d948fd6e179c97b9e6a6e597474533c7129bcd4bafecb2612eed3d6b"
   ],
   "fecha_iso": "2026-11-01T14:46:20.598316",
   "fecha_inicio_iso": "2026-11-01T14:46:20.598316",
-  "fecha_ultima_actualizacion_iso": "2026-11-01T14:46:26.719651",
+  "fecha_ultima_actualizacion_iso": "2026-11-01T20:12:44.018595",
   "fecha_publicacion": "1 de Noviembre de 2026, 14:46 hs",
-  "fecha_ultima_actualizacion": "1 de Noviembre de 2026, 14:46 hs",
+  "fecha_ultima_actualizacion": "1 de Noviembre de 2026, 20:12 hs",
   "archivo": "2026-11-01-incendio-ruta-12-villa-paranacito-ilesos.json"
 }
