@@ -1,47 +1,47 @@
 {
-  "ultima_actualizacion": "31/10/2026 23:13",
-  "timestamp_iso": "2026-10-31T23:13:52.863249",
+  "ultima_actualizacion": "01/11/2026 04:34",
+  "timestamp_iso": "2026-11-01T04:34:22.476342",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 20,
-    "sensacion_termica": 21,
-    "humedad": 84,
-    "viento_velocidad_kmh": 10,
-    "viento_direccion": "ESE",
-    "presion_hpa": 1010,
+    "temperatura": 18,
+    "sensacion_termica": 18,
+    "humedad": 91,
+    "viento_velocidad_kmh": 8,
+    "viento_direccion": "ENE",
+    "presion_hpa": 1011,
     "descripcion": "Mayormente despejado",
     "icono": "🌤️",
     "pronostico_extendido": [
       {
-        "fecha": "2026-10-31",
-        "temp_max": 26,
-        "temp_min": 13,
-        "prob_lluvia": 67,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
-      },
-      {
         "fecha": "2026-11-01",
         "temp_max": 26,
         "temp_min": 17,
-        "prob_lluvia": 76,
+        "prob_lluvia": 69,
         "descripcion": "Tormenta eléctrica",
         "icono": "⚡"
       },
       {
         "fecha": "2026-11-02",
         "temp_max": 27,
-        "temp_min": 15,
-        "prob_lluvia": 67,
+        "temp_min": 16,
+        "prob_lluvia": 71,
         "descripcion": "Tormenta eléctrica",
         "icono": "⚡"
       },
       {
         "fecha": "2026-11-03",
-        "temp_max": 23,
+        "temp_max": 21,
         "temp_min": 16,
-        "prob_lluvia": 77,
-        "descripcion": "Chaparrones moderados",
+        "prob_lluvia": 86,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
+      },
+      {
+        "fecha": "2026-11-04",
+        "temp_max": 24,
+        "temp_min": 14,
+        "prob_lluvia": 41,
+        "descripcion": "Llovizna intensa",
         "icono": "🌧️"
       }
     ]
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-10-31 23:13"
+    "actualizado": "2026-11-01 04:34"
   }
 }
