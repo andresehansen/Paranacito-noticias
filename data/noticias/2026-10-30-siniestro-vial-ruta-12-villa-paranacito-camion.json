@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/amp/volco-en-ruta-12-un-camion-que-transportaba-plantas-desde-escobar-a-parana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw21P_GuAWcn0OKOPwZl4ZRW",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/amp/volco-en-ruta-12-un-camion-que-transportaba-plantas-desde-escobar-a-parana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw21P_GuAWcn0OKOPwZl4ZRW",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://maximaonline.com.ar/amp/volco-en-ruta-12-un-camion-que-transportaba-plantas-desde-escobar-a-parana.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw21P_GuAWcn0OKOPwZl4ZRW",
       "fecha_consulta": "2026-10-30T20:26:18.956910"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariodebatepregon.com/provinciales/un-volkswagen-fox-quedo-destruido-tras-incendiarse-en-la-autovia-12&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3sRu8jzBN2PoFn_dqvs0ua",
+      "fecha_consulta": "2026-11-02T17:51:05.323709"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Un camión volcó en el kilómetro 148 de la Ruta Nacional N.º 12, a la altura de Villa Paranacito, mientras transportaba plantas desde Escobar a Paraná. Los Bomberos Voluntarios de Ceibas respondieron r",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "17:51",
+      "fecha": "2026-11-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Un Volkswagen Fox quedó destruido tras incendiarse en la Autovía 12",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "b4a4ad3a8515894eb150a32ba7a4bdaed0e8ea190cdafd69909b96be17155fb6"
+    "b4a4ad3a8515894eb150a32ba7a4bdaed0e8ea190cdafd69909b96be17155fb6",
+    "8f09d6c5bc5ccb366646d5f751417e2a7e9a9c10eafaa8172d956479f72a3f90"
   ],
   "fecha_iso": "2026-10-30T20:26:18.956910",
   "fecha_inicio_iso": "2026-10-30T20:26:18.956910",
-  "fecha_ultima_actualizacion_iso": "2026-10-30T20:26:18.956910",
+  "fecha_ultima_actualizacion_iso": "2026-11-02T17:51:05.323709",
   "fecha_publicacion": "30 de Octubre de 2026, 20:26 hs",
-  "fecha_ultima_actualizacion": "30 de Octubre de 2026, 20:26 hs",
+  "fecha_ultima_actualizacion": "2 de Noviembre de 2026, 17:51 hs",
   "archivo": "2026-10-30-siniestro-vial-ruta-12-villa-paranacito-camion.json"
 }

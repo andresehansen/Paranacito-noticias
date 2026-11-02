@@ -1,5 +1,66 @@
 [
   {
+    "acontecimiento_id": "2026-10-30-siniestro-vial-ruta-12-villa-paranacito-camion",
+    "slug": "siniestro-vial-ruta-12-villa-paranacito-camion",
+    "titulo": "Siniestro Vial en Ruta 12 a la altura de Villa Paranacito: Camión Volcó con Carga de Plantas",
+    "copete": "Un camión que transportaba plantas desde Escobar hacia Paraná sufrió un vuelco en el kilómetro 148 de la Autovía Nacional N.º 12, en cercanías de Villa Paranacito, generando la inmediata movilización de los Bomberos Voluntarios de Ceibas.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Ruta 12",
+      "Siniestro Vial",
+      "Bomberos Ceibas",
+      "Islas del Ibicuy",
+      "Seguridad Vial"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "30 de Octubre de 2026, 20:26 hs",
+    "fecha_ultima_actualizacion": "2 de Noviembre de 2026, 17:51 hs",
+    "fecha_inicio_iso": "2026-10-30T20:26:18.956910",
+    "fecha_ultima_actualizacion_iso": "2026-11-02T17:51:05.323709",
+    "resumen_whatsapp": "🚨 Siniestro vial en Ruta 12 cerca de Villa Paranacito: Camión volcó en km 148. Bomberos de Ceibas actuaron rápido, sin heridos graves. ¡Precaución al circular! 🚧"
+  },
+  {
+    "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",
+    "slug": "villa-paranacito-noche-museos-entrerrianos-2026",
+    "titulo": "Villa Paranacito será protagonista de La Noche de los Museos Entrerrianos 2026",
+    "copete": "La localidad del Delta entrerriano ha sido confirmada como una de las sedes de este importante evento cultural provincial, que busca visibilizar el patrimonio histórico y natural de la región.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Villa Paranacito",
+      "Noche de los Museos",
+      "Cultura",
+      "Delta",
+      "Turismo",
+      "Patrimonio",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_ultima_actualizacion": "2 de Noviembre de 2026, 17:51 hs",
+    "fecha_inicio_iso": "2026-10-29T04:32:51.442563",
+    "fecha_ultima_actualizacion_iso": "2026-11-02T17:51:05.320291",
+    "resumen_whatsapp": "🎉 Villa Paranacito será sede de La Noche de los Museos Entrerrianos 2026. ¡Gran oportunidad para mostrar la riqueza cultural y natural de nuestro Delta! 🏞️🎭"
+  },
+  {
     "acontecimiento_id": "2026-10-31-nivel-rio-paranacito-estacionario-sin-riesgo",
     "slug": "nivel-rio-paranacito-estacionario-sin-riesgo",
     "titulo": "Nivel del Río Uruguay en Villa Paranacito: La Tinta se mantiene en 1.64 metros, sin riesgo inminente",
@@ -86,35 +147,6 @@
     "resumen_whatsapp": "🚨 La Provincia refuerza planes de evacuación y espacios seguros para Villa Paranacito y el Delta. ¡Preparados ante emergencias! #VillaParanacito #Delta"
   },
   {
-    "acontecimiento_id": "2026-10-30-siniestro-vial-ruta-12-villa-paranacito-camion",
-    "slug": "siniestro-vial-ruta-12-villa-paranacito-camion",
-    "titulo": "Siniestro Vial en Ruta 12 a la altura de Villa Paranacito: Camión Volcó con Carga de Plantas",
-    "copete": "Un camión que transportaba plantas desde Escobar hacia Paraná sufrió un vuelco en el kilómetro 148 de la Autovía Nacional N.º 12, en cercanías de Villa Paranacito, generando la inmediata movilización de los Bomberos Voluntarios de Ceibas.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Ruta 12",
-      "Siniestro Vial",
-      "Bomberos Ceibas",
-      "Islas del Ibicuy",
-      "Seguridad Vial"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "30 de Octubre de 2026, 20:26 hs",
-    "fecha_ultima_actualizacion": "30 de Octubre de 2026, 20:26 hs",
-    "fecha_inicio_iso": "2026-10-30T20:26:18.956910",
-    "fecha_ultima_actualizacion_iso": "2026-10-30T20:26:18.956910",
-    "resumen_whatsapp": "🚨 Siniestro vial en Ruta 12 cerca de Villa Paranacito: Camión volcó en km 148. Bomberos de Ceibas actuaron rápido, sin heridos graves. ¡Precaución al circular! 🚧"
-  },
-  {
     "acontecimiento_id": "2026-10-30-provincia-revisa-defensas-hidricas-villa-paranacito",
     "slug": "provincia-revisa-defensas-hidricas-villa-paranacito",
     "titulo": "Refuerzan la Seguridad Hídrica: Provincia Revisa Defensas Clave en Villa Paranacito",
@@ -171,36 +203,6 @@
     "fecha_inicio_iso": "2026-10-30T04:33:01.060890",
     "fecha_ultima_actualizacion_iso": "2026-10-30T04:33:01.060890",
     "resumen_whatsapp": "⚠️ Villa Paranacito en alerta por crecida de ríos. Municipio alista centros de evacuados y refuerza asistencia. ¡Informate y preparate! #EmergenciaHídrica"
-  },
-  {
-    "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",
-    "slug": "villa-paranacito-noche-museos-entrerrianos-2026",
-    "titulo": "Villa Paranacito será protagonista de La Noche de los Museos Entrerrianos 2026",
-    "copete": "La localidad del Delta entrerriano ha sido confirmada como una de las sedes de este importante evento cultural provincial, que busca visibilizar el patrimonio histórico y natural de la región.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "Villa Paranacito",
-      "Noche de los Museos",
-      "Cultura",
-      "Delta",
-      "Turismo",
-      "Patrimonio",
-      "Islas del Ibicuy"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
-    "fecha_ultima_actualizacion": "29 de Octubre de 2026, 04:32 hs",
-    "fecha_inicio_iso": "2026-10-29T04:32:51.442563",
-    "fecha_ultima_actualizacion_iso": "2026-10-29T04:32:51.442563",
-    "resumen_whatsapp": "🎉 Villa Paranacito será sede de La Noche de los Museos Entrerrianos 2026. ¡Gran oportunidad para mostrar la riqueza cultural y natural de nuestro Delta! 🏞️🎭"
   },
   {
     "acontecimiento_id": "2026-10-29-villa-paranacito-defensa-sur-generador-electrogeno",

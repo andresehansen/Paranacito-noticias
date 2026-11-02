@@ -25,7 +25,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/gualeguaychu-urdinarrain-y-gilbert-seran-parte-de-la-noche-de-los-museos-entrerrianos-2026&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3zckef04Rb5dmsAcIZnrG9",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/gualeguaychu-urdinarrain-y-gilbert-seran-parte-de-la-noche-de-los-museos-entrerrianos-2026&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3zckef04Rb5dmsAcIZnrG9",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/gualeguaychu-urdinarrain-y-gilbert-seran-parte-de-la-noche-de-los-museos-entrerrianos-2026&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3zckef04Rb5dmsAcIZnrG9",
       "fecha_consulta": "2026-10-29T04:32:51.442563"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.entrerios.gov.ar/cultura/la-secretaria-de-cultura-de-la-provincia-invita-a-disfrutar-la-noche-de-los-museos-entrerrianos/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0x65dkXOiPoOLce7vH5fth",
+      "fecha_consulta": "2026-11-02T17:51:05.320291"
     }
   ],
   "cronologia_actualizaciones": [
@@ -44,15 +49,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito ha sido confirmada como sede de 'La Noche de los Museos Entrerrianos 2026', una oportunidad para visibilizar su patrimonio histórico y natural del Delta. Este evento busca revalorizar",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "17:51",
+      "fecha": "2026-11-02",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable informa que Villa Clara, Villa Elisa y Villaguay también participarán en La Noche de los Museos Entrerrianos, y que la invitación proviene de la Secretaría de Cultura de la provincia, sugiriendo consultar sus redes y web para más detalles.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "9a2aa36e2f06fe7ed2a5c060577efdf6b8dcd7663ede15554599bd0eab4145b1"
+    "9a2aa36e2f06fe7ed2a5c060577efdf6b8dcd7663ede15554599bd0eab4145b1",
+    "e8cd1c551750342205dc298b8de6d3d18561ca9b56bd21b3b16f0726d64b6370"
   ],
   "fecha_iso": "2026-10-29T04:32:51.442563",
   "fecha_inicio_iso": "2026-10-29T04:32:51.442563",
-  "fecha_ultima_actualizacion_iso": "2026-10-29T04:32:51.442563",
+  "fecha_ultima_actualizacion_iso": "2026-11-02T17:51:05.320291",
   "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
-  "fecha_ultima_actualizacion": "29 de Octubre de 2026, 04:32 hs",
+  "fecha_ultima_actualizacion": "2 de Noviembre de 2026, 17:51 hs",
   "archivo": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026.json"
 }
