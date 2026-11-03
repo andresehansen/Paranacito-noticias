@@ -1,0 +1,58 @@
+{
+  "acontecimiento_id": "2026-11-03-evacuacion-ganado-paranacito-creciente-rio",
+  "titulo": "Productores de Villa Paranacito y el Delta en Alerta: Más de 129 Mil Animales Trasladados por la Creciente",
+  "copete": "La subida extraordinaria del río Paraná ha forzado la evacuación de más de 129.000 cabezas de ganado de las islas entrerrianas, impactando directamente a los productores de Villa Paranacito y la región de Islas del Ibicuy.",
+  "cuerpo": [
+    "La creciente extraordinaria del río Paraná y sus afluentes ha generado una situación crítica en las zonas de islas de Entre Ríos, afectando particularmente a los campos de pastoreo en el Delta, incluyendo las áreas productivas de Villa Paranacito y el departamento Islas del Ibicuy. Ante el avance del agua, se ha registrado el traslado masivo de más de 129.000 animales, principalmente ganado vacuno, desde las zonas bajas hacia terrenos más elevados en la costa o en otras provincias, en una operación logística de gran envergadura.",
+    "Según datos preliminares de organismos provinciales, este movimiento busca salvaguardar la hacienda de los productores locales, evitando pérdidas significativas. La operación, que involucra a cientos de familias ganaderas de nuestra región, se coordina con el apoyo de entidades rurales y el monitoreo constante de la Prefectura Naval Argentina, que vigila las condiciones de navegabilidad y seguridad en los cursos de agua que atraviesan el Delta de Entre Ríos, vitales para el transporte de animales y provisiones.",
+    "Para los vecinos y productores de Villa Paranacito y sus alrededores, esta situación representa un desafío económico y logístico considerable. La pérdida de pastizales sumergidos obliga a incurrir en costos de flete y alimentación suplementaria, impactando directamente en la rentabilidad de las explotaciones ganaderas, pilar fundamental de la economía local. Además, la crecida afecta la transitabilidad de caminos internos y el acceso a las islas, complicando el día a día de quienes viven y trabajan en el corazón del Delta.",
+    "Ante este panorama, el Municipio de Villa Paranacito, en conjunto con el Ministerio de Producción de Entre Ríos, ha intensificado las tareas de relevamiento y asistencia a los productores afectados. Se recomienda a los ganaderos mantener un monitoreo constante de los niveles hídricos, coordinar los traslados con antelación y utilizar los canales oficiales para solicitar asesoramiento o ayuda. La Prefectura Naval Argentina en Villa Paranacito mantiene un sistema de alerta temprana para informar sobre la evolución de la creciente y garantizar la seguridad en el transporte fluvial."
+  ],
+  "resumen": "La creciente del río Paraná ha provocado el traslado de más de 129.000 animales de las islas entrerrianas, afectando gravemente a los productores de Villa Paranacito y el Delta. Esta situación genera desafíos económicos y logísticos, con el municipio y Prefectura coordinando asistencia y monitoreo constante para la comunidad.",
+  "categoria": "Río y Clima",
+  "tags": [
+    "creciente",
+    "ganadería",
+    "Villa Paranacito",
+    "Islas del Ibicuy",
+    "productores",
+    "emergencia hídrica",
+    "Prefectura Naval"
+  ],
+  "slug": "evacuacion-ganado-paranacito-creciente-rio",
+  "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Más de 129.000 animales trasladados de las islas por la creciente del Paraná. Productores afectados, monitoreo constante. #Creciente #Ganadería",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/ya-se-trasladaron-ms-de-129-mil-animales-de-islas-entrerrianas-ante-la-creciente.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3fYUctJYgAviLzWFjpx_xz",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/ya-se-trasladaron-ms-de-129-mil-animales-de-islas-entrerrianas-ante-la-creciente.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3fYUctJYgAviLzWFjpx_xz",
+  "estado": "Publicado",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.aimdigital.com.ar/provinciales/ya-se-trasladaron-ms-de-129-mil-animales-de-islas-entrerrianas-ante-la-creciente.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3fYUctJYgAviLzWFjpx_xz",
+      "fecha_consulta": "2026-11-03T02:02:53.485712"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "02:02",
+      "fecha": "2026-11-03",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "La creciente del río Paraná ha provocado el traslado de más de 129.000 animales de las islas entrerrianas, afectando gravemente a los productores de Villa Paranacito y el Delta. Esta situación genera ",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "b28db3a0a742492a1cf3732bda00f37d6f905400d5a42e0b34698fe79d57b8e2"
+  ],
+  "fecha_iso": "2026-11-03T02:02:53.485712",
+  "fecha_inicio_iso": "2026-11-03T02:02:53.485712",
+  "fecha_ultima_actualizacion_iso": "2026-11-03T02:02:53.485712",
+  "fecha_publicacion": "3 de Noviembre de 2026, 02:02 hs",
+  "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 02:02 hs",
+  "archivo": "2026-11-03-evacuacion-ganado-paranacito-creciente-rio.json"
+}

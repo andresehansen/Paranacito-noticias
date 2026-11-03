@@ -1,5 +1,93 @@
 [
   {
+    "acontecimiento_id": "2026-11-03-ya-se-trasladaron-mas-de-129-mil-animales",
+    "slug": "ya-se-trasladaron-mas-de-129-mil-animales",
+    "titulo": "Ya se trasladaron más de 129 mil animales de islas entrerrianas ante la creciente",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Ya se trasladaron más de 129 mil animales de islas entrerrianas ante la creciente.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "3 de Noviembre de 2026, 02:02 hs",
+    "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 02:02 hs",
+    "fecha_inicio_iso": "2026-11-03T02:02:59.427497",
+    "fecha_ultima_actualizacion_iso": "2026-11-03T02:02:59.427497",
+    "resumen_whatsapp": "📰 *Ya se trasladaron más de 129 mil animales de islas entrerrianas ante la creciente* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",
+    "slug": "villa-paranacito-noche-museos-entrerrianos-2026",
+    "titulo": "Villa Paranacito será protagonista de La Noche de los Museos Entrerrianos 2026",
+    "copete": "La localidad del Delta entrerriano ha sido confirmada como una de las sedes de este importante evento cultural provincial, que busca visibilizar el patrimonio histórico y natural de la región.",
+    "categoria": "Turismo y Cultura",
+    "tags": [
+      "Villa Paranacito",
+      "Noche de los Museos",
+      "Cultura",
+      "Delta",
+      "Turismo",
+      "Patrimonio",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
+    "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 02:02 hs",
+    "fecha_inicio_iso": "2026-10-29T04:32:51.442563",
+    "fecha_ultima_actualizacion_iso": "2026-11-03T02:02:53.489802",
+    "resumen_whatsapp": "🎉 Villa Paranacito será sede de La Noche de los Museos Entrerrianos 2026. ¡Gran oportunidad para mostrar la riqueza cultural y natural de nuestro Delta! 🏞️🎭"
+  },
+  {
+    "acontecimiento_id": "2026-11-03-evacuacion-ganado-paranacito-creciente-rio",
+    "slug": "evacuacion-ganado-paranacito-creciente-rio",
+    "titulo": "Productores de Villa Paranacito y el Delta en Alerta: Más de 129 Mil Animales Trasladados por la Creciente",
+    "copete": "La subida extraordinaria del río Paraná ha forzado la evacuación de más de 129.000 cabezas de ganado de las islas entrerrianas, impactando directamente a los productores de Villa Paranacito y la región de Islas del Ibicuy.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "creciente",
+      "ganadería",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "productores",
+      "emergencia hídrica",
+      "Prefectura Naval"
+    ],
+    "estado": "Publicado",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "3 de Noviembre de 2026, 02:02 hs",
+    "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 02:02 hs",
+    "fecha_inicio_iso": "2026-11-03T02:02:53.485712",
+    "fecha_ultima_actualizacion_iso": "2026-11-03T02:02:53.485712",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Más de 129.000 animales trasladados de las islas por la creciente del Paraná. Productores afectados, monitoreo constante. #Creciente #Ganadería"
+  },
+  {
     "acontecimiento_id": "2026-10-30-siniestro-vial-ruta-12-villa-paranacito-camion",
     "slug": "siniestro-vial-ruta-12-villa-paranacito-camion",
     "titulo": "Siniestro Vial en Ruta 12 a la altura de Villa Paranacito: Camión Volcó con Carga de Plantas",
@@ -28,37 +116,6 @@
     "fecha_inicio_iso": "2026-10-30T20:26:18.956910",
     "fecha_ultima_actualizacion_iso": "2026-11-02T17:51:05.323709",
     "resumen_whatsapp": "🚨 Siniestro vial en Ruta 12 cerca de Villa Paranacito: Camión volcó en km 148. Bomberos de Ceibas actuaron rápido, sin heridos graves. ¡Precaución al circular! 🚧"
-  },
-  {
-    "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",
-    "slug": "villa-paranacito-noche-museos-entrerrianos-2026",
-    "titulo": "Villa Paranacito será protagonista de La Noche de los Museos Entrerrianos 2026",
-    "copete": "La localidad del Delta entrerriano ha sido confirmada como una de las sedes de este importante evento cultural provincial, que busca visibilizar el patrimonio histórico y natural de la región.",
-    "categoria": "Turismo y Cultura",
-    "tags": [
-      "Villa Paranacito",
-      "Noche de los Museos",
-      "Cultura",
-      "Delta",
-      "Turismo",
-      "Patrimonio",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "29 de Octubre de 2026, 04:32 hs",
-    "fecha_ultima_actualizacion": "2 de Noviembre de 2026, 17:51 hs",
-    "fecha_inicio_iso": "2026-10-29T04:32:51.442563",
-    "fecha_ultima_actualizacion_iso": "2026-11-02T17:51:05.320291",
-    "resumen_whatsapp": "🎉 Villa Paranacito será sede de La Noche de los Museos Entrerrianos 2026. ¡Gran oportunidad para mostrar la riqueza cultural y natural de nuestro Delta! 🏞️🎭"
   },
   {
     "acontecimiento_id": "2026-10-31-nivel-rio-paranacito-estacionario-sin-riesgo",
@@ -620,35 +677,6 @@
     "fecha_inicio_iso": "2026-10-22T04:08:44.819280",
     "fecha_ultima_actualizacion_iso": "2026-10-22T04:08:44.819280",
     "resumen_whatsapp": "🎣 ¡Excelente pique en Villa Paranacito! Dorados y surubíes abundan en el Delta, impulsando el turismo local. ¡A pescar con responsabilidad! 🚤"
-  },
-  {
-    "acontecimiento_id": "2026-10-21-emergencia-agropecuaria-villa-paranacito-crecida-rios",
-    "slug": "emergencia-agropecuaria-villa-paranacito-crecida-rios",
-    "titulo": "Villa Paranacito en Alerta: Proponen Declarar la Emergencia Agropecuaria por Crecida de Ríos",
-    "copete": "Ante el avance sostenido de las crecidas de los ríos Paraná y Uruguay, se ha elevado un proyecto para declarar la emergencia agropecuaria en la región, impactando directamente a los productores de Villa Paranacito y el Delta.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Villa Paranacito",
-      "Emergencia Agropecuaria",
-      "Crecida de Ríos",
-      "Productores",
-      "Delta Entrerriano",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "21 de Octubre de 2026, 19:59 hs",
-    "fecha_ultima_actualizacion": "21 de Octubre de 2026, 19:59 hs",
-    "fecha_inicio_iso": "2026-10-21T19:59:42.193031",
-    "fecha_ultima_actualizacion_iso": "2026-10-21T19:59:42.193031",
-    "resumen_whatsapp": "⚠️ Villa Paranacito: Proponen Emergencia Agropecuaria por crecida de ríos. Productores afectados y campos anegados. 🐄🌾"
   },
   {
     "acontecimiento_id": "2026-10-21-carrozas-nauticas-villa-paranacito-suspendidas-el-nino",
@@ -1342,32 +1370,6 @@
     "fecha_inicio_iso": "2026-10-08T15:16:46.357499",
     "fecha_ultima_actualizacion_iso": "2026-10-13T01:50:21.597038",
     "resumen_whatsapp": "⚖️ Villa Paranacito tendrá nuevo Fiscal Auxiliar: Leonardo Schonfeld fue aprobado por el Senado para fortalecer la justicia local y el acceso de los vecinos. ¡Más cerca y eficiente! 🚤"
-  },
-  {
-    "acontecimiento_id": "2026-10-11-el-nino-golpea-al-litoral-familias-evacuadas-y",
-    "slug": "el-nino-golpea-al-litoral-familias-evacuadas-y",
-    "titulo": "El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "11 de Octubre de 2026, 19:57 hs",
-    "fecha_ultima_actualizacion": "11 de Octubre de 2026, 19:57 hs",
-    "fecha_inicio_iso": "2026-10-11T19:57:04.949535",
-    "fecha_ultima_actualizacion_iso": "2026-10-11T19:57:04.949535",
-    "resumen_whatsapp": "📰 *El Niño golpea al Litoral: familias evacuadas y temor por una creciente que no se detiene* — google.com"
   },
   {
     "acontecimiento_id": "2026-10-11-alerta-hidrica-villa-paranacito-el-nino",
