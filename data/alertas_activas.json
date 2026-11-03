@@ -1,20 +1,19 @@
 [
   {
-    "acontecimiento_id": "2026-11-03-evacuacion-ganado-paranacito-creciente-rio",
-    "slug": "evacuacion-ganado-paranacito-creciente-rio",
-    "titulo": "Productores de Villa Paranacito y el Delta en Alerta: Más de 129 Mil Animales Trasladados por la Creciente",
-    "copete": "La subida extraordinaria del río Paraná ha forzado la evacuación de más de 129.000 cabezas de ganado de las islas entrerrianas, impactando directamente a los productores de Villa Paranacito y la región de Islas del Ibicuy.",
+    "acontecimiento_id": "2026-11-03-crecida-paranacito-evacuacion-ganado",
+    "slug": "crecida-paranacito-evacuacion-ganado",
+    "titulo": "Crecida Histórica: Más de 129.000 Vacunos Evacuados en las Islas del Ibicuy, con Foco en Villa Paranacito",
+    "copete": "La persistente crecida de los ríos Paraná y Uruguay ha forzado la evacuación masiva de ganado en el Delta entrerriano, afectando directamente a productores de Villa Paranacito y las Islas del Ibicuy.",
     "categoria": "Río y Clima",
     "tags": [
-      "creciente",
-      "ganadería",
+      "Crecida",
+      "Inundaciones",
+      "Ganadería",
       "Villa Paranacito",
       "Islas del Ibicuy",
-      "productores",
-      "emergencia hídrica",
-      "Prefectura Naval"
+      "Delta Entrerriano"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": true,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
@@ -23,11 +22,11 @@
       "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "3 de Noviembre de 2026, 02:02 hs",
-    "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 02:02 hs",
-    "fecha_inicio_iso": "2026-11-03T02:02:53.485712",
-    "fecha_ultima_actualizacion_iso": "2026-11-03T02:02:53.485712",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Más de 129.000 animales trasladados de las islas por la creciente del Paraná. Productores afectados, monitoreo constante. #Creciente #Ganadería"
+    "fecha_publicacion": "3 de Noviembre de 2026, 19:06 hs",
+    "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 19:06 hs",
+    "fecha_inicio_iso": "2026-11-03T19:06:50.857219",
+    "fecha_ultima_actualizacion_iso": "2026-11-03T19:06:50.857219",
+    "resumen_whatsapp": "🚨 ¡Alerta en Villa Paranacito! Más de 129.000 vacunos evacuados de las Islas del Ibicuy por la crecida. Productores y familias isleñas afectados. 🐄💧"
   },
   {
     "acontecimiento_id": "2026-10-31-nivel-rio-paranacito-estacionario-sin-riesgo",
