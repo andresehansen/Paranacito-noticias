@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/convocatoria-a-concurso-escuela-secundaria-n-2-islas-del-ibicuy-de-villa-paranacito-4/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw070FXYGIDoBCjaXyhIcYeI",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/convocatoria-a-concurso-escuela-secundaria-n-2-islas-del-ibicuy-de-villa-paranacito-4/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw070FXYGIDoBCjaXyhIcYeI",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,21 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/convocatoria-a-concurso-escuela-secundaria-n-2-islas-del-ibicuy-de-villa-paranacito-4/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw070FXYGIDoBCjaXyhIcYeI",
       "fecha_consulta": "2026-11-04T00:24:15.066313"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/convocatoria-a-concurso-escuela-secundaria-n-2-islas-del-ibicuy-de-villa-paranacito-5/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1RZVpmqJOFDME1hPh_BCkt",
+      "fecha_consulta": "2026-11-04T19:25:25.507613"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/desconvocatoria-de-concurso-horas-lengua-y-literatura-escuela-secundaria-n-2-islas-del-ibicuy-de-villa-paranacito/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0wvC60wWqENykRBGyBSlDm",
+      "fecha_consulta": "2026-11-04T19:25:29.458652"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-2-islas-del-ibicuy-de-villa-paranacito-2/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0hu9zChtnP-ttNwiv4Ckoz",
+      "fecha_consulta": "2026-11-04T19:25:40.409361"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +57,31 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito convoca a concurso para cubrir horas cátedra y cargos docentes. Este proceso busca garantizar la calidad educativa y la idoneidad de l",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:25",
+      "fecha": "2026-11-04",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Se ha desconvocado el concurso para las horas de Lengua y Literatura en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito, haciendo referencia a las normativas 5150/23 CGE y circular 2/26.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:25",
+      "fecha": "2026-11-04",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Escuela Secundaria N° 2 “Islas del Ibicuy” de Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "11ea03a0dc16eeaf81836e732e50f27b98479eb2dea4067b468182d60a97dcbb"
+    "11ea03a0dc16eeaf81836e732e50f27b98479eb2dea4067b468182d60a97dcbb",
+    "9b9edb083fa394c722b33d92769b7355baa95eda077cbfb7c2b4c3efda4be432",
+    "d1ce2c4a873d5f2a4805a626283b69b2369c931bc7830a57d70b43c535f823ff"
   ],
   "fecha_iso": "2026-11-04T00:24:15.066313",
   "fecha_inicio_iso": "2026-11-04T00:24:15.066313",
-  "fecha_ultima_actualizacion_iso": "2026-11-04T00:24:15.066313",
+  "fecha_ultima_actualizacion_iso": "2026-11-04T19:25:40.409361",
   "fecha_publicacion": "4 de Noviembre de 2026, 00:24 hs",
-  "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 00:24 hs",
+  "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 19:25 hs",
   "archivo": "2026-11-04-concurso-escuela-secundaria-villa-paranacito.json"
 }
