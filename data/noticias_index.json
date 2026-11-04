@@ -13,19 +13,20 @@
       "Deporte Local",
       "Delta Entrerriano"
     ],
-    "estado": "Publicado",
+    "estado": "En desarrollo",
     "es_alerta": false,
     "nivel_confiabilidad": "Media",
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 1,
+    "num_actualizaciones": 2,
     "fecha_publicacion": "4 de Noviembre de 2026, 19:25 hs",
-    "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 19:25 hs",
+    "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 19:40 hs",
     "fecha_inicio_iso": "2026-11-04T19:25:50.169554",
-    "fecha_ultima_actualizacion_iso": "2026-11-04T19:25:50.169554",
+    "fecha_ultima_actualizacion_iso": "2026-11-04T19:40:50.951471",
     "resumen_whatsapp": "⚽️ Villa Paranacito vibra con el fútbol: Isleños Independientes recibe a Sportivo Larroque este viernes a las 21hs por el Clausura. ¡A alentar! 🌧️"
   },
   {

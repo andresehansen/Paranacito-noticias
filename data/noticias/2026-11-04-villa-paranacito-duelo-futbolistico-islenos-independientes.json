@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/si-el-tiempo-lo-permite-comienza-la-septima-fecha-del-clausura.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1m2BzpCmDg_aBQRdnrSJDM",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/si-el-tiempo-lo-permite-comienza-la-septima-fecha-del-clausura.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1m2BzpCmDg_aBQRdnrSJDM",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.maximaonline.com.ar/amp/si-el-tiempo-lo-permite-comienza-la-septima-fecha-del-clausura.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1m2BzpCmDg_aBQRdnrSJDM",
       "fecha_consulta": "2026-11-04T19:25:50.169554"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.eldiaonline.com/con-un-adelanto-comienza-esta-noche-la-septima-fecha-del-torneo-clausura-de-primera-a&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw00_axW-At3OVvIwhjQTC3h",
+      "fecha_consulta": "2026-11-04T19:40:50.951471"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito se prepara para un emocionante partido de fútbol. El Club Isleños Independientes recibirá a Sportivo Larroque por la séptima fecha del Torneo Clausura este viernes a las 21:00, si el ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:40",
+      "fecha": "2026-11-04",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Con un adelanto, comienza esta noche la séptima fecha del Torneo Clausura de Primera A",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "ef724abe29061eb8b8feba1ed4819aa73de4a093d96e413074b398e2a1431a79"
+    "ef724abe29061eb8b8feba1ed4819aa73de4a093d96e413074b398e2a1431a79",
+    "dd2567445e6211aea4992336f358823b772be7dd730f867e172fc9c74ecee069"
   ],
   "fecha_iso": "2026-11-04T19:25:50.169554",
   "fecha_inicio_iso": "2026-11-04T19:25:50.169554",
-  "fecha_ultima_actualizacion_iso": "2026-11-04T19:25:50.169554",
+  "fecha_ultima_actualizacion_iso": "2026-11-04T19:40:50.951471",
   "fecha_publicacion": "4 de Noviembre de 2026, 19:25 hs",
-  "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 19:25 hs",
+  "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 19:40 hs",
   "archivo": "2026-11-04-villa-paranacito-duelo-futbolistico-islenos-independientes.json"
 }
