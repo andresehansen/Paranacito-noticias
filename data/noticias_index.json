@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-11-04-concurso-escuela-secundaria-villa-paranacito",
+    "slug": "concurso-escuela-secundaria-villa-paranacito",
+    "titulo": "La Escuela Secundaria N° 2 de Villa Paranacito convoca a concurso para cubrir cargos docentes",
+    "copete": "La comunidad educativa de Villa Paranacito se prepara para un nuevo proceso de selección docente en la Escuela Secundaria N° 2 'Islas del Ibicuy', buscando fortalecer su equipo pedagógico con profesionales idóneos.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Escuela Secundaria",
+      "Concurso Docente",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "4 de Noviembre de 2026, 00:24 hs",
+    "fecha_ultima_actualizacion": "4 de Noviembre de 2026, 00:24 hs",
+    "fecha_inicio_iso": "2026-11-04T00:24:15.066313",
+    "fecha_ultima_actualizacion_iso": "2026-11-04T00:24:15.066313",
+    "resumen_whatsapp": "📢 Convocatoria a concurso docente en la Escuela Secundaria N° 2 'Islas del Ibicuy' de Villa Paranacito. ¡Oportunidad para educadores! 📚👩‍🏫"
+  },
+  {
     "acontecimiento_id": "2026-11-03-operativo-ganado-creciente-villa-paranacito-delta",
     "slug": "operativo-ganado-creciente-villa-paranacito-delta",
     "titulo": "Operativo Histórico en el Delta: Más de 129 Mil Cabezas de Ganado Resguardadas de la Creciente en Villa Paranacito y Zonas Aledañas",
