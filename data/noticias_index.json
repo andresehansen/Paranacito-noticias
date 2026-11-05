@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-11-05-villa-paranacito-soja-exportacion-china",
+    "slug": "villa-paranacito-soja-exportacion-china",
+    "titulo": "La Soja de Villa Paranacito en la Mira: ¿Cómo Afectan las Tensiones Globales a la Exportación Local?",
+    "copete": "El vital flujo de exportación de soja desde el puerto de Villa Paranacito hacia China, documentado en mayo de 2024, se ve potencialmente influenciado por las complejas relaciones comerciales entre las grandes potencias mundiales.",
+    "categoria": "Comunidad",
+    "tags": [
+      "soja",
+      "exportación",
+      "Villa Paranacito",
+      "agro",
+      "comercio internacional",
+      "economía local",
+      "Islas del Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "5 de Noviembre de 2026, 00:44 hs",
+    "fecha_ultima_actualizacion": "5 de Noviembre de 2026, 00:44 hs",
+    "fecha_inicio_iso": "2026-11-05T00:44:25.184776",
+    "fecha_ultima_actualizacion_iso": "2026-11-05T00:44:25.184776",
+    "resumen_whatsapp": "🚢 La soja de Villa Paranacito a China, clave para la economía local, bajo la lupa por tensiones comerciales globales. ¡Atentos a los precios y el impacto en el Delta! 🌾📉"
+  },
+  {
     "acontecimiento_id": "2026-11-04-villa-paranacito-duelo-futbolistico-islenos-independientes",
     "slug": "villa-paranacito-duelo-futbolistico-islenos-independientes",
     "titulo": "Villa Paranacito se Prepara para un Crucial Duelo Futbolístico: Isleños Independientes Recibe a Sportivo Larroque",
