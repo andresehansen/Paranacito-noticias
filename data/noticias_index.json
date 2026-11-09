@@ -1,5 +1,34 @@
 [
   {
+    "acontecimiento_id": "2026-11-09-movimiento-radical-provincial-villa-paranacito",
+    "slug": "movimiento-radical-provincial-villa-paranacito",
+    "titulo": "Movimiento 'Por Afuera' en la UCR Provincial Genera Expectativa en Villa Paranacito",
+    "copete": "Un sector del radicalismo entrerriano, con figuras de diversas localidades, estaría conformando un espacio político independiente, una situación que se sigue con atención desde Villa Paranacito por sus posibles repercusiones locales.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Política",
+      "UCR",
+      "Villa Paranacito",
+      "Elecciones",
+      "Delta Entrerriano",
+      "Radicalismo"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "9 de Noviembre de 2026, 18:22 hs",
+    "fecha_ultima_actualizacion": "9 de Noviembre de 2026, 18:22 hs",
+    "fecha_inicio_iso": "2026-11-09T18:22:12.190923",
+    "fecha_ultima_actualizacion_iso": "2026-11-09T18:22:12.190923",
+    "resumen_whatsapp": "🚨 Movimiento político en la UCR provincial genera expectativa en Villa Paranacito. ¿Nuevas alianzas y posibles impactos locales? 🗳️"
+  },
+  {
     "acontecimiento_id": "2026-11-06-juventud-unida-lider-paranacito-futbol",
     "slug": "juventud-unida-lider-paranacito-futbol",
     "titulo": "Juventud Unida de Villa Paranacito: Único Puntero de la Zona A tras Contundente Victoria en Casa",
