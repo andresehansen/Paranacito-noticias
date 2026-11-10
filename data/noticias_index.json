@@ -1,5 +1,37 @@
 [
   {
+    "acontecimiento_id": "2026-11-10-delta-entrerriano-peregrinacion-lujan-papa",
+    "slug": "delta-entrerriano-peregrinacion-lujan-papa",
+    "titulo": "El Delta Entrerriano en Camino a Luján: Fieles de Villa Paranacito, Ceibas e Ibicuy Parten Hacia la Misa Papal",
+    "copete": "Un grupo de vecinos de Villa Paranacito, Ceibas e Islas del Ibicuy se unió a la masiva peregrinación hacia Luján para participar de la histórica misa presidida por el Papa Francisco, partiendo en colectivos y una trafic desde la región.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Ceibas",
+      "Islas del Ibicuy",
+      "Peregrinación",
+      "Papa Francisco",
+      "Luján",
+      "Fe",
+      "Comunidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "10 de Noviembre de 2026, 21:40 hs",
+    "fecha_ultima_actualizacion": "10 de Noviembre de 2026, 21:40 hs",
+    "fecha_inicio_iso": "2026-11-10T21:40:21.127858",
+    "fecha_ultima_actualizacion_iso": "2026-11-10T21:40:21.129410",
+    "resumen_whatsapp": "¡Fe en movimiento! 🙏 Vecinos de Villa Paranacito, Ceibas e Ibicuy viajan a Luján para la misa del Papa Francisco. Un viaje espiritual que une al Delta. 🚌✨"
+  },
+  {
     "acontecimiento_id": "2026-11-10-padre-mariano-maio-villa-paranacito-delta",
     "slug": "padre-mariano-maio-villa-paranacito-delta",
     "titulo": "Padre Mariano Maio: Un Pilar Espiritual y Comunitario en Villa Paranacito y el Corazón del Delta",
@@ -164,6 +196,7 @@
     "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
