@@ -1,46 +1,46 @@
 {
-  "ultima_actualizacion": "10/11/2026 02:37",
-  "timestamp_iso": "2026-11-10T02:37:10.504086",
+  "ultima_actualizacion": "10/11/2026 12:08",
+  "timestamp_iso": "2026-11-10T12:08:19.952668",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 18,
-    "sensacion_termica": 17,
-    "humedad": 72,
-    "viento_velocidad_kmh": 14,
+    "temperatura": 20,
+    "sensacion_termica": 19,
+    "humedad": 70,
+    "viento_velocidad_kmh": 15,
     "viento_direccion": "NE",
-    "presion_hpa": 1021,
-    "descripcion": "Cielo despejado",
-    "icono": "☀️",
+    "presion_hpa": 1019,
+    "descripcion": "Nublado",
+    "icono": "☁️",
     "pronostico_extendido": [
-      {
-        "fecha": "2026-11-09",
-        "temp_max": 24,
-        "temp_min": 10,
-        "prob_lluvia": 0,
-        "descripcion": "Cielo despejado",
-        "icono": "☀️"
-      },
       {
         "fecha": "2026-11-10",
         "temp_max": 27,
         "temp_min": 15,
-        "prob_lluvia": 63,
+        "prob_lluvia": 27,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-11-11",
-        "temp_max": 26,
-        "temp_min": 17,
-        "prob_lluvia": 80,
-        "descripcion": "Llovizna moderada",
-        "icono": "🌧️"
+        "temp_max": 27,
+        "temp_min": 19,
+        "prob_lluvia": 41,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
       },
       {
         "fecha": "2026-11-12",
         "temp_max": 29,
-        "temp_min": 17,
-        "prob_lluvia": 15,
+        "temp_min": 18,
+        "prob_lluvia": 4,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-11-13",
+        "temp_max": 30,
+        "temp_min": 20,
+        "prob_lluvia": 20,
         "descripcion": "Nublado",
         "icono": "☁️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-11-10 02:37"
+    "actualizado": "2026-11-10 12:08"
   }
 }
