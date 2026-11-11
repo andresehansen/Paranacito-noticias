@@ -1,14 +1,14 @@
 {
-  "ultima_actualizacion": "11/11/2026 04:51",
-  "timestamp_iso": "2026-11-11T04:51:12.885360",
+  "ultima_actualizacion": "11/11/2026 05:36",
+  "timestamp_iso": "2026-11-11T05:36:11.856358",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 18,
-    "sensacion_termica": 20,
-    "humedad": 90,
-    "viento_velocidad_kmh": 3,
-    "viento_direccion": "NO",
-    "presion_hpa": 1017,
+    "temperatura": 19,
+    "sensacion_termica": 21,
+    "humedad": 88,
+    "viento_velocidad_kmh": 1,
+    "viento_direccion": "O",
+    "presion_hpa": 1016,
     "descripcion": "Llovizna moderada",
     "icono": "🌧️",
     "pronostico_extendido": [
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-11-11 04:51"
+    "actualizado": "2026-11-11 05:36"
   }
 }
