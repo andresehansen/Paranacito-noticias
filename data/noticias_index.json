@@ -1,5 +1,32 @@
 [
   {
+    "acontecimiento_id": "2026-11-11-carcel-efectiva-para-el-autor-de-varios-robos",
+    "slug": "carcel-efectiva-para-el-autor-de-varios-robos",
+    "titulo": "Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google News (Diario El Argentino)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "11 de Noviembre de 2026, 22:30 hs",
+    "fecha_ultima_actualizacion": "11 de Noviembre de 2026, 22:30 hs",
+    "fecha_inicio_iso": "2026-11-11T22:30:23.950859",
+    "fecha_ultima_actualizacion_iso": "2026-11-11T22:30:23.950859",
+    "resumen_whatsapp": "📰 *Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito* — google.com"
+  },
+  {
     "acontecimiento_id": "2026-11-10-delta-entrerriano-peregrinacion-lujan-papa",
     "slug": "delta-entrerriano-peregrinacion-lujan-papa",
     "titulo": "El Delta Entrerriano en Camino a Luján: Fieles de Villa Paranacito, Ceibas e Ibicuy Parten Hacia la Misa Papal",
@@ -295,32 +322,6 @@
     "fecha_inicio_iso": "2026-11-03T19:06:50.857219",
     "fecha_ultima_actualizacion_iso": "2026-11-03T19:06:50.857219",
     "resumen_whatsapp": "🚨 ¡Alerta en Villa Paranacito! Más de 129.000 vacunos evacuados de las Islas del Ibicuy por la crecida. Productores y familias isleñas afectados. 🐄💧"
-  },
-  {
-    "acontecimiento_id": "2026-11-03-ya-se-trasladaron-mas-de-129-mil-animales",
-    "slug": "ya-se-trasladaron-mas-de-129-mil-animales",
-    "titulo": "Ya se trasladaron más de 129 mil animales de islas entrerrianas ante la creciente",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Ya se trasladaron más de 129 mil animales de islas entrerrianas ante la creciente.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "3 de Noviembre de 2026, 02:02 hs",
-    "fecha_ultima_actualizacion": "3 de Noviembre de 2026, 02:02 hs",
-    "fecha_inicio_iso": "2026-11-03T02:02:59.427497",
-    "fecha_ultima_actualizacion_iso": "2026-11-03T02:02:59.427497",
-    "resumen_whatsapp": "📰 *Ya se trasladaron más de 129 mil animales de islas entrerrianas ante la creciente* — google.com"
   },
   {
     "acontecimiento_id": "2026-10-29-villa-paranacito-noche-museos-entrerrianos-2026",

@@ -23,7 +23,7 @@
   "fuente_nombre": "Google News (Diario El Argentino)",
   "fuente_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2wxd0thcW9zNUpGSUFlenE1cEx4UmtsckRhdjlpZjRleWEzdnRCOEl2LXZLUUw1dFZzRngtUHJ4QkI0SWh6NUFDV1JyR1JRVGs3QUFWTm1GVHg2STlpQl9iYWR3U3MzSGVUZUJMb0NGczNmN3lILWxPUC0yQUlubXozSTdLUm5wVE1sMjYtdUJWelVhSGtRTlNPcGpwYzVYd25oOGtUVUUybW9XYzNVX2l3dFVuZ9IBtgFBVV95cUxPY2wxd0thcW9zNUpGSUFlenE1cEx4UmtsckRhdjlpZjRleWEzdnRCOEl2LXZLUUw1dFZzRngtUHJ4QkI0SWh6NUFDV1JyR1JRVGs3QUFWTm1GVHg2STlpQl9iYWR3U3MzSGVUZUJMb0NGczNmN3lILWxPUC0yQUlubXozSTdLUm5wVE1sMjYtdUJWelVhSGtRTlNPcGpwYzVYd25oOGtUVUUybW9XYzNVX2l3dFVuZw?oc=5",
   "url_original": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2wxd0thcW9zNUpGSUFlenE1cEx4UmtsckRhdjlpZjRleWEzdnRCOEl2LXZLUUw1dFZzRngtUHJ4QkI0SWh6NUFDV1JyR1JRVGs3QUFWTm1GVHg2STlpQl9iYWR3U3MzSGVUZUJMb0NGczNmN3lILWxPUC0yQUlubXozSTdLUm5wVE1sMjYtdUJWelVhSGtRTlNPcGpwYzVYd25oOGtUVUUybW9XYzNVX2l3dFVuZ9IBtgFBVV95cUxPY2wxd0thcW9zNUpGSUFlenE1cEx4UmtsckRhdjlpZjRleWEzdnRCOEl2LXZLUUw1dFZzRngtUHJ4QkI0SWh6NUFDV1JyR1JRVGs3QUFWTm1GVHg2STlpQl9iYWR3U3MzSGVUZUJMb0NGczNmN3lILWxPUC0yQUlubXozSTdLUm5wVE1sMjYtdUJWelVhSGtRTlNPcGpwYzVYd25oOGtUVUUybW9XYzNVX2l3dFVuZw?oc=5",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -33,6 +33,11 @@
       "nombre": "Google News (Diario El Argentino)",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2wxd0thcW9zNUpGSUFlenE1cEx4UmtsckRhdjlpZjRleWEzdnRCOEl2LXZLUUw1dFZzRngtUHJ4QkI0SWh6NUFDV1JyR1JRVGs3QUFWTm1GVHg2STlpQl9iYWR3U3MzSGVUZUJMb0NGczNmN3lILWxPUC0yQUlubXozSTdLUm5wVE1sMjYtdUJWelVhSGtRTlNPcGpwYzVYd25oOGtUVUUybW9XYzNVX2l3dFVuZ9IBtgFBVV95cUxPY2wxd0thcW9zNUpGSUFlenE1cEx4UmtsckRhdjlpZjRleWEzdnRCOEl2LXZLUUw1dFZzRngtUHJ4QkI0SWh6NUFDV1JyR1JRVGs3QUFWTm1GVHg2STlpQl9iYWR3U3MzSGVUZUJMb0NGczNmN3lILWxPUC0yQUlubXozSTdLUm5wVE1sMjYtdUJWelVhSGtRTlNPcGpwYzVYd25oOGtUVUUybW9XYzNVX2l3dFVuZw?oc=5",
       "fecha_consulta": "2026-11-11T15:53:14.778328"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/carcel-efectiva-para-el-autor-de-varios-robos-a-comercios-en-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1JV5NYbQRymrVzQVX49Kak",
+      "fecha_consulta": "2026-11-11T22:30:22.396130"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google News (Diario El Argentino)",
       "dato": "La justicia condenó a prisión efectiva al autor de múltiples robos a comercios en Villa Paranacito. Esta sentencia trae alivio a los comerciantes y vecinos, quienes habían sufrido un período de insegu",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:30",
+      "fecha": "2026-11-11",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "8ec91f98ed1cd97299555c2e5bf7a054c8b25c95ad1a0017e1d1dc62e726bc69"
+    "8ec91f98ed1cd97299555c2e5bf7a054c8b25c95ad1a0017e1d1dc62e726bc69",
+    "4031601ba69e0a14314c54791c0d2c20c66df935f4750e57b8497c0483cebfba"
   ],
   "fecha_iso": "2026-11-11T15:53:14.778328",
   "fecha_inicio_iso": "2026-11-11T15:53:14.778328",
-  "fecha_ultima_actualizacion_iso": "2026-11-11T15:53:14.778328",
+  "fecha_ultima_actualizacion_iso": "2026-11-11T22:30:22.396130",
   "fecha_publicacion": "11 de Noviembre de 2026, 15:53 hs",
-  "fecha_ultima_actualizacion": "11 de Noviembre de 2026, 15:53 hs",
+  "fecha_ultima_actualizacion": "11 de Noviembre de 2026, 22:30 hs",
   "archivo": "2026-11-11-justicia-villa-paranacito-robos-comercios-condena.json"
 }
