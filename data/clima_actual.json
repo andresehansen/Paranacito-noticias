@@ -1,46 +1,46 @@
 {
-  "ultima_actualizacion": "10/11/2026 21:43",
-  "timestamp_iso": "2026-11-10T21:43:14.665050",
+  "ultima_actualizacion": "11/11/2026 04:51",
+  "timestamp_iso": "2026-11-11T04:51:12.885360",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 24,
-    "sensacion_termica": 26,
-    "humedad": 66,
-    "viento_velocidad_kmh": 6,
-    "viento_direccion": "ESE",
-    "presion_hpa": 1015,
-    "descripcion": "Nublado",
-    "icono": "☁️",
+    "temperatura": 18,
+    "sensacion_termica": 20,
+    "humedad": 90,
+    "viento_velocidad_kmh": 3,
+    "viento_direccion": "NO",
+    "presion_hpa": 1017,
+    "descripcion": "Llovizna moderada",
+    "icono": "🌧️",
     "pronostico_extendido": [
-      {
-        "fecha": "2026-11-10",
-        "temp_max": 28,
-        "temp_min": 14,
-        "prob_lluvia": 29,
-        "descripcion": "Nublado",
-        "icono": "☁️"
-      },
       {
         "fecha": "2026-11-11",
         "temp_max": 27,
-        "temp_min": 18,
-        "prob_lluvia": 51,
-        "descripcion": "Llovizna leve",
-        "icono": "🌦️"
+        "temp_min": 17,
+        "prob_lluvia": 72,
+        "descripcion": "Llovizna moderada",
+        "icono": "🌧️"
       },
       {
         "fecha": "2026-11-12",
         "temp_max": 30,
         "temp_min": 18,
-        "prob_lluvia": 20,
-        "descripcion": "Nublado",
-        "icono": "☁️"
+        "prob_lluvia": 8,
+        "descripcion": "Parcialmente nublado",
+        "icono": "⛅"
       },
       {
         "fecha": "2026-11-13",
         "temp_max": 30,
         "temp_min": 20,
-        "prob_lluvia": 17,
+        "prob_lluvia": 6,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-11-14",
+        "temp_max": 30,
+        "temp_min": 21,
+        "prob_lluvia": 20,
         "descripcion": "Nublado",
         "icono": "☁️"
       }
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-11-10 21:43"
+    "actualizado": "2026-11-11 04:51"
   }
 }
