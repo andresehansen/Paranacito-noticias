@@ -38,6 +38,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/policiales/carcel-efectiva-para-el-autor-de-varios-robos-a-comercios-en-villa-paranacito.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1JV5NYbQRymrVzQVX49Kak",
       "fecha_consulta": "2026-11-11T22:30:22.396130"
+    },
+    {
+      "nombre": "Google News (R2820)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTNzUU8xUXZkS0NtclQyd2JzVHo2U19FdVM4bVRKM0MzMlhsNDFyOS1TRnpKMjNGUVFRLWlvVGFRd1hQbXJyRTRlMXpvU3lKdXlCSkpkaDk2SmFhR2lqdzlSSEY1bjgzNTBBWXVpd1F1UXNxTGw2Y1hMVXUzRy1VUzg1R2diQjZUbkJmSkhZTVJsUkw1SGttbkYtSzFxU0VIVGw3U1dKbFA5aldERlpMNU9aRE14LWI1Rm10N29GWnVUbjNzTTQtMVVESmRfVm13THFWX2ZaVWVnSlFwLXJ1dGlJanRjZ1nSAecBQVVfeXFMT0Uzc1FPMVF2ZEtDbXJUMndic1R6NlNfRXVTOG1USjNDMzJYbDQxcjktU0Z6SjIzRlFRUS1pb1RhUXdYUG1yckU0ZTF6b1N5SnV5QkpKZGg5NkphYUdpanc5UkhGNW44MzUwQVl1aXdRdVFzcUxsNmNYTFV1M0ctVVM4NUdnYkI2VG5CZkpIWU1SbFJMNUhrbW5GLUsxcVNFSFRsN1NXSmxQOWpXREZaTDVPWkRNeC1iNUZtdDdvRlp1VG4zc000LTFVREpkX1Ztd0xxVl9mWlVlZ0pRcC1ydXRpSWp0Y2dZ?oc=5",
+      "fecha_consulta": "2026-11-12T16:36:09.224832"
     }
   ],
   "cronologia_actualizaciones": [
@@ -54,16 +59,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "16:36",
+      "fecha": "2026-11-12",
+      "fuente": "Google News (R2820)",
+      "dato": "Villa Paranacito: Condenan a dos años y seis meses de prisión efectiva al autor de robos a comercios",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "8ec91f98ed1cd97299555c2e5bf7a054c8b25c95ad1a0017e1d1dc62e726bc69",
-    "4031601ba69e0a14314c54791c0d2c20c66df935f4750e57b8497c0483cebfba"
+    "4031601ba69e0a14314c54791c0d2c20c66df935f4750e57b8497c0483cebfba",
+    "ed1b95e42de0bb9728e143d51ddbec175ff3a55c1c8fa7b4c41ed9965cf980c9"
   ],
   "fecha_iso": "2026-11-11T15:53:14.778328",
   "fecha_inicio_iso": "2026-11-11T15:53:14.778328",
-  "fecha_ultima_actualizacion_iso": "2026-11-11T22:30:22.396130",
+  "fecha_ultima_actualizacion_iso": "2026-11-12T16:36:09.224832",
   "fecha_publicacion": "11 de Noviembre de 2026, 15:53 hs",
-  "fecha_ultima_actualizacion": "11 de Noviembre de 2026, 22:30 hs",
+  "fecha_ultima_actualizacion": "12 de Noviembre de 2026, 16:36 hs",
   "archivo": "2026-11-11-justicia-villa-paranacito-robos-comercios-condena.json"
 }
