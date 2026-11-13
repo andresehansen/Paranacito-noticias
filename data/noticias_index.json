@@ -1,5 +1,62 @@
 [
   {
+    "acontecimiento_id": "2026-11-13-ruta-12-peajes-impacto-villa-paranacito",
+    "slug": "ruta-12-peajes-impacto-villa-paranacito",
+    "titulo": "Posibles Nuevos Peajes en Ruta 12: ¿Qué Implica para Villa Paranacito y el Delta Entrerriano?",
+    "copete": "La eventual incorporación de nuevos tramos con peaje en la Ruta Nacional 12 genera preocupación en Villa Paranacito y el departamento Islas del Ibicuy, ante el impacto económico que podría tener en la vida cotidiana y la producción local.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Ruta 12",
+      "Peajes",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Infraestructura",
+      "Economía Local"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "13 de Noviembre de 2026, 19:15 hs",
+    "fecha_ultima_actualizacion": "13 de Noviembre de 2026, 19:15 hs",
+    "fecha_inicio_iso": "2026-11-13T19:15:53.086529",
+    "fecha_ultima_actualizacion_iso": "2026-11-13T19:15:53.086529",
+    "resumen_whatsapp": "⚠️ ¡Atención Villa Paranacito! Posibles nuevos peajes en Ruta 12 podrían impactar tu bolsillo y la economía del Delta. Mantente informado. 🛣️💰"
+  },
+  {
+    "acontecimiento_id": "2026-11-13-concurso-docente-villa-paranacito-cambios",
+    "slug": "concurso-docente-villa-paranacito-cambios",
+    "titulo": "Educación en Villa Paranacito: Desconvocan Concurso Docente de Inglés y Anuncian Cambio de Lugar",
+    "copete": "La comunidad educativa de Villa Paranacito se encuentra a la espera de nuevas definiciones tras la desconvocatoria del concurso para el cargo de Tutor/Evaluador de Lenguas (Inglés) y el anuncio de un cambio de lugar para su futura realización.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Concurso Docente",
+      "Inglés",
+      "Delta Entrerriano"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "13 de Noviembre de 2026, 19:15 hs",
+    "fecha_ultima_actualizacion": "13 de Noviembre de 2026, 19:15 hs",
+    "fecha_inicio_iso": "2026-11-13T19:15:41.216742",
+    "fecha_ultima_actualizacion_iso": "2026-11-13T19:15:41.216742",
+    "resumen_whatsapp": "⚠️ Educación en Villa Paranacito: Desconvocan concurso docente de Inglés y anuncian cambio de lugar. ¡Atentos a nuevas fechas! 📚 #Paranacito"
+  },
+  {
     "acontecimiento_id": "2026-11-13-artesano-paranacito-virgen-tuercas-lujan",
     "slug": "artesano-paranacito-virgen-tuercas-lujan",
     "titulo": "La Fe del Delta: Artesano de Villa Paranacito Llevó su Virgen de Tuercas a la Misa Papal en Luján",
