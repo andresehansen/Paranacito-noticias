@@ -44,6 +44,21 @@
       "nombre": "Google News (Mirador Provincial)",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdWhVU1lHNm16S2xIQnNHdXR4MmhjaWhpQy1rZERHWWdJeEo4Qjg3SWpUNGF0aXV4c2N3a0dJV2w4UE5aYVBwazgxRzBhUTdaRjBfUnJmNnhHWG9kdjEyNnd4eGVtOUxLejA4d1BzaVp2cVo0Q1FzRW4xMGRvWEZhZHpYZXBlNzg1cXJRVnF6cTBUWHotcnk1bFpsZlJVcUpRRlREaUlLcXNLZk5tOUdVWmxuaDIzSWVaQnd0NmZqYkFaSUxUc3kxQVFuR3lGMzQxRGE3NVVMNA?oc=5",
       "fecha_consulta": "2026-11-13T19:15:53.088596"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/11/13/al-menos-20-heridos-dejo-una-explosion-en-una-vivienda-de-remedios-de-escalada/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0395PNQvTdKUmlfhU3zo_X",
+      "fecha_consulta": "2026-11-14T00:40:55.136708"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/11/13/entre-rios-sera-sede-por-primera-vez-de-los-juegos-nacionales-evita-de-adultos-mayores-en-2027/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3KWW_H3a9TEm5ArUWVfDHE",
+      "fecha_consulta": "2026-11-14T00:41:22.169591"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/11/13/villa-paranacito-inicio-un-ciclo-de-formacion-sobre-violencias-de-genero-en-entornos-digitales/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3UcHh6QfI39CuxlDMdJnfp",
+      "fecha_consulta": "2026-11-14T00:41:22.172385"
     }
   ],
   "cronologia_actualizaciones": [
@@ -60,16 +75,32 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El primer encuentro del ciclo de capacitaciones se llevó a cabo en Villa Paranacito, con la participación de aproximadamente 25 personas, entre las que se encontraban docentes.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "00:40",
+      "fecha": "2026-11-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Al menos 20 heridos dejó una explosión en una vivienda de Remedios de Escalada",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "00:41",
+      "fecha": "2026-11-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Entre Ríos será sede por primera vez de los Juegos Nacionales Evita de Adultos Mayores en 2027",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "41a83bc6f615701b580250aa0f5c02cf473c1ab1fb6d2a138f92be27bb291101",
-    "1a8d915d5735cd645cce95dc16f07e25c2071e052f057e5221dc23198213c775"
+    "1a8d915d5735cd645cce95dc16f07e25c2071e052f057e5221dc23198213c775",
+    "21c1da60724c8ce754ff81d97104d4a104de0774c1c84a58f0f453b8be564a46",
+    "18901dcedd3ac1bc0be5e186ab003ff08fa33565c3f2d45bf0c700f64ba64527"
   ],
   "fecha_iso": "2026-11-13T19:15:22.731971",
   "fecha_inicio_iso": "2026-11-13T19:15:22.731971",
-  "fecha_ultima_actualizacion_iso": "2026-11-13T19:15:27.336724",
+  "fecha_ultima_actualizacion_iso": "2026-11-14T00:41:22.169591",
   "fecha_publicacion": "13 de Noviembre de 2026, 19:15 hs",
-  "fecha_ultima_actualizacion": "13 de Noviembre de 2026, 19:15 hs",
+  "fecha_ultima_actualizacion": "14 de Noviembre de 2026, 00:41 hs",
   "archivo": "2026-11-13-villa-paranacito-capacitacion-violencia-genero-digital.json"
 }
