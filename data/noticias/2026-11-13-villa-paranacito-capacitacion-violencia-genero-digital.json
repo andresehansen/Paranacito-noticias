@@ -59,6 +59,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.miradorprovincial.com/2026/11/13/villa-paranacito-inicio-un-ciclo-de-formacion-sobre-violencias-de-genero-en-entornos-digitales/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3UcHh6QfI39CuxlDMdJnfp",
       "fecha_consulta": "2026-11-14T00:41:22.172385"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://flipr.com.ar/nacionales/ultimo-momento/infobae/el-hierro-recibe-81-cayucos-en-noviembre-casi-seis-al-dia-con-otro-rescate-en-marcha/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0nSp65HYeBdrPCgbxA9VrT",
+      "fecha_consulta": "2026-11-14T23:39:14.969917"
     }
   ],
   "cronologia_actualizaciones": [
@@ -89,18 +94,26 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Entre Ríos será sede por primera vez de los Juegos Nacionales Evita de Adultos Mayores en 2027",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:39",
+      "fecha": "2026-11-14",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El Hierro recibe 81 cayucos en noviembre, casi seis al día, con otro rescate en marcha",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "41a83bc6f615701b580250aa0f5c02cf473c1ab1fb6d2a138f92be27bb291101",
     "1a8d915d5735cd645cce95dc16f07e25c2071e052f057e5221dc23198213c775",
     "21c1da60724c8ce754ff81d97104d4a104de0774c1c84a58f0f453b8be564a46",
-    "18901dcedd3ac1bc0be5e186ab003ff08fa33565c3f2d45bf0c700f64ba64527"
+    "18901dcedd3ac1bc0be5e186ab003ff08fa33565c3f2d45bf0c700f64ba64527",
+    "64e8edb1f6fd7ec709b4641b66ce822bbfa40a5d72f247880d0b2ce9a9bdae66"
   ],
   "fecha_iso": "2026-11-13T19:15:22.731971",
   "fecha_inicio_iso": "2026-11-13T19:15:22.731971",
-  "fecha_ultima_actualizacion_iso": "2026-11-14T00:41:22.169591",
+  "fecha_ultima_actualizacion_iso": "2026-11-14T23:39:14.969917",
   "fecha_publicacion": "13 de Noviembre de 2026, 19:15 hs",
-  "fecha_ultima_actualizacion": "14 de Noviembre de 2026, 00:41 hs",
+  "fecha_ultima_actualizacion": "14 de Noviembre de 2026, 23:39 hs",
   "archivo": "2026-11-13-villa-paranacito-capacitacion-violencia-genero-digital.json"
 }
