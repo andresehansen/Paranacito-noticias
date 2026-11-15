@@ -1,17 +1,50 @@
 {
-  "ultima_actualizacion": "15/11/2026 05:47",
-  "timestamp_iso": "2026-11-15T05:47:54.146086",
+  "ultima_actualizacion": "15/11/2026 15:22",
+  "timestamp_iso": "2026-11-15T15:22:27.207431",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 22,
-    "sensacion_termica": 22,
-    "humedad": 75,
-    "viento_velocidad_kmh": 12,
-    "viento_direccion": "SE",
-    "presion_hpa": 1015,
-    "descripcion": "Parcialmente nublado",
-    "icono": "⛅",
-    "pronostico_extendido": []
+    "temperatura": 27,
+    "sensacion_termica": 31,
+    "humedad": 52,
+    "viento_velocidad_kmh": 7,
+    "viento_direccion": "ESE",
+    "presion_hpa": 1011,
+    "descripcion": "Cielo despejado",
+    "icono": "☀️",
+    "pronostico_extendido": [
+      {
+        "fecha": "2026-11-15",
+        "temp_max": 28,
+        "temp_min": 16,
+        "prob_lluvia": 10,
+        "descripcion": "Nublado",
+        "icono": "☁️"
+      },
+      {
+        "fecha": "2026-11-16",
+        "temp_max": 28,
+        "temp_min": 18,
+        "prob_lluvia": 29,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
+      },
+      {
+        "fecha": "2026-11-17",
+        "temp_max": 26,
+        "temp_min": 18,
+        "prob_lluvia": 61,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
+      },
+      {
+        "fecha": "2026-11-18",
+        "temp_max": 28,
+        "temp_min": 15,
+        "prob_lluvia": 12,
+        "descripcion": "Llovizna leve",
+        "icono": "🌦️"
+      }
+    ]
   },
   "rio": {
     "estacion": "Puerto Paranacito (Río Paranacito)",
@@ -22,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-11-15 05:47"
+    "actualizado": "2026-11-15 15:22"
   }
 }
