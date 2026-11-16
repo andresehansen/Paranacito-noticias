@@ -40,6 +40,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://portal.entrerios.gov.ar/noticias/81324&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Hkd5WEvHauUSr3e1h7nF1",
       "fecha_consulta": "2026-11-15T20:50:34.938154"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://despertarentrerriano.com/miles-de-entrerrianos-compartieron-la-noche-de-los-museos-en-distintas-localidades-de-la-provincia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3Ch5J8D0T15RzjengKD_oB",
+      "fecha_consulta": "2026-11-16T17:59:45.352835"
     }
   ],
   "cronologia_actualizaciones": [
@@ -56,16 +61,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El evento La Noche de los Museos fue un acontecimiento provincial que incluyó la participación de miles de entrerrianos en diversas localidades, como Villa Clara, Villa Elisa y Villaguay, además de Villa Paranacito.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "17:59",
+      "fecha": "2026-11-16",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Miles de entrerrianos compartieron La Noche de los Museos en distintas localidades de la provincia",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "43f6d17f55943d98145495593119050ea514f0043716c7c2f35218d8da39dbd7",
-    "e7b7ca9b77acdbfa5a658de06c32ffff7ba27f377fe97d7731fc30518244f815"
+    "e7b7ca9b77acdbfa5a658de06c32ffff7ba27f377fe97d7731fc30518244f815",
+    "74fca17e79c702a8419a1c33b7161b6a4e42a7a7fe4ba4e4fc49bbeb3b104d71"
   ],
   "fecha_iso": "2026-11-15T20:50:29.383133",
   "fecha_inicio_iso": "2026-11-15T20:50:29.383133",
-  "fecha_ultima_actualizacion_iso": "2026-11-15T20:50:34.938154",
+  "fecha_ultima_actualizacion_iso": "2026-11-16T17:59:45.352835",
   "fecha_publicacion": "15 de Noviembre de 2026, 20:50 hs",
-  "fecha_ultima_actualizacion": "15 de Noviembre de 2026, 20:50 hs",
+  "fecha_ultima_actualizacion": "16 de Noviembre de 2026, 17:59 hs",
   "archivo": "2026-11-15-villa-paranacito-celebro-noche-museos-identidad-islea.json"
 }
