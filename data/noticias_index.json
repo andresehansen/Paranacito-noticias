@@ -22,14 +22,49 @@
     "fuentes_consultadas": [
       "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
       "Google Alerts - Villa Paranacito"
     ],
-    "num_actualizaciones": 3,
+    "num_actualizaciones": 4,
     "fecha_publicacion": "15 de Noviembre de 2026, 20:50 hs",
-    "fecha_ultima_actualizacion": "16 de Noviembre de 2026, 17:59 hs",
+    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 02:47 hs",
     "fecha_inicio_iso": "2026-11-15T20:50:29.383133",
-    "fecha_ultima_actualizacion_iso": "2026-11-16T17:59:45.352835",
+    "fecha_ultima_actualizacion_iso": "2026-11-17T02:47:43.417493",
     "resumen_whatsapp": "🎉 Villa Paranacito vibró en La Noche de los Museos, celebrando la rica historia y cultura del Delta. ¡Orgullo isleño! 🏛️✨"
+  },
+  {
+    "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
+    "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
+    "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
+    "copete": "La Fiscalía de Villa Paranacito actuó en un reciente operativo que desveló la circulación de vehículos robados utilizando patentes paraguayas, generando preocupación en la comunidad del Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Seguridad",
+      "Delito",
+      "Vehículos Robados",
+      "Fiscalía",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 6,
+    "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
+    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 02:47 hs",
+    "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
+    "fecha_ultima_actualizacion_iso": "2026-11-17T02:47:39.047394",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Fiscalía interviene por vehículos robados con patentes falsas. ¡Cuidemos nuestra comunidad! 🚔"
   },
   {
     "acontecimiento_id": "2026-11-16-isfdc-villa-paranacito-concurso-docente-educacion-delta",
@@ -61,39 +96,6 @@
     "fecha_inicio_iso": "2026-11-16T17:59:45.344417",
     "fecha_ultima_actualizacion_iso": "2026-11-16T17:59:45.350069",
     "resumen_whatsapp": "📢 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso para nuevos cargos. Oportunidad clave para la educación en el Delta. ¡Consultá requisitos a partir del 16/11/2026! 📚✏️"
-  },
-  {
-    "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
-    "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
-    "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
-    "copete": "La Fiscalía de Villa Paranacito actuó en un reciente operativo que desveló la circulación de vehículos robados utilizando patentes paraguayas, generando preocupación en la comunidad del Delta entrerriano.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Seguridad",
-      "Delito",
-      "Vehículos Robados",
-      "Fiscalía",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 5,
-    "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
-    "fecha_ultima_actualizacion": "16 de Noviembre de 2026, 17:59 hs",
-    "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
-    "fecha_ultima_actualizacion_iso": "2026-11-16T17:59:33.595568",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Fiscalía interviene por vehículos robados con patentes falsas. ¡Cuidemos nuestra comunidad! 🚔"
   },
   {
     "acontecimiento_id": "2026-11-14-villa-paranacito-formacion-violencias",
