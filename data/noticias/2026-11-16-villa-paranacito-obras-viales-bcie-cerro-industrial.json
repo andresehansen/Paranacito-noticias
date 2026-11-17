@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/usd-275-millones-aprueban-prestamo-del-bcie-para-financiar-obras-viales-en-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0HQ331vOPcizW4CFID6JyI",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/usd-275-millones-aprueban-prestamo-del-bcie-para-financiar-obras-viales-en-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0HQ331vOPcizW4CFID6JyI",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Baja",
   "es_alerta": false,
   "requiere_revision": true,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://informedigital.com.ar/usd-275-millones-aprueban-prestamo-del-bcie-para-financiar-obras-viales-en-entre-rios/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0HQ331vOPcizW4CFID6JyI",
       "fecha_consulta": "2026-11-16T17:59:04.890671"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.examedia.com.ar/portada/analisis/715-nacion-garante-prestamo-bcie-rutas-entre-rios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw02tj6g2oXruZElIm_qswGj",
+      "fecha_consulta": "2026-11-17T23:21:20.296658"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El BCIE aprobó un préstamo de USD 27.5 millones para obras viales en Entre Ríos, incluyendo un tramo clave en Villa Paranacito. La inversión mejorará la conexión entre el Cerro Industrial y el centro,",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:21",
+      "fecha": "2026-11-17",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El crédito para rutas del sur entrerriano espera la firma de la Nación - Examedia",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "5276acdeb3eeb8c1822445eb775ef630be99f2b2d37fe1adacec05aeaff5149b"
+    "5276acdeb3eeb8c1822445eb775ef630be99f2b2d37fe1adacec05aeaff5149b",
+    "bf53c762f25e25f1d6b8518c3a256b2f69a9794e23cf228a006ba1aedad68d81"
   ],
   "fecha_iso": "2026-11-16T17:59:04.890671",
   "fecha_inicio_iso": "2026-11-16T17:59:04.890671",
-  "fecha_ultima_actualizacion_iso": "2026-11-16T17:59:04.890671",
+  "fecha_ultima_actualizacion_iso": "2026-11-17T23:21:20.296658",
   "fecha_publicacion": "16 de Noviembre de 2026, 17:59 hs",
-  "fecha_ultima_actualizacion": "16 de Noviembre de 2026, 17:59 hs",
+  "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 23:21 hs",
   "archivo": "2026-11-16-villa-paranacito-obras-viales-bcie-cerro-industrial.json"
 }

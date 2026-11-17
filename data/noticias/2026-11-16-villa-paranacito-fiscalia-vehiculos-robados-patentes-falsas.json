@@ -59,6 +59,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.lapiramide.net/noticias/2026/11/16/365535-brazo-largo-secuestraron-una-camioneta-con-pedido-de-captura-en-buenos-aires-y-detuvieron-al-conductor&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3vDZaQKVr6bN1nSthbHxUD",
       "fecha_consulta": "2026-11-17T02:47:39.047394"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elheraldo.com.ar/noticias/policiales/secuestraron-una-camioneta-robada-en-buenos-aires-y-detuvieron-a-su-conductor-en-el-complejo-zarate-brazo-largo&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2IKCH3rImD_ng6lPyrdEAk",
+      "fecha_consulta": "2026-11-17T23:21:28.912106"
     }
   ],
   "cronologia_actualizaciones": [
@@ -103,6 +108,13 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El vehículo secuestrado era una camioneta, el hecho ocurrió en Brazo Largo, el pedido de captura provenía de Buenos Aires y se ordenó una detención.",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:21",
+      "fecha": "2026-11-17",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo especifica que el vehículo irregular era una camioneta robada en Buenos Aires, y que la Fiscalía de Villa Paranacito ordenó su secuestro y la detención de su conductor.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
@@ -111,12 +123,13 @@
     "2ca22d1996bd4b99c8accc6264ab05a4134b368a15975379c627d4c955aa82e8",
     "505b815e5b9f95a12ddcc084b9ca496acc5df5f270cc05404eff77be8ad3d2df",
     "2829438ecf60cf73b2c16fd23b976cfc98c336c2924fcdb19fd5c8bdeefb8027",
-    "14831560df6e7d3f254f23f52386dd2e8e49970d1585e98d7a95a437d1af0d7c"
+    "14831560df6e7d3f254f23f52386dd2e8e49970d1585e98d7a95a437d1af0d7c",
+    "cce0a8218330de3563641e3d0637a00e7ee1bf29ac4401b025d2151707cbf8d4"
   ],
   "fecha_iso": "2026-11-16T17:58:43.021422",
   "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
-  "fecha_ultima_actualizacion_iso": "2026-11-17T02:47:39.047394",
+  "fecha_ultima_actualizacion_iso": "2026-11-17T23:21:28.912106",
   "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
-  "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 02:47 hs",
+  "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 23:21 hs",
   "archivo": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas.json"
 }

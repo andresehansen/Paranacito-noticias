@@ -1,5 +1,69 @@
 [
   {
+    "acontecimiento_id": "2026-11-17-concurso-nivel-primario-villa-paranacito-educacion",
+    "slug": "concurso-nivel-primario-villa-paranacito-educacion",
+    "titulo": "Educación en Villa Paranacito: Concurso de Nivel Primario convoca a docentes y directivos",
+    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy convoca a un importante concurso de Nivel Primario en Villa Paranacito, un evento clave para la cobertura de cargos docentes en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Concurso Docente",
+      "Islas del Ibicuy",
+      "Delta Entrerriano",
+      "DDE"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "17 de Noviembre de 2026, 23:22 hs",
+    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 23:22 hs",
+    "fecha_inicio_iso": "2026-11-17T23:22:05.135088",
+    "fecha_ultima_actualizacion_iso": "2026-11-17T23:22:05.135088",
+    "resumen_whatsapp": "🚨 Educación en Villa Paranacito: Concurso de Nivel Primario de la D.D.E. Islas del Ibicuy el 18/11 a las 11:30 hs en Los Cipreses 1012. ¡Importante para docentes!"
+  },
+  {
+    "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
+    "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
+    "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
+    "copete": "La Fiscalía de Villa Paranacito actuó en un reciente operativo que desveló la circulación de vehículos robados utilizando patentes paraguayas, generando preocupación en la comunidad del Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Seguridad",
+      "Delito",
+      "Vehículos Robados",
+      "Fiscalía",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 7,
+    "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
+    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 23:21 hs",
+    "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
+    "fecha_ultima_actualizacion_iso": "2026-11-17T23:21:28.912106",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Fiscalía interviene por vehículos robados con patentes falsas. ¡Cuidemos nuestra comunidad! 🚔"
+  },
+  {
     "acontecimiento_id": "2026-11-15-villa-paranacito-celebro-noche-museos-identidad-islea",
     "slug": "villa-paranacito-celebro-noche-museos-identidad-islea",
     "titulo": "Villa Paranacito Celebró con Éxito La Noche de los Museos, Fortaleciendo su Identidad Isleña",
@@ -31,40 +95,6 @@
     "fecha_inicio_iso": "2026-11-15T20:50:29.383133",
     "fecha_ultima_actualizacion_iso": "2026-11-17T02:47:43.417493",
     "resumen_whatsapp": "🎉 Villa Paranacito vibró en La Noche de los Museos, celebrando la rica historia y cultura del Delta. ¡Orgullo isleño! 🏛️✨"
-  },
-  {
-    "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
-    "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
-    "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
-    "copete": "La Fiscalía de Villa Paranacito actuó en un reciente operativo que desveló la circulación de vehículos robados utilizando patentes paraguayas, generando preocupación en la comunidad del Delta entrerriano.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Seguridad",
-      "Delito",
-      "Vehículos Robados",
-      "Fiscalía",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 6,
-    "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
-    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 02:47 hs",
-    "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
-    "fecha_ultima_actualizacion_iso": "2026-11-17T02:47:39.047394",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Fiscalía interviene por vehículos robados con patentes falsas. ¡Cuidemos nuestra comunidad! 🚔"
   },
   {
     "acontecimiento_id": "2026-11-16-isfdc-villa-paranacito-concurso-docente-educacion-delta",
@@ -594,35 +624,6 @@
     "fecha_inicio_iso": "2026-10-31T19:44:30.281444",
     "fecha_ultima_actualizacion_iso": "2026-10-31T19:44:30.281444",
     "resumen_whatsapp": "💧 El Río Uruguay en Villa Paranacito se mantiene en 1.64m en La Tinta. Nivel estable y lejos de alerta. ¡Tranquilidad en el Delta! #ParanacitoNoticias"
-  },
-  {
-    "acontecimiento_id": "2026-10-31-concurso-nivel-primario-villa-paranacito",
-    "slug": "concurso-nivel-primario-villa-paranacito",
-    "titulo": "Concurso de Nivel Primario en Villa Paranacito: La DDE Islas del Ibicuy convoca a docentes",
-    "copete": "La Dirección Departamental de Escuelas de Islas del Ibicuy invita a participar del Concurso de Nivel Primario, un paso fundamental para la cobertura de cargos y horas cátedra, que se realizará el próximo lunes 2 de noviembre en Villa Paranacito.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Educación",
-      "Villa Paranacito",
-      "DDE Islas del Ibicuy",
-      "Concurso Docente",
-      "Delta Entrerriano"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "31 de Octubre de 2026, 14:19 hs",
-    "fecha_ultima_actualizacion": "31 de Octubre de 2026, 14:19 hs",
-    "fecha_inicio_iso": "2026-10-31T14:19:43.941731",
-    "fecha_ultima_actualizacion_iso": "2026-10-31T14:19:43.941731",
-    "resumen_whatsapp": "📢 ¡Atención docentes! La DDE Islas del Ibicuy convoca a Concurso de Nivel Primario el 2/11 a las 10:30 hs en Villa Paranacito. ¡Clave para la educación en el Delta! 📚✏️"
   },
   {
     "acontecimiento_id": "2026-10-30-planes-evacuacion-villa-paranacito-delta",
