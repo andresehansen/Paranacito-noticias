@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-11-18-prestamo-internacional-rutas-villa-paranacito-delta",
+    "slug": "prestamo-internacional-rutas-villa-paranacito-delta",
+    "titulo": "Conectividad para el Delta: Préstamo Internacional Potenciará Rutas Clave en Villa Paranacito y la Región",
+    "copete": "El gobierno nacional aprobó un importante préstamo del Banco Centroamericano de Integración Económica (BCIE) que, gestionado por la provincia, se destinará a la mejora de la infraestructura vial en Entre Ríos, con un impacto directo en la conectividad de Villa Paranacito y las Islas del Ibicuy.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Obras Públicas",
+      "Infraestructura Vial",
+      "Caminos Rurales",
+      "BCIE",
+      "Conectividad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "18 de Noviembre de 2026, 06:04 hs",
+    "fecha_ultima_actualizacion": "18 de Noviembre de 2026, 06:04 hs",
+    "fecha_inicio_iso": "2026-11-18T06:04:08.332001",
+    "fecha_ultima_actualizacion_iso": "2026-11-18T06:04:08.332001",
+    "resumen_whatsapp": "🛣️ ¡Buenas noticias para el Delta! Préstamo internacional aprobado para mejorar rutas en Entre Ríos, beneficiando directamente a Villa Paranacito y la región. Más conectividad y desarrollo en camino. #ObrasPúblicas #DeltaEntrerriano"
+  },
+  {
     "acontecimiento_id": "2026-11-17-concurso-nivel-primario-villa-paranacito-educacion",
     "slug": "concurso-nivel-primario-villa-paranacito-educacion",
     "titulo": "Educación en Villa Paranacito: Concurso de Nivel Primario convoca a docentes y directivos",
