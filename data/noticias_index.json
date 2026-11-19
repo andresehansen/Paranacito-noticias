@@ -1,5 +1,41 @@
 [
   {
+    "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
+    "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
+    "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
+    "copete": "La Fiscalía de Villa Paranacito actuó en un reciente operativo que desveló la circulación de vehículos robados utilizando patentes paraguayas, generando preocupación en la comunidad del Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Seguridad",
+      "Delito",
+      "Vehículos Robados",
+      "Fiscalía",
+      "Delta Entrerriano"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 8,
+    "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
+    "fecha_ultima_actualizacion": "19 de Noviembre de 2026, 01:44 hs",
+    "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
+    "fecha_ultima_actualizacion_iso": "2026-11-19T01:44:19.202374",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Fiscalía interviene por vehículos robados con patentes falsas. ¡Cuidemos nuestra comunidad! 🚔"
+  },
+  {
     "acontecimiento_id": "2026-11-18-prestamo-internacional-rutas-villa-paranacito-delta",
     "slug": "prestamo-internacional-rutas-villa-paranacito-delta",
     "titulo": "Conectividad para el Delta: Préstamo Internacional Potenciará Rutas Clave en Villa Paranacito y la Región",
@@ -57,41 +93,6 @@
     "fecha_inicio_iso": "2026-11-17T23:22:05.135088",
     "fecha_ultima_actualizacion_iso": "2026-11-17T23:22:05.135088",
     "resumen_whatsapp": "🚨 Educación en Villa Paranacito: Concurso de Nivel Primario de la D.D.E. Islas del Ibicuy el 18/11 a las 11:30 hs en Los Cipreses 1012. ¡Importante para docentes!"
-  },
-  {
-    "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
-    "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
-    "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
-    "copete": "La Fiscalía de Villa Paranacito actuó en un reciente operativo que desveló la circulación de vehículos robados utilizando patentes paraguayas, generando preocupación en la comunidad del Delta entrerriano.",
-    "categoria": "Sociedad",
-    "tags": [
-      "Villa Paranacito",
-      "Seguridad",
-      "Delito",
-      "Vehículos Robados",
-      "Fiscalía",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 7,
-    "fecha_publicacion": "16 de Noviembre de 2026, 17:58 hs",
-    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 23:21 hs",
-    "fecha_inicio_iso": "2026-11-16T17:58:43.021422",
-    "fecha_ultima_actualizacion_iso": "2026-11-17T23:21:28.912106",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito: Fiscalía interviene por vehículos robados con patentes falsas. ¡Cuidemos nuestra comunidad! 🚔"
   },
   {
     "acontecimiento_id": "2026-11-15-villa-paranacito-celebro-noche-museos-identidad-islea",
