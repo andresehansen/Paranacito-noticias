@@ -1,47 +1,47 @@
 {
-  "ultima_actualizacion": "19/11/2026 01:47",
-  "timestamp_iso": "2026-11-19T01:47:46.558427",
+  "ultima_actualizacion": "19/11/2026 12:30",
+  "timestamp_iso": "2026-11-19T12:30:40.683068",
   "ubicacion": "Villa Paranacito, Entre Ríos",
   "clima": {
-    "temperatura": 17,
-    "sensacion_termica": 18,
-    "humedad": 88,
-    "viento_velocidad_kmh": 7,
-    "viento_direccion": "ONO",
-    "presion_hpa": 1010,
-    "descripcion": "Cielo despejado",
-    "icono": "☀️",
+    "temperatura": 24,
+    "sensacion_termica": 26,
+    "humedad": 64,
+    "viento_velocidad_kmh": 8,
+    "viento_direccion": "OSO",
+    "presion_hpa": 1011,
+    "descripcion": "Nublado",
+    "icono": "☁️",
     "pronostico_extendido": [
       {
-        "fecha": "2026-11-18",
-        "temp_max": 27,
-        "temp_min": 17,
-        "prob_lluvia": 81,
-        "descripcion": "Tormenta eléctrica",
-        "icono": "⚡"
-      },
-      {
         "fecha": "2026-11-19",
-        "temp_max": 27,
-        "temp_min": 14,
-        "prob_lluvia": 6,
+        "temp_max": 28,
+        "temp_min": 15,
+        "prob_lluvia": 14,
         "descripcion": "Nublado",
         "icono": "☁️"
       },
       {
         "fecha": "2026-11-20",
-        "temp_max": 27,
-        "temp_min": 15,
-        "prob_lluvia": 46,
-        "descripcion": "Llovizna moderada",
-        "icono": "🌧️"
+        "temp_max": 25,
+        "temp_min": 16,
+        "prob_lluvia": 75,
+        "descripcion": "Tormenta eléctrica",
+        "icono": "⚡"
       },
       {
         "fecha": "2026-11-21",
         "temp_max": 27,
         "temp_min": 14,
-        "prob_lluvia": 86,
-        "descripcion": "Chaparrones leves",
+        "prob_lluvia": 76,
+        "descripcion": "Llovizna intensa",
+        "icono": "🌧️"
+      },
+      {
+        "fecha": "2026-11-22",
+        "temp_max": 25,
+        "temp_min": 13,
+        "prob_lluvia": 71,
+        "descripcion": "Lluvia leve",
         "icono": "🌦️"
       }
     ]
@@ -55,6 +55,6 @@
     "color_alerta": "verde",
     "nivel_alerta": 2.3,
     "nivel_evacuacion": 2.6,
-    "actualizado": "2026-11-19 01:47"
+    "actualizado": "2026-11-19 12:30"
   }
 }

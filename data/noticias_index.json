@@ -1,5 +1,63 @@
 [
   {
+    "acontecimiento_id": "2026-11-19-uner-villa-paranacito-diagnostico-social-desarrollo-local",
+    "slug": "uner-villa-paranacito-diagnostico-social-desarrollo-local",
+    "titulo": "La UNER Acompaña a Villa Paranacito en un Diagnóstico Social Clave para el Desarrollo Local",
+    "copete": "La Facultad de Trabajo Social de la Universidad Nacional de Entre Ríos (UNER) está colaborando con el Municipio de Villa Paranacito en un exhaustivo diagnóstico social, buscando identificar las particularidades y necesidades de la comunidad isleña para potenciar su desarrollo.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "UNER",
+      "Diagnóstico Social",
+      "Desarrollo Local",
+      "Delta Entrerriano",
+      "Políticas Públicas"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Noviembre de 2026, 12:31 hs",
+    "fecha_ultima_actualizacion": "19 de Noviembre de 2026, 12:31 hs",
+    "fecha_inicio_iso": "2026-11-19T12:31:34.647062",
+    "fecha_ultima_actualizacion_iso": "2026-11-19T12:31:34.647062",
+    "resumen_whatsapp": "🤝 La UNER acompaña a Villa Paranacito en un diagnóstico social clave para el desarrollo local y la mejora de servicios en el Delta. ¡Tu participación es importante! #ParanacitoNoticias"
+  },
+  {
+    "acontecimiento_id": "2026-11-19-mision-esperanza-villa-paranacito-asilo-hospital",
+    "slug": "mision-esperanza-villa-paranacito-asilo-hospital",
+    "titulo": "Misión de Esperanza en Villa Paranacito: Voluntarios Llevan Consuelo y Compañía al Asilo y Hospital Local",
+    "copete": "Voluntarios de una misión solidaria están llevando actividades y acompañamiento espiritual a los residentes del Asilo de Ancianos y a los pacientes del Hospital de Villa Paranacito, fortaleciendo los lazos comunitarios en la localidad.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Villa Paranacito",
+      "Asilo de Ancianos",
+      "Hospital",
+      "Voluntariado",
+      "Solidaridad",
+      "Comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "19 de Noviembre de 2026, 12:31 hs",
+    "fecha_ultima_actualizacion": "19 de Noviembre de 2026, 12:31 hs",
+    "fecha_inicio_iso": "2026-11-19T12:31:23.634791",
+    "fecha_ultima_actualizacion_iso": "2026-11-19T12:31:23.634791",
+    "resumen_whatsapp": "Voluntarios llevan alegría y compañía al Asilo y Hospital de Villa Paranacito. 🙏👵👴🏥 ¡Solidaridad en el Delta!"
+  },
+  {
     "acontecimiento_id": "2026-11-16-villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
     "slug": "villa-paranacito-fiscalia-vehiculos-robados-patentes-falsas",
     "titulo": "Alerta en Villa Paranacito: Fiscalía Interviene en Caso de Vehículos Robados con Patentes Falsas",
