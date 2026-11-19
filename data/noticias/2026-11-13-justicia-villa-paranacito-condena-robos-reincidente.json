@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/12/121127-villa-paranacito-condenan-a-dos-anos-y-seis-meses-de-prision-efectiva-al-autor-de-robos-a-comercios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2u9e_BsjLsS2jrgVmBMJqA",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/12/121127-villa-paranacito-condenan-a-dos-anos-y-seis-meses-de-prision-efectiva-al-autor-de-robos-a-comercios&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2u9e_BsjLsS2jrgVmBMJqA",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": true,
@@ -39,6 +39,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/amp/noticias/2026/11/17/121584-pueblo-belgrano-concreto-una-jornada-integral-de-trabajo-en-el-loteo-jurado&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw35zF96E35UsvO_D3xf3axY",
       "fecha_consulta": "2026-11-17T23:21:37.921846"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/19/121731-un-operario-esta-grave-tras-caer-a-una-fosa-de-4-metros-en-una-arenera-de-ibicuy&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw207pJZzs3MAWrqxBXWikma",
+      "fecha_consulta": "2026-11-19T22:55:44.563605"
     }
   ],
   "cronologia_actualizaciones": [
@@ -48,15 +53,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La justicia condenó a Hugo Rubén Acuña Escobar a dos años y seis meses de prisión efectiva por robos en Villa Paranacito. Declarado reincidente, el fallo busca brindar tranquilidad a la comunidad del ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "22:55",
+      "fecha": "2026-11-19",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "91eb6008f446e33964689b8bd3051e1abad8ac3cdaf18449b4ec5570fd838bce"
+    "91eb6008f446e33964689b8bd3051e1abad8ac3cdaf18449b4ec5570fd838bce",
+    "503e4cb5c7501835934d96fe03d0fe0d5121f68aee25b24842cd7abd5d10b00b"
   ],
   "fecha_iso": "2026-11-13T11:53:33.927587",
   "fecha_inicio_iso": "2026-11-13T11:53:33.927587",
-  "fecha_ultima_actualizacion_iso": "2026-11-13T11:53:33.927587",
+  "fecha_ultima_actualizacion_iso": "2026-11-19T22:55:44.563605",
   "fecha_publicacion": "13 de Noviembre de 2026, 11:53 hs",
-  "fecha_ultima_actualizacion": "13 de Noviembre de 2026, 11:53 hs",
+  "fecha_ultima_actualizacion": "19 de Noviembre de 2026, 22:55 hs",
   "archivo": "2026-11-13-justicia-villa-paranacito-condena-robos-reincidente.json"
 }
