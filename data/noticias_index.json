@@ -1,5 +1,36 @@
 [
   {
+    "acontecimiento_id": "2026-11-21-asistencia-el-nino-villa-paranacito-delta",
+    "slug": "asistencia-el-nino-villa-paranacito-delta",
+    "titulo": "Asistencia Crucial por El Niño Llega a Villa Paranacito, Ñancay y Médanos",
+    "copete": "Las localidades de Villa Paranacito, Ñancay y Médanos, en el corazón del Delta entrerriano, comenzaron a recibir asistencia vital para mitigar los efectos del fenómeno climático El Niño, que ha afectado gravemente a la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "asistencia",
+      "inundaciones",
+      "Villa Paranacito",
+      "Ñancay",
+      "Médanos",
+      "Delta Entrerriano",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google News (R2820)"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "21 de Noviembre de 2026, 01:06 hs",
+    "fecha_ultima_actualizacion": "21 de Noviembre de 2026, 01:06 hs",
+    "fecha_inicio_iso": "2026-11-21T01:06:49.946964",
+    "fecha_ultima_actualizacion_iso": "2026-11-21T01:06:49.946964",
+    "resumen_whatsapp": "🚨 Ayuda por El Niño llega a Villa Paranacito, Ñancay y Médanos. Alimentos y kits para familias afectadas por las crecidas en el Delta. ¡Informate!"
+  },
+  {
     "acontecimiento_id": "2026-11-19-delta-entrerriano-patio-trasero-villa-paranacito",
     "slug": "delta-entrerriano-patio-trasero-villa-paranacito",
     "titulo": "El Delta Entrerriano: De 'Patio Trasero' a Eje de Desarrollo para Villa Paranacito",
