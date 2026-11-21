@@ -21,14 +21,51 @@
     "imagen": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=1200&q=80",
     "tiempo_lectura": "2 min",
     "fuentes_consultadas": [
-      "Google News (R2820)"
+      "Google News (R2820)",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 9,
+    "fecha_publicacion": "21 de Noviembre de 2026, 01:06 hs",
+    "fecha_ultima_actualizacion": "21 de Noviembre de 2026, 12:09 hs",
+    "fecha_inicio_iso": "2026-11-21T01:06:49.946964",
+    "fecha_ultima_actualizacion_iso": "2026-11-21T12:09:30.830380",
+    "resumen_whatsapp": "🚨 Ayuda por El Niño llega a Villa Paranacito, Ñancay y Médanos. Alimentos y kits para familias afectadas por las crecidas en el Delta. ¡Informate!"
+  },
+  {
+    "acontecimiento_id": "2026-11-21-villa-paranacito-gestion-residuos-delta",
+    "slug": "villa-paranacito-gestion-residuos-delta",
+    "titulo": "Villa Paranacito Refuerza su Estrategia de Gestión de Residuos para Proteger el Delta",
+    "copete": "Ante el creciente debate provincial sobre la disposición final de residuos y las recientes clausuras de basurales en otras localidades, el Municipio de Villa Paranacito redobla sus esfuerzos para implementar un sistema de gestión integral que preserve el delicado ecosistema del Delta.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Residuos",
+      "Medio Ambiente",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Gestión Municipal",
+      "Sostenibilidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
     ],
     "num_actualizaciones": 1,
-    "fecha_publicacion": "21 de Noviembre de 2026, 01:06 hs",
-    "fecha_ultima_actualizacion": "21 de Noviembre de 2026, 01:06 hs",
-    "fecha_inicio_iso": "2026-11-21T01:06:49.946964",
-    "fecha_ultima_actualizacion_iso": "2026-11-21T01:06:49.946964",
-    "resumen_whatsapp": "🚨 Ayuda por El Niño llega a Villa Paranacito, Ñancay y Médanos. Alimentos y kits para familias afectadas por las crecidas en el Delta. ¡Informate!"
+    "fecha_publicacion": "21 de Noviembre de 2026, 12:09 hs",
+    "fecha_ultima_actualizacion": "21 de Noviembre de 2026, 12:09 hs",
+    "fecha_inicio_iso": "2026-11-21T12:09:13.833212",
+    "fecha_ultima_actualizacion_iso": "2026-11-21T12:09:13.833212",
+    "resumen_whatsapp": "♻️ Villa Paranacito refuerza su gestión de residuos para proteger el Delta. El Municipio impulsa un plan integral y la participación vecinal es clave para un ambiente sano. #ParanacitoSustentable"
   },
   {
     "acontecimiento_id": "2026-11-19-delta-entrerriano-patio-trasero-villa-paranacito",
