@@ -1,0 +1,58 @@
+{
+  "acontecimiento_id": "2026-11-23-emergencia-hidrica-villa-paranacito-delta-180-dias",
+  "titulo": "Emergencia Hídrica en Entre Ríos: Villa Paranacito y el Delta Bajo Alerta por 180 Días",
+  "copete": "El gobierno provincial declaró la emergencia hídrica por seis meses, una medida que afecta directamente a Villa Paranacito y las Islas del Ibicuy, sumándose al reconocimiento nacional de desastre agropecuario para la región.",
+  "cuerpo": [
+    "La Provincia de Entre Ríos ha oficializado la declaración de emergencia hídrica por un período de 180 días, una medida de vital importancia para Villa Paranacito y todo el entramado de islas y arroyos que conforman el Delta del Ibicuy. Esta decisión, que busca mitigar los efectos de la prolongada bajante de los ríos y la sequía, se complementa con el reconocimiento nacional del estado de emergencia y/o desastre agropecuario, evidenciando la gravedad de la situación que atraviesa la región.",
+    "Fuentes del gobierno provincial indicaron que la declaración permite agilizar la implementación de políticas públicas y la asignación de recursos extraordinarios para asistir a los sectores más afectados. \"Esta herramienta legal es fundamental para coordinar acciones con el gobierno nacional y brindar apoyo a nuestros productores y comunidades ribereñas, especialmente en zonas como Villa Paranacito, donde la vida cotidiana está intrínsecamente ligada al estado de nuestros cursos de agua\", señalaron. La medida busca proteger la producción, el ambiente y la infraestructura local.",
+    "Para los vecinos de Villa Paranacito y las zonas rurales del Delta, la emergencia hídrica tiene un impacto directo y multifacético. La bajante extrema de los ríos y arroyos dificulta la navegación, esencial para el transporte de personas y mercaderías, el acceso a servicios básicos y la actividad turística y pesquera. Además, la escasez de agua afecta la producción agropecuaria, la disponibilidad de agua potable en algunas zonas y aumenta significativamente el riesgo de incendios forestales, una preocupación constante para la comunidad isleña.",
+    "Ante este escenario, las autoridades municipales de Islas del Ibicuy y provinciales instan a la población a extremar las precauciones en el uso del agua y a reportar cualquier situación anómala. Se prevé la implementación de programas de asistencia para productores afectados y la coordinación de operativos para garantizar el abastecimiento de agua potable en las zonas más comprometidas. Se recomienda a los navegantes extremar la precaución y consultar los avisos de Prefectura Naval Argentina sobre los niveles de los ríos y las condiciones de navegabilidad. Para consultas o reportes, los vecinos pueden dirigirse a la Municipalidad de Villa Paranacito o a las dependencias locales de Defensa Civil."
+  ],
+  "resumen": "Entre Ríos declaró la emergencia hídrica por 180 días, una medida crucial para Villa Paranacito y el Delta del Ibicuy. Esta decisión, que se complementa con el reconocimiento nacional de desastre agropecuario, busca mitigar los efectos de la prolongada bajante de los ríos y la sequía. La comunidad isleña se verá impactada en la navegación, la produ",
+  "categoria": "Río y Clima",
+  "tags": [
+    "Emergencia Hídrica",
+    "Villa Paranacito",
+    "Delta Entrerriano",
+    "Bajante del Río",
+    "Islas del Ibicuy",
+    "Sequía",
+    "Producción Agropecuaria"
+  ],
+  "slug": "emergencia-hidrica-villa-paranacito-delta-180-dias",
+  "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito y el Delta! Entre Ríos declaró emergencia hídrica por 180 días. Impacto en navegación, producción y riesgo de incendios. Se activan asistencias. ¡Cuidemos el agua! 💧",
+  "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+  "fuente_nombre": "Google Alerts - Villa Paranacito",
+  "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/provincia/entre-rios-declaro-la-emergencia-hidrica-por-180-dias-y-sumo-medidores-en-gualeguaychu-ante-el-nino.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ZHePTN75J4kivFuV1ued9",
+  "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/provincia/entre-rios-declaro-la-emergencia-hidrica-por-180-dias-y-sumo-medidores-en-gualeguaychu-ante-el-nino.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ZHePTN75J4kivFuV1ued9",
+  "estado": "En desarrollo",
+  "nivel_confiabilidad": "Media",
+  "es_alerta": true,
+  "requiere_revision": false,
+  "publicado": true,
+  "fuentes_consultadas": [
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/provincia/entre-rios-declaro-la-emergencia-hidrica-por-180-dias-y-sumo-medidores-en-gualeguaychu-ante-el-nino.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1ZHePTN75J4kivFuV1ued9",
+      "fecha_consulta": "2026-11-23T00:41:35.380203"
+    }
+  ],
+  "cronologia_actualizaciones": [
+    {
+      "hora": "00:41",
+      "fecha": "2026-11-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Entre Ríos declaró la emergencia hídrica por 180 días, una medida crucial para Villa Paranacito y el Delta del Ibicuy. Esta decisión, que se complementa con el reconocimiento nacional de desastre agro",
+      "es_dato_nuevo": true
+    }
+  ],
+  "fingerprints": [
+    "b812dc89779bf483e87886c10b68be7474f0db6496580c73e556f3dc5dc5593a"
+  ],
+  "fecha_iso": "2026-11-23T00:41:35.380203",
+  "fecha_inicio_iso": "2026-11-23T00:41:35.380203",
+  "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:35.380203",
+  "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+  "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+  "archivo": "2026-11-23-emergencia-hidrica-villa-paranacito-delta-180-dias.json"
+}

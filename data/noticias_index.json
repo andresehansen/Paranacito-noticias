@@ -1,5 +1,155 @@
 [
   {
+    "acontecimiento_id": "2026-11-23-villa-paranacito-delta-creciente-arroyos-prevencion",
+    "slug": "villa-paranacito-delta-creciente-arroyos-prevencion",
+    "titulo": "Villa Paranacito y el Delta: Refuerzan Defensas y Asistencia ante la Creciente de Arroyos Locales",
+    "copete": "Ante la sostenida creciente de los ríos y arroyos, el gobierno provincial intensifica las obras de prevención y el plan de asistencia a familias en Villa Paranacito y las Islas del Ibicuy, con foco en los cursos de agua que atraviesan la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Creciente",
+      "Inundaciones",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Arroyos",
+      "Asistencia Provincial"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_inicio_iso": "2026-11-23T00:41:55.954723",
+    "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:55.954723",
+    "resumen_whatsapp": "🌊 Villa Paranacito y el Delta: Refuerzan defensas y asistencia ante la creciente de arroyos como Tala, Hondo y Manzores. ¡Mantente informado!"
+  },
+  {
+    "acontecimiento_id": "2026-11-23-villa-paranacito-preparada-el-nino",
+    "slug": "villa-paranacito-preparada-el-nino",
+    "titulo": "Villa Paranacito se Prepara: Medidas Provinciales Ante el Impacto de El Niño en el Delta",
+    "copete": "El gobierno de Entre Ríos coordina acciones preventivas y de asistencia para Villa Paranacito y otras localidades del Delta, anticipando los posibles efectos del fenómeno climático El Niño en la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Prevención",
+      "Asistencia",
+      "Crecidas"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_inicio_iso": "2026-11-23T00:41:03.052171",
+    "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:41.144756",
+    "resumen_whatsapp": "🚨 Villa Paranacito se prepara para El Niño: Provincia coordina envío de ayuda y el Municipio refuerza prevención en el Delta. ¡Mantente informado! 🌊"
+  },
+  {
+    "acontecimiento_id": "2026-11-23-emergencia-hidrica-villa-paranacito-delta-180-dias",
+    "slug": "emergencia-hidrica-villa-paranacito-delta-180-dias",
+    "titulo": "Emergencia Hídrica en Entre Ríos: Villa Paranacito y el Delta Bajo Alerta por 180 Días",
+    "copete": "El gobierno provincial declaró la emergencia hídrica por seis meses, una medida que afecta directamente a Villa Paranacito y las Islas del Ibicuy, sumándose al reconocimiento nacional de desastre agropecuario para la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Emergencia Hídrica",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Bajante del Río",
+      "Islas del Ibicuy",
+      "Sequía",
+      "Producción Agropecuaria"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": true,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_inicio_iso": "2026-11-23T00:41:35.380203",
+    "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:35.380203",
+    "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito y el Delta! Entre Ríos declaró emergencia hídrica por 180 días. Impacto en navegación, producción y riesgo de incendios. Se activan asistencias. ¡Cuidemos el agua! 💧"
+  },
+  {
+    "acontecimiento_id": "2026-11-23-alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
+    "slug": "alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
+    "titulo": "Alerta en Villa Paranacito y el Delta: Se intensifica la búsqueda de Marcos Suárez, con posible tránsito por la Ruta 14",
+    "copete": "Las autoridades de Villa Paranacito y la región se suman a la búsqueda de Marcos Suárez, desaparecido desde el viernes de un centro de rehabilitación en Concordia, con indicios de que podría transitar por la Ruta Nacional 14.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Búsqueda",
+      "Desaparecido",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Ruta 14",
+      "Comunidad"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_inicio_iso": "2026-11-23T00:41:22.526123",
+    "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:22.526123",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Se busca a Marcos Suárez, desaparecido de Concordia. Podría estar en la zona de Ruta 14. ¡Tu ayuda es clave! 📞 Llama a la Comisaría o 911 si lo ves."
+  },
+  {
+    "acontecimiento_id": "2026-11-22-villa-paranacito-asistencia-el-nino",
+    "slug": "villa-paranacito-asistencia-el-nino",
+    "titulo": "Villa Paranacito Recibe Asistencia Crucial Frente a los Desafíos de El Niño",
+    "copete": "Villa Paranacito, junto a las localidades de Médanos y Ñancay, está recibiendo asistencia vital para mitigar los impactos del fenómeno climático El Niño, que ha generado desafíos significativos en la región del Delta.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "El Niño",
+      "Asistencia",
+      "Villa Paranacito",
+      "Delta",
+      "Inundaciones",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "22 de Noviembre de 2026, 15:56 hs",
+    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:40 hs",
+    "fecha_inicio_iso": "2026-11-22T15:56:55.897692",
+    "fecha_ultima_actualizacion_iso": "2026-11-23T00:40:48.306135",
+    "resumen_whatsapp": "🚨 Villa Paranacito recibe asistencia clave por El Niño. Ayuda vital para el Delta ante crecidas y anegamientos. ¡Informate! #ParanacitoNoticias"
+  },
+  {
     "acontecimiento_id": "2026-11-22-refuerzo-asistencia-familias-paranacito",
     "slug": "refuerzo-asistencia-familias-paranacito",
     "titulo": "El Ministerio de Desarrollo Humano de Entre Ríos Refuerza Asistencia a Familias en Villa Paranacito",
@@ -26,35 +176,6 @@
     "fecha_inicio_iso": "2026-11-22T15:57:21.064907",
     "fecha_ultima_actualizacion_iso": "2026-11-22T15:57:21.064907",
     "resumen_whatsapp": "🚨 El Ministerio de Desarrollo Humano de Entre Ríos refuerza la asistencia a familias en Villa Paranacito y el Delta. ¡Más apoyo para nuestra comunidad! #ParanacitoNoticias"
-  },
-  {
-    "acontecimiento_id": "2026-11-22-villa-paranacito-asistencia-el-nino",
-    "slug": "villa-paranacito-asistencia-el-nino",
-    "titulo": "Villa Paranacito Recibe Asistencia Crucial Frente a los Desafíos de El Niño",
-    "copete": "Villa Paranacito, junto a las localidades de Médanos y Ñancay, está recibiendo asistencia vital para mitigar los impactos del fenómeno climático El Niño, que ha generado desafíos significativos en la región del Delta.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "El Niño",
-      "Asistencia",
-      "Villa Paranacito",
-      "Delta",
-      "Inundaciones",
-      "Islas del Ibicuy"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "22 de Noviembre de 2026, 15:56 hs",
-    "fecha_ultima_actualizacion": "22 de Noviembre de 2026, 15:56 hs",
-    "fecha_inicio_iso": "2026-11-22T15:56:55.897692",
-    "fecha_ultima_actualizacion_iso": "2026-11-22T15:56:55.897692",
-    "resumen_whatsapp": "🚨 Villa Paranacito recibe asistencia clave por El Niño. Ayuda vital para el Delta ante crecidas y anegamientos. ¡Informate! #ParanacitoNoticias"
   },
   {
     "acontecimiento_id": "2026-11-21-villa-paranacito-gestion-residuos-delta",

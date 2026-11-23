@@ -34,6 +34,16 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/21/121971-pueblo-belgrano-la-lluvia-obligo-a-suspender-la-primera-noche-de-la-fiesta-de-la-tradicion&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw311UPbGKifR_Y6Hlu01ntF",
       "fecha_consulta": "2026-11-22T15:56:55.897692"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://entremediosweb.com/el-plan-de-entre-rios-frente-a-el-nino-obras-defensas-y-asistencia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw2Q6ADF3kHKASQoNpwl3C5Q",
+      "fecha_consulta": "2026-11-23T00:40:42.575146"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.diariojunio.com.ar/165200_el-plan-de-entre-rios-frente-a-el-nino-infraestructura-y-asistencia/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3r7IpQywFdGv8oXYJmQmgn",
+      "fecha_consulta": "2026-11-23T00:40:48.306135"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +53,31 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito, Médanos y Ñancay reciben asistencia para enfrentar los efectos de El Niño. La ayuda incluye provisiones y apoyo logístico para mitigar los impactos de crecidas y anegamientos en el D",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "00:40",
+      "fecha": "2026-11-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo cable detalla que la asistencia a Villa Paranacito forma parte de un plan provincial más amplio de Entre Ríos que incluye obras y defensas. Además, especifica intervenciones en los arroyos Tala, Hondo y Manzores, y en cursos de agua de los departamentos Gualeguay y Victoria.",
+      "es_dato_nuevo": true
+    },
+    {
+      "hora": "00:40",
+      "fecha": "2026-11-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "El nuevo artículo detalla que las acciones de infraestructura y asistencia, en el marco del plan de Entre Ríos frente a El Niño, incluyeron intervenciones específicas en los arroyos Tala, Hondo y Manzores, además de otros cursos de agua en Villa Paranacito.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "1db7f81395406181859f484de38318747c01bf4550998e2c5ba701db5f61c371"
+    "1db7f81395406181859f484de38318747c01bf4550998e2c5ba701db5f61c371",
+    "4cce96da5547991ad8410c4336e6696728d3d73b485b642a8d01b7e44b6e55df",
+    "0b6b8aa27a98186854b7e7da89468a7473988f7fe3af6acf16f732576c4474d7"
   ],
   "fecha_iso": "2026-11-22T15:56:55.897692",
   "fecha_inicio_iso": "2026-11-22T15:56:55.897692",
-  "fecha_ultima_actualizacion_iso": "2026-11-22T15:56:55.897692",
+  "fecha_ultima_actualizacion_iso": "2026-11-23T00:40:48.306135",
   "fecha_publicacion": "22 de Noviembre de 2026, 15:56 hs",
-  "fecha_ultima_actualizacion": "22 de Noviembre de 2026, 15:56 hs",
+  "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:40 hs",
   "archivo": "2026-11-22-villa-paranacito-asistencia-el-nino.json"
 }
