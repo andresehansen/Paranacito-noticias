@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/22/121986-buscan-a-marcos-suarez-de-larroque-hace-tres-dias-se-fue-caminando-por-la-ruta-14&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3u-eVK9UF9NFiF75lCdTkZ",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/22/121986-buscan-a-marcos-suarez-de-larroque-hace-tres-dias-se-fue-caminando-por-la-ruta-14&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3u-eVK9UF9NFiF75lCdTkZ",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/22/121986-buscan-a-marcos-suarez-de-larroque-hace-tres-dias-se-fue-caminando-por-la-ruta-14&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3u-eVK9UF9NFiF75lCdTkZ",
       "fecha_consulta": "2026-11-23T00:41:22.526123"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.r2820.com/noticias/2026/11/23/122043-el-joven-buscado-en-larroque-se-comunico-con-su-familia-y-vuelve-a-casa&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1da6SiCkIKZ53D-c-YYyLT",
+      "fecha_consulta": "2026-11-23T19:53:12.187039"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "La comunidad de Villa Paranacito y el Delta se une a la búsqueda de Marcos Suárez, desaparecido desde el viernes de Concordia. Se cree que podría transitar por la Ruta 14, que atraviesa la región. Se ",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "19:53",
+      "fecha": "2026-11-23",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Marcos Suárez (el joven buscado) se comunicó con su familia y está regresando a casa, lo que indica que la búsqueda ha finalizado. Se especifica que la búsqueda comenzó el viernes 20 de noviembre.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "c53e6ad4801605175d53e61e02ebc3858144a1491d4ba31277937a1b523eeb2e"
+    "c53e6ad4801605175d53e61e02ebc3858144a1491d4ba31277937a1b523eeb2e",
+    "a799c3775376bfa408afe8a18ce5fee2c23e70cb8c50cf86323e6586af588a9d"
   ],
   "fecha_iso": "2026-11-23T00:41:22.526123",
   "fecha_inicio_iso": "2026-11-23T00:41:22.526123",
-  "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:22.526123",
+  "fecha_ultima_actualizacion_iso": "2026-11-23T19:53:12.187039",
   "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
-  "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+  "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 19:53 hs",
   "archivo": "2026-11-23-alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14.json"
 }

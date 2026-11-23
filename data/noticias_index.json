@@ -1,5 +1,35 @@
 [
   {
+    "acontecimiento_id": "2026-11-23-alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
+    "slug": "alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
+    "titulo": "Alerta en Villa Paranacito y el Delta: Se intensifica la búsqueda de Marcos Suárez, con posible tránsito por la Ruta 14",
+    "copete": "Las autoridades de Villa Paranacito y la región se suman a la búsqueda de Marcos Suárez, desaparecido desde el viernes de un centro de rehabilitación en Concordia, con indicios de que podría transitar por la Ruta Nacional 14.",
+    "categoria": "Comunidad",
+    "tags": [
+      "Búsqueda",
+      "Desaparecido",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Ruta 14",
+      "Comunidad"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 19:53 hs",
+    "fecha_inicio_iso": "2026-11-23T00:41:22.526123",
+    "fecha_ultima_actualizacion_iso": "2026-11-23T19:53:12.187039",
+    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Se busca a Marcos Suárez, desaparecido de Concordia. Podría estar en la zona de Ruta 14. ¡Tu ayuda es clave! 📞 Llama a la Comisaría o 911 si lo ves."
+  },
+  {
     "acontecimiento_id": "2026-11-23-villa-paranacito-delta-creciente-arroyos-prevencion",
     "slug": "villa-paranacito-delta-creciente-arroyos-prevencion",
     "titulo": "Villa Paranacito y el Delta: Refuerzan Defensas y Asistencia ante la Creciente de Arroyos Locales",
@@ -88,35 +118,6 @@
     "fecha_inicio_iso": "2026-11-23T00:41:35.380203",
     "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:35.380203",
     "resumen_whatsapp": "🚨 ¡Atención Villa Paranacito y el Delta! Entre Ríos declaró emergencia hídrica por 180 días. Impacto en navegación, producción y riesgo de incendios. Se activan asistencias. ¡Cuidemos el agua! 💧"
-  },
-  {
-    "acontecimiento_id": "2026-11-23-alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
-    "slug": "alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
-    "titulo": "Alerta en Villa Paranacito y el Delta: Se intensifica la búsqueda de Marcos Suárez, con posible tránsito por la Ruta 14",
-    "copete": "Las autoridades de Villa Paranacito y la región se suman a la búsqueda de Marcos Suárez, desaparecido desde el viernes de un centro de rehabilitación en Concordia, con indicios de que podría transitar por la Ruta Nacional 14.",
-    "categoria": "Comunidad",
-    "tags": [
-      "Búsqueda",
-      "Desaparecido",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Ruta 14",
-      "Comunidad"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
-    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
-    "fecha_inicio_iso": "2026-11-23T00:41:22.526123",
-    "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:22.526123",
-    "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Se busca a Marcos Suárez, desaparecido de Concordia. Podría estar en la zona de Ruta 14. ¡Tu ayuda es clave! 📞 Llama a la Comisaría o 911 si lo ves."
   },
   {
     "acontecimiento_id": "2026-11-22-villa-paranacito-asistencia-el-nino",
@@ -4017,35 +4018,6 @@
     "resumen_whatsapp": "⚽️ ¡Atención Villa Paranacito! Black River se juega la punta del campeonato en casa este 23/08/2026. 🏆 Un partido clave que definirá el liderazgo. ¡Apoyemos a nuestro equipo local! #FútbolParanacito"
   },
   {
-    "acontecimiento_id": "2026-08-24-bomberos-villa-paranacito-capacitacion-bombas-emergencias",
-    "slug": "bomberos-villa-paranacito-capacitacion-bombas-emergencias",
-    "titulo": "Bomberos de Villa Paranacito Refuerzan Capacitación Clave en Operación de Bombas para Emergencias",
-    "copete": "Un grupo de bomberos voluntarios de Villa Paranacito participó en una fundamental jornada de capacitación sobre manejo de bombas y sistemas de abastecimiento, una formación crucial para optimizar la respuesta ante incendios y situaciones hídricas en el singular entorno del Delta entrerriano.",
-    "categoria": "Comunidad",
-    "tags": [
-      "Bomberos Voluntarios",
-      "Villa Paranacito",
-      "Capacitación",
-      "Emergencias Hídricas",
-      "Incendios Forestales",
-      "Delta Entrerriano"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "24 de Agosto de 2026, 12:48 hs",
-    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 12:48 hs",
-    "fecha_inicio_iso": "2026-08-24T12:48:30.151999",
-    "fecha_ultima_actualizacion_iso": "2026-08-24T12:48:30.151999",
-    "resumen_whatsapp": "📰 ¡Noticia clave para la seguridad de Villa Paranacito! Bomberos locales se capacitaron intensivamente en manejo de bombas y sistemas de abastecimiento. 🌊🔥 Esto mejora la respuesta ante incendios y emergencias hídricas en el Delta. ¡Tu seguridad es nuestra prioridad! #ParanacitoNoticias"
-  },
-  {
     "acontecimiento_id": "2026-08-24-gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
     "slug": "gobierno-provincial-turismo-eje-estrategico-delta-entrerriano",
     "titulo": "El Gobierno Provincial Ratifica al Turismo como Eje Estratégico para el Desarrollo del Delta Entrerriano",
@@ -4099,33 +4071,6 @@
     "fecha_inicio_iso": "2026-08-22T00:39:24.533161",
     "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.582390",
     "resumen_whatsapp": "📰 *Rogelio Frigerio activó con intendentes oficialistas y opositores el operativo por el Súper ... - Letra P* - Novedades de Villa Paranacito."
-  },
-  {
-    "acontecimiento_id": "2026-08-24-bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
-    "slug": "bomberos-voluntarios-villa-paranacito-capacitacion-regional-emergencias",
-    "titulo": "Bomberos Voluntarios de Villa Paranacito Refuerzan Capacidades en Crucial Capacitación Regional",
-    "copete": "Efectivos de los Bomberos Voluntarios de Villa Paranacito participaron activamente en una importante jornada de capacitación regional en Gualeguaychú, adquiriendo herramientas avanzadas para la respuesta ante emergencias complejas. Este entrenamiento es vital para la seguridad de la comunidad isleña y del Delta entrerriano, dadas las particularidades geográficas de la región.",
-    "categoria": "Comunidad",
-    "tags": [
-      "Bomberos Voluntarios",
-      "Villa Paranacito",
-      "Capacitación",
-      "Seguridad Ciudadana"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": true,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "24 de Agosto de 2026, 01:13 hs",
-    "fecha_ultima_actualizacion": "24 de Agosto de 2026, 01:13 hs",
-    "fecha_inicio_iso": "2026-08-24T01:13:51.090978",
-    "fecha_ultima_actualizacion_iso": "2026-08-24T01:13:51.090978",
-    "resumen_whatsapp": "📰 ¡Nuestros Bomberos Voluntarios de Villa Paranacito se capacitaron en Gualeguaychú! 🚒 Reforzaron técnicas de rescate y gestión de emergencias para proteger mejor a nuestra comunidad del Delta. ¡Más seguridad para todos! 💪"
   },
   {
     "acontecimiento_id": "2026-08-22-frente-al-avance-de-el-nino-la",
