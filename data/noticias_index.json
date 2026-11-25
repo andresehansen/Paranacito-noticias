@@ -1,5 +1,33 @@
 [
   {
+    "acontecimiento_id": "2026-11-25-juzgado-paz-villa-paranacito-edictos-judiciales",
+    "slug": "juzgado-paz-villa-paranacito-edictos-judiciales",
+    "titulo": "El Juzgado de Paz de Villa Paranacito Emite Edictos Judiciales Clave para la Comunidad",
+    "copete": "El Juzgado de Paz de Islas del Ibicuy, con sede en Villa Paranacito, continúa su labor judicial con la emisión de edictos, un mecanismo fundamental para la transparencia y el acceso a la justicia en la región.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Juzgado de Paz",
+      "Islas del Ibicuy",
+      "Edictos Judiciales",
+      "Transparencia Legal"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "25 de Noviembre de 2026, 03:23 hs",
+    "fecha_ultima_actualizacion": "25 de Noviembre de 2026, 03:23 hs",
+    "fecha_inicio_iso": "2026-11-25T03:23:48.562689",
+    "fecha_ultima_actualizacion_iso": "2026-11-25T03:23:48.562689",
+    "resumen_whatsapp": "🚨 ¡Atención vecinos de Villa Paranacito! El Juzgado de Paz emite edictos judiciales clave para la transparencia y tus derechos. Infórmate en la sede local. ⚖️"
+  },
+  {
     "acontecimiento_id": "2026-11-23-alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
     "slug": "alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
     "titulo": "Alerta en Villa Paranacito y el Delta: Se intensifica la búsqueda de Marcos Suárez, con posible tránsito por la Ruta 14",
