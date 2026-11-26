@@ -1,5 +1,32 @@
 [
   {
+    "acontecimiento_id": "2026-11-26-llamado-a-concurso-instituto-superior-de-formacion-docente",
+    "slug": "llamado-a-concurso-instituto-superior-de-formacion-docente",
+    "titulo": "Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "26 de Noviembre de 2026, 00:00 hs",
+    "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 00:00 hs",
+    "fecha_inicio_iso": "2026-11-26T00:00:24.430876",
+    "fecha_ultima_actualizacion_iso": "2026-11-26T00:00:24.434439",
+    "resumen_whatsapp": "📰 *Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS* — google.com"
+  },
+  {
     "acontecimiento_id": "2026-11-25-juzgado-paz-villa-paranacito-edictos-judiciales",
     "slug": "juzgado-paz-villa-paranacito-edictos-judiciales",
     "titulo": "El Juzgado de Paz de Villa Paranacito Emite Edictos Judiciales Clave para la Comunidad",
@@ -452,38 +479,6 @@
     "resumen_whatsapp": "🎉 Villa Paranacito vibró en La Noche de los Museos, celebrando la rica historia y cultura del Delta. ¡Orgullo isleño! 🏛️✨"
   },
   {
-    "acontecimiento_id": "2026-11-16-isfdc-villa-paranacito-concurso-docente-educacion-delta",
-    "slug": "isfdc-villa-paranacito-concurso-docente-educacion-delta",
-    "titulo": "El ISFDC Villa Paranacito Lanza Tercer Llamado a Concurso Docente: Fortaleciendo la Educación en el Delta",
-    "copete": "El Instituto Superior de Formación Docente Continua de Villa Paranacito ha emitido un tercer llamado a concurso para la cobertura de cargos docentes, una iniciativa fundamental para fortalecer la oferta educativa y el desarrollo profesional en el Delta entrerriano.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "ISFDC",
-      "Educación",
-      "Concurso Docente",
-      "Islas del Ibicuy",
-      "Formación Docente"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "16 de Noviembre de 2026, 17:59 hs",
-    "fecha_ultima_actualizacion": "16 de Noviembre de 2026, 17:59 hs",
-    "fecha_inicio_iso": "2026-11-16T17:59:45.344417",
-    "fecha_ultima_actualizacion_iso": "2026-11-16T17:59:45.350069",
-    "resumen_whatsapp": "📢 ¡Atención docentes! El ISFDC Villa Paranacito abre concurso para nuevos cargos. Oportunidad clave para la educación en el Delta. ¡Consultá requisitos a partir del 16/11/2026! 📚✏️"
-  },
-  {
     "acontecimiento_id": "2026-11-14-villa-paranacito-formacion-violencias",
     "slug": "villa-paranacito-formacion-violencias",
     "titulo": "Villa Paranacito Impulsa un Ciclo de Formación Clave contra las Violencias",
@@ -597,33 +592,6 @@
     "fecha_inicio_iso": "2026-11-13T11:53:18.184402",
     "fecha_ultima_actualizacion_iso": "2026-11-13T11:53:18.184402",
     "resumen_whatsapp": "✨ Un artesano de Villa Paranacito llevó su Virgen de tuercas a la misa papal en Luján, ¡un orgullo para el Delta! 🙏⚙️"
-  },
-  {
-    "acontecimiento_id": "2026-11-11-carcel-efectiva-para-el-autor-de-varios-robos",
-    "slug": "carcel-efectiva-para-el-autor-de-varios-robos",
-    "titulo": "Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google News (Diario El Argentino)"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "11 de Noviembre de 2026, 22:30 hs",
-    "fecha_ultima_actualizacion": "11 de Noviembre de 2026, 22:30 hs",
-    "fecha_inicio_iso": "2026-11-11T22:30:23.950859",
-    "fecha_ultima_actualizacion_iso": "2026-11-11T22:30:23.950859",
-    "resumen_whatsapp": "📰 *Cárcel efectiva para el autor de varios robos a comercios en Villa Paranacito* — google.com"
   },
   {
     "acontecimiento_id": "2026-11-10-delta-entrerriano-peregrinacion-lujan-papa",
