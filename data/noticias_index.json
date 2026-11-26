@@ -1,5 +1,119 @@
 [
   {
+    "acontecimiento_id": "2026-11-26-foro-mujer-activa-voz-paranacito-delta",
+    "slug": "foro-mujer-activa-voz-paranacito-delta",
+    "titulo": "Villa Paranacito: El Tercer Foro Mujer Activa con Voz Impulsa la Autonomía Femenina en el Corazón del Delta",
+    "copete": "La localidad de Villa Paranacito fue el epicentro del Tercer Foro Mujer Activa con Voz, un espacio clave para el debate y la promoción de políticas que fortalecen la autonomía de las mujeres en la región del Delta entrerriano.",
+    "categoria": "Sociedad",
+    "tags": [
+      "Villa Paranacito",
+      "Mujer Activa con Voz",
+      "Autonomía Femenina",
+      "Delta Entrerriano",
+      "Género"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Noviembre de 2026, 18:22 hs",
+    "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 18:22 hs",
+    "fecha_inicio_iso": "2026-11-26T18:22:36.688182",
+    "fecha_ultima_actualizacion_iso": "2026-11-26T18:22:36.688182",
+    "resumen_whatsapp": "🗣️ Villa Paranacito fue sede del 3er Foro Mujer Activa con Voz, impulsando la autonomía femenina en el Delta. ¡Políticas de género en acción! 💪"
+  },
+  {
+    "acontecimiento_id": "2026-11-26-fondos-nacionales-bomberos-villa-paranacito-delta",
+    "slug": "fondos-nacionales-bomberos-villa-paranacito-delta",
+    "titulo": "Fondos Nacionales Fortalecen a los Bomberos Voluntarios de Villa Paranacito: Un Impulso Crucial para la Seguridad del Delta",
+    "copete": "El cuartel de Bomberos Voluntarios de Villa Paranacito ha sido incluido en la asignación de fondos nacionales, una medida que busca reforzar su capacidad operativa y la respuesta ante emergencias en la particular geografía del Delta entrerriano.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Bomberos Voluntarios",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Seguridad",
+      "Fondos Nacionales",
+      "Emergencias"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Noviembre de 2026, 18:22 hs",
+    "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 18:22 hs",
+    "fecha_inicio_iso": "2026-11-26T18:22:25.136760",
+    "fecha_ultima_actualizacion_iso": "2026-11-26T18:22:25.136760",
+    "resumen_whatsapp": "🚨 Bomberos Voluntarios de Villa Paranacito recibirán fondos nacionales para equipamiento y capacitación. ¡Más seguridad para el Delta! 💪🚒"
+  },
+  {
+    "acontecimiento_id": "2026-11-26-concurso-educativo-nivel-primario-villa-paranacito",
+    "slug": "concurso-educativo-nivel-primario-villa-paranacito",
+    "titulo": "Villa Paranacito será sede de importante Concurso Educativo de Nivel Primario",
+    "copete": "El Departamento de Educación de Islas del Ibicuy convoca a la comunidad educativa al certamen que se realizará en la sede local, promoviendo la excelencia académica en la región.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Educación",
+      "Villa Paranacito",
+      "Islas del Ibicuy",
+      "Concurso",
+      "Nivel Primario",
+      "CGE"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Noviembre de 2026, 18:21 hs",
+    "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 18:21 hs",
+    "fecha_inicio_iso": "2026-11-26T18:21:58.402941",
+    "fecha_ultima_actualizacion_iso": "2026-11-26T18:21:58.402941",
+    "resumen_whatsapp": "📚 Villa Paranacito será sede de Concurso Educativo Nivel Primario este viernes 27/11 a las 10hs en Los Cipreses 1012. ¡Fomentando la educación en el Delta! #Educación #VillaParanacito"
+  },
+  {
+    "acontecimiento_id": "2026-11-26-convocatoria-docente-eet-villa-paranacito",
+    "slug": "convocatoria-docente-eet-villa-paranacito",
+    "titulo": "Convocatoria Clave en la E.E.T. N°1 de Villa Paranacito: Oportunidades Docentes",
+    "copete": "La Escuela de Educación Técnica N°1 \"Augusto Widmann\" de Villa Paranacito abre una importante convocatoria a concurso para la cobertura de cargos docentes, enmarcada en la Resolución 2300/22 CGE.",
+    "categoria": "Salud y Educación",
+    "tags": [
+      "Villa Paranacito",
+      "Educación",
+      "Concurso Docente",
+      "EET N°1 Augusto Widmann",
+      "Oportunidad Laboral"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "26 de Noviembre de 2026, 18:21 hs",
+    "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 18:21 hs",
+    "fecha_inicio_iso": "2026-11-26T18:21:41.166224",
+    "fecha_ultima_actualizacion_iso": "2026-11-26T18:21:41.166224",
+    "resumen_whatsapp": "🚨 ¡Atención docentes de Villa Paranacito! La E.E.T. N°1 \"Augusto Widmann\" convoca a concurso el viernes 27. ¡Oportunidad laboral y educativa! 📚👩‍🏫"
+  },
+  {
     "acontecimiento_id": "2026-11-26-llamado-a-concurso-instituto-superior-de-formacion-docente",
     "slug": "llamado-a-concurso-instituto-superior-de-formacion-docente",
     "titulo": "Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS",
@@ -413,37 +527,6 @@
     "fecha_inicio_iso": "2026-11-18T06:04:08.332001",
     "fecha_ultima_actualizacion_iso": "2026-11-18T06:04:08.332001",
     "resumen_whatsapp": "🛣️ ¡Buenas noticias para el Delta! Préstamo internacional aprobado para mejorar rutas en Entre Ríos, beneficiando directamente a Villa Paranacito y la región. Más conectividad y desarrollo en camino. #ObrasPúblicas #DeltaEntrerriano"
-  },
-  {
-    "acontecimiento_id": "2026-11-17-concurso-nivel-primario-villa-paranacito-educacion",
-    "slug": "concurso-nivel-primario-villa-paranacito-educacion",
-    "titulo": "Educación en Villa Paranacito: Concurso de Nivel Primario convoca a docentes y directivos",
-    "copete": "La Dirección Departamental de Escuelas Islas del Ibicuy convoca a un importante concurso de Nivel Primario en Villa Paranacito, un evento clave para la cobertura de cargos docentes en la región.",
-    "categoria": "Salud y Educación",
-    "tags": [
-      "Villa Paranacito",
-      "Educación",
-      "Concurso Docente",
-      "Islas del Ibicuy",
-      "Delta Entrerriano",
-      "DDE"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "17 de Noviembre de 2026, 23:22 hs",
-    "fecha_ultima_actualizacion": "17 de Noviembre de 2026, 23:22 hs",
-    "fecha_inicio_iso": "2026-11-17T23:22:05.135088",
-    "fecha_ultima_actualizacion_iso": "2026-11-17T23:22:05.135088",
-    "resumen_whatsapp": "🚨 Educación en Villa Paranacito: Concurso de Nivel Primario de la D.D.E. Islas del Ibicuy el 18/11 a las 11:30 hs en Los Cipreses 1012. ¡Importante para docentes!"
   },
   {
     "acontecimiento_id": "2026-11-15-villa-paranacito-celebro-noche-museos-identidad-islea",
