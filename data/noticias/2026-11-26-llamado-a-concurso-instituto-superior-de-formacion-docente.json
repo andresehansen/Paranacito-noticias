@@ -35,6 +35,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-346/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw27cOUv2lRHGnWyvpVk3BX_",
       "fecha_consulta": "2026-11-26T00:00:24.434439"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-instituto-superior-de-formacion-docente-continua-villa-paranacito-islas-348/&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw0jow9fTv6YkHGJX8FCXn-y",
+      "fecha_consulta": "2026-11-27T23:55:41.581408"
     }
   ],
   "cronologia_actualizaciones": [
@@ -51,16 +56,24 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Llamado a Concurso – Instituto Superior de Formacion Docente Continua “ Villa Paranacito ”- ISLAS",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:55",
+      "fecha": "2026-11-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "Llamado a Concurso – Instituto Superior de Formación Docente Continua “ Villa Paranacito ” – ISLAS",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
     "c6c06b4e059eba2710ac41b3df4f3fed39eb550f2cce8a6480ed14ede632ed92",
-    "f69d96c58950c030c96c79ca664fc068889ebf2aeea4e07b3fbc2f9c1779fc9c"
+    "f69d96c58950c030c96c79ca664fc068889ebf2aeea4e07b3fbc2f9c1779fc9c",
+    "c139c3739c6206db65a2105792d9c4d55a7f60f37be092d8edc18ed75656af4a"
   ],
   "fecha_iso": "2026-11-26T00:00:24.430876",
   "fecha_inicio_iso": "2026-11-26T00:00:24.430876",
-  "fecha_ultima_actualizacion_iso": "2026-11-26T00:00:24.434439",
+  "fecha_ultima_actualizacion_iso": "2026-11-27T23:55:41.581408",
   "fecha_publicacion": "26 de Noviembre de 2026, 00:00 hs",
-  "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 00:00 hs",
+  "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 23:55 hs",
   "archivo": "2026-11-26-llamado-a-concurso-instituto-superior-de-formacion-docente.json"
 }

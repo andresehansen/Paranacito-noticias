@@ -24,7 +24,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/amp/el-nino-en-entre-rios-obras-y-asistencia-ante-las-crecidas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Q016WCQbXcb-9TxeMf0zP",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/amp/el-nino-en-entre-rios-obras-y-asistencia-ante-las-crecidas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Q016WCQbXcb-9TxeMf0zP",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -34,6 +34,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.elonce.com/amp/el-nino-en-entre-rios-obras-y-asistencia-ante-las-crecidas.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw1Q016WCQbXcb-9TxeMf0zP",
       "fecha_consulta": "2026-11-23T00:41:55.954723"
+    },
+    {
+      "nombre": "Google News (Diario El Debate Pregón)",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUDd3Z2xNQ1FRN3RGRkVCQ1dnSnJnVXh2SlJxOWswZ3poelB1dEVPM2paRjBkY1lmXy1vdnJtZUVWZ1lERFhSVEI5ejQ4VTRkTFlGWmlDYVo1dDU1SS1rUUVEY1FGM3BLMFpEVjE0UTkxb3FUYmpncEtXM3FvOVdqalowaWI2bEhVQzNjeGtORF9iaDRVVUp1TW9SZmhHVmFIanl1UXBjcXRLLWpyczRmSjc1YWpSVHloSXV6OTNncHlrZ2g5dFN4Z0FORzMtbVNnZ3oybzE4Tk1HdkdMVWUwVGJ5Qk9OTms1SHRWd1djWQ?oc=5",
+      "fecha_consulta": "2026-11-27T23:55:48.570428"
     }
   ],
   "cronologia_actualizaciones": [
@@ -43,15 +48,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "Villa Paranacito y el Delta enfrentan la creciente de ríos y arroyos. El gobierno provincial refuerza defensas en Tala, Hondo y Manzores, y activa un plan de asistencia. Se monitorea el impacto en cam",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "23:55",
+      "fecha": "2026-11-27",
+      "fuente": "Google News (Diario El Debate Pregón)",
+      "dato": "El Río Paraná tiene a Victoria en nivel de evacuación, mientras que en Ibicuy y Paranacito el agua se encuentra por debajo del nivel de alerta.",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "52a1d563c6b372322eb7f2a48be2cdb033bf94cbf27ce9cf3960ccab4c3e72a9"
+    "52a1d563c6b372322eb7f2a48be2cdb033bf94cbf27ce9cf3960ccab4c3e72a9",
+    "8f7a77f9b35401afbd5d92654cecd01fc6a7c42a1ec2498b75f26b8152250236"
   ],
   "fecha_iso": "2026-11-23T00:41:55.954723",
   "fecha_inicio_iso": "2026-11-23T00:41:55.954723",
-  "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:55.954723",
+  "fecha_ultima_actualizacion_iso": "2026-11-27T23:55:48.570428",
   "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
-  "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
+  "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 23:55 hs",
   "archivo": "2026-11-23-villa-paranacito-delta-creciente-arroyos-prevencion.json"
 }

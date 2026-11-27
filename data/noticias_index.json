@@ -1,5 +1,123 @@
 [
   {
+    "acontecimiento_id": "2026-11-23-villa-paranacito-delta-creciente-arroyos-prevencion",
+    "slug": "villa-paranacito-delta-creciente-arroyos-prevencion",
+    "titulo": "Villa Paranacito y el Delta: Refuerzan Defensas y Asistencia ante la Creciente de Arroyos Locales",
+    "copete": "Ante la sostenida creciente de los ríos y arroyos, el gobierno provincial intensifica las obras de prevención y el plan de asistencia a familias en Villa Paranacito y las Islas del Ibicuy, con foco en los cursos de agua que atraviesan la región.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Creciente",
+      "Inundaciones",
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Arroyos",
+      "Asistencia Provincial"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google News (Diario El Debate Pregón)"
+    ],
+    "num_actualizaciones": 2,
+    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
+    "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 23:55 hs",
+    "fecha_inicio_iso": "2026-11-23T00:41:55.954723",
+    "fecha_ultima_actualizacion_iso": "2026-11-27T23:55:48.570428",
+    "resumen_whatsapp": "🌊 Villa Paranacito y el Delta: Refuerzan defensas y asistencia ante la creciente de arroyos como Tala, Hondo y Manzores. ¡Mantente informado!"
+  },
+  {
+    "acontecimiento_id": "2026-11-26-llamado-a-concurso-instituto-superior-de-formacion-docente",
+    "slug": "llamado-a-concurso-instituto-superior-de-formacion-docente",
+    "titulo": "Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS",
+    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "villa paranacito",
+      "delta",
+      "río y clima"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "26 de Noviembre de 2026, 00:00 hs",
+    "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 23:55 hs",
+    "fecha_inicio_iso": "2026-11-26T00:00:24.430876",
+    "fecha_ultima_actualizacion_iso": "2026-11-27T23:55:41.581408",
+    "resumen_whatsapp": "📰 *Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS* — google.com"
+  },
+  {
+    "acontecimiento_id": "2026-11-27-niveles-rios-normales-villa-paranacito-delta",
+    "slug": "niveles-rios-normales-villa-paranacito-delta",
+    "titulo": "Monitoreo Hídrico: Ríos en Niveles Normales en Villa Paranacito y el Delta Entrerriano",
+    "copete": "Los niveles de los ríos en Villa Paranacito e Ibicuy se mantienen dentro de los parámetros normales, brindando tranquilidad a los habitantes del Delta entrerriano.",
+    "categoria": "Río y Clima",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Nivel del Río",
+      "Monitoreo Hídrico",
+      "Ibicuy"
+    ],
+    "estado": "Publicado",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 1,
+    "fecha_publicacion": "27 de Noviembre de 2026, 23:55 hs",
+    "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 23:55 hs",
+    "fecha_inicio_iso": "2026-11-27T23:55:41.577230",
+    "fecha_ultima_actualizacion_iso": "2026-11-27T23:55:41.577230",
+    "resumen_whatsapp": "💧 ¡Buenas noticias en el Delta! Los ríos en Villa Paranacito (2.10m) e Ibicuy (1.60m) están en niveles normales. Monitoreo constante para la tranquilidad de los isleños. ✅"
+  },
+  {
+    "acontecimiento_id": "2026-11-27-obras-clave-delta-presupuesto-nacional",
+    "slug": "obras-clave-delta-presupuesto-nacional",
+    "titulo": "Preocupación en Villa Paranacito: Bordet Cuestiona la Ausencia de Obras Clave para el Delta en el Presupuesto Nacional",
+    "copete": "El exgobernador Gustavo Bordet alertó sobre la exclusión de proyectos fundamentales para el desarrollo de la región de Islas del Ibicuy, incluyendo infraestructura vial y fluvial vital para Villa Paranacito, del próximo Presupuesto Nacional.",
+    "categoria": "Obras y Servicios",
+    "tags": [
+      "Villa Paranacito",
+      "Delta Entrerriano",
+      "Presupuesto Nacional",
+      "Obras Públicas",
+      "Ruta Provincial 45",
+      "Gustavo Bordet",
+      "Islas del Ibicuy"
+    ],
+    "estado": "En desarrollo",
+    "es_alerta": false,
+    "nivel_confiabilidad": "Media",
+    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "tiempo_lectura": "2 min",
+    "fuentes_consultadas": [
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito",
+      "Google Alerts - Villa Paranacito"
+    ],
+    "num_actualizaciones": 3,
+    "fecha_publicacion": "27 de Noviembre de 2026, 23:55 hs",
+    "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 23:55 hs",
+    "fecha_inicio_iso": "2026-11-27T23:55:29.150512",
+    "fecha_ultima_actualizacion_iso": "2026-11-27T23:55:29.157955",
+    "resumen_whatsapp": "🚨 Preocupación en Villa Paranacito: Obras clave para el Delta fuera del Presupuesto Nacional 2027. 🛣️ Ruta 45 y dragado en riesgo. ¡Impacto directo en la vida isleña! #VillaParanacito #Delta"
+  },
+  {
     "acontecimiento_id": "2026-11-27-fondos-nacionales-bomberos-villa-paranacito",
     "slug": "fondos-nacionales-bomberos-villa-paranacito",
     "titulo": "Fondos Nacionales Refuerzan la Capacidad Operativa de Bomberos Voluntarios de Villa Paranacito",
@@ -143,33 +261,6 @@
     "resumen_whatsapp": "🚨 ¡Atención docentes de Villa Paranacito! La E.E.T. N°1 \"Augusto Widmann\" convoca a concurso el viernes 27. ¡Oportunidad laboral y educativa! 📚👩‍🏫"
   },
   {
-    "acontecimiento_id": "2026-11-26-llamado-a-concurso-instituto-superior-de-formacion-docente",
-    "slug": "llamado-a-concurso-instituto-superior-de-formacion-docente",
-    "titulo": "Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS",
-    "copete": "En el marco del seguimiento informativo de Villa Paranacito y el Delta de Entre Ríos, se dieron a conocer detalles sobre Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "villa paranacito",
-      "delta",
-      "río y clima"
-    ],
-    "estado": "En desarrollo",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito",
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 2,
-    "fecha_publicacion": "26 de Noviembre de 2026, 00:00 hs",
-    "fecha_ultima_actualizacion": "26 de Noviembre de 2026, 00:00 hs",
-    "fecha_inicio_iso": "2026-11-26T00:00:24.430876",
-    "fecha_ultima_actualizacion_iso": "2026-11-26T00:00:24.434439",
-    "resumen_whatsapp": "📰 *Llamado a Concurso – Instituto Superior de Formación Docente Continua – “ Villa Paranacito ” -ISLAS* — google.com"
-  },
-  {
     "acontecimiento_id": "2026-11-23-alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
     "slug": "alerta-villa-paranacito-busqueda-marcos-suarez-ruta-14",
     "titulo": "Alerta en Villa Paranacito y el Delta: Se intensifica la búsqueda de Marcos Suárez, con posible tránsito por la Ruta 14",
@@ -198,35 +289,6 @@
     "fecha_inicio_iso": "2026-11-23T00:41:22.526123",
     "fecha_ultima_actualizacion_iso": "2026-11-23T19:53:12.187039",
     "resumen_whatsapp": "🚨 Alerta en Villa Paranacito y el Delta: Se busca a Marcos Suárez, desaparecido de Concordia. Podría estar en la zona de Ruta 14. ¡Tu ayuda es clave! 📞 Llama a la Comisaría o 911 si lo ves."
-  },
-  {
-    "acontecimiento_id": "2026-11-23-villa-paranacito-delta-creciente-arroyos-prevencion",
-    "slug": "villa-paranacito-delta-creciente-arroyos-prevencion",
-    "titulo": "Villa Paranacito y el Delta: Refuerzan Defensas y Asistencia ante la Creciente de Arroyos Locales",
-    "copete": "Ante la sostenida creciente de los ríos y arroyos, el gobierno provincial intensifica las obras de prevención y el plan de asistencia a familias en Villa Paranacito y las Islas del Ibicuy, con foco en los cursos de agua que atraviesan la región.",
-    "categoria": "Río y Clima",
-    "tags": [
-      "Creciente",
-      "Inundaciones",
-      "Villa Paranacito",
-      "Delta Entrerriano",
-      "Arroyos",
-      "Asistencia Provincial"
-    ],
-    "estado": "Publicado",
-    "es_alerta": false,
-    "nivel_confiabilidad": "Media",
-    "imagen": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-    "tiempo_lectura": "2 min",
-    "fuentes_consultadas": [
-      "Google Alerts - Villa Paranacito"
-    ],
-    "num_actualizaciones": 1,
-    "fecha_publicacion": "23 de Noviembre de 2026, 00:41 hs",
-    "fecha_ultima_actualizacion": "23 de Noviembre de 2026, 00:41 hs",
-    "fecha_inicio_iso": "2026-11-23T00:41:55.954723",
-    "fecha_ultima_actualizacion_iso": "2026-11-23T00:41:55.954723",
-    "resumen_whatsapp": "🌊 Villa Paranacito y el Delta: Refuerzan defensas y asistencia ante la creciente de arroyos como Tala, Hondo y Manzores. ¡Mantente informado!"
   },
   {
     "acontecimiento_id": "2026-11-23-villa-paranacito-preparada-el-nino",
