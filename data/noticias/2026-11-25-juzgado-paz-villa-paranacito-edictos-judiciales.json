@@ -23,7 +23,7 @@
   "fuente_nombre": "Google Alerts - Villa Paranacito",
   "fuente_url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/gualeguaychu/edicto-7.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3w5uP9HogP_1oYC5PYMMMD",
   "url_original": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/gualeguaychu/edicto-7.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3w5uP9HogP_1oYC5PYMMMD",
-  "estado": "Publicado",
+  "estado": "En desarrollo",
   "nivel_confiabilidad": "Media",
   "es_alerta": false,
   "requiere_revision": false,
@@ -33,6 +33,11 @@
       "nombre": "Google Alerts - Villa Paranacito",
       "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/gualeguaychu/edicto-7.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3w5uP9HogP_1oYC5PYMMMD",
       "fecha_consulta": "2026-11-25T03:23:48.562689"
+    },
+    {
+      "nombre": "Google Alerts - Villa Paranacito",
+      "url": "https://www.google.com/url?rct=j&sa=t&url=https://diarioelargentino.com/amp/edicto-11.htm&ct=ga&cd=CAIyGjgwMmE4OWQxMTQ1MTFhMmM6Y29tOmVzOlVT&usg=AOvVaw3Cffj3XpceIiXG-hKH5b4p",
+      "fecha_consulta": "2026-11-27T00:28:05.333561"
     }
   ],
   "cronologia_actualizaciones": [
@@ -42,15 +47,23 @@
       "fuente": "Google Alerts - Villa Paranacito",
       "dato": "El Juzgado de Paz de Islas del Ibicuy, con sede en Villa Paranacito, emite edictos judiciales bajo la supervisión del Dr. Federico Nemec y la Dra. M. Verónica Moussou. Estos avisos son esenciales para",
       "es_dato_nuevo": true
+    },
+    {
+      "hora": "00:28",
+      "fecha": "2026-11-27",
+      "fuente": "Google Alerts - Villa Paranacito",
+      "dato": "EDICTO - Diario El Argentino",
+      "es_dato_nuevo": true
     }
   ],
   "fingerprints": [
-    "4cbee225fa45a1620b4cd7ad6333ff0b055eb08f738c236ddf515926447d9bab"
+    "4cbee225fa45a1620b4cd7ad6333ff0b055eb08f738c236ddf515926447d9bab",
+    "aa31d12f154ec1d5cf7a45cbdc3b08f8eceed94cc79ec16667030757857415a7"
   ],
   "fecha_iso": "2026-11-25T03:23:48.562689",
   "fecha_inicio_iso": "2026-11-25T03:23:48.562689",
-  "fecha_ultima_actualizacion_iso": "2026-11-25T03:23:48.562689",
+  "fecha_ultima_actualizacion_iso": "2026-11-27T00:28:05.333561",
   "fecha_publicacion": "25 de Noviembre de 2026, 03:23 hs",
-  "fecha_ultima_actualizacion": "25 de Noviembre de 2026, 03:23 hs",
+  "fecha_ultima_actualizacion": "27 de Noviembre de 2026, 00:28 hs",
   "archivo": "2026-11-25-juzgado-paz-villa-paranacito-edictos-judiciales.json"
 }
